@@ -381,5 +381,5 @@ translate english strings:
     new "Hard"
 
     # game/screens.rpy:983
-    old "На тяжелом уровне сложности труднее попасть на хорошую концовку.\nВы можете поменять уровень сложности в любой момент во время игры."
-    new "On hard difficulty level, it is more difficult to get to the good ending.\nYou can change the difficulty level at any time during the game."
+    old "На тяжелом уровне сложности труднее попасть на хорошую концовку. Вы можете поменять уровень сложности в любой момент во время игры."
+    new "On hard difficulty level, it is more difficult to get to the good ending. You can change the difficulty level at any time during the game."

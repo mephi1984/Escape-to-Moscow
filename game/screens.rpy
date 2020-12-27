@@ -1687,3 +1687,95 @@ style slider_pref_slider:
     variant "small"
     #xsize int(600)
     xsize int(900*SCALE)
+
+style gui_text:
+    properties gui.text_properties("interface")
+
+style button:
+    properties gui.button_properties("button")
+
+style button_text is gui_text:
+    properties gui.text_properties("button")
+    yalign 0.5
+
+screen difficulty_menu():
+
+    variant "touch"
+
+    tag menu
+
+    modal True
+
+    zorder 100
+
+    add gui.language_overlay
+
+    vbox:
+        xalign 0.5
+        yalign 0.25
+        style_prefix "radio"
+        label _("Cложность")
+        textbutton _("Нормальная") action SetVariable("persistent.difficulty", 0)
+        textbutton _("Тяжелая") action SetVariable("persistent.difficulty", 1)
+
+        null height (4 * gui.pref_spacing)
+
+        textbutton _("Назад") action Return()
+
+    vbox:
+        xalign 0.5
+        yalign 0.85
+        label _("На тяжелом уровне сложности труднее попасть на хорошую концовку. Вы можете поменять уровень сложности в любой момент во время игры.")
+
+
+screen language_and_difficulty_menu_first_time():
+
+    variant "touch"
+
+    tag menu
+
+    modal True
+
+    zorder 100
+
+    vbox:
+        xalign 0.5
+        yalign 0.25
+        hbox:
+            xalign 0.5
+            yalign 0.5
+            vbox:
+                xalign 0.5
+                yalign 0.5
+                style_prefix "radio"
+                label _("Язык / Language")
+                textbutton _("Русский") action Language(None)
+                textbutton _("English") action Language("english")
+
+                null height (4 * gui.pref_spacing)
+
+
+            null width (4 * gui.pref_spacing)
+
+            vbox:
+                xalign 0.5
+                yalign 0.5
+                style_prefix "radio"
+                label _("Cложность")
+                textbutton _("Нормальная") action SetVariable("persistent.difficulty", 0)
+                textbutton _("Тяжелая") action SetVariable("persistent.difficulty", 1)
+
+                null height (4 * gui.pref_spacing)
+
+        null height (4 * gui.pref_spacing)
+
+    vbox:
+        xalign 0.5
+        yalign 0.75
+        label _("На тяжелом уровне сложности труднее попасть на хорошую концовку. Вы можете поменять уровень сложности в любой момент во время игры.")
+
+    vbox:
+        xalign 0.5
+        yalign 0.85
+
+        textbutton _("Продолжить") action Return()
