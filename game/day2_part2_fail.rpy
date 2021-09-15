@@ -8,11 +8,11 @@ label day2_escape_now_fail:
 
     $ addSentMessage(3)
 
-    me "Ну ладно, давай скидывай паспортные данные" with dissolve
+    me "Ну ладно, давай скидывай паспортные данные." with dissolve
 
     $ addReceivedMessage(2)
 
-    aliya_mobile "Нет, лучше не надо" with dissolve
+    aliya_mobile "Нет, лучше не надо." with dissolve
 
     $ addSentMessage(0)
 
@@ -20,15 +20,15 @@ label day2_escape_now_fail:
 
     $ addReceivedMessage(4)
 
-    aliya_mobile "Я думаю, я лучше справлюсь как-нибудь сама" with dissolve
+    aliya_mobile "Я думаю, лучше справлюсь как-нибудь сама." with dissolve
 
     $ addSentMessage(3)
 
-    me "Ты боишься меня? Я обещаю, я тебя не трону" with dissolve
+    me "Ты боишься меня? Я обещаю, что не трону тебя." with dissolve
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "Сказала же, что не надо. Спасибо" with dissolve
+    aliya_mobile "Сказала же, не надо. Спасибо!" with dissolve
 
     $ addSentMessage(4)
 
@@ -36,15 +36,15 @@ label day2_escape_now_fail:
 
     $ addReceivedMessage(4)
 
-    aliya_mobile "То есть ты так и не понял, что мне никто не нужен" with dissolve
+    aliya_mobile "То есть ты так и не понял, что мне никто не нужен?" with dissolve
 
     $ addSentMessage(1)
 
-    me "Я нужен" with dissolve
+    me "Я нужен!" with dissolve
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "Не хочу тебя ранить, но нет" with dissolve
+    aliya_mobile "Не хочу тебя ранить, но нет!" with dissolve
 
     $ addSentMessage(0)
 
@@ -56,15 +56,15 @@ label day2_escape_now_fail:
 
     $ addSentMessage(2)
 
-    me "Не парь мне мозги" with dissolve
+    me "Не парь мне мозги!" with dissolve
 
     $ addReceivedMessage(2)
 
-    aliya_mobile "Я не парю тебе мозги" with dissolve
+    aliya_mobile "Я не парю тебе мозги," with dissolve
 
     $ addReceivedMessage(2)
 
-    aliya_mobile "А говорю прямо" with dissolve
+    aliya_mobile "а говорю прямо!" with dissolve
 
     $ aliya_banned = True
 
@@ -78,11 +78,11 @@ label day2_escape_now_fail:
 
     "\"Миса Амане - был(а) в сети давно\"." with dissolve
 
-    "Кажется, она добавила меня в черный список." with dissolve
+    "Кажется, она добавила меня в чёрный список." with dissolve
 
-    "Я хотел ей помочь, но кажется я сделал только хуже." with dissolve
+    "Я хотел ей помочь, но видимо сделал только хуже." with dissolve
 
-    "Она не доверяет мне, и теперь будет решать свою проблему без меня." with dissolve
+    "Она не доверяет мне и теперь будет решать свою проблему одна." with dissolve
 
     scene black with dissolve
 
@@ -90,17 +90,17 @@ label day2_escape_now_fail:
 
     scene semen_room_night with dissolve
 
-    "Ладно, она отправила меня в ЧС, и я не могу ей больше ничего писать." with dissolve
+    "Ладно, она отправила меня в ЧС и я не могу ей больше ничего писать." with dissolve
 
-    "Я пойду спать, пожалуй," with dissolve
+    "Пожалуй, пойду спать." with dissolve
 
-    "Мне еще нужно завтра заставить себя работать." with dissolve
+    "Мне ещё нужно завтра заставить себя работать." with dissolve
 
-    "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
+    "Необходимо очистить свои мысли от лишних беспокойств..." with dissolve
 
     scene black with dissolve
 
-    #"THE END, спасибо что поиграли! Концовка 2, \"Второй день, Алия не доверяет Семену\"" with dissolve
+    #"THE END, спасибо что поиграли! Концовка 2 - \"Второй день, Алия не доверяет Семёну\"" with dissolve
 
     $ renpy.pause(1.0)
 

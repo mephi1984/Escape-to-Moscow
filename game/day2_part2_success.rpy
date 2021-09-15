@@ -8,11 +8,11 @@ label day2_escape_now_success:
 
     $ addReceivedMessage(4)
 
-    aliya_mobile "Эх, гореть мне в аду за то что я делаю" with dissolve
+    aliya_mobile "Эх, гореть мне в аду за то, что я делаю!" with dissolve
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "Вот мой паспорт. Покупай билеты на завтра" with dissolve
+    aliya_mobile "Вот мой паспорт. Покупай билеты на завтра." with dissolve
 
     $ addReceivedMessagePassport()
 
@@ -20,11 +20,11 @@ label day2_escape_now_success:
 
     show cg_screen_passport zorder 16 with dissolve
 
-    "Я открыл фотографию и развернул паспорт Алии во весь экран." with dissolve
+    "Я открыл фото и развернул паспорт Алии во весь экран." with dissolve
 
     "Алия Гаджиева, 2001-го года рождения." with dissolve
 
-    "Ее фотка в паспорте была симпатичной, кстати..." with dissolve
+    "Её фотка в паспорте была симпатичной, кстати..." with dissolve
 
     show cg_screen_new_message_coach zorder 17 with dissolve
 
@@ -70,11 +70,11 @@ label day2_escape_now_success_coach_not_talked:
 
     $ addSentMessage(4)
 
-    me "Я с ней познакомился только вчера, я ее не знаю" with dissolve
+    me "Я с ней познакомился только вчера, я её не знаю." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Не знаешь ее, и уже покупаешь авиабилеты?" with dissolve
+    coach "Не знаешь её и уже покупаешь авиабилеты?" with dissolve
 
     $ addReceivedMessage(3)
 
@@ -82,25 +82,25 @@ label day2_escape_now_success_coach_not_talked:
 
     $ addSentMessage(3)
 
-    me "Эээ, это долгая история" with dissolve
+    me "Эээ...это долгая история" with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Пришли мне свою переписку с ней, я почитаю" with dissolve
+    coach "Пришли мне свою переписку с ней, я почитаю." with dissolve
 
     $ addSentMessageHistory()
 
     "Я скопировал переписку с Алией и отправил Напарнику." with dissolve
 
-    "Прошло достаточно много времени, но наконец-но Напарник начал писать ответ." with dissolve
+    "Прошло достаточно много времени и наконец-но Напарник начал писать ответ." with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "Я офигеваю от сложившейся ситуации" with dissolve
+    coach "Я офигеваю от сложившейся ситуации." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Ты молодец что хочешь помочь, и ты выбрал самый разумный вариант" with dissolve
+    coach "Ты молодец, что хочешь помочь, ты выбрал самый разумный вариант." with dissolve
 
     $ addSentMessage(0)
 
@@ -108,11 +108,11 @@ label day2_escape_now_success_coach_not_talked:
 
     $ addReceivedMessage(5)
 
-    coach "Мне даже не нужно давать тебе советы, ты сам прекрасно справляешься" with dissolve
+    coach "Мне даже не нужно давать тебе советы, ты сам прекрасно справляешься." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Но я все-таки хочу кое-что у тебя уточнить" with dissolve
+    coach "Однако я всё-таки хочу кое-что у тебя уточнить." with dissolve
 
     $ coach_exposition_return_step = 3
 
@@ -123,11 +123,11 @@ label day2_escape_now_success_coach_not_talked_after_exposition:
 
     $ addReceivedMessage(5)
 
-    coach "Теперь, возвращаясь к текущей ситуации" with dissolve
+    coach "Теперь, возвращаясь к текущей ситуации." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Я тоже поддерживаю тебя в твоих делах, и я хочу помочь тебе" with dissolve
+    coach "Я тоже поддерживаю тебя в твоих делах и хочу помочь тебе." with dissolve
 
     $ addSentMessage(3)
 
@@ -135,7 +135,7 @@ label day2_escape_now_success_coach_not_talked_after_exposition:
 
     $ addReceivedMessage(5)
 
-    coach "Я сейчас поищу авиабилеты, под твои критерии. Я постараюсь найти подходящий вариант. Дай мне пару минут" with dissolve
+    coach "Я сейчас поищу авиабилеты под твои критерии. Постараюсь найти подходящий вариант. Дай мне пару минут." with dissolve
 
     $ addSentMessage(1)
 
@@ -162,11 +162,11 @@ label day2_escape_now_success_coach_ever_talked:
 
     $ addSentMessage(0)
 
-    me "Да" with dissolve
+    me "Да." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Пришли пожалуйста переписку, я прочитаю" with dissolve
+    coach "Пришли пожалуйста переписку, я прочитаю." with dissolve
 
     $ addSentMessageHistory()
 
@@ -174,11 +174,11 @@ label day2_escape_now_success_coach_ever_talked:
 
     $ addReceivedMessage(5)
 
-    coach "Да, вчера ты познакомился с ней, а сегодня тебе уже нужно принимать сложное решение" with dissolve
+    coach "Да, вчера ты познакомился с ней, а сегодня тебе уже нужно принимать сложное решение." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Ты молодец что ты выбрал помочь ей. И ты выбрал самый разумный способ" with dissolve
+    coach "Ты молодец, что решил помочь ей. Ты выбрал самый разумный способ." with dissolve
 
     $ addSentMessage(0)
 
@@ -186,7 +186,7 @@ label day2_escape_now_success_coach_ever_talked:
 
     $ addReceivedMessage(5)
 
-    coach "Я тоже поддерживаю тебя в твоих делах, и я хочу помочь тебе" with dissolve
+    coach "Я тоже поддерживаю тебя в твоих делах и хочу помочь тебе." with dissolve
 
     $ addSentMessage(3)
 
@@ -194,7 +194,7 @@ label day2_escape_now_success_coach_ever_talked:
 
     $ addReceivedMessage(5)
 
-    coach "Я сейчас поищу авиабилеты, под твои критерии. Я постараюсь найти подходящий вариант. Дай пару минут" with dissolve
+    coach "Я сейчас поищу авиабилеты, под твои критерии. Постараюсь найти подходящий вариант. Дай пару минут." with dissolve
 
     $ addSentMessage(1)
 
@@ -214,19 +214,19 @@ label day2_escape_now_success_coach_advice_asked:
 
     $ addSentMessage(3)
 
-    me "Я лечу к ней в Минеральные Воды" with dissolve
+    me "Я лечу к ней в Минеральные Воды." with dissolve
 
     $ addSentMessage(4)
 
-    me "Мы договорились встретится в аэропорту завтра утром" with dissolve
+    me "Мы договорились встретиться в аэропорту завтра утром." with dissolve
 
     $ addSentMessage(5)
 
-    me "Там ее встречаю, и мы летим уже вдвоем в Москву" with dissolve
+    me "Там я её встречаю и мы уже вдвоём летим в Москву." with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "Отлично! Я уже ищу разные варианты авиабилетов" with dissolve
+    coach "Отлично! Я уже ищу разные варианты авиабилетов." with dissolve
 
     jump day2_escape_now_success_coach_continue
 
@@ -235,7 +235,7 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(4)
 
-    coach "На завтра есть недорогие билеты из Минеральных Вод в Москву, в 12 часов дня" with dissolve
+    coach "На завтра есть недорогие билеты из Минеральных Вод в Москву, в 12 часов дня." with dissolve
 
     $ addSentMessage(4)
 
@@ -243,23 +243,23 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(5)
 
-    coach "Тут уже похуже. Есть ночной рейс с длительной пересадкой в аэропорту Домодедово" with dissolve
+    coach "Тут уже похуже. Есть ночной рейс с длительной пересадкой в аэропорту Домодедово." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Ты прилетишь в Минеральные Воды завтра примерно в 9:40 утра" with dissolve
+    coach "Ты прилетишь в Минеральные Воды завтра примерно в 9:40 утра." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Но вылетать тебе нужно будет сегодня ночью. Ночной рейс вылетает в 00:50, это примерно через 3 часа" with dissolve
+    coach "Правда вылетать тебе придётся сегодня ночью. Ночной рейс вылетает в 00:50, это примерно через 3 часа." with dissolve
 
     $ addSentMessage(3)
 
-    me "С часу ночи до 9:40 утра? А почему так долго?" with dissolve
+    me "С часу ночи до 9:40 утра? Почему так долго?" with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Там будет ночная пересадка в Москве, в аэропорту Домодедово" with dissolve
+    coach "Там будет ночная пересадка в Москве, в аэропорту Домодедово." with dissolve
 
     $ addSentMessage(2)
 
@@ -267,15 +267,15 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(4)
 
-    coach "Остальные билеты или распроданы или стоят под 40 тысяч рублей" with dissolve
+    coach "Остальные билеты либо распроданы либо стоят под 40 тысяч рублей." with dissolve
 
     $ addSentMessage(0)
 
-    me "Да уж" with dissolve
+    me "Да уж..." with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "Это единственный вариант за адекватные деньги" with dissolve
+    coach "Это единственный вариант за адекватные деньги." with dissolve
 
     $ addReceivedMessage(5)
 
@@ -283,11 +283,11 @@ label day2_escape_now_success_coach_continue:
 
     $ addSentMessage(2)
 
-    me "Думаю успею... хотя не знаю" with dissolve
+    me "Думаю, успею... хотя не знаю." with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "Если ты зарегистрируешься онлайн, и не будешь сдавать багаж, то успеешь точно" with dissolve
+    coach "Если ты зарегистрируешься онлайн и не будешь сдавать багаж, то точно успеешь." with dissolve
 
     $ addSentMessage(2)
 
@@ -295,19 +295,19 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(4)
 
-    coach "Да. Возьми с собой в салон самолета легкую сумку или рюкзак" with dissolve
+    coach "Да. Возьми с собой в салон самолёта лёгкую сумку или рюкзак." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Туда нельзя будет класть жидкости и всякие колюще-режущие вещи" with dissolve
+    coach "Туда нельзя будет класть жидкости и всякие колюще-режущие предметы." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Когда приедешь в аэропорт, распечатай посадочный талон в автомате и сразу проходи к выходам на посадку" with dissolve
+    coach "Когда приедешь в аэропорт, распечатай посадочный талон в автомате и сразу проходи к выходам на посадку." with dissolve
 
     $ addSentMessage(0)
 
-    me "Хорошо" with dissolve
+    me "Хорошо..." with dissolve
 
     $ addSentMessage(3)
 
@@ -319,15 +319,15 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(5)
 
-    coach "У меня есть знакомый стритрейсер. Он как раз живет недалеко от тебя. Его зовут Ярик" with dissolve
+    coach "У меня есть знакомый стритрейсер. Он как раз живет недалеко от тебя. Его зовут Ярик." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Я свяжусь сейчас с ним и попрошу его подбросить тебя до аэропорта" with dissolve
+    coach "Я свяжусь сейчас с ним и попрошу подбросить тебя до аэропорта." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Думаю, Ярик войдет в положение и поможет тебе ради хорошего дела!" with dissolve
+    coach "Думаю, Ярик войдёт в положение и поможет тебе ради хорошего дела!" with dissolve
 
     $ addSentMessage(3)
 
@@ -335,25 +335,25 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(5)
 
-    coach "Не бойся, ты не один! У тебя есть люди, которых ты может быть и не знаешь, но которые готовы помочь" with dissolve
+    coach "Не бойся, ты не один! У тебя есть люди, которых ты может быть и не знаешь, но которые готовы помочь." with dissolve
 
     "Приятное чувство благодарности растеклось по моему телу." with dissolve
 
     $ addSentMessage(3)
 
-    me "Спасибо еще раз! Я ценю это!" with dissolve
+    me "Спасибо ещё раз! Я ценю это!" with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "Ярик тебе сейчас отпишется, жди" with dissolve
+    coach "Ярик тебе сейчас отпишется, жди." with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "А пока лови ссылку на авиабилеты" with dissolve
+    coach "А пока лови ссылку на авиабилеты." with dissolve
 
     $ addReceivedMessageLink()
 
-    "Мне пришла ссылка на авиабилет от Напарника." with dissolve
+    "Мне пришла ссылка на авиабилеты от Напарника." with dissolve
 
 
     show cg_screen_tickets zorder 16 with dissolve
@@ -365,7 +365,7 @@ label day2_escape_now_success_coach_continue:
 
     "Я открыл ссылку." with dissolve
 
-    "Конечно же, это был сайт поиска авиабилетов." with dissolve
+    "Конечно же это был сайт поиска авиабилетов." with dissolve
 
     show cg_screen_tickets_pay zorder 16 with dissolve
 
@@ -387,7 +387,7 @@ label day2_escape_now_success_coach_continue:
 
     $ renpy.show('semen_room_table_night_foreground_phone_day2_bank', tag='semen_room_table_night_foreground_phone', zorder=1)
 
-    "Всего несколько кликов - и готово!" with dissolve
+    "Всего несколько кликов - готово!" with dissolve
 
     $ renpy.show('semen_room_table_night_foreground_phone', tag='semen_room_table_night_foreground_phone', zorder=1)
 
@@ -409,11 +409,11 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(4)
 
-    yarik "Привет, Семен! Я слышал про твою историю" with dissolve
+    yarik "Привет, Семён! Слышал про твою историю." with dissolve
 
     $ addReceivedMessage(3)
 
-    yarik "Я буду рад тебе помочь" with dissolve
+    yarik "Буду рад помочь." with dissolve
 
     $ addReceivedMessage(4)
 
@@ -421,7 +421,7 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(3)
 
-    yarik "Через час ты уже будешь там, можешь начинать отсчет!" with dissolve
+    yarik "Через час ты уже будешь там, можешь начинать отсчёт!" with dissolve
 
     $ addSentMessage(1)
 
@@ -437,7 +437,7 @@ label day2_escape_now_success_coach_continue:
 
     "Кажется, удача сегодня на моей стороне." with dissolve
 
-    "Все препятствия словно магическим образом исчезают на моем пути." with dissolve
+    "Все препятствия словно магическим образом исчезают на моём пути." with dissolve
 
     "Деньги есть, хоть и кредитные. По работе дедлайны далеко, можно чуть отдохнуть." with dissolve
 
@@ -449,31 +449,31 @@ label day2_escape_now_success_coach_continue:
 
     $ addSentMessage(4)
 
-    me "Я купил билеты. Я буду ждать тебя завтра утром в 10 часов в аэропорту" with dissolve
+    me "Я купил билеты. Буду ждать тебя завтра утром в 10 часов в аэропорту." with dissolve
 
     $ addReceivedMessage(0)
 
-    aliya_mobile "Хорошо" with dissolve
+    aliya_mobile "Хорошо!" with dissolve
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "Встречаемся возле главного входа в аэропорт?" with dissolve
+    aliya_mobile "Встречаемся возле главного входа?" with dissolve
 
     $ addSentMessage(3)
 
-    me "Да. Я буду ждать тебя там" with dissolve
+    me "Да, буду ждать тебя там." with dissolve
 
     $ addReceivedMessage(0)
 
-    aliya_mobile "Спасибо" with dissolve
+    aliya_mobile "Спасибо!" with dissolve
 
     $ addSentMessage(3)
 
-    me "Возьми с собой все свои документы. Паспорт, ИНН" with dissolve
+    me "Возьми с собой все свои документы: паспорт, ИНН." with dissolve
 
     $ addReceivedMessage(2)
 
-    aliya_mobile "Паспорт у меня есть" with dissolve
+    aliya_mobile "Паспорт у меня есть." with dissolve
 
     $ addReceivedMessage(4)
 
@@ -481,33 +481,33 @@ label day2_escape_now_success_coach_continue:
 
     $ addSentMessage(5)
 
-    me "Да, ИНН нужен чтобы устроится на работу. Если не найдешь оригинал, то возьми хотя бы копию" with dissolve
+    me "Да, ИНН нужен чтобы устроится на работу. Если не найдёшь оригинал, возьми хотя бы копию." with dissolve
 
     $ addReceivedMessage(0)
 
-    aliya_mobile "Ладно" with dissolve
+    aliya_mobile "Ладно..." with dissolve
 
     $ addSentMessage(5)
 
-    me "Запомнила план? Утром притворись, что идешь в колледж. Но вместо этого езжай на автобусе в аэропорт" with dissolve
+    me "Запомнила план? Утром притворись, что идёшь в колледж и вместо этого езжай на автобусе в аэропорт." with dissolve
 
     $ addReceivedMessage(0)
 
-    aliya_mobile "Поняла" with dissolve
+    aliya_mobile "Поняла!" with dissolve
 
     "Что же, пора собираться." with dissolve
 
     $ addSentMessage(3)
 
-    me "Желаю тебе удачи. Я уверен, у тебя все будет хорошо!" with dissolve
+    me "Желаю тебе удачи! Уверен, у тебя всё будет хорошо!" with dissolve
 
     $ addSentMessage(3)
 
-    me "Я сейчас буду собираться и поеду в аэропорт" with dissolve
+    me "Я сейчас буду собираться и поеду в аэропорт." with dissolve
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "Спасибо. Я тоже начну собираться" with dissolve
+    aliya_mobile "Спасибо. Я тоже начну собираться." with dissolve
 
     scene black with dissolve
 
@@ -523,19 +523,19 @@ label day2_escape_now_success_coach_continue:
 
     "Я достал свой старый рюкзак из шкафа и кинул его в центр комнаты." with dissolve
 
-    "Уже долгое время я не покидал родной город, и за это время рюкзак успел заметно покрыться пылью." with dissolve
+    "Уже долгое время я не покидал родной город и за это время рюкзак успел заметно покрыться пылью." with dissolve
 
     "Я наскоро оттряхнул его и начал скидывать в него свои шмотки." with dissolve
 
-    "Не знаю, на сколько я покидаю свой дом? На несколько дней? На несколько недель?" with dissolve
+    "Не знаю на сколько я покидаю свой дом...На несколько дней? Недель?" with dissolve
 
     "Поэтому мне нужно взять с собой средства гигиены, сменную одежду, носки." with dissolve
 
-    "Конечно же, зарядные устройства, павербанки, переносные жесткие диски." with dissolve
+    "Конечно же, зарядные устройства, павербанки, переносные жёсткие диски." with dissolve
 
     "Последним я положу в свой рюкзак ноутбук - думаю, мне понадобится работать удаленно и быть на связи с заказчиками." with dissolve
 
-    "Я бегал по всей квартире, заглядывая во все углы - вдруг мне что-то понадобится, или вдруг я что-то забуду." with dissolve
+    "Я бегал по всей квартире, заглядывая во все углы - вдруг мне что-то понадобится или я что-нибудь забуду." with dissolve
 
     scene black with dissolve
 
@@ -549,15 +549,15 @@ label day2_escape_now_success_coach_continue:
 
     hide black with dissolve
 
-    "Наконец, все вещи вроде бы собраны. Ноутбук я тоже запаковал в рюкзак." with dissolve
+    "Наконец все вещи вроде бы собраны. Ноутбук я тоже запаковал в рюкзак." with dissolve
 
     "Ярик должен быть с минуты на минуту. Я вздохнул и окинул взглядом свою квартиру." with dissolve
 
-    "Я не думаю, что я задержусь в Москве надолго. Но все равно, было такое странное чувство." with dissolve
+    "Не думаю, что задержусь в Москве надолго. Но всё равно, было такое странное чувство." with dissolve
 
-    "Если я уезжаю отдохнуть, я всегда знаю когда я приеду." with dissolve
+    "Если я уезжаю отдохнуть, всегда знаю когда приеду." with dissolve
 
-    "Но сейчас, все произошло так резко. Готов ли я покинуть привычную квартиру и отправиться навстречу приключениям?" with dissolve
+    "Но сейчас всё произошло так резко. Готов ли я покинуть привычную квартиру и отправиться навстречу приключениям?" with dissolve
 
     messenger "Новое сообщение"
 
@@ -573,10 +573,10 @@ label day2_escape_now_success_coach_continue:
 
     $ addReceivedMessage(3)
 
-    yarik "Я приехал и жду тебя во дворе. Купе красного цвета" with dissolve
+    yarik "Я приехал и жду тебя во дворе. Купе красного цвета." with dissolve
 
     $ addSentMessage(2)
 
-    me "Хорошо! Выхожу" with dissolve
+    me "Хорошо! Выхожу..." with dissolve
 
     jump cutscene0

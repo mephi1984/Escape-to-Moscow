@@ -3,27 +3,27 @@ label day3_and_day4_final_loose:
 
     $ addReceivedMessage(3)
 
-    coach "Я не виню тебя в произошедшем" with dissolve
+    coach "Я не виню тебя в произошедшем." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Тебе нужно успокоиться. Все уже позади" with dissolve
+    coach "Тебе нужно успокоиться. Всё уже позади." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Прошлое не вернуть. Эта глава твоей жизни завершена" with dissolve
+    coach "Прошлое не вернуть. Эта глава твоей жизни завершена." with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "Тебе нужно начать следующую главу" with dissolve
+    coach "Тебе нужно начать следующую." with dissolve
 
     $ addReceivedMessage(3)
 
-    coach "Какая она будет - зависит только от тебя" with dissolve
+    coach "Какая она будет - зависит только от тебя." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Свяжись с хозяйкой квартиры, скажи что ты скоро съезжаешь. Пусть вернет деньги за неиспользованные дни" with dissolve
+    coach "Свяжись с хозяйкой квартиры, скажи, что ты скоро съезжаешь. Пусть вернёт деньги за неиспользованные дни." with dissolve
 
     $ addReceivedMessage(3)
 
@@ -31,13 +31,13 @@ label day3_and_day4_final_loose:
 
     $ addReceivedMessage(3)
 
-    coach "И возвращайся к себе домой" with dissolve
+    coach "и возвращайся к себе домой." with dissolve
 
     "Мне очень хотелось возразить, но я не знал даже, что и ответить." with dissolve
 
     $ addSentMessage(0)
 
-    me "Ладно" with dissolve
+    me "Ладно..." with dissolve
 
     $ addReceivedMessage(3)
 
@@ -45,7 +45,7 @@ label day3_and_day4_final_loose:
 
     $ addSentMessage(0)
 
-    me "Пока" with dissolve
+    me "Пока." with dissolve
 
     $ clearDisplayMessages()
 
@@ -55,7 +55,7 @@ label day3_and_day4_final_loose:
 
     show cg_screen_phone_messenger_contact_list as cg_screen_phone with dissolve
 
-    "Я вышел из диалога с Напарником, и открыл список контактов." with dissolve
+    "Я вышел из диалога с Напарником и открыл список контактов." with dissolve
 
     "Краем глаза я заметил, что Алия в сети!" with dissolve
 
@@ -103,42 +103,42 @@ label day3_and_day4_final_loose:
         xpos 0.0
         linear 120.0 xpos -2.0
 
-    "Я погрузился в полудрему, и меня снова окружил туман." with dissolve
+    "Я погрузился в полудрёму и меня снова окружил туман." with dissolve
 
-    "Мне теперь было еще хуже, чем до встречи с Алией." with dissolve
+    "Мне теперь было ещё хуже, чем до встречи с Алией." with dissolve
 
     show perlin as perlin2 at credits_perlin_pos zorder 4 with dissolve:
         xpos -1.0
         linear 80.0 xpos -2.0
 
-    "Я взялся помочь, и, кажется, все испортил." with dissolve
+    "Я взялся помочь и, кажется, всё испортил." with dissolve
 
     show Aliya stand_half_turned_eyes_open_surprised zorder 1 with dissolve:
         xalign 0.5
         yalign -0.1
         zoom 0.75*SCALE
 
-    "Как там Алия? Все ли с ней в порядке?" with dissolve
+    "Как там Алия? Всё ли с ней в порядке?" with dissolve
 
-    "Я не знаю. И я не знаю даже, как узнать." with dissolve
+    "Я не знаю и даже понятия не имею как узнать." with dissolve
 
-    "Она появилась в моей жизни резко, как взрыв, как фейерверк." with dissolve
+    "Она появилась в моей жизни резко как взрыв, как фейерверк." with dissolve
 
     hide Aliya with dissolve
 
     "И так же резко исчезла." with dissolve
 
-    "Увидимся ли мы снова в будущем? Я не знаю." with dissolve
+    "Увидимся ли мы снова в будущем? Без понятия." with dissolve
 
     hide perlin2 with dissolve
 
-    "Мне остается лишь только надеется, что с ней все будет в порядке." with dissolve
+    "Мне остаётся лишь надеяться, что с ней всё будет в порядке." with dissolve
 
     "И, наверное... мне стоит изменить свою жизнь." with dissolve
 
     hide perlin with dissolve
 
-    "Я все равно больше не смогу жить как раньше..." with dissolve
+    "Я всё равно больше не смогу жить как раньше..." with dissolve
 
     $ renpy.pause(1.0)
 

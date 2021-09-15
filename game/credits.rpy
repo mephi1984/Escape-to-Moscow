@@ -175,11 +175,11 @@ label credits:
     $ renpy.pause(0.2)
 
 
-    show text Text(_("Все персонажи и произошедшие в игре события - вымышлены."), size=int(36*SCALE)) as credits_text10_line1 at credits_text10_line1_pos zorder 10 with dissolve
+    show text Text(_("Все персонажи и произошедшие в игре события вымышлены."), size=int(36*SCALE)) as credits_text10_line1 at credits_text10_line1_pos zorder 10 with dissolve
 
     $ renpy.pause(2)
 
-    show text Text(_("Все совпадения с реальными личностями и событиями случайны."), size=int(36*SCALE)) as credits_text10_line2 at credits_text10_line2_pos zorder 10 with dissolve
+    show text Text(_("Любые совпадения с реальными личностями и событиями случайны."), size=int(36*SCALE)) as credits_text10_line2 at credits_text10_line2_pos zorder 10 with dissolve
 
     $ renpy.pause(2)
 
@@ -219,16 +219,16 @@ label credits:
 
         $ renpy.pause(2)
 
-        show text Text("Я постараюсь ей помочь или найду кого-нибудь, кто сможет помочь.", size=int(36*SCALE)) as credits_text11_line4 at credits_text11_line4_pos zorder 10 with dissolve
+        show text Text("Я постараюсь ей помочь или найду того, кто сможет это сделать.", size=int(36*SCALE)) as credits_text11_line4 at credits_text11_line4_pos zorder 10 with dissolve
 
 
         $ renpy.pause(2)
 
-        show text Text("Помните,", size=int(36*SCALE)) as credits_text11_line5 at credits_text11_line5_pos zorder 10 with dissolve
+        show text Text("Помните!", size=int(36*SCALE)) as credits_text11_line5 at credits_text11_line5_pos zorder 10 with dissolve
 
         $ renpy.pause(0.5)
 
-        show text Text("Лишнее самоубийство не нужно ни кому.", size=int(36*SCALE)) as credits_text11_line6 at credits_text11_line6_pos zorder 10 with dissolve
+        show text Text("Лишнее самоубийство не нужно никому!", size=int(36*SCALE)) as credits_text11_line6 at credits_text11_line6_pos zorder 10 with dissolve
 
         $ renpy.pause(10)
 

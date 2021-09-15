@@ -3,39 +3,39 @@ label day2_cancel:
 
     $ addSentMessage(3)
 
-    me "Извини, но тут я уже ничем не могу помочь" with dissolve
+    me "Извини, но тут я уже ничем не могу помочь." with dissolve
 
     $ addSentMessage(3)
 
-    me "За столь короткое время мы ничего не успеем" with dissolve
+    me "За столь короткое время мы ничего не успеем." with dissolve
 
     $ addReceivedMessage(0)
 
-    aliya_mobile "Я поняла" with dissolve
+    aliya_mobile "Я поняла." with dissolve
 
     $ addSentMessage(3)
 
-    me "Желаю тебе удачи и все такое" with dissolve
+    me "Желаю тебе удачи и всё такое." with dissolve
 
     $ addReceivedMessage(0)
 
-    aliya_mobile "Спасибо" with dissolve
+    aliya_mobile "Спасибо!" with dissolve
 
     "Наступило молчание." with dissolve
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "В таком случае прости что побеспокоила" with dissolve
+    aliya_mobile "В таком случае прости, что побеспокоила." with dissolve
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "Я попробую придумать что-нибудь сама" with dissolve
+    aliya_mobile "Я попробую придумать что-нибудь сама." with dissolve
 
     $ aliya_banned = True
 
     $ showMessengerWithRightOrder()
 
-    "Пока я думал, что ответить - аватарка Миса Амане пропала." with dissolve
+    "Пока я думал что ответить, аватарка Миса Амане пропала." with dissolve
 
     $ clearMessagesAfterBan()
 
@@ -47,11 +47,11 @@ label day2_cancel:
 
     queue music "music/Runaway_01 (Loop).ogg"
 
-    "Кажется, она добавила меня в черный список." with dissolve
+    "Кажется, она добавила меня в чёрный список." with dissolve
 
-    "Жалко ее, конечно, но я действительно не могу ничем помочь." with dissolve
+    "Жалко её, конечно, но я действительно не могу ничем помочь." with dissolve
 
-    "Максимум что я мог бы сделать - дать телефоны и адреса каких-нибудь женских правозащитных организаций." with dissolve
+    "Максимум, что я мог бы сделать - дать телефоны и адреса каких-нибудь женских правозащитных организаций." with dissolve
 
     "Но у меня среди друзей нет знакомых в этой сфере." with dissolve
 
@@ -61,11 +61,11 @@ label day2_cancel:
 
     scene semen_room_night with dissolve
 
-    "Ладно, она отправила меня в ЧС. Поэтому сейчас я уже ничем не могу помочь ей." with dissolve
+    "Ладно, она отправила меня в ЧС. Так что сейчас я уже ничем не могу помочь ей." with dissolve
 
-    "Я пойду спать, пожалуй," with dissolve
+    "Пожалуй, пойду спать." with dissolve
 
-    "Мне еще нужно завтра заставить себя работать." with dissolve
+    "Мне ещё нужно завтра заставить себя работать." with dissolve
 
     "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
 
@@ -76,4 +76,4 @@ label day2_cancel:
     return
 
 
-    #"THE END, спасибо что поиграли! Концовка 3, \"Второй день, Семен слился\"" with dissolve
+    #"THE END, спасибо что поиграли! Концовка 3 - \"Второй день, Семён слился\"" with dissolve
