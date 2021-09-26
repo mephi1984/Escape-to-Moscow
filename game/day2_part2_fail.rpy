@@ -12,7 +12,7 @@ label day2_escape_now_fail:
 
     $ addReceivedMessage(2)
 
-    aliya_mobile "Нет, лучше не надо." with dissolve
+    aliya_mobile "Нет, не стоит." with dissolve
 
     $ addSentMessage(0)
 
@@ -90,9 +90,9 @@ label day2_escape_now_fail:
 
     scene semen_room_night with dissolve
 
-    "Ладно, она отправила меня в ЧС и я не могу ей больше ничего писать." with dissolve
+    "Она отправила меня в ЧС и я не могу ей больше ничего писать." with dissolve
 
-    "Пожалуй, пойду спать." with dissolve
+    "Ладно, пожалуй, пойду спать." with dissolve
 
     "Мне ещё нужно завтра заставить себя работать." with dissolve
 

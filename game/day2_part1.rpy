@@ -11,9 +11,9 @@ label day2_intro:
 
     "Я проснулся и нехотя потянулся в тёплой постели." with dissolve
 
-    "В работе фрилансера есть и хорошая сторона:" with dissolve
+    "В работе фрилансера есть и много хороших сторон." with dissolve
 
-    "мне не нужно вставать рано утром и идти на работу." with dissolve
+    "Одна из них: мне не нужно вставать рано утром и идти на работу." with dissolve
 
     "Я могу спать сколько мне захочется и просыпаться только тогда, когда полностью выспался." with dissolve
 
@@ -105,7 +105,7 @@ label day2_talk_coach_day1_talked:
 
     $ addReceivedMessage(0)
 
-    coach "Привет)" with dissolve
+    coach "Привет! Да, пожалуйста)" with dissolve
 
     $ addReceivedMessage(2)
 
@@ -411,7 +411,7 @@ label day2_talk_aliya:
 
     $ addSentMessage(1)
 
-    me "Интересная история..." with dissolve
+    me "Да уж, ну и история..." with dissolve
 
     $ addReceivedMessage(3)
 
@@ -723,7 +723,7 @@ label day2_talk_aliya_part3:
 
     $ addSentMessage(3)
 
-    me "Как у тебя день прошёл?" with dissolve
+    me "Как у тебя день проходит?" with dissolve
 
     $ addReceivedMessage(2)
 
@@ -1417,7 +1417,7 @@ label day2_escape_now2:
 
     $ addSentMessage(4)
 
-    me "Мы встретимся в аэропорту Минеральные Воды. Там мы познакомимся и поговорим." with dissolve
+    me "Мы встретимся в аэропорту. Там мы познакомимся и поговорим." with dissolve
 
     $ addSentMessage(4)
 

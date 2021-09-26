@@ -21,7 +21,7 @@ label day3_intro:
         ypos 0.525
         zoom 1.05
 
-    "Я открыл глаза и нехотя потянулся в тесном кресле, прогоняя дрему." with dissolve
+    "Я открыл глаза и потянулся в тесном кресле, прогоняя дрёму." with dissolve
 
     show airplane_night at airplane_scene_pos:
         ypos 0.525
@@ -34,11 +34,11 @@ label day3_intro:
 
     "Я попытался вспомнить, как оказался в самолёте, прогоняя в голове воспоминания вчерашнего дня." with dissolve
 
-    "Итак, вчера вечером я сидел за ноутбуком." with dissolve
+    "Итак. Вчера вечером я сидел за ноутбуком." with dissolve
 
     "Затем мне написала Алия." with dissolve
 
-    "Потом я купил билеты в Минеральные Воды, чтобы полететь за ней." with dissolve
+    "Потом я купил авиабилеты, чтобы полететь за ней и вместе с ней улететь в Москву." with dissolve
 
     "Я собрал вещи в рюкзак." with dissolve
 
@@ -452,12 +452,12 @@ label day3_meet_aliya:
 
     aliya "Я не хочу сегодня пропускать намаз." with dissolve
 
-    me "Ты молишься пять раз в день?" with dissolve
+    me "Ты молишься?" with dissolve
 
     show aliya_sit eyes_open_sad_worried_question mask as aliya_sit at any_center_pos with dissolve:
         zoom SCALE
 
-    aliya "Стараюсь. Но раз в день уж точно нужно." with dissolve
+    aliya "Стараюсь. Раз в день уж точно нужно." with dissolve
 
     me "Ты сегодня ещё не молилась?" with dissolve
 
@@ -683,11 +683,9 @@ label day3_meet_aliya_success:
 
     me "Я вижу несколько вариантов." with dissolve
 
-    me "Мы можем подождать, пока тебя не перестанут искать, и уже тогда начать делать все документы." with dissolve
+    me "Когда тебя перестанут искать родители, ты можешь сняться с розыска и начать делать документы." with dissolve
 
     me "Либо можем, например, выехать в Беларусь и попробовать получить загранпаспорт там." with dissolve
-
-    me "В крайнем случае, попробуем сделать тебе поддельные документы на чужое имя и использовать их." with dissolve
 
     aliya "Понятно..." with dissolve
 
@@ -1121,7 +1119,7 @@ label day3_airplane:
 
     "Алия сидела рядом и смотрела в окно на облака." with dissolve
 
-    me "Как ощущения?" with dissolve
+    me "Как тебе?" with dissolve
 
     aliya "Красиво." with dissolve
 
@@ -1311,23 +1309,31 @@ label day3_airplane2_part1_poetry:
     show aliya_sit_no_earphones special_airplane_watching_book_look_aside as aliya_sit at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-    aliya "Из русских, наверное, больше всего Анна Ахматова, Александр Блок, ещё Борис Пастернак и Михаил Лермонтов." with dissolve
+    aliya "Из русских, наверное, больше всего Анна Ахматова, Александр Блок." with dissolve
+
+    aliya "Ещё Борис Пастернак и Михаил Лермонтов." with dissolve
 
     me "А кто любимый из них?" with dissolve
 
-    aliya "Наверное Ахматова, она интересная личность и стихи у неё очень глубокие, как-никак представительница серебряного века." with dissolve
+    aliya "Наверное Ахматова, она интересная поэтесса." with dissolve
+
+    aliya "И стихи у неё очень глубокие, как-никак представительница серебряного века." with dissolve
 
     me "Ясно... Кстати, вот объясни мне, что вообще люди под серебряным веком подразумевают? Я помню что-то из школьных лет, но..." with dissolve
 
     show aliya_sit_book eyes_open_sad_worried_open_mouth as aliya_sit at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-    aliya "Ну... Если простыми словами, то это был период, когда поэты и писатели 19 века дали толчок развитию литературы, вывели её на новый уровень." with dissolve
+    aliya "Ну... Если простыми словами, то это был период, когда поэты и писатели 19 века дали толчок развитию литературы." with dissolve
+
+    aliya "Вывели её на новый уровень." with dissolve
 
     show aliya_sit_book eyes_open_neutral as aliya_sit at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-    aliya "Название, кстати, дали по аналогии с золотым веком. Ахматова, как по мне, по праву может носить звание поэтессы этого периода." with dissolve
+    aliya "Название, кстати, дали по аналогии с золотым веком." with dissolve
+
+    aliya "Ахматова, как по мне, по праву может носить звание поэтессы этого периода." with dissolve
 
     "Я почувствовал себя как будто снова в школе на уроке литературы." with dissolve
 
@@ -1444,7 +1450,7 @@ label day3_airplane2_part1_ignore:
 
     me "Извини, но лично я очень плохо такие идеи улавливаю." with dissolve
 
-    me "Мне проще читать простой текст, прозу." with dissolve
+    me "Мне легче читать более простой текст, прозу." with dissolve
 
     aliya "Я поняла." with dissolve
 
@@ -1477,7 +1483,7 @@ label day3_airplane2_part2:
     show aliya_sit_book eyes_open_neutral as aliya_sit at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-    aliya "Ничего, я не голодна." with dissolve
+    aliya "Ничего, я не голодна, спасибо." with dissolve
 
     me "Возьми хотя бы воду." with dissolve
 
@@ -1493,7 +1499,7 @@ label day3_airplane2_part2:
     show aliya_sit_no_earphones eyes_open_sad_worried_open_mouth as aliya_sit at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-    aliya "Я не в настроении. Если я что-то съем, боюсь, меня стошнит." with dissolve
+    aliya "Мне немного не по себе. Если я что-то съем, боюсь, меня стошнит." with dissolve
 
     show aliya_sit_no_earphones eyes_open_neutral as aliya_sit at any_center_pos zorder 3 with dissolve:
         zoom SCALE
@@ -1589,13 +1595,13 @@ label day3_airplane2_part2:
 
     "Волосы частично закрывали её лицо, но я всё равно отметил про себя, что она очень красивая." with dissolve
 
-    "Ладно, наверное, и мне лучше тоже прилечь поспать." with dissolve
+    "Ладно, пожалуй и мне тоже лучше немного вздремнуть." with dissolve
 
     show black zorder 10 with dissolve
 
     "Я прилёг в кресле, закрыл глаза" with dissolve
 
-    "и погрузился в сон..." with dissolve
+    "и медленно погрузился в сон..." with dissolve
 
     jump day3_airplane3
 
@@ -1747,7 +1753,7 @@ label day3_airplane3:
 
     "А может быть, они уже хватились и ищут её?" with dissolve
 
-    "Назад уже не вернуться, мы почти приземлились в Москве." with dissolve
+    "Но назад дороги нет, мы уже почти приземлились в Москве." with dissolve
 
     "Надо довести начатое до конца." with dissolve
 
@@ -1783,7 +1789,7 @@ label day3_airplane3:
 
     "Так уж получилось, что я оставил свои дела и решил ввязаться в эту историю." with dissolve
 
-    "И я не буду бросать всё на полпути." with dissolve
+    "И я не брошу всё на полпути." with dissolve
 
     "Сейчас уже вторая половина дня, что мы ещё успеем сделать за сегодня?" with dissolve
 
@@ -1799,7 +1805,7 @@ label day3_airplane3:
 
     "По крайней мере до тех пор, пока Алия не обустроится в Москве, не найдёт работу, съёмное жильё." with dissolve
 
-    "Но почему-то денег мне не жалко." with dissolve
+    "Но денег мне совсем не жалко." with dissolve
 
     "Я своё ещё заработаю, а вот Алия действительно нуждается в моей поддержке." with dissolve
 
@@ -1857,7 +1863,7 @@ label day3_airplane3:
 
     "Бух!" with hpunch
 
-    "И сразу самолёт начал тормозить. Всех пассажиров дёрнуло вперёд." with dissolve
+    "Самолёт начал тормозить и всех пассажиров тут же дёрнуло вперёд." with dissolve
 
     "С громким шумом и грохотом авиалайнер снизил скорость." with dissolve
 
@@ -1938,7 +1944,7 @@ label day3_airplane3:
 
     "Наконец самолёт остановился." with dissolve
 
-    announcement "Бортпроводникам приготовится к переводу селекторов в положение Disarmed." with dissolve
+    announcement "Бортпроводникам приготовиться к переводу селекторов в положение Disarmed." with dissolve
 
     announcement "Бортпроводникам перевести селекторы в положение Disarmed." with dissolve
 
@@ -1950,7 +1956,7 @@ label day3_airplane3:
 
     scene airplane_day2 with dissolve
 
-    "Пассажиры начали вставать с кресел, собирать сумки и чемоданы, а затем и выходить из самолета." with dissolve
+    "Пассажиры вставали со своих кресел, собирали сумки и чемоданы, а затем пошли к выходу из самолёта." with dissolve
 
     "Я с Алией тоже встали, забрали вещи и пошли к выходу." with dissolve
 
@@ -2172,7 +2178,7 @@ label day3_aeroexpress:
 
     me "Ну это карточка для оплаты проезда в Москве. Кладёшь на неё деньги и затем оплачиваешь проезд." with dissolve
 
-    me "Работает в метро, на автобусах, троллейбусах, трамваях." with dissolve
+    me "Работает в метро, автобусах, троллейбусах и трамваях." with dissolve
 
     show aliya_sit_front eyes_open_neutral with dissolve:
         xalign 0.5

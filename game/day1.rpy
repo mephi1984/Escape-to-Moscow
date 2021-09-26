@@ -158,9 +158,11 @@ label day1_coach_pre_meeting:
 
     "Я ещё не знаю кто это." with dissolve
 
-    "У меня записано, что сегодня вечером он свяжется со мной как раз примерно в это время." with dissolve
+    "Мне говорили что он мне напишет сегодня." with dissolve
 
-    "Так что я сижу в интернете ожидая когда же этот неизвестный человек мне напишет." with dissolve
+    "Никто мне так и не написал, но я все еще жду." with dissolve
+
+    "Для меня это еще один повод не ложиться спать." with dissolve
 
     show black zorder 20 with dissolve
 
@@ -444,7 +446,7 @@ label day1_aliya_meeting:
 
     $ addSentMessage(3)
 
-    me "Тебе нужно сбежать заграницу от родителей?" with dissolve
+    me "Тебе нужно сбежать в другую страну от родителей?" with dissolve
 
     $ addReceivedMessage(0)
 
@@ -493,6 +495,10 @@ label day1_aliya_meeting:
     aliya_mobile "Я не русская, но хорошо знаю русский." with dissolve
 
     "Стало понятнее. Не русская девушка хочет сбежать от родителей в Корею." with dissolve
+
+    "Уже из ошибок в ее сообщениях понятно, что русский язык для нее не родной." with dissolve
+
+    "Ну ладно, я не буду придираться к ее грамотности." with dissolve
 
     $ addSentMessage(3)
 
@@ -957,7 +963,7 @@ label day1_aliya_offer_help:
 
     $ addReceivedMessage(5)
 
-    aliya_mobile "Знаешь как мне сейчас тяжело и ссыкотно об этом даже думать?" with dissolve
+    aliya_mobile "Знаешь как мне сейчас тяжело и страшно об этом даже думать?" with dissolve
 
     $ addReceivedMessage(4)
 
@@ -1408,11 +1414,11 @@ label day1_aliya_decline:
 
     scene semen_room_night with dissolve
 
-    "Ладно, она отправила меня в ЧС, поэтому сейчас я уже ничем не могу помочь ей." with dissolve
+    "Она отправила меня в ЧС, поэтому сейчас я уже ничем не могу помочь ей." with dissolve
 
-    "Пожалуй пойду спать." with dissolve
+    "Ладно пожалуй пойду спать." with dissolve
 
-    "Мне ещё нужно завтра заставить себя работать." with dissolve
+    "Мне же ещё нужно завтра заставить себя работать." with dissolve
 
     "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
 

@@ -93,7 +93,7 @@ label day3_and_day4_final_loose:
 
     $ hidePhone()
 
-    "Я обессиленно выключил телефон, прилег на стол и закрыл глаза." with dissolve
+    "Я обессиленно выключил телефон и закрыл глаза." with dissolve
 
     scene black with dissolve
 

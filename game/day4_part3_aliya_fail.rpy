@@ -12,22 +12,22 @@ label day4_imran_house_new_escape_failed:
     show Aliya tshirt_stand_straight_eyes_open_neutral at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
-    aliya "Извини, Семен. Ты уже сделал все что мог." with dissolve
+    aliya "Извини, Семён. Ты уже сделал всё, что мог." with dissolve
 
     aliya "Мне больше не нужна твоя помощь. Дальше я буду действовать сама." with dissolve
 
     show Aliya special_turned at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
-    "Алия развернулась, вышла в дверь." with dissolve
+    "Алия развернулась и покинула комнату." with dissolve
 
     hide Aliya with dissolve
 
-    "А затем ушла вниз по лестнице." with dissolve
+    "Я слышал звук удаляющихся шагов, спускающихся вниз по лестнице." with dissolve
 
     scene black with dissolve
 
-    "Чувство бессилия и слабости охватило меня на какое-то время, и я присел на кровать, чтобы немного прийти в себя..." with dissolve
+    "Чувство бессилия и слабости охватило меня на какое-то время.Я присел на кровать, чтобы немного прийти в себя..." with dissolve
 
     scene imran_house_living_room with dissolve
 
@@ -51,7 +51,7 @@ label day4_imran_house_new_escape_failed:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    "Спустя какое-то время я вышел в гостиную и поставил посуду на стол. В гостиной были Алия, ее родители, и Имран." with dissolve
+    "Спустя какое-то время я вышел в гостиную и поставил посуду на стол. В гостиной были Алия, её родители и дядя Имран." with dissolve
 
     me "Спасибо большое за обед!" with dissolve
 
@@ -59,7 +59,7 @@ label day4_imran_house_new_escape_failed:
         zoom 0.75*SCALE
         alpha 1.0
 
-    fatima "Я рада что вам понравилось!" with dissolve
+    fatima "Я рада, что вам понравилось!" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
         zoom 0.75*SCALE
@@ -69,9 +69,9 @@ label day4_imran_house_new_escape_failed:
         zoom 0.75*SCALE
         alpha 1.0
 
-    imran "Семен, я бы предложил остаться на подольше." with dissolve
+    imran "Семён, я бы предложил вам остаться на подольше," with dissolve
 
-    imran "Но я должен отвезти Аслана и его семью в аэропорт." with dissolve
+    imran "но я должен отвезти Аслана и его семью в аэропорт." with dissolve
 
     show imran neutral at imran_house_pos1 with dissolve:
         zoom 0.75*SCALE
@@ -81,7 +81,7 @@ label day4_imran_house_new_escape_failed:
         zoom 0.75*SCALE
         alpha 1.0
 
-    fatima "Спасибо за помощь, Семен!" with dissolve
+    fatima "Спасибо за помощь, Семён!" with dissolve
 
     fatima "Здоровья тебе и благополучия!" with dissolve
 
@@ -94,7 +94,7 @@ label day4_imran_house_new_escape_failed:
         alpha 1.0
 
 
-    aslan "Пока, Семен." with dissolve
+    aslan "Пока, Семён." with dissolve
 
     show aslan neutral at imran_house_pos3 with dissolve:
         zoom 0.75*SCALE
@@ -105,7 +105,7 @@ label day4_imran_house_new_escape_failed:
     show Aliya tshirt_stand_straight_eyes_closed_sad_worried_open_mouth at imran_house_pos2 with dissolve:
         zoom 0.75*SCALE*0.9
 
-    aliya "Спасибо" with dissolve
+    aliya "Спасибо!" with dissolve
 
     show Aliya tshirt_stand_straight_eyes_closed_sad at imran_house_pos2 with dissolve:
         zoom 0.75*SCALE*0.9
@@ -114,7 +114,7 @@ label day4_imran_house_new_escape_failed:
 
     "Алия не ответила." with dissolve
 
-    "Я в последний раз посмотрел на Алию. Она избегала смотреть на меня, и выглядела немного расстроенной." with dissolve
+    "Я в последний раз посмотрел на неё. Она избегала моего взгляда и выглядела немного расстроенной." with dissolve
 
     show imran talking at imran_house_pos1 with dissolve:
         zoom 0.75*SCALE
@@ -131,12 +131,12 @@ label day4_imran_house_new_escape_failed:
     show imran neutral at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
-    "Имран открыл ворота, и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
+    "Он открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
 
     show imran talking at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
-    imran "Отсюда если идти в ту сторону, то там будет Киевское шоссе, и автобусная остановка." with dissolve
+    imran "Если пойдёшь в ту сторону, выйдешь на Киевское шоссе, там и находится автобусная остановка." with dissolve
 
     show imran neutral at any_right_pos with dissolve:
         zoom 0.75*SCALE
@@ -159,7 +159,7 @@ label day4_imran_house_new_escape_failed:
 
     scene black with dissolve
 
-    "Ну а я медленно пошел пешком по направлению к Киевскому шоссе..." with dissolve
+    "Ну а я медленно пошёл по направлению к Киевскому шоссе..." with dissolve
 
     jump day4_the_end_part1_option2_airplane
 
@@ -186,29 +186,29 @@ label day4_the_end_part1_option2_airplane:
     $ showMessengerPhone(is_night=False, force_no_transition=True)
 
 
-    "Был уже глубокий вечер. Я сидел на кухне съемной квартиры." with dissolve
+    "Был уже глубокий вечер. Я сидел на кухне съёмной квартиры." with dissolve
 
     "Алия с родителями уже давно должны были прилететь в аэропорт Минеральные Воды." with dissolve
 
-    "Я написал ей несколько сообщений, но она не отвечала." with dissolve
+    "Я написал ей несколько сообщений, но ответа не было." with dissolve
 
-    "В последний раз она была онлайн несколько часов назад." with dissolve
+    "В последний раз Алия была онлайн несколько часов назад." with dissolve
 
-    "Возможно, она все еще не включила телефон после самолета?" with dissolve
+    "Может, она всё ещё не включила телефон после перелёта?" with dissolve
 
-    "Или может быть..." with dissolve
+    "Или... что, если" with dissolve
 
-    "У нее все-таки отобрали телефон?" with dissolve
+    "у неё всё-таки отобрали телефон?" with dissolve
 
     "Я старался отгонять плохие мысли, но очень сложно не думать об этом." with dissolve
 
-    "Перед мной на столе стоял недоеденный салат." with dissolve
+    "Передо мной на столе стоял недоеденный салат." with dissolve
 
     "У меня просто не было сил или желания выкинуть его в мусорку." with dissolve
 
-    "Моих сил хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере." with dissolve
+    "Моей энергии хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере" with dissolve
 
-    "И ожидая, когда наконец то Алия будет онлайн." with dissolve
+    "и ожидая, когда наконец-то Алия будет онлайн." with dissolve
 
     if var_day3_photo_made:
 
@@ -218,15 +218,15 @@ label day4_the_end_part1_option2_airplane:
 
         show cg_screen_phone_aliya_photo2 as cg_screen_phone with dissolve
 
-        "Периодически я открывал и смотрел фотографию Алии в своем телефоне." with dissolve
+        "Периодически я открывал и смотрел фотографию Алии в своём телефоне." with dissolve
 
-        "Это та фотография, которую я украдкой заснял в Таганском парке." with dissolve
+        "Это тот снимок, который я украдкой заснял в Таганском парке." with dissolve
 
-        "Это единственная фотография Алии, которая у меня есть - не считая, конечно, фотографии в паспорте." with dissolve
+        "Единственное фото Алии, которое у меня есть - не считая, конечно, фотографии в паспорте." with dissolve
 
         "Алия с фотографии улыбалась и смотрела мне прямо в глаза." with dissolve
 
-        "Именно такой я ее и запомню теперь на всю жизнь..." with dissolve
+        "Именно такой я её и запомню теперь на всю жизнь..." with dissolve
 
     $ clearDisplayMessages()
 
@@ -242,7 +242,7 @@ label day4_the_end_part1_option2_airplane:
 
     show cg_screen_phone_new_message_day4_evening_athome_alone as cg_screen_phone with dissolve
 
-    "Я дернулся и резко включил телефон." with dissolve
+    "Я дёрнулся и резко включил телефон." with dissolve
 
     $ changeDialogToCoach()
 
@@ -254,23 +254,23 @@ label day4_the_end_part1_option2_airplane:
 
     $ addSentMessage(2)
 
-    me "Привет. Все плохо" with dissolve
+    me "Привет. Всё плохо." with dissolve
 
     $ addSentMessage(4)
 
-    me "Мне удалось уговорить родителей Алии полететь на самолете" with dissolve
+    me "Мне удалось уговорить родителей Алии лететь самолётом," with dissolve
 
     $ addSentMessage(4)
 
-    me "Но я не смог уговорить ее бежать снова" with dissolve
+    me "но я не смог уговорить её бежать снова." with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Значит, она тебе недостаточно доверяет" with dissolve
+    coach "Значит, она тебе недостаточно доверяет?" with dissolve
 
     $ addReceivedMessage(4)
 
-    coach "Может, ты ее обидел чем-то, или напугал" with dissolve
+    coach "Может, ты её обидел чем-то или напугал?" with dissolve
 
     $ addSentMessage(2)
 
