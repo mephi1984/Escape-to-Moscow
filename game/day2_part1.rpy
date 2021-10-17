@@ -9,7 +9,7 @@ label day2_intro:
 
     "Наступил новый день."
 
-    "Я проснулся и нехотя потянулся в тёплой постели." with dissolve
+    "Я еле проснулся и лежу в теплой постели, нежась в лучах утреннего солнца." with dissolve
 
     "В работе фрилансера есть и много хороших сторон." with dissolve
 
@@ -1002,7 +1002,7 @@ label day2_evening:
 
     $ addReceivedMessage(5)
 
-    aliya_mobile "В начале мая начинается Рамадан и продлится до 5 июня." with dissolve
+    aliya_mobile "В начале мая начинается Рамадан и продлится до 3 июня." with dissolve
 
     $ addReceivedMessage(4)
 

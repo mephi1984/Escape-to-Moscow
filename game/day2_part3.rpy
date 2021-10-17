@@ -173,7 +173,7 @@ label day2_car_coach:
 
     $ addReceivedMessage(4)
 
-    coach "Да и вообще, выдай ей немного наличных денег, чтобы она чувствовала себе увереннее." with dissolve
+    coach "Да и вообще, выдай ей немного наличных денег, чтобы она чувствовала себя увереннее." with dissolve
 
     $ addSentMessage(0)
 
@@ -234,7 +234,7 @@ label day2_car_jarik:
 
     yarik "Я всегда за любую движуху." with dissolve
 
-    yarik "Когда вернёшься из Москвы, пиши. Встретимся, расскажешь, как всё прошло!" with dissolve
+    yarik "Когда вернёшься из Москвы, пиши! Встретимся, расскажешь, как всё прошло!" with dissolve
 
     me "Конечно! Я сообщу!" with dissolve
 

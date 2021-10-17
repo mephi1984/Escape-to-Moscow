@@ -197,9 +197,14 @@ label day3_taganskaya:
 
     "Мы вышли из метро и шли вдоль Таганской улицы." with dissolve
 
+
+    "Тёплая приятная погода согревает не только тело, но и душу, придавая уверенности и веры в успех." with dissolve
+
     "Солнце ярко освещало наш путь, постепенно идя к закату." with dissolve
 
     "Погода стояла хорошая. Вокруг нас было много людей, разных...по-разному одетых." with dissolve
+
+    "Мы лавировали в разношёрстной толпе, стараясь ни с кем не столкнуться." with dissolve
 
     "Мимо нас проходили школьники с вейпами, рядом шла уверенная в себе бизнес-леди." with dissolve
 
@@ -214,7 +219,7 @@ label day3_taganskaya:
     show aliya_turn_around eyes_open_happy at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
-    aliya "Здесь красиво. Мне здесь нравится." with dissolve
+    aliya "Здесь так красиво. Мне здесь нравится." with dissolve
 
     me "Да, мне тоже." with dissolve
 
@@ -247,7 +252,7 @@ label day3_taganskaya:
     show aliya_turn_around eyes_open_smile at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
-    "Вскоре мы свернули с Таганской улицы и через дворы прошли в Таганский парк." with dissolve
+    "Вскоре мы свернули с улицы, и через дворы прошли в Таганский парк." with dissolve
 
     "Вокруг нас шли мамы с колясками, рядом бегали мальчики. Кто-то катался на скейтбордах, на роликах." with dissolve
 
@@ -292,6 +297,8 @@ label day3_taganskaya_park_rest:
 
     "Алия внимательно наблюдала за посетителями парка." with dissolve
 
+    "Высокие деревья приятно шелестели на ветру и скрывали нас от солнца." with dissolve
+
     show aliya_sit eyes_open_sad_smile as aliya_sit at any_center_pos with dissolve:
         zoom SCALE
 
@@ -313,7 +320,7 @@ label day3_taganskaya_park_rest:
     show aliya_sit eyes_open_sad_worried_open_mouth as aliya_sit at any_center_pos with dissolve:
         zoom SCALE
 
-    aliya "Наверное, да. Хотя я буду скучать по Дагестану." with dissolve
+    aliya "Наверное, да. Если честно, всё равно я буду скучать по Дагестану." with dissolve
 
     show aliya_sit eyes_open_sad_worried as aliya_sit at any_center_pos with dissolve:
         zoom SCALE
@@ -701,7 +708,7 @@ label day3_basmannaya_outside:
     show aliya_turn_around eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
-    me "Я возьму себе салат Цезарь и, например, две слойки с сыром. А чего бы тебе хотелось?" with dissolve
+    me "Я возьму себе салат Цезарь и, две слойки с сыром. А чего бы тебе хотелось?" with dissolve
 
     show Aliya stand_straight_eyes_open_sad_worried at any_left_pos with dissolve:
         zoom 0.75*SCALE
@@ -933,7 +940,7 @@ label day3_basmannaya:
 
     aliya "Я должна сообщить родителям, чтобы не ждали меня. Они, наверное, уже волнуются." with dissolve
 
-    "Думаю, лучше разрешить Алие сделать это. Сейчас мы уже в безопасности." with dissolve
+    "Да, рискованно конечно. Но я думаю, что лучше разрешить Алие сделать это. Сейчас мы уже в безопасности." with dissolve
 
     me "Хорошо. У тебя теперь новая сим-карта и там есть мобильный интернет." with dissolve
 
@@ -972,7 +979,7 @@ label day3_basmannaya:
     show aliya_sit_bench_phone eyes_closed_sad as aliya_sit at any_center_pos with dissolve:
         zoom SCALE
 
-    "Алия вздохнула, достала телефон, выключила, заменила сим-карту." with dissolve
+    "Алия вздохнула, достала телефон, выключила его и заменила сим-карту." with dissolve
 
     show aliya_sit_bench_phone eyes_open_watching_phone as aliya_sit at any_center_pos with dissolve:
         zoom SCALE
@@ -1275,7 +1282,7 @@ label day3_basmannaya:
 
     "Я думаю, в этом салате нет настоящего мяса вообще." with dissolve
 
-    me "Конечно нет, здесь только соя." with dissolve
+    me "Конечно нет." with dissolve
 
     show apartment_kitchen_food_no_spoon_eaten as apartment_kitchen_food zorder 2
 
@@ -1542,7 +1549,7 @@ label day3_basmannaya:
 
     fatima "Если Алия не хочет выходить замуж и уехала в Москву, значит на то воля Аллаха." with dissolve
 
-    fatima "Пусть работает там, учиться, делайте что хотите." with dissolve
+    fatima "Пусть работает там, учится." with dissolve
 
     fatima "У себя в селе я скажу всем, что Алия уехала учиться в Москву." with dissolve
 
@@ -1692,7 +1699,7 @@ label day3_basmannaya_apartment_decline:
     show Aliya tshirt_stand_straight_eyes_open_sad_worried at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
-    me "Я немного боюсь за тебя. Вдруг они решат забрать тебя силой?" with dissolve
+    me "Я боюсь за тебя. Вдруг они решат забрать тебя силой?" with dissolve
 
     me "Когда они приедут в Москву, мы договоримся о встрече." with dissolve
 
@@ -1992,7 +1999,7 @@ label day3_basmannaya_shaurma:
     show aliya_sit_meal_jacket jacket eyes_open_sad_worried_open_mouth with dissolve:
         zoom SCALE
 
-    aliya "Я сытая. Идём?" with dissolve
+    aliya "Я наелась. Идём?" with dissolve
 
     me "Да, пойдём." with dissolve
 
@@ -2290,7 +2297,7 @@ label day3_imran_house:
 
     "Решеток на окнах нет, отметил я. Однако сам участок был огорожен забором, через который не так-то просто перелезть." with dissolve
 
-    imran "Пройдёмте в дом?" with dissolve
+    imran "Проходите в дом." with dissolve
 
     "Имран открыл дверь и пригласил нас войти внутрь." with dissolve
 

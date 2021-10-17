@@ -158,7 +158,7 @@ label day1_coach_pre_meeting:
 
     "Я ещё не знаю кто это." with dissolve
 
-    "Мне говорили что он мне напишет сегодня." with dissolve
+    "Мне говорили, что он мне напишет сегодня." with dissolve
 
     "Никто мне так и не написал, но я все еще жду." with dissolve
 
@@ -212,7 +212,7 @@ label day1_coach_meeting_alt:
 
     $ addReceivedMessage(4)
 
-    coach "Моя задача - помочь тебе в определении ваших целей." with dissolve
+    coach "Моя задача - помочь тебе в определении твоих целей." with dissolve
 
     $ addReceivedMessage(5)
 
@@ -562,7 +562,7 @@ label day1_aliya_meeting:
 
     $ addReceivedMessage(5)
 
-    aliya_mobile "Понимаешь, ситуация более запутанная и сложна, чем кажется на первый взгляд." with dissolve
+    aliya_mobile "Понимаешь, ситуация более запутанная и сложная, чем кажется на первый взгляд." with dissolve
 
     $ addSentMessage(0)
 

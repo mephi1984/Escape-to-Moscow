@@ -32,7 +32,7 @@ label day3_intro:
 
     "От этого движения я окончательно проснулся." with dissolve
 
-    "Я попытался вспомнить, как оказался в самолёте, прогоняя в голове воспоминания вчерашнего дня." with dissolve
+    "Я попытался вспомнить, как оказался в самолёте, восстанавливая в голове воспоминания вчерашнего дня." with dissolve
 
     "Итак. Вчера вечером я сидел за ноутбуком." with dissolve
 
@@ -150,7 +150,7 @@ label day3_intro:
 
     "Нужно оглянуться. Вот табло, вот стойки регистрации... ага, вот и аптека!" with dissolve
 
-    "Я купил на всякий случай три маски - \"вдруг одну сломаю, а вторую потеряю\", по привычке, благо они дешевые." with dissolve
+    "Я купил на всякий случай три маски - вдруг, как в армии, \"одну сломаю, а вторую потеряю\", по привычке, благо они дешевые." with dissolve
 
     "Маски у меня есть и в запасе есть ещё немного времени до прихода Алии." with dissolve
 
@@ -1121,7 +1121,7 @@ label day3_airplane:
 
     me "Как тебе?" with dissolve
 
-    aliya "Красиво." with dissolve
+    aliya "Красиво!" with dissolve
 
     me "Ты ведь до этого вообще не летала на самолёте?" with dissolve
 
@@ -1478,7 +1478,7 @@ label day3_airplane2_part2:
 
     "Тем временем тележки с напитками и сэндвичами уже приближалась к нашему ряду." with dissolve
 
-    me "Что ты будешь пить и есть?" with dissolve
+    me "Хочешь что-нибудь?" with dissolve
 
     show aliya_sit_book eyes_open_neutral as aliya_sit at any_center_pos zorder 3 with dissolve:
         zoom SCALE
@@ -1545,7 +1545,7 @@ label day3_airplane2_part2:
 
     "Вскоре приехала и тележка с едой." with dissolve
 
-    flight_attendant "Вам сендвич с курицей или с сыром?" with dissolve
+    flight_attendant "Вам сэндвич с курицей или с сыром?" with dissolve
 
     me "С курицей." with dissolve
 
@@ -1778,6 +1778,8 @@ label day3_airplane3:
     "Брр! Даже не хочу об этом думать." with dissolve
 
     "Самое важное - Алия сейчас сидит здесь, рядом со мной." with dissolve
+
+    "Судьба Алии в моих руках." with dissolve
 
     "Она доверяет мне и я не должен разрушить её доверие." with dissolve
 

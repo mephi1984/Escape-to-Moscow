@@ -30,25 +30,17 @@ label day1_ask_coach_dagestan:
 
     coach "Хорошо, с чего бы начать... Дагестан это национальная республика, которая находится на Северном Кавказе." with dissolve
 
-    $ addReceivedMessage(4)
-
-    coach "Столица - Махачкала. Население - три миллиона человек." with dissolve
-
     $ addReceivedMessage(5)
 
     coach "Хотя Дагестан находится в составе России, жизнь в нём сильно отличается от жизни в средней российской глубинке." with dissolve
 
     $ addReceivedMessage(5)
 
-    coach "Это же можно сказать и про другие республики Кавказа. В этом смысле они похожи." with dissolve
+    coach "Ну вообще, все республики на Кавказе - особенные, но Дагестан, наверное, по-своему особенная республика." with dissolve
 
     $ addSentMessage(3)
 
-    me "А чем Дагестан выделяется?" with dissolve
-
-    $ addReceivedMessage(3)
-
-    coach "Да, есть отличия, конечно же." with dissolve
+    me "Чем Дагестан выделяется?" with dissolve
 
     $ addReceivedMessage(5)
 
@@ -108,11 +100,7 @@ label day1_ask_coach_dagestan:
 
     $ addReceivedMessage(5)
 
-    coach "Правда, в прошлом году фестиваль был сорван толпой агрессивно настроенных молодых людей." with dissolve
-
-    $ addReceivedMessage(5)
-
-    coach "Но всё равно, если сравнить, например, с Чечней - разница значительная." with dissolve
+    coach "Если сравнить, например, с Чечней или с Ингушетией - разница значительная." with dissolve
 
     $ addSentMessage(2)
 

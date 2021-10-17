@@ -160,14 +160,14 @@ label day4_morning:
 
     me "Да, насчет этого, я хочу поговорить." with dissolve
 
-    me "Твоя мама обманули меня, и я бы хотел им это напомнить..." with dissolve
+    me "Твоя мама обманула меня, и я бы хотел ей это напомнить..." with dissolve
 
     show Aliya tshirt_stand_straight_eyes_open_sad_worried at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Давай лучше не в этот раз. Прибереги это на будущее." with dissolve
 
-    me "Хорошо, как скажешь. Я к тому, что если потребуется, мы можем договориться и совместно обмануть твоих родителей." with dissolve
+    me "Хорошо, как скажешь. Я к тому, что если потребуется, то мы соврём твоим родителям, и чтоб тебя не мучала совесть." with dissolve
 
     aliya "Это хорошо, но я надеюсь это не понадобится." with dissolve
 
@@ -250,7 +250,7 @@ label day4_morning:
 
     $ addReceivedMessage(3)
 
-    coach "Хорошо. Насчет побега, у меня есть идея" with dissolve
+    coach "Отлично! Насчет побега, у меня есть идея" with dissolve
 
     $ addReceivedMessage(5)
 
@@ -404,7 +404,7 @@ label day4_morning:
 
     $ addSentMessage(5)
 
-    me "... Честно, это один из самых сложных планов побега, который я когда либо слышал" with dissolve
+    me "... Честно, это один из самых сложных планов побега, который я когда либо слышал!" with dissolve
 
     $ addReceivedMessage(0)
 
@@ -412,7 +412,7 @@ label day4_morning:
 
     $ addSentMessage(5)
 
-    me "Итак, первый шаг - я должен предупредить Алию что у меня есть план побега заграницу. Да?" with dissolve
+    me "Итак, первый шаг - я должен предупредить Алию что у меня есть план побега за границу. Да?" with dissolve
 
     $ addReceivedMessage(4)
 
