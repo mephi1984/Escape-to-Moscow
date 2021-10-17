@@ -353,7 +353,7 @@ label day2_talk_aliya:
 
     $ addReceivedMessage(3)
 
-    aliya_mobile "...ты смотрел фильм "Ворошиловский стрелок"?" with dissolve
+    aliya_mobile "...ты смотрел фильм \"Ворошиловский стрелок\"?" with dissolve
 
     "Алия намекает на последствия, если я буду приставать к ней." with dissolve
 
@@ -1193,7 +1193,7 @@ label day2_escape_now_coach_not_talked_after_exposition:
 
     $ addReceivedMessage(3)
 
-    coach "Теперь возвращаемся к текущей ситуации". with dissolve
+    coach "Теперь возвращаемся к текущей ситуации." with dissolve
 
     jump day2_escape_now_coach_continue
 

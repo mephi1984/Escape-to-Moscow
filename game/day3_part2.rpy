@@ -197,7 +197,6 @@ label day3_taganskaya:
 
     "Мы вышли из метро и шли вдоль Таганской улицы." with dissolve
 
-
     "Тёплая приятная погода согревает не только тело, но и душу, придавая уверенности и веры в успех." with dissolve
 
     "Солнце ярко освещало наш путь, постепенно идя к закату." with dissolve
@@ -229,6 +228,8 @@ label day3_taganskaya:
         zoom 0.75*SCALE
 
     aliya "Правда? Какие?" with dissolve
+
+    $ persistent.gallery4unlock = True
 
     me "Парк Горького и Крымскую набережную очень красиво сделали." with dissolve
 
@@ -420,6 +421,8 @@ label day3_taganskaya_park_rest:
 
     me "Ладно..." with dissolve
 
+    $ persistent.gallery5unlock = True
+
     scene black with dissolve
 
     "Прошло ещё немного времени..." with dissolve
@@ -546,6 +549,8 @@ label day3_taganskaya_park_continue:
         alpha 1.0
 
     aliya "Мне оно тоже нравится." with dissolve
+
+    $ persistent.gallery6unlock = True
 
     aliya "Берём?" with dissolve
 
@@ -1308,6 +1313,8 @@ label day3_basmannaya:
     show aliya_sit_meal tshirt eyes_open_sad_much with dissolve:
         zoom SCALE
 
+    $ persistent.gallery7unlock = True
+
     me "Сообщи своим родителям, что у тебя всё в порядке: есть еда и ночлег." with dissolve
 
     me "Это должно их немного успокоить." with dissolve
@@ -1873,6 +1880,8 @@ label day3_basmannaya_shaurma:
 
     show aliya_sit_meal_jacket jacket_shaurma eyes_open_happy with dissolve:
         zoom SCALE
+
+    $ persistent.gallery8unlock = True
 
     "Алия улыбнулась." with dissolve
 

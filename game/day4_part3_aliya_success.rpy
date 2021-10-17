@@ -317,6 +317,8 @@ label airport_scene1:
 
     "я уже ждал их с посадочными талонами наготове." with dissolve
 
+    $ persistent.gallery10unlock = True
+
     scene black with dissolve
 
     show day4_domodedovo_toilet
@@ -356,6 +358,8 @@ label airport_scene1:
     hide semyon with dissolve
 
     "Дождавшись когда Алия скроется из виду, я должен проследовать к рамкам досмотра и ждать её в чистой зоне." with dissolve
+
+    $ persistent.gallery11unlock = True
 
     scene black with dissolve
 
@@ -447,9 +451,9 @@ label airport_scene1:
 
     me "Когда загорится зелёная лампочка, проходи туда, отдай пограничнице свой паспорт и посадочный талон." with dissolve
 
-    me "Она спросит, куда ты летишь - отвечай: "В Казахстан, в Усть-Каменогорск, по внутреннему паспорту." with dissolve
+    me "Она спросит, куда ты летишь - отвечай: \"В Казахстан, в Усть-Каменогорск, по внутреннему паспорту.\"." with dissolve
 
-    me "Цель поездки - навестить знакомых". Всё понятно?" with dissolve
+    me "Цель поездки - \"навестить знакомых\". Всё понятно?" with dissolve
 
     show Aliya stand_half_turned2_no_backpack_eyes_open_sad_worried_open_mouth at any_right_pos with dissolve:
         zoom 0.75*SCALE
@@ -483,6 +487,8 @@ label airport_scene1:
         zoom 0.75*SCALE
 
     show cg_screen_phone_time_day4_afternoon_airport_duty_free as cg_screen_phone with dissolve
+
+    $ persistent.gallery12unlock = True
 
     "Время на телефоне показывало 16:12, а это означало, что посадка скоро закончится. Надо скорее узнать какой у нас гейт и бежать туда!" with dissolve
 

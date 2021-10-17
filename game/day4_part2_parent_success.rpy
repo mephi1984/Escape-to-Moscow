@@ -364,6 +364,8 @@ label day4_parents_part6_parent_persuade_success:
 
     "Алия уже собралась развернуться и уйти..." with dissolve
 
+    $ persistent.gallery9unlock = True
+
     me "Постой!" with dissolve
 
     show Aliya special_half_turned at aliya_imran_room_pos with dissolve:

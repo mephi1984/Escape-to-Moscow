@@ -237,6 +237,8 @@ label day3_meet_aliya:
     show Aliya stand_straight_mask_eyes_open_neutral at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
+    $ persistent.gallery2unlock = True
+
     "А она довольно маленькая девушка. Меньше, чем я себе представлял." with dissolve
 
     "Неловкое молчание... так, Семён, не тупи! Скажи что-нибудь!" with dissolve
@@ -1060,6 +1062,8 @@ label day3_airport_inner:
         zoom SCALE
 
     aliya "Хорошо." with dissolve
+
+    $ persistent.gallery3unlock = True
 
     stop music_crossfade fadeout 1.0
 

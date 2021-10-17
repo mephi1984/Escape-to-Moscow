@@ -12,6 +12,8 @@ label day2_success_end:
 
     hide white with dissolve
 
+    $ persistent.gallery1unlock = True
+
     "Время перевалило за одиннадцать, я сижу в машине Ярика на переднем сидении." with dissolve
 
     "Мы на полпути до аэропорта. Ярик действительно водит быстро, мы уже выехали за город и едем по трассе." with dissolve

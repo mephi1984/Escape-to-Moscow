@@ -285,6 +285,56 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
+    g = Gallery()
+
+    g.button("gallery1")
+    g.condition("persistent.gallery1unlock")
+    g.image("gallery/g1.jpg")
+
+    g.button("gallery2")
+    g.condition("persistent.gallery2unlock")
+    g.image("gallery/g2.jpg")
+
+    g.button("gallery3")
+    g.condition("persistent.gallery3unlock")
+    g.image("gallery/g3.jpg")
+
+    g.button("gallery4")
+    g.condition("persistent.gallery4unlock")
+    g.image("gallery/g4.jpg")
+
+    g.button("gallery5")
+    g.condition("persistent.gallery5unlock")
+    g.image("gallery/g5.jpg")
+
+    g.button("gallery6")
+    g.condition("persistent.gallery6unlock")
+    g.image("gallery/g6.jpg")
+
+    g.button("gallery7")
+    g.condition("persistent.gallery7unlock")
+    g.image("gallery/g7.jpg")
+
+    g.button("gallery8")
+    g.condition("persistent.gallery8unlock")
+    g.image("gallery/g8.jpg")
+
+    g.button("gallery9")
+    g.condition("persistent.gallery9unlock")
+    g.image("gallery/g9.jpg")
+
+    g.button("gallery10")
+    g.condition("persistent.gallery10unlock")
+    g.image("gallery/g10.jpg")
+
+    g.button("gallery11")
+    g.condition("persistent.gallery11unlock")
+    g.image("gallery/g11.jpg")
+
+    g.button("gallery12")
+    g.condition("persistent.gallery12unlock")
+    g.image("gallery/g12.jpg")
+
 default quick_menu = True
 
 style quick_button is default
@@ -343,6 +393,8 @@ screen navigation():
         elif not main_menu:
 
             textbutton _("Главное меню") action MainMenu()
+
+        textbutton _("Галерея") action ShowMenu("gallery")
 
         textbutton _("Об игре") action ShowMenu("about")
 
@@ -936,51 +988,54 @@ screen language_menu():
 
     tag menu
 
-    modal True
+    use game_menu(_("Язык"), scroll="viewport"):
 
-    zorder 100
+    #modal True
 
-    add gui.language_overlay
+    #zorder 100
 
-    vbox:
-        xalign 0.5
-        yalign 0.5
-        style_prefix "radio"
-        label _("Язык")
-        textbutton _("Русский") action Language(None)
-        textbutton _("English") action Language("english")
+    #add gui.language_overlay
 
-        null height (4 * gui.pref_spacing)
+        vbox:
+            xalign 0.5
+            yalign 0.5
+            style_prefix "radio"
+            label _("Язык")
+            textbutton _("Русский") action Language(None)
+            textbutton _("English") action Language("english")
 
-        textbutton _("Назад") action Return()
+            null height (4 * gui.pref_spacing)
+
+            #textbutton _("Назад") action Return()
 
 
 screen difficulty_menu():
 
     tag menu
 
-    modal True
+    #modal True
 
-    zorder 100
+    #zorder 100
 
-    add gui.language_overlay
+    #add gui.language_overlay
+    use game_menu(_("Сложность"), scroll="viewport"):
 
-    vbox:
-        xalign 0.5
-        yalign 0.5
-        style_prefix "radio"
-        label _("Cложность")
-        textbutton _("Нормальная") action SetVariable("persistent.difficulty", 0)
-        textbutton _("Тяжелая") action SetVariable("persistent.difficulty", 1)
+        vbox:
+            xalign 0.5
+            yalign 0.5
+            style_prefix "radio"
+            label _("Cложность")
+            textbutton _("Нормальная") action SetVariable("persistent.difficulty", 0)
+            textbutton _("Тяжелая") action SetVariable("persistent.difficulty", 1)
 
-        null height (4 * gui.pref_spacing)
+            null height (4 * gui.pref_spacing)
 
-        textbutton _("Назад") action Return()
+            #textbutton _("Назад") action Return()
 
-    vbox:
-        xalign 0.5
-        yalign 0.75
-        label _("На тяжелом уровне сложности труднее попасть на хорошую концовку.\nВы можете поменять уровень сложности в любой момент во время игры.")
+        vbox:
+            xalign 0.5
+            yalign 0.75
+            label _("На тяжелом уровне сложности труднее попасть на хорошую концовку.\nВы можете поменять уровень сложности в любой момент во время игры.")
 
 
 screen language_and_difficulty_menu_first_time():
@@ -1034,9 +1089,45 @@ screen language_and_difficulty_menu_first_time():
         textbutton _("Продолжить") action Return()
 
 
+screen gallery:
 
+    tag menu
 
+    use game_menu(_("Галерея"), scroll="viewport"):
+        # A grid of buttons.
+        grid 3 4:
 
+            xfill True
+            style_prefix "slot"
+
+            xalign 0.5
+            yalign 0.5
+
+            spacing gui.slot_spacing_gallery
+
+            # Call make_button to show a particular button.
+            add g.make_button("gallery1", "gallery/g1small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery2", "gallery/g2small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery3", "gallery/g3small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+            add g.make_button("gallery4", "gallery/g4small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery5", "gallery/g5small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery6", "gallery/g6small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+            add g.make_button("gallery7", "gallery/g7small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery8", "gallery/g8small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery9", "gallery/g9small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+            add g.make_button("gallery10", "gallery/g10small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery11", "gallery/g11small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            add g.make_button("gallery12", "gallery/g12small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+            # The screen is responsible for returning to the main menu. It could also
+            # navigate to other gallery screens.
+
+            #textbutton "Previous" xalign 0.5 yalign 0.5
+            #textbutton "Next" action ShowMenu("gallery2") xalign 0.5 yalign 0.5
+            #textbutton "Return" action Return() xalign 0.5 yalign 0.5
 
 
 ## Экран истории ###############################################################

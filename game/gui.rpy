@@ -68,13 +68,13 @@ define gui.interface_text_color = '#E2F3FF'
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/Manrope-Medium.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/Manrope-Medium.ttf"
 
 ## Шрифт, используемый текстом вне игры.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/Manrope-Medium.ttf"
 
 ## Размер нормального текста диалога.
 define gui.text_size = 33 * SCALE
@@ -318,6 +318,9 @@ define gui.page_spacing = 0
 
 ## Интервал между слотами.
 define gui.slot_spacing = int(15*SCALE)
+
+## Интервал между слотами.
+define gui.slot_spacing_gallery = int(40*SCALE)
 
 ## Позиция текста главного меню.
 define gui.main_menu_text_xalign = 1.0
