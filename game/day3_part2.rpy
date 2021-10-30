@@ -2127,9 +2127,16 @@ label day3_basmannaya_imran_accept:
 
     scene black with dissolve
 
+
+
     show black zorder 10
 
-    show bkg_movie2
+    if isMobileWeb:
+        show bkg_movie_slide2
+
+    else:
+        show bkg_movie2
+
 
     show night_road_foreground2
 

@@ -1,16 +1,29 @@
 label day2_success_end:
 
-    scene black
 
-    show bkg_movie
+    if isMobileWeb:
+        scene bkg_movie_slide
 
-    show night_road_foreground
+        show night_road_foreground
 
-    show white zorder 10
+        show black zorder 10
 
-    $ renpy.pause(1.0)
+        $ renpy.pause(1.0)
 
-    hide white with dissolve
+        hide black with dissolve
+
+    else:
+        scene black
+
+        show bkg_movie
+
+        show night_road_foreground
+
+        show white zorder 10
+
+        $ renpy.pause(1.0)
+
+        hide white with dissolve
 
     $ persistent.gallery1unlock = True
 

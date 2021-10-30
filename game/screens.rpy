@@ -271,7 +271,8 @@ screen quick_menu():
             yalign 1.0
 
             textbutton _("Назад") action Rollback()
-            textbutton _("История") action ShowMenu('history')
+            if renpy.variant("pc"):
+                textbutton _("История") action ShowMenu('history')
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Сохранить") action ShowMenu('save')
@@ -370,9 +371,16 @@ screen navigation():
 
             textbutton _("Начать") action Start()
 
+            if isMobileWeb:
+                textbutton _("{b}Продолжить{/b}") action Continue()
+
         else:
 
-            textbutton _("История") action ShowMenu("history")
+            textbutton _("{b}Вернуться{/b}"):
+                action Return()
+
+            if renpy.variant("pc"):
+                textbutton _("История") action ShowMenu("history")
 
             textbutton _("Сохранить") action ShowMenu("save")
 
@@ -380,9 +388,11 @@ screen navigation():
 
         textbutton _("Настройки") action ShowMenu("preferences")
 
-        textbutton _("Язык") action ShowMenu("language_menu")
+        if not isMobileWeb:
+            textbutton _("Язык") action ShowMenu("language_menu")
 
-        textbutton _("Cложность") action ShowMenu("difficulty_menu")
+        if not isMobileWeb:
+            textbutton _("Cложность") action ShowMenu("difficulty_menu")
 
 
 
@@ -432,18 +442,22 @@ screen main_menu():
 
     style_prefix "main_menu"
 
-    add gui.main_menu_background
 
-    if persistent.menu_unlocked_aliya: # Unlocked Aliya
-        add gui.main_menu_background_aliya_unlocked
+    if isMobileWeb:
+        add gui.main_menu_background_mobile_web
     else:
-        add gui.main_menu_background_aliya_locked
+        add gui.main_menu_background
+
+        if persistent.menu_unlocked_aliya: # Unlocked Aliya
+            add gui.main_menu_background_aliya_unlocked
+        else:
+            add gui.main_menu_background_aliya_locked
 
 
-    if persistent.menu_unlocked_semyon: # Unlocked Semyon
-        add gui.main_menu_background_semyon_unlocked
-    else:
-        add gui.main_menu_background_semyon_locked
+        if persistent.menu_unlocked_semyon: # Unlocked Semyon
+            add gui.main_menu_background_semyon_unlocked
+        else:
+            add gui.main_menu_background_semyon_locked
 
 
     vbox:
@@ -510,18 +524,21 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     style_prefix "game_menu"
 
-    add gui.main_menu_background
-
-    if persistent.menu_unlocked_aliya: # Unlocked Aliya
-        add gui.main_menu_background_aliya_unlocked
+    if isMobileWeb:
+        add gui.main_menu_background_mobile_web
     else:
-        add gui.main_menu_background_aliya_locked
+        add gui.main_menu_background
+
+        if persistent.menu_unlocked_aliya: # Unlocked Aliya
+            add gui.main_menu_background_aliya_unlocked
+        else:
+            add gui.main_menu_background_aliya_locked
 
 
-    if persistent.menu_unlocked_semyon: # Unlocked Semyon
-        add gui.main_menu_background_semyon_unlocked
-    else:
-        add gui.main_menu_background_semyon_locked
+        if persistent.menu_unlocked_semyon: # Unlocked Semyon
+            add gui.main_menu_background_semyon_unlocked
+        else:
+            add gui.main_menu_background_semyon_locked
 
 
     vbox:
@@ -575,10 +592,9 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     use navigation
 
-    textbutton _("Вернуться"):
-        style "return_button"
-
-        action Return()
+    #textbutton _("Вернуться"):
+    #    style "return_button"
+    #    action Return()
 
     label title
 
@@ -1093,41 +1109,75 @@ screen gallery:
 
     tag menu
 
+    #style_prefix "game_menu"
+
     use game_menu(_("Галерея"), scroll="viewport"):
-        # A grid of buttons.
-        grid 3 4:
+    #use game_menu("", scroll="viewport"):
 
-            xfill True
-            style_prefix "slot"
-
+        vbox:
+            #spacing 20
             xalign 0.5
-            yalign 0.5
+            xfill True
 
-            spacing gui.slot_spacing_gallery
+            #label _("Галерея"):
+            #
 
-            # Call make_button to show a particular button.
-            add g.make_button("gallery1", "gallery/g1small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery2", "gallery/g2small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery3", "gallery/g3small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            if renpy.variant("pc"):
 
-            add g.make_button("gallery4", "gallery/g4small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery5", "gallery/g5small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery6", "gallery/g6small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                grid 3 4:
 
-            add g.make_button("gallery7", "gallery/g7small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery8", "gallery/g8small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery9", "gallery/g9small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    #xfill True
+                    style_prefix "slot"
 
-            add g.make_button("gallery10", "gallery/g10small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery11", "gallery/g11small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            add g.make_button("gallery12", "gallery/g12small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    xalign 0.5
+                    yalign 0.5
 
-            # The screen is responsible for returning to the main menu. It could also
-            # navigate to other gallery screens.
+                    spacing gui.slot_spacing_gallery
 
-            #textbutton "Previous" xalign 0.5 yalign 0.5
-            #textbutton "Next" action ShowMenu("gallery2") xalign 0.5 yalign 0.5
-            #textbutton "Return" action Return() xalign 0.5 yalign 0.5
+                    add g.make_button("gallery1", "gallery/g1small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery2", "gallery/g2small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery3", "gallery/g3small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+                    add g.make_button("gallery4", "gallery/g4small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery5", "gallery/g5small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery6", "gallery/g6small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+                    add g.make_button("gallery7", "gallery/g7small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery8", "gallery/g8small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery9", "gallery/g9small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+                    add g.make_button("gallery10", "gallery/g10small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery11", "gallery/g11small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery12", "gallery/g12small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+            else:
+
+                grid 2 6:
+
+                    #xfill True
+                    style_prefix "slot"
+
+                    xalign 0.5
+                    yalign 0.5
+
+                    spacing gui.slot_spacing_gallery
+
+                    add g.make_button("gallery1", "gallery/g1small.jpg", locked = "lock.png", xalign=1.0, yalign=0.5)
+                    add g.make_button("gallery2", "gallery/g2small.jpg", locked = "lock.png", xalign=1.0, yalign=0.5)
+
+                    add g.make_button("gallery3", "gallery/g3small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery4", "gallery/g4small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+                    add g.make_button("gallery5", "gallery/g5small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery6", "gallery/g6small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+                    add g.make_button("gallery7", "gallery/g7small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery8", "gallery/g8small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+                    add g.make_button("gallery9", "gallery/g9small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery10", "gallery/g10small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+
+                    add g.make_button("gallery11", "gallery/g11small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
+                    add g.make_button("gallery12", "gallery/g12small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
 
 
 ## Экран истории ###############################################################
@@ -1795,28 +1845,30 @@ screen difficulty_menu():
 
     tag menu
 
-    modal True
+    #modal True
 
-    zorder 100
+    #zorder 100
 
-    add gui.language_overlay
+    #add gui.language_overlay
 
-    vbox:
-        xalign 0.5
-        yalign 0.25
-        style_prefix "radio"
-        label _("Cложность")
-        textbutton _("Нормальная") action SetVariable("persistent.difficulty", 0)
-        textbutton _("Тяжелая") action SetVariable("persistent.difficulty", 1)
+    use game_menu(_("Настройки"), scroll="viewport"):
 
-        null height (4 * gui.pref_spacing)
+        vbox:
+            xalign 0.5
+            yalign 0.25
+            style_prefix "radio"
+            label _("Cложность")
+            textbutton _("Нормальная") action SetVariable("persistent.difficulty", 0)
+            textbutton _("Тяжелая") action SetVariable("persistent.difficulty", 1)
 
-        textbutton _("Назад") action Return()
+            null height (4 * gui.pref_spacing)
 
-    vbox:
-        xalign 0.5
-        yalign 0.85
-        label _("На тяжелом уровне сложности труднее попасть на хорошую концовку. Вы можете поменять уровень сложности в любой момент во время игры.")
+            textbutton _("Назад") action Return()
+
+        vbox:
+            xalign 0.5
+            yalign 0.85
+            label _("На тяжелом уровне сложности труднее попасть на хорошую концовку. Вы можете поменять уровень сложности в любой момент во время игры.")
 
 
 screen language_and_difficulty_menu_first_time():

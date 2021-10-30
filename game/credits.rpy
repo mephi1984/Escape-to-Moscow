@@ -58,8 +58,9 @@ label credits:
     $ renpy.pause(0.2)
 
     #Tasha Fam
-    
-    show text Text(__("{color=#FFD800}Тексты:{/color}\nВладислав Хорев\nЯна \"Samadreal\" Однорог\nТаша Фам"), size=int(50*SCALE)) as credits_text1_line4 at credits_text1_line4_pos zorder 10 with dissolve:
+    #Vyacheslav Levin
+
+    show text Text(__("{color=#FFD800}Тексты:{/color}\nВладислав Хорев\nЯна \"Samadreal\" Однорог\nТаша Фам\nВячеслав \"saBBar\" Левин"), size=int(50*SCALE)) as credits_text1_line4 at credits_text1_line4_pos zorder 10 with dissolve:
         xpos 0.55
         linear 5.0 xpos 0.52
 

@@ -58,7 +58,7 @@ define gui.about = _p("""
 
 {color=#FFD800}Автор сценария:{/color} Владислав Хорев
 
-{color=#FFD800}Тексты:{/color} Владислав Хорев, Яна "Samadreal" Однорог
+{color=#FFD800}Тексты:{/color} Владислав Хорев, Яна "Samadreal" Однорог, Таша Фам, Вячеслав "saBBar" Левин
 
 {color=#FFD800}Спрайты персонажей:{/color} Дарья "miZaria" Фролова, Ssurikin, Marys (Маша Свиридова), Татьяна "Akinago" Аверина
 

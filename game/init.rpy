@@ -144,16 +144,24 @@ define aliya_apartment_kitchen_stand_pos = Position(xpos = 0.85, xanchor=0.5, yp
 define aliya_hood_right_pos = Position(xpos = 0.75, xanchor=0.5, ypos=1.0, yanchor=1.0)
 
 
+define isMobileWeb = True
+
 
 
 init python:
     renpy.music.register_channel("music_crossfade","music",loop=True,tight=True)
 
+    if isMobileWeb:
+        config.has_autosave = True
+        config.autosave_frequency = 10
+        config.autosave_on_choice = True
+
 
 label splashscreen:
-    if not persistent.lang_chosen:
-        $ persistent.lang_chosen = True
-        call screen language_and_difficulty_menu_first_time
+    if not isMobileWeb:
+        if not persistent.lang_chosen:
+            $ persistent.lang_chosen = True
+            call screen language_and_difficulty_menu_first_time
 
     return
 

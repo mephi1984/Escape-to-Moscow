@@ -98,7 +98,10 @@ define gui.title_text_size = 75*SCALE
 ## Главное и игровое меню. #####################################################
 
 ## Изображения, используемые в главном и игровом меню.
-define gui.main_menu_background = im.FactorScale("gui/main_menu.png", SCALE)
+define gui.main_menu_background = im.FactorScale("gui/main_menu.jpg", SCALE)
+
+define gui.main_menu_background_mobile_web = im.FactorScale("gui/main_menu_mobile_web.jpg", SCALE)
+
 define gui.main_menu_background_aliya_locked = im.FactorScale("gui/main_menu_aliya_locked.png", SCALE)
 define gui.main_menu_background_aliya_unlocked = im.FactorScale("gui/main_menu_aliya_unlocked.png", SCALE)
 
@@ -463,6 +466,13 @@ define gui.language = "unicode"
 ################################################################################
 
 init python:
+
+    class Continue (Action, DictEquality):
+        def __call__ (self):
+            FileLoad (1, confirm = False, page = "auto", newest = True) ()
+        # clickable button
+        def get_sensitive (self):
+            return FileLoadable (1, page = "auto")
 
     ## Этот параметр увеличивает размер быстрых кнопок, чтобы сделать их
     ## доступнее для нажатия на планшетах и телефонах.
