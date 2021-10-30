@@ -1,11 +1,8 @@
 label day4_imran_house_new_escape_succeed:
 
-
-
     play music "music/Runaway_14 (Pre_Loop).ogg" fadein 1.0
 
     queue music "music/Runaway_14 (Loop).ogg"
-
 
     scene black with dissolve
 
@@ -15,34 +12,34 @@ label day4_imran_house_new_escape_succeed:
 
     show imran_room_drawers_food_full_near
 
-    show Aliya tshirt_stand_straight_eyes_closed_neutral at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     "Воцарилось долгое молчание. Наконец Алия ответила." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_smile at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Хорошо, Семён. Я верю тебе. Пожалуйста, не подведи меня!" with dissolve
 
-    show Aliya special_pocket at aliya_imran_room_pos with dissolve:
+    show Aliya special_pocket as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "И вот ещё..." with dissolve
 
-    show Aliya special_mask at aliya_imran_room_pos with dissolve:
+    show Aliya special_mask as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия достала из кармана маску для лица, одну из тех, что я дал ей." with dissolve
 
     aliya "Возьми. Тебе это понадобится!" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_neutral at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     "Я взял маску и положил к себе в карман." with dissolve
 
-    show Aliya special_turned at aliya_imran_room_pos with dissolve:
+    show Aliya special_turned as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия развернулась и покинула мою комнату." with dissolve
@@ -165,7 +162,7 @@ label day4_imran_house_new_escape_succeed:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried at imran_house_pos2:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried at imran_house_pos2:
         zoom 0.75*SCALE*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -212,13 +209,13 @@ label day4_imran_house_new_escape_succeed:
 
     me "Алия, было приятно познакомиться с тобой! Желаю тебе удачи!" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried_open_mouth at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
         zoom 0.75*SCALE*0.9
         alpha 1.0
 
     aliya "Удачи!" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
         zoom 0.75*SCALE*0.9
         alpha 1.0
 
@@ -396,7 +393,7 @@ label airport_scene1:
 
     $ renpy.pause(0.3)
 
-    show Aliya stand_half_turned2_no_backpack_eyes_open_neutral at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown_light eyes_open_neutral as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Ты в порядке?" with dissolve
@@ -411,7 +408,7 @@ label airport_scene1:
 
     scene domodedovo_border with dissolve
 
-    show Aliya stand_half_turned2_no_backpack_eyes_open_neutral at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown_light eyes_open_neutral as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     "Турникеты позади, зелёный коридор мы преодолели не останавливаясь." with dissolve
@@ -455,7 +452,7 @@ label airport_scene1:
 
     me "Цель поездки - \"навестить знакомых\". Всё понятно?" with dissolve
 
-    show Aliya stand_half_turned2_no_backpack_eyes_open_sad_worried_open_mouth at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown_light eyes_open_sad_worried_open_mouth as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Да." with dissolve
@@ -483,7 +480,7 @@ label airport_scene1:
 
     scene domodedovo_duty_free with dissolve
 
-    show aliya_turn_around_no_backpack eyes_open_neutral at duty_free_aliya_pos with dissolve:
+    show aliya_turn_around no_backpack eyes_open_neutral as Aliya at duty_free_aliya_pos with dissolve:
         zoom 0.75*SCALE
 
     show cg_screen_phone_time_day4_afternoon_airport_duty_free as cg_screen_phone with dissolve

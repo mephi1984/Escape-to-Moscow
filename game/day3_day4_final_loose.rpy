@@ -113,7 +113,7 @@ label day3_and_day4_final_loose:
 
     "Я взялся помочь и, кажется, всё испортил." with dissolve
 
-    show Aliya stand_half_turned_eyes_open_surprised zorder 1 with dissolve:
+    show Aliya_stand_half_turned eyes_open_surprised zorder 1 with dissolve:
         xalign 0.5
         yalign -0.1
         zoom 0.75*SCALE

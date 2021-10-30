@@ -22,557 +22,289 @@ image aliya_anim:
 image semyon_credits:
     "day4_airport/semyon_credits.png"
 
-layeredimage Aliya:
+layeredimage Aliya_stand_straight:
+
+    group cloth:
+        attribute jacket default:
+            "sprites/Aliya/Pose1/base.png"
+        attribute tshirt:
+            "sprites/Aliya/Pose1/base_tshirt.png"
 
     group emotion:
+        pos (390, 297)
+        attribute eyes_open_angry:
+            "sprites/Aliya/Pose1/face_angry.png"
 
-        attribute stand_straight_eyes_closed_neutral:
-            "sprites/Aliya/Pose1/norm.png"
+        attribute eyes_closed_neutral:
+            "sprites/Aliya/Pose1/face_norm.png"
 
-        attribute stand_straight_eyes_open_neutral:
-            "sprites/Aliya/Pose1/norm2.png"
+        attribute eyes_open_neutral:
+            "sprites/Aliya/Pose1/face_norm2.png"
 
-        attribute stand_straight_eyes_closed_sad:
-            "sprites/Aliya/Pose1/sad.png"
+        attribute eyes_closed_sad:
+            "sprites/Aliya/Pose1/face_sad.png"
 
-        attribute stand_straight_eyes_closed_annoyed:
-            "sprites/Aliya/Pose1/annoyed.png"
+        attribute eyes_closed_annoyed:
+            "sprites/Aliya/Pose1/face_annoyed.png"
 
-        attribute stand_straight_eyes_open_happy:
-            "sprites/Aliya/Pose1/happy.png"
+        attribute eyes_open_happy:
+            "sprites/Aliya/Pose1/face_happy.png"
 
-        attribute stand_straight_eyes_closed_grin:
-            "sprites/Aliya/Pose1/happy2.png"
+        attribute eyes_closed_grin:
+            "sprites/Aliya/Pose1/face_happy2.png"
 
-        attribute stand_straight_eyes_closed_smile:
-            "sprites/Aliya/Pose1/smile.png"
+        attribute eyes_closed_smile:
+            "sprites/Aliya/Pose1/face_smile.png"
 
-        attribute stand_straight_eyes_open_smile:
-            "sprites/Aliya/Pose1/smile2.png"
+        attribute eyes_open_smile:
+            "sprites/Aliya/Pose1/face_smile2.png"
 
-        attribute stand_straight_eyes_open_surprised:
-            "sprites/Aliya/Pose1/surprised.png"
+        attribute eyes_open_surprised:
+            "sprites/Aliya/Pose1/face_surprised.png"
 
-        attribute stand_straight_eyes_open_playful:
-            "sprites/Aliya/Pose1/playful.png"
+        attribute eyes_open_playful:
+            "sprites/Aliya/Pose1/face_playful.png"
 
-        attribute stand_straight_eyes_open_angry:
-            "sprites/Aliya/Pose1/angry.png"
+        attribute eyes_open_angry:
+            "sprites/Aliya/Pose1/face_angry.png"
 
-        attribute stand_straight_eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose1/angry2.png"
+        attribute eyes_open_angry_open_mouth:
+            "sprites/Aliya/Pose1/face_angry2.png"
 
+        attribute eyes_open_cry_sad_smile:
+            "sprites/Aliya/Pose1/face_cry_sad.png"
 
+        attribute eyes_open_cry_sad2:
+            "sprites/Aliya/Pose1/face_cry_sad2.png"
 
-        #those are new:
+        attribute eyes_open_cry_sad3:
+            "sprites/Aliya/Pose1/face_cry_sad3.png"
 
-        attribute stand_straight_eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose1/cry_sad.png"
+        attribute eyes_open_sad_smile:
+            "sprites/Aliya/Pose1/face_sad_smile.png"
 
-        attribute stand_straight_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose1/cry_sad2.png"
+        attribute eyes_closed_sad_worried_open_mouth:
+            "sprites/Aliya/Pose1/face_sad2.png"
 
-        attribute stand_straight_eyes_open_cry_sad3:
-            "sprites/Aliya/Pose1/cry_sad3.png"
+        attribute eyes_open_sad_worried_open_mouth:
+            "sprites/Aliya/Pose1/face_sad3.png"
 
-        attribute stand_straight_eyes_open_sad_smile:
-            "sprites/Aliya/Pose1/sad_smile.png"
+        attribute eyes_open_sad_worried:
+            "sprites/Aliya/Pose1/face_sad4.png"
 
-        attribute stand_straight_eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose1/sad2.png"
+        attribute eyes_open_sad_worried_question:
+            "sprites/Aliya/Pose1/face_sad5.png"
 
-        attribute stand_straight_eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose1/sad3.png"
+        attribute eyes_open_sad_much:
+            "sprites/Aliya/Pose1/face_sad6.png"
 
-        attribute stand_straight_eyes_open_sad_worried:
-            "sprites/Aliya/Pose1/sad4.png"
+        attribute eyes_open_shock:
+            "sprites/Aliya/Pose1/face_shock.png"
 
-        attribute stand_straight_eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose1/sad5.png"
+        attribute eyes_open_surprised_happy:
+            "sprites/Aliya/Pose1/face_surprised_happy.png"
 
-        attribute stand_straight_eyes_open_sad_much:
-            "sprites/Aliya/Pose1/sad6.png"
+        attribute mask_eyes_closed_neutral:
+            "sprites/Aliya/Pose1/mask1/face_mask_norm.png"
 
-        attribute stand_straighteyes_open_shock:
-            "sprites/Aliya/Pose1/shock.png"
+        attribute mask_eyes_open_neutral:
+            "sprites/Aliya/Pose1/mask1/face_mask_norm2.png"
 
-        attribute stand_straight_eyes_open_surprised_happy:
-            "sprites/Aliya/Pose1/surprised_happy.png"
+        attribute mask_eyes_open_angry:
+            "sprites/Aliya/Pose1/mask1/face_mask_angry.png"
 
+        attribute mask_eyes_closed_annoyed:
+            "sprites/Aliya/Pose1/mask1/face_mask_annoyed.png"
 
-        # Mask
+        attribute mask_eyes_open_cry_sad:
+            "sprites/Aliya/Pose1/mask1/face_mask_cry_sad.png"
 
-        attribute stand_straight_mask_eyes_closed_neutral:
-            "sprites/Aliya/Pose1/mask1/mask_norm.png"
+        attribute mask_eyes_open_cry_sad2:
+            "sprites/Aliya/Pose1/mask1/face_mask_cry_sad2.png"
 
-        attribute stand_straight_mask_eyes_open_neutral:
-            "sprites/Aliya/Pose1/mask1/mask_norm2.png"
+        attribute mask_eyes_open_playful:
+            "sprites/Aliya/Pose1/mask1/face_mask_playful.png"
 
-        attribute stand_straight_mask_eyes_open_angry:
-            "sprites/Aliya/Pose1/mask1/mask_angry.png"
+        attribute mask_eyes_closed_sad:
+            "sprites/Aliya/Pose1/mask1/face_mask_sad.png"
 
-        attribute stand_straight_mask_eyes_closed_annoyed:
-            "sprites/Aliya/Pose1/mask1/mask_annoyed.png"
+        attribute mask_eyes_open_sad_smile:
+            "sprites/Aliya/Pose1/mask1/face_mask_sad_smile.png"
 
-        attribute stand_straight_mask_eyes_open_cry_sad:
-            "sprites/Aliya/Pose1/mask1/mask_cry_sad.png"
+        attribute mask_eyes_open_sad2:
+            "sprites/Aliya/Pose1/mask1/face_mask_sad2.png"
 
-        attribute stand_straight_mask_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose1/mask1/mask_cry_sad2.png"
+        attribute mask_eyes_open_sad3:
+            "sprites/Aliya/Pose1/mask1/face_mask_sad3.png"
 
-        attribute stand_straight_mask_eyes_open_playful:
-            "sprites/Aliya/Pose1/mask1/mask_playful.png"
+        attribute mask_eyes_open_sad4:
+            "sprites/Aliya/Pose1/mask1/face_mask_sad4.png"
 
+        attribute mask_eyes_open_shock:
+            "sprites/Aliya/Pose1/mask1/face_mask_shock.png"
 
-        attribute stand_straight_mask_eyes_closed_sad:
-            "sprites/Aliya/Pose1/mask1/mask_sad.png"
+        attribute mask_eyes_closed_smile:
+            "sprites/Aliya/Pose1/mask1/face_mask_smile.png"
 
-        attribute stand_straight_mask_eyes_open_sad_smile:
-            "sprites/Aliya/Pose1/mask1/mask_sad_smile.png"
+        attribute mask_eyes_open_surprised:
+            "sprites/Aliya/Pose1/mask1/face_mask_surprised.png"
 
-        attribute stand_straight_mask_eyes_open_sad2:
-            "sprites/Aliya/Pose1/mask1/mask_sad2.png"
+layeredimage Aliya_stand_half_turned:
 
-        attribute stand_straight_mask_eyes_open_sad3:
-            "sprites/Aliya/Pose1/mask1/mask_sad3.png"
+    group cloth:
+        attribute jacket default:
+            "sprites/Aliya/Pose2/base.png"
+        attribute jacket_armsdown:
+            "sprites/Aliya/Pose2/base_armsdown.png"
+        attribute jacket_armsdown_light:
+            "sprites/Aliya/Pose2/base_armsdown_light.png"
+        attribute tshirt:
+            "sprites/Aliya/Pose2/base_tshirt.png"
 
-        attribute stand_straight_mask_eyes_open_sad4:
-            "sprites/Aliya/Pose1/mask1/mask_sad4.png"
+    group emotion:
+        pos (450, 309)
 
-        attribute stand_straight_mask_eyes_open_shock:
-            "sprites/Aliya/Pose1/mask1/mask_shock.png"
+        attribute eyes_closed_neutral:
+            "sprites/Aliya/Pose2/face_norm.png"
 
-        attribute stand_straight_mask_eyes_closed_smile:
-            "sprites/Aliya/Pose1/mask1/mask_smile.png"
+        attribute eyes_open_neutral:
+            "sprites/Aliya/Pose2/face_norm2.png"
 
-        attribute stand_straight_mask_eyes_open_surprised:
-            "sprites/Aliya/Pose1/mask1/mask_surprised.png"
+        attribute eyes_closed_sad:
+            "sprites/Aliya/Pose2/face_sad.png"
 
+        attribute eyes_closed_annoyed:
+            "sprites/Aliya/Pose2/face_annoyed.png"
 
-        # Half_tuned
+        attribute eyes_open_happy:
+            "sprites/Aliya/Pose2/face_happy.png"
 
-        attribute stand_half_turned_eyes_closed_neutral:
-            "sprites/Aliya/Pose2/norm.png"
+        attribute eyes_closed_grin:
+            "sprites/Aliya/Pose2/face_happy2.png"
 
-        attribute stand_half_turned_eyes_open_neutral:
-            "sprites/Aliya/Pose2/norm2.png"
+        attribute eyes_closed_smile:
+            "sprites/Aliya/Pose2/face_smile.png"
 
-        attribute stand_half_turned_eyes_closed_sad:
-            "sprites/Aliya/Pose2/sad.png"
+        attribute eyes_open_smile:
+            "sprites/Aliya/Pose2/face_smile2.png"
 
-        attribute stand_half_turned_eyes_closed_annoyed:
-            "sprites/Aliya/Pose2/annoyed.png"
+        attribute eyes_open_surprised:
+            "sprites/Aliya/Pose2/face_surprised.png"
 
-        attribute stand_half_turned_eyes_open_happy:
-            "sprites/Aliya/Pose2/happy.png"
+        attribute eyes_open_playful:
+            "sprites/Aliya/Pose2/face_playful.png"
 
-        attribute stand_half_turned_eyes_closed_grin:
-            "sprites/Aliya/Pose2/happy2.png"
+        attribute eyes_open_angry:
+            "sprites/Aliya/Pose2/face_angry.png"
 
-        attribute stand_half_turned_eyes_closed_smile:
-            "sprites/Aliya/Pose2/smile.png"
+        attribute eyes_open_angry_open_mouth:
+            "sprites/Aliya/Pose2/face_angry2.png"
 
-        attribute stand_half_turned_eyes_open_smile:
-            "sprites/Aliya/Pose2/smile2.png"
+        attribute eyes_open_shock:
+            "sprites/Aliya/Pose2/face_shock.png"
 
-        attribute stand_half_turned_eyes_open_surprised:
-            "sprites/Aliya/Pose2/surprised.png"
+        attribute eyes_open_surprised_happy:
+            "sprites/Aliya/Pose2/face_surprised_happy.png"
 
-        attribute stand_half_turned_eyes_open_playful:
-            "sprites/Aliya/Pose2/playful.png"
+        attribute eyes_open_cry_sad_smile:
+            "sprites/Aliya/Pose2/face_cry_sad.png"
 
-        attribute stand_half_turned_eyes_open_angry:
-            "sprites/Aliya/Pose2/angry.png"
+        attribute eyes_open_cry_sad2:
+            "sprites/Aliya/Pose2/face_cry_sad2.png"
 
-        attribute stand_half_turned_eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose2/angry2.png"
+        attribute eyes_open_cry_sad3:
+            "sprites/Aliya/Pose2/face_cry_sad3.png"
 
-        attribute stand_half_turned_eyes_open_shock:
-            "sprites/Aliya/Pose2/shock.png"
+        attribute eyes_open_sad_smile:
+            "sprites/Aliya/Pose2/face_sad_smile.png"
 
-        attribute stand_half_turned_eyes_open_surprised_happy:
-            "sprites/Aliya/Pose2/surprised_happy.png"
+        attribute eyes_closed_sad_worried_open_mouth:
+            "sprites/Aliya/Pose2/face_sad2.png"
 
+        attribute eyes_open_sad_worried_open_mouth:
+            "sprites/Aliya/Pose2/face_sad3.png"
 
+        attribute eyes_open_sad_worried:
+            "sprites/Aliya/Pose2/face_sad4.png"
 
-        #those are new:
+        attribute eyes_open_sad_worried_question:
+            "sprites/Aliya/Pose2/face_sad5.png"
 
-        attribute stand_half_turned_eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose2/cry_sad.png"
+        attribute eyes_open_sad_much:
+            "sprites/Aliya/Pose2/face_sad6.png"
 
-        attribute stand_half_turned_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose2/cry_sad2.png"
+        attribute eyes_open_watching_phone:
+            "sprites/Aliya/Pose2/face_watching_phone.png"
 
-        attribute stand_half_turned_eyes_open_cry_sad3:
-            "sprites/Aliya/Pose2/cry_sad3.png"
+        attribute mask_eyes_closed_neutral:
+            "sprites/Aliya/Pose2/mask2/face_mask_norm.png"
 
-        attribute stand_half_turned_eyes_open_sad_smile:
-            "sprites/Aliya/Pose2/sad_smile.png"
+        attribute mask_eyes_open_neutral:
+            "sprites/Aliya/Pose2/mask2/face_mask_norm2.png"
 
-        attribute stand_half_turned_eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose2/sad2.png"
+        attribute mask_eyes_open_angry:
+            "sprites/Aliya/Pose2/mask2/face_mask_angry.png"
 
-        attribute stand_half_turned_eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose2/sad3.png"
+        attribute mask_eyes_closed_annoyed:
+            "sprites/Aliya/Pose2/mask2/face_mask_annoyed.png"
 
-        attribute stand_half_turned_eyes_open_sad_worried:
-            "sprites/Aliya/Pose2/sad4.png"
+        attribute mask_eyes_open_cry_sad:
+            "sprites/Aliya/Pose2/mask2/face_mask_cry_sad.png"
 
-        attribute stand_half_turned_eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose2/sad5.png"
+        attribute mask_eyes_open_cry_sad2:
+            "sprites/Aliya/Pose2/mask2/face_mask_cry_sad2.png"
 
-        attribute stand_half_turned_eyes_open_sad_much:
-            "sprites/Aliya/Pose2/sad6.png"
+        attribute mask_eyes_open_playful:
+            "sprites/Aliya/Pose2/mask2/face_mask_playful.png"
 
+        attribute mask_eyes_closed_sad:
+            "sprites/Aliya/Pose2/mask2/face_mask_sad.png"
 
-        # Half Turned Mask
+        attribute mask_eyes_open_sad_smile:
+            "sprites/Aliya/Pose2/mask2/face_mask_sad_smile.png"
 
-        attribute stand_half_turned_mask_eyes_closed_neutral:
-            "sprites/Aliya/Pose2/mask2/mask_norm.png"
+        attribute mask_eyes_open_sad2:
+            "sprites/Aliya/Pose2/mask2/face_mask_sad2.png"
 
-        attribute stand_half_turned_mask_eyes_open_neutral:
-            "sprites/Aliya/Pose2/mask2/mask_norm2.png"
+        attribute mask_eyes_open_sad3:
+            "sprites/Aliya/Pose2/mask2/face_mask_sad3.png"
 
-        attribute stand_half_turned_mask_eyes_open_angry:
-            "sprites/Aliya/Pose2/mask2/mask_angry.png"
+        attribute mask_eyes_open_sad4:
+            "sprites/Aliya/Pose2/mask2/face_mask_sad4.png"
 
-        attribute stand_half_turned_mask_eyes_closed_annoyed:
-            "sprites/Aliya/Pose2/mask2/mask_annoyed.png"
+        attribute mask_eyes_open_shock:
+            "sprites/Aliya/Pose2/mask2/face_mask_shock.png"
 
-        attribute stand_half_turned_mask_eyes_open_cry_sad:
-            "sprites/Aliya/Pose2/mask2/mask_cry_sad.png"
+        attribute mask_eyes_closed_smile:
+            "sprites/Aliya/Pose2/mask2/face_mask_smile.png"
 
-        attribute stand_half_turned_mask_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose2/mask2/mask_cry_sad2.png"
+        attribute mask_eyes_open_surprised:
+            "sprites/Aliya/Pose2/mask2/face_mask_surprised.png"
 
-        attribute stand_half_turned_mask_eyes_open_playful:
-            "sprites/Aliya/Pose2/mask2/mask_playful.png"
+    group mask:
+        pos (450, 309)
+        attribute no_mask:
+            "sprites/empty.png"
 
+        attribute extra_stand_half_turned2_mask:
+            "sprites/Aliya/Pose2/face_mask.png"
 
-        attribute stand_half_turned_mask_eyes_closed_sad:
-            "sprites/Aliya/Pose2/mask2/mask_sad.png"
 
-        attribute stand_half_turned_mask_eyes_open_sad_smile:
-            "sprites/Aliya/Pose2/mask2/mask_sad_smile.png"
+    group extras:
+        attribute extra_tshirt_stand_half_turned2_hand_phone:
+            "sprites/Aliya/Pose2/phone_tshirt.png"
 
-        attribute stand_half_turned_mask_eyes_open_sad2:
-            "sprites/Aliya/Pose2/mask2/mask_sad2.png"
+        attribute no_extra:
+            "sprites/empty.png"
 
-        attribute stand_half_turned_mask_eyes_open_sad3:
-            "sprites/Aliya/Pose2/mask2/mask_sad3.png"
+        attribute extra_stand_half_turned2_phone:
+            "sprites/Aliya/Pose2/phone.png"
 
-        attribute stand_half_turned_mask_eyes_open_sad4:
-            "sprites/Aliya/Pose2/mask2/mask_sad4.png"
 
-        attribute stand_half_turned_mask_eyes_open_shock:
-            "sprites/Aliya/Pose2/mask2/mask_shock.png"
-
-        attribute stand_half_turned_mask_eyes_closed_smile:
-            "sprites/Aliya/Pose2/mask2/mask_smile.png"
-
-        attribute stand_half_turned_mask_eyes_open_surprised:
-            "sprites/Aliya/Pose2/mask2/mask_surprised.png"
-
-
-        # Jacket half turned 2
-
-        attribute stand_half_turned2_eyes_closed_neutral:
-            "sprites/Aliya/Pose3/norm.png"
-
-        attribute stand_half_turned2_eyes_open_neutral:
-            "sprites/Aliya/Pose3/norm2.png"
-
-        attribute stand_half_turned2_eyes_closed_sad:
-            "sprites/Aliya/Pose3/sad.png"
-
-        attribute stand_half_turned2_eyes_closed_annoyed:
-            "sprites/Aliya/Pose3/annoyed.png"
-
-        attribute stand_half_turned2_eyes_open_happy:
-            "sprites/Aliya/Pose3/happy.png"
-
-        attribute stand_half_turned2_eyes_closed_grin:
-            "sprites/Aliya/Pose3/happy2.png"
-
-        attribute stand_half_turned2_eyes_closed_smile:
-            "sprites/Aliya/Pose3/smile.png"
-
-        attribute stand_half_turned2_eyes_open_smile:
-            "sprites/Aliya/Pose3/smile2.png"
-
-        attribute stand_half_turned2_eyes_open_surprised:
-            "sprites/Aliya/Pose3/surprised.png"
-
-        attribute stand_half_turned2_eyes_open_playful:
-            "sprites/Aliya/Pose3/playful.png"
-
-        attribute stand_half_turned2_eyes_open_angry:
-            "sprites/Aliya/Pose3/angry.png"
-
-        attribute stand_half_turned2_eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose3/angry2.png"
-
-        attribute stand_half_turned2_eyes_open_shock:
-            "sprites/Aliya/Pose3/shock.png"
-
-        attribute stand_half_turned2_eyes_open_surprised_happy:
-            "sprites/Aliya/Pose3/surprised_happy.png"
-
-        attribute stand_half_turned2_eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose3/cry_sad.png"
-
-        attribute stand_half_turned2_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose3/cry_sad2.png"
-
-        attribute stand_half_turned2_eyes_open_cry_sad3:
-            "sprites/Aliya/Pose3/cry_sad3.png"
-
-        attribute stand_half_turned2_eyes_open_sad_smile:
-            "sprites/Aliya/Pose3/sad_smile.png"
-
-        attribute stand_half_turned2_eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose3/sad2.png"
-
-        attribute stand_half_turned2_eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose3/sad3.png"
-
-        attribute stand_half_turned2_eyes_open_sad_worried:
-            "sprites/Aliya/Pose3/sad4.png"
-
-        attribute stand_half_turned2_eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose3/sad5.png"
-
-        attribute stand_half_turned2_eyes_open_sad_much:
-            "sprites/Aliya/Pose3/sad6.png"
-
-        attribute stand_half_turned2_eyes_open_watching_phone:
-            "sprites/Aliya/Pose3/watching_phone.png"
-
-
-        # Jacket half turned no backpack
-
-        attribute stand_half_turned2_no_backpack_eyes_closed_neutral:
-            "sprites/Aliya/Pose3 no backpack/norm.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_neutral:
-            "sprites/Aliya/Pose3 no backpack/norm2.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_closed_sad:
-            "sprites/Aliya/Pose3 no backpack/sad.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_closed_annoyed:
-            "sprites/Aliya/Pose3 no backpack/annoyed.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_happy:
-            "sprites/Aliya/Pose3 no backpack/happy.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_closed_grin:
-            "sprites/Aliya/Pose3 no backpack/happy2.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_closed_smile:
-            "sprites/Aliya/Pose3 no backpack/smile.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_smile:
-            "sprites/Aliya/Pose3 no backpack/smile2.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_surprised:
-            "sprites/Aliya/Pose3 no backpack/surprised.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_playful:
-            "sprites/Aliya/Pose3 no backpack/playful.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_angry:
-            "sprites/Aliya/Pose3 no backpack/angry.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose3 no backpack/angry2.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_shock:
-            "sprites/Aliya/Pose3 no backpack/shock.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_surprised_happy:
-            "sprites/Aliya/Pose3 no backpack/surprised_happy.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose3 no backpack/cry_sad.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose3 no backpack/cry_sad2.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_cry_sad3:
-            "sprites/Aliya/Pose3 no backpack/cry_sad3.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_sad_smile:
-            "sprites/Aliya/Pose3 no backpack/sad_smile.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose3 no backpack/sad2.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose3 no backpack/sad3.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_sad_worried:
-            "sprites/Aliya/Pose3 no backpack/sad4.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose3/sad5.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_sad_much:
-            "sprites/Aliya/Pose3 no backpack/sad6.png"
-
-        attribute stand_half_turned2_no_backpack_eyes_open_watching_phone:
-            "sprites/Aliya/Pose3 no backpack/watching_phone.png"
-
-
-
-        # TShirt stand straight
-
-        attribute tshirt_stand_straight_eyes_closed_neutral:
-            "sprites/Aliya/Pose1.1/norm.png"
-
-        attribute tshirt_stand_straight_eyes_open_neutral:
-            "sprites/Aliya/Pose1.1/norm2.png"
-
-        attribute tshirt_stand_straight_eyes_closed_sad:
-            "sprites/Aliya/Pose1.1/sad.png"
-
-        attribute tshirt_stand_straight_eyes_closed_annoyed:
-            "sprites/Aliya/Pose1.1/annoyed.png"
-
-        attribute tshirt_stand_straight_eyes_open_happy:
-            "sprites/Aliya/Pose1.1/happy.png"
-
-        attribute tshirt_stand_straight_eyes_closed_grin:
-            "sprites/Aliya/Pose1.1/happy2.png"
-
-        attribute tshirt_stand_straight_eyes_closed_smile:
-            "sprites/Aliya/Pose1.1/smile.png"
-
-        attribute tshirt_stand_straight_eyes_open_smile:
-            "sprites/Aliya/Pose1.1/smile2.png"
-
-        attribute tshirt_stand_straight_eyes_open_surprised:
-            "sprites/Aliya/Pose1.1/surprised.png"
-
-        attribute tshirt_stand_straight_eyes_open_playful:
-            "sprites/Aliya/Pose1.1/playful.png"
-
-        attribute tshirt_stand_straight_eyes_open_angry:
-            "sprites/Aliya/Pose1.1/angry.png"
-
-        attribute tshirt_stand_straight_eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose1.1/angry2.png"
-
-        attribute tshirt_stand_straight_eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose1.1/cry_sad.png"
-
-        attribute tshirt_stand_straight_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose1.1/cry_sad2.png"
-
-        attribute tshirt_stand_straight_eyes_open_cry_sad3:
-            "sprites/Aliya/Pose1.1/cry_sad3.png"
-
-        attribute tshirt_stand_straight_eyes_open_sad_smile:
-            "sprites/Aliya/Pose1.1/sad_smile.png"
-
-        attribute tshirt_stand_straight_eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose1.1/sad2.png"
-
-        attribute tshirt_stand_straight_eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose1.1/sad3.png"
-
-        attribute tshirt_stand_straight_eyes_open_sad_worried:
-            "sprites/Aliya/Pose1.1/sad4.png"
-
-        attribute tshirt_stand_straight_eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose1.1/sad5.png"
-
-        attribute tshirt_stand_straight_eyes_open_sad_much:
-            "sprites/Aliya/Pose1.1/sad6.png"
-
-        attribute tshirt_stand_straighteyes_open_shock:
-            "sprites/Aliya/Pose1.1/shock.png"
-
-        attribute tshirt_stand_straight_eyes_open_surprised_happy:
-            "sprites/Aliya/Pose1.1/surprised_happy.png"
-
-
-        # TShirt stand half_turned2
-
-        attribute tshirt_stand_half_turned2_eyes_closed_neutral:
-            "sprites/Aliya/Pose3.1/norm.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_neutral:
-            "sprites/Aliya/Pose3.1/norm2.png"
-
-        attribute tshirt_stand_half_turned2_eyes_closed_sad:
-            "sprites/Aliya/Pose3.1/sad.png"
-
-        attribute tshirt_stand_half_turned2_eyes_closed_annoyed:
-            "sprites/Aliya/Pose3.1/annoyed.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_happy:
-            "sprites/Aliya/Pose3.1/happy.png"
-
-        attribute tshirt_stand_half_turned2_eyes_closed_grin:
-            "sprites/Aliya/Pose3.1/happy2.png"
-
-        attribute tshirt_stand_half_turned2_eyes_closed_smile:
-            "sprites/Aliya/Pose3.1/smile.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_smile:
-            "sprites/Aliya/Pose3.1/smile2.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_surprised:
-            "sprites/Aliya/Pose3.1/surprised.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_playful:
-            "sprites/Aliya/Pose3.1/playful.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_angry:
-            "sprites/Aliya/Pose3.1/angry.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose3.1/angry2.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose3.1/cry_sad.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_cry_sad2:
-            "sprites/Aliya/Pose3.1/cry_sad2.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_cry_sad3:
-            "sprites/Aliya/Pose3.1/cry_sad3.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_sad_smile:
-            "sprites/Aliya/Pose3.1/sad_smile.png"
-
-        attribute tshirt_stand_half_turned2_eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose3.1/sad2.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose3.1/sad3.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_sad_worried:
-            "sprites/Aliya/Pose3.1/sad4.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose3.1/sad5.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_sad_much:
-            "sprites/Aliya/Pose3.1/sad6.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_shock:
-            "sprites/Aliya/Pose3.1/shock.png"
-
-        attribute tshirt_stand_half_turned2_eyes_open_surprised_happy:
-            "sprites/Aliya/Pose3.1/surprised_happy.png"
-
-        attribute tshirt_stand_half_turned2_watching_phone:
-            "sprites/Aliya/Pose3.1/surprised_happy.png"
+layeredimage Aliya:
 
         # Specials:
-
+    group pose:
         attribute special_phone_listen:
             "sprites/Aliya/phone_listen.png"
 
@@ -618,11 +350,7 @@ layeredimage Aliya:
         attribute special_jacket_mask_wear:
             "sprites/Aliya/jacket_mask_wear.png"
 
-
-
-
     group mask:
-
         attribute no_mask:
             "sprites/empty.png"
 
@@ -827,259 +555,118 @@ layeredimage aliya_sit_meal_jacket:
             "eating/phone.png"
 
 
-layeredimage aliya_sit_front:
-    group pose:
+layeredimage aliya_sit_front_hands_aside:
+    always:
+        "sprites/Aliya/Sitting1/base.png"
+
+    group emotion:
+        pos (798, 126)
 
         attribute eyes_closed_neutral:
-            "sprites/Aliya/Sitting1/norm.png"
+            "sprites/Aliya/Sitting1/face_norm.png"
 
         attribute eyes_open_neutral:
-            "sprites/Aliya/Sitting1/norm2.png"
+            "sprites/Aliya/Sitting1/face_norm2.png"
 
         attribute eyes_closed_sad:
-            "sprites/Aliya/Sitting1/sad.png"
+            "sprites/Aliya/Sitting1/face_sad.png"
 
         attribute eyes_closed_annoyed:
-            "sprites/Aliya/Sitting1/annoyed.png"
-
-        attribute eyes_open_happy:
-            "sprites/Aliya/Sitting1/happy.png"
-
-        attribute eyes_closed_grin:
-            "sprites/Aliya/Sitting1/happy2.png"
+            "sprites/Aliya/Sitting1/face_annoyed.png"
 
         attribute eyes_closed_smile:
-            "sprites/Aliya/Sitting1/smile.png"
+            "sprites/Aliya/Sitting1/face_smile.png"
 
         attribute eyes_open_smile:
-            "sprites/Aliya/Sitting1/smile2.png"
+            "sprites/Aliya/Sitting1/face_smile2.png"
 
-        attribute eyes_open_surprised:
-            "sprites/Aliya/Sitting1/surprised.png"
+        # ??? Never used
+        #attribute eyes_open_surprised:
+        #    "sprites/Aliya/Sitting1/face_surprised.png"
 
         attribute eyes_open_playful:
-            "sprites/Aliya/Sitting1/playful.png"
+            "sprites/Aliya/Sitting1/face_playful.png"
 
         attribute eyes_open_angry:
-            "sprites/Aliya/Sitting1/angry.png"
-
-        attribute eyes_open_angry_open_mouth:
-            "sprites/Aliya/Sitting1/angry2.png"
-
-        attribute eyes_open_shock:
-            "sprites/Aliya/Sitting1/shock.png"
-
-        attribute eyes_open_surprised_happy:
-            "sprites/Aliya/Sitting1/surprised_happy.png"
-
-        attribute eyes_open_cry_sad_smile:
-            "sprites/Aliya/Sitting1/cry_sad.png"
-
-        attribute eyes_open_cry_sad2:
-            "sprites/Aliya/Sitting1/cry_sad2.png"
-
-        attribute eyes_open_cry_sad3:
-            "sprites/Aliya/Sitting1/cry_sad3.png"
-
-        attribute eyes_open_sad_smile:
-            "sprites/Aliya/Sitting1/sad_smile.png"
-
-        attribute eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting1/sad2.png"
-
-        attribute eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting1/sad3.png"
-
-        attribute eyes_open_sad_worried:
-            "sprites/Aliya/Sitting1/sad4.png"
-
-        attribute eyes_open_sad_worried_question:
-            "sprites/Aliya/Sitting1/sad5.png"
-
-        attribute eyes_open_sad_much:
-            "sprites/Aliya/Sitting1/sad6.png"
+            "sprites/Aliya/Sitting1/face_angry.png"
 
         attribute eyes_open_thinking_hands_outside:
-            "sprites/Aliya/Sitting1/thinking.png"
+            "sprites/Aliya/Sitting1/face_thinking.png"
+
+        # ??? Never used
+        #attribute eyes_open_angry_open_mouth:
+        #    "sprites/Aliya/Sitting1/face_angry2.png"
+
+        # ??? Never used
+        #attribute eyes_open_shock:
+        #    "sprites/Aliya/Sitting1/face_shock.png"
+
+        # ??? Never used
+        #attribute eyes_open_surprised_happy:
+        #    "sprites/Aliya/Sitting1/face_surprised_happy.png"
+
+
+layeredimage aliya_sit_front_hands_together:
+    always:
+        "sprites/Aliya/Sitting1/alt/base.png"
+
+    group emotion:
+        pos (830, 126)
+
+        attribute eyes_open_happy:
+            "sprites/Aliya/Sitting1/alt/face_happy.png"
+
+        attribute eyes_closed_grin:
+            "sprites/Aliya/Sitting1/alt/face_happy2.png"
+
+        # ??? Never used
+        #attribute eyes_open_cry_sad_smile:
+        #    "sprites/Aliya/Sitting1/alt/face_cry_sad.png"
+
+        attribute eyes_open_cry_sad2:
+            "sprites/Aliya/Sitting1/alt/face_cry_sad2.png"
+
+        # ??? Never used
+        #attribute eyes_open_cry_sad3:
+        #    "sprites/Aliya/Sitting1/alt/face_cry_sad3.png"
+
+        attribute eyes_open_sad_smile:
+            "sprites/Aliya/Sitting1/alt/face_sad_smile.png"
+
+        attribute eyes_closed_sad_worried_open_mouth:
+            "sprites/Aliya/Sitting1/alt/face_sad2.png"
+
+        attribute eyes_open_sad_worried_open_mouth:
+            "sprites/Aliya/Sitting1/alt/face_sad3.png"
+
+        attribute eyes_open_sad_worried:
+            "sprites/Aliya/Sitting1/alt/face_sad4.png"
+
+        # ??? Never used
+        attribute eyes_open_sad_worried_question:
+            "sprites/Aliya/Sitting1/alt/face_sad5.png"
+
+        # ??? Never used
+        #attribute eyes_open_sad_much:
+        #    "sprites/Aliya/Sitting1/alt/face_sad6.png"
 
         attribute eyes_open_thinking_hands_inside:
-            "sprites/Aliya/Sitting1/thinking2.png"
+            "sprites/Aliya/Sitting1/alt/face_thinking2.png"
 
 
-layeredimage aliya_sit_bench_phone:
+layeredimage aliya_sit_side:
     group pose:
+        attribute phone default:
+            "sprites/Aliya/Sitting2/bench/base.png"
 
-        attribute eyes_closed_neutral:
-            "sprites/Aliya/Sitting2/bench/norm.png"
+        attribute earphones:
+            "sprites/Aliya/Sitting2/bench/base_earphones.png"
 
-        attribute eyes_open_neutral:
-            "sprites/Aliya/Sitting2/bench/norm2.png"
+        attribute no_earphones:
+            "sprites/Aliya/Sitting2/bench/base_no_earphones.png"
 
-        attribute eyes_closed_sad:
-            "sprites/Aliya/Sitting2/bench/sad.png"
-
-        attribute eyes_closed_annoyed:
-            "sprites/Aliya/Sitting2/bench/annoyed.png"
-
-        attribute eyes_open_happy:
-            "sprites/Aliya/Sitting2/bench/happy.png"
-
-        attribute eyes_closed_grin:
-            "sprites/Aliya/Sitting2/bench/happy2.png"
-
-        attribute eyes_closed_smile:
-            "sprites/Aliya/Sitting2/bench/smile.png"
-
-        attribute eyes_open_smile:
-            "sprites/Aliya/Sitting2/bench/smile2.png"
-
-        attribute eyes_open_surprised:
-            "sprites/Aliya/Sitting2/bench/surprised.png"
-
-        attribute eyes_open_playful:
-            "sprites/Aliya/Sitting2/bench/playful.png"
-
-        attribute eyes_open_angry:
-            "sprites/Aliya/Sitting2/bench/angry.png"
-
-        attribute eyes_open_angry_open_mouth:
-            "sprites/Aliya/Sitting2/bench/angry2.png"
-
-        attribute eyes_open_shock:
-            "sprites/Aliya/Sitting2/bench/shock.png"
-
-        attribute eyes_open_surprised_happy:
-            "sprites/Aliya/Sitting2/bench/surprised_happy.png"
-
-        attribute eyes_open_cry_sad_smile:
-            "sprites/Aliya/Sitting2/bench/cry_sad.png"
-
-        attribute eyes_open_cry_sad2:
-            "sprites/Aliya/Sitting2/bench/cry_sad2.png"
-
-        attribute eyes_open_cry_sad3:
-            "sprites/Aliya/Sitting2/bench/cry_sad3.png"
-
-        attribute eyes_open_sad_smile:
-            "sprites/Aliya/Sitting2/bench/sad_smile.png"
-
-        attribute eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/bench/sad2.png"
-
-        attribute eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/bench/sad3.png"
-
-        attribute eyes_open_sad_worried:
-            "sprites/Aliya/Sitting2/bench/sad4.png"
-
-        attribute eyes_open_sad_worried_question:
-            "sprites/Aliya/Sitting2/bench/sad5.png"
-
-        attribute eyes_open_sad_much:
-            "sprites/Aliya/Sitting2/bench/sad6.png"
-
-        attribute eyes_open_talking:
-            "sprites/Aliya/Sitting2/bench/talking.png"
-
-        attribute eyes_open_watching_phone:
-            "sprites/Aliya/Sitting2/bench/watching_phone.png"
-
-        attribute eyes_open_watching_phone2:
-            "sprites/Aliya/Sitting2/bench/watching_phone2.png"
-
-        attribute eyes_open_watching_phone3:
-            "sprites/Aliya/Sitting2/bench/watching_phone3.png"
-
-        attribute eyes_open_watching_phone4:
-            "sprites/Aliya/Sitting2/bench/watching_phone4.png"
-
-        attribute eyes_open_watching_phone5:
-            "sprites/Aliya/Sitting2/bench/watching_phone5.png"
-
-
-    group mask:
-
-        attribute mask:
-            "sprites/Aliya/Sitting2/bench/mask.png"
-
-
-layeredimage aliya_sit_no_earphones:
-    group pose:
-
-        attribute eyes_closed_neutral:
-            "sprites/Aliya/Sitting2/airplane/sit/norm.png"
-
-        attribute eyes_open_neutral:
-            "sprites/Aliya/Sitting2/airplane/sit/norm2.png"
-
-        attribute eyes_closed_sad:
-            "sprites/Aliya/Sitting2/airplane/sit/sad.png"
-
-        attribute eyes_closed_annoyed:
-            "sprites/Aliya/Sitting2/airplane/sit/annoyed.png"
-
-        attribute eyes_open_happy:
-            "sprites/Aliya/Sitting2/airplane/sit/happy.png"
-
-        attribute eyes_closed_grin:
-            "sprites/Aliya/Sitting2/airplane/sit/happy2.png"
-
-        attribute eyes_closed_smile:
-            "sprites/Aliya/Sitting2/airplane/sit/smile.png"
-
-        attribute eyes_open_smile:
-            "sprites/Aliya/Sitting2/airplane/sit/smile2.png"
-
-        attribute eyes_open_surprised:
-            "sprites/Aliya/Sitting2/airplane/sit/surprised.png"
-
-        attribute eyes_open_playful:
-            "sprites/Aliya/Sitting2/airplane/sit/playful.png"
-
-        attribute eyes_open_angry:
-            "sprites/Aliya/Sitting2/airplane/sit/angry.png"
-
-        attribute eyes_open_angry_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit/angry2.png"
-
-        attribute eyes_open_shock:
-            "sprites/Aliya/Sitting2/airplane/sit/shock.png"
-
-        attribute eyes_open_surprised_happy:
-            "sprites/Aliya/Sitting2/airplane/sit/surprised_happy.png"
-
-        attribute eyes_open_cry_sad_smile:
-            "sprites/Aliya/Sitting2/airplane/sit/cry_sad.png"
-
-        attribute eyes_open_cry_sad2:
-            "sprites/Aliya/Sitting2/airplane/sit/cry_sad2.png"
-
-        attribute eyes_open_cry_sad3:
-            "sprites/Aliya/Sitting2/airplane/sit/cry_sad3.png"
-
-        attribute eyes_open_sad_smile:
-            "sprites/Aliya/Sitting2/airplane/sit/sad_smile.png"
-
-        attribute eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit/sad2.png"
-
-        attribute eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit/sad3.png"
-
-        attribute eyes_open_sad_worried:
-            "sprites/Aliya/Sitting2/airplane/sit/sad4.png"
-
-        attribute eyes_open_sad_worried_question:
-            "sprites/Aliya/Sitting2/airplane/sit/sad5.png"
-
-        attribute eyes_open_sad_much:
-            "sprites/Aliya/Sitting2/airplane/sit/sad6.png"
-
-        attribute eyes_open_talking:
-            "sprites/Aliya/Sitting2/airplane/sit/talking.png"
-
-        attribute eyes_open_watching:
-            "sprites/Aliya/Sitting2/airplane/sit/watching.png"
+        attribute book:
+            "sprites/Aliya/Sitting2/bench/base_book.png"
 
         attribute special_airplane_window:
             "sprites/Aliya/Sitting2/airplane/window.png"
@@ -1132,347 +719,203 @@ layeredimage aliya_sit_no_earphones:
         attribute special_airplane_phone:
             "sprites/Aliya/Sitting2/airplane/phone.png"
 
-    group mask:
 
-        attribute mask:
-            "sprites/Aliya/Sitting2/bench/mask.png"
-
-layeredimage aliya_sit:
-    group pose:
+    group emotion:
+        pos (332, 228)
+        attribute no_emotion_layer default:
+            "sprites/empty.png"
 
         attribute eyes_closed_neutral:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/norm.png"
+            "sprites/Aliya/Sitting2/bench/face_norm.png"
 
         attribute eyes_open_neutral:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/norm2.png"
+            "sprites/Aliya/Sitting2/bench/face_norm2.png"
 
         attribute eyes_closed_sad:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/sad.png"
+            "sprites/Aliya/Sitting2/bench/face_sad.png"
 
         attribute eyes_closed_annoyed:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/annoyed.png"
+            "sprites/Aliya/Sitting2/bench/face_annoyed.png"
 
         attribute eyes_open_happy:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/happy.png"
+            "sprites/Aliya/Sitting2/bench/face_happy.png"
 
         attribute eyes_closed_grin:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/happy2.png"
+            "sprites/Aliya/Sitting2/bench/face_happy2.png"
 
         attribute eyes_closed_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/smile.png"
+            "sprites/Aliya/Sitting2/bench/face_smile.png"
 
         attribute eyes_open_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/smile2.png"
+            "sprites/Aliya/Sitting2/bench/face_smile2.png"
 
         attribute eyes_open_surprised:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/surprised.png"
+            "sprites/Aliya/Sitting2/bench/face_surprised.png"
 
         attribute eyes_open_playful:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/playful.png"
+            "sprites/Aliya/Sitting2/bench/face_playful.png"
 
         attribute eyes_open_angry:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/angry.png"
+            "sprites/Aliya/Sitting2/bench/face_angry.png"
 
         attribute eyes_open_angry_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/angry2.png"
+            "sprites/Aliya/Sitting2/bench/face_angry2.png"
 
         attribute eyes_open_shock:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/shock.png"
+            "sprites/Aliya/Sitting2/bench/face_shock.png"
 
         attribute eyes_open_surprised_happy:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/surprised_happy.png"
+            "sprites/Aliya/Sitting2/bench/face_surprised_happy.png"
 
         attribute eyes_open_cry_sad_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/cry_sad.png"
+            "sprites/Aliya/Sitting2/bench/face_cry_sad.png"
 
         attribute eyes_open_cry_sad2:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/cry_sad2.png"
+            "sprites/Aliya/Sitting2/bench/face_cry_sad2.png"
 
         attribute eyes_open_cry_sad3:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/cry_sad3.png"
+            "sprites/Aliya/Sitting2/bench/face_cry_sad3.png"
 
         attribute eyes_open_sad_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/sad_smile.png"
+            "sprites/Aliya/Sitting2/bench/face_sad_smile.png"
 
         attribute eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/sad2.png"
+            "sprites/Aliya/Sitting2/bench/face_sad2.png"
 
         attribute eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/sad3.png"
+            "sprites/Aliya/Sitting2/bench/face_sad3.png"
 
         attribute eyes_open_sad_worried:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/sad4.png"
+            "sprites/Aliya/Sitting2/bench/face_sad4.png"
 
         attribute eyes_open_sad_worried_question:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/sad5.png"
+            "sprites/Aliya/Sitting2/bench/face_sad5.png"
 
         attribute eyes_open_sad_much:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/sad6.png"
+            "sprites/Aliya/Sitting2/bench/face_sad6.png"
 
         attribute eyes_open_talking:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/talking.png"
+            "sprites/Aliya/Sitting2/bench/face_talking.png"
 
-        attribute eyes_open_watching:
-            "sprites/Aliya/Sitting2/airplane/sit_earphones/watching.png"
+        attribute eyes_open_watching_phone:
+            "sprites/Aliya/Sitting2/bench/face_watching_phone.png"
+
+        attribute eyes_open_watching_phone2:
+            "sprites/Aliya/Sitting2/bench/face_watching_phone2.png"
+
+        attribute eyes_open_watching_phone3:
+            "sprites/Aliya/Sitting2/bench/face_watching_phone3.png"
+
+        attribute eyes_open_watching_phone4:
+            "sprites/Aliya/Sitting2/bench/face_watching_phone4.png"
+
+        attribute eyes_open_watching_phone5:
+            "sprites/Aliya/Sitting2/bench/face_watching_phone5.png"
+
 
     group mask:
-
+        pos (332, 228)
         attribute mask:
-            "sprites/Aliya/Sitting2/bench/mask.png"
+            "sprites/Aliya/Sitting2/bench/face_mask.png"
 
-layeredimage aliya_sit_book:
-    group pose:
+        attribute no_mask default:
+            "sprites/empty.png"
 
-        attribute eyes_closed_neutral:
-            "sprites/Aliya/Sitting2/airplane/sit_book/norm.png"
-
-        attribute eyes_open_neutral:
-            "sprites/Aliya/Sitting2/airplane/sit_book/norm2.png"
-
-        attribute eyes_closed_sad:
-            "sprites/Aliya/Sitting2/airplane/sit_book/sad.png"
-
-        attribute eyes_closed_annoyed:
-            "sprites/Aliya/Sitting2/airplane/sit_book/annoyed.png"
-
-        attribute eyes_open_happy:
-            "sprites/Aliya/Sitting2/airplane/sit_book/happy.png"
-
-        attribute eyes_closed_grin:
-            "sprites/Aliya/Sitting2/airplane/sit_book/happy2.png"
-
-        attribute eyes_closed_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_book/smile.png"
-
-        attribute eyes_open_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_book/smile2.png"
-
-        attribute eyes_open_surprised:
-            "sprites/Aliya/Sitting2/airplane/sit_book/surprised.png"
-
-        attribute eyes_open_playful:
-            "sprites/Aliya/Sitting2/airplane/sit_book/playful.png"
-
-        attribute eyes_open_angry:
-            "sprites/Aliya/Sitting2/airplane/sit_book/angry.png"
-
-        attribute eyes_open_angry_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit_book/angry2.png"
-
-        attribute eyes_open_shock:
-            "sprites/Aliya/Sitting2/airplane/sit_book/shock.png"
-
-        attribute eyes_open_surprised_happy:
-            "sprites/Aliya/Sitting2/airplane/sit_book/surprised_happy.png"
-
-        attribute eyes_open_cry_sad_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_book/cry_sad.png"
-
-        attribute eyes_open_cry_sad2:
-            "sprites/Aliya/Sitting2/airplane/sit_book/cry_sad2.png"
-
-        attribute eyes_open_cry_sad3:
-            "sprites/Aliya/Sitting2/airplane/sit_book/cry_sad3.png"
-
-        attribute eyes_open_sad_smile:
-            "sprites/Aliya/Sitting2/airplane/sit_book/sad_smile.png"
-
-        attribute eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit_book/sad2.png"
-
-        attribute eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Sitting2/airplane/sit_book/sad3.png"
-
-        attribute eyes_open_sad_worried:
-            "sprites/Aliya/Sitting2/airplane/sit_book/sad4.png"
-
-        attribute eyes_open_sad_worried_question:
-            "sprites/Aliya/Sitting2/airplane/sit_book/sad5.png"
-
-        attribute eyes_open_sad_much:
-            "sprites/Aliya/Sitting2/airplane/sit_book/sad6.png"
-
-        attribute eyes_open_talking:
-            "sprites/Aliya/Sitting2/airplane/sit_book/talking.png"
 
 layeredimage aliya_turn_around:
-    group pose:
+    group cloth:
+        attribute backpack default:
+            "sprites/Aliya/Pose4/base.png"
+        attribute no_backpack:
+            "sprites/Aliya/Pose4/base_no_backpack.png"
 
+    group emotion:
+        pos (552, 358)
         attribute eyes_closed_neutral:
-            "sprites/Aliya/Pose4/norm.png"
+            "sprites/Aliya/Pose4/face_norm.png"
 
         attribute eyes_open_neutral:
-            "sprites/Aliya/Pose4/norm2.png"
+            "sprites/Aliya/Pose4/face_norm2.png"
 
         attribute eyes_closed_sad:
-            "sprites/Aliya/Pose4/sad.png"
+            "sprites/Aliya/Pose4/face_sad.png"
 
         attribute eyes_closed_annoyed:
-            "sprites/Aliya/Pose4/annoyed.png"
+            "sprites/Aliya/Pose4/face_annoyed.png"
 
         attribute eyes_open_happy:
-            "sprites/Aliya/Pose4/happy.png"
+            "sprites/Aliya/Pose4/face_happy.png"
 
         attribute eyes_closed_grin:
-            "sprites/Aliya/Pose4/happy2.png"
+            "sprites/Aliya/Pose4/face_happy2.png"
 
         attribute eyes_closed_smile:
-            "sprites/Aliya/Pose4/smile.png"
+            "sprites/Aliya/Pose4/face_smile.png"
 
         attribute eyes_open_smile:
-            "sprites/Aliya/Pose4/smile2.png"
+            "sprites/Aliya/Pose4/face_smile2.png"
 
         attribute eyes_open_surprised:
-            "sprites/Aliya/Pose4/surprised.png"
+            "sprites/Aliya/Pose4/face_surprised.png"
 
         attribute eyes_open_playful:
-            "sprites/Aliya/Pose4/playful.png"
+            "sprites/Aliya/Pose4/face_playful.png"
 
         attribute eyes_open_angry:
-            "sprites/Aliya/Pose4/angry.png"
+            "sprites/Aliya/Pose4/face_angry.png"
 
         attribute eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose4/angry2.png"
+            "sprites/Aliya/Pose4/face_angry2.png"
 
         attribute eyes_open_shock:
-            "sprites/Aliya/Pose4/shock.png"
+            "sprites/Aliya/Pose4/face_shock.png"
 
         attribute eyes_open_surprised_happy:
-            "sprites/Aliya/Pose4/surprised_happy.png"
+            "sprites/Aliya/Pose4/face_surprised_happy.png"
 
         attribute eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose4/cry_sad.png"
+            "sprites/Aliya/Pose4/face_cry_sad.png"
 
         attribute eyes_open_cry_sad2:
-            "sprites/Aliya/Pose4/cry_sad2.png"
+            "sprites/Aliya/Pose4/face_cry_sad2.png"
 
         attribute eyes_open_cry_sad3:
-            "sprites/Aliya/Pose4/cry_sad3.png"
+            "sprites/Aliya/Pose4/face_cry_sad3.png"
 
         attribute eyes_open_sad_smile:
-            "sprites/Aliya/Pose4/sad_smile.png"
+            "sprites/Aliya/Pose4/face_sad_smile.png"
 
         attribute eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose4/sad2.png"
+            "sprites/Aliya/Pose4/face_sad2.png"
 
         attribute eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose4/sad3.png"
+            "sprites/Aliya/Pose4/face_sad3.png"
 
         attribute eyes_open_sad_worried:
-            "sprites/Aliya/Pose4/sad4.png"
+            "sprites/Aliya/Pose4/face_sad4.png"
 
         attribute eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose4/sad5.png"
+            "sprites/Aliya/Pose4/face_sad5.png"
 
         attribute eyes_open_sad_much:
-            "sprites/Aliya/Pose4/sad6.png"
+            "sprites/Aliya/Pose4/face_sad6.png"
 
         attribute eyes_open_watching:
-            "sprites/Aliya/Pose4/watching.png"
+            "sprites/Aliya/Pose4/face_watching.png"
 
         attribute eyes_open_watching2:
-            "sprites/Aliya/Pose4/watching2.png"
+            "sprites/Aliya/Pose4/face_watching2.png"
 
         attribute eyes_open_watching3:
-            "sprites/Aliya/Pose4/watching3.png"
+            "sprites/Aliya/Pose4/face_watching3.png"
 
         attribute eyes_open_watching4:
-            "sprites/Aliya/Pose4/watching4.png"
+            "sprites/Aliya/Pose4/face_watching4.png"
 
     group mask:
-
+        pos (552, 358)
         attribute mask:
-            "sprites/Aliya/Pose4/mask.png"
-
-
-layeredimage aliya_turn_around_no_backpack:
-    group pose:
-
-        attribute eyes_closed_neutral:
-            "sprites/Aliya/Pose4 no backpack/norm.png"
-
-        attribute eyes_open_neutral:
-            "sprites/Aliya/Pose4 no backpack/norm2.png"
-
-        attribute eyes_closed_sad:
-            "sprites/Aliya/Pose4 no backpack/sad.png"
-
-        attribute eyes_closed_annoyed:
-            "sprites/Aliya/Pose4 no backpack/annoyed.png"
-
-        attribute eyes_open_happy:
-            "sprites/Aliya/Pose4 no backpack/happy.png"
-
-        attribute eyes_closed_grin:
-            "sprites/Aliya/Pose4 no backpack/happy2.png"
-
-        attribute eyes_closed_smile:
-            "sprites/Aliya/Pose4 no backpack/smile.png"
-
-        attribute eyes_open_smile:
-            "sprites/Aliya/Pose4 no backpack/smile2.png"
-
-        attribute eyes_open_surprised:
-            "sprites/Aliya/Pose4 no backpack/surprised.png"
-
-        attribute eyes_open_playful:
-            "sprites/Aliya/Pose4 no backpack/playful.png"
-
-        attribute eyes_open_angry:
-            "sprites/Aliya/Pose4 no backpack/angry.png"
-
-        attribute eyes_open_angry_open_mouth:
-            "sprites/Aliya/Pose4 no backpack/angry2.png"
-
-        attribute eyes_open_shock:
-            "sprites/Aliya/Pose4 no backpack/shock.png"
-
-        attribute eyes_open_surprised_happy:
-            "sprites/Aliya/Pose4 no backpack/surprised_happy.png"
-
-        attribute eyes_open_cry_sad_smile:
-            "sprites/Aliya/Pose4 no backpack/cry_sad.png"
-
-        attribute eyes_open_cry_sad2:
-            "sprites/Aliya/Pose4 no backpack/cry_sad2.png"
-
-        attribute eyes_open_cry_sad3:
-            "sprites/Aliya/Pose4 no backpack/cry_sad3.png"
-
-        attribute eyes_open_sad_smile:
-            "sprites/Aliya/Pose4 no backpack/sad_smile.png"
-
-        attribute eyes_closed_sad_worried_open_mouth:
-            "sprites/Aliya/Pose4 no backpack/sad2.png"
-
-        attribute eyes_open_sad_worried_open_mouth:
-            "sprites/Aliya/Pose4 no backpack/sad3.png"
-
-        attribute eyes_open_sad_worried:
-            "sprites/Aliya/Pose4 no backpack/sad4.png"
-
-        attribute eyes_open_sad_worried_question:
-            "sprites/Aliya/Pose4 no backpack/sad5.png"
-
-        attribute eyes_open_sad_much:
-            "sprites/Aliya/Pose4 no backpack/sad6.png"
-
-        attribute eyes_open_watching:
-            "sprites/Aliya/Pose4 no backpack/watching.png"
-
-        attribute eyes_open_watching2:
-            "sprites/Aliya/Pose4 no backpack/watching2.png"
-
-        attribute eyes_open_watching3:
-            "sprites/Aliya/Pose4 no backpack/watching3.png"
-
-        attribute eyes_open_watching4:
-            "sprites/Aliya/Pose4 no backpack/watching4.png"
-
-    group mask:
-
-        attribute mask:
-            "sprites/Aliya/Pose4/mask.png"
+            "sprites/Aliya/Pose4/face_mask.png"
 
 
 layeredimage aliya_airport:

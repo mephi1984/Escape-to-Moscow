@@ -17,7 +17,7 @@ label day3_metro:
 
     "Ладно, потом разберёмся. Сейчас нужно купить карту \"Тройка\"." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried_open_mouth at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "В кассу всегда такая большая очередь?" with dissolve
@@ -26,7 +26,7 @@ label day3_metro:
 
     me "Но я слышал, что карту тройка можно купить и в автомате." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_smile at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_smile as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Я хочу попробовать купить в автомате!" with dissolve
@@ -37,7 +37,7 @@ label day3_metro:
 
     hide Aliya with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_watching_phone at aliya_metro_buy_card_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_watching_phone as Aliya at aliya_metro_buy_card_pos with dissolve:
         zoom 0.6*SCALE
 
     aliya "Вот \"получить карту Тройка\", нажимаю сюда?" with dissolve
@@ -58,7 +58,7 @@ label day3_metro:
 
     "Алия бодро потыкала в сенсорный экран, затем скормила автомату две сотенные купюры. Автомат выдал в ответ маленькую синюю карточку." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried at aliya_metro_buy_card_straight_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried as Aliya at aliya_metro_buy_card_straight_pos with dissolve:
         zoom 0.6*SCALE
 
     "Затем Алия повернулась ко мне, взглянув вопросительно." with dissolve
@@ -67,7 +67,7 @@ label day3_metro:
 
     me "У меня уже есть, я бывал здесь раньше." with dissolve
 
-    show Aliya stand_straight_eyes_open_neutral at aliya_metro_buy_card_straight_pos with dissolve:
+    show Aliya_stand_straight eyes_open_neutral as Aliya at aliya_metro_buy_card_straight_pos with dissolve:
         zoom 0.6*SCALE
 
     aliya "Хорошо." with dissolve
@@ -94,7 +94,7 @@ label day3_metro_train:
     show metro_train at metro_scene_pos with dissolve:
         zoom 1.05
 
-    show Aliya stand_straight_eyes_open_neutral at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_neutral as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     "Мы вошли в вагон." with dissolve
@@ -115,12 +115,12 @@ label day3_metro_train:
 
     "Можно было даже спокойно говорить голосом." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried_open_mouth at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Куда мы пойдём теперь?" with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Сейчас посмотрю по карте." with dissolve
@@ -131,12 +131,12 @@ label day3_metro_train:
 
     me "Нам нужно перейти на станцию Марксистская, затем на выход номер 5." with dissolve
 
-    show Aliya stand_straight_eyes_closed_grin at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_closed_grin as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Хорошо." with dissolve
 
-    show Aliya stand_straight_eyes_open_smile at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Оттуда нужно будет идти вдоль по Таганской улице." with dissolve
@@ -192,7 +192,7 @@ label day3_taganskaya:
 
     scene taganskaya_street with dissolve
 
-    show aliya_turn_around eyes_open_watching at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     "Мы вышли из метро и шли вдоль Таганской улицы." with dissolve
@@ -215,7 +215,7 @@ label day3_taganskaya:
 
     "Алия прервала молчание." with dissolve
 
-    show aliya_turn_around eyes_open_happy at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_happy as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Здесь так красиво. Мне здесь нравится." with dissolve
@@ -224,7 +224,7 @@ label day3_taganskaya:
 
     me "Хотя если честно, в Москве есть места и покрасивее." with dissolve
 
-    show aliya_turn_around eyes_open_surprised_happy at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_surprised_happy as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Правда? Какие?" with dissolve
@@ -239,7 +239,7 @@ label day3_taganskaya:
 
     me "Мы можем посетить их завтра." with dissolve
 
-    show aliya_turn_around eyes_closed_smile at any_left_pos with dissolve:
+    show aliya_turn_around eyes_closed_smile as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Хорошо!" with dissolve
@@ -250,7 +250,7 @@ label day3_taganskaya:
 
     scene tagansky_park with dissolve
 
-    show aliya_turn_around eyes_open_smile at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_smile as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     "Вскоре мы свернули с улицы, и через дворы прошли в Таганский парк." with dissolve
@@ -263,7 +263,7 @@ label day3_taganskaya:
 
     me "Вот какое-то здание из стекла и пластика, возможно это он. Пойдём туда!" with dissolve
 
-    show aliya_turn_around eyes_open_cry_sad2 at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_cry_sad2 as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Я устала! Давай сядем отдохнём?" with dissolve
@@ -293,21 +293,21 @@ label day3_taganskaya_park_rest:
 
     scene tagansky_park_sit with dissolve
 
-    show aliya_sit eyes_open_watching as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_watching as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия внимательно наблюдала за посетителями парка." with dissolve
 
     "Высокие деревья приятно шелестели на ветру и скрывали нас от солнца." with dissolve
 
-    show aliya_sit eyes_open_sad_smile as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Здесь красиво." with dissolve
 
     me "Да, мне тоже тут нравится." with dissolve
 
-    show aliya_sit eyes_open_happy as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_happy as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Здесь не как в Пятигорске." with dissolve
@@ -318,17 +318,17 @@ label day3_taganskaya_park_rest:
 
     me "Тебе понравилось бы тут жить?" with dissolve
 
-    show aliya_sit eyes_open_sad_worried_open_mouth as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Наверное, да. Если честно, всё равно я буду скучать по Дагестану." with dissolve
 
-    show aliya_sit eyes_open_sad_worried as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     me "Да. Здесь город, а в Дагестане природа, горы, свежий воздух." with dissolve
 
-    show aliya_sit eyes_open_smile as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия посмотрела на меня и улыбнулась." with dissolve
@@ -345,41 +345,41 @@ label day3_taganskaya_park_rest:
 
     me "Ты смелая. Я бы побоялся заходить далеко в пустыню." with dissolve
 
-    show aliya_sit eyes_open_sad_worried_open_mouth as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Почему?" with dissolve
 
-    show aliya_sit eyes_open_sad_worried as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     me "Вдруг потеряюсь и так и умру в песках от жары и жажды." with dissolve
 
-    show aliya_sit eyes_closed_grin as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_closed_grin as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия усмехнулась." with dissolve
 
-    show aliya_sit eyes_open_happy as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_happy as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Да эта пустыня же маленькая! В ней невозможно заблудиться!" with dissolve
 
     me "Маленькая?" with dissolve
 
-    show aliya_sit eyes_open_smile as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Очень маленькая!" with dissolve
 
     aliya "Если приедешь в Дагестан, я тебе обязательно покажу!" with dissolve
 
-    show aliya_sit eyes_closed_smile as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_closed_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     me "Договорились!" with dissolve
 
-    show aliya_sit eyes_open_smile as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     show cg_screen_phone_shoot1_time as cg_screen_phone with dissolve
@@ -402,19 +402,19 @@ label day3_taganskaya_park_rest:
 
     show cg_screen_phone_aliya_photo1 as cg_screen_phone with dissolve
 
-    show aliya_sit eyes_open_happy as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_happy as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Ты что меня сфоткал?" with dissolve
 
-    show aliya_sit eyes_open_smile as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     $ hidePhone()
 
     me "Да..." with dissolve
 
-    show aliya_sit eyes_open_playful as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_playful as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Отправишь кому-нибудь - убью!" with dissolve
@@ -429,12 +429,12 @@ label day3_taganskaya_park_rest:
 
     scene tagansky_park_sit with dissolve
 
-    show aliya_sit eyes_open_smile as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     me "Нам пора идти. Отдохнула?" with dissolve
 
-    show aliya_sit eyes_open_sad_worried_open_mouth as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Да, можно идти дальше!" with dissolve
@@ -453,7 +453,7 @@ label day3_taganskaya_park_continue:
 
     "Внутри были магазин, в котором продавалась мусульманская одежда и аксессуары. Мы зашли внутрь." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried at any_right_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия нашла продавщицу и подошла к ней." with dissolve
@@ -461,12 +461,12 @@ label day3_taganskaya_park_continue:
     show saleswoman neutral at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
-    show Aliya stand_straight_eyes_open_sad_worried_open_mouth at any_right_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "У вас есть платье для намаза на мой размер?" with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_sad_worried at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     "Продавщица оценила Алию взглядом." with dissolve
@@ -529,7 +529,7 @@ label day3_taganskaya_park_continue:
 
     show tagansky_store as tagansky_store with dissolve
 
-    show Aliya special_dress_worried at any_right_pos with dissolve:
+    show Aliya special_dress_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия вышла из примерочной." with dissolve
@@ -538,13 +538,13 @@ label day3_taganskaya_park_continue:
 
     me "Тебе очень идёт!" with dissolve
 
-    show Aliya special_dress_eye_closed at any_right_pos with dissolve:
+    show Aliya special_dress_eye_closed as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
         alpha 1.0
 
     aliya "Спасибо!" with dissolve
 
-    show Aliya special_dress_smile at any_right_pos with dissolve:
+    show Aliya special_dress_smile as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
         alpha 1.0
 
@@ -566,7 +566,7 @@ label day3_taganskaya_park_continue:
         zoom 0.75*SCALE
         alpha 1.0
 
-    show Aliya special_dress_worried at any_right_pos with dissolve:
+    show Aliya special_dress_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
         alpha 1.0
 
@@ -620,7 +620,7 @@ label day3_taganskaya_park_continue:
 
     show tagansky_store as tagansky_store with dissolve
 
-    show Aliya stand_straight_eyes_open_smile at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Платье есть, коврик есть! Что ещё осталось?" with dissolve
@@ -629,19 +629,19 @@ label day3_taganskaya_park_continue:
 
     me "Ах да, я нашёл жильё. Мы будем снимать квартиру." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried_open_mouth at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Квартира далеко отсюда?" with dissolve
 
-    show Aliya stand_straight_eyes_open_neutral at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_open_neutral as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Да, нужно ехать на метро Бауманская." with dissolve
 
     me "Предлагаю поехать туда и там же в салоне сотовой связи сделать тебе сим-карту. Хорошо?" with dissolve
 
-    show Aliya stand_straight_eyes_closed_smile at any_center_pos with dissolve:
+    show Aliya_stand_straight eyes_closed_smile at any_center_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Да, пошли!" with dissolve
@@ -659,7 +659,7 @@ label day3_basmannaya_outside:
     show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
 
 
-    show aliya_turn_around eyes_open_watching at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     "Мы вышли из метро Бауманская и пошли к салону сотовой связи, следуя за проложенным по навигатору маршрутом." with dissolve
@@ -678,7 +678,7 @@ label day3_basmannaya_outside:
 
     me "Ты не хочешь есть?" with dissolve
 
-    show aliya_turn_around eyes_open_sad_worried at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Нет, не хочу." with dissolve
@@ -687,12 +687,12 @@ label day3_basmannaya_outside:
 
     me "Пока кулинария ещё открыта, можем купить салатик или выпечку." with dissolve
 
-    show aliya_turn_around eyes_open_sad_worried_open_mouth at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_sad_worried_open_mouth as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Хорошо." with dissolve
 
-    show aliya_turn_around eyes_open_sad_worried at any_left_pos with dissolve:
+    show aliya_turn_around eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     "Мы вошли." with dissolve
@@ -715,22 +715,22 @@ label day3_basmannaya_outside:
 
     me "Я возьму себе салат Цезарь и, две слойки с сыром. А чего бы тебе хотелось?" with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried at any_left_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Я, наверное, ничего не хочу." with dissolve
 
-    show Aliya stand_straight_eyes_closed_sad at any_left_pos with dissolve:
+    show Aliya_stand_straight eyes_closed_sad as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Давай возьмем что-нибудь. Вдруг ты вечером захочешь?" with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried_open_mouth at any_left_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Мне нужно что-нибудь без свинины. Есть тут такое?" with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried at any_left_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Не знаю, никогда об этом не задумывался." with dissolve
@@ -766,7 +766,7 @@ label day3_basmannaya_outside:
 
     "Мы зашли в салон сотовой связи, находящийся неподалёку." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried at any_right_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     show salesman talking at any_left_pos with dissolve:
@@ -791,12 +791,12 @@ label day3_basmannaya_outside:
 
     "Алия указала на рекламный плакат." with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_sad_worried_open_mouth at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried_open_mouth as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Этот пожалуйста. У меня сейчас сим-карта этого оператора, уже все приложения стоят." with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_watching_phone extra_stand_half_turned2_phone at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_watching_phone extra_stand_half_turned2_phone at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия достала свой телефон и открыла приложение с личным кабинетом." with dissolve
@@ -805,12 +805,12 @@ label day3_basmannaya_outside:
 
     me "Сим-карта не на тебя оформлена?" with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_neutral extra_stand_half_turned2_phone at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_neutral extra_stand_half_turned2_phone as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Да, она оформлена на отца." with dissolve
 
-    show Aliya stand_half_turned2_eyes_closed_sad extra_stand_half_turned2_phone at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_closed_sad extra_stand_half_turned2_phone as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия выключила телефон и протянула его продавцу-консультанту." with dissolve
@@ -821,7 +821,7 @@ label day3_basmannaya_outside:
 
     scene cellular with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_neutral extra_stand_half_turned2_phone at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_neutral extra_stand_half_turned2_phone as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
     show salesman talking at any_left_pos with dissolve:
@@ -892,7 +892,7 @@ label day3_basmannaya:
 
     scene apartment_hood with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_sad_worried at any_left_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Вот мы нашли дом и пришли к нужному подъезду." with dissolve
@@ -931,7 +931,7 @@ label day3_basmannaya:
 
     "Я убрал телефон." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_much at any_left_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_much as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Когда я убрал телефон, Алия повернулась ко мне." with dissolve
@@ -940,7 +940,7 @@ label day3_basmannaya:
 
     me "Ты в порядке?" with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried_open_mouth at any_left_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     aliya "Я должна сообщить родителям, чтобы не ждали меня. Они, наверное, уже волнуются." with dissolve
@@ -951,7 +951,7 @@ label day3_basmannaya:
 
     me "Только не звони с нового номера, иначе родители вычислят твоё местоположение." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried_question at any_left_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried_question as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     aliya "Хорошо." with dissolve
@@ -976,17 +976,17 @@ label day3_basmannaya:
 
     scene basmannaya_hood with dissolve
 
-    show aliya_sit eyes_open_sad_worried_question as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_worried_question as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     " и присели на скамейку." with dissolve
 
-    show aliya_sit_bench_phone eyes_closed_sad as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_closed_sad as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия вздохнула, достала телефон, выключила его и заменила сим-карту." with dissolve
 
-    show aliya_sit_bench_phone eyes_open_watching_phone as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Затем включила снова..." with dissolve
@@ -997,7 +997,7 @@ label day3_basmannaya:
 
     "Дождавшись, когда все уведомления стихнут, Алия открыла мессенджер и начала надиктовывать сообщение." with dissolve
 
-    show aliya_sit_bench_phone eyes_open_watching_phone3 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone3 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Папа и мама простите меня, пожалуйста." with dissolve
@@ -1012,12 +1012,12 @@ label day3_basmannaya:
 
     aliya "Поэтому я не хочу вам причинять проблем, и вследствие этого я решила уйти." with dissolve
 
-    show aliya_sit_bench_phone eyes_closed_sad_worried_open_mouth as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_closed_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Простите меня, пожалуйста, и не сердитесь." with dissolve
 
-    show aliya_sit_bench_phone eyes_closed_sad as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_closed_sad as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия завершила запись и отправила сообщение в семейный групповой чат." with dissolve
@@ -1030,12 +1030,12 @@ label day3_basmannaya:
 
     me "Отлично сказано!" with dissolve
 
-    show aliya_sit_bench_phone eyes_open_cry_sad3 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_cry_sad3 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Спасибо." with dissolve
 
-    show aliya_sit_bench_phone eyes_open_watching_phone as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Пришло новое сообщение. Это было ответное аудиосообщение." with dissolve # with hpunch
@@ -1048,7 +1048,7 @@ label day3_basmannaya:
 
     aslan "Где ты сейчас? Скажи, не молчи!" with dissolve
 
-    show aliya_sit_bench_phone eyes_open_watching_phone4 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone4 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Было видно, что Алия едва могла сдержать слёзы." with dissolve
@@ -1059,7 +1059,7 @@ label day3_basmannaya:
 
     "Алия тем временем дрожащим голосом записывала следующее сообщение." with dissolve
 
-    show aliya_sit_bench_phone eyes_open_watching_phone3 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone3 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Папа, со мной всё хорошо. Я долго думала и приняла такое решение." with dissolve
@@ -1070,32 +1070,32 @@ label day3_basmannaya:
 
     aliya "Простите меня, пожалуйста." with dissolve
 
-    show aliya_sit_bench_phone eyes_closed_sad_worried_open_mouth as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_closed_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Затем Алия записала несколько фраз на аварском языке. Я не понял ни слова, конечно же." with dissolve
 
-    show aliya_sit_bench_phone eyes_open_watching_phone as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Пришло ещё несколько сообщений от её отца на аварском языке." with dissolve # with hpunch
 
-    show aliya_sit_bench_phone eyes_open_watching_phone3 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone3 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия также записала ответ на аварском." with dissolve
 
-    show aliya_sit_bench_phone eyes_open_watching_phone as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side phone eyes_open_watching_phone as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Я не понимал ни слова, но чувствовал, что ей очень тяжело говорить." with dissolve
 
-    show aliya_sit eyes_open_cry_sad3 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_cry_sad3 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Наконец, она в отчаянии включила авиарежим и посмотрела на меня." with dissolve
 
-    show aliya_sit eyes_closed_sad as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_closed_sad as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Семён, что мне делать?" with dissolve
@@ -1112,7 +1112,7 @@ label day3_basmannaya:
 
     me "Но в то же время не хочешь возвращаться домой." with dissolve
 
-    show aliya_sit eyes_open_sad_much as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_much as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия кивнула." with dissolve
@@ -1129,12 +1129,12 @@ label day3_basmannaya:
 
     "Но она по-прежнему выглядела несчастной." with dissolve
 
-    show aliya_sit eyes_closed_sad_worried_open_mouth as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_closed_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Мне нужно прекратить с ними общаться?" with dissolve
 
-    show aliya_sit eyes_open_sad_worried as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Действительно, стоит ли прекратить общаться с родителями?" with dissolve
@@ -1155,7 +1155,7 @@ label day3_basmannaya:
 
     "Алия вздохнула." with dissolve
 
-    show aliya_sit eyes_open_cry_sad2 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_cry_sad2 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Ладно, я сообщила им, что у меня всё в порядке." with dissolve
@@ -1168,7 +1168,7 @@ label day3_basmannaya:
 
     me "Ты за весь день так ничего и не съела. Нужно поесть хотя бы этот салатик." with dissolve
 
-    show aliya_sit eyes_closed_sad as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_closed_sad as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     aliya "Я не хочу." with dissolve
@@ -1181,7 +1181,7 @@ label day3_basmannaya:
 
     scene basmannaya_hood with dissolve
 
-    show aliya_sit eyes_open_cry_sad2 as aliya_sit at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_cry_sad2 as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     messenger "Новое сообщение" with dissolve
@@ -1222,7 +1222,7 @@ label day3_basmannaya:
 
     scene apartment_hood with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_sad_worried at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Очень скоро к нам подошла женщина." with dissolve
@@ -1264,7 +1264,7 @@ label day3_basmannaya:
 
     "Я поставил продукты на стол, приготовил посуду." with dissolve
 
-    show aliya_sit_meal tshirt eyes_open_sad_worried with dissolve:
+    show aliya_sit_meal tshirt eyes_open_sad_worried as Aliya with dissolve:
         zoom SCALE
 
     show apartment_kitchen_food as apartment_kitchen_food zorder 2
@@ -1275,12 +1275,12 @@ label day3_basmannaya:
 
     show apartment_kitchen_food_no_spoon as apartment_kitchen_food zorder 2
 
-    show aliya_sit_meal tshirt_spoon_up eyes_closed_sad with dissolve:
+    show aliya_sit_meal tshirt_spoon_up eyes_closed_sad as Aliya with dissolve:
         zoom SCALE
 
     "Алия по-прежнему выглядела немного растерянной, но всё равно взяла в руки ложку." with dissolve
 
-    show aliya_sit_meal tshirt_spoon_up eyes_open_sad_worried_question with dissolve:
+    show aliya_sit_meal tshirt_spoon_up eyes_open_sad_worried_question as Aliya with dissolve:
         zoom SCALE
 
     aliya "Здесь точно нет свинины?" with dissolve
@@ -1291,17 +1291,17 @@ label day3_basmannaya:
 
     show apartment_kitchen_food_no_spoon_eaten as apartment_kitchen_food zorder 2
 
-    show aliya_sit_meal tshirt_spoon_food eyes_open_watching with dissolve:
+    show aliya_sit_meal tshirt_spoon_food eyes_open_watching as Aliya with dissolve:
         zoom SCALE
 
     "Алия недоверчиво съела одну ложку салата. Затем ещё одну." with dissolve
 
-    show aliya_sit_meal tshirt_spoon eyes_closed_sad with dissolve:
+    show aliya_sit_meal tshirt_spoon eyes_closed_sad as Aliya with dissolve:
         zoom SCALE
 
     aliya "Больше не хочется." with dissolve
 
-    show aliya_sit_meal tshirt eyes_open_watching with dissolve:
+    show aliya_sit_meal tshirt eyes_open_watching as Aliya with dissolve:
         zoom SCALE
 
     show apartment_kitchen_food_spoon_eaten as apartment_kitchen_food zorder 2
@@ -1310,7 +1310,7 @@ label day3_basmannaya:
 
     "Наверное, я должен что-то сделать." with dissolve
 
-    show aliya_sit_meal tshirt eyes_open_sad_much with dissolve:
+    show aliya_sit_meal tshirt eyes_open_sad_much as Aliya with dissolve:
         zoom SCALE
 
     $ persistent.gallery7unlock = True
@@ -1319,33 +1319,33 @@ label day3_basmannaya:
 
     me "Это должно их немного успокоить." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_watching with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_watching as Aliya with dissolve:
         zoom SCALE
 
     "Алия снова достала телефон и выключила авиарежим." with dissolve
 
     "Затем включила мессенджер и стала слушать." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_sad_worried_open_mouth with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_sad_worried_open_mouth as Aliya with dissolve:
         zoom SCALE
 
     aliya "Папа уже обратился в отделение полиции в Пятигорске. Они меня ищут." with dissolve
 
     aliya "Наверное, они думают что меня похитили." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_watching with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_watching as Aliya with dissolve:
         zoom SCALE
 
     "Алия продолжала слушать, пугаясь всё больше." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_sad_worried_open_mouth with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_sad_worried_open_mouth as Aliya with dissolve:
         zoom SCALE
 
     aliya "Пишут, что маме стало плохо." with dissolve
 
     aliya "Что я наделала!" with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_talking_phone with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_talking_phone as Aliya with dissolve:
         zoom SCALE
 
     "Алия снова начала надиктовывать аудиосообщения в общий чат." with dissolve
@@ -1357,7 +1357,7 @@ label day3_basmannaya:
 
     me "Что там?" with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_closed_sad with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_closed_sad as Aliya with dissolve:
         zoom SCALE
 
     "Алия включила аудиосообщение." with dissolve
@@ -1368,34 +1368,34 @@ label day3_basmannaya:
 
     "Впрочем, чего ещё ждать от полицейских из Пятигорска?!" with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_watching with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_watching as Aliya with dissolve:
         zoom SCALE
 
     "Алия прослушала ещё несколько сообщений от матери." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_sad_worried with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_sad_worried as Aliya with dissolve:
         zoom SCALE
 
     aliya "Мама сейчас едет в Пятигорск искать меня." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_closed_sad_worried_open_mouth with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_closed_sad_worried_open_mouth as Aliya with dissolve:
         zoom SCALE
 
     aliya "Они же до сих пор не знают, что я уже в Москве!" with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_closed_sad with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_closed_sad as Aliya with dissolve:
         zoom SCALE
 
     "Это означает, что операция \"Побег\" прошла блестяще." with dissolve
 
     "Если бы у Алии был загранпаспорт, к этому моменту она вообще уже была бы в Корее, в аэропорту Сеула." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_watching with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_watching as Aliya with dissolve:
         zoom SCALE
 
     "Алия продолжила слушать аудиосообщения." with dissolve
 
-    show aliya_sit_meal tshirt_phone eyes_open_sad_worried_question with dissolve:
+    show aliya_sit_meal tshirt_phone eyes_open_sad_worried_question as Aliya with dissolve:
         zoom SCALE
 
     aliya "Мама хочет позвонить мне по мессенджеру." with dissolve
@@ -1406,7 +1406,7 @@ label day3_basmannaya:
 
     me "Да, я думаю, стоит. Поговори с мамой и успокой её." with dissolve
 
-    hide aliya_sit_meal with dissolve
+    hide Aliya with dissolve
 
     "Алия взяла телефон и ушла в другую комнату, чтобы поговорить наедине с мамой." with dissolve
 
@@ -1435,7 +1435,7 @@ label day3_basmannaya:
 
     aliya "Мам, я не знаю адрес!" with dissolve
 
-    show Aliya special_phone_give_take at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия вернулась на кухню и протянула мне телефон." with dissolve
@@ -1444,7 +1444,7 @@ label day3_basmannaya:
 
     "Я мог бы и отказаться, но решил поговорить." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_neutral at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "Я взял трубку, собрал всю свою доброжелательность и представил, что я на собеседовании с заказчиком." with dissolve
@@ -1505,12 +1505,12 @@ label day3_basmannaya:
 
     "Хотя Алия говорила, что ей с трудом удается достучаться до мамы и как-то изменить её решение..." with dissolve
 
-    show Aliya special_phone_listen at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya special_phone_listen as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "А вот Алия вернулась." with dissolve
 
-    show Aliya tshirt_stand_half_turned2_eyes_open_neutral extra_tshirt_stand_half_turned2_hand_phone at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_half_turned tshirt extra_tshirt_stand_half_turned2_hand_phone as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Мама сказала, что разрешит остаться мне в Москве," with dissolve
@@ -1527,7 +1527,7 @@ label day3_basmannaya:
 
     aliya "Я не знаю." with dissolve
 
-    show Aliya special_phone_listen no_extra at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya special_phone_listen no_extra as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "Мессенджер на телефоне Алии снова зазвонил. Алия взяла трубку." with dissolve
@@ -1538,12 +1538,12 @@ label day3_basmannaya:
 
     me "Зачем?" with dissolve
 
-    show Aliya special_phone_give_take at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "Вместо ответа Алия протянула мне трубку." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_neutral at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "Я взял телефон." with dissolve
@@ -1616,7 +1616,7 @@ label day3_basmannaya_apartment_accept:
 
     me "Хорошо, я скажу вам адрес." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_smile at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     $ changeDialogToCoach()
@@ -1680,7 +1680,7 @@ label day3_basmannaya_apartment_decline:
 
     fatima "Передайте трубку Алие, пожалуйста." with dissolve
 
-    show Aliya special_phone_listen no_extra at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya special_phone_listen no_extra as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "Я передал трубку Алие." with dissolve
@@ -1693,17 +1693,17 @@ label day3_basmannaya_apartment_decline:
 
     "Впрочем, разговор был недолгим." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     "Вскоре, Алия завершила разговор и вернулась на кухню." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried_open_mouth at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Почему ты решил не говорить адрес?" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Я боюсь за тебя. Вдруг они решат забрать тебя силой?" with dissolve
@@ -1712,7 +1712,7 @@ label day3_basmannaya_apartment_decline:
 
     me "Организуем встречу в общественном месте, так будет безопаснее для тебя." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_closed_sad_worried_open_mouth at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Ладно." with dissolve
@@ -1723,7 +1723,7 @@ label day3_basmannaya_apartment_decline:
 
     queue music "music/Runaway_11 (Loop).ogg"
 
-    show Aliya tshirt_stand_straight_eyes_open_smile at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Спасибо..." with dissolve
@@ -1755,7 +1755,7 @@ label day3_basmannaya_apartment_after_talk:
         yalign 0.7
         zoom 0.6
 
-    show Aliya tshirt_stand_straight_eyes_open_smile at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     hide black with dissolve
@@ -1772,14 +1772,14 @@ label day3_basmannaya_apartment_after_talk:
 
     me "Мы можем заказать суши, пиццу или просто сходить куда-нибудь поесть." with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Сейчас уже довольно поздно." with dissolve
 
     me "Это Москва! Здесь полно круглосуточных кафешек. Мы что-нибудь найдём!" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_smile at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Хорошо." with dissolve
@@ -1806,7 +1806,7 @@ label day3_basmannaya_apartment_after_talk:
 
     me "Как ты относишься к шаурме?" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_closed_grin at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_closed_grin as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Нормально, можно поесть." with dissolve
@@ -1815,7 +1815,7 @@ label day3_basmannaya_apartment_after_talk:
 
     $ hidePhone()
 
-    show Aliya tshirt_stand_straight_eyes_open_happy at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_happy as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Пойдём!" with dissolve
@@ -1838,19 +1838,19 @@ label day3_basmannaya_shaurma:
 
     scene shaurma_near with dissolve
 
-    show aliya_sit_meal_jacket jacket eyes_open_sad_smile with dissolve:
+    show aliya_sit_meal_jacket jacket eyes_open_sad_smile as Aliya with dissolve:
         zoom SCALE
 
     show cafe_table_tea_shaurma as cafe_table zorder 2 with dissolve
 
     "Мы взяли себе по шаурме, чаю и сели за стол." with dissolve
 
-    show aliya_sit_meal_jacket jacket_phone eyes_open_watching with dissolve:
+    show aliya_sit_meal_jacket jacket_phone eyes_open_watching as Aliya with dissolve:
         zoom SCALE
 
     "У Алии зазвонил телефон. Она открыла мессенджер." with dissolve
 
-    show aliya_sit_meal_jacket jacket_phone_talk eyes_open_talking_phone with_phone with dissolve:
+    show aliya_sit_meal_jacket jacket_phone_talk eyes_open_talking_phone with_phone as Aliya with dissolve:
         zoom SCALE
 
     aliya "Да, мам," with dissolve
@@ -1861,24 +1861,24 @@ label day3_basmannaya_shaurma:
 
     aliya "Хорошо, давай пока." with dissolve
 
-    show aliya_sit_meal_jacket jacket_phone eyes_open_watching no_phone with dissolve:
+    show aliya_sit_meal_jacket jacket_phone eyes_open_watching no_phone as Aliya with dissolve:
         zoom SCALE
 
     "Алия убрала телефон." with dissolve
 
-    show aliya_sit_meal_jacket jacket eyes_open_sad_smile with dissolve:
+    show aliya_sit_meal_jacket jacket eyes_open_sad_smile as Aliya with dissolve:
         zoom SCALE
 
     me "Да уж, сегодня был безумный день." with dissolve
 
     show cafe_table_tea as cafe_table zorder 2
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_smile with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_smile as Aliya with dissolve:
         zoom SCALE
 
     me "Однако я считаю, твоя история закончилась довольно хорошо." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_happy with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_happy as Aliya with dissolve:
         zoom SCALE
 
     $ persistent.gallery8unlock = True
@@ -1899,12 +1899,12 @@ label day3_basmannaya_shaurma:
 
     me "Теперь игра идёт по твоим правилам." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_worried_open_mouth with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_worried_open_mouth as Aliya with dissolve:
         zoom SCALE
 
     aliya "Надеюсь, что так и будет." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral as Aliya with dissolve:
         zoom SCALE
 
     aliya "Теперь я в ближайшее время не вернусь в Дагестан," with dissolve
@@ -1913,7 +1913,7 @@ label day3_basmannaya_shaurma:
 
     me "Да. Своего жениха ты ещё очень нескоро увидишь." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_closed_annoyed with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_closed_annoyed as Aliya with dissolve:
         zoom SCALE
 
     aliya "Ага. Как же он меня бесит." with dissolve
@@ -1922,7 +1922,7 @@ label day3_basmannaya_shaurma:
 
     me "Понимаю, да." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral as Aliya with dissolve:
         zoom SCALE
 
     aliya "И главное каждый раз, когда я приезжала в Дагестан, мама всё время пыталась нас оставить наедине." with dissolve
@@ -1945,12 +1945,12 @@ label day3_basmannaya_shaurma:
 
     aliya "Я говорила не делать так, а ему всё равно." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_closed_annoyed with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_closed_annoyed as Aliya with dissolve:
         zoom SCALE
 
     aliya "Бесит он меня." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral as Aliya with dissolve:
         zoom SCALE
 
     "Хорошо, что Алие больше не нужно будет разговаривать с женихом." with dissolve
@@ -1959,12 +1959,12 @@ label day3_basmannaya_shaurma:
 
     me "Не боишься встретиться завтра с мамой?" with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_worried_open_mouth with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_worried_open_mouth as Aliya with dissolve:
         zoom SCALE
 
     aliya "Не знаю. Я надеюсь, всё пройдёт хорошо." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_neutral as Aliya with dissolve:
         zoom SCALE
 
     aliya "Моя мама хорошая, но она любит всё делать по-своему." with dissolve
@@ -1977,12 +1977,12 @@ label day3_basmannaya_shaurma:
 
     me "Я думаю, теперь твоя мама будет говорить с тобой по-другому." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_worried with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_sad_worried as Aliya with dissolve:
         zoom SCALE
 
     aliya "Надеюсь." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_smile with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_smile as Aliya with dissolve:
         zoom SCALE
 
     "Алия посмотрела на меня и снова улыбнулась." with dissolve
@@ -1991,21 +1991,21 @@ label day3_basmannaya_shaurma:
 
     "Теперь уже улыбнулся я." with dissolve
 
-    show aliya_sit_meal_jacket jacket_shaurma eyes_open_happy with dissolve:
+    show aliya_sit_meal_jacket jacket_shaurma eyes_open_happy as Aliya with dissolve:
         zoom SCALE
 
     aliya "Спасибо большое." with dissolve
 
     me "Не за что." with dissolve
 
-    show aliya_sit_meal_jacket jacket eyes_open_smile with dissolve:
+    show aliya_sit_meal_jacket jacket eyes_open_smile as Aliya with dissolve:
         zoom SCALE
 
     show cafe_table_empty as cafe_table zorder 2
 
     "Мы доели шаурму и допили чай." with dissolve
 
-    show aliya_sit_meal_jacket jacket eyes_open_sad_worried_open_mouth with dissolve:
+    show aliya_sit_meal_jacket jacket eyes_open_sad_worried_open_mouth as Aliya with dissolve:
         zoom SCALE
 
     aliya "Я наелась. Идём?" with dissolve
@@ -2026,7 +2026,7 @@ label day3_basmannaya_imran:
 
     scene apartment_hood_night_car with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_neutral at aliya_hood_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_neutral as Aliya at aliya_hood_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Когда мы подходили к подъездной двери," with dissolve
@@ -2035,7 +2035,7 @@ label day3_basmannaya_imran:
 
     "Во дворе стоял черный седан, которого тут раньше не было." with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_shock at aliya_hood_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_shock as Aliya at aliya_hood_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Я заметил это только когда открылась дверь автомобиля, из машины вышел мужчина и подошёл к нам." with dissolve
@@ -2055,7 +2055,7 @@ label day3_basmannaya_imran:
 
     imran "Я двоюродный дядя Алии, я живу здесь в Москве." with dissolve
 
-    show Aliya stand_half_turned2_eyes_closed_sad at aliya_hood_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_closed_sad as Aliya at aliya_hood_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Я посмотрел на Алию. Её лицо выражало ужас и растерянность." with dissolve
@@ -2114,7 +2114,7 @@ label day3_basmannaya_imran_accept:
 
     me "Я поеду с вами." with dissolve
 
-    show Aliya stand_straight_eyes_open_cry_sad3 at any_right_pos with dissolve:
+    show Aliya_stand_straight eyes_open_cry_sad3 as Aliya at aliya_hood_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Я постарался произнести это как можно спокойнее." with dissolve
@@ -2300,7 +2300,7 @@ label day3_imran_house:
 
     imran "Мы приехали." with dissolve
 
-    show Aliya stand_straight_eyes_open_sad_worried at any_right_pos with dissolve:
+    show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Алия вышла из автомобиля и растерянно оглянулась. Кажется, она успела поспать немного во время поездки." with dissolve
@@ -2328,14 +2328,14 @@ label day3_imran_house:
     show imran neutral at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
-    show Aliya stand_half_turned2_eyes_closed_sad at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_closed_sad as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     imran "Ваши спальни на втором этаже. Это вон туда и потом дальше вверх по лестнице." with dissolve
 
     imran "Хотите чаю?" with dissolve
 
-    show Aliya stand_half_turned2_eyes_open_sad_worried_question at any_right_pos with dissolve:
+    show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried_question as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     aliya "Нет." with dissolve
@@ -2539,7 +2539,7 @@ label day3_basmannaya_imran_decline:
 
     me "Я лучше останусь здесь." with dissolve
 
-    show Aliya stand_half_turned_eyes_open_angry with dissolve:
+    show Aliya_stand_half_turned eyes_open_angry as Aliya at aliya_hood_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
     "Алия сверкнула глазами на меня, но промолчала." with dissolve

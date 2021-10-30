@@ -14,7 +14,7 @@ label day4_end_success:
 
     hide black with dissolve
 
-    show aliya_sit_no_earphones special_airplane_window as aliya_sit at any_center_pos:
+    show aliya_sit_side no_emotion_layer special_airplane_window as Aliya at any_center_pos:
         zoom SCALE
 
     "Как только мы сели на свои места, бортпроводники объявили о завершении посадки." with dissolve
@@ -23,12 +23,12 @@ label day4_end_success:
 
     me "Спасибо, что доверяешь мне." with dissolve
 
-    show aliya_sit_no_earphones eyes_open_sad_worried_open_mouth as aliya_sit at any_center_pos:
+    show aliya_sit_side no_earphones eyes_open_sad_worried_open_mouth as Aliya at any_center_pos:
         zoom SCALE
 
     aliya "Куда мы летим?" with dissolve
 
-    show aliya_sit_no_earphones eyes_open_neutral as aliya_sit at any_center_pos:
+    show aliya_sit_side no_earphones eyes_open_neutral as Aliya at any_center_pos:
         zoom SCALE
 
     me "Мы летим в Казахстан, в город Усть-Каменогорск." with dissolve
@@ -53,7 +53,7 @@ label day4_end_success:
 
     me "Уже под другими именами, с другими документами, с другой внешностью..." with dissolve
 
-    show aliya_sit_no_earphones special_airplane_window as aliya_sit at any_center_pos:
+    show aliya_sit_side no_emotion_layer special_airplane_window as Aliya at any_center_pos:
         zoom SCALE
 
     aliya "Поняла..." with dissolve

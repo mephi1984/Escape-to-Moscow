@@ -7,7 +7,7 @@ label day4_parents_part6_parent_persuade_fail:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried at imran_house_pos2:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
         zoom 0.75*SCALE*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -60,7 +60,7 @@ label day4_parents_part6_parent_persuade_fail:
         zoom 0.75*SCALE
         alpha 1.0
 
-    show Aliya tshirt_stand_straight_eyes_closed_sad at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt eyes_closed_sad at imran_house_pos2 with dissolve:
         zoom 0.75*SCALE*0.9
         alpha 1.0
 
@@ -85,7 +85,7 @@ label day4_parents_part6_parent_persuade_fail:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    show Aliya tshirt_stand_straight_eyes_closed_sad at imran_house_pos2:
+    show Aliya_stand_straight tshirt eyes_closed_sad as Aliya at imran_house_pos2:
         zoom 0.75*SCALE*0.9
         alpha 0.0
         linear 0.5 alpha 1.0

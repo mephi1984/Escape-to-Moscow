@@ -7,7 +7,7 @@ label day4_parents_part6_parent_persuade_success:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    show Aliya tshirt_stand_straight_eyes_open_sad_worried at imran_house_pos2:
+    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
         zoom 0.75*SCALE*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -345,21 +345,21 @@ label day4_parents_part6_parent_persuade_success:
 
     scene imran_house_doorway with dissolve
 
-    show Aliya special_sandwich at aliya_imran_room_pos with dissolve:
+    show Aliya special_sandwich as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     "На пороге стояла Алия и держала в одной руке тарелку с сэндвичами, а в другой - чашку чая." with dissolve
 
     aliya "Мама приготовила обед. Возьми!" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_neutral at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     show imran_room_drawers_food_full_near with dissolve
 
     "Я взял тарелку с чашкой из рук Алии и поставил на комод у двери." with dissolve
 
-    show Aliya special_turned at aliya_imran_room_pos with dissolve:
+    show Aliya special_turned as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     "Алия уже собралась развернуться и уйти..." with dissolve
@@ -368,12 +368,12 @@ label day4_parents_part6_parent_persuade_success:
 
     me "Постой!" with dissolve
 
-    show Aliya special_half_turned at aliya_imran_room_pos with dissolve:
+    show Aliya special_half_turned as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Что?" with dissolve
 
-    show Aliya tshirt_stand_half_turned2_eyes_open_neutral at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_half_turned tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Я должен тебе кое-что сказать..." with dissolve
@@ -386,7 +386,7 @@ label day4_parents_part6_parent_persuade_success:
 
     me "Конечно, я был бы рад, если всё сказанное твоей семьёй оказалось правдой. Это, говоря на чистоту, было бы отлично, при этом... Говоря уже до конца честно, ты им веришь?" with dissolve
 
-    show Aliya tshirt_stand_straight_eyes_open_neutral at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     aliya "Не знаю..." with dissolve
@@ -536,7 +536,7 @@ label day4_parents_part11_choice1_persuade:
 
     # By that time, max aliya_trust_points == 2
 
-    show Aliya tshirt_stand_straight_eyes_open_cry_sad2 at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_cry_sad2 as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Алия, просто подумай, что ждёт тебя дома и что случится, если ты будешь жить как хочешь." with dissolve
@@ -581,7 +581,7 @@ label day4_parents_part11_choice1_persuade:
 
 label day4_parents_part12_choice1_praise:
 
-    show Aliya tshirt_stand_straight_eyes_open_cry_sad_smile at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Чем бы в итоге не закончилась наша с тобой история, я хочу, чтобы ты знала: я был рад с тобой познакомиться." with dissolve
@@ -595,7 +595,7 @@ label day4_parents_part12_choice1_praise:
 
 label day4_parents_part12_choice2_always_on_your_side:
 
-    show Aliya tshirt_stand_straight_eyes_open_cry_sad_smile at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
 
     me "Алия, я очень тебе благодарен за то время, что мы провели вместе." with dissolve
