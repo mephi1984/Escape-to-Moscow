@@ -1,7 +1,35 @@
 from PIL import Image
 
-
 import glob, os
+
+
+#Pose1, 1.1
+#390, 297 of 1151x1440
+#width, height 264 264
+
+#Pose2
+#450, 309 of 1151x1440
+#width height 264 264
+
+#Sitting1
+#798, 126 of 1920x1080
+#width height 264 264
+
+
+#Sitting1alt
+#830, 126 of 1920x1080
+#width height 264 264
+
+
+#Pose4
+#552, 358 of 1151x1440
+#width height 264 264
+
+
+#Sitting2
+#332, 228 of 1920x1080
+#width height 264 264
+
 
 def replacePose1():
     os.chdir("E:/Work/renpyProjects/Runaway_github/game/images/sprites/Aliya/Pose1")
