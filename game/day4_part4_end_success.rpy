@@ -2,6 +2,16 @@ label day4_end_success:
 
     scene black with dissolve
 
+    $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+
     "И вот наконец мы в самолете..." with dissolve
 
     show black zorder 10
@@ -59,6 +69,9 @@ label day4_end_success:
     aliya "Поняла..." with dissolve
 
     scene black with dissolve
+
+    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
     $ renpy.pause(1.0)
 

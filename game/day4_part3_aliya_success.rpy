@@ -476,6 +476,8 @@ label airport_scene1:
 
     scene black with dissolve
 
+    $ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
+
     "Я вышел в зону Duty Free вслед за Алией..." with dissolve
 
     scene domodedovo_duty_free with dissolve

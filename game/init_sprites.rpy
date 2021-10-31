@@ -797,6 +797,7 @@ layeredimage aliya_sit_side:
         attribute eyes_open_talking:
             "sprites/Aliya/Sitting2/bench/face_talking.png"
 
+
         attribute eyes_open_watching_phone:
             "sprites/Aliya/Sitting2/bench/face_watching_phone.png"
 

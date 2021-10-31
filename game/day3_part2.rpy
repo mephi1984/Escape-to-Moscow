@@ -183,6 +183,13 @@ label day3_metro_train:
 
     scene black with dissolve
 
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
+
     $ renpy.pause(1.0)
 
     jump day3_taganskaya
@@ -289,11 +296,16 @@ label day3_taganskaya_park_rest:
 
     scene black with dissolve
 
+
+    $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+
     $ renpy.pause(1.0)
 
     scene tagansky_park_sit with dissolve
 
-    show aliya_sit_side earphones eyes_open_watching as Aliya at any_center_pos with dissolve:
+    show aliya_sit_side earphones eyes_open_watching_phone as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
     "Алия внимательно наблюдала за посетителями парка." with dissolve
@@ -440,6 +452,15 @@ label day3_taganskaya_park_rest:
     aliya "Да, можно идти дальше!" with dissolve
 
     scene black with dissolve
+
+    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/dress*.*")
 
     "Мы встали со скамейки и пошли туда, где, предположительно, был магазин..." with dissolve
 
@@ -648,6 +669,15 @@ label day3_taganskaya_park_continue:
 
     scene black with dissolve
 
+    $ renpy.stop_predict("images/sprites/Aliya/dress*.*")
+
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
+
     "И мы отправились в путь до станции Бауманская..." with dissolve
 
     jump day3_basmannaya_outside
@@ -698,6 +728,14 @@ label day3_basmannaya_outside:
     "Мы вошли." with dissolve
 
     scene black with dissolve
+
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+
 
     $ renpy.pause(1.0)
 
@@ -972,6 +1010,15 @@ label day3_basmannaya:
 
     scene black with dissolve
 
+    $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+
     "И мы подошли поближе к подъезду" with dissolve
 
     scene basmannaya_hood with dissolve
@@ -1177,6 +1224,15 @@ label day3_basmannaya:
 
     scene black with dissolve
 
+    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+
+    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+
+
+
     "Прошло немного времени..." with dissolve
 
     scene basmannaya_hood with dissolve
@@ -1243,6 +1299,10 @@ label day3_basmannaya:
     landlady "Пойдёмте я вам покажу квартиру..." with dissolve
 
     scene black with dissolve
+
+    $ renpy.start_predict("images/sprites/eating/*.*")
+    $ renpy.start_predict("images/sprites/eating/emotions_home/*.*")
+    $ renpy.start_predict("images/sprites/eating/emotions_cafe/*.*")
 
     "Мы вошли в подъезд вслед за хозяйкой и зашли в квартиру..." with dissolve
 
@@ -2013,6 +2073,10 @@ label day3_basmannaya_shaurma:
     me "Да, пойдём." with dissolve
 
     scene black with dissolve
+
+    $ renpy.stop_predict("images/sprites/eating/*.*")
+    $ renpy.stop_predict("images/sprites/eating/emotions_home/*.*")
+    $ renpy.stop_predict("images/sprites/eating/emotions_cafe/*.*")
 
     "И мы пошли назад к съёмной квартире..." with dissolve
 

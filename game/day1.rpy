@@ -3,6 +3,14 @@
 
 label day1_intro:
 
+    # Will stop predicting them at the end of day 2
+    $ renpy.start_predict("images/cg_screen/*.*")
+    $ renpy.start_predict("images/CG_messenger_desktop/*.*")
+    $ renpy.start_predict("images/semen_room*.*")
+    $ renpy.start_predict("images/CG_hands/Card.png")
+
+
+
     play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
 
     queue music "music/Runaway_01 (Loop).ogg"

@@ -149,6 +149,8 @@ define config.end_game_transition = dissolve
 
 define config.window = "auto"
 
+define config.predict_statements = 32
+
 
 ## Переходы, используемые при показе и скрытии диалогового окна
 
