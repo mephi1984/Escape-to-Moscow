@@ -33,7 +33,7 @@ define config.version = "1.4.1"
 define credits_text1_line1 = Text(_("{color=#FFD800}Продюсер:{/color}\nВладислав Хорев"), size=int(50*SCALE))
 define credits_text1_line2 = Text(_("{color=#FFD800}Разработчик:{/color}\nВладислав Хорев"), size=int(50*SCALE))
 define credits_text1_line3 = Text(_("{color=#FFD800}Автор сценария:{/color}\nВладислав Хорев"), size=int(50*SCALE))
-define credits_text1_line4 = Text(_("{color=#FFD800}Тексты:{/color}\nВладислав Хорев\nЯна \"Samadreal\" Однорог"), size=int(50*SCALE))
+define credits_text1_line4 = Text(_("{color=#FFD800}Тексты:{/color}\nВладислав Хорев\nЯна \"Samadreal\" Однорог, Таша Фам, Вячеслав \"saBBar\" Левин"), size=int(50*SCALE))
 
 define credits_text1_line5 = Text(_("{color=#FFD800}Спрайты персонажей:{/color}\nДарья \"miZaria\" Фролова\nSsurikin\nMarys (Маша Свиридова)\nТатьяна \"Akinago\" Аверина"), size=int(50*SCALE))
 
@@ -78,7 +78,7 @@ define gui.about = _p("""
 ## постройке дистрибутивов. Оно должно содержать текст формата ASCII и не должно
 ## содержать пробелы, двоеточия и точки с запятой.
 
-define build.name = "Runaway"
+define build.name = "EscapeToMoscow"
 
 
 ## Звуки и музыка ##############################################################
@@ -164,7 +164,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 12
 
 
 ## Стандартная задержка авточтения. Большие значения означают долгие ожидания, а

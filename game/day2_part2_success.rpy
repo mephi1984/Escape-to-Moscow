@@ -539,6 +539,8 @@ label day2_escape_now_success_coach_continue:
 
     scene black with dissolve
 
+    $ renpy.start_predict("images/CG_messenger_phone/*.*")
+
     "Сборы вышли довольно быстрыми, как ни странно..." with dissolve
 
     show black zorder 20

@@ -136,6 +136,29 @@ define gui.bar_right = im.FactorScale("gui/bar/right.png", SCALE)
 
 define gui.language_overlay = im.FactorScale("gui/overlay/language.png", SCALE)
 
+
+#define gui.slot_hover_background = im.FactorScale("gui/button/slot_hover_background.png", SCALE)
+#define gui.slot_idle_background = im.FactorScale("gui/button/slot_idle_background.png", SCALE)
+
+define gui.gallery_lock_slot_idle_background = im.FactorScale("gallery/lock.png", SCALE)
+define gui.gallery_lock_slot_hover_background = im.FactorScale("gallery/lock_hover.png", SCALE)
+
+define gui.gallery1_slot_idle_background = im.FactorScale("gallery/g1small.png", SCALE)
+define gui.gallery1_slot_hover_background = im.FactorScale("gallery/g1small_hover.png", SCALE)
+define gui.gallery1 = im.FactorScale("gallery/g1.jpg", SCALE)
+
+define gui.gallery2_slot_idle_background = im.FactorScale("gallery/g2small.png", SCALE)
+define gui.gallery2_slot_hover_background = im.FactorScale("gallery/g2small_hover.png", SCALE)
+define gui.gallery2 = im.FactorScale("gallery/g2.jpg", SCALE)
+
+define gui.gallery3_slot_idle_background = im.FactorScale("gallery/g3small.png", SCALE)
+define gui.gallery3_slot_hover_background = im.FactorScale("gallery/g3small_hover.png", SCALE)
+define gui.gallery3 = im.FactorScale("gallery/g3.jpg", SCALE)
+
+define gui.gallery4_slot_idle_background = im.FactorScale("gallery/g4small.png", SCALE)
+define gui.gallery4_slot_hover_background = im.FactorScale("gallery/g4small_hover.png", SCALE)
+define gui.gallery4 = im.FactorScale("gallery/g4.jpg", SCALE)
+
 ## Диалог ######################################################################
 ##
 ## Эти переменные контролируют, как диалог появляется на отдельной строчке.
@@ -287,6 +310,9 @@ define config.thumbnail_height = int(216*SCALE)
 ## Количество колонок и рядов в таблице слотов.
 define gui.file_slot_cols = 3
 define gui.file_slot_rows = 2
+
+define gui.gallery_slot_cols = 3
+define gui.gallery_slot_rows = 4
 
 
 ## Позиционирование и Интервалы ################################################
@@ -514,6 +540,9 @@ init python:
         ## Местоположение кнопок слотов.
         gui.file_slot_cols = 2
         gui.file_slot_rows = 2
+
+        gui.gallery_slot_cols = 2
+        gui.gallery_slot_rows = 6
 
         ## Режим NVL.
         gui.nvl_height = int(255*SCALE)
