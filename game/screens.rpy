@@ -286,55 +286,6 @@ screen quick_menu():
 init python:
     config.overlay_screens.append("quick_menu")
 
-    g = Gallery()
-
-    g.button("gallery1")
-    g.condition("persistent.gallery1unlock")
-    g.image("gallery/g1.jpg")
-
-    g.button("gallery2")
-    g.condition("persistent.gallery2unlock")
-    g.image("gallery/g2.jpg")
-
-    g.button("gallery3")
-    g.condition("persistent.gallery3unlock")
-    g.image("gallery/g3.jpg")
-
-    g.button("gallery4")
-    g.condition("persistent.gallery4unlock")
-    g.image("gallery/g4.jpg")
-
-    g.button("gallery5")
-    g.condition("persistent.gallery5unlock")
-    g.image("gallery/g5.jpg")
-
-    g.button("gallery6")
-    g.condition("persistent.gallery6unlock")
-    g.image("gallery/g6.jpg")
-
-    g.button("gallery7")
-    g.condition("persistent.gallery7unlock")
-    g.image("gallery/g7.jpg")
-
-    g.button("gallery8")
-    g.condition("persistent.gallery8unlock")
-    g.image("gallery/g8.jpg")
-
-    g.button("gallery9")
-    g.condition("persistent.gallery9unlock")
-    g.image("gallery/g9.jpg")
-
-    g.button("gallery10")
-    g.condition("persistent.gallery10unlock")
-    g.image("gallery/g10.jpg")
-
-    g.button("gallery11")
-    g.condition("persistent.gallery11unlock")
-    g.image("gallery/g11.jpg")
-
-    g.button("gallery12")
-    g.condition("persistent.gallery12unlock")
-    g.image("gallery/g12.jpg")
 
 default quick_menu = True
 
@@ -404,7 +355,10 @@ screen navigation():
 
             textbutton _("Главное меню") action MainMenu()
 
-        textbutton _("Галерея") action ShowMenu("gallery")
+        if renpy.variant("pc"):
+            textbutton _("Галерея") action ShowMenu("gallery1")
+        else:
+            textbutton _("Галерея") action ShowMenu("galleryMobile1")
 
         textbutton _("Об игре") action ShowMenu("about")
 
@@ -1109,40 +1063,17 @@ screen language_and_difficulty_menu_first_time():
         textbutton _("Продолжить") action Return()
 
 
-screen galleryx():
+screen gallery1():
 
     tag menu
 
-    use file_slots(_("Загрузить"))
-
-
-screen file_slots2(title):
-
-    default page_name_value = FilePageNameInputValue(pattern=_("{} страница"), auto=_("Автосохранения"), quick=_("Быстрые сохранения"))
-
-    use game_menu(title):
+    use game_menu("Галерея (страница 1)"):
 
         fixed:
-
-            ## Это гарантирует, что ввод будет принимать enter перед остальными
-            ## кнопками.
             order_reverse True
 
-            ## Номер страницы, который может быть изменён посредством клика на
-            ## кнопку.
-            button:
-                style "page_label"
-
-                key_events True
-                xalign 0.5
-                action page_name_value.Toggle()
-
-                input:
-                    style "page_label_text"
-                    value page_name_value
-
             ## Таблица слотов.
-            grid gui.file_slot_cols gui.file_slot_rows:
+            grid 3 2:
                 style_prefix "slot"
 
                 xalign 0.5
@@ -1150,24 +1081,67 @@ screen file_slots2(title):
 
                 spacing gui.slot_spacing
 
-                for i in range(gui.file_slot_cols * gui.file_slot_rows):
+                imagebutton:
+                    if persistent.gallery1unlock:
+                        idle gui.gallery1_slot_idle_background
+                        hover gui.gallery1_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery1)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
 
-                    $ slot = i + 1
+                imagebutton:
+                    if persistent.gallery2unlock:
+                        idle gui.gallery2_slot_idle_background
+                        hover gui.gallery2_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery2)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
 
-                    button:
-                        action FileAction(slot)
+                imagebutton:
+                    if persistent.gallery3unlock:
+                        idle gui.gallery3_slot_idle_background
+                        hover gui.gallery3_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery3)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
 
-                        has vbox
+                imagebutton:
+                    if persistent.gallery4unlock:
+                        idle gui.gallery4_slot_idle_background
+                        hover gui.gallery4_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery4)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
 
-                        add FileScreenshot(slot) xalign 0.5
+                imagebutton:
+                    if persistent.gallery5unlock:
+                        idle gui.gallery5_slot_idle_background
+                        hover gui.gallery5_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery5)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
 
-                        text FileTime(slot, format=_("{#file_time}%A, %d %B %Y, %H:%M"), empty=_("Пустой слот")):
-                            style "slot_time_text"
+                imagebutton:
+                    if persistent.gallery6unlock:
+                        idle gui.gallery6_slot_idle_background
+                        hover gui.gallery6_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery6)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
 
-                        text FileSaveName(slot):
-                            style "slot_name_text"
 
-                        key "save_delete" action FileDelete(slot)
 
             ## Кнопки для доступа к другим страницам.
             hbox:
@@ -1178,26 +1152,106 @@ screen file_slots2(title):
 
                 spacing gui.page_spacing
 
-                textbutton _("<") action FilePagePrevious()
+                textbutton "{b}1{/b}" action NullAction()
+                textbutton "2" action ShowMenu("gallery2")
 
-                if config.has_autosave:
-                    textbutton _("{#auto_page}А") action FilePage("auto")
-
-                if config.has_quicksave:
-                    textbutton _("{#quick_page}Б") action FilePage("quick")
-
-                ## range(1, 10) задаёт диапазон значений от 1 до 9.
-                for page in range(1, 10):
-                    textbutton "[page]" action FilePage(page)
-
-                textbutton _(">") action FilePageNext()
-
-
-screen gallery():
+screen gallery2():
 
     tag menu
 
-    use game_menu("Галерея"):
+    use game_menu("Галерея (страница 2)"):
+
+        fixed:
+            order_reverse True
+
+            ## Таблица слотов.
+            grid 3 2:
+                style_prefix "slot"
+
+                xalign 0.5
+                yalign 0.5
+
+                spacing gui.slot_spacing
+
+                imagebutton:
+                    if persistent.gallery7unlock:
+                        idle gui.gallery7_slot_idle_background
+                        hover gui.gallery7_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery7)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery8unlock:
+                        idle gui.gallery8_slot_idle_background
+                        hover gui.gallery8_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery8)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery9unlock:
+                        idle gui.gallery9_slot_idle_background
+                        hover gui.gallery9_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery9)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery10unlock:
+                        idle gui.gallery10_slot_idle_background
+                        hover gui.gallery10_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery10)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery11unlock:
+                        idle gui.gallery11_slot_idle_background
+                        hover gui.gallery11_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery11)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery12unlock:
+                        idle gui.gallery12_slot_idle_background
+                        hover gui.gallery12_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery12)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+
+            ## Кнопки для доступа к другим страницам.
+            hbox:
+                style_prefix "page"
+
+                xalign 0.5
+                yalign 1.0
+
+                spacing gui.page_spacing
+
+                textbutton "1" action ShowMenu("gallery1")
+                textbutton "{b}2{/b}" action NullAction()
+
+
+screen galleryMobile1():
+
+    tag menu
+
+    use game_menu("Галерея (страница 1)"):
 
         fixed:
             order_reverse True
@@ -1262,87 +1316,155 @@ screen gallery():
 
                 spacing gui.page_spacing
 
-                textbutton "1" action NullAction()
-                textbutton "2" action NullAction()
-                textbutton "3" action NullAction()
+                textbutton "{b}1{/b}" action NullAction()
+                textbutton "2" action ShowMenu("galleryMobile2")
+                textbutton "3" action ShowMenu("galleryMobile3")
 
-
-screen gallery__x():
+screen galleryMobile2():
 
     tag menu
 
-    ## Этот оператор включает игровое меню внутрь этого экрана. Дочерний vbox
-    ## включён в порт просмотра внутри экрана игрового меню.
-    use game_menu(_("Галерея"), scroll="viewport"):
-
-        #style_prefix "about"
-
+    use game_menu("Галерея (страница 2)"):
 
         fixed:
-            xfill False
-            yfill False
-
             order_reverse True
 
-            imagebutton:
-                if persistent.gallery1unlock:
-                    idle gui.gallery1_slot_idle_background
-                    hover gui.gallery1_slot_hover_background
-                    action ShowMenu("galleryItem", gui.gallery1)
-                else:
-                    idle gui.gallery_lock_slot_idle_background
-                    hover gui.gallery_lock_slot_hover_background
-                    action NullAction()
+            ## Таблица слотов.
             grid 2 2:
-
-                xfill False
-                yfill False
+                style_prefix "slot"
 
                 xalign 0.5
-                yalign 0.0
+                yalign 0.5
 
-                spacing gui.slot_spacing_gallery
+                spacing gui.slot_spacing
 
                 imagebutton:
-                    if persistent.gallery1unlock:
-                        idle gui.gallery1_slot_idle_background
-                        hover gui.gallery1_slot_hover_background
-                        action ShowMenu("galleryItem", gui.gallery1)
+                    if persistent.gallery5unlock:
+                        idle gui.gallery5_slot_idle_background
+                        hover gui.gallery5_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery5)
                     else:
                         idle gui.gallery_lock_slot_idle_background
                         hover gui.gallery_lock_slot_hover_background
                         action NullAction()
 
                 imagebutton:
-                    if persistent.gallery2unlock:
-                        idle gui.gallery2_slot_idle_background
-                        hover gui.gallery2_slot_hover_background
-                        action ShowMenu("galleryItem", gui.gallery2)
+                    if persistent.gallery6unlock:
+                        idle gui.gallery6_slot_idle_background
+                        hover gui.gallery6_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery6)
                     else:
                         idle gui.gallery_lock_slot_idle_background
                         hover gui.gallery_lock_slot_hover_background
                         action NullAction()
 
                 imagebutton:
-                    if persistent.gallery3unlock:
-                        idle gui.gallery3_slot_idle_background
-                        hover gui.gallery3_slot_hover_background
-                        action ShowMenu("galleryItem", gui.gallery3)
+                    if persistent.gallery7unlock:
+                        idle gui.gallery7_slot_idle_background
+                        hover gui.gallery7_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery7)
                     else:
                         idle gui.gallery_lock_slot_idle_background
                         hover gui.gallery_lock_slot_hover_background
                         action NullAction()
 
                 imagebutton:
-                    if persistent.gallery4unlock:
-                        idle gui.gallery4_slot_idle_background
-                        hover gui.gallery4_slot_hover_background
-                        action ShowMenu("galleryItem", gui.gallery4)
+                    if persistent.gallery8unlock:
+                        idle gui.gallery8_slot_idle_background
+                        hover gui.gallery8_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery8)
                     else:
                         idle gui.gallery_lock_slot_idle_background
                         hover gui.gallery_lock_slot_hover_background
                         action NullAction()
 
+
+
+            ## Кнопки для доступа к другим страницам.
+            hbox:
+                style_prefix "page"
+
+                xalign 0.5
+                yalign 1.0
+
+                spacing gui.page_spacing
+
+                textbutton "1" action ShowMenu("galleryMobile1")
+                textbutton "{b}2{/b}" action NullAction()
+                textbutton "3" action ShowMenu("galleryMobile3")
+
+screen galleryMobile3():
+
+    tag menu
+
+    use game_menu("Галерея (страница 3)"):
+
+        fixed:
+            order_reverse True
+
+            ## Таблица слотов.
+            grid 2 2:
+                style_prefix "slot"
+
+                xalign 0.5
+                yalign 0.5
+
+                spacing gui.slot_spacing
+
+                imagebutton:
+                    if persistent.gallery9unlock:
+                        idle gui.gallery9_slot_idle_background
+                        hover gui.gallery9_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery9)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery10unlock:
+                        idle gui.gallery10_slot_idle_background
+                        hover gui.gallery10_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery10)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery11unlock:
+                        idle gui.gallery11_slot_idle_background
+                        hover gui.gallery11_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery11)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+                imagebutton:
+                    if persistent.gallery12unlock:
+                        idle gui.gallery12_slot_idle_background
+                        hover gui.gallery12_slot_hover_background
+                        action ShowMenu("galleryItem", gui.gallery12)
+                    else:
+                        idle gui.gallery_lock_slot_idle_background
+                        hover gui.gallery_lock_slot_hover_background
+                        action NullAction()
+
+
+
+            ## Кнопки для доступа к другим страницам.
+            hbox:
+                style_prefix "page"
+
+                xalign 0.5
+                yalign 1.0
+
+                spacing gui.page_spacing
+
+                textbutton "1" action ShowMenu("galleryMobile1")
+                textbutton "2" action ShowMenu("galleryMobile2")
+                textbutton "{b}3{/b}" action NullAction()
 
 screen galleryItem(img):
     modal True
@@ -1360,100 +1482,6 @@ screen galleryItem(img):
         action Hide('galleryItem', dissolve)
 
     add img
-
-
-
-
-
-screen gallery2():
-
-    tag menu
-
-    #style_prefix "game_menu"
-
-    use game_menu(_("Галерея"), scroll="viewport"):
-    #use game_menu("", scroll="viewport"):
-
-        vbox:
-            #spacing 20
-            xalign 0.5
-            xfill True
-
-            #label _("Галерея"):
-            #
-
-            if False: #renpy.variant("pc"):
-
-                grid 3 4:
-
-                    #xfill True
-                    style_prefix "slot"
-
-                    xalign 0.5
-                    yalign 0.5
-
-                    spacing gui.slot_spacing_gallery
-
-                    add g.make_button("gallery1", "gallery/g1small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery2", "gallery/g2small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery3", "gallery/g3small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-
-                    add g.make_button("gallery4", "gallery/g4small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery5", "gallery/g5small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery6", "gallery/g6small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-
-                    add g.make_button("gallery7", "gallery/g7small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery8", "gallery/g8small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery9", "gallery/g9small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-
-                    add g.make_button("gallery10", "gallery/g10small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery11", "gallery/g11small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    add g.make_button("gallery12", "gallery/g12small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-            else:
-
-                grid 2 1:
-
-                    #xfill True
-                    #style_prefix "slot"
-                    style_prefix "navigation"
-
-                    xalign 0.5
-                    yalign 0.5
-
-                    spacing gui.slot_spacing_gallery
-
-                    textbutton "Hellod" action Return()
-
-
-                    textbutton "Hellod2" action Return()
-
-                    #imagebutton:
-                    #    idle gui.slot_hover_background
-                    #    hover "gallery/g2small.jpg"
-                    #    selected "gallery/g2small.jpg"
-                    #    selected_idle "lock.png"
-                    #    xalign 1.0
-                    #    yalign 0.5
-                    #    action Return()
-
-
-                    #add g.make_button("gallery1", "gallery/g1small.jpg", locked = "lock.png", xalign=1.0, yalign=0.5)
-                    #add g.make_button("gallery2", "gallery/g2small.jpg", locked = "lock.png", xalign=1.0, yalign=0.5)
-
-                    #add g.make_button("gallery3", "gallery/g3small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    #add g.make_button("gallery4", "gallery/g4small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-
-                    #add g.make_button("gallery5", "gallery/g5small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    #add g.make_button("gallery6", "gallery/g6small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-
-                    #add g.make_button("gallery7", "gallery/g7small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    #add g.make_button("gallery8", "gallery/g8small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-
-                    #add g.make_button("gallery9", "gallery/g9small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    #add g.make_button("gallery10", "gallery/g10small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-
-                    #add g.make_button("gallery11", "gallery/g11small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
-                    #add g.make_button("gallery12", "gallery/g12small.jpg", locked = "lock.png", xalign=0.5, yalign=0.5)
 
 
 ## Экран истории ###############################################################

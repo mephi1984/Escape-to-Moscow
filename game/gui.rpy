@@ -159,6 +159,38 @@ define gui.gallery4_slot_idle_background = im.FactorScale("gallery/g4small.png",
 define gui.gallery4_slot_hover_background = im.FactorScale("gallery/g4small_hover.png", SCALE)
 define gui.gallery4 = im.FactorScale("gallery/g4.jpg", SCALE)
 
+define gui.gallery5_slot_idle_background = im.FactorScale("gallery/g5small.png", SCALE)
+define gui.gallery5_slot_hover_background = im.FactorScale("gallery/g5small_hover.png", SCALE)
+define gui.gallery5 = im.FactorScale("gallery/g5.jpg", SCALE)
+
+define gui.gallery6_slot_idle_background = im.FactorScale("gallery/g6small.png", SCALE)
+define gui.gallery6_slot_hover_background = im.FactorScale("gallery/g6small_hover.png", SCALE)
+define gui.gallery6 = im.FactorScale("gallery/g6.jpg", SCALE)
+
+define gui.gallery7_slot_idle_background = im.FactorScale("gallery/g7small.png", SCALE)
+define gui.gallery7_slot_hover_background = im.FactorScale("gallery/g7small_hover.png", SCALE)
+define gui.gallery7 = im.FactorScale("gallery/g7.jpg", SCALE)
+
+define gui.gallery8_slot_idle_background = im.FactorScale("gallery/g8small.png", SCALE)
+define gui.gallery8_slot_hover_background = im.FactorScale("gallery/g8small_hover.png", SCALE)
+define gui.gallery8 = im.FactorScale("gallery/g8.jpg", SCALE)
+
+define gui.gallery9_slot_idle_background = im.FactorScale("gallery/g9small.png", SCALE)
+define gui.gallery9_slot_hover_background = im.FactorScale("gallery/g9small_hover.png", SCALE)
+define gui.gallery9 = im.FactorScale("gallery/g9.jpg", SCALE)
+
+define gui.gallery10_slot_idle_background = im.FactorScale("gallery/g10small.png", SCALE)
+define gui.gallery10_slot_hover_background = im.FactorScale("gallery/g10small_hover.png", SCALE)
+define gui.gallery10 = im.FactorScale("gallery/g10.jpg", SCALE)
+
+define gui.gallery11_slot_idle_background = im.FactorScale("gallery/g11small.png", SCALE)
+define gui.gallery11_slot_hover_background = im.FactorScale("gallery/g11small_hover.png", SCALE)
+define gui.gallery11 = im.FactorScale("gallery/g11.jpg", SCALE)
+
+define gui.gallery12_slot_idle_background = im.FactorScale("gallery/g12small.png", SCALE)
+define gui.gallery12_slot_hover_background = im.FactorScale("gallery/g12small_hover.png", SCALE)
+define gui.gallery12 = im.FactorScale("gallery/g12.jpg", SCALE)
+
 ## Диалог ######################################################################
 ##
 ## Эти переменные контролируют, как диалог появляется на отдельной строчке.
@@ -311,8 +343,6 @@ define config.thumbnail_height = int(216*SCALE)
 define gui.file_slot_cols = 3
 define gui.file_slot_rows = 2
 
-define gui.gallery_slot_cols = 3
-define gui.gallery_slot_rows = 4
 
 
 ## Позиционирование и Интервалы ################################################
@@ -540,9 +570,6 @@ init python:
         ## Местоположение кнопок слотов.
         gui.file_slot_cols = 2
         gui.file_slot_rows = 2
-
-        gui.gallery_slot_cols = 2
-        gui.gallery_slot_rows = 6
 
         ## Режим NVL.
         gui.nvl_height = int(255*SCALE)
