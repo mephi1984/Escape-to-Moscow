@@ -156,7 +156,7 @@ label teaser_start:
 
 label trailer_continue:
 
-    show black2 zorder 10
+    show black zorder 10
 
     show branch1_balcony_bkg_1:
         xpos -0.2
@@ -167,7 +167,7 @@ label trailer_continue:
     show branch1_balcony_semyon_1:
         xpos -0.2
 
-    hide black2 with dissolve
+    hide black with dissolve
 
     show branch1_balcony_bkg_1 zorder 1:
         xpos -0.2

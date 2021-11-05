@@ -368,6 +368,13 @@ style choice_button_text is default:
 
 screen quick_menu():
 
+    if isMobileWeb:
+        key "alt_K_2" action ShowMenu('preferences')
+        key "alt_K_3" action QuickSave()
+        key "alt_K_4" action QuickLoad()
+        key "alt_K_5" action Start()
+
+
     ## Гарантирует, что оно появляется поверх других экранов.
     zorder 100
 
@@ -420,9 +427,15 @@ style quick_button_text:
 screen navigation():
 
     if isMobileWeb:
-        if not main_menu:
+        if main_menu:
+            key "alt_K_1" action Continue()
+        else:
             key "alt_K_1" action Return()
 
+        key "alt_K_2" action ShowMenu('preferences')
+        key "alt_K_3" action [ ShowMenu("save"), FilePage("quick") ]
+        key "alt_K_4" action [ ShowMenu("load"), FilePage("quick") ]
+        key "alt_K_5" action [ ShowMenu('preferences'), FilePage("quick") ]
     vbox:
         style_prefix "navigation"
 
@@ -834,7 +847,7 @@ screen file_slots(title):
                         has vbox
 
 
-
+                        # Vladislav khorev - set predefined image instead of screenshot
                         #add FileScreenshot(slot) xalign 0.5
                         if FileSaveName(slot) != "":
                             add FileSaveName(slot) xalign 0.5

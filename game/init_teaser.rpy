@@ -44,9 +44,9 @@ image cutscene_takeoff5 = im.FactorScale("teaser/slideshow/takeoff5.jpg", 1.0)
 image branch1_cutscene_city2 = im.FactorScale("teaser/branch1_cutscene_city2.jpg", 1.0)
 
 
-image branch1_semyon_room_bedside_table1 = im.FactorScale("teaser/branch1_semyon_room_bedside_table1.png", 1.0)
-image branch1_semyon_room_bedside_table2 = im.FactorScale("teaser/branch1_semyon_room_bedside_table2.png", 1.0)
-image branch1_semyon_room_bedside_table3 = im.FactorScale("teaser/branch1_semyon_room_bedside_table3.png", 1.0)
+image branch1_semyon_room_bedside_table1 = im.FactorScale("teaser/branch1_semyon_room_bedside_table1.jpg", 1.0)
+image branch1_semyon_room_bedside_table2 = im.FactorScale("teaser/branch1_semyon_room_bedside_table2.jpg", 1.0)
+image branch1_semyon_room_bedside_table3 = im.FactorScale("teaser/branch1_semyon_room_bedside_table3.jpg", 1.0)
 
 image branch1_balcony_bkg_1 = im.FactorScale("teaser/branch1_balcony_bkg_1.png", 1.0)
 image branch1_balcony_layer1_1 = im.FactorScale("teaser/branch1_balcony_layer1_1.png", 1.0)
