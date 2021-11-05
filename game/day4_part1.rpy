@@ -3,6 +3,8 @@ label day4_intro:
 
     scene black with dissolve
 
+    $ savegame_picture = "savegame_black"
+
     "Вокруг была темнота." with dissolve
 
     show perlin at credits_perlin_pos zorder 2 with dissolve:
@@ -90,6 +92,8 @@ label day4_morning:
 
     scene imran_house_bedroom with dissolve
 
+    $ savegame_picture = "savegame_imran_house_bedroom"
+
     play music "music/Runaway_12 (Pre_Loop).ogg" fadein 1.0
 
     queue music "music/Runaway_12 (Loop).ogg"
@@ -125,6 +129,8 @@ label day4_morning:
     "Внезапно раздался тихий стук в дверь." with dissolve
 
     scene imran_house_doorway with dissolve
+
+    $ savegame_picture = "savegame_imran_house_doorway"
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE
@@ -203,6 +209,8 @@ label day4_morning:
 
     scene imran_house_bedroom with dissolve
 
+    $ savegame_picture = "savegame_imran_house_bedroom"
+
     "Я закрыл дверь и вернулся в комнату." with dissolve
 
     "Теперь перед мной и Алией встала еще и проблема связи." with dissolve
@@ -222,7 +230,6 @@ label day4_morning:
     "Хотя с другой стороны, Алия тоже не знает мой номер телефона. И я ее старый номер тоже не знаю." with dissolve
 
     "Как-то так получилось, что мы все время общаемся через мессенджер..." with dissolve
-
 
     scene black with dissolve
 
@@ -818,6 +825,8 @@ label day4_parents_intro:
 
     scene imran_house_2nd_floor with dissolve
 
+    $ savegame_picture = "savegame_imran_house_2nd_floor"
+
     "Рядом с моей комнатой была комната Алии. Я постучал в дверь." with dissolve
 
     "Я услышал, как Алия встала с кровати и начала собираться." with dissolve
@@ -885,6 +894,8 @@ label day4_parents_intro:
     "Алия вошла в гостиную, и за ней вошел я." with dissolve
 
     scene imran_house_living_room with dissolve
+
+    $ savegame_picture = "savegame_imran_house_living_room"
 
     show imran neutral at imran_house_pos1 with dissolve:
         zoom 0.75*SCALE

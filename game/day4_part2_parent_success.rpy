@@ -239,6 +239,8 @@ label day4_parents_part6_parent_persuade_success:
 
     scene imran_house_bedroom with dissolve
 
+    $ savegame_picture = "savegame_imran_house_bedroom"
+
     $ changeDialogToCoach()
 
     $ showMessengerPhone(is_night=True, force_no_transition=True)
@@ -344,6 +346,8 @@ label day4_parents_part6_parent_persuade_success:
     "Раздался стук. Я встал с кровати и открыл дверь." with dissolve
 
     scene imran_house_doorway with dissolve
+
+    $ savegame_picture = "savegame_imran_house_doorway"
 
     show Aliya special_sandwich as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE

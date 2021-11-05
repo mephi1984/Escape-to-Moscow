@@ -134,6 +134,8 @@ label day4_parents_part6_parent_persuade_fail:
 
     scene imran_house_outside_open_gate with dissolve
 
+    $ savegame_picture = "savegame_imran_house_outside"
+
     show imran neutral at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
@@ -166,6 +168,8 @@ label day4_the_end_part1_option1_bus:
 
     scene apt_kitchen
 
+    $ savegame_picture = "savegame_apt_kitchen"
+
     show black zorder 10
 
     show apartment_kitchen_food_spoon_eaten as apartment_kitchen_food at apartment_kitchen_food_pos zorder 2:
@@ -182,7 +186,6 @@ label day4_the_end_part1_option1_bus:
     $ addSentMessage(5)
 
     $ showMessengerPhone(is_night=False, force_no_transition=True)
-
 
     "Был уже глубокий вечер. Я сидел на кухне съёмной квартиры." with dissolve
 

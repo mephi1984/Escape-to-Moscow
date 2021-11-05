@@ -10,6 +10,10 @@ default aliya_trust_points_hard = 0
 
 default parents_trust_points = 0
 
+default savegame_picture = "savegame_black"
+
+default savegame_text = ""
+
 # See screens.rpy, when counter reaches 10, the debug_mode will be changed
 default debug_mode_counter = 0
 default debug_mode = False
@@ -193,5 +197,7 @@ label start:
     $ var_messenger_is_phone = False
 
     $ var_day3_photo_made = False
+
+    $ savegame_picture = "savegame_black"
 
     jump day1_intro

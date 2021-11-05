@@ -521,6 +521,8 @@ label day2_escape_now_success_coach_continue:
 
     hide black with dissolve
 
+    $ savegame_picture = "savegame_semen_room_night"
+
     "Я достал свой старый рюкзак из шкафа и кинул его в центр комнаты." with dissolve
 
     "Уже долгое время я не покидал родной город и за это время рюкзак успел заметно покрыться пылью." with dissolve

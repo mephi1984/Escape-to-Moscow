@@ -3,6 +3,8 @@ label day3_metro:
 
     scene underground with dissolve
 
+    $ savegame_picture = "savegame_underground"
+
     play music "ambience/metro_station.ogg" fadein 1.0 fadeout 1.0
 
     "Поток людей шёл из вагонов аэроэкспресса на перрон, затем на вокзал и в метро." with dissolve
@@ -93,6 +95,8 @@ label day3_metro_train:
 
     show metro_train at metro_scene_pos with dissolve:
         zoom 1.05
+
+    $ savegame_picture = "savegame_metro_train"
 
     show Aliya_stand_straight eyes_open_neutral as Aliya at any_center_pos with dissolve:
         zoom 0.75*SCALE
@@ -199,6 +203,8 @@ label day3_taganskaya:
 
     scene taganskaya_street with dissolve
 
+    $ savegame_picture = "savegame_taganskaya_street"
+
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
@@ -257,6 +263,8 @@ label day3_taganskaya:
 
     scene tagansky_park with dissolve
 
+    $ savegame_picture = "savegame_tagansky_park"
+
     show aliya_turn_around eyes_open_smile as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
@@ -296,7 +304,6 @@ label day3_taganskaya_park_rest:
 
     scene black with dissolve
 
-
     $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
 
     $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
@@ -304,6 +311,8 @@ label day3_taganskaya_park_rest:
     $ renpy.pause(1.0)
 
     scene tagansky_park_sit with dissolve
+
+    $ savegame_picture = "savegame_tagansky_park_sit"
 
     show aliya_sit_side earphones eyes_open_watching_phone as Aliya at any_center_pos with dissolve:
         zoom SCALE
@@ -469,6 +478,8 @@ label day3_taganskaya_park_rest:
 label day3_taganskaya_park_continue:
 
     show tagansky_store with dissolve
+
+    $ savegame_picture = "savegame_tagansky_store"
 
     "Я угадал, действительно - странное здание оказалось небольшим торговым центром, точнее даже - рынком." with dissolve
 
@@ -686,6 +697,8 @@ label day3_basmannaya_outside:
 
     scene baymanskaya with dissolve
 
+    $ savegame_picture = "savegame_baymanskaya"
+
     show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
 
 
@@ -741,6 +754,8 @@ label day3_basmannaya_outside:
 
     scene baymanskaya_cafe with dissolve
 
+    $ savegame_picture = "savegame_baymanskaya_cafe"
+
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE
 
@@ -787,6 +802,8 @@ label day3_basmannaya_outside:
 
     scene baymanskaya with dissolve
 
+    $ savegame_picture = "savegame_baymanskaya"
+
     show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
@@ -801,6 +818,8 @@ label day3_basmannaya_outside:
     $ renpy.pause(1.0)
 
     scene cellular with dissolve
+
+    $ savegame_picture = "savegame_cellular"
 
     "Мы зашли в салон сотовой связи, находящийся неподалёку." with dissolve
 
@@ -898,6 +917,8 @@ label day3_basmannaya:
 
     scene baymanskaya with dissolve
 
+    $ savegame_picture = "savegame_baymanskaya"
+
     stop music fadeout 1.0
 
     play music "music/Runaway_10 (Pre_Loop).ogg" fadein 1.0
@@ -929,6 +950,8 @@ label day3_basmannaya:
     "И мы отправились в путь..." with dissolve
 
     scene apartment_hood with dissolve
+
+    $ savegame_picture = "savegame_apartment_hood"
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
         zoom 0.75*SCALE*0.9
@@ -1022,6 +1045,8 @@ label day3_basmannaya:
     "И мы подошли поближе к подъезду" with dissolve
 
     scene basmannaya_hood with dissolve
+
+    $ savegame_picture = "savegame_basmannaya_hood"
 
     show aliya_sit_side earphones eyes_open_sad_worried_question as Aliya at any_center_pos with dissolve:
         zoom SCALE
@@ -1278,6 +1303,8 @@ label day3_basmannaya:
 
     scene apartment_hood with dissolve
 
+    $ savegame_picture = "savegame_apartment_hood"
+
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
@@ -1307,6 +1334,8 @@ label day3_basmannaya:
     "Мы вошли в подъезд вслед за хозяйкой и зашли в квартиру..." with dissolve
 
     scene apt_kitchen with dissolve
+
+    $ savegame_picture = "savegame_apt_kitchen"
 
     show apt_kitchen_foreground zorder 1
 
@@ -1890,6 +1919,8 @@ label day3_basmannaya_shaurma:
 
     scene shaurma with dissolve
 
+    $ savegame_picture = "savegame_shaurma"
+
     show shaurma_foreground zorder 1
 
     "Мы зашли в одну из круглосуточных забегаловок с шаурмой неподалеку." with dissolve
@@ -2090,6 +2121,8 @@ label day3_basmannaya_imran:
 
     scene apartment_hood_night_car with dissolve
 
+    $ savegame_picture = "savegame_apartment_hood_night_car"
+
     show Aliya_stand_half_turned jacket_armsdown eyes_open_neutral as Aliya at aliya_hood_right_pos with dissolve:
         zoom 0.75*SCALE*0.9
 
@@ -2203,6 +2236,8 @@ label day3_basmannaya_imran_accept:
 
 
     show night_road_foreground2
+
+    $ savegame_picture = "savegame_night_road2"
 
     "Мы сели в автомобиль Имрана, и поехали..." with dissolve
 
@@ -2353,6 +2388,8 @@ label day3_imran_house:
 
     scene imran_house_outside_night with dissolve
 
+    $ savegame_picture = "savegame_imran_house_outside_night"
+
     "Наконец мы приехали к коттеджу в каком-то из садовых товариществ в Подмосковье." with dissolve
 
     "Участок вокруг коттеджа был огорожен высоким забором." with dissolve
@@ -2387,6 +2424,8 @@ label day3_imran_house:
 
     scene imran_house_living_room_night with dissolve
 
+    $ savegame_picture = "savegame_imran_house_living_room_night"
+
     "Имран проводил нас в гостиную." with dissolve
 
     show imran neutral at any_left_pos with dissolve:
@@ -2417,6 +2456,8 @@ label day3_imran_house:
     "Мы поднялись наверх по лестнице..." with dissolve
 
     scene imran_house_bedroom_night with dissolve
+
+    $ savegame_picture = "savegame_imran_house_bedroom_night"
 
     "Как я и ожидал, Имран разместил меня и Алию в разных комнатах." with dissolve
 
@@ -2631,6 +2672,8 @@ label day3_basmannaya_imran_decline:
     "Мне больше ничего не оставалось сделать, кроме как вернуться в квартиру..." with dissolve
 
     scene apt_kitchen
+
+    $ savegame_picture = "savegame_apt_kitchen"
 
     show black zorder 10
 

@@ -44,16 +44,9 @@ label day1_intro:
 
     scene semen_room_night with dissolve
 
-    $ global currentBgScreenshot
-    $ currentBgScreenshot = "semen_room_night_small"
+    $ savegame_picture = "savegame_semen_room_night"
 
     "За окном густая ночь." with dissolve
-
-    #$ global webTestCall
-
-    #$ webTestCall()
-
-    #$ xxx2()
 
     "Все приличные люди давно уже спят в этот час." with dissolve
 
@@ -108,8 +101,7 @@ label day1_coach_pre_meeting:
 
     scene semen_room_table_night
 
-    $ global currentBgScreenshot
-    $ currentBgScreenshot = "semen_room_table_night_small"
+    $ savegame_picture = "savegame_semen_room_table_night"
 
     show black zorder 20
 
@@ -1197,6 +1189,8 @@ label day1_over_success:
 
     scene semen_room_night with dissolve
 
+    $ savegame_picture = "savegame_semen_room_night"
+
     "Утомлённый разговором, я лёг спать." with dissolve
 
     "В голове крутились разные мысли." with dissolve
@@ -1442,6 +1436,8 @@ label day1_aliya_decline:
     $ renpy.pause(1.0)
 
     scene semen_room_night with dissolve
+
+    $ savegame_picture = "savegame_semen_room_night"
 
     "Она отправила меня в ЧС, поэтому сейчас я уже ничем не могу помочь ей." with dissolve
 

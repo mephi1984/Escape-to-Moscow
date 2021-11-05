@@ -111,8 +111,11 @@ default show_say_menu = True
 
 screen say(who, what):
     style_prefix "say"
+    #if isMobileWeb:
 
-    #
+        #$ savegame_text = what
+
+        #$ savegame_text = (savegame_text[:16] + '..') if len(savegame_text) > 18 else savegame_text
 
     if show_say_menu:
 
@@ -234,9 +237,18 @@ init python:
             super(FileLastSaySave,self).__init__(name=name,confirm=confirm,newest=newest,page=page,cycle=cycle)
             #self.last_say=last_say
         def __call__(self):
+            if store._last_say_who:
+                #if not isinstance(store._last_say_who, basestring):
+
+                who = renpy.eval_who(store._last_say_who).name
+
+                savegame_text = who + ": " + store._last_raw_what
+            else:
+                savegame_text = store._last_raw_what
+
+            savegame_text = (savegame_text[:22] + '..') if len(savegame_text) > 24 else savegame_text
             global save_name
-            global currentBgScreenshot
-            save_name=currentBgScreenshot
+            save_name = savegame_picture + "|" + savegame_text
             return super(FileLastSaySave,self).__call__()
 
     def FileAction2(name, page=None, **kwargs):
@@ -846,16 +858,21 @@ screen file_slots(title):
 
                         has vbox
 
+                        $ pic_and_text = FileSaveName(slot)
+                        $ pic_and_text_split = pic_and_text.split("|")
+                        $ savegame_pick = pic_and_text_split[0]
+                        $ savegame_text = pic_and_text_split[1] if (len(pic_and_text_split) >= 2) else ""
+
 
                         # Vladislav khorev - set predefined image instead of screenshot
                         #add FileScreenshot(slot) xalign 0.5
-                        if FileSaveName(slot) != "":
-                            add FileSaveName(slot) xalign 0.5
+                        if savegame_pick != "":
+                            add savegame_pick xalign 0.5
 
                         text FileTime(slot, format=_("{#file_time}%A, %d %B %Y, %H:%M"), empty=_("Пустой слот")):
                             style "slot_time_text"
 
-                        text FileSaveName(slot):
+                        text savegame_text:
                             style "slot_name_text"
 
                         key "save_delete" action FileDelete(slot)

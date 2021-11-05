@@ -20,6 +20,8 @@ label day4_end_success:
 
     show airplane_day_side as airplane_scene
 
+    $ savegame_picture = "savegame_airplane_day_side"
+
     show airplane_window_landing11 as airplane_window
 
     hide black with dissolve
@@ -79,6 +81,8 @@ label day4_end_success:
         ypos 0.525
         xpos 0.5
         zoom 1.15
+
+    $ savegame_picture = "savegame_airplane_day"
 
     "Минуты тянулись очень долго." with dissolve
 
@@ -208,6 +212,8 @@ label day4_end_success:
     "В наушниках заиграли знакомые мотивы." with dissolve
 
     scene black with dissolve
+
+    $ savegame_picture = "savegame_black"
 
     "Я откинулся на кресло и закрыл глаза." with dissolve
 

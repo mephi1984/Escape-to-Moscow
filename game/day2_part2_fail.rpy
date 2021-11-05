@@ -90,6 +90,8 @@ label day2_escape_now_fail:
 
     scene semen_room_night with dissolve
 
+    $ savegame_picture = "savegame_semen_room_night"
+
     "Она отправила меня в ЧС и я не могу ей больше ничего писать." with dissolve
 
     "Ладно, пожалуй, пойду спать." with dissolve

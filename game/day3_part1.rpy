@@ -17,6 +17,8 @@ label day3_intro:
 
     announcement "Просим вас пристегнуть ремни, привести спинки кресел в вертикальное положение, закрыть раскладные столики и открыть шторки на иллюминаторах." with dissolve
 
+    $ savegame_picture = "savegame_airplane_night"
+
     show airplane_night at airplane_scene_pos with dissolve:
         ypos 0.525
         zoom 1.05
@@ -101,6 +103,8 @@ label day3_intro:
     $ renpy.pause(1.0)
 
     scene mrv_interior2 with dissolve
+
+    $ savegame_picture = "savegame_mrv_interior"
 
     play music "music/Runaway_05 (Pre_Loop).ogg" fadein 1.0
 
@@ -204,6 +208,8 @@ label day3_meet_aliya:
     $ renpy.start_predict("images/aliya_anim/*.*")
 
     scene mrv_exterior with dissolve
+
+    $ savegame_picture = "savegame_mrv_exterior"
 
     "... я вышел наружу и огляделся." with dissolve
 
@@ -379,6 +385,8 @@ label day3_meet_aliya:
 
     scene mrv_interior2 with dissolve
 
+    $ savegame_picture = "savegame_mrv_interior"
+
     show aliya_turn_around eyes_open_watching mask at any_left_pos as Aliya with dissolve:
         zoom 0.75*SCALE
 
@@ -400,6 +408,8 @@ label day3_meet_aliya:
     "Я сел на сидение и Алия села рядом со мной..." with dissolve
 
     scene mrv_interior2_chair with dissolve
+
+    $ savegame_picture = "savegame_mrv_interior2_chair"
 
     show aliya_sit_side earphones eyes_open_neutral mask as Aliya at any_center_pos with dissolve:
         zoom SCALE
@@ -754,6 +764,8 @@ label day3_meet_aliya_success:
 
     scene mrv_interior2 with dissolve
 
+    $ savegame_picture = "savegame_mrv_interior"
+
     "Я уже летал сегодня этой авиакомпанией, поэтому процесс регистрации не занял долгое время." with dissolve
 
     "Багажа у нас нет, поэтому мы просто подошли к автомату самостоятельной регистрации и распечатали посадочные талоны." with dissolve
@@ -923,6 +935,8 @@ label day3_meet_aliya_fail:
 label day3_airport_inner:
 
     scene mrv_interior3 with dissolve
+
+    $ savegame_picture = "savegame_mrv_interior3"
 
     $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
@@ -1129,6 +1143,8 @@ label day3_airplane:
 
     scene airplane_day with dissolve
 
+    $ savegame_picture = "savegame_airplane_day"
+
     "Наш самолет только что набрал высоту и выровнялся." with dissolve
 
     play sound "sound/seatbelt.ogg"
@@ -1163,6 +1179,8 @@ label day3_airplane:
         zoom SCALE
 
     hide black with dissolve
+
+    $ savegame_picture = "savegame_airplane_day_side"
 
     "Алия сидела рядом и смотрела в окно на облака." with dissolve
 
@@ -1993,6 +2011,8 @@ label day3_airplane3:
 
     scene airplane_day with dissolve
 
+    $ savegame_picture = "savegame_airplane_day"
+
     $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
     $ renpy.stop_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
 
@@ -2024,6 +2044,8 @@ label day3_airplane3:
     $ renpy.pause(1.0)
 
     scene domodedovo_luggage with dissolve
+
+    $ savegame_picture = "savegame_domodedovo_luggage"
 
     play music "music/Runaway_08 (Pre_Loop).ogg" fadein 1.0
 
@@ -2144,6 +2166,8 @@ label day3_airplane3:
 label day3_aeroexpress:
 
     scene aeroexpress with dissolve
+
+    $ savegame_picture = "savegame_aeroexpress"
 
     show aliya_sit_front_hands_aside eyes_open_neutral as Aliya with dissolve:
         xalign 0.5

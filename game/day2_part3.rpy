@@ -27,6 +27,8 @@ label day2_success_end:
 
     $ persistent.gallery1unlock = True
 
+    $ savegame_picture = "savegame_night_road"
+
     "Время перевалило за одиннадцать, я сижу в машине Ярика на переднем сидении." with dissolve
 
     "Мы на полпути до аэропорта. Ярик действительно водит быстро, мы уже выехали за город и едем по трассе." with dissolve
@@ -307,6 +309,8 @@ label day2_car_end:
     "Наверное, нет. Для этого нужно быть фрилансером... или безработным... и, конечно, немного отчаянным романтиком в душе." with dissolve
 
     scene black with dissolve
+
+    $ savegame_picture = "savegame_black"
 
     play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
 

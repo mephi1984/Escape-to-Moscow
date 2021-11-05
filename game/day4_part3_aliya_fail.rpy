@@ -31,6 +31,8 @@ label day4_imran_house_new_escape_failed:
 
     scene imran_house_living_room with dissolve
 
+    $ savegame_picture = "savegame_imran_house_living_room"
+
     show imran watching at imran_house_pos1:
         zoom 0.75*SCALE
         alpha 0.0
@@ -128,6 +130,8 @@ label day4_imran_house_new_escape_failed:
 
     scene imran_house_outside_open_gate with dissolve
 
+    $ savegame_picture = "savegame_imran_house_outside"
+
     show imran neutral at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
@@ -171,6 +175,8 @@ label day4_the_end_part1_option2_airplane:
     queue music "music/Runaway_01 (Loop).ogg"
 
     scene apt_kitchen with dissolve
+
+    $ savegame_picture = "savegame_apt_kitchen"
 
     show apartment_kitchen_food_spoon_eaten as apartment_kitchen_food at apartment_kitchen_food_pos zorder 2:
         zoom 0.6

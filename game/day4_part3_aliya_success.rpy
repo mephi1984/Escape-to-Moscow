@@ -56,12 +56,13 @@ label day4_imran_house_new_escape_succeed:
 
     scene imran_house_bedroom with dissolve
 
+    $ savegame_picture = "savegame_imran_house_bedroom"
+
     show imran_room_drawers_food_empty_far as imran_room_drawers_food
 
     show imran_room_drawers_tea_no_cup_far as imran_room_drawers_cup
 
     show imran_room_hand_left_sandwich_eaten as imran_room_hand_left at imran_room_hand_pos with dissolve
-
 
     show imran_room_hand_right_cup as imran_room_hand_right at imran_room_hand_pos with dissolve
 
@@ -157,6 +158,8 @@ label day4_imran_house_new_escape_succeed:
 
     scene imran_house_living_room with dissolve
 
+    $ savegame_picture = "savegame_imran_house_living_room"
+
     show imran neutral at imran_house_pos1:
         zoom 0.75*SCALE
         alpha 0.0
@@ -238,6 +241,8 @@ label day4_imran_house_new_escape_succeed:
 
     scene imran_house_outside_open_gate with dissolve
 
+    $ savegame_picture = "savegame_imran_house_outside"
+
     show imran neutral at any_right_pos with dissolve:
         zoom 0.75*SCALE
 
@@ -292,6 +297,8 @@ label airport_scene1:
 
     show day4_domodedovo_pillar_semyon_blurred at day4_domodedovo_pillar_pos zorder 4
 
+    $ savegame_picture = "savegame_domodedovo"
+
     "План, предложенный Напарником, был довольно прост:" with dissolve
 
     "я должен приехать в аэропорт заранее," with dissolve
@@ -319,6 +326,8 @@ label airport_scene1:
     scene black with dissolve
 
     show day4_domodedovo_toilet
+
+    $ savegame_picture = "savegame_domodedovo_toilet"
 
     show black zorder 10
 
@@ -364,6 +373,8 @@ label airport_scene1:
 
     scene domodedovo_check with dissolve
 
+    $ savegame_picture = "savegame_domodedovo_check"
+
     "Ожидая Алию, я встал прямо возле эскалатора." with dissolve
 
     "Отсюда видны все запущенные в работу металлодетекторы." with dissolve
@@ -407,6 +418,8 @@ label airport_scene1:
     "Бежали очень быстро..." with dissolve
 
     scene domodedovo_border with dissolve
+
+    $ savegame_picture = "savegame_domodedovo_border"
 
     show Aliya_stand_half_turned jacket_armsdown_light eyes_open_neutral as Aliya at any_right_pos with dissolve:
         zoom 0.75*SCALE
@@ -481,6 +494,8 @@ label airport_scene1:
     "Я вышел в зону Duty Free вслед за Алией..." with dissolve
 
     scene domodedovo_duty_free with dissolve
+
+    $ savegame_picture = "savegame_domodedovo_duty_free"
 
     show aliya_turn_around no_backpack eyes_open_neutral as Aliya at duty_free_aliya_pos with dissolve:
         zoom 0.75*SCALE

@@ -7,6 +7,8 @@ label day2_intro:
 
     scene semen_room_day with dissolve
 
+    $ savegame_picture = "savegame_semen_room_day"
+
     "Наступил новый день."
 
     "Я еле проснулся и лежу в теплой постели, нежась в лучах утреннего солнца." with dissolve
@@ -27,6 +29,8 @@ label day2_intro:
 label day2_before_choice:
 
     scene semen_room_table_day
+
+    $ savegame_picture = "savegame_semen_room_table_day"
 
     show black zorder 20
 
@@ -912,6 +916,8 @@ label day2_evening:
     queue music "music/Runaway_01 (Loop).ogg"
 
     scene semen_room_table_night
+
+    $ savegame_picture = "savegame_semen_room_table_night"
 
     show black zorder 20
 
