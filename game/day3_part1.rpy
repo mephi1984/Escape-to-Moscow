@@ -113,8 +113,8 @@ label day3_intro:
     "Я вошёл в здание аэровокзала один из первых, поскольку у меня не было багажа, только ручная кладь." with dissolve
 
     "Было утро, но в аэропорту уже было много людей." with dissolve
-
-    $ renpy.show('cg_screen_phone', tag='cg_screen_phone')
+    
+    show cg_screen_phone as cg_screen_phone with dissolve
 
     "Ой, я кажется ещё не выключил авиарежим в телефоне. Включаю сеть..." with dissolve
 

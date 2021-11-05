@@ -197,7 +197,7 @@ label day1_coach_meeting_alt:
 
     hide black with dissolve
 
-    $ renpy.show('semen_room_table_night_foreground_phone_day1_coach', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone_day1_coach as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     show cg_screen_new_message_coach
 
@@ -205,7 +205,7 @@ label day1_coach_meeting_alt:
 
     hide cg_screen_new_message_coach
 
-    $ renpy.show('semen_room_table_night_foreground_phone', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     $ changeDialogToCoach()
 
@@ -298,7 +298,7 @@ label day1_aliya_meeting:
 
     "...Прошло ещё немного времени бесцельного блуждания по интернету." with dissolve
 
-    $ renpy.show('semen_room_table_night_foreground_phone_day1_pak', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone_day1_pak as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     show cg_screen_new_message_minjun
 
@@ -308,7 +308,7 @@ label day1_aliya_meeting:
 
     queue music "music/Runaway_02 (Loop).ogg"
 
-    $ renpy.show('semen_room_table_night_foreground_phone', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     hide cg_screen_new_message_minjun
 

@@ -886,9 +886,9 @@ init python:
 
     def drawMessages(force_no_transition=False):
 
-        global webTestCall
+        #global webTestCall
 
-        webTestCall()
+        #webTestCall()
 
         if var_messenger_is_phone:
             drawMessagesPhone(force_no_transition)

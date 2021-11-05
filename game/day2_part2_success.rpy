@@ -385,11 +385,11 @@ label day2_escape_now_success_coach_continue:
 
     show semen_room_table_night_foreground_card with dissolve
 
-    $ renpy.show('semen_room_table_night_foreground_phone_day2_bank', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone_day2_bank as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     "Всего несколько кликов - готово!" with dissolve
 
-    $ renpy.show('semen_room_table_night_foreground_phone', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     hide semen_room_table_night_foreground_card_hands
 

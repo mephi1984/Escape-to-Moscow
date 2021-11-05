@@ -938,13 +938,13 @@ label day2_evening:
 
     show cg_screen_new_message_aliya
 
-    $ renpy.show('semen_room_table_night_foreground_phone_day2_aliya', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone_day2_aliya as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     messenger "Новое сообщение" with dissolve # with hpunch
 
     hide cg_screen_new_message_aliya
 
-    $ renpy.show('semen_room_table_night_foreground_phone', tag='semen_room_table_night_foreground_phone', zorder=1)
+    show semen_room_table_night_foreground_phone as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
     $ changeDialogToAliya()
 
