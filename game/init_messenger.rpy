@@ -885,6 +885,11 @@ init python:
             drawSingleMessagePhone(i, rangeLen, queueLen, msg, force_no_transition)
 
     def drawMessages(force_no_transition=False):
+
+        global webTestCall
+
+        webTestCall()
+
         if var_messenger_is_phone:
             drawMessagesPhone(force_no_transition)
         else:

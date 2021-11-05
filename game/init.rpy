@@ -150,6 +150,10 @@ define isMobileWeb = True
 
 init python:
     renpy.music.register_channel("music_crossfade","music",loop=True,tight=True)
+    global webTestCall
+    def webTestCall():
+        renpy.play('sound/seatbelt.ogg')
+
 
     if isMobileWeb:
         config.has_autosave = True

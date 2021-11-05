@@ -112,6 +112,8 @@ default show_say_menu = True
 screen say(who, what):
     style_prefix "say"
 
+    #
+
     if show_say_menu:
 
         window:
@@ -137,6 +139,113 @@ screen say(who, what):
 ## Делает namebox доступным для стилизации через объект Character.
 init python:
     config.character_id_prefixes.append('namebox')
+
+
+    #config.underlay.append(renpy.Keymap(custom_return_to_game = ShowMenu("history"))) #creates keymap "history"
+
+    class FileSave2(Action, DictEquality):
+        """
+         :doc: file_action
+
+         Saves the file.
+
+         The button with this slot is selected if it's marked as the
+         newest save file.
+
+         `name`
+             The name of the slot to save to. If None, an unused slot
+             (a large number based on the current time) will be used.
+
+         `confirm`
+             If true, then we will prompt before overwriting a file.
+
+         `newest`
+             Ignored.
+
+         `page`
+             The name of the page that the slot is on. If None, the current
+             page is used.
+
+         `cycle`
+             If true, then saves on the supplied page will be cycled before
+             being shown to the user. :var:`config.quicksave_slots` slots are
+             used in the cycle.
+
+         `slot`
+             If True, `name` is taken to be a slot name, and `page` is ignored.
+         """
+
+        alt = "Save slot [text]"
+        slot = None
+
+        def __init__(self, name, confirm=True, newest=True, page=None, cycle=False, slot=False):
+            if name is None:
+                name = __unused_slot_name(page)
+
+            self.name = name
+            self.confirm = confirm
+            self.page = page
+            self.cycle = cycle
+            self.slot = slot
+
+            try:
+                self.alt = __("Save slot %s: [text]") % (name,)
+            except:
+                self.alt = "Save slot %s: [text]" % (name,)
+
+        def __call__(self):
+
+            if not self.get_sensitive():
+                return
+
+            fn = __slotname(self.name, self.page, self.slot)
+
+            if renpy.scan_saved_game(fn):
+                if self.confirm:
+                    layout.yesno_screen(layout.OVERWRITE_SAVE, FileSave(self.name, False, False, self.page, cycle=self.cycle, slot=self.slot))
+                    return
+
+            if self.cycle:
+                renpy.renpy.loadsave.cycle_saves(self.page + "-", config.quicksave_slots)
+
+            renpy.save(fn, extra_info=save_name)
+
+            renpy.restart_interaction()
+
+        def get_sensitive(self):
+            if _in_replay:
+                return False
+            elif main_menu:
+                return False
+            elif (self.page or persistent._file_page) == "auto":
+                return False
+            else:
+                return True
+
+        def get_selected(self):
+            if not self.confirm:
+                return False
+
+            return __newest_slot() == __slotname(self.name, self.page, self.slot)
+
+    class FileLastSaySave(FileSave):
+        def __init__(self, name, confirm=False, newest=True, page=None, cycle=False):
+            #global last_say
+            super(FileLastSaySave,self).__init__(name=name,confirm=confirm,newest=newest,page=page,cycle=cycle)
+            #self.last_say=last_say
+        def __call__(self):
+            global save_name
+            global currentBgScreenshot
+            save_name=currentBgScreenshot
+            return super(FileLastSaySave,self).__call__()
+
+    def FileAction2(name, page=None, **kwargs):
+        if renpy.current_screen().screen_name[0] == "load":
+            return FileLoad(name, page=page, **kwargs)
+        else:
+            return FileLastSaySave(name, page=page, **kwargs)
+
+
 
 style window is default
 style say_label is default
@@ -309,6 +418,10 @@ style quick_button_text:
 ## другим меню и к началу игры.
 
 screen navigation():
+
+    if isMobileWeb:
+        if not main_menu:
+            key "alt_K_1" action Return()
 
     vbox:
         style_prefix "navigation"
@@ -716,11 +829,15 @@ screen file_slots(title):
                     $ slot = i + 1
 
                     button:
-                        action FileAction(slot)
+                        action FileAction2(slot)
 
                         has vbox
 
-                        add FileScreenshot(slot) xalign 0.5
+
+
+                        #add FileScreenshot(slot) xalign 0.5
+                        if FileSaveName(slot) != "":
+                            add FileSaveName(slot) xalign 0.5
 
                         text FileTime(slot, format=_("{#file_time}%A, %d %B %Y, %H:%M"), empty=_("Пустой слот")):
                             style "slot_time_text"

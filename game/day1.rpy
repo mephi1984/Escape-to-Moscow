@@ -1,4 +1,13 @@
+#init python:
+    #if renpy.emscripten:
+        #import emscripten
+        #emscripten.async_wget_data('nothing', None, None, lambda arg: renpy.notify(str(arg)))
 
+        #def xxx2():
+        #    import emscripten
+
+            #xx = emscripten.run_script_string("document.wowdata")
+        #    renpy.notify(xx)
 
 
 label day1_intro:
@@ -35,7 +44,16 @@ label day1_intro:
 
     scene semen_room_night with dissolve
 
+    $ global currentBgScreenshot
+    $ currentBgScreenshot = "semen_room_night_small"
+
     "За окном густая ночь." with dissolve
+
+    #$ global webTestCall
+
+    #$ webTestCall()
+
+    #$ xxx2()
 
     "Все приличные люди давно уже спят в этот час." with dissolve
 
@@ -89,6 +107,9 @@ label day1_intro:
 label day1_coach_pre_meeting:
 
     scene semen_room_table_night
+
+    $ global currentBgScreenshot
+    $ currentBgScreenshot = "semen_room_table_night_small"
 
     show black zorder 20
 
