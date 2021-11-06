@@ -447,7 +447,7 @@ screen navigation():
         key "alt_K_2" action ShowMenu('preferences')
         key "alt_K_3" action [ ShowMenu("save"), FilePage("quick") ]
         key "alt_K_4" action [ ShowMenu("load"), FilePage("quick") ]
-        key "alt_K_5" action [ ShowMenu('preferences'), FilePage("quick") ]
+        key "alt_K_5" action [ Start() ]
     vbox:
         style_prefix "navigation"
 
