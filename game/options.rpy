@@ -103,7 +103,7 @@ define config.has_voice = True
 ## проигрываться в главном меню. Этот файл продолжит проигрываться во время
 ## игры, если не будет остановлен, или не начнёт проигрываться другой аудиофайл.
 
-define config.main_menu_music = "music/Runaway_01 (Main).ogg"
+#define config.main_menu_music = "music/Runaway_01 (Main).ogg"
 
 
 ## Переходы ####################################################################
@@ -149,7 +149,7 @@ define config.end_game_transition = dissolve
 
 define config.window = "auto"
 
-#define config.predict_statements = 5
+define config.predict_statements = 5
 
 
 ## Переходы, используемые при показе и скрытии диалогового окна
@@ -263,6 +263,5 @@ define build.itch_project = "mephi1984/escape-to-moscow"
 
 define config.default_fullscreen = True
 
-default preferences.text_cps = 60
 
 default persistent.difficulty = 0 # 0 = easy; 1 = normal

@@ -1,12 +1,12 @@
 
 label day2_intro:
 
-    if isMobileWeb:
-        $ renpy.free_memory()
+    #if isMobileWeb:
+    #    $ renpy.free_memory()
 
-    play music "music/Runaway_08 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_08 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_08 (Loop).ogg"
+    #queue music "music/Runaway_08 (Loop).ogg"
 
     scene semen_room_day with dissolve
 
@@ -914,9 +914,9 @@ label day2_do_own_business:
 
 label day2_evening:
 
-    play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_01 (Loop).ogg"
+    #queue music "music/Runaway_01 (Loop).ogg"
 
     scene semen_room_table_night
 
@@ -953,9 +953,9 @@ label day2_evening:
 
     $ showMessengerWithRightOrder()
 
-    play music "music/Runaway_03 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_03 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_03 (Loop).ogg"
+    #queue music "music/Runaway_03 (Loop).ogg"
 
     $ addReceivedMessage(0)
 

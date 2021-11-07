@@ -1,9 +1,6 @@
 
 label day4_intro:
 
-    if isMobileWeb:
-        $ renpy.free_memory()
-
     scene black with dissolve
 
     $ savegame_picture = "savegame_black"
@@ -97,9 +94,9 @@ label day4_morning:
 
     $ savegame_picture = "savegame_imran_house_bedroom"
 
-    play music "music/Runaway_12 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_12 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_12 (Loop).ogg"
+    #queue music "music/Runaway_12 (Loop).ogg"
 
     "Я проснулся ранним утром." with dissolve
 
@@ -888,9 +885,9 @@ label day4_parents_intro:
 
     scene black with dissolve
 
-    play music "music/Runaway_13 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_13 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_13 (Loop).ogg"
+    #queue music "music/Runaway_13 (Loop).ogg"
 
     "Мы спустились по лестнице вниз на первый этаж." with dissolve
 

@@ -1,8 +1,5 @@
 label day4_parents_part6_parent_persuade_success:
 
-    if isMobileWeb:
-        $ renpy.free_memory()
-
     scene imran_house_living_room with dissolve
 
     show imran neutral at imran_house_pos1:

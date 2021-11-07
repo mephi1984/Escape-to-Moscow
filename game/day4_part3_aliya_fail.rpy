@@ -170,9 +170,9 @@ label day4_imran_house_new_escape_failed:
 
 label day4_the_end_part1_option2_airplane:
 
-    play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_01 (Loop).ogg"
+    #queue music "music/Runaway_01 (Loop).ogg"
 
     scene apt_kitchen with dissolve
 

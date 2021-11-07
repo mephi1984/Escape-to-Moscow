@@ -1,10 +1,7 @@
 
 label day3_intro:
 
-    if isMobileWeb:
-        $ renpy.free_memory()
-
-    play music "ambience/airplane_1ambience_before_landing_loop.ogg" fadein 1.0 fadeout 1.0
+    #play music "ambience/airplane_1ambience_before_landing_loop.ogg" fadein 1.0 fadeout 1.0
 
     "В ушах звенит гул летящего самолёта." with dissolve
 
@@ -61,9 +58,9 @@ label day3_intro:
 
     "Я чувствую всем своим телом как воздушное судно медленно снижается." with dissolve
 
-    play music "ambience/airplane_2landed_shortened.ogg"
+    #play music "ambience/airplane_2landed_shortened.ogg"
 
-    queue music "ambience/airplane_3after_landing_loop.ogg"
+    #queue music "ambience/airplane_3after_landing_loop.ogg"
 
     show airplane_night:
         ypos 0.475
@@ -109,9 +106,9 @@ label day3_intro:
 
     $ savegame_picture = "savegame_mrv_interior"
 
-    play music "music/Runaway_05 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_05 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_05 (Loop).ogg"
+    #queue music "music/Runaway_05 (Loop).ogg"
 
     "Я вошёл в здание аэровокзала один из первых, поскольку у меня не было багажа, только ручная кладь." with dissolve
 
@@ -225,9 +222,9 @@ label day3_meet_aliya:
     #$ renpy.start_predict("images/sprites/Aliya/jacket*.*")
     # Stop predicting them when enter Airport
 
-    play music_crossfade "music/Runaway_06 (Loop).ogg" fadein 1.0
+    #play music_crossfade "music/Runaway_06 (Loop).ogg" fadein 1.0
 
-    queue music_crossfade "music/Runaway_06 (Loop).ogg"
+    #queue music_crossfade "music/Runaway_06 (Loop).ogg"
 
     stop music fadeout 1.0
 
@@ -917,9 +914,9 @@ label day3_meet_aliya_fail:
 
     stop music_crossfade fadeout 1.0
 
-    play music "music/Runaway_16 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_16 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_16 (Loop).ogg"
+    #queue music "music/Runaway_16 (Loop).ogg"
 
     scene black with dissolve
 
@@ -1142,7 +1139,7 @@ label day3_airport_inner:
 
 label day3_airplane:
 
-    play music "ambience/airplane_1ambience_before_landing_loop.ogg" fadein 1.0 fadeout 1.0
+    #play music "ambience/airplane_1ambience_before_landing_loop.ogg" fadein 1.0 fadeout 1.0
 
     scene airplane_day with dissolve
 
@@ -1759,8 +1756,8 @@ label day3_airplane3:
     show aliya_sit_side no_emotion_layer special_airplane_window_earphones as Aliya at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-    play music_crossfade "music/Runaway_07 (Main_Theme).ogg" fadein 1.0
-    queue music_crossfade "music/Runaway_07 (Main_Theme_Loop).ogg"
+    #play music_crossfade "music/Runaway_07 (Main_Theme).ogg" fadein 1.0
+    #queue music_crossfade "music/Runaway_07 (Main_Theme_Loop).ogg"
 
     "Я вставил наушник в ухо и заиграла рок-музыка." with dissolve
 
@@ -1929,9 +1926,9 @@ label day3_airplane3:
 
     "Ещё чуть-чуть и шасси коснётся земли." with dissolve
 
-    play music "ambience/airplane_2landed_shortened.ogg"
+    #play music "ambience/airplane_2landed_shortened.ogg"
 
-    queue music "ambience/airplane_3after_landing_loop.ogg"
+    #queue music "ambience/airplane_3after_landing_loop.ogg"
 
     "Бух!" with hpunch
 
@@ -2034,7 +2031,7 @@ label day3_airplane3:
 
     "Прозвучал звук выключения индикатора \"пристегните ремни\"." with dissolve
 
-    play music "ambience/airplane_stopped_loop.ogg"
+    #play music "ambience/airplane_stopped_loop.ogg"
 
     scene airplane_day2 with dissolve
 
@@ -2050,9 +2047,9 @@ label day3_airplane3:
 
     $ savegame_picture = "savegame_domodedovo_luggage"
 
-    play music "music/Runaway_08 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_08 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_08 (Loop).ogg"
+    #queue music "music/Runaway_08 (Loop).ogg"
 
     "Мы прошли через телетрап и вышли в зону выдачи багажа." with dissolve
 
@@ -2431,7 +2428,7 @@ label day3_aeroexpress:
 
     $ renpy.pause(1.0)
 
-    play music "ambience/440611__florianreichelt__train-ambience.ogg" fadein 1.0 fadeout 1.0
+    #play music "ambience/440611__florianreichelt__train-ambience.ogg" fadein 1.0 fadeout 1.0
 
     scene aeroexpress with dissolve
 

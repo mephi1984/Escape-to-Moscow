@@ -1,14 +1,12 @@
 
 label day3_metro:
 
-    if isMobileWeb:
-        $ renpy.free_memory()
 
     scene underground with dissolve
 
     $ savegame_picture = "savegame_underground"
 
-    play music "ambience/metro_station.ogg" fadein 1.0 fadeout 1.0
+    #play music "ambience/metro_station.ogg" fadein 1.0 fadeout 1.0
 
     "Поток людей шёл из вагонов аэроэкспресса на перрон, затем на вокзал и в метро." with dissolve
 
@@ -93,7 +91,7 @@ label day3_metro_train:
 
     stop music fadeout 1.0
 
-    play music "ambience/metro_loop_before_train_depart.ogg" fadein 1.0 fadeout 1.0
+    #play music "ambience/metro_loop_before_train_depart.ogg" fadein 1.0 fadeout 1.0
 
 
     show metro_train at metro_scene_pos with dissolve:
@@ -110,9 +108,9 @@ label day3_metro_train:
 
     aliya "Ладно." with dissolve
 
-    play music "ambience/metro_doors_closing.ogg"
+    #play music "ambience/metro_doors_closing.ogg"
 
-    queue music "ambience/metro_train_loop.ogg"
+    #queue music "ambience/metro_train_loop.ogg"
 
     announcement "Осторожно, двери закрываются, следующая станция - Таганская" with dissolve
 
@@ -166,9 +164,9 @@ label day3_metro_train:
 
     "Поезд довольно быстро приехал на нужную нам станцию." with dissolve
 
-    play music "ambience/metro_arrived.ogg"
+    #play music "ambience/metro_arrived.ogg"
 
-    queue music "ambience/metro_loop_after_arrival.ogg"
+    #queue music "ambience/metro_loop_after_arrival.ogg"
 
     announcement "Станция Таганская. Переход на Таганско-Краснопресненскую линию и станцию Марксистская." with dissolve
 
@@ -184,9 +182,9 @@ label day3_metro_train:
 
     "Двери открылись и мы вышли наружу." with dissolve
 
-    play music "music/Runaway_09 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_09 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_09 (Loop).ogg"
+    #queue music "music/Runaway_09 (Loop).ogg"
 
     scene black with dissolve
 
@@ -924,9 +922,9 @@ label day3_basmannaya:
 
     stop music fadeout 1.0
 
-    play music "music/Runaway_10 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_10 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_10 (Loop).ogg"
+    #queue music "music/Runaway_10 (Loop).ogg"
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
         zoom 1.0
@@ -1731,9 +1729,9 @@ label day3_basmannaya_apartment_accept:
 
     stop music fadeout 1.0
 
-    play music "music/Runaway_11 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_11 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_11 (Loop).ogg"
+    #queue music "music/Runaway_11 (Loop).ogg"
 
     "Она улыбалась и, кажется, чувствовала невероятное облегчение." with dissolve
 
@@ -1811,9 +1809,9 @@ label day3_basmannaya_apartment_decline:
 
     stop music fadeout 1.0
 
-    play music "music/Runaway_11 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_11 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_11 (Loop).ogg"
+    #queue music "music/Runaway_11 (Loop).ogg"
 
     show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
@@ -2118,9 +2116,9 @@ label day3_basmannaya_shaurma:
 
 label day3_basmannaya_imran:
 
-    play music "music/Runaway_03 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_03 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_03 (Loop).ogg"
+    #queue music "music/Runaway_03 (Loop).ogg"
 
     scene apartment_hood_night_car with dissolve
 
@@ -2668,9 +2666,9 @@ label day3_basmannaya_imran_decline:
 
     scene black with dissolve
 
-    play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_01 (Loop).ogg"
+    #queue music "music/Runaway_01 (Loop).ogg"
 
     "Мне больше ничего не оставалось сделать, кроме как вернуться в квартиру..." with dissolve
 

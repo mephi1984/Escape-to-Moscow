@@ -162,9 +162,9 @@ label day4_parents_part6_parent_persuade_fail:
 
 label day4_the_end_part1_option1_bus:
 
-    play music "music/Runaway_01 (Pre_Loop).ogg"  fadein 1.0
+    #play music "music/Runaway_01 (Pre_Loop).ogg"  fadein 1.0
 
-    queue music "music/Runaway_01 (Loop).ogg"
+    #queue music "music/Runaway_01 (Loop).ogg"
 
     scene apt_kitchen
 

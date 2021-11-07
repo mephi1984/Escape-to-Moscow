@@ -9,7 +9,7 @@ label cutscene0:
 
     $ renpy.pause(1.0)
 
-    play music "music/Runaway_04.ogg" fadein 1.0 fadeout 1.0
+    #play music "music/Runaway_04.ogg" fadein 1.0 fadeout 1.0
 
     if isMobileWeb:
         show cutscene_slide1 as cutscene_slide with dissolve

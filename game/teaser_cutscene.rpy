@@ -9,9 +9,6 @@ screen branch1_cutscene_helper():
 
 label teaser_start:
 
-    if isMobileWeb:
-        $ renpy.free_memory()
-
     $ quick_menu = False
     $ show_say_menu = False
 
@@ -83,7 +80,7 @@ label teaser_start:
 
     play sound "sound/teaser/555154__nomerodin1__vibrating-message.ogg"
 
-    #play music "audio/nickelback - trying not to love you.ogg"
+    ##play music "audio/nickelback - trying not to love you.ogg"
 
     show branch1_semyon_room_bedside_table2 with dissolve
 
@@ -91,7 +88,7 @@ label teaser_start:
 
     $ renpy.pause(3.0)
 
-    #play music "audio/nickelback - trying not to love you.ogg"
+    ##play music "audio/nickelback - trying not to love you.ogg"
 
     show branch1_semyon_room_bedside_table3 with dissolve
 
@@ -110,8 +107,8 @@ label teaser_start:
 
     $ renpy.pause(1.5)
 
-    #play music "audio/nickelback - trying not to love you inst.ogg"
-    play music "music/Runaway_11 (Pre_Loop).ogg" fadein 1.5
+    ##play music "audio/nickelback - trying not to love you inst.ogg"
+    #play music "music/Runaway_11 (Pre_Loop).ogg" fadein 1.5
 
     #show cg_messenger_cover_above_room at cg_messenger_cover_above_room_pos zorder 20
 
@@ -453,8 +450,8 @@ label after_branch1_cutscene:
 
     #return
 
-    play music "music/Runaway_16 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_16 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_16 (Loop).ogg"
+    #queue music "music/Runaway_16 (Loop).ogg"
 
     jump credits

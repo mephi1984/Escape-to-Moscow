@@ -833,12 +833,12 @@ screen file_slots(title):
                 style "page_label"
 
                 key_events True
-                xalign 0.5
-                action page_name_value.Toggle()
+                #xalign 0.5
+                #action page_name_value.Toggle()
 
-                input:
-                    style "page_label_text"
-                    value page_name_value
+                #input:
+                #    style "page_label_text"
+                #    value page_name_value
 
             ## Таблица слотов.
             grid gui.file_slot_cols gui.file_slot_rows:
@@ -957,12 +957,13 @@ screen preferences():
                         textbutton _("Оконный") action Preference("display", "window")
                         textbutton _("Полный") action Preference("display", "fullscreen")
 
-                vbox:
-                    style_prefix "radio"
-                    label _("Сторона отката")
-                    textbutton _("Отключено") action Preference("rollback side", "disable")
-                    textbutton _("Левая") action Preference("rollback side", "left")
-                    textbutton _("Правая") action Preference("rollback side", "right")
+                if not isMobileWeb:
+                    vbox:
+                        style_prefix "radio"
+                        label _("Сторона отката")
+                        textbutton _("Отключено") action Preference("rollback side", "disable")
+                        textbutton _("Левая") action Preference("rollback side", "left")
+                        textbutton _("Правая") action Preference("rollback side", "right")
 
                 vbox:
                     style_prefix "check"
@@ -1089,18 +1090,18 @@ style check_button_text:
     properties gui.button_text_properties("check_button")
 
 style slider_slider:
-    xsize int(SCALE*475)
+    xsize int(SCALE_SBERBOX*475)
 
 style slider_button:
     properties gui.button_properties("slider_button")
     yalign 0.5
-    left_margin int(SCALE*15)
+    left_margin int(SCALE_SBERBOX*15)
 
 style slider_button_text:
     properties gui.button_text_properties("slider_button")
 
 style slider_vbox:
-    xsize int(SCALE*675)
+    xsize int(SCALE_SBERBOX*675)
 
 
 ## Экран выбора языка ###############################################################

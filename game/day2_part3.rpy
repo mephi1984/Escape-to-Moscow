@@ -30,9 +30,6 @@ label day2_success_end:
 
     $ savegame_picture = "savegame_night_road"
 
-    if isMobileWeb:
-        $ renpy.free_memory()
-
     "Время перевалило за одиннадцать, я сижу в машине Ярика на переднем сидении." with dissolve
 
     "Мы на полпути до аэропорта. Ярик действительно водит быстро, мы уже выехали за город и едем по трассе." with dissolve
@@ -316,9 +313,9 @@ label day2_car_end:
 
     $ savegame_picture = "savegame_black"
 
-    play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
+    #play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
 
-    queue music "music/Runaway_01 (Loop).ogg"
+    #queue music "music/Runaway_01 (Loop).ogg"
 
     "Вот мы уже подъезжаем к аэропорту. Я поблагодарил Ярика, взял рюкзак, вышел из машины..." with dissolve
 
