@@ -1,6 +1,9 @@
 
 label day2_intro:
 
+    if isMobileWeb:
+        $ renpy.free_memory()
+
     play music "music/Runaway_08 (Pre_Loop).ogg" fadein 1.0
 
     queue music "music/Runaway_08 (Loop).ogg"

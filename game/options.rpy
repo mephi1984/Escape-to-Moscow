@@ -149,7 +149,7 @@ define config.end_game_transition = dissolve
 
 define config.window = "auto"
 
-define config.predict_statements = 32
+#define config.predict_statements = 5
 
 
 ## Переходы, используемые при показе и скрытии диалогового окна
@@ -157,6 +157,9 @@ define config.predict_statements = 32
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
 
+#define config.debug_image_cache = True
+#define config.image_cache_size = 10
+define config.image_cache_size_mb = 100
 
 ## Стандартные настройки #######################################################
 
@@ -164,7 +167,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 12
+default preferences.text_cps = 0
 
 
 ## Стандартная задержка авточтения. Большие значения означают долгие ожидания, а

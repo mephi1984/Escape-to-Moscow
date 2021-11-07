@@ -1,36 +1,39 @@
 label day4_parents_part6_parent_persuade_success:
 
+    if isMobileWeb:
+        $ renpy.free_memory()
+
     scene imran_house_living_room with dissolve
 
     show imran neutral at imran_house_pos1:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show aslan talking at imran_house_pos3:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show fatima neutral at imran_house_pos4:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     aslan "Да, хорошо пусть он купит нам билеты." with dissolve
 
     show aslan neutral at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Спасибо, Семён! Хорошо, сейчас я вам дам паспортные данные, купите пожалуйста нам билеты." with dissolve
@@ -38,7 +41,7 @@ label day4_parents_part6_parent_persuade_success:
     fatima "Скажите, сколько они стоят и мы вам прямо сразу же вернём деньги наличными." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Хорошо, сейчас подберём Вам лучший вариант." with dissolve
@@ -48,13 +51,13 @@ label day4_parents_part6_parent_persuade_success:
     "С этими словами я открыл приложение и начал просматривать рейсы." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Аслан, дай паспорт и кошелёк из сумки." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Аслан отдал документы жене." with dissolve
@@ -82,13 +85,13 @@ label day4_parents_part6_parent_persuade_success:
     hide Aliya
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Семён, а как работает это приложение?" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Я слегка заволновался, неужели она что-то заподозрила?" with dissolve
@@ -110,13 +113,13 @@ label day4_parents_part6_parent_persuade_success:
     me "Вот, к примеру, есть два неплохих варианта: из Домодедово и из Внуково - но последний я не рекомендую." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Почему?" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Это авиакомпания-лоукостер. Тот случай, когда один раз попробовал и больше не хочется." with dissolve
@@ -126,13 +129,13 @@ label day4_parents_part6_parent_persuade_success:
     me "За всё нужно платить: за выбор места, за регистрацию. Билеты вроде дешёвые, а в сумме выходит довольно много." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Тогда лучше первый вариант - из Домодедово."  with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Отлично! Уговорить оказалось довольно легко." with dissolve
@@ -142,13 +145,13 @@ label day4_parents_part6_parent_persuade_success:
     me "Кстати, можно купить билеты ещё дешевле. У Вас ведь нет багажа, я так понимаю?"  with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Да, мы без багажа прилетели. А как это с ценой связано?"  with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Тут есть билеты по промо-тарифу: без багажа."  with dissolve
@@ -156,13 +159,13 @@ label day4_parents_part6_parent_persuade_success:
     me "Правда их обычно немного, но на нужный Вам рейc есть несколько."  with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Ясно." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Фатима достала паспорта и дала мне для покупки." with dissolve
@@ -188,13 +191,13 @@ label day4_parents_part6_parent_persuade_success:
     me "Вам нужно быть в аэропорту примерно в три часа дня, чтобы успеть." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "А зачем так заранее приезжать? Что мы столько времени будем там делать?" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Для того, чтобы успеть. Регистрация на рейс занимает время, да и куда деться от очередей, а самолёт вас ждать не будет." with dissolve
@@ -206,25 +209,25 @@ label day4_parents_part6_parent_persuade_success:
     me "Плюс всегда есть различные непредвиденные обстоятельства, вот и лучше заранее ко всему подготовиться, чтобы потом не бегать, надеясь успеть." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Да, наверное, вы правы." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Также по дороге в аэропорт всякое может произойти, поэтому выезжать лучше заранее." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Хорошо! Спасибо за помощь, Семён!" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Не за что. Они, конечно, не догадываются, что я сейчас куплю билеты ещё кое-куда..." with dissolve
@@ -350,21 +353,21 @@ label day4_parents_part6_parent_persuade_success:
     $ savegame_picture = "savegame_imran_house_doorway"
 
     show Aliya special_sandwich as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "На пороге стояла Алия и держала в одной руке тарелку с сэндвичами, а в другой - чашку чая." with dissolve
 
     aliya "Мама приготовила обед. Возьми!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     show imran_room_drawers_food_full_near with dissolve
 
     "Я взял тарелку с чашкой из рук Алии и поставил на комод у двери." with dissolve
 
     show Aliya special_turned as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия уже собралась развернуться и уйти..." with dissolve
 
@@ -373,12 +376,12 @@ label day4_parents_part6_parent_persuade_success:
     me "Постой!" with dissolve
 
     show Aliya special_half_turned as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Что?" with dissolve
 
     show Aliya_stand_half_turned tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Я должен тебе кое-что сказать..." with dissolve
 
@@ -391,7 +394,7 @@ label day4_parents_part6_parent_persuade_success:
     me "Конечно, я был бы рад, если всё сказанное твоей семьёй оказалось правдой. Это, говоря на чистоту, было бы отлично, при этом... Говоря уже до конца честно, ты им веришь?" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Не знаю..." with dissolve
 
@@ -541,7 +544,7 @@ label day4_parents_part11_choice1_persuade:
     # By that time, max aliya_trust_points == 2
 
     show Aliya_stand_straight tshirt eyes_open_cry_sad2 as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Алия, просто подумай, что ждёт тебя дома и что случится, если ты будешь жить как хочешь." with dissolve
 
@@ -588,7 +591,7 @@ label day4_parents_part11_choice1_persuade:
 label day4_parents_part12_choice1_praise:
 
     show Aliya_stand_straight tshirt eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Чем бы в итоге не закончилась наша с тобой история, я хочу, чтобы ты знала: я был рад с тобой познакомиться." with dissolve
 
@@ -602,7 +605,7 @@ label day4_parents_part12_choice1_praise:
 label day4_parents_part12_choice2_always_on_your_side:
 
     show Aliya_stand_straight tshirt eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Алия, я очень тебе благодарен за то время, что мы провели вместе." with dissolve
 

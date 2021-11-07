@@ -1,6 +1,9 @@
 
 label day3_metro:
 
+    if isMobileWeb:
+        $ renpy.free_memory()
+
     scene underground with dissolve
 
     $ savegame_picture = "savegame_underground"
@@ -20,7 +23,7 @@ label day3_metro:
     "Ладно, потом разберёмся. Сейчас нужно купить карту \"Тройка\"." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "В кассу всегда такая большая очередь?" with dissolve
 
@@ -29,7 +32,7 @@ label day3_metro:
     me "Но я слышал, что карту тройка можно купить и в автомате." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_smile as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Я хочу попробовать купить в автомате!" with dissolve
 
@@ -99,7 +102,7 @@ label day3_metro_train:
     $ savegame_picture = "savegame_metro_train"
 
     show Aliya_stand_straight eyes_open_neutral as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Мы вошли в вагон." with dissolve
 
@@ -120,12 +123,12 @@ label day3_metro_train:
     "Можно было даже спокойно говорить голосом." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Куда мы пойдём теперь?" with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Сейчас посмотрю по карте." with dissolve
 
@@ -136,12 +139,12 @@ label day3_metro_train:
     me "Нам нужно перейти на станцию Марксистская, затем на выход номер 5." with dissolve
 
     show Aliya_stand_straight eyes_closed_grin as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо." with dissolve
 
     show Aliya_stand_straight eyes_open_smile as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Оттуда нужно будет идти вдоль по Таганской улице." with dissolve
 
@@ -187,12 +190,12 @@ label day3_metro_train:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
 
     $ renpy.pause(1.0)
 
@@ -206,7 +209,7 @@ label day3_taganskaya:
     $ savegame_picture = "savegame_taganskaya_street"
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Мы вышли из метро и шли вдоль Таганской улицы." with dissolve
 
@@ -229,7 +232,7 @@ label day3_taganskaya:
     "Алия прервала молчание." with dissolve
 
     show aliya_turn_around eyes_open_happy as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Здесь так красиво. Мне здесь нравится." with dissolve
 
@@ -238,7 +241,7 @@ label day3_taganskaya:
     me "Хотя если честно, в Москве есть места и покрасивее." with dissolve
 
     show aliya_turn_around eyes_open_surprised_happy as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Правда? Какие?" with dissolve
 
@@ -253,7 +256,7 @@ label day3_taganskaya:
     me "Мы можем посетить их завтра." with dissolve
 
     show aliya_turn_around eyes_closed_smile as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо!" with dissolve
 
@@ -266,7 +269,7 @@ label day3_taganskaya:
     $ savegame_picture = "savegame_tagansky_park"
 
     show aliya_turn_around eyes_open_smile as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Вскоре мы свернули с улицы, и через дворы прошли в Таганский парк." with dissolve
 
@@ -279,7 +282,7 @@ label day3_taganskaya:
     me "Вот какое-то здание из стекла и пластика, возможно это он. Пойдём туда!" with dissolve
 
     show aliya_turn_around eyes_open_cry_sad2 as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Я устала! Давай сядем отдохнём?" with dissolve
 
@@ -304,9 +307,9 @@ label day3_taganskaya_park_rest:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
     $ renpy.pause(1.0)
 
@@ -462,14 +465,14 @@ label day3_taganskaya_park_rest:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/dress*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/dress*.*")
 
     "Мы встали со скамейки и пошли туда, где, предположительно, был магазин..." with dissolve
 
@@ -486,32 +489,32 @@ label day3_taganskaya_park_continue:
     "Внутри были магазин, в котором продавалась мусульманская одежда и аксессуары. Мы зашли внутрь." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия нашла продавщицу и подошла к ней." with dissolve
 
     show saleswoman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "У вас есть платье для намаза на мой размер?" with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Продавщица оценила Алию взглядом." with dissolve
 
     show saleswoman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     saleswoman "У нас все платья большого размера..." with dissolve
 
     saleswoman "Впрочем, примерьте это и вот это платье." with dissolve
 
     show saleswoman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо!" with dissolve
 
@@ -562,7 +565,7 @@ label day3_taganskaya_park_continue:
     show tagansky_store as tagansky_store with dissolve
 
     show Aliya special_dress_worried as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия вышла из примерочной." with dissolve
 
@@ -571,13 +574,13 @@ label day3_taganskaya_park_continue:
     me "Тебе очень идёт!" with dissolve
 
     show Aliya special_dress_eye_closed as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aliya "Спасибо!" with dissolve
 
     show Aliya special_dress_smile as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aliya "Мне оно тоже нравится." with dissolve
@@ -589,41 +592,41 @@ label day3_taganskaya_park_continue:
     me "Да, хорошо." with dissolve
 
     show saleswoman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     saleswoman "У нас как раз на это платье скидка будет!" with dissolve
 
     show saleswoman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show Aliya special_dress_worried as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aliya "Мне ещё нужен коврик для намаза." with dissolve
 
     show saleswoman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     saleswoman "Конечно! Вам какой? Есть синий вот, есть зелёный." with dissolve
 
     show saleswoman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aliya "Зелёный дайте, пожалуйста!" with dissolve
 
     show saleswoman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     saleswoman "Конечно, сейчас!" with dissolve
 
     show saleswoman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aliya "Я переоденусь обратно." with dissolve
@@ -635,14 +638,14 @@ label day3_taganskaya_park_continue:
     "Алия ушла в примерочную." with dissolve
 
     show saleswoman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     saleswoman "Вы будете оплачивать наличными или картой?" with dissolve
 
     saleswoman "Мы карты не принимаем, но вы можете отправить по номеру карты..." with dissolve
 
     show saleswoman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Я заплачу наличными." with dissolve
 
@@ -653,7 +656,7 @@ label day3_taganskaya_park_continue:
     show tagansky_store as tagansky_store with dissolve
 
     show Aliya_stand_straight eyes_open_smile as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Платье есть, коврик есть! Что ещё осталось?" with dissolve
 
@@ -662,32 +665,32 @@ label day3_taganskaya_park_continue:
     me "Ах да, я нашёл жильё. Мы будем снимать квартиру." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Квартира далеко отсюда?" with dissolve
 
     show Aliya_stand_straight eyes_open_neutral as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Да, нужно ехать на метро Бауманская." with dissolve
 
     me "Предлагаю поехать туда и там же в салоне сотовой связи сделать тебе сим-карту. Хорошо?" with dissolve
 
     show Aliya_stand_straight eyes_closed_smile at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Да, пошли!" with dissolve
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/dress*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/dress*.*")
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
 
     "И мы отправились в путь до станции Бауманская..." with dissolve
 
@@ -703,7 +706,7 @@ label day3_basmannaya_outside:
 
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Мы вышли из метро Бауманская и пошли к салону сотовой связи, следуя за проложенным по навигатору маршрутом." with dissolve
 
@@ -722,7 +725,7 @@ label day3_basmannaya_outside:
     me "Ты не хочешь есть?" with dissolve
 
     show aliya_turn_around eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Нет, не хочу." with dissolve
 
@@ -731,23 +734,23 @@ label day3_basmannaya_outside:
     me "Пока кулинария ещё открыта, можем купить салатик или выпечку." with dissolve
 
     show aliya_turn_around eyes_open_sad_worried_open_mouth as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо." with dissolve
 
     show aliya_turn_around eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Мы вошли." with dissolve
 
     scene black with dissolve
 
-    #$ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+    ##$ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
 
     $ renpy.pause(1.0)
@@ -757,34 +760,34 @@ label day3_basmannaya_outside:
     $ savegame_picture = "savegame_baymanskaya_cafe"
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Внутри было светло и уютно." with dissolve
 
     "Мы подошли к витрине." with dissolve
 
     show aliya_turn_around eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Я возьму себе салат Цезарь и, две слойки с сыром. А чего бы тебе хотелось?" with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Я, наверное, ничего не хочу." with dissolve
 
     show Aliya_stand_straight eyes_closed_sad as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Давай возьмем что-нибудь. Вдруг ты вечером захочешь?" with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Мне нужно что-нибудь без свинины. Есть тут такое?" with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Не знаю, никогда об этом не задумывался." with dissolve
 
@@ -807,7 +810,7 @@ label day3_basmannaya_outside:
     show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Приложение с картами сообщало, что рядом находился салон сотовой связи." with dissolve
 
@@ -824,37 +827,37 @@ label day3_basmannaya_outside:
     "Мы зашли в салон сотовой связи, находящийся неподалёку." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     show salesman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     salesman_cellular "Добрый день! Вам подсказать что-нибудь?" with dissolve
 
     show salesman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я протянул свой паспорт." with dissolve
 
     me "Сделайте пожалуйста сим-карту." with dissolve
 
     show salesman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     salesman_cellular "Да, пожалуйста. Вам какой оператор?" with dissolve
 
     show salesman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия указала на рекламный плакат." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried_open_mouth as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Этот пожалуйста. У меня сейчас сим-карта этого оператора, уже все приложения стоят." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_watching_phone extra_stand_half_turned2_phone at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия достала свой телефон и открыла приложение с личным кабинетом." with dissolve
 
@@ -863,12 +866,12 @@ label day3_basmannaya_outside:
     me "Сим-карта не на тебя оформлена?" with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_neutral extra_stand_half_turned2_phone as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Да, она оформлена на отца." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_closed_sad extra_stand_half_turned2_phone as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия выключила телефон и протянула его продавцу-консультанту." with dissolve
 
@@ -879,27 +882,27 @@ label day3_basmannaya_outside:
     scene cellular with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_neutral extra_stand_half_turned2_phone as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     show salesman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     salesman_cellular "Подпишите вот здесь и вот здесь. С вас 500 рублей." with dissolve
 
     show salesman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я подписал договор и оплатил банковской картой." with dissolve
 
     show salesman talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     salesman_cellular "Сим-карта будет активна через 10-15 минут. Мобильный интернет там уже есть, звонки, СМС - всё работает." with dissolve
 
     salesman_cellular "Приятного использования!" with dissolve
 
     show salesman neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Спасибо." with dissolve
 
@@ -926,7 +929,7 @@ label day3_basmannaya:
     queue music "music/Runaway_10 (Loop).ogg"
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Выйдя из салона, мы снова оказались на Бауманской улице." with dissolve
 
@@ -935,7 +938,7 @@ label day3_basmannaya:
     "Я снова открыл приложение с картами и вбил туда адрес съёмной квартиры." with dissolve
 
     show aliya_turn_around eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Судя по картам, отсюда до съёмной квартиры недалеко." with dissolve
 
@@ -954,7 +957,7 @@ label day3_basmannaya:
     $ savegame_picture = "savegame_apartment_hood"
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Вот мы нашли дом и пришли к нужному подъезду." with dissolve
 
@@ -993,7 +996,7 @@ label day3_basmannaya:
     "Я убрал телефон." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_much as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Когда я убрал телефон, Алия повернулась ко мне." with dissolve
 
@@ -1002,7 +1005,7 @@ label day3_basmannaya:
     me "Ты в порядке?" with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     aliya "Я должна сообщить родителям, чтобы не ждали меня. Они, наверное, уже волнуются." with dissolve
 
@@ -1013,7 +1016,7 @@ label day3_basmannaya:
     me "Только не звони с нового номера, иначе родители вычислят твоё местоположение." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried_question as Aliya at any_left_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     aliya "Хорошо." with dissolve
 
@@ -1033,14 +1036,14 @@ label day3_basmannaya:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
     "И мы подошли поближе к подъезду" with dissolve
 
@@ -1249,12 +1252,12 @@ label day3_basmannaya:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
 
 
@@ -1306,30 +1309,30 @@ label day3_basmannaya:
     $ savegame_picture = "savegame_apartment_hood"
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Очень скоро к нам подошла женщина." with dissolve
 
     show realtor talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     landlady "Добрый день, Семён, это вы?" with dissolve
 
     show realtor neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Здравствуйте! Да, это я." with dissolve
 
     show realtor talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     landlady "Пойдёмте я вам покажу квартиру..." with dissolve
 
     scene black with dissolve
 
-    $ renpy.start_predict("images/sprites/eating/*.*")
-    $ renpy.start_predict("images/sprites/eating/emotions_home/*.*")
-    $ renpy.start_predict("images/sprites/eating/emotions_cafe/*.*")
+    #$ renpy.start_predict("images/sprites/eating/*.*")
+    #$ renpy.start_predict("images/sprites/eating/emotions_home/*.*")
+    #$ renpy.start_predict("images/sprites/eating/emotions_cafe/*.*")
 
     "Мы вошли в подъезд вслед за хозяйкой и зашли в квартиру..." with dissolve
 
@@ -1525,7 +1528,7 @@ label day3_basmannaya:
     aliya "Мам, я не знаю адрес!" with dissolve
 
     show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия вернулась на кухню и протянула мне телефон." with dissolve
 
@@ -1534,7 +1537,7 @@ label day3_basmannaya:
     "Я мог бы и отказаться, но решил поговорить." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я взял трубку, собрал всю свою доброжелательность и представил, что я на собеседовании с заказчиком." with dissolve
 
@@ -1595,12 +1598,12 @@ label day3_basmannaya:
     "Хотя Алия говорила, что ей с трудом удается достучаться до мамы и как-то изменить её решение..." with dissolve
 
     show Aliya special_phone_listen as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "А вот Алия вернулась." with dissolve
 
     show Aliya_stand_half_turned tshirt extra_tshirt_stand_half_turned2_hand_phone as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Мама сказала, что разрешит остаться мне в Москве," with dissolve
 
@@ -1617,7 +1620,7 @@ label day3_basmannaya:
     aliya "Я не знаю." with dissolve
 
     show Aliya special_phone_listen no_extra as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Мессенджер на телефоне Алии снова зазвонил. Алия взяла трубку." with dissolve
 
@@ -1628,12 +1631,12 @@ label day3_basmannaya:
     me "Зачем?" with dissolve
 
     show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Вместо ответа Алия протянула мне трубку." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я взял телефон." with dissolve
 
@@ -1706,7 +1709,7 @@ label day3_basmannaya_apartment_accept:
     me "Хорошо, я скажу вам адрес." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     $ changeDialogToCoach()
 
@@ -1770,7 +1773,7 @@ label day3_basmannaya_apartment_decline:
     fatima "Передайте трубку Алие, пожалуйста." with dissolve
 
     show Aliya special_phone_listen no_extra as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я передал трубку Алие." with dissolve
 
@@ -1783,17 +1786,17 @@ label day3_basmannaya_apartment_decline:
     "Впрочем, разговор был недолгим." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Вскоре, Алия завершила разговор и вернулась на кухню." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Почему ты решил не говорить адрес?" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Я боюсь за тебя. Вдруг они решат забрать тебя силой?" with dissolve
 
@@ -1802,7 +1805,7 @@ label day3_basmannaya_apartment_decline:
     me "Организуем встречу в общественном месте, так будет безопаснее для тебя." with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Ладно." with dissolve
 
@@ -1813,7 +1816,7 @@ label day3_basmannaya_apartment_decline:
     queue music "music/Runaway_11 (Loop).ogg"
 
     show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Спасибо..." with dissolve
 
@@ -1845,7 +1848,7 @@ label day3_basmannaya_apartment_after_talk:
         zoom 0.6
 
     show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     hide black with dissolve
 
@@ -1862,14 +1865,14 @@ label day3_basmannaya_apartment_after_talk:
     me "Мы можем заказать суши, пиццу или просто сходить куда-нибудь поесть." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Сейчас уже довольно поздно." with dissolve
 
     me "Это Москва! Здесь полно круглосуточных кафешек. Мы что-нибудь найдём!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо." with dissolve
 
@@ -1896,7 +1899,7 @@ label day3_basmannaya_apartment_after_talk:
     me "Как ты относишься к шаурме?" with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_grin as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Нормально, можно поесть." with dissolve
 
@@ -1905,7 +1908,7 @@ label day3_basmannaya_apartment_after_talk:
     $ hidePhone()
 
     show Aliya_stand_straight tshirt eyes_open_happy as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Пойдём!" with dissolve
 
@@ -2105,9 +2108,9 @@ label day3_basmannaya_shaurma:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/eating/*.*")
-    $ renpy.stop_predict("images/sprites/eating/emotions_home/*.*")
-    $ renpy.stop_predict("images/sprites/eating/emotions_cafe/*.*")
+    #$ renpy.stop_predict("images/sprites/eating/*.*")
+    #$ renpy.stop_predict("images/sprites/eating/emotions_home/*.*")
+    #$ renpy.stop_predict("images/sprites/eating/emotions_cafe/*.*")
 
     "И мы пошли назад к съёмной квартире..." with dissolve
 
@@ -2124,7 +2127,7 @@ label day3_basmannaya_imran:
     $ savegame_picture = "savegame_apartment_hood_night_car"
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_neutral as Aliya at aliya_hood_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Когда мы подходили к подъездной двери," with dissolve
 
@@ -2133,12 +2136,12 @@ label day3_basmannaya_imran:
     "Во дворе стоял черный седан, которого тут раньше не было." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_shock as Aliya at aliya_hood_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Я заметил это только когда открылась дверь автомобиля, из машины вышел мужчина и подошёл к нам." with dissolve
 
     show imran neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran_unknown "Семён и Алия, можно вас на минуту?" with dissolve
 
@@ -2153,7 +2156,7 @@ label day3_basmannaya_imran:
     imran "Я двоюродный дядя Алии, я живу здесь в Москве." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_closed_sad as Aliya at aliya_hood_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Я посмотрел на Алию. Её лицо выражало ужас и растерянность." with dissolve
 
@@ -2212,7 +2215,7 @@ label day3_basmannaya_imran_accept:
     me "Я поеду с вами." with dissolve
 
     show Aliya_stand_straight eyes_open_cry_sad3 as Aliya at aliya_hood_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Я постарался произнести это как можно спокойнее." with dissolve
 
@@ -2397,12 +2400,12 @@ label day3_imran_house:
     "Имран открыл ворота, заехал во двор и заглушил автомобиль." with dissolve
 
     show imran neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran "Мы приехали." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Алия вышла из автомобиля и растерянно оглянулась. Кажется, она успела поспать немного во время поездки." with dissolve
 
@@ -2429,17 +2432,17 @@ label day3_imran_house:
     "Имран проводил нас в гостиную." with dissolve
 
     show imran neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     show Aliya_stand_half_turned jacket_armsdown eyes_closed_sad as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     imran "Ваши спальни на втором этаже. Это вон туда и потом дальше вверх по лестнице." with dissolve
 
     imran "Хотите чаю?" with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried_question as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     aliya "Нет." with dissolve
 
@@ -2645,7 +2648,7 @@ label day3_basmannaya_imran_decline:
     me "Я лучше останусь здесь." with dissolve
 
     show Aliya_stand_half_turned eyes_open_angry as Aliya at aliya_hood_right_pos with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Алия сверкнула глазами на меня, но промолчала." with dissolve
 

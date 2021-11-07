@@ -1,6 +1,9 @@
 
 label day3_intro:
 
+    if isMobileWeb:
+        $ renpy.free_memory()
+
     play music "ambience/airplane_1ambience_before_landing_loop.ogg" fadein 1.0 fadeout 1.0
 
     "В ушах звенит гул летящего самолёта." with dissolve
@@ -113,7 +116,7 @@ label day3_intro:
     "Я вошёл в здание аэровокзала один из первых, поскольку у меня не было багажа, только ручная кладь." with dissolve
 
     "Было утро, но в аэропорту уже было много людей." with dissolve
-    
+
     show cg_screen_phone as cg_screen_phone with dissolve
 
     "Ой, я кажется ещё не выключил авиарежим в телефоне. Включаю сеть..." with dissolve
@@ -205,7 +208,7 @@ label day3_intro:
 
 label day3_meet_aliya:
 
-    $ renpy.start_predict("images/aliya_anim/*.*")
+    #$ renpy.start_predict("images/aliya_anim/*.*")
 
     scene mrv_exterior with dissolve
 
@@ -215,11 +218,11 @@ label day3_meet_aliya:
 
     me "Алия!.." with dissolve
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/jacket*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/jacket*.*")
     # Stop predicting them when enter Airport
 
     play music_crossfade "music/Runaway_06 (Loop).ogg" fadein 1.0
@@ -232,12 +235,12 @@ label day3_meet_aliya:
     $ persistent.menu_unlocked_aliya = True
 
     show aliya_anim_frame1 as aliya_anim at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Это ты?.." with dissolve
 
     show aliya_anim at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия обернулась..." with dissolve
 
@@ -245,14 +248,14 @@ label day3_meet_aliya:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/aliya_anim/*.*")
+    #$ renpy.stop_predict("images/aliya_anim/*.*")
 
     $ renpy.pause(1.0)
 
     scene mrv_exterior with dissolve
 
     show Aliya_stand_straight mask_eyes_open_neutral at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     $ persistent.gallery2unlock = True
 
@@ -263,12 +266,12 @@ label day3_meet_aliya:
     me "Как себя чувствуешь?" with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_closed_sad_worried_open_mouth extra_stand_half_turned2_mask at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Сойдёт." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried_open_mouth extra_stand_half_turned2_mask at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Опять неловкая пауза!" with dissolve
 
@@ -287,27 +290,27 @@ label day3_meet_aliya:
     hide airport_semyon_gives_mask with dissolve
 
     show Aliya special_jacket_pocket no_mask at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия ловким движением сняла свою старую маску, положила в карман..." with dissolve
 
     show Aliya special_jacket_mask_wear at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Затем распечатала новую и надела." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_closed_smile extra_stand_half_turned2_mask as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Спасибо." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_smile extra_stand_half_turned2_mask as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Ты носишь маску, потому что боишься что тебя узнают?" with dissolve
 
     show Aliya_stand_straight mask_eyes_open_angry at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия посмотрела на меня настороженно." with dissolve
 
@@ -324,7 +327,7 @@ label day3_meet_aliya:
     scene mrv_exterior with dissolve
 
     show Aliya_stand_straight mask_eyes_open_neutral at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Ладно, поприветствовали друг друга, теперь возвращаемся к первоначальному плану." with dissolve
 
@@ -339,17 +342,17 @@ label day3_meet_aliya:
         hide airport_semyon_gives_money with dissolve
 
         show Aliya special_jacket_pocket_mask at any_center_pos as Aliya with dissolve:
-            zoom 0.75*SCALE
+            zoom 1.0
 
         "Алия недоверчиво взяла пачку купюр и положила в карман." with dissolve
 
         show Aliya_stand_straight mask_eyes_closed_neutral at any_center_pos as Aliya with dissolve:
-            zoom 0.75*SCALE
+            zoom 1.0
 
         aliya "Спасибо." with dissolve
 
         show Aliya_stand_straight mask_eyes_open_neutral at any_center_pos as Aliya with dissolve:
-            zoom 0.75*SCALE
+            zoom 1.0
 
         me "Это тебе на случай, если мы вдруг потеряемся. Или вдруг ты передумаешь и захочешь вернуться назад." with dissolve
 
@@ -362,23 +365,23 @@ label day3_meet_aliya:
     me "Давай теперь пройдём внутрь?" with dissolve
 
     show Aliya_stand_straight mask_eyes_open_sad3 at any_center_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо, пошли." with dissolve
 
     scene black with dissolve
 
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/jacket*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/mask/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/mask/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/jacket*.*")
 
 
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
 
 
     $ renpy.pause(1.0)
@@ -388,14 +391,14 @@ label day3_meet_aliya:
     $ savegame_picture = "savegame_mrv_interior"
 
     show aliya_turn_around eyes_open_watching mask at any_left_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Мы вошли в здание аэровокзала. Здесь становилось многолюдно." with dissolve
 
     "Я нашёл наконец пару свободных сидений в отдаленном углу. Надеюсь, нас никто не будет подслушивать." with dissolve
 
     show aliya_turn_around eyes_open_neutral mask at any_left_pos as Aliya with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Вон там свободно. Пойдём туда?" with dissolve
 
@@ -403,7 +406,7 @@ label day3_meet_aliya:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
 
     "Я сел на сидение и Алия села рядом со мной..." with dissolve
 
@@ -938,11 +941,11 @@ label day3_airport_inner:
 
     $ savegame_picture = "savegame_mrv_interior3"
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting1/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting1/alt/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting1/alt/*.*")
 
     "Предпосадочный досмотр мы прошли довольно быстро." with dissolve
 
@@ -1120,13 +1123,13 @@ label day3_airport_inner:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting1/*.*")
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting1/alt/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting1/alt/*.*")
 
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
 
     "Мы поднялись на борт, заняли свои места и самолёт отправился в Москву..." with dissolve
 
@@ -2013,13 +2016,13 @@ label day3_airplane3:
 
     $ savegame_picture = "savegame_airplane_day"
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
     "Наконец самолёт остановился." with dissolve
 
@@ -2054,14 +2057,14 @@ label day3_airplane3:
     "Мы прошли через телетрап и вышли в зону выдачи багажа." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_smile as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Здесь мы должны забрать наш багаж?" with dissolve
 
     me "Да. Но мы не сдавали сумки в багаж, так что можем сразу идти на выход." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Тогда можно я в туалет схожу?" with dissolve
 
@@ -2070,7 +2073,7 @@ label day3_airplane3:
     me "Я пока что куплю билеты на аэроэкспресс." with dissolve
 
     show Aliya_stand_half_turned eyes_open_smile as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо. Я быстро!" with dissolve
 
@@ -2107,7 +2110,7 @@ label day3_airplane3:
     "Тем временем подошла Алия." with dissolve
 
     show Aliya_stand_straight eyes_open_smile as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Мы готовы?" with dissolve
 
@@ -2124,12 +2127,12 @@ label day3_airplane3:
     $ showMessengerPhone(is_night=False, force_no_transition=True)
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_happy as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо." with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_watching_phone extra_stand_half_turned2_phone as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     $ addSentMessageQr()
 
@@ -2142,20 +2145,20 @@ label day3_airplane3:
     me "Пошли?" with dissolve
 
     show Aliya_stand_straight eyes_open_smile as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Пошли." with dissolve
 
     scene black with dissolve
 
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Sitting1/alt/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting1/alt/*.*")
 
     "Мы отправились к аэроэкспрессу..." with dissolve
 
@@ -2667,13 +2670,13 @@ label day3_aeroexpress:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting1/alt/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting1/alt/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
 
     $ renpy.pause(1.0)

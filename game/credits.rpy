@@ -45,7 +45,7 @@ label credits:
     hide credits_text1_line2 with dissolve
 
     show aliya_anim at credits_aliya1_pos1 zorder 10 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         xpos 0.2
         linear 30.0 xpos 0.35
 
@@ -74,7 +74,7 @@ label credits:
     hide credits_text1_line4 with dissolve
 
     show imran angry at credits_imran1_pos1 zorder 10 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         xpos 0.25
         linear 30.0 xpos 0.45
 
@@ -92,7 +92,7 @@ label credits:
     hide credits_text1_line5 with dissolve
 
     show aslan watching_imran at credits_aslan1_pos1 zorder 11:
-        zoom 0.75*SCALE
+        zoom 1.0
         xpos 0.65
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -100,7 +100,7 @@ label credits:
 
     show fatima smile at credits_fatima1_pos1 zorder 10:
         alpha 0.0
-        zoom 0.75*SCALE
+        zoom 1.0
         xpos 0.9
         linear 0.5 alpha 0.0
         linear 0.5 alpha 1.0
@@ -129,7 +129,7 @@ label credits:
 
 
     show officer neutral at credits_officer_pos1 zorder 10:
-        zoom 0.75*SCALE
+        zoom 1.0
         xpos 0.15
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -154,7 +154,7 @@ label credits:
     hide credits_text1_line8 with dissolve
 
     show salesman neutral at credits_salesman_pos1 zorder 11:
-        zoom 0.75*SCALE
+        zoom 1.0
         xpos 0.75
         alpha 0.0
         linear 0.5 alpha 1.0

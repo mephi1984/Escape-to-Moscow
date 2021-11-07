@@ -3,35 +3,35 @@ label day4_parents_part6_parent_persuade_fail:
     scene imran_house_living_room with dissolve
 
     show imran watching at imran_house_pos1:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show aslan neutral at imran_house_pos3:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show fatima talking at imran_house_pos4:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     fatima "Нет, Семён, не нужно беспокоиться." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Почему?" with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Мы поедем на автобусе - так дешевле и надёжнее." with dissolve
@@ -39,7 +39,7 @@ label day4_parents_part6_parent_persuade_fail:
     fatima "Имран нас отвезёт на автовокзал и купит билеты." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Ох чёрт, кажется, эта часть плана провалилась" with dissolve
@@ -49,7 +49,7 @@ label day4_parents_part6_parent_persuade_fail:
     "Фатима внимательно посмотрела на меня." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Семён, я же говорю, вам не нужно беспокоиться по этому поводу." with dissolve
@@ -57,11 +57,11 @@ label day4_parents_part6_parent_persuade_fail:
     fatima "Алия должна вернуться домой. Это уже наше дело, не ваше." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_closed_sad at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "Я посмотрел на Алию. Она отвела взгляд и стала смотреть в пол." with dissolve
@@ -81,29 +81,29 @@ label day4_parents_part6_parent_persuade_fail:
     "Я допил чай и приготовился встать из-за стола." with dissolve
 
     show imran neutral at imran_house_pos1:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_closed_sad as Aliya at imran_house_pos2:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show aslan neutral at imran_house_pos3:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show fatima neutral at imran_house_pos4:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     "Дождавшись меня, родители Алии и дядя Имран тоже встали." with dissolve
 
     show imran angry at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     imran "Семён, мы сейчас поедем на автовокзал." with dissolve
@@ -113,7 +113,7 @@ label day4_parents_part6_parent_persuade_fail:
     imran "Я бы вас подбросил, но вам будет быстрее и проще дойти самостоятельно. Хорошо?" with dissolve
 
     show imran neutral at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Ладно..." with dissolve
@@ -123,7 +123,7 @@ label day4_parents_part6_parent_persuade_fail:
     "Она смотрела в пол и выглядела очень грустной." with dissolve
 
     show imran angry at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     imran "Давайте я вас провожу до ворот, Семён." with dissolve
@@ -137,12 +137,12 @@ label day4_parents_part6_parent_persuade_fail:
     $ savegame_picture = "savegame_imran_house_outside"
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Он открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
 
     show imran angry at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran "Если пойдёте в ту сторону, выйдете на Киевское шоссе. Там и находится автобусная остановка." with dissolve
 

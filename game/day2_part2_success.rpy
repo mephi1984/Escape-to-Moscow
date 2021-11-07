@@ -541,7 +541,7 @@ label day2_escape_now_success_coach_continue:
 
     scene black with dissolve
 
-    $ renpy.start_predict("images/CG_messenger_phone/*.*")
+    #$ renpy.start_predict("images/CG_messenger_phone/*.*")
 
     "Сборы вышли довольно быстрыми, как ни странно..." with dissolve
 
@@ -583,9 +583,9 @@ label day2_escape_now_success_coach_continue:
 
     me "Хорошо! Выхожу..." with dissolve
 
-    $ renpy.stop_predict("images/cg_screen/*.*")
-    $ renpy.stop_predict("images/CG_messenger_desktop/*.*")
-    $ renpy.stop_predict("images/semen_room*.*")
-    $ renpy.stop_predict("images/CG_hands/Card.png")
+    #$ renpy.stop_predict("images/cg_screen/*.*")
+    #$ renpy.stop_predict("images/CG_messenger_desktop/*.*")
+    #$ renpy.stop_predict("images/semen_room*.*")
+    #$ renpy.stop_predict("images/CG_hands/Card.png")
 
     jump cutscene0

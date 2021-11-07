@@ -31,7 +31,9 @@ layeredimage Aliya_stand_straight:
             "sprites/Aliya/Pose1/base_tshirt.png"
 
     group emotion:
-        pos (390, 297)
+        #pos (390, 297) # this is for 1920x1080
+        pos (195, 148)
+
         attribute eyes_open_angry:
             "sprites/Aliya/Pose1/face_angry.png"
 
@@ -162,7 +164,8 @@ layeredimage Aliya_stand_half_turned:
             "sprites/Aliya/Pose2/base_tshirt.png"
 
     group emotion:
-        pos (450, 309)
+        #pos (450, 309)
+        pos (225, 154)
 
         attribute eyes_closed_neutral:
             "sprites/Aliya/Pose2/face_norm.png"
@@ -282,7 +285,8 @@ layeredimage Aliya_stand_half_turned:
             "sprites/Aliya/Pose2/mask2/face_mask_surprised.png"
 
     group mask:
-        pos (450, 309)
+        #pos (450, 309)
+        pos (225, 154)
         attribute no_mask:
             "sprites/empty.png"
 
@@ -560,7 +564,8 @@ layeredimage aliya_sit_front_hands_aside:
         "sprites/Aliya/Sitting1/base.png"
 
     group emotion:
-        pos (798, 126)
+        #pos (798, 126)
+        pos (532, 84)
 
         attribute eyes_closed_neutral:
             "sprites/Aliya/Sitting1/face_norm.png"
@@ -611,7 +616,8 @@ layeredimage aliya_sit_front_hands_together:
         "sprites/Aliya/Sitting1/alt/base.png"
 
     group emotion:
-        pos (830, 126)
+        #pos (830, 126)
+        pos (553, 84)
 
         attribute eyes_open_happy:
             "sprites/Aliya/Sitting1/alt/face_happy.png"
@@ -721,7 +727,9 @@ layeredimage aliya_sit_side:
 
 
     group emotion:
-        pos (332, 228)
+        #pos (332, 228)
+        pos (221, 152)
+
         attribute no_emotion_layer default:
             "sprites/empty.png"
 
@@ -815,7 +823,8 @@ layeredimage aliya_sit_side:
 
 
     group mask:
-        pos (332, 228)
+        #pos (332, 228)
+        pos (221, 152)
         attribute mask:
             "sprites/Aliya/Sitting2/bench/face_mask.png"
 
@@ -831,7 +840,8 @@ layeredimage aliya_turn_around:
             "sprites/Aliya/Pose4/base_no_backpack.png"
 
     group emotion:
-        pos (552, 358)
+        #pos (552, 358)
+        pos (276, 179)
         attribute eyes_closed_neutral:
             "sprites/Aliya/Pose4/face_norm.png"
 
@@ -914,7 +924,8 @@ layeredimage aliya_turn_around:
             "sprites/Aliya/Pose4/face_watching4.png"
 
     group mask:
-        pos (552, 358)
+        #pos (552, 358)
+        pos (276, 179)
         attribute mask:
             "sprites/Aliya/Pose4/face_mask.png"
 
@@ -922,13 +933,13 @@ layeredimage aliya_turn_around:
 layeredimage aliya_airport:
     group pose:
         attribute after_security1:
-            "sprites/Aliya/airport_aliya1.png"
+            "day4_airport/airport_aliya1.png"
 
         attribute after_security2:
-            "sprites/Aliya/airport_aliya2.png"
+            "day4_airport/airport_aliya2.png"
 
         attribute at_border:
-            "sprites/Aliya/airport_aliya3.png"
+            "day4_airport/airport_aliya3.png"
 
 
 layeredimage imran:

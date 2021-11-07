@@ -131,13 +131,13 @@ image semen_room_table_day_foreground_card = im.FactorScale("semen_room_table_da
 
 image semen_room_table_day_foreground_phone = im.FactorScale("semen_room_table_day_foreground_phone.png", SCALE)
 
-image night_dream_scene_empty = im.FactorScale("dream/dream.png", SCALE)
+image night_dream_scene_empty = im.FactorScale("dream/dream.jpg", SCALE)
 
-image night_dream_scene_aliya_straight = im.FactorScale("dream/dream1.png", SCALE)
+image night_dream_scene_aliya_straight = im.FactorScale("dream/dream1.jpg", SCALE)
 
-image night_dream_scene_aliya_half_turned = im.FactorScale("dream/dream2.png", SCALE)
+image night_dream_scene_aliya_half_turned = im.FactorScale("dream/dream2.jpg", SCALE)
 
-image night_dream_scene_aliya_half_turned2 = im.FactorScale("dream/dream3.png", SCALE)
+image night_dream_scene_aliya_half_turned2 = im.FactorScale("dream/dream3.jpg", SCALE)
 
 
 define airplane_scene_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
@@ -147,35 +147,24 @@ image airport_semyon_gives_mask = im.FactorScale("CG_hands/semyon_mask.png", SCA
 image airport_semyon_gives_money = im.FactorScale("CG_hands/semyon_money.png", SCALE)
 
 
+image perlin = im.FactorScale("bkg_extra/perlin.png", SCALE)
 
 define cg_airplane_window_pos_start = Position(xpos = 0.0, xanchor=0.0, ypos=0.07, yanchor=0.0)
 
 define cg_airplane_window_pos_start3 = Position(xpos = 0.0, xanchor=0.0, ypos=-0.04, yanchor=0.0)
 
 
-image cg_airplane_window1 = im.FactorScale("cg_airplane_window1.jpg", SCALE)
+image cg_airplane_window1 = im.FactorScale("bkg_extra/cg_airplane_window1.jpg", SCALE)
 
-image cg_airplane_window2 = im.FactorScale("cg_airplane_window2.jpg", SCALE)
+image cg_airplane_window2 = im.FactorScale("bkg_extra/cg_airplane_window2.jpg", SCALE)
 
-image cg_airplane_window3 = im.FactorScale("cg_airplane_window3.jpg", SCALE)
+image cg_airplane_window3 = im.FactorScale("bkg_extra/cg_airplane_window3.jpg", SCALE)
 
+image cg_airplane_window4 = im.FactorScale("bkg_extra/cg_airplane_window4.jpg", SCALE)
 
 
 image airplane_day_side = im.FactorScale("airplane_day_side.png", SCALE)
 image airplane_day_side_table = im.FactorScale("airplane_day_side_table.png", SCALE)
-
-
-image airplane_window_landing1 = im.FactorScale("cg_airplane_window2/1.png", SCALE)
-image airplane_window_landing2 = im.FactorScale("cg_airplane_window2/2.png", SCALE)
-image airplane_window_landing3 = im.FactorScale("cg_airplane_window2/3.png", SCALE)
-image airplane_window_landing4 = im.FactorScale("cg_airplane_window2/4.png", SCALE)
-image airplane_window_landing5 = im.FactorScale("cg_airplane_window2/5.png", SCALE)
-image airplane_window_landing6 = im.FactorScale("cg_airplane_window2/6.png", SCALE)
-image airplane_window_landing7 = im.FactorScale("cg_airplane_window2/7.png", SCALE)
-image airplane_window_landing8 = im.FactorScale("cg_airplane_window2/8.png", SCALE)
-image airplane_window_landing9 = im.FactorScale("cg_airplane_window2/9.png", SCALE)
-image airplane_window_landing10 = im.FactorScale("cg_airplane_window2/10.png", SCALE)
-image airplane_window_landing11 = im.FactorScale("cg_airplane_window2/11.png", SCALE)
 
 
 define metro_scene_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
@@ -373,51 +362,3 @@ image day4_domodedovo_toilet_semyon2 = im.FactorScale("day4_airport/semyon2.png"
 
 image day4_domodedovo_toilet_aliya1 = im.FactorScale("day4_airport/aliya1.png", SCALE)
 image day4_domodedovo_toilet_aliya2 = im.FactorScale("day4_airport/aliya2.png", SCALE)
-
-
-
-image savegame_aeroexpress = im.FactorScale("savegamePics/aeroexpress.jpg", SCALE)
-image savegame_airplane_day = im.FactorScale("savegamePics/airplane_day.jpg", SCALE)
-image savegame_airplane_day_side = im.FactorScale("savegamePics/airplane_day_side.jpg", SCALE)
-image savegame_airplane_night = im.FactorScale("savegamePics/airplane_night.jpg", SCALE)
-image savegame_apartment_hood = im.FactorScale("savegamePics/apartment_hood.jpg", SCALE)
-
-image savegame_apartment_hood_night_car = im.FactorScale("savegamePics/apartment_hood_night_car.jpg", SCALE)
-image savegame_apt_kitchen = im.FactorScale("savegamePics/apt_kitchen.jpg", SCALE)
-image savegame_basmannaya_hood = im.FactorScale("savegamePics/basmannaya_hood.jpg", SCALE)
-image savegame_baymanskaya = im.FactorScale("savegamePics/baymanskaya.jpg", SCALE)
-image savegame_baymanskaya_cafe = im.FactorScale("savegamePics/baymanskaya_cafe.jpg", SCALE)
-image savegame_black = im.FactorScale("savegamePics/black.jpg", SCALE)
-image savegame_cellular = im.FactorScale("savegamePics/cellular.jpg", SCALE)
-image savegame_domodedovo = im.FactorScale("savegamePics/domodedovo.jpg", SCALE)
-image savegame_domodedovo_border = im.FactorScale("savegamePics/domodedovo_border.jpg", SCALE)
-image savegame_domodedovo_check = im.FactorScale("savegamePics/domodedovo_check.jpg", SCALE)
-
-image savegame_domodedovo_duty_free = im.FactorScale("savegamePics/domodedovo_duty_free.jpg", SCALE)
-image savegame_domodedovo_luggage = im.FactorScale("savegamePics/domodedovo_luggage.jpg", SCALE)
-image savegame_domodedovo_toilet = im.FactorScale("savegamePics/domodedovo_toilet.jpg", SCALE)
-image savegame_imran_house_2nd_floor = im.FactorScale("savegamePics/imran_house_2nd_floor.jpg", SCALE)
-image savegame_imran_house_bedroom = im.FactorScale("savegamePics/imran_house_bedroom.jpg", SCALE)
-image savegame_imran_house_bedroom_night = im.FactorScale("savegamePics/imran_house_bedroom_night.jpg", SCALE)
-image savegame_imran_house_doorway = im.FactorScale("savegamePics/imran_house_doorway.jpg", SCALE)
-image savegame_imran_house_living_room = im.FactorScale("savegamePics/imran_house_living_room.jpg", SCALE)
-image savegame_imran_house_living_room_night = im.FactorScale("savegamePics/imran_house_living_room_night.jpg", SCALE)
-image savegame_imran_house_outside = im.FactorScale("savegamePics/imran_house_outside.jpg", SCALE)
-image savegame_imran_house_outside_night = im.FactorScale("savegamePics/imran_house_outside_night.jpg", SCALE)
-image savegame_metro_train = im.FactorScale("savegamePics/metro_train.jpg", SCALE)
-image savegame_mrv_exterior = im.FactorScale("savegamePics/mrv_exterior.jpg", SCALE)
-image savegame_mrv_interior = im.FactorScale("savegamePics/mrv_interior.jpg", SCALE)
-image savegame_mrv_interior2_chair = im.FactorScale("savegamePics/mrv_interior2_chair.jpg", SCALE)
-image savegame_mrv_interior3 = im.FactorScale("savegamePics/mrv_interior3.jpg", SCALE)
-image savegame_night_road = im.FactorScale("savegamePics/night_road.jpg", SCALE)
-image savegame_night_road2 = im.FactorScale("savegamePics/night_road2.jpg", SCALE)
-image savegame_semen_room_day = im.FactorScale("savegamePics/semen_room_day.jpg", SCALE)
-image savegame_semen_room_night = im.FactorScale("savegamePics/semen_room_night.jpg", SCALE)
-image savegame_semen_room_table_day = im.FactorScale("savegamePics/semen_room_table_day.jpg", SCALE)
-image savegame_semen_room_table_night = im.FactorScale("savegamePics/semen_room_table_night.jpg", SCALE)
-image savegame_shaurma = im.FactorScale("savegamePics/shaurma.jpg", SCALE)
-image savegame_taganskaya_street = im.FactorScale("savegamePics/taganskaya_street.jpg", SCALE)
-image savegame_tagansky_park = im.FactorScale("savegamePics/tagansky_park.jpg", SCALE)
-image savegame_tagansky_park_sit = im.FactorScale("savegamePics/tagansky_park_sit.jpg", SCALE)
-image savegame_tagansky_store = im.FactorScale("savegamePics/tagansky_store.jpg", SCALE)
-image savegame_underground = im.FactorScale("savegamePics/underground.jpg", SCALE)

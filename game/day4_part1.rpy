@@ -1,6 +1,9 @@
 
 label day4_intro:
 
+    if isMobileWeb:
+        $ renpy.free_memory()
+
     scene black with dissolve
 
     $ savegame_picture = "savegame_black"
@@ -22,12 +25,12 @@ label day4_intro:
         linear 80.0 xpos -2.0
 
     show Aliya_stand_straight eyes_open_cry_sad2 as Aliya at any_center_pos zorder 1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "И вот наконец мои глаза смогли сфокусироваться на одном знакомом образе." with dissolve
 
     show Aliya_stand_straight eyes_open_cry_sad2 as Aliya at any_center_pos zorder 3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Ты жалеешь, что помог мне?" with dissolve
 
@@ -38,7 +41,7 @@ label day4_intro:
     me "Нет, я даже рад." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried_open_mouth as Aliya at any_center_pos zorder 3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Рад?" with dissolve
 
@@ -57,12 +60,12 @@ label day4_intro:
     me "Я бы не смог." with dissolve
 
     show Aliya_stand_straight eyes_closed_sad as Aliya at any_center_pos zorder 3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия ничего не ответила." with dissolve
 
     show Aliya_stand_straight eyes_closed_sad as Aliya at any_center_pos zorder 1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Ее фигура снова начала пропадать в тумане." with dissolve
 
@@ -133,7 +136,7 @@ label day4_morning:
     $ savegame_picture = "savegame_imran_house_doorway"
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я подошел и открыл дверь. За дверью стояла Алия." with dissolve
 
@@ -156,7 +159,7 @@ label day4_morning:
     "Всю переписку целиком уже поздно удалять, так мы только спалимся." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "И много не говори, Имран может нас подслушивать." with dissolve
 
@@ -169,7 +172,7 @@ label day4_morning:
     me "Твоя мама обманула меня, и я бы хотел ей это напомнить..." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Давай лучше не в этот раз. Прибереги это на будущее." with dissolve
 
@@ -188,7 +191,7 @@ label day4_morning:
     me "Ты и сама рассказывала, как несколько лет назад твой отец не выполнил свое обещание перед тобой." with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия вздохнула." with dissolve
 
@@ -197,7 +200,7 @@ label day4_morning:
     "Пока я думал, что еще сказать, внизу раздался шорох." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried_question as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия посмотрела на меня в последний раз." with dissolve
 
@@ -834,7 +837,7 @@ label day4_parents_intro:
     scene imran_house_2nd_floor_open_door with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Спустя несколько минут дверь открылась, и она вышла из комнаты." with dissolve
 
@@ -843,7 +846,7 @@ label day4_parents_intro:
     aliya "Да." with dissolve
 
     show Aliya special_note as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я передал ей записку." with dissolve
 
@@ -854,12 +857,12 @@ label day4_parents_intro:
     aliya "Ясно." with dissolve
 
     show Aliya special_pocket as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия положила записку в карман." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я услышал, как дверь на первом этаже открылась, и родители вошли в дом." with dissolve
 
@@ -868,14 +871,14 @@ label day4_parents_intro:
     me "Запомни пожалуйста. Чтобы я сейчас не сказал твоим родителям - на самом деле я всегда на твоей стороне." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия посмотрела на меня недоверчиво и непонимающе." with dissolve
 
     me "Возможно я буду блефовать и лгать твоим родителям, но это только чтобы вытащить тебя." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at any_center_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Это не нужно," with dissolve
 
@@ -898,22 +901,22 @@ label day4_parents_intro:
     $ savegame_picture = "savegame_imran_house_living_room"
 
     show imran neutral at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "В гостиной был Имран, которого я уже видел." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     "Рядом была Алия." with dissolve
 
     show aslan neutral at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "С другой стороны находился лысоватый и гладко выбритый пожилой мужчина. Его лицо было невероятно уставшим." with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Кроме него в гостиной на диване сидела женщина лет сорока, в платье и платке. Лицо ее выражало тревогу." with dissolve
 
@@ -926,25 +929,25 @@ label day4_parents_intro:
     scene imran_house_living_room with dissolve
 
     show imran watching at imran_house_pos1:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
 
     show aslan watching_aliya at imran_house_pos3:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
 
     show fatima neutral at imran_house_pos4:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
@@ -952,7 +955,7 @@ label day4_parents_intro:
     "Аслан вздохнул и начал говорить." with dissolve
 
     show aslan watching_aliya_open_mouth at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aslan "Алия, дочь моя, я твой отец." with dissolve
@@ -972,17 +975,17 @@ label day4_parents_intro:
     aslan "Ты зачем так поступила? Ты зачем своих родителей не ценишь, не уважаешь?" with dissolve
 
     show aslan watching_aliya at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_open_angry as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "Алия набралась смелости, строго посмотрела на отца и начала говорить." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_angry_open_mouth as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     aliya "Мам, пап, я действительно не хочу выходить замуж." with dissolve
@@ -990,7 +993,7 @@ label day4_parents_intro:
     aliya "Я вам говорила много раз. Вы никогда не спрашиваете меня чего я хочу. Вам вообще безразлично." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_angry as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     aslan "В наше время мы вообще не выбирали!" with dissolve
@@ -1002,17 +1005,17 @@ label day4_parents_intro:
     aslan "Вместе с похитителем! И закопали там же." with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_annoyed as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "В разговор вмешался Имран. Видимо он был старше всех присутствующих." with dissolve
 
     show aslan watching_imran at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show imran watching_open_mouth at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     imran "Аслан, послушай что я тебе скажу." with dissolve
@@ -1036,17 +1039,17 @@ label day4_parents_intro:
     imran "Прислушайся к ней, она же тебе говорит чего она хочет!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     show imran watching at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Имран не так уж и плох, надо заметить." with dissolve
 
     show aslan watching_imran_open_mouth at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aslan "Мне уже безразлично. Моя дочь убежала от меня. Пусть теперь делает что хочет." with dissolve
@@ -1054,13 +1057,13 @@ label day4_parents_intro:
     aslan "Но я скажу вот что. Сейчас в полиции Пятигорска уже возбуждено уголовное дело о похищении." with dissolve
 
     show aslan neutral at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aslan "Так что вот этот вот молодой человек - Семен, кажется? - рискует попасть в тюрьму." with dissolve
 
     show aslan watching_aliya_open_mouth at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aslan "Если хочешь ему помочь - вернись в Пятигорск, покажись полицейским и напиши заявление, что не имеешь претензии." with dissolve
@@ -1068,7 +1071,7 @@ label day4_parents_intro:
     aslan "Но мне наплевать, поедешь ты или не поедешь - поступай как хочешь." with dissolve
 
     show aslan watching_aliya at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Повисла тишина." with dissolve
@@ -1078,7 +1081,7 @@ label day4_parents_intro:
     "Тишину прервала мать Алии." with dissolve
 
     show fatima watching_open_mouth at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Алия, тебе вообще очень повезло что тебе попался вот такой порядочный молодой человек." with dissolve
@@ -1088,13 +1091,13 @@ label day4_parents_intro:
     fatima "Ты с незнакомым мужчиной уехала, ты ведь не знаешь его намерений." with dissolve
 
     show fatima watching at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Мать Алии обратилась ко мне." with dissolve
 
     show fatima sad at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Семен, спасибо вам большое, что позаботились об Алие." with dissolve
@@ -1104,15 +1107,15 @@ label day4_parents_intro:
     fatima "Почему, Семен?" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show aslan neutral at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show imran neutral at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Все присутствующие посмотрели на меня, и стали ждать ответа." with dissolve
@@ -1176,7 +1179,7 @@ label day4_parents_part0_choice_for_aliya:
     "Повисла тишина." with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_sad at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "Я посмотрел на Алию. Она отвела взгляд, но кажется, ей пришлось по душе все что я сказал." with dissolve
@@ -1216,7 +1219,7 @@ label day4_parents_part0_choice_for_parents:
     "Повисла тишина." with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_sad as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "Я посмотрел на Алию. Алия смотрела в пол." with dissolve
@@ -1255,7 +1258,7 @@ label day4_parents_part2_choice1_like_her:
     "...Повисла тишина." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "Алия внимательно смотрела на меня." with dissolve
@@ -1269,7 +1272,7 @@ label day4_parents_part2_choice2_just_friends:
     $ parents_trust_points = parents_trust_points + 1
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     me "Уважаемая, к Вашей дочери у меня слегка отеческие чувства." with dissolve
@@ -1339,25 +1342,25 @@ label day4_parents_part6:
     scene imran_house_living_room with dissolve
 
     show imran watching at imran_house_pos1:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
 
     show aslan watching_aliya at imran_house_pos3:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
 
     show fatima watching_open_mouth at imran_house_pos4:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
         alpha 1.0
@@ -1369,38 +1372,38 @@ label day4_parents_part6:
     fatima "Хочешь остаться, или уехать с нами домой - решай." with dissolve
 
     show fatima watching at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Я посмотрел на Алию. Алия посмотрела на меня, и по очереди на всех присутствующих." with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
 
     aliya "Я вернусь с вами домой." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "Что? Это же ловушка!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     aliya "Я вернусь в Пятигорск и продолжу учиться в колледже." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     "Нет, только не это! Как только ты окажешься наедине с родителями, они заставят тебя поступить по-своему!" with dissolve
 
     show fatima watching_open_mouth at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Хорошо, Алия." with dissolve
@@ -1408,7 +1411,7 @@ label day4_parents_part6:
     fatima "Надо будет посмотреть билеты на сегодня, и расписание автобусов." with dissolve
 
     show fatima watching at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Кажется, настал мой выход." with dissolve

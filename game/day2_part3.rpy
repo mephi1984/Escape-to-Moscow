@@ -1,6 +1,7 @@
 label day2_success_end:
 
 
+
     if isMobileWeb:
         scene bkg_movie_slide
 
@@ -28,6 +29,9 @@ label day2_success_end:
     $ persistent.gallery1unlock = True
 
     $ savegame_picture = "savegame_night_road"
+
+    if isMobileWeb:
+        $ renpy.free_memory()
 
     "Время перевалило за одиннадцать, я сижу в машине Ярика на переднем сидении." with dissolve
 

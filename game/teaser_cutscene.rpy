@@ -9,6 +9,9 @@ screen branch1_cutscene_helper():
 
 label teaser_start:
 
+    if isMobileWeb:
+        $ renpy.free_memory()
+
     $ quick_menu = False
     $ show_say_menu = False
 

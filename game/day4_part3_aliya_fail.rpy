@@ -10,14 +10,14 @@ label day4_imran_house_new_escape_failed:
     show imran_room_drawers_food_full_near
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Извини, Семён. Ты уже сделал всё, что мог." with dissolve
 
     aliya "Мне больше не нужна твоя помощь. Дальше я буду действовать сама." with dissolve
 
     show Aliya special_turned as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия развернулась и покинула комнату." with dissolve
 
@@ -34,22 +34,22 @@ label day4_imran_house_new_escape_failed:
     $ savegame_picture = "savegame_imran_house_living_room"
 
     show imran watching at imran_house_pos1:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show aslan neutral at imran_house_pos3:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show fatima neutral at imran_house_pos4:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
@@ -58,17 +58,17 @@ label day4_imran_house_new_escape_failed:
     me "Спасибо большое за обед!" with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Я рада, что вам понравилось!" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show imran talking at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     imran "Семён, я бы предложил вам остаться на подольше," with dissolve
@@ -76,11 +76,11 @@ label day4_imran_house_new_escape_failed:
     imran "но я должен отвезти Аслана и его семью в аэропорт." with dissolve
 
     show imran neutral at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Спасибо за помощь, Семён!" with dissolve
@@ -88,29 +88,29 @@ label day4_imran_house_new_escape_failed:
     fatima "Здоровья тебе и благополучия!" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show aslan talking at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
 
     aslan "Пока, Семён." with dissolve
 
     show aslan neutral at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Алия, было приятно познакомиться с тобой! Желаю тебе удачи!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     aliya "Спасибо!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_closed_sad as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
 
     me "Я напишу тебе потом!" with dissolve
 
@@ -119,7 +119,7 @@ label day4_imran_house_new_escape_failed:
     "Я в последний раз посмотрел на неё. Она избегала моего взгляда и выглядела немного расстроенной." with dissolve
 
     show imran talking at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     imran "Давай я открою тебе ворота! Пойдем!" with dissolve
@@ -133,27 +133,27 @@ label day4_imran_house_new_escape_failed:
     $ savegame_picture = "savegame_imran_house_outside"
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Он открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
 
     show imran talking at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran "Если пойдёшь в ту сторону, выйдешь на Киевское шоссе, там и находится автобусная остановка." with dissolve
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Хорошо. Тогда я пойду." with dissolve
 
     show imran talking at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran "Счастливого пути!" with dissolve
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Спасибо! Вам тоже удачи!" with dissolve
 

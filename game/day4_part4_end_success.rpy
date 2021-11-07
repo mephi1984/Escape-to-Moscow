@@ -2,15 +2,15 @@ label day4_end_success:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose4/*.*")
 
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose1/mask1/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Pose2/mask2/*.*")
 
-    $ renpy.start_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
-    $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
     "И вот наконец мы в самолете..." with dissolve
 
@@ -22,7 +22,7 @@ label day4_end_success:
 
     $ savegame_picture = "savegame_airplane_day_side"
 
-    show airplane_window_landing11 as airplane_window
+    show cg_airplane_window4 as airplane_window
 
     hide black with dissolve
 
@@ -72,8 +72,8 @@ label day4_end_success:
 
     scene black with dissolve
 
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
-    $ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting2/airplane/*.*")
+    #$ renpy.stop_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
     $ renpy.pause(1.0)
 

@@ -1,10 +1,10 @@
 
 
-image cg_screen_phone_lock1 = im.FactorScale("teaser/phone/lock_screen1.png", 0.308)
+#image cg_screen_phone_lock1 = im.FactorScale("teaser/phone/lock_screen1.png", 0.308)
 
-image cg_screen_phone_begin_night = im.FactorScale("teaser/phone/screen_begin_night.png", 0.308)
+image cg_screen_phone_begin_night = im.FactorScale("teaser/phone/screen_begin_night.png", 1.0)
 
-image cg_screen_phone_new_message = im.FactorScale("teaser/phone/new_message.png", 0.308)
+image cg_screen_phone_new_message = im.FactorScale("teaser/phone/new_message.png", 1.0)
 
 # 372 445 of 878 1080 aka 1414 445 of 1920 x 1080
 define cg_screen_phone_new_message_pos = Position(xpos=0.7365, xanchor=0.5, ypos=0.412, yanchor=0.5)
@@ -20,17 +20,17 @@ define promo_msg1_pos = Position(xpos=0.6755, xanchor=0.0, ypos=0.297, yanchor=0
 define promo_msg2_pos = Position(xpos=0.6755, xanchor=0.0, ypos=0.36, yanchor=0.0)
 
 
-image cg_screen_phone_new_photo1 = im.FactorScale("teaser/phone/phone_new_photo1.png", 0.308)
-image cg_screen_phone_new_photo2 = im.FactorScale("teaser/phone/phone_new_photo2.png", 0.308)
-image cg_screen_phone_new_photo3 = im.FactorScale("teaser/phone/phone_new_photo3.png", 0.308)
-image cg_screen_phone_new_photo4 = im.FactorScale("teaser/phone/phone_new_photo4.png", 0.308)
+image cg_screen_phone_new_photo1 = im.FactorScale("teaser/phone/phone_new_photo1.png", 1.0)
+image cg_screen_phone_new_photo2 = im.FactorScale("teaser/phone/phone_new_photo2.png", 1.0)
+image cg_screen_phone_new_photo3 = im.FactorScale("teaser/phone/phone_new_photo3.png", 1.0)
+image cg_screen_phone_new_photo4 = im.FactorScale("teaser/phone/phone_new_photo4.png", 1.0)
 
 
-image cg_screen_phone_night_dialog = im.FactorScale("teaser/messenger/messenger_dialog_night.png", 0.308)
+image cg_screen_phone_night_dialog = im.FactorScale("teaser/messenger/messenger_dialog_night.png", 1.0)
 
-image cg_messenger_title_noname = im.FactorScale("teaser/messenger/title_noname.png", 0.308)
+image cg_messenger_title_noname = im.FactorScale("teaser/messenger/title_noname.png", 1.0)
 #1294, 270
-image cg_messenger_title_coach = im.FactorScale("teaser/messenger/title_coach.png", 0.308)
+image cg_messenger_title_coach = im.FactorScale("teaser/messenger/title_coach.png", 1.0)
 
 define cg_messenger_title_pos = Position(xpos = 0.6732, xanchor=0.0, ypos=0.251, yanchor=0.0)
 

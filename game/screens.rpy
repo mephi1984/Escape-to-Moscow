@@ -53,34 +53,34 @@ style vbar:
 style scrollbar:
     ysize gui.scrollbar_size
     #Change here for settning scale 1920x1080 to 1280x720
-    #base_bar Frame("gui/scrollbar1280/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-    #thumb Frame("gui/scrollbar1280/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-    base_bar Frame("gui/scrollbar1920/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/scrollbar1920/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
+    base_bar Frame("gui/scrollbar1280/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
+    thumb Frame("gui/scrollbar1280/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
+    #base_bar Frame("gui/scrollbar1920/horizontal_[prefix_]bar.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
+    #thumb Frame("gui/scrollbar1920/horizontal_[prefix_]thumb.png", gui.scrollbar_borders, tile=gui.scrollbar_tile)
 
 style vscrollbar:
     xsize gui.scrollbar_size
     #Change here for settning scale 1920x1080 to 1280x720
-    #base_bar Frame("gui/scrollbar1280/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-    #thumb Frame("gui/scrollbar1280/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-    base_bar Frame("gui/scrollbar1920/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
-    thumb Frame("gui/scrollbar1920/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
+    base_bar Frame("gui/scrollbar1280/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
+    thumb Frame("gui/scrollbar1280/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
+    #base_bar Frame("gui/scrollbar1920/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
+    #thumb Frame("gui/scrollbar1920/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
 
 style slider:
     ysize gui.slider_size
     #Change here for settning scale 1920x1080 to 1280x720
-    #base_bar Frame("gui/slider1280/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    #thumb "gui/slider1280/horizontal_[prefix_]thumb.png"
-    base_bar Frame("gui/slider1920/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
-    thumb "gui/slider1920/horizontal_[prefix_]thumb.png"
+    base_bar Frame("gui/slider1280/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
+    thumb "gui/slider1280/horizontal_[prefix_]thumb.png"
+    #base_bar Frame("gui/slider1920/horizontal_[prefix_]bar.png", gui.slider_borders, tile=gui.slider_tile)
+    #thumb "gui/slider1920/horizontal_[prefix_]thumb.png"
 
 style vslider:
     xsize gui.slider_size
     #Change here for settning scale 1920x1080 to 1280x720
-    #base_bar Frame("gui/slider1280/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    #thumb "gui/slider1280/vertical_[prefix_]thumb.png"
-    base_bar Frame("gui/slider1920/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
-    thumb "gui/slider1920/vertical_[prefix_]thumb.png"
+    base_bar Frame("gui/slider1280/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
+    thumb "gui/slider1280/vertical_[prefix_]thumb.png"
+    #base_bar Frame("gui/slider1920/vertical_[prefix_]bar.png", gui.vslider_borders, tile=gui.slider_tile)
+    #thumb "gui/slider1920/vertical_[prefix_]thumb.png"
 
 
 style frame:
@@ -1070,8 +1070,8 @@ style radio_vbox:
 style radio_button:
     properties gui.button_properties("radio_button")
     #Change here for settning scale 1920x1080 to 1280x720 - need to rename folder button1280/ to button/ itself, don't change path here
-    #foreground "gui/button1280/radio_[prefix_]foreground.png"
-    foreground "gui/button/radio_[prefix_]foreground.png"
+    foreground "gui/button1280/radio_[prefix_]foreground.png"
+    #foreground "gui/button/radio_[prefix_]foreground.png"
 
 style radio_button_text:
     properties gui.button_text_properties("radio_button")
@@ -1082,8 +1082,8 @@ style check_vbox:
 style check_button:
     properties gui.button_properties("check_button")
     #Change here for settning scale 1920x1080 to 1280x720 - need to rename folder button1280/ to button/ itself, don't change path here
-    #foreground "gui/button1280/check_[prefix_]foreground.png"
-    foreground "gui/button/check_[prefix_]foreground.png"
+    foreground "gui/button1280/check_[prefix_]foreground.png"
+    #foreground "gui/button/check_[prefix_]foreground.png"
 
 style check_button_text:
     properties gui.button_text_properties("check_button")
@@ -1398,7 +1398,7 @@ screen galleryMobile1():
 
     tag menu
 
-    use game_menu("Галерея (страница 1)"):
+    use game_menu("Галерея (стр. 1)"):
 
         fixed:
             order_reverse True
@@ -1471,7 +1471,7 @@ screen galleryMobile2():
 
     tag menu
 
-    use game_menu("Галерея (страница 2)"):
+    use game_menu("Галерея (стр. 2)"):
 
         fixed:
             order_reverse True
@@ -1544,7 +1544,7 @@ screen galleryMobile3():
 
     tag menu
 
-    use game_menu("Галерея (страница 3)"):
+    use game_menu("Галерея (стр. 3)"):
 
         fixed:
             order_reverse True
@@ -1867,14 +1867,14 @@ style help_text is gui_text
 
 style help_button:
     properties gui.button_properties("help_button")
-    xmargin int(SCALE*12)
+    xmargin int(SCALE_SBERBOX*12)
 
 style help_button_text:
     properties gui.button_text_properties("help_button")
 
 style help_label:
-    xsize int(SCALE*375)
-    right_padding int(SCALE*30)
+    xsize int(SCALE_SBERBOX*375)
+    right_padding int(SCALE_SBERBOX*30)
 
 style help_label_text:
     size gui.text_size
@@ -1911,7 +1911,7 @@ screen confirm(message, yes_action, no_action):
         vbox:
             xalign .5
             yalign .5
-            spacing int(SCALE*45)
+            spacing int(SCALE_SBERBOX*45)
 
             label _(message):
                 style "confirm_prompt"
@@ -1919,7 +1919,7 @@ screen confirm(message, yes_action, no_action):
 
             hbox:
                 xalign 0.5
-                spacing int(SCALE*150)
+                spacing int(SCALE_SBERBOX*150)
 
                 textbutton _("Да") action yes_action
                 textbutton _("Нет") action no_action
@@ -1969,7 +1969,7 @@ screen skip_indicator():
     frame:
 
         hbox:
-            spacing int(SCALE*9)
+            spacing int(SCALE_SBERBOX*9)
 
             text _("Пропускаю")
 
@@ -2173,7 +2173,7 @@ style nvl_button_text:
 style pref_vbox:
     variant "medium"
     #xsize int(450)
-    xsize int(675*SCALE)
+    xsize int(675*SCALE_SBERBOX)
 
 ## Раз мышь может не использоваться, мы заменили быстрое меню версией,
 ## использующей меньше кнопок, но больших по размеру, чтобы их было легче
@@ -2224,7 +2224,7 @@ style game_menu_outer_frame:
 style game_menu_navigation_frame:
     variant "small"
     #xsize 340
-    xsize int(510*SCALE)
+    xsize int(510*SCALE_SBERBOX)
 
 style game_menu_content_frame:
     variant "small"
@@ -2233,7 +2233,7 @@ style game_menu_content_frame:
 style pref_vbox:
     variant "small"
     #xsize int(400)
-    xsize int(600*SCALE)
+    xsize int(600*SCALE_SBERBOX)
 
 style bar:
     variant "small"
@@ -2278,7 +2278,7 @@ style slider_pref_vbox:
 style slider_pref_slider:
     variant "small"
     #xsize int(600)
-    xsize int(900*SCALE)
+    xsize int(900*SCALE_SBERBOX)
 
 style gui_text:
     properties gui.text_properties("interface")

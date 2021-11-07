@@ -1,5 +1,8 @@
 label day4_imran_house_new_escape_succeed:
 
+    if isMobileWeb:
+        $ renpy.free_memory()
+
     play music "music/Runaway_14 (Pre_Loop).ogg" fadein 1.0
 
     queue music "music/Runaway_14 (Loop).ogg"
@@ -13,34 +16,34 @@ label day4_imran_house_new_escape_succeed:
     show imran_room_drawers_food_full_near
 
     show Aliya_stand_straight tshirt eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Воцарилось долгое молчание. Наконец Алия ответила." with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Хорошо, Семён. Я верю тебе. Пожалуйста, не подведи меня!" with dissolve
 
     show Aliya special_pocket as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "И вот ещё..." with dissolve
 
     show Aliya special_mask as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия достала из кармана маску для лица, одну из тех, что я дал ей." with dissolve
 
     aliya "Возьми. Тебе это понадобится!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Я взял маску и положил к себе в карман." with dissolve
 
     show Aliya special_turned as Aliya at aliya_imran_room_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Алия развернулась и покинула мою комнату." with dissolve
 
@@ -161,22 +164,22 @@ label day4_imran_house_new_escape_succeed:
     $ savegame_picture = "savegame_imran_house_living_room"
 
     show imran neutral at imran_house_pos1:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried at imran_house_pos2:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show aslan neutral at imran_house_pos3:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
     show fatima neutral at imran_house_pos4:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 0.0
         linear 0.5 alpha 1.0
 
@@ -189,7 +192,7 @@ label day4_imran_house_new_escape_succeed:
     me "Я помог с авиабилетами, вам всего лишь потребуется приехать в аэропорт к трём часам дня и зарегистрироваться на рейс." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     fatima "Спасибо за помощь, Семён!" with dissolve
@@ -197,40 +200,40 @@ label day4_imran_house_new_escape_succeed:
     fatima "Здоровья тебе и благополучия!" with dissolve
 
     show fatima neutral at imran_house_pos4 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     show aslan talking at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     aslan "Пока, Семён." with dissolve
 
     show aslan neutral at imran_house_pos3 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     me "Алия, было приятно познакомиться с тобой! Желаю тебе удачи!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
     aliya "Удачи!" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
-        zoom 0.75*SCALE*0.9
+        zoom 1.0*0.9
         alpha 1.0
 
 
     show imran talking at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     imran "Давай я открою тебе ворота!" with dissolve
 
     show imran neutral at imran_house_pos1 with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
         alpha 1.0
 
     "Я мысленно улыбнулся: никто из них и не догадывается о моём плане, кроме Алии, конечно." with dissolve
@@ -244,37 +247,37 @@ label day4_imran_house_new_escape_succeed:
     $ savegame_picture = "savegame_imran_house_outside"
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Имран открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
 
     show imran talking at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran "Если пойдёшь в ту сторону, выйдешь на Киевское шоссе, там находится автобусная остановка." with dissolve
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Спасибо, я вызову такси." with dissolve
 
     show imran talking at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran "Ладно. Здесь шлагбаум, такси не проедет. Тебе всё равно нужно идти в том направлении." with dissolve
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Хорошо. Тогда я пошёл." with dissolve
 
     show imran talking at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     imran "Счастливого пути!" with dissolve
 
     show imran neutral at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Спасибо! Вам тоже удачи!" with dissolve
 
@@ -405,7 +408,7 @@ label airport_scene1:
     $ renpy.pause(0.3)
 
     show Aliya_stand_half_turned jacket_armsdown_light eyes_open_neutral as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Ты в порядке?" with dissolve
 
@@ -422,7 +425,7 @@ label airport_scene1:
     $ savegame_picture = "savegame_domodedovo_border"
 
     show Aliya_stand_half_turned jacket_armsdown_light eyes_open_neutral as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Турникеты позади, зелёный коридор мы преодолели не останавливаясь." with dissolve
 
@@ -437,7 +440,7 @@ label airport_scene1:
     "По совету Напарника, я начал высматривать пограничника, который дежурит в зале. Вот и он!" with dissolve
 
     show officer neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     me "Помогите пожалуйста, мы опаздываем на рейс! Вы не могли бы пропустить нас без очереди?" with dissolve
 
@@ -446,12 +449,12 @@ label airport_scene1:
     "Офицер взял наши посадочные талоны, посмотрел время вылета, взглянул на часы." with dissolve
 
     show officer talking at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     officer "Следуйте сюда!" with dissolve
 
     show officer neutral at any_left_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Пограничник указал на будку, на которой было написано \"Только для членов экипажа\"." with dissolve
 
@@ -466,7 +469,7 @@ label airport_scene1:
     me "Цель поездки - \"навестить знакомых\". Всё понятно?" with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown_light eyes_open_sad_worried_open_mouth as Aliya at any_right_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     aliya "Да." with dissolve
 
@@ -489,7 +492,7 @@ label airport_scene1:
 
     scene black with dissolve
 
-    $ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
+    #$ renpy.start_predict("images/sprites/Aliya/Pose4/*.*")
 
     "Я вышел в зону Duty Free вслед за Алией..." with dissolve
 
@@ -498,7 +501,7 @@ label airport_scene1:
     $ savegame_picture = "savegame_domodedovo_duty_free"
 
     show aliya_turn_around no_backpack eyes_open_neutral as Aliya at duty_free_aliya_pos with dissolve:
-        zoom 0.75*SCALE
+        zoom 1.0
 
     show cg_screen_phone_time_day4_afternoon_airport_duty_free as cg_screen_phone with dissolve
 

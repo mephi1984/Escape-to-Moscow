@@ -116,7 +116,7 @@ label day3_and_day4_final_loose:
     show Aliya_stand_half_turned eyes_open_surprised zorder 1 as Aliya with dissolve:
         xalign 0.5
         yalign -0.1
-        zoom 0.75*SCALE
+        zoom 1.0
 
     "Как там Алия? Всё ли с ней в порядке?" with dissolve
 
