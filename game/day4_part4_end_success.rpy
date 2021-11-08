@@ -16,7 +16,7 @@ label day4_end_success:
 
     show black zorder 10
 
-    #play music "ambience/kazakhstan_airplane_before_takeoff_ambience.ogg" fadein 1.0
+    play music "ambience/kazakhstan_airplane_before_takeoff_ambience.ogg" # fadein 1.0
 
     show airplane_day_side as airplane_scene
 
@@ -135,9 +135,9 @@ label day4_end_success:
 
     announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в горизонтальное положение, уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
 
-    #play music "ambience/takeoff_kazakhstan.ogg"
+    play music "ambience/takeoff_kazakhstan.ogg"
 
-    #queue music "ambience/kazakhstan_after_takeoff_ambience.ogg"
+    queue music "ambience/kazakhstan_after_takeoff_ambience.ogg"
 
     show airplane_day_kz at airplane_scene_pos:
         ypos 0.525
@@ -206,8 +206,8 @@ label day4_end_success:
 
     "Я включил музыку и отдал один наушник Алие." with dissolve
 
-    #play music_crossfade "music/Runaway_07 (Main_Theme).ogg" fadein 1.0
-    #queue music_crossfade "music/Runaway_07 (Main_Theme_Loop).ogg"
+    play music_crossfade "music/Runaway_07 (Main_Theme).ogg" # fadein 1.0
+    queue music_crossfade "music/Runaway_07 (Main_Theme_Loop).ogg"
 
     "В наушниках заиграли знакомые мотивы." with dissolve
 
@@ -217,7 +217,7 @@ label day4_end_success:
 
     "Я откинулся на кресло и закрыл глаза." with dissolve
 
-    stop music fadeout 5.0
+    stop music # fadeout 5.0
 
     "Это только начало большого пути." with dissolve
 

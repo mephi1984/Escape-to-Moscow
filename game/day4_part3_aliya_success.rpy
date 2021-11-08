@@ -1,8 +1,8 @@
 label day4_imran_house_new_escape_succeed:
 
-    #play music "music/Runaway_14 (Pre_Loop).ogg" fadein 1.0
+    play music "music/Runaway_14 (Loop).ogg" # fadein 3.0
 
-    #queue music "music/Runaway_14 (Loop).ogg"
+    queue music "music/Runaway_14 (Loop).ogg"
 
     scene black with dissolve
 
@@ -393,8 +393,8 @@ label airport_scene1:
 
     "Алия вышла из рамок, огляделась и, увидев меня," with dissolve
 
-    #play music "music/Runaway_15 (Pre_Loop).ogg" fadein 1.0
-    #queue music "music/Runaway_15 (Loop).ogg"
+    play music "music/Runaway_15 (Loop).ogg" # fadein 3.0
+    queue music "music/Runaway_15 (Loop).ogg"
 
 
     "побежала сжимая в руках паспорт и посадочный талон." with dissolve

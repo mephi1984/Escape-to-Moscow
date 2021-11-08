@@ -19,10 +19,14 @@ label day1_intro:
     #$ renpy.start_predict("images/CG_hands/Card.png")
 
 
+    #if isMobileWeb:
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
+        play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
-    #play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
-
-    #queue music "music/Runaway_01 (Loop).ogg"
+        queue music "music/Runaway_01 (Loop).ogg"
 
     scene black
 
@@ -304,9 +308,16 @@ label day1_aliya_meeting:
 
     messenger "Новое сообщение"  with dissolve # with hpunch
 
-    #play music "music/Runaway_02 (Pre_Loop).ogg" fadein 1.0
+    #if isMobileWeb:
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway02()")
+    else:
+        play music "music/Runaway_02 (Loop).ogg" # fadein 3.0
 
-    #queue music "music/Runaway_02 (Loop).ogg"
+        queue music "music/Runaway_02 (Loop).ogg"
+
+
 
     show semen_room_table_night_foreground_phone as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
@@ -1183,9 +1194,14 @@ label day1_aliya_meeting_after_success:
 
 label day1_over_success:
 
-    #play music "music/Runaway_01 (Main).ogg"  fadein 1.0
+    #if isMobileWeb:
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
+        play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
-    #queue music "music/Runaway_01 (Loop).ogg"
+        queue music "music/Runaway_01 (Loop).ogg"
 
     scene semen_room_night with dissolve
 
@@ -1417,9 +1433,14 @@ label day1_aliya_decline:
 
     "\"Миса Амане - был(а) в сети давно\"." with dissolve
 
-    #play music "music/Runaway_01 (Pre_Loop).ogg"  fadein 1.0
+    #if isMobileWeb:
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
+        play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
-    #queue music "music/Runaway_01 (Loop).ogg"
+        queue music "music/Runaway_01 (Loop).ogg"
 
     "Кажется, она добавила меня в чёрный список." with dissolve
 

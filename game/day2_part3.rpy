@@ -313,9 +313,14 @@ label day2_car_end:
 
     $ savegame_picture = "savegame_black"
 
-    #play music "music/Runaway_01 (Pre_Loop).ogg" fadein 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
 
-    #queue music "music/Runaway_01 (Loop).ogg"
+        play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_01 (Loop).ogg"
 
     "Вот мы уже подъезжаем к аэропорту. Я поблагодарил Ярика, взял рюкзак, вышел из машины..." with dissolve
 
@@ -359,7 +364,7 @@ label day2_car_end:
 
     "Но я решил для себя, если она хочет сбежать - я помогу ей в этом." with dissolve
 
-    stop music fadeout 2.0
+    stop music # fadeout 2.0
 
     hide night_dream_scene with dissolve
 

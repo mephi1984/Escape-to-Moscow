@@ -43,9 +43,14 @@ label day2_cancel:
 
     "\"Миса Амане - был(а) в сети давно\"." with dissolve
 
-    #play music "music/Runaway_01 (Pre_Loop).ogg"  fadein 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
 
-    #queue music "music/Runaway_01 (Loop).ogg"
+        play music "music/Runaway_01 (Main).ogg"  # fadein 1.0
+
+        queue music "music/Runaway_01 (Loop).ogg"
 
     "Кажется, она добавила меня в чёрный список." with dissolve
 

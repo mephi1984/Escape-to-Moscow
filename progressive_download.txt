@@ -4,7 +4,12 @@
 #
 # +/- type path
 - image game/gui/**
-+ image game/**
+- image game/images/CG_hands/**
+- image game/images/CG_messenger_desktop/**
+- image game/images/CG_messenger_phone/**
+- image game/images/cg_screen/**
+- image game/images/sprites/Aliya/**
+- image game/**
 + music game/ambience/**
 + music game/music/**
-+ voice game/voice/**
++ music game/sound/**

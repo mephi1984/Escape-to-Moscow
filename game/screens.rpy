@@ -534,6 +534,11 @@ screen main_menu():
 
     style_prefix "main_menu"
 
+    #if isMobileWeb:
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01IfNotPlaying()")
+
 
     if isMobileWeb:
         add gui.main_menu_background_mobile_web

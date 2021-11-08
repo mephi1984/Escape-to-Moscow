@@ -87,9 +87,9 @@ define build.name = "EscapeToMoscow"
 ## настройках, которые игрок может настраивать по умолчанию. Изменив один из
 ## параметров на False, скроется соответствующий микшер.
 
-define config.has_sound = True
-define config.has_music = True
-define config.has_voice = True
+define config.has_sound = False
+define config.has_music = False
+define config.has_voice = False
 
 
 ## Чтобы разрешить игроку тестировать громкость на звуковом или голосовом

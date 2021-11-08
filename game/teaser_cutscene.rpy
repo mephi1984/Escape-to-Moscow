@@ -16,7 +16,7 @@ label teaser_start:
 
     scene black
 
-    stop music fadeout 2.0
+    stop music # fadeout 2.0
 
     $ renpy.pause(2.0)
 
@@ -108,7 +108,7 @@ label teaser_start:
     $ renpy.pause(1.5)
 
     ##play music "audio/nickelback - trying not to love you inst.ogg"
-    #play music "music/Runaway_11 (Pre_Loop).ogg" fadein 1.5
+    play music "music/Runaway_11 (Loop).ogg" # fadein 1.5
 
     #show cg_messenger_cover_above_room at cg_messenger_cover_above_room_pos zorder 20
 
@@ -426,7 +426,7 @@ label trailer_continue4:
 
     $ renpy.pause(7.0)
 
-    stop music fadeout 3.0
+    stop music # fadeout 3.0
 
     hide credits_text1_line1 with dissolve
 
@@ -450,8 +450,8 @@ label after_branch1_cutscene:
 
     #return
 
-    #play music "music/Runaway_16 (Pre_Loop).ogg" fadein 1.0
+    play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
 
-    #queue music "music/Runaway_16 (Loop).ogg"
+    queue music "music/Runaway_16 (Loop).ogg"
 
     jump credits

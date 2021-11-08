@@ -2,9 +2,14 @@ label day2_escape_now_fail:
 
     hide black with dissolve
 
-    #play music "music/Runaway_16 (Pre_Loop).ogg" fadein 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway16()")
+    else:
 
-    #queue music "music/Runaway_16 (Loop).ogg"
+        play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_16 (Loop).ogg"
 
     $ addSentMessage(3)
 

@@ -243,7 +243,7 @@ label after_credits:
 
     if player_skipped_credits:
 
-        stop music_crossfade fadeout 1.0
+        stop music_crossfade # fadeout 1.0
 
         hide semyon1
 
@@ -303,7 +303,7 @@ label after_credits:
 
         if _preferences.language == None:
 
-            stop music_crossfade fadeout 5.0
+            stop music_crossfade # fadeout 5.0
 
             hide credits_text11_line1 with dissolve
 
@@ -323,7 +323,7 @@ label after_credits:
             hide credits_text11_line6 with dissolve
 
         else:
-            stop music_crossfade fadeout 3.0
+            stop music_crossfade # fadeout 3.0
 
             hide credits_text10_line1 with dissolve
 
