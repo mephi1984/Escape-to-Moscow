@@ -6,7 +6,12 @@ label day3_metro:
 
     $ savegame_picture = "savegame_underground"
 
-    play music "ambience/metro_station.ogg" # fadein 1.0 # fadeout 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_ambience_metro_station()")
+    else:
+
+        play music "ambience/metro_station.ogg" # fadein 1.0 # fadeout 1.0
 
     "Поток людей шёл из вагонов аэроэкспресса на перрон, затем на вокзал и в метро." with dissolve
 
@@ -41,7 +46,7 @@ label day3_metro:
     hide Aliya with dissolve
 
     show Aliya_stand_half_turned jacket_armsdown eyes_open_watching_phone as Aliya at aliya_metro_buy_card_pos with dissolve:
-        zoom 0.6*SCALE
+        zoom 0.85
 
     aliya "Вот \"получить карту Тройка\", нажимаю сюда?" with dissolve
 
@@ -62,7 +67,7 @@ label day3_metro:
     "Алия бодро потыкала в сенсорный экран, затем скормила автомату две сотенные купюры. Автомат выдал в ответ маленькую синюю карточку." with dissolve
 
     show Aliya_stand_straight eyes_open_sad_worried as Aliya at aliya_metro_buy_card_straight_pos with dissolve:
-        zoom 0.6*SCALE
+        zoom 0.85
 
     "Затем Алия повернулась ко мне, взглянув вопросительно." with dissolve
 
@@ -71,7 +76,7 @@ label day3_metro:
     me "У меня уже есть, я бывал здесь раньше." with dissolve
 
     show Aliya_stand_straight eyes_open_neutral as Aliya at aliya_metro_buy_card_straight_pos with dissolve:
-        zoom 0.6*SCALE
+        zoom 0.85
 
     aliya "Хорошо." with dissolve
 
@@ -87,12 +92,16 @@ label day3_metro:
 label day3_metro_train:
 
 
-    stop music_crossfade # fadeout 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_ambience_metro_loop_before_train_depart()")
+    else:
 
-    stop music # fadeout 1.0
+        stop music_crossfade # fadeout 1.0
 
-    play music "ambience/metro_loop_before_train_depart.ogg" # fadein 1.0 # fadeout 1.0
+        stop music # fadeout 1.0
 
+        play music "ambience/metro_loop_before_train_depart.ogg" # fadein 1.0 # fadeout 1.0
 
     show metro_train at metro_scene_pos with dissolve:
         zoom 1.05
@@ -108,9 +117,15 @@ label day3_metro_train:
 
     aliya "Ладно." with dissolve
 
-    play music "ambience/metro_doors_closing.ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_ambience_metro_doors_closing()")
+        $ emscripten.run_script("play_ambience_metro_train_loop(40.583-2)")
+    else:
 
-    queue music "ambience/metro_train_loop.ogg"
+        play music "ambience/metro_doors_closing.ogg"
+
+        queue music "ambience/metro_train_loop.ogg"
 
     announcement "Осторожно, двери закрываются, следующая станция - Таганская" with dissolve
 
@@ -164,9 +179,15 @@ label day3_metro_train:
 
     "Поезд довольно быстро приехал на нужную нам станцию." with dissolve
 
-    play music "ambience/metro_arrived.ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_ambience_metro_arrived()")
+        $ emscripten.run_script("play_ambience_metro_loop_after_arrival(18.788-2)")
+    else:
 
-    queue music "ambience/metro_loop_after_arrival.ogg"
+        play music "ambience/metro_arrived.ogg"
+
+        queue music "ambience/metro_loop_after_arrival.ogg"
 
     announcement "Станция Таганская. Переход на Таганско-Краснопресненскую линию и станцию Марксистская." with dissolve
 
@@ -182,9 +203,14 @@ label day3_metro_train:
 
     "Двери открылись и мы вышли наружу." with dissolve
 
-    play music "music/Runaway_09 (Loop).ogg" # fadein 3.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway09()")
+    else:
 
-    queue music "music/Runaway_09 (Loop).ogg"
+        play music "music/Runaway_09 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_09 (Loop).ogg"
 
     scene black with dissolve
 

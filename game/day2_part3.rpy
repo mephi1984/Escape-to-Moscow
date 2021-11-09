@@ -364,7 +364,11 @@ label day2_car_end:
 
     "Но я решил для себя, если она хочет сбежать - я помогу ей в этом." with dissolve
 
-    stop music # fadeout 2.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("stopAllMusic()")
+    else:
+        stop music # fadeout 2.0
 
     hide night_dream_scene with dissolve
 
