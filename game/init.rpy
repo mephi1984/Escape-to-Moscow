@@ -67,6 +67,9 @@ default aliya_banned = False
 
 default day3_address_told = False
 
+# Hack for sberbox
+default last_playing_music = ""
+
 
 
 define me = Character(_('Семён'), color="#f0f0f0")
@@ -199,5 +202,7 @@ label start:
     $ var_day3_photo_made = False
 
     $ savegame_picture = "savegame_black"
+
+    $ last_playing_music = "playRunaway01()"
 
     jump day1_intro

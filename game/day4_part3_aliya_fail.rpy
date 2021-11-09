@@ -170,9 +170,14 @@ label day4_imran_house_new_escape_failed:
 
 label day4_the_end_part1_option2_airplane:
 
-    play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
 
-    queue music "music/Runaway_01 (Loop).ogg"
+        play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_01 (Loop).ogg"
 
     scene apt_kitchen with dissolve
 

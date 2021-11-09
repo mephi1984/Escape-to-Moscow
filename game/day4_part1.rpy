@@ -94,9 +94,13 @@ label day4_morning:
 
     $ savegame_picture = "savegame_imran_house_bedroom"
 
-    play music "music/Runaway_12 (Loop).ogg" # fadein 3.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway12()")
+    else:
+        play music "music/Runaway_12 (Loop).ogg" # fadein 3.0
 
-    queue music "music/Runaway_12 (Loop).ogg"
+        queue music "music/Runaway_12 (Loop).ogg"
 
     "Я проснулся ранним утром." with dissolve
 
@@ -885,9 +889,14 @@ label day4_parents_intro:
 
     scene black with dissolve
 
-    play music "music/Runaway_13 (Loop).ogg" # fadein 3.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway13()")
+    else:
 
-    queue music "music/Runaway_13 (Loop).ogg"
+        play music "music/Runaway_13 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_13 (Loop).ogg"
 
     "Мы спустились по лестнице вниз на первый этаж." with dissolve
 

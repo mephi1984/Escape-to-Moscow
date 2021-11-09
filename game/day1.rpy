@@ -19,10 +19,14 @@ label day1_intro:
     #$ renpy.start_predict("images/CG_hands/Card.png")
 
 
+    $ last_playing_music = "playRunaway01()"
     #if isMobileWeb:
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway01()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway01()")
+
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
@@ -308,10 +312,13 @@ label day1_aliya_meeting:
 
     messenger "Новое сообщение"  with dissolve # with hpunch
 
+    $ last_playing_music = "playRunaway02()"
     #if isMobileWeb:
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway02()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway02()")
+
     else:
         play music "music/Runaway_02 (Loop).ogg" # fadein 3.0
 
@@ -1195,9 +1202,13 @@ label day1_aliya_meeting_after_success:
 label day1_over_success:
 
     #if isMobileWeb:
+
+    $ last_playing_music = "playRunaway01()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway01()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway01()")
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
@@ -1433,10 +1444,13 @@ label day1_aliya_decline:
 
     "\"Миса Амане - был(а) в сети давно\"." with dissolve
 
+    $ last_playing_music = "playRunaway01()"
+
     #if isMobileWeb:
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway01()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway01()")
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 

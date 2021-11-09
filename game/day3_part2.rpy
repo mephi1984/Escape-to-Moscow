@@ -946,11 +946,18 @@ label day3_basmannaya:
 
     $ savegame_picture = "savegame_baymanskaya"
 
-    stop music # fadeout 1.0
 
-    play music "music/Runaway_10 (Loop).ogg" # fadein 3.0
 
-    queue music "music/Runaway_10 (Loop).ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway10()")
+    else:
+
+        stop music # fadeout 1.0
+
+        play music "music/Runaway_10 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_10 (Loop).ogg"
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
         zoom 1.0
@@ -1753,11 +1760,18 @@ label day3_basmannaya_apartment_accept:
 
     "Я прекратил разговор и посмотрел на Алию." with dissolve
 
-    stop music # fadeout 1.0
 
-    play music "music/Runaway_11 (Loop).ogg" # fadein 3.0
 
-    queue music "music/Runaway_11 (Loop).ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway11()")
+    else:
+
+        stop music # fadeout 1.0
+
+        play music "music/Runaway_11 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_11 (Loop).ogg"
 
     "Она улыбалась и, кажется, чувствовала невероятное облегчение." with dissolve
 
@@ -1833,11 +1847,16 @@ label day3_basmannaya_apartment_decline:
 
     aliya "Ладно." with dissolve
 
-    stop music # fadeout 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway11()")
+    else:
 
-    play music "music/Runaway_11 (Loop).ogg" # fadein 3.0
+        stop music # fadeout 1.0
 
-    queue music "music/Runaway_11 (Loop).ogg"
+        play music "music/Runaway_11 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_11 (Loop).ogg"
 
     show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
@@ -2142,9 +2161,14 @@ label day3_basmannaya_shaurma:
 
 label day3_basmannaya_imran:
 
-    play music "music/Runaway_03 (Loop).ogg" # fadein 3.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway03()")
+    else:
 
-    queue music "music/Runaway_03 (Loop).ogg"
+        play music "music/Runaway_03 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_03 (Loop).ogg"
 
     scene apartment_hood_night_car with dissolve
 
@@ -2692,9 +2716,14 @@ label day3_basmannaya_imran_decline:
 
     scene black with dissolve
 
-    play music "music/Runaway_01 (Loop).ogg" # fadein 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
 
-    queue music "music/Runaway_01 (Loop).ogg"
+        play music "music/Runaway_01 (Loop).ogg" # fadein 1.0
+
+        queue music "music/Runaway_01 (Loop).ogg"
 
     "Мне больше ничего не оставалось сделать, кроме как вернуться в квартиру..." with dissolve
 

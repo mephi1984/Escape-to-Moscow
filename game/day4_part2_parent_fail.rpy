@@ -162,9 +162,14 @@ label day4_parents_part6_parent_persuade_fail:
 
 label day4_the_end_part1_option1_bus:
 
-    play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
+    else:
 
-    queue music "music/Runaway_01 (Loop).ogg"
+        play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_01 (Loop).ogg"
 
     scene apt_kitchen
 

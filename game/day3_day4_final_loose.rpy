@@ -48,10 +48,14 @@ label day3_and_day4_final_loose:
     me "Пока." with dissolve
 
     $ clearDisplayMessages()
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway16()")
+    else:
 
-    play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
+        play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
 
-    queue music "music/Runaway_16 (Loop).ogg"
+        queue music "music/Runaway_16 (Loop).ogg"
 
     show cg_screen_phone_messenger_contact_list as cg_screen_phone with dissolve
 

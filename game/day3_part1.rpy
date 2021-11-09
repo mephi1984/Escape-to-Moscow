@@ -940,12 +940,14 @@ label day3_meet_aliya_fail:
 
     "Я убрал телефон, оглянулся и попытался глазами найти Алию в зале. Её нигде не было." with dissolve
 
-    stop music_crossfade # fadeout 1.0
+
 
     if renpy.emscripten:
         $ import emscripten
         $ emscripten.run_script("playRunaway16()")
     else:
+
+        stop music_crossfade # fadeout 1.0
 
         play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
 
@@ -1147,9 +1149,14 @@ label day3_airport_inner:
 
     $ persistent.gallery3unlock = True
 
-    stop music_crossfade # fadeout 1.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("stopAllMusic()")
+    else:
 
-    stop music # fadeout 1.0
+        stop music_crossfade # fadeout 1.0
+
+        stop music # fadeout 1.0
 
     scene black with dissolve
 

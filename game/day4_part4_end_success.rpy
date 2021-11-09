@@ -16,7 +16,13 @@ label day4_end_success:
 
     show black zorder 10
 
-    play music "ambience/kazakhstan_airplane_before_takeoff_ambience.ogg" # fadein 1.0
+
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_ambience_kazakhstan_airplane_before_takeoff_ambience()")
+    else:
+
+        play music "ambience/kazakhstan_airplane_before_takeoff_ambience.ogg" # fadein 1.0
 
     show airplane_day_side as airplane_scene
 
@@ -129,15 +135,25 @@ label day4_end_success:
 
     "Наконец, самолет подъехал к самому началу взлетно-посадочной полосы, и остановился." with dissolve
 
-    play sound "sound/seatbelt.ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_sound_seatbelt()")
+    else:
+
+        play sound "sound/seatbelt.ogg"
 
     announcement "Уважаемые пассажиры, мы готовимся к взлету." with dissolve
 
     announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в горизонтальное положение, уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
 
-    play music "ambience/takeoff_kazakhstan.ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_ambience_takeoff_kazakhstan()")
+        #$ emscripten.run_script("play_ambience_kazakhstan_after_takeoff_ambience(39.960-2.0)")
+    else:
+        play music "ambience/takeoff_kazakhstan.ogg"
 
-    queue music "ambience/kazakhstan_after_takeoff_ambience.ogg"
+        queue music "ambience/kazakhstan_after_takeoff_ambience.ogg"
 
     show airplane_day_kz at airplane_scene_pos:
         ypos 0.525
@@ -206,8 +222,12 @@ label day4_end_success:
 
     "Я включил музыку и отдал один наушник Алие." with dissolve
 
-    play music_crossfade "music/Runaway_07 (Main_Theme).ogg" # fadein 1.0
-    queue music_crossfade "music/Runaway_07 (Main_Theme_Loop).ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway07()")
+    else:
+        play music_crossfade "music/Runaway_07 (Main_Theme).ogg" # fadein 1.0
+        queue music_crossfade "music/Runaway_07 (Main_Theme_Loop).ogg"
 
     "В наушниках заиграли знакомые мотивы." with dissolve
 
@@ -217,7 +237,11 @@ label day4_end_success:
 
     "Я откинулся на кресло и закрыл глаза." with dissolve
 
-    stop music # fadeout 5.0
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("stopAllMusicExceptRunaway07()")
+    else:
+        stop music # fadeout 5.0
 
     "Это только начало большого пути." with dissolve
 
