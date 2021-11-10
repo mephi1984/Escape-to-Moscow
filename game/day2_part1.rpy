@@ -4,9 +4,18 @@ label day2_intro:
     #if isMobileWeb:
     #    $ renpy.free_memory()
 
+    $ last_playing_music = "playRunaway08()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway08()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway08()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway01()")
+
+
     else:
         play music "music/Runaway_08 (Loop).ogg" # fadein 3.0
         queue music "music/Runaway_08 (Loop).ogg"
@@ -917,9 +926,16 @@ label day2_do_own_business:
 
 label day2_evening:
 
+    $ last_playing_music = "playRunaway01()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway01()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway01()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway08()")
     else:
 
         play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
@@ -961,9 +977,17 @@ label day2_evening:
 
     $ showMessengerWithRightOrder()
 
+
+    $ last_playing_music = "playRunaway03()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway03()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway03()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway01()")
     else:
 
         play music "music/Runaway_03 (Loop).ogg" # fadein 3.0

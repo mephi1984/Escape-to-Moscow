@@ -94,9 +94,16 @@ label day4_morning:
 
     $ savegame_picture = "savegame_imran_house_bedroom"
 
+    $ last_playing_music = "playRunaway12()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway12()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway12()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway03()")
     else:
         play music "music/Runaway_12 (Loop).ogg" # fadein 3.0
 
@@ -889,9 +896,16 @@ label day4_parents_intro:
 
     scene black with dissolve
 
+    $ last_playing_music = "playRunaway13()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway13()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway13()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway12()")
     else:
 
         play music "music/Runaway_13 (Loop).ogg" # fadein 3.0

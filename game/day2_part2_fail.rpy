@@ -2,9 +2,17 @@ label day2_escape_now_fail:
 
     hide black with dissolve
 
+
+    $ last_playing_music = "playRunaway16()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway16()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway16()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway03()")
     else:
 
         play music "music/Runaway_16 (Loop).ogg" # fadein 3.0

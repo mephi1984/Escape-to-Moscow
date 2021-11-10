@@ -449,6 +449,7 @@ label after_branch1_cutscene:
 
 
     #return
+    scene black with dissolve
 
     play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
 

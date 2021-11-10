@@ -1,9 +1,14 @@
 
 label day3_intro:
 
+    $ last_playing_music = "play_airplane_1ambience_before_landing_loop()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
+        else:
+            $ emscripten.run_script("stopAllMusic()")
     else:
         play music "ambience/airplane_1ambience_before_landing_loop.ogg" # fadein 1.0 # fadeout 1.0
 
@@ -66,10 +71,17 @@ label day3_intro:
 
     "Я чувствую всем своим телом как воздушное судно медленно снижается." with dissolve
 
+    $ last_playing_music = "play_audio_ambience_airplane_3after_landing_loop()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("play_airplane_2landed_shortened()")
-        $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop(19.856)")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("play_airplane_2landed_shortened()")
+            $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop(19.856)")
+        else:
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("play_airplane_1ambience_before_landing_loop(2.5)")
+
     else:
 
         play music "ambience/airplane_2landed_shortened.ogg"
@@ -111,11 +123,19 @@ label day3_intro:
 
     "Еще и неизвестно, может нас довезут от самолёта до аэровокзала на автобусе." with dissolve
 
+    $ last_playing_music = "playRunaway05()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("stopAllMusic()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway05()")
+        else:
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop(2.5)")
     else:
-        stop music
+        play music "music/Runaway_05 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_05 (Loop).ogg"
 
     scene black with dissolve
 
@@ -124,14 +144,6 @@ label day3_intro:
     scene mrv_interior2 with dissolve
 
     $ savegame_picture = "savegame_mrv_interior"
-
-    if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway05()")
-    else:
-        play music "music/Runaway_05 (Loop).ogg" # fadein 3.0
-
-        queue music "music/Runaway_05 (Loop).ogg"
 
     "Я вошёл в здание аэровокзала один из первых, поскольку у меня не было багажа, только ручная кладь." with dissolve
 
@@ -245,9 +257,17 @@ label day3_meet_aliya:
     #$ renpy.start_predict("images/sprites/Aliya/jacket*.*")
     # Stop predicting them when enter Airport
 
+
+    $ last_playing_music = "playCrossFadeRunaway06()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playCrossFadeRunaway06()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playCrossFadeRunaway06()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway05()")
     else:
 
         play music_crossfade "music/Runaway_06 (Loop).ogg" # fadein 3.0
@@ -941,10 +961,17 @@ label day3_meet_aliya_fail:
     "Я убрал телефон, оглянулся и попытался глазами найти Алию в зале. Её нигде не было." with dissolve
 
 
+    $ last_playing_music = "playRunaway16()"
 
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway16()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway16()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playCrossFadeRunaway06()")
+
     else:
 
         stop music_crossfade # fadeout 1.0
@@ -1149,9 +1176,16 @@ label day3_airport_inner:
 
     $ persistent.gallery3unlock = True
 
+    $ last_playing_music = ""
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("stopAllMusic()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playCrossFadeRunaway06()")
     else:
 
         stop music_crossfade # fadeout 1.0
@@ -1179,9 +1213,15 @@ label day3_airport_inner:
 
 label day3_airplane:
 
+    $ last_playing_music = "play_airplane_1ambience_before_landing_loop()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
     else:
 
         play music "ambience/airplane_1ambience_before_landing_loop.ogg" # fadein 1.0 # fadeout 1.0
@@ -1810,9 +1850,17 @@ label day3_airplane3:
     show aliya_sit_side no_emotion_layer special_airplane_window_earphones as Aliya at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
+
+    $ last_playing_music = "playRunaway07(); play_airplane_1ambience_before_landing_loop();"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway07()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway07()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
     else:
         play music_crossfade "music/Runaway_07 (Main_Theme).ogg" # fadein 1.0
         queue music_crossfade "music/Runaway_07 (Main_Theme_Loop).ogg"
@@ -1986,10 +2034,18 @@ label day3_airplane3:
 
     "Ещё чуть-чуть и шасси коснётся земли." with dissolve
 
+
+    $ last_playing_music = "playRunaway07(); play_audio_ambience_airplane_3after_landing_loop();"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("play_airplane_2landed_shortened()")
-        $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop(19.856)")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("play_airplane_2landed_shortened()")
+            $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop(19.856)")
+        else:
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway07()")
+            $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
     else:
         play music "ambience/airplane_2landed_shortened.ogg"
         queue music "ambience/airplane_3after_landing_loop.ogg"
@@ -2005,10 +2061,18 @@ label day3_airplane3:
     show aliya_sit_side no_emotion_layer special_airplane_phone as Aliya at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
+    $ last_playing_music = "play_audio_ambience_airplane_3after_landing_loop()"
 
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("stopRunaway07()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopRunaway07()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway07()")
+            $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop()")
+
     else:
         stop music_crossfade # fadeout 1.0
 
@@ -2104,10 +2168,16 @@ label day3_airplane3:
 
     "Прозвучал звук выключения индикатора \"пристегните ремни\"." with dissolve
 
+    $ last_playing_music = "play_audio_ambience_airplane_stopped_loop()"
 
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("play_audio_ambience_airplane_stopped_loop()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("play_audio_ambience_airplane_stopped_loop()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop()")
     else:
 
         play music "ambience/airplane_stopped_loop.ogg"
@@ -2126,9 +2196,18 @@ label day3_airplane3:
 
     $ savegame_picture = "savegame_domodedovo_luggage"
 
+
+    $ last_playing_music = "playRunaway08()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway08()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway08()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("play_audio_ambience_airplane_stopped_loop()")
+
     else:
 
         play music "music/Runaway_08 (Loop).ogg" # fadein 3.0
@@ -2486,9 +2565,16 @@ label day3_aeroexpress:
     $ hidePhone()
 
 
+    $ last_playing_music = ""
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("stopAllMusic()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway08()")
     else:
 
         stop music # fadeout 2.0
@@ -2524,9 +2610,15 @@ label day3_aeroexpress:
 
     $ renpy.pause(1.0)
 
+    $ last_playing_music = "play_audio_ambience_train()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("play_audio_ambience_train()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("play_audio_ambience_train()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
     else:
 
         play music "ambience/440611__florianreichelt__train-ambience.ogg" # fadein 1.0 # fadeout 1.0
@@ -2755,9 +2847,17 @@ label day3_aeroexpress:
 
     announcement "Уважаемые пассажиры, аэроэкспресс прибывает на конечную станцию Павелецкий вокзал." with dissolve
 
+    $ last_playing_music = ""
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("stopAllMusic()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("play_audio_ambience_train()")
+
     else:
         stop music # fadeout 1.0
 

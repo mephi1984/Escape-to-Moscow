@@ -313,10 +313,17 @@ label day2_car_end:
 
     $ savegame_picture = "savegame_black"
 
+    $ last_playing_music = "playRunaway01()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway01()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway01()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("playRunaway04()")
     else:
+
 
         play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
 
@@ -364,9 +371,16 @@ label day2_car_end:
 
     "Но я решил для себя, если она хочет сбежать - я помогу ей в этом." with dissolve
 
+    $ last_playing_music = ""
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("stopAllMusic()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway01()")
     else:
         stop music # fadeout 2.0
 

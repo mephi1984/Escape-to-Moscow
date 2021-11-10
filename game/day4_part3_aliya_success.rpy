@@ -1,8 +1,15 @@
 label day4_imran_house_new_escape_succeed:
 
+    $ last_playing_music = "playRunaway14()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway14()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway14()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway13()")
     else:
 
         play music "music/Runaway_14 (Loop).ogg" # fadein 3.0
@@ -398,9 +405,16 @@ label airport_scene1:
 
     "Алия вышла из рамок, огляделась и, увидев меня," with dissolve
 
+    $ last_playing_music = "playRunaway15()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway15()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway15()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway14()")
     else:
 
         play music "music/Runaway_15 (Loop).ogg" # fadein 3.0

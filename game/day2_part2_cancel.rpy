@@ -43,9 +43,16 @@ label day2_cancel:
 
     "\"Миса Амане - был(а) в сети давно\"." with dissolve
 
+    $ last_playing_music = "playRunaway01()"
+
     if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway01()")
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway01()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway03()")
     else:
 
         play music "music/Runaway_01 (Main).ogg"  # fadein 1.0

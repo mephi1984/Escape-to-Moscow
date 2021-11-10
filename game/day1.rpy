@@ -10,6 +10,20 @@
         #    renpy.notify(xx)
 
 
+init python:
+    def switchToSong():
+        last_playing_music = "playRunaway02()"
+
+        if renpy.emscripten:
+            import emscripten
+            if not renpy.in_rollback():
+                emscripten.run_script("playRunaway02()")
+            else:
+                emscripten.run_script("stopAllMusic()")
+                emscripten.run_script("playRunaway01()")
+
+
+
 label day1_intro:
 
     # Will stop predicting them at the end of day 2
@@ -20,12 +34,11 @@ label day1_intro:
 
 
     $ last_playing_music = "playRunaway01()"
-    #if isMobileWeb:
 
     if renpy.emscripten:
-        if not renpy.in_rollback():
-            $ import emscripten
-            $ emscripten.run_script("playRunaway01()")
+
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01()")
 
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
@@ -310,21 +323,15 @@ label day1_aliya_meeting:
 
     show cg_screen_new_message_minjun
 
+    if renpy.emscripten:
+        $ import emscripten
+        if renpy.in_rollback():
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway01()")
+
     messenger "Новое сообщение"  with dissolve # with hpunch
 
-    $ last_playing_music = "playRunaway02()"
-    #if isMobileWeb:
-    if renpy.emscripten:
-        if not renpy.in_rollback():
-            $ import emscripten
-            $ emscripten.run_script("playRunaway02()")
-
-    else:
-        play music "music/Runaway_02 (Loop).ogg" # fadein 3.0
-
-        queue music "music/Runaway_02 (Loop).ogg"
-
-
+    #$ switchToSong()
 
     show semen_room_table_night_foreground_phone as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
@@ -333,6 +340,17 @@ label day1_aliya_meeting:
     $ showMessengerWithRightOrder()
 
     $ addReceivedMessage(2)
+
+
+    $ last_playing_music = "playRunaway02()"
+
+    if renpy.emscripten:
+        $ import emscripten
+        if not renpy.in_rollback():
+            $ emscripten.run_script("playRunaway02()")
+        #else:
+        #    $ emscripten.run_script("stopAllMusic()")
+        #    $ emscripten.run_script("playRunaway01()")
 
     minjun "Привет, Семён! Ты не занят сейчас?" with dissolve
 
@@ -1209,6 +1227,10 @@ label day1_over_success:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway02()")
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
@@ -1451,6 +1473,10 @@ label day1_aliya_decline:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
+        else:
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway02()")
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
