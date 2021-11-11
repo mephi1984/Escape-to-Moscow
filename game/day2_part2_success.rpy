@@ -581,6 +581,15 @@ label day2_escape_now_success_coach_continue:
 
     $ addSentMessage(2)
 
+    # The rest if cut_scene0
+    $ last_playing_music = "playRunaway04()"
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway03()")    
+
     me "Хорошо! Выхожу..." with dissolve
 
     #$ renpy.stop_predict("images/cg_screen/*.*")

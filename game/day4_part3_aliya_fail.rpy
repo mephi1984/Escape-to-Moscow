@@ -163,23 +163,20 @@ label day4_imran_house_new_escape_failed:
 
     scene black with dissolve
 
-    "Ну а я медленно пошёл по направлению к Киевскому шоссе..." with dissolve
-
-    jump day4_the_end_part1_option2_airplane
-
-
-label day4_the_end_part1_option2_airplane:
-
     $ last_playing_music = "playRunaway01()"
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway13()")
+
+    "Ну а я медленно пошёл по направлению к Киевскому шоссе..." with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway13()")
     else:
 
         play music "music/Runaway_01 (Loop).ogg" # fadein 3.0

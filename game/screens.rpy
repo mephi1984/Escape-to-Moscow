@@ -143,6 +143,26 @@ screen say(who, what):
 init python:
     config.character_id_prefixes.append('namebox')
 
+    def createSaveGameText():
+        if store._last_say_who:
+            #if not isinstance(store._last_say_who, basestring):
+
+            who = renpy.eval_who(store._last_say_who).name
+
+            savegame_text = who + ": " + store._last_raw_what
+        else:
+            savegame_text = store._last_raw_what
+
+        savegame_text = (savegame_text[:22] + '..') if len(savegame_text) > 24 else savegame_text
+
+        return savegame_text
+
+    def auto_save_extra_info():
+        global save_name
+        save_name = savegame_picture + "|" + createSaveGameText()
+        return save_name
+
+    renpy.config.auto_save_extra_info = auto_save_extra_info
 
     #config.underlay.append(renpy.Keymap(custom_return_to_game = ShowMenu("history"))) #creates keymap "history"
 
@@ -237,19 +257,35 @@ init python:
             super(FileLastSaySave,self).__init__(name=name,confirm=confirm,newest=newest,page=page,cycle=cycle)
             #self.last_say=last_say
         def __call__(self):
-            if store._last_say_who:
-                #if not isinstance(store._last_say_who, basestring):
 
-                who = renpy.eval_who(store._last_say_who).name
-
-                savegame_text = who + ": " + store._last_raw_what
-            else:
-                savegame_text = store._last_raw_what
-
-            savegame_text = (savegame_text[:22] + '..') if len(savegame_text) > 24 else savegame_text
             global save_name
-            save_name = savegame_picture + "|" + savegame_text
+            save_name = savegame_picture + "|" + createSaveGameText()
             return super(FileLastSaySave,self).__call__()
+
+    def QuickSaveX(message=_("Quick save complete."), newest=False):
+        """
+        :doc: file_action
+
+        Performs a quick save.
+
+        `message`
+            A message to display to the user when the quick save finishes.
+
+        `newest`
+            Set to true to mark the quicksave as the newest save.
+         """
+
+        rv = [
+            FileLastSaySave(1, page="quick", confirm=False, cycle=True, newest=newest),
+            Notify(message),
+            ]
+
+        rv[0].alt = _("Quick save.")
+
+        if not getattr(renpy.context(), "_menu", False):
+            rv.insert(0, FileTakeScreenshot())
+
+        return rv
 
     def FileAction2(name, page=None, **kwargs):
         if renpy.current_screen().screen_name[0] == "load":
@@ -382,7 +418,7 @@ screen quick_menu():
 
     if isMobileWeb:
         key "alt_K_2" action ShowMenu('preferences')
-        key "alt_K_3" action QuickSave()
+        key "alt_K_3" action QuickSaveX()
         key "alt_K_4" action QuickLoad()
         key "alt_K_5" action Start()
 
@@ -404,7 +440,7 @@ screen quick_menu():
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Сохранить") action ShowMenu('save')
-            textbutton _("Б.Сохр") action QuickSave()
+            textbutton _("Б.Сохр") action QuickSaveX()
             textbutton _("Б.Загр") action QuickLoad()
             textbutton _("Опции") action ShowMenu('preferences')
 

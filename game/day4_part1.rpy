@@ -80,30 +80,26 @@ label day4_intro:
 
     hide perlin with dissolve
 
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway03()")
+
+    $ last_playing_music = "playRunaway12()"
+
     "И бесконечная пустота..." with dissolve
 
     $ renpy.pause(1.0)
-
-    jump day4_morning
-
-
-
-label day4_morning:
 
     scene imran_house_bedroom with dissolve
 
     $ savegame_picture = "savegame_imran_house_bedroom"
 
-    $ last_playing_music = "playRunaway12()"
-
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway12()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway03()")
     else:
         play music "music/Runaway_12 (Loop).ogg" # fadein 3.0
 
@@ -892,25 +888,27 @@ label day4_parents_intro:
 
     aliya "Нам пора идти вниз." with dissolve
 
-    me "Хорошо, пошли." with dissolve
-
-    scene black with dissolve
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway12()")
 
     $ last_playing_music = "playRunaway13()"
+
+    me "Хорошо, пошли." with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway13()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway12()")
     else:
 
         play music "music/Runaway_13 (Loop).ogg" # fadein 3.0
 
         queue music "music/Runaway_13 (Loop).ogg"
+
+    scene black with dissolve
 
     "Мы спустились по лестнице вниз на первый этаж." with dissolve
 

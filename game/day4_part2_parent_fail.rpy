@@ -154,25 +154,20 @@ label day4_parents_part6_parent_persuade_fail:
 
     scene black with dissolve
 
-    "Я медленно пошёл по направлению к автобусной остановке..." with dissolve
-
-    jump day4_the_end_part1_option1_bus
-
-
-
-label day4_the_end_part1_option1_bus:
-
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway13()")
 
     $ last_playing_music = "playRunaway01()"
+
+    "Я медленно пошёл по направлению к автобусной остановке..." with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway13()")
     else:
 
         play music "music/Runaway_01 (Loop).ogg" # fadein 3.0

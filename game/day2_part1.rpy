@@ -4,25 +4,17 @@ label day2_intro:
     #if isMobileWeb:
     #    $ renpy.free_memory()
 
-    $ last_playing_music = "playRunaway08()"
+    scene semen_room_day with dissolve
+
+    $ savegame_picture = "savegame_semen_room_day"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway08()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway01()")
-
-
     else:
         play music "music/Runaway_08 (Loop).ogg" # fadein 3.0
         queue music "music/Runaway_08 (Loop).ogg"
-
-    scene semen_room_day with dissolve
-
-    $ savegame_picture = "savegame_semen_room_day"
 
     "Наступил новый день."
 
@@ -919,23 +911,25 @@ label day2_do_own_business:
 
     show black zorder 20 with dissolve
 
-    "Я настолько увлёкся работой, что не заметил как быстро пролетело время..." with dissolve
-
     jump day2_evening
 
 
 label day2_evening:
 
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway08()")
+
     $ last_playing_music = "playRunaway01()"
+
+    "Я настолько увлёкся работой, что не заметил как быстро пролетело время..." with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway08()")
     else:
 
         play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
@@ -967,6 +961,14 @@ label day2_evening:
 
     show semen_room_table_night_foreground_phone_day2_aliya as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway01()")
+
+    $ last_playing_music = "playRunaway03()"
+
     messenger "Новое сообщение" with dissolve # with hpunch
 
     hide cg_screen_new_message_aliya
@@ -977,17 +979,10 @@ label day2_evening:
 
     $ showMessengerWithRightOrder()
 
-
-    $ last_playing_music = "playRunaway03()"
-
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway03()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway01()")
     else:
 
         play music "music/Runaway_03 (Loop).ogg" # fadein 3.0

@@ -307,21 +307,23 @@ label day2_car_end:
 
     "Чтобы вот так сорваться в Москву минимум на несколько недель, бросив работу, дом, привычный образ жизни?" with dissolve
 
+    $ last_playing_music = "playRunaway01()"
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway04()")
+
     "Наверное, нет. Для этого нужно быть фрилансером... или безработным... и, конечно, немного отчаянным романтиком в душе." with dissolve
 
     scene black with dissolve
 
     $ savegame_picture = "savegame_black"
 
-    $ last_playing_music = "playRunaway01()"
-
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("playRunaway04()")
     else:
 
 
@@ -367,24 +369,34 @@ label day2_car_end:
 
     "Может быть, для Алии было бы лучше остаться дома?" with dissolve
 
-    "Я не знаю." with dissolve
-
-    "Но я решил для себя, если она хочет сбежать - я помогу ей в этом." with dissolve
-
     $ last_playing_music = ""
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway01()")
+
+    "Я не знаю." with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("stopAllMusic()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway01()")
     else:
         stop music # fadeout 2.0
 
+    "Но я решил для себя, если она хочет сбежать - я помогу ей в этом." with dissolve
+
     hide night_dream_scene with dissolve
+
+    $ last_playing_music = "play_airplane_1ambience_before_landing_loop()"
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ emscripten.run_script("stopAllMusic()")
+    else:
+        play music "ambience/airplane_1ambience_before_landing_loop.ogg" # fadein 1.0 # fadeout 1.0
 
     "И в этом я абсолютно уверен..." with dissolve
 

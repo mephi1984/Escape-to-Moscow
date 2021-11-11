@@ -45,20 +45,22 @@ label day3_and_day4_final_loose:
 
     $ addSentMessage(0)
 
+    $ last_playing_music = "playRunaway16()"
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway01()")
+
     me "Пока." with dissolve
 
     $ clearDisplayMessages()
-
-    $ last_playing_music = "playRunaway16()"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway16()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway01()")
     else:
 
         play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
@@ -150,7 +152,19 @@ label day3_and_day4_final_loose:
 
     hide perlin with dissolve
 
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway16()")
+
+    $ last_playing_music = ""
+
     "Я всё равно больше не смогу жить как раньше..." with dissolve
+
+    if renpy.emscripten:
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
 
     jump teaser_start
 

@@ -41,18 +41,20 @@ label day2_cancel:
 
     "Вслед за аватаркой пропали все сообщения." with dissolve
 
-    "\"Миса Амане - был(а) в сети давно\"." with dissolve
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway03()")
 
     $ last_playing_music = "playRunaway01()"
+
+    "\"Миса Амане - был(а) в сети давно\"." with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway03()")
     else:
 
         play music "music/Runaway_01 (Main).ogg"  # fadein 1.0

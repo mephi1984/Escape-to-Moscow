@@ -1,24 +1,26 @@
 label day4_imran_house_new_escape_succeed:
 
+    scene black with dissolve
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway13()")
+
     $ last_playing_music = "playRunaway14()"
+
+    "Я ждал, что мне ответит Алия..." with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway14()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway13()")
     else:
 
         play music "music/Runaway_14 (Loop).ogg" # fadein 3.0
 
         queue music "music/Runaway_14 (Loop).ogg"
-
-    scene black with dissolve
-
-    "Я ждал, что мне ответит Алия..." with dissolve
 
     scene imran_house_doorway with dissolve
 
@@ -403,18 +405,20 @@ label airport_scene1:
     show aliya_airport after_security2 as Aliya with dissolve:
         zoom SCALE
 
-    "Алия вышла из рамок, огляделась и, увидев меня," with dissolve
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway14()")
 
     $ last_playing_music = "playRunaway15()"
+
+    "Алия вышла из рамок, огляделась и, увидев меня," with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway15()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway14()")
     else:
 
         play music "music/Runaway_15 (Loop).ogg" # fadein 3.0

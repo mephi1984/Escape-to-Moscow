@@ -2,17 +2,22 @@ label day2_escape_now_fail:
 
     hide black with dissolve
 
-
     $ last_playing_music = "playRunaway16()"
+
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("playRunaway03()")
+
+    me "Ну ладно, давай скидывай паспортные данные." with dissolve
+
+    $ addReceivedMessage(2)
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway16()")
-        else:
-            $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway03()")
     else:
 
         play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
@@ -21,9 +26,6 @@ label day2_escape_now_fail:
 
     $ addSentMessage(3)
 
-    me "Ну ладно, давай скидывай паспортные данные." with dissolve
-
-    $ addReceivedMessage(2)
 
     aliya_mobile "Нет, не стоит." with dissolve
 

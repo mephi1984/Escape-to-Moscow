@@ -37,7 +37,11 @@ label teaser_start:
 
     #jump trailer_continue3
 
-    play sound "sound/teaser/546621__jose-danielms__cinematic-drum-sub.ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_sound_teaser_drum()")
+    else:
+        play sound "sound/teaser/546621__jose-danielms__cinematic-drum-sub.ogg"
 
     #show branch1_cutscene_city with dissolve:
     #    xalign 0.5
@@ -58,7 +62,11 @@ label teaser_start:
 
     #$ renpy.pause(0.5)
 
-    play sound "sound/teaser/546621__jose-danielms__cinematic-drum-sub.ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_sound_teaser_drum()")
+    else:
+        play sound "sound/teaser/546621__jose-danielms__cinematic-drum-sub.ogg"
 
     show semen_room_night_empty:
         alpha 0.0
@@ -78,7 +86,11 @@ label teaser_start:
 
     $ renpy.pause(3.0)
 
-    play sound "sound/teaser/555154__nomerodin1__vibrating-message.ogg"
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("play_sound_teaser_vibro()")
+    else:
+        play sound "sound/teaser/555154__nomerodin1__vibrating-message.ogg"
 
     ##play music "audio/nickelback - trying not to love you.ogg"
 
@@ -108,7 +120,12 @@ label teaser_start:
     $ renpy.pause(1.5)
 
     ##play music "audio/nickelback - trying not to love you inst.ogg"
-    play music "music/Runaway_11 (Loop).ogg" # fadein 1.5
+    if renpy.emscripten:
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway11()")
+    else:
+        play music "music/Runaway_11 (Loop).ogg" # fadein 1.5
 
     #show cg_messenger_cover_above_room at cg_messenger_cover_above_room_pos zorder 20
 
@@ -451,8 +468,14 @@ label after_branch1_cutscene:
     #return
     scene black with dissolve
 
-    play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
+    if renpy.emscripten:
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("playRunaway16()")
+    else:
 
-    queue music "music/Runaway_16 (Loop).ogg"
+        play music "music/Runaway_16 (Loop).ogg" # fadein 3.0
+
+        queue music "music/Runaway_16 (Loop).ogg"
 
     jump credits
