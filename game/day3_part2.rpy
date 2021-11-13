@@ -6,10 +6,15 @@ label day3_metro:
 
     $ savegame_picture = "savegame_underground"
 
+    $ music_stage_preload = "music_metro_Runaway09"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("play_ambience_metro_station()")
+            $ emscripten.run_script("music_stage_preload = \"music_metro_Runaway09\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "ambience/metro_station.ogg" # fadein 1.0 # fadeout 1.0

@@ -263,7 +263,7 @@ label day3_meet_aliya:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway05_Runaway06\"")
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway05)")
             #$ emscripten.run_script("stopAllMusic()")
@@ -271,9 +271,9 @@ label day3_meet_aliya:
 
     $ last_playing_music = "playCrossFadeRunaway06"
 
-    $ music_stage_preload = "music_Runaway06_Runaway16"
-
     me "Алия!.." with dissolve
+
+    $ music_stage_preload = "music_Runaway06_Runaway16"
 
     #$ renpy.start_predict("images/sprites/Aliya/Pose1/*.*")
     #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
@@ -285,8 +285,8 @@ label day3_meet_aliya:
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
             $ emscripten.run_script("playCrossFadeRunaway06()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway06_Runaway16\"")
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
@@ -601,18 +601,18 @@ label day3_meet_aliya_success:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway06_Runaway16\"")
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracks()")
 
-    $ music_stage_preload = "music_Runaway06_airplane2"
-
     me "Хорошо. Когда мы приедем в Москву, мы поищем тебе коврик и платье." with dissolve
+
+    $ music_stage_preload = "music_Runaway06_airplane2"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway06_airplane2\"")
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracksAsync()")
 
@@ -1245,26 +1245,23 @@ label day3_airport_inner:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway06_airplane2\"")
             $ emscripten.run_script("clearAllMusicExceptPreload()")
-            $ emscripten.run_script("PreloadRequiredTracks()")
-            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic)")
 
     $ last_playing_music = "play_airplane_1ambience_before_landing_loop()"
-
-    $ music_stage_preload = "music_airplane2_Runaway07"
 
     "Мы поднялись на борт, заняли свои места и самолёт отправился в Москву..." with dissolve
 
     $ renpy.pause(1.0)
 
-
+    $ music_stage_preload = "music_airplane2_Runaway07"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
-            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("music_stage_preload = \"music_airplane2_Runaway07\"")
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
@@ -1296,19 +1293,25 @@ label day3_airport_inner:
 
     #‭6998 / 1920 = 3.6447916666666666666666666666667‬  ~ 3.64479167
 
-    show cg_airplane_window1 as airplane_window_left at cg_airplane_window_pos_start zorder 1:
-        xpos 0.0
-        linear 365.0 xpos -3.64479167
-        repeat
+    if isMobileWeb:
+        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
 
-    show cg_airplane_window1 as airplane_window_right at cg_airplane_window_pos_start zorder 1:
-        xpos 3.64479167
-        linear 365.0 xpos 0.0
-        repeat
+    else:
+
+        show cg_airplane_window1 as airplane_window_left at cg_airplane_window_pos_start zorder 1:
+            xpos 0.0
+            linear 365.0 xpos -3.64479167
+            repeat
+
+        show cg_airplane_window1 as airplane_window_right at cg_airplane_window_pos_start zorder 1:
+            xpos 3.64479167
+            linear 365.0 xpos 0.0
+            repeat
 
 
-    show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
-        zoom 1.02
+        show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
 
     show aliya_sit_side no_emotion_layer special_airplane_window as Aliya at any_center_pos zorder 3:
         zoom SCALE
@@ -1668,8 +1671,13 @@ label day3_airplane2_part2:
 
     $ renpy.pause(1.0)
 
-    show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
-        zoom 1.02
+    if isMobileWeb:
+        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
+    else:
+
+        show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
 
     show aliya_sit_side no_emotion_layer special_airplane_watching_book_smile as Aliya zorder 3 at any_center_pos:
         zoom SCALE
@@ -1716,8 +1724,13 @@ label day3_airplane2_part2:
 
     "Надо будет напомнить себе, вечером купить ей что-нибудь поесть." with dissolve
 
-    show airplane_day_side_table as airplane_scene at airplane_scene_pos zorder 2:
-        zoom 1.02
+    if isMobileWeb:
+        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
+    else:
+
+        show airplane_day_side_table as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
 
     "Я открыл откидные столики." with dissolve
 
@@ -1760,8 +1773,13 @@ label day3_airplane2_part2:
 
     show black zorder 10 with dissolve
 
-    show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
-        zoom 1.02
+    if isMobileWeb:
+        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
+    else:
+
+        show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
 
     show aliya_sit_side no_emotion_layer special_airplane_watching_book_neutral as Aliya at any_center_pos zorder 3:
         zoom SCALE
@@ -1827,15 +1845,17 @@ label day3_airplane3:
         zoom SCALE
 
 
-    show cg_airplane_window1 as airplane_window_left at cg_airplane_window_pos_start zorder 1:
-        xpos 0.0
-        linear 365.0 xpos -3.64479167
-        repeat
+    if not isMobileWeb:
 
-    show cg_airplane_window1 as airplane_window_right at cg_airplane_window_pos_start zorder 1:
-        xpos 3.64479167
-        linear 365.0 xpos 0.0
-        repeat
+        show cg_airplane_window1 as airplane_window_left at cg_airplane_window_pos_start zorder 1:
+            xpos 0.0
+            linear 365.0 xpos -3.64479167
+            repeat
+
+        show cg_airplane_window1 as airplane_window_right at cg_airplane_window_pos_start zorder 1:
+            xpos 3.64479167
+            linear 365.0 xpos 0.0
+            repeat
 
     hide black with dissolve
 
@@ -1891,6 +1911,9 @@ label day3_airplane3:
         zoom SCALE
 
 
+
+
+
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
@@ -1922,45 +1945,54 @@ label day3_airplane3:
     #8638 / 1920 = 4.4989583333333333333333333333333‬  ~ 4.49896
 
 
-    show cg_airplane_window2 as airplane_window2_left_top zorder 0:
-        xpos 0.0
-        ypos 0.07
-        linear 450.0*0.5 xpos -4.49896 ypos (-1.85 + 0.07)
-        repeat
+    if isMobileWeb:
+        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
 
-    show cg_airplane_window2 as airplane_window2_right_top zorder 0:
-        xpos 4.49896
-        ypos 0.07
-        linear 450.0*0.5 xpos 0.0 ypos (-1.85 + 0.07)
-        repeat
+        show aliya_sit_side no_emotion_layer special_airplane_window_earphones as Aliya at any_center_pos zorder 3 with dissolve:
+            zoom SCALE
+    else:
+        show cg_airplane_window2 as airplane_window2_left_top zorder 0:
+            xpos 0.0
+            ypos 0.07
+            linear 450.0*0.5 xpos -4.49896 ypos (-1.85 + 0.07)
+            repeat
 
-    show cg_airplane_window2 as airplane_window2_left_bottom zorder 0:
-        xpos 0.0
-        ypos (1.85 + 0.07)
-        linear 450.0*0.5 xpos -4.49896 ypos 0.07
-        repeat
+        show cg_airplane_window2 as airplane_window2_right_top zorder 0:
+            xpos 4.49896
+            ypos 0.07
+            linear 450.0*0.5 xpos 0.0 ypos (-1.85 + 0.07)
+            repeat
 
-    show cg_airplane_window2 as airplane_window2_right_bottom zorder 0:
-        xpos 4.49896
-        ypos (1.85 + 0.07)
-        linear 450.0*0.5 xpos 0.0 ypos 0.07
-        repeat
+        show cg_airplane_window2 as airplane_window2_left_bottom zorder 0:
+            xpos 0.0
+            ypos (1.85 + 0.07)
+            linear 450.0*0.5 xpos -4.49896 ypos 0.07
+            repeat
 
-    show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
-        zoom 1.02
-        ypos 0.5
-        linear 0.2 ypos 0.51
-        easeout 2.0 ypos 0.5
+        show cg_airplane_window2 as airplane_window2_right_bottom zorder 0:
+            xpos 4.49896
+            ypos (1.85 + 0.07)
+            linear 450.0*0.5 xpos 0.0 ypos 0.07
+            repeat
 
-    show aliya_sit_side no_emotion_layer special_airplane_window_earphones as Aliya at any_center_pos zorder 3 with dissolve:
-        zoom SCALE
-        ypos 1.0
-        linear 0.2 ypos 1.01
-        easeout 2.0 ypos 1.0
+        show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
+            ypos 0.5
+            linear 0.2 ypos 0.51
+            easeout 2.0 ypos 0.5
 
-    hide airplane_window_left with dissolve
+        show aliya_sit_side no_emotion_layer special_airplane_window_earphones as Aliya at any_center_pos zorder 3 with dissolve:
+            zoom SCALE
+            ypos 1.0
+            linear 0.2 ypos 1.01
+            easeout 2.0 ypos 1.0
 
-    hide airplane_window_right with dissolve
+    if not isMobileWeb:
+
+        hide airplane_window_left with dissolve
+
+        hide airplane_window_right with dissolve
 
     "Самолёт слегка дёрнулся и начал идти на снижение." with dissolve
 
@@ -2047,34 +2079,37 @@ label day3_airplane3:
     # y 0.74074
 
 
+    if isMobileWeb:
+        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
+            zoom 1.02
+    else:
+        show cg_airplane_window3 as airplane_window_left at cg_airplane_window_pos_start3 zorder 1:
+            parallel:
+                xpos 0.0
+                linear 45.0 xpos -2.271875
+            parallel:
+                ypos 0.12
+                easein 5.5 ypos -0.04
 
-    show cg_airplane_window3 as airplane_window_left at cg_airplane_window_pos_start3 zorder 1:
-        parallel:
-            xpos 0.0
-            linear 45.0 xpos -2.271875
-        parallel:
-            ypos 0.12
-            easein 5.5 ypos -0.04
+            block:
+                xpos 0.0
+                ypos -0.04
+                linear 45.0 xpos -2.271875
+                repeat
 
-        block:
-            xpos 0.0
+        show cg_airplane_window3 as airplane_window_right at cg_airplane_window_pos_start3 zorder 1:
+            xpos 2.271875
             ypos -0.04
-            linear 45.0 xpos -2.271875
+            linear 45.0 xpos 0.0
             repeat
 
-    show cg_airplane_window3 as airplane_window_right at cg_airplane_window_pos_start3 zorder 1:
-        xpos 2.271875
-        ypos -0.04
-        linear 45.0 xpos 0.0
-        repeat
+        hide airplane_window2_right_top
 
-    hide airplane_window2_right_top
+        hide airplane_window2_right_bottom
 
-    hide airplane_window2_right_bottom
+        hide airplane_window2_left_top
 
-    hide airplane_window2_left_top
-
-    hide airplane_window2_left_bottom
+        hide airplane_window2_left_bottom
 
     "И вот, наконец, внизу под крылом показалась широкое полотно взлётно-посадочной полосы." with dissolve
 
@@ -2109,23 +2144,29 @@ label day3_airplane3:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway07()")
-            $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop()")
+            $ emscripten.run_script("music_stage_preload = \"music_airplane2_Runaway07\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway07, play_audio_ambience_airplane_3after_landing_loop)")
+            #$ emscripten.run_script("stopAllMusic()")
+            ##$ emscripten.run_script("playRunaway07()")
+            #$ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop()")
 
     $ last_playing_music = "play_audio_ambience_airplane_3after_landing_loop()"
-
-    $ music_stage_preload = "music_airplane2_Runaway08"
 
     "Мы уже медленно катились по посадочной полосе." with dissolve
 
     show aliya_sit_side no_emotion_layer special_airplane_phone as Aliya at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
+    $ music_stage_preload = "music_airplane2_Runaway08"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("stopRunaway07()")
+            $ emscripten.run_script("music_stage_preload = \"music_airplane2_Runaway08\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
         stop music_crossfade # fadeout 1.0
 
@@ -2246,12 +2287,11 @@ label day3_airplane3:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("play_audio_ambience_airplane_stopped_loop()")
+            $ emscripten.run_script("music_stage_preload = \"music_airplane2_Runaway08\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, play_audio_ambience_airplane_stopped_loop)")
 
     $ last_playing_music = "playRunaway08()"
-
-    $ music_stage_preload = "music_Runaway08_train"
 
     "Я с Алией тоже встали, забрали вещи и пошли к выходу." with dissolve
 
@@ -2263,12 +2303,15 @@ label day3_airplane3:
 
     $ savegame_picture = "savegame_domodedovo_luggage"
 
-
+    $ music_stage_preload = "music_Runaway08_train"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway08()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway08_train\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_08 (Loop).ogg" # fadein 3.0
@@ -2669,11 +2712,11 @@ label day3_aeroexpress:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway08_train\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic)")
 
     $ last_playing_music = "play_audio_ambience_train()"
-
-    $ music_stage_preload = "music_train_metro"
 
     "Алия начала смотреть в окно." with dissolve
 
@@ -2681,10 +2724,15 @@ label day3_aeroexpress:
 
     $ renpy.pause(1.0)
 
+    $ music_stage_preload = "music_train_metro"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("play_audio_ambience_train()")
+            $ emscripten.run_script("music_stage_preload = \"music_train_metro\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "ambience/440611__florianreichelt__train-ambience.ogg" # fadein 1.0 # fadeout 1.0
@@ -2941,12 +2989,12 @@ label day3_aeroexpress:
 
     $ last_playing_music = "play_ambience_metro_station()"
 
-    $ music_stage_preload = "music_metro_Runaway09"
-
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("music_stage_preload = \"music_train_metro\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic)")
 
 
     aliya "Пойдём." with dissolve

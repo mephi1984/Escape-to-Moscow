@@ -159,7 +159,7 @@ define config.window_hide_transition = Dissolve(.2)
 
 #define config.debug_image_cache = True
 #define config.image_cache_size = 10
-define config.image_cache_size_mb = 100
+define config.image_cache_size_mb = 50
 
 ## Стандартные настройки #######################################################
 
@@ -199,6 +199,14 @@ define config.save_directory = "Runaway-1558914204"
 
 define config.window_icon = "gui/window_icon.png"
 
+
+
+
+define config.autosave_on_choice = False
+
+define config.autosave_on_choice = False
+
+define config.has_autosave = False
 
 ## Настройка Дистрибутива ######################################################
 ##
