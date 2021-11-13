@@ -307,7 +307,7 @@ label day2_car_end:
 
     "Чтобы вот так сорваться в Москву минимум на несколько недель, бросив работу, дом, привычный образ жизни?" with dissolve
 
-    $ last_playing_music = "playRunaway01()"
+    $ last_playing_music = "playRunaway01"
 
     if renpy.emscripten:
         if renpy.in_rollback():
@@ -390,7 +390,7 @@ label day2_car_end:
 
     hide night_dream_scene with dissolve
 
-    $ last_playing_music = "play_airplane_1ambience_before_landing_loop()"
+    $ last_playing_music = "play_airplane_1ambience_before_landing_loop"
 
     #$ music_stage_preload = "music_airplane_sounds_Runaway05"
 

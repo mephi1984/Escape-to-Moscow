@@ -68,7 +68,7 @@ label day3_intro:
 
     "Самолёт заходит на посадку в аэропорт Минеральные Воды." with dissolve
 
-    $ last_playing_music = "play_audio_ambience_airplane_3after_landing_loop()"
+    $ last_playing_music = "play_audio_ambience_airplane_3after_landing_loop"
 
     if renpy.emscripten:
         if renpy.in_rollback():
@@ -123,7 +123,7 @@ label day3_intro:
 
     "Как раз достаточно времени. Пока самолёт остановится, высадит всех пассажиров." with dissolve
 
-    $ last_playing_music = "playRunaway05()"
+    $ last_playing_music = "playRunaway05"
 
     #$ music_stage_preload = "music_Runaway05_Runaway06"
 
@@ -1249,7 +1249,7 @@ label day3_airport_inner:
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic)")
 
-    $ last_playing_music = "play_airplane_1ambience_before_landing_loop()"
+    $ last_playing_music = "play_airplane_1ambience_before_landing_loop"
 
     "Мы поднялись на борт, заняли свои места и самолёт отправился в Москву..." with dissolve
 
@@ -1920,7 +1920,7 @@ label day3_airplane3:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
 
-    $ last_playing_music = "playRunaway07(); play_airplane_1ambience_before_landing_loop();"
+    $ last_playing_music = "playRunaway07, play_airplane_1ambience_before_landing_loop"
 
     "Алия протянула мне наушник." with dissolve
 
@@ -2122,7 +2122,7 @@ label day3_airplane3:
             $ emscripten.run_script("playRunaway07()")
             $ emscripten.run_script("play_airplane_1ambience_before_landing_loop()")
 
-    $ last_playing_music = "playRunaway07(); play_audio_ambience_airplane_3after_landing_loop();"
+    $ last_playing_music = "playRunaway07, play_audio_ambience_airplane_3after_landing_loop"
 
     "Ещё чуть-чуть и шасси коснётся земли." with dissolve
 
@@ -2151,7 +2151,7 @@ label day3_airplane3:
             ##$ emscripten.run_script("playRunaway07()")
             #$ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop()")
 
-    $ last_playing_music = "play_audio_ambience_airplane_3after_landing_loop()"
+    $ last_playing_music = "play_audio_ambience_airplane_3after_landing_loop"
 
     "Мы уже медленно катились по посадочной полосе." with dissolve
 
@@ -2267,7 +2267,7 @@ label day3_airplane3:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("play_audio_ambience_airplane_3after_landing_loop()")
 
-    $ last_playing_music = "play_audio_ambience_airplane_stopped_loop()"
+    $ last_playing_music = "play_audio_ambience_airplane_stopped_loop"
 
     "Прозвучал звук выключения индикатора \"пристегните ремни\"." with dissolve
 
@@ -2291,7 +2291,7 @@ label day3_airplane3:
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, play_audio_ambience_airplane_stopped_loop)")
 
-    $ last_playing_music = "playRunaway08()"
+    $ last_playing_music = "playRunaway08"
 
     "Я с Алией тоже встали, забрали вещи и пошли к выходу." with dissolve
 
@@ -2716,7 +2716,7 @@ label day3_aeroexpress:
             $ emscripten.run_script("clearAllMusicExceptPreload()")
             $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic)")
 
-    $ last_playing_music = "play_audio_ambience_train()"
+    $ last_playing_music = "play_audio_ambience_train"
 
     "Алия начала смотреть в окно." with dissolve
 
@@ -2987,7 +2987,7 @@ label day3_aeroexpress:
         yalign 1.0
         zoom SCALE
 
-    $ last_playing_music = "play_ambience_metro_station()"
+    $ last_playing_music = "play_ambience_metro_station"
 
     if renpy.emscripten:
         if renpy.in_rollback():

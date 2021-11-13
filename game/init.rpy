@@ -195,6 +195,6 @@ label start:
 
     $ music_stage_preload = "music_Runaway02"
 
-    $ last_playing_music = "playRunaway01()"
+    $ last_playing_music = "playRunaway01"
 
     jump day1_intro

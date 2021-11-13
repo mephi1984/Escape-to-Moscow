@@ -3,7 +3,23 @@ label day4_imran_house_new_escape_failed:
 
     scene black with dissolve
 
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway13_Runaway14\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway13)")
+
     "Я ждал, что мне ответит Алия..." with dissolve
+
+    $ music_stage_preload = "music_Runaway13_Runaway16"
+
+    if renpy.emscripten:
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway13_Runaway16\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
 
     scene imran_house_doorway with dissolve
 
@@ -163,9 +179,7 @@ label day4_imran_house_new_escape_failed:
 
     scene black with dissolve
 
-    $ last_playing_music = "playRunaway01()"
-
-    $ music_stage_preload = "music_Runaway13_Runaway16"
+    $ last_playing_music = "playRunaway01"
 
     if renpy.emscripten:
         if renpy.in_rollback():

@@ -15,31 +15,38 @@ label day4_end_success:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway15()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway15_airplane3\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway15)")
 
-    $ last_playing_music = "play_ambience_kazakhstan_airplane_before_takeoff_ambience()"
-
-    $ music_stage_preload = "music_airplane3_Runaway07"
+    $ last_playing_music = "play_ambience_kazakhstan_airplane_before_takeoff_ambience"
 
     "И вот наконец мы в самолете..." with dissolve
 
     show black zorder 10
 
+    $ music_stage_preload = "music_airplane3_Runaway07"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("play_ambience_kazakhstan_airplane_before_takeoff_ambience()")
+            $ emscripten.run_script("music_stage_preload = \"music_airplane3_Runaway07\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "ambience/kazakhstan_airplane_before_takeoff_ambience.ogg" # fadein 1.0
 
-    show airplane_day_side as airplane_scene
+    if isMobileWeb:
+        show airplane_day_side2 as airplane_scene
+    else:
+        show airplane_day_side as airplane_scene
 
     $ savegame_picture = "savegame_airplane_day_side"
 
-    show cg_airplane_window4 as airplane_window
+    if not isMobileWeb:
+        show cg_airplane_window4 as airplane_window
 
     hide black with dissolve
 
@@ -160,7 +167,7 @@ label day4_end_success:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("play_ambience_kazakhstan_airplane_before_takeoff_ambience()")
 
-    $ last_playing_music = "play_ambience_kazakhstan_after_takeoff_ambience()"
+    $ last_playing_music = "play_ambience_kazakhstan_after_takeoff_ambience"
 
     announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в горизонтальное положение, уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
 
@@ -245,7 +252,7 @@ label day4_end_success:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("play_ambience_kazakhstan_after_takeoff_ambience()")
 
-    $ last_playing_music = "play_ambience_kazakhstan_after_takeoff_ambience(); playRunaway07();"
+    $ last_playing_music = "play_ambience_kazakhstan_after_takeoff_ambience, playRunaway07"
 
     "Я включил музыку и отдал один наушник Алие." with dissolve
 
@@ -270,7 +277,7 @@ label day4_end_success:
             $ emscripten.run_script("play_ambience_kazakhstan_after_takeoff_ambience()")
             $ emscripten.run_script("playRunaway07()")
 
-    $ last_playing_music = "playRunaway07()"
+    $ last_playing_music = "playRunaway07"
 
     "Я откинулся на кресло и закрыл глаза." with dissolve
 

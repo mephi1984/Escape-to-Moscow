@@ -22,7 +22,23 @@ label day4_parents_part6_parent_persuade_fail:
         alpha 0.0
         linear 0.5 alpha 1.0
 
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway13_Runaway14\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway13)")
+
     fatima "Нет, Семён, не нужно беспокоиться." with dissolve
+
+    $ music_stage_preload = "music_Runaway13_Runaway16"
+
+    if renpy.emscripten:
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway13_Runaway16\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
 
     show fatima neutral at imran_house_pos4 with dissolve:
         zoom 1.0
@@ -160,9 +176,7 @@ label day4_parents_part6_parent_persuade_fail:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("playRunaway13()")
 
-    $ last_playing_music = "playRunaway01()"
-
-    $ music_stage_preload = "music_Runaway13_Runaway16"
+    $ last_playing_music = "playRunaway01"
 
     "Я медленно пошёл по направлению к автобусной остановке..." with dissolve
 

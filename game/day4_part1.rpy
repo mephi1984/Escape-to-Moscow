@@ -83,12 +83,13 @@ label day4_intro:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway03()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway03_Runaway12\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway03)")
 
-    $ last_playing_music = "playRunaway12()"
+    $ last_playing_music = "playRunaway12"
 
-    $ music_stage_preload = "music_Runaway12_Runaway13"
+
 
     "И бесконечная пустота..." with dissolve
 
@@ -98,10 +99,15 @@ label day4_intro:
 
     $ savegame_picture = "savegame_imran_house_bedroom"
 
+    $ music_stage_preload = "music_Runaway12_Runaway13"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway12()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway12_Runaway13\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
         play music "music/Runaway_12 (Loop).ogg" # fadein 3.0
 
@@ -893,19 +899,23 @@ label day4_parents_intro:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway12()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway12_Runaway13\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway12)")
 
-    $ last_playing_music = "playRunaway13()"
-
-    $ music_stage_preload = "music_Runaway13_Runaway14"
+    $ last_playing_music = "playRunaway13"
 
     me "Хорошо, пошли." with dissolve
+
+    $ music_stage_preload = "music_Runaway13_Runaway14"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway13()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway13_Runaway14\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_13 (Loop).ogg" # fadein 3.0

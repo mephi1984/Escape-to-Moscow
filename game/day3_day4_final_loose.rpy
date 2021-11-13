@@ -45,24 +45,28 @@ label day3_and_day4_final_loose:
 
     $ addSentMessage(0)
 
-    $ last_playing_music = "playRunaway16()"
-
-    $ music_stage_preload = "music_Runaway16_Runaway11"
+    $ last_playing_music = "playRunaway16"
 
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway01()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway13_Runaway16\"") # or music_Runaway03_Runaway16, whatever
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway01)")
 
     me "Пока." with dissolve
 
     $ clearDisplayMessages()
 
+    $ music_stage_preload = "music_Runaway16_Runaway11"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway16()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway16_Runaway11\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_16 (Loop).ogg" # fadein 3.0

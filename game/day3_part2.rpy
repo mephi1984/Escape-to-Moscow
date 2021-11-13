@@ -96,7 +96,7 @@ label day3_metro:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("play_ambience_metro_station()")
 
-    $ last_playing_music = "play_ambience_metro_loop_before_train_depart()"
+    $ last_playing_music = "play_ambience_metro_loop_before_train_depart"
 
     "Затем прошли через турникеты и спустились в метро..." with dissolve
 
@@ -130,7 +130,7 @@ label day3_metro:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("play_ambience_metro_loop_before_train_depart()")
 
-    $ last_playing_music = "play_ambience_metro_train_loop()"
+    $ last_playing_music = "play_ambience_metro_train_loop"
 
     aliya "Ладно." with dissolve
 
@@ -202,7 +202,7 @@ label day3_metro:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("play_ambience_metro_train_loop()")
 
-    $ last_playing_music = "play_ambience_metro_loop_after_arrival()"
+    $ last_playing_music = "play_ambience_metro_loop_after_arrival"
 
     "Поезд довольно быстро приехал на нужную нам станцию." with dissolve
 
@@ -229,22 +229,26 @@ label day3_metro:
 
     aliya "Пойдём." with dissolve
 
-    $ last_playing_music = "playRunaway09()"
-
-    $ music_stage_preload = "music_Runaway09_Runaway10"
+    $ last_playing_music = "playRunaway09"
 
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("play_ambience_metro_loop_after_arrival()")
+            $ emscripten.run_script("music_stage_preload = \"music_metro_Runaway09\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, play_ambience_metro_loop_after_arrival)")
 
     "Двери открылись и мы вышли наружу." with dissolve
+
+    $ music_stage_preload = "music_Runaway09_Runaway10"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway09()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway09_Runaway10\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_09 (Loop).ogg" # fadein 3.0
@@ -972,12 +976,11 @@ label day3_basmannaya_outside:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway09()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway09_Runaway10\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway09)")
 
-    $ last_playing_music = "playRunaway10()"
-
-    $ music_stage_preload = "music_Runaway10_Runaway11"
+    $ last_playing_music = "playRunaway10"
 
     "Мы вышли из салона связи на улицу." with dissolve
 
@@ -989,10 +992,15 @@ label day3_basmannaya_outside:
 
     $ savegame_picture = "savegame_baymanskaya"
 
+    $ music_stage_preload = "music_Runaway10_Runaway11"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway10()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway10_Runaway11\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         stop music # fadeout 1.0
@@ -1803,19 +1811,23 @@ label day3_basmannaya_apartment_accept:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway10()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway10_Runaway11\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway10)")
 
-    $ last_playing_music = "playRunaway11()"
-
-    $ music_stage_preload = "music_Runaway11_Runaway03"
+    $ last_playing_music = "playRunaway11"
 
     "Я прекратил разговор и посмотрел на Алию." with dissolve
+
+    $ music_stage_preload = "music_Runaway11_Runaway03"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway11()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway11_Runaway03\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         stop music # fadeout 1.0
@@ -1896,22 +1908,29 @@ label day3_basmannaya_apartment_decline:
     show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
+
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway10()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway10_Runaway11\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway10)")
 
-    $ last_playing_music = "playRunaway11()"
+    $ last_playing_music = "playRunaway11"
 
-    $ music_stage_preload = "music_Runaway11_Runaway03"
+
 
     aliya "Ладно." with dissolve
+
+    $ music_stage_preload = "music_Runaway11_Runaway03"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway11()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway11_Runaway03\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         stop music # fadeout 1.0
@@ -2220,19 +2239,23 @@ label day3_basmannaya_shaurma:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway11()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway11_Runaway03\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway11)")
 
-    $ last_playing_music = "playRunaway03()"
-
-    $ music_stage_preload = "music_Runaway03_Runaway12"
+    $ last_playing_music = "playRunaway03"
 
     "И мы пошли назад к съёмной квартире..." with dissolve
+
+    $ music_stage_preload = "music_Runaway03_Runaway12"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway03()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway03_Runaway12\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_03 (Loop).ogg" # fadein 3.0
@@ -2784,21 +2807,25 @@ label day3_basmannaya_imran_decline:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway03()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway03_Runaway12\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway03)")
 
-    $ last_playing_music = "playRunaway01()"
-
-    $ music_stage_preload = "music_Runaway03_Runaway16"
+    $ last_playing_music = "playRunaway01"
 
     "Чёрный автомобиль выехал со двора, а я стоял возле подъезда и смотрел ему вслед." with dissolve
 
     scene black with dissolve
 
+    $ music_stage_preload = "music_Runaway03_Runaway16"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway03_Runaway16\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_01 (Loop).ogg" # fadein 1.0
