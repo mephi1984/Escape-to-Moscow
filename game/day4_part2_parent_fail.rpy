@@ -162,6 +162,8 @@ label day4_parents_part6_parent_persuade_fail:
 
     $ last_playing_music = "playRunaway01()"
 
+    $ music_stage_preload = "music_Runaway13_Runaway16"
+
     "Я медленно пошёл по направлению к автобусной остановке..." with dissolve
 
     if renpy.emscripten:

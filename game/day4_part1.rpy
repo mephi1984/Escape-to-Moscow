@@ -88,6 +88,8 @@ label day4_intro:
 
     $ last_playing_music = "playRunaway12()"
 
+    $ music_stage_preload = "music_Runaway12_Runaway13"
+
     "И бесконечная пустота..." with dissolve
 
     $ renpy.pause(1.0)
@@ -895,6 +897,8 @@ label day4_parents_intro:
             $ emscripten.run_script("playRunaway12()")
 
     $ last_playing_music = "playRunaway13()"
+
+    $ music_stage_preload = "music_Runaway13_Runaway14"
 
     me "Хорошо, пошли." with dissolve
 

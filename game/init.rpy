@@ -69,6 +69,7 @@ default day3_address_told = False
 
 # Hack for sberbox
 default last_playing_music = ""
+default music_stage_preload = "music_Runaway02"
 
 
 
@@ -155,6 +156,7 @@ define isMobileWeb = True
 
 
 
+
 init python:
     renpy.music.register_channel("music_crossfade","music",loop=True,tight=True)
 
@@ -170,8 +172,6 @@ label splashscreen:
 label start:
 
     # Adding empty message for each dialog, to fill the area at pos (-1) right under the mess
-
-
 
     $ var_message_queue = {'coach' : [{'special': True, 'type': 0, 'phoneType' : 0}], 'minjun' : [{'special': True, 'type': 0, 'phoneType' : 0}], 'aliya' : [{'special': True, 'type': 0, 'phoneType' : 0}], 'yarik' : [{'special': True, 'type': 0, 'phoneType' : 0}]}
 
@@ -192,6 +192,8 @@ label start:
     $ var_day3_photo_made = False
 
     $ savegame_picture = "savegame_black"
+
+    $ music_stage_preload = "music_Runaway02"
 
     $ last_playing_music = "playRunaway01()"
 

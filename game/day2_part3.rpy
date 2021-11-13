@@ -392,9 +392,13 @@ label day2_car_end:
 
     $ last_playing_music = "play_airplane_1ambience_before_landing_loop()"
 
+    #$ music_stage_preload = "music_airplane_sounds_Runaway05"
+
     if renpy.emscripten:
         if renpy.in_rollback():
-            $ emscripten.run_script("stopAllMusic()")
+            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic)")
     else:
         play music "ambience/airplane_1ambience_before_landing_loop.ogg" # fadein 1.0 # fadeout 1.0
 

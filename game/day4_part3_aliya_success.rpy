@@ -10,6 +10,8 @@ label day4_imran_house_new_escape_succeed:
 
     $ last_playing_music = "playRunaway14()"
 
+    $ music_stage_preload = "music_Runaway14_Runaway15"
+
     "Я ждал, что мне ответит Алия..." with dissolve
 
     if renpy.emscripten:
@@ -412,6 +414,8 @@ label airport_scene1:
             $ emscripten.run_script("playRunaway14()")
 
     $ last_playing_music = "playRunaway15()"
+
+    $ music_stage_preload = "music_Runaway15_airplane3"
 
     "Алия вышла из рамок, огляделась и, увидев меня," with dissolve
 

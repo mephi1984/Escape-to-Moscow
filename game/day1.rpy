@@ -8,12 +8,14 @@ label day1_intro:
     #$ renpy.start_predict("images/CG_hands/Card.png")
 
 
-    $ last_playing_music = "playRunaway01()"
+    $ last_playing_music = "playRunaway01"
 
     if renpy.emscripten:
 
         $ import emscripten
         $ emscripten.run_script("playRunaway01()")
+        $ emscripten.run_script("clearAllMusicExceptPreload()")
+        $ emscripten.run_script("PreloadRequiredTracks()")
 
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
@@ -308,7 +310,7 @@ label day1_aliya_meeting:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("playRunaway01()")
 
-    $ last_playing_music = "playRunaway02()"
+    $ last_playing_music = "playRunaway02"
 
     messenger "Новое сообщение"  with dissolve # with hpunch
 
@@ -1198,17 +1200,27 @@ label day1_over_success:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway02()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway02\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway02)")
+            #$ emscripten.run_script("stopAllMusic()")
+            #$ emscripten.run_script("playRunaway02()")
 
-    $ last_playing_music = "playRunaway01()"
+    $ last_playing_music = "playRunaway01"
+
+
 
     "Что же, время действительно позднее." with dissolve
+
+    $ music_stage_preload = "music_Runaway08"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway08\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
         play music "music/Runaway_01 (Main).ogg" # fadein 2.0
 
@@ -1251,7 +1263,7 @@ label day1_over_success:
             $ emscripten.run_script("playRunaway01()")
 
 
-    $ last_playing_music = "playRunaway08()"
+    $ last_playing_music = "playRunaway08"
 
     "С этими мыслями я погрузился в сон..." with dissolve
 
@@ -1458,7 +1470,7 @@ label day1_aliya_decline:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("playRunaway02()")
 
-    $ last_playing_music = "playRunaway01()"
+    $ last_playing_music = "playRunaway01"
 
     "\"Миса Амане - был(а) в сети давно\"." with dissolve
 

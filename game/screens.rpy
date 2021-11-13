@@ -569,11 +569,11 @@ screen main_menu():
     tag menu
 
     style_prefix "main_menu"
-
+    
     #if isMobileWeb:
-    if renpy.emscripten:
-        $ import emscripten
-        $ emscripten.run_script("playRunaway01IfNotPlaying()")
+    #if renpy.emscripten:
+        #$ import emscripten
+        #$ emscripten.run_script("playRunaway01IfNotPlaying()")
 
 
     if isMobileWeb:

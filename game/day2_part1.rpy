@@ -919,17 +919,23 @@ label day2_evening:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway08()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway08\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway08)")
 
-    $ last_playing_music = "playRunaway01()"
+    $ last_playing_music = "playRunaway01"
 
     "Я настолько увлёкся работой, что не заметил как быстро пролетело время..." with dissolve
+
+    $ music_stage_preload = "music_Runaway03"
 
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway01()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway03\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_01 (Loop).ogg" # fadein 3.0
@@ -964,10 +970,13 @@ label day2_evening:
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway01()")
+            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway01)")
 
-    $ last_playing_music = "playRunaway03()"
+    $ last_playing_music = "playRunaway03"
+
+    $ music_stage_preload = "music_Runaway03_Runaway16"
 
     messenger "Новое сообщение" with dissolve # with hpunch
 
@@ -983,6 +992,9 @@ label day2_evening:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway03()")
+            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
 
         play music "music/Runaway_03 (Loop).ogg" # fadein 3.0

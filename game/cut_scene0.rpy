@@ -9,10 +9,15 @@ label cutscene0:
 
     $ renpy.pause(1.0)
 
+    $ music_stage_preload = "music_Runaway04_airplane_sounds"
+
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
             $ emscripten.run_script("playRunaway04()")
+            $ emscripten.run_script("music_stage_preload = \"music_Runaway04_airplane_sounds\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
     else:
         play music "music/Runaway_04.ogg" # fadein 2.0 # fadeout 1.0
 

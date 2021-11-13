@@ -20,6 +20,8 @@ label day4_end_success:
 
     $ last_playing_music = "play_ambience_kazakhstan_airplane_before_takeoff_ambience()"
 
+    $ music_stage_preload = "music_airplane3_Runaway07"
+
     "И вот наконец мы в самолете..." with dissolve
 
     show black zorder 10

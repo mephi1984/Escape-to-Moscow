@@ -8,8 +8,13 @@
 - image game/images/CG_messenger_desktop/**
 - image game/images/CG_messenger_phone/**
 - image game/images/cg_screen/**
-- image game/images/sprites/Aliya/**
-- image game/**
+- image game/images/aliya_anim/**
+- image game/images/sprites/Aliya**
+#- image game/images/sprites/**
+#- image game/images/teaser/**
+#- image game/images/bkg_extra/**
+#- image game/images/slideshow/**
++ image game/**
 + music game/ambience/**
 + music game/music/**
 + music game/sound/**

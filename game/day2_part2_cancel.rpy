@@ -47,7 +47,7 @@ label day2_cancel:
             $ emscripten.run_script("stopAllMusic()")
             $ emscripten.run_script("playRunaway03()")
 
-    $ last_playing_music = "playRunaway01()"
+    $ last_playing_music = "playRunaway01"
 
     "\"Миса Амане - был(а) в сети давно\"." with dissolve
 

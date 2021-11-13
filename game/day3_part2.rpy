@@ -226,6 +226,8 @@ label day3_metro:
 
     $ last_playing_music = "playRunaway09()"
 
+    $ music_stage_preload = "music_Runaway09_Runaway10"
+
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
@@ -969,6 +971,8 @@ label day3_basmannaya_outside:
             $ emscripten.run_script("playRunaway09()")
 
     $ last_playing_music = "playRunaway10()"
+
+    $ music_stage_preload = "music_Runaway10_Runaway11"
 
     "Мы вышли из салона связи на улицу." with dissolve
 
@@ -1799,6 +1803,8 @@ label day3_basmannaya_apartment_accept:
 
     $ last_playing_music = "playRunaway11()"
 
+    $ music_stage_preload = "music_Runaway11_Runaway03"
+
     "Я прекратил разговор и посмотрел на Алию." with dissolve
 
     if renpy.emscripten:
@@ -1892,6 +1898,8 @@ label day3_basmannaya_apartment_decline:
             $ emscripten.run_script("playRunaway10()")
 
     $ last_playing_music = "playRunaway11()"
+
+    $ music_stage_preload = "music_Runaway11_Runaway03"
 
     aliya "Ладно." with dissolve
 
@@ -2211,6 +2219,8 @@ label day3_basmannaya_shaurma:
             $ emscripten.run_script("playRunaway11()")
 
     $ last_playing_music = "playRunaway03()"
+
+    $ music_stage_preload = "music_Runaway03_Runaway12"
 
     "И мы пошли назад к съёмной квартире..." with dissolve
 
@@ -2773,6 +2783,8 @@ label day3_basmannaya_imran_decline:
             $ emscripten.run_script("playRunaway03()")
 
     $ last_playing_music = "playRunaway01()"
+
+    $ music_stage_preload = "music_Runaway03_Runaway16"
 
     "Чёрный автомобиль выехал со двора, а я стоял возле подъезда и смотрел ему вслед." with dissolve
 

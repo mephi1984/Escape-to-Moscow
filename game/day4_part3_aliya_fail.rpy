@@ -165,6 +165,8 @@ label day4_imran_house_new_escape_failed:
 
     $ last_playing_music = "playRunaway01()"
 
+    $ music_stage_preload = "music_Runaway13_Runaway16"
+
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten

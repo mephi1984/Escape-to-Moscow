@@ -2,7 +2,7 @@ label day2_escape_now_fail:
 
     hide black with dissolve
 
-    $ last_playing_music = "playRunaway16()"
+    $ last_playing_music = "playRunaway16"
 
     if renpy.emscripten:
         if renpy.in_rollback():

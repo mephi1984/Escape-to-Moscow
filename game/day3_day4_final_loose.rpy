@@ -47,6 +47,8 @@ label day3_and_day4_final_loose:
 
     $ last_playing_music = "playRunaway16()"
 
+    $ music_stage_preload = "music_Runaway16_Runaway11"
+
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten

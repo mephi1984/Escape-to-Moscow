@@ -8,7 +8,23 @@ label day2_escape_now_success:
 
     $ addReceivedMessage(4)
 
+    if renpy.emscripten:
+        if renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks()")
+
+    $ music_stage_preload = "music_Runaway03_Runaway04"
+
     aliya_mobile "Эх, гореть мне в аду за то, что я делаю!" with dissolve
+
+    if renpy.emscripten:
+        if not renpy.in_rollback():
+            $ import emscripten
+            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracksAsync()")
 
     $ addReceivedMessage(3)
 
@@ -582,13 +598,16 @@ label day2_escape_now_success_coach_continue:
     $ addSentMessage(2)
 
     # The rest if cut_scene0
-    $ last_playing_music = "playRunaway04()"
+    $ last_playing_music = "playRunaway04"
+
+    $ music_stage_preload = "music_Runaway03"
 
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusic()")
-            $ emscripten.run_script("playRunaway03()")    
+            $ emscripten.run_script("music_stage_preload = \"" + music_stage_preload + "\"")
+            $ emscripten.run_script("clearAllMusicExceptPreload()")
+            $ emscripten.run_script("PreloadRequiredTracks(stopAllMusic, playRunaway03)")
 
     me "Хорошо! Выхожу..." with dissolve
 
