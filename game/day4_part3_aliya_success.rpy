@@ -82,15 +82,18 @@ label day4_imran_house_new_escape_succeed:
 
     show imran_room_drawers_tea_no_cup_far as imran_room_drawers_cup
 
-    show imran_room_hand_left_sandwich_eaten as imran_room_hand_left at imran_room_hand_pos with dissolve
+    #show imran_room_hand_left_sandwich_eaten as imran_room_hand_left at imran_room_hand_pos with dissolve
+    show left_hand hand_sandwich at imran_room_hand_pos with dissolve
 
-    show imran_room_hand_right_cup as imran_room_hand_right at imran_room_hand_pos with dissolve
+    #show imran_room_hand_right_cup as imran_room_hand_right at imran_room_hand_pos with dissolve
+    show right_hand hand_cup1 at imran_room_hand_pos with dissolve
 
     "С момента, когда я оказался в доме Имрана, в голове вертелись тревожные мысли, а на душе - смятение." with dissolve
 
     "Но после слов Алии: \"Я верю тебе\", у меня в голове прояснилось, а все тревоги растворились." with dissolve
 
-    hide imran_room_hand_left with dissolve
+    #hide imran_room_hand_left with dissolve
+    hide left_hand with dissolve
 
     "Как это удивительно, когда я живу для себя, то отношусь к себе снисходительно и расслабленно." with dissolve
 
@@ -112,11 +115,13 @@ label day4_imran_house_new_escape_succeed:
 
     "И самое удивительное —  моя новая жизнь кажется мне намного привлекательнее той, что была раньше." with dissolve
 
-    show imran_room_hand_right_cup_empty as imran_room_hand_right at imran_room_hand_pos with dissolve
+    #show imran_room_hand_right_cup_empty as imran_room_hand_right at imran_room_hand_pos with dissolve
+    show right_hand hand_cup2 at imran_room_hand_pos with dissolve
 
     "Я допил остатки чая из чашки." with dissolve
 
-    hide imran_room_hand_right with dissolve
+    #hide imran_room_hand_right with dissolve
+    hide right_hand with dissolve
 
     show imran_room_drawers_tea_cup_empty_far as imran_room_drawers_cup with dissolve
 

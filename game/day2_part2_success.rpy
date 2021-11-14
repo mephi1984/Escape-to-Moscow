@@ -389,7 +389,8 @@ label day2_escape_now_success_coach_continue:
 
     hide semen_room_table_night_foreground_card with dissolve
 
-    show semen_room_table_night_foreground_card_hands zorder 17 with dissolve
+    #show semen_room_table_night_foreground_card_hands zorder 17 with dissolve
+    show left_hand hand_card_day zorder 17 with dissolve
 
     "Кредитная карта словно поощряла меня, как волшебные печеньки из Алисы в Стране чудес - \"возьми меня\", \"потрать меня\"." with dissolve
 
@@ -397,9 +398,10 @@ label day2_escape_now_success_coach_continue:
 
     hide cg_screen_tickets_pay
 
-    hide semen_room_table_night_foreground_card_hands zorder 2 with dissolve
+    #hide semen_room_table_night_foreground_card_hands with dissolve
+    hide left_hand with dissolve
 
-    show semen_room_table_night_foreground_card with dissolve
+    show semen_room_table_night_foreground_card zorder 2 with dissolve
 
     show semen_room_table_night_foreground_phone_day2_bank as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
@@ -407,9 +409,7 @@ label day2_escape_now_success_coach_continue:
 
     show semen_room_table_night_foreground_phone as semen_room_table_night_foreground_phone zorder 1 with dissolve
 
-    hide semen_room_table_night_foreground_card_hands
 
-    show semen_room_table_night_foreground_card zorder 2
 
     "Я купил билеты себе и Алие на завтра из Минеральных Вод в Москву, а также билеты для себя в Минеральные Воды на сегодня." with dissolve
 
@@ -583,7 +583,7 @@ label day2_escape_now_success_coach_continue:
 
     #show cg_screen_phone_new_message_day2_night1 as cg_screen_phone with dissolve
 
-    show right_hand phone_night day2_msg_yarik as cg_screen_phone with dissolve
+    show right_hand phone_night day2_msg_yarik as cg_screen_phone at cg_screen_phone_pos with dissolve
 
     "Я достал телефон." with dissolve
 

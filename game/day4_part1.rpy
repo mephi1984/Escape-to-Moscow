@@ -7,9 +7,12 @@ label day4_intro:
 
     "Вокруг была темнота." with dissolve
 
-    show perlin at credits_perlin_pos zorder 2 with dissolve:
-        xpos 0.0
-        linear 120.0 xpos -2.0
+    if isMobileWeb:
+        show perlin_mobile_web as perlin with dissolve
+    else:
+        show perlin at credits_perlin_pos zorder 2 with dissolve:
+            xpos 0.0
+            linear 120.0 xpos -2.0
 
     "И не просто темнота, а словно густой туман." with dissolve
 
@@ -17,9 +20,10 @@ label day4_intro:
 
     "Перед моими глазами плыли странные образы, силуэты, тени." with dissolve
 
-    show perlin as perlin2 at credits_perlin_pos zorder 4 with dissolve:
-        xpos -1.0
-        linear 80.0 xpos -2.0
+    if not isMobileWeb:
+        show perlin as perlin2 at credits_perlin_pos zorder 4 with dissolve:
+            xpos -1.0
+            linear 80.0 xpos -2.0
 
     show Aliya_stand_straight eyes_open_cry_sad2 as Aliya at any_center_pos zorder 1 with dissolve:
         zoom 1.0
@@ -74,7 +78,8 @@ label day4_intro:
 
     "Я протянул руки вперед, но там было уже пусто." with dissolve
 
-    hide perlin2 with dissolve
+    if not isMobileWeb:
+        hide perlin2 with dissolve
 
     "Меня снова окружил бесконечный туман." with dissolve
 

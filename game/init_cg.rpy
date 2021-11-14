@@ -124,7 +124,7 @@ image semen_room_table_night_foreground_phone_day2_aliya = im.FactorScale("semen
 
 image semen_room_table_night_foreground_phone_day2_bank = im.FactorScale("semen_room_table_night_foreground_phone_day2_bank.png", SCALE)
 
-image semen_room_table_night_foreground_card_hands = im.FactorScale("CG_hands/Card.png", SCALE)
+#image semen_room_table_night_foreground_card_hands = im.FactorScale("CG_hands/Card.png", SCALE)
 
 
 image semen_room_table_day_foreground_card = im.FactorScale("semen_room_table_day_foreground_card.png", SCALE)
@@ -145,11 +145,12 @@ define airplane_scene_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.5, yanchor=
 define airplane_window_pos = Position(xpos = 0.3375, xanchor=0.0, ypos=0.119444, yanchor=0.0) # 432, 86 of 1280, 720
 
 
-image airport_semyon_gives_mask = im.FactorScale("CG_hands/semyon_mask.png", SCALE)
-image airport_semyon_gives_money = im.FactorScale("CG_hands/semyon_money.png", SCALE)
+#image airport_semyon_gives_mask = im.FactorScale("CG_hands/semyon_mask.png", SCALE)
+#image airport_semyon_gives_money = im.FactorScale("CG_hands/semyon_money.png", SCALE)
 
 
-image perlin = im.FactorScale("bkg_extra/perlin.png", SCALE)
+#image perlin = im.FactorScale("bkg_extra/perlin.png", SCALE)
+image perlin_mobile_web = im.FactorScale("perlin_mobile_web.jpg", SCALE)
 
 define cg_airplane_window_pos_start = Position(xpos = 0.0, xanchor=0.0, ypos=0.07, yanchor=0.0)
 
@@ -211,11 +212,11 @@ image imran_room_drawers_tea_cup_empty_far = im.FactorScale("day4_room_stuff/far
 image imran_room_drawers_tea_no_cup_far = im.FactorScale("day4_room_stuff/far_tea_no_cup.png", SCALE)
 
 
-image imran_room_hand_left_sandwich = im.FactorScale("day4_room_stuff/hand_sandwich.png", SCALE)
-image imran_room_hand_left_sandwich_eaten = im.FactorScale("day4_room_stuff/hand_sandwich_eaten.png", SCALE)
+#image imran_room_hand_left_sandwich = im.FactorScale("day4_room_stuff/hand_sandwich.png", SCALE)
+#image imran_room_hand_left_sandwich_eaten = im.FactorScale("day4_room_stuff/hand_sandwich_eaten.png", SCALE)
 
-image imran_room_hand_right_cup = im.FactorScale("day4_room_stuff/cup_full.png", SCALE)
-image imran_room_hand_right_cup_empty = im.FactorScale("day4_room_stuff/cup_empty.png", SCALE)
+#image imran_room_hand_right_cup = im.FactorScale("day4_room_stuff/cup_full.png", SCALE)
+#image imran_room_hand_right_cup_empty = im.FactorScale("day4_room_stuff/cup_empty.png", SCALE)
 
 
 

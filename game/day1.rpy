@@ -161,11 +161,13 @@ label day1_coach_pre_meeting:
 
     hide semen_room_table_night_foreground_card with dissolve
 
-    show semen_room_table_night_foreground_card_hands zorder 2 with dissolve
+    #show semen_room_table_night_foreground_card_hands zorder 2 with dissolve
+    show left_hand hand_card_day zorder 2 with dissolve
 
     "Вот моя новая кредитная карта." with dissolve
 
-    hide semen_room_table_night_foreground_card_hands with dissolve
+    #hide semen_room_table_night_foreground_card_hands with dissolve
+    hide left_hand with dissolve
 
     show semen_room_table_night_foreground_card zorder 2 with dissolve
 

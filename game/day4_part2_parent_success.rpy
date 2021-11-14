@@ -172,11 +172,13 @@ label day4_parents_part6_parent_persuade_success:
     #show cg_screen_phone_tickets_buy3_pay as cg_screen_phone with dissolve
     show right_hand phone_day day_tickets_buy3 as cg_screen_phone with dissolve
 
-    show cg_foreground_card_hands_day with dissolve
+    #show cg_foreground_card_hands_day with dissolve
+    show left_hand hand_card_day zorder 2 with dissolve
 
     "Я выбрал три билета из Домодедово на рейс вылетающий в 17:10 в Минеральные Воды и достал кредитную карту." with dissolve
 
-    hide cg_foreground_card_hands_day with dissolve
+    #hide cg_foreground_card_hands_day with dissolve
+    hide left_hand with dissolve
 
     #show cg_screen_phone_tickets_buy4_paid as cg_screen_phone with dissolve
     show right_hand phone_day day_tickets_buy4 as cg_screen_phone with dissolve

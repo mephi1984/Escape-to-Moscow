@@ -120,17 +120,22 @@ label day3_and_day4_final_loose:
 
     "Я чувствовал себя усталым и разбитым." with dissolve
 
-    show perlin at credits_perlin_pos zorder 2 with dissolve:
-        xpos 0.0
-        linear 120.0 xpos -2.0
+    if isMobileWeb:
+        show perlin_mobile_web as perlin with dissolve
+    else:
+        show perlin at credits_perlin_pos zorder 2 with dissolve:
+            xpos 0.0
+            linear 120.0 xpos -2.0
 
     "Я погрузился в полудрёму и меня снова окружил туман." with dissolve
 
     "Мне теперь было ещё хуже, чем до встречи с Алией." with dissolve
 
-    show perlin as perlin2 at credits_perlin_pos zorder 4 with dissolve:
-        xpos -1.0
-        linear 80.0 xpos -2.0
+    if not isMobileWeb:
+
+        show perlin as perlin2 at credits_perlin_pos zorder 4 with dissolve:
+            xpos -1.0
+            linear 80.0 xpos -2.0
 
     "Я взялся помочь и, кажется, всё испортил." with dissolve
 
@@ -151,7 +156,8 @@ label day3_and_day4_final_loose:
 
     "Увидимся ли мы снова в будущем? Без понятия." with dissolve
 
-    hide perlin2 with dissolve
+    if not isMobileWeb:
+        hide perlin2 with dissolve
 
     "Мне остаётся лишь надеяться, что с ней всё будет в порядке." with dissolve
 

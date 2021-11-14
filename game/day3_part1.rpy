@@ -359,11 +359,13 @@ label day3_meet_aliya:
 
     "Что теперь? Ах да, маски." with dissolve
 
-    show airport_semyon_gives_mask with dissolve
+    #show airport_semyon_gives_mask with dissolve
+    show right_hand hand_mask with dissolve
 
     me "Я купил тебе маски. Вот, возьми!" with dissolve
 
-    hide airport_semyon_gives_mask with dissolve
+    #hide airport_semyon_gives_mask with dissolve
+    hide right_hand with dissolve
 
     show Aliya special_jacket_pocket no_mask at any_center_pos as Aliya with dissolve:
         zoom 1.0
@@ -411,11 +413,13 @@ label day3_meet_aliya:
 
         "Я решил воспользоваться советом Напарника и дать Алие немного наличных денег." with dissolve
 
-        show airport_semyon_gives_money with dissolve
+        #show airport_semyon_gives_money with dissolve
+        show right_hand hand_money with dissolve
 
         me "Вот держи деньги. Три тысячи рублей." with dissolve
 
-        hide airport_semyon_gives_money with dissolve
+        #hide airport_semyon_gives_money with dissolve
+        hide right_hand with dissolve
 
         show Aliya special_jacket_pocket_mask at any_center_pos as Aliya with dissolve:
             zoom 1.0
@@ -2389,11 +2393,15 @@ label day3_airplane3:
 
     "Так, тут требуется вводить номер карты." with dissolve
 
-    show semen_room_table_night_foreground_card_hands zorder 2 with dissolve
+    #show semen_room_table_night_foreground_card_hands zorder 2 with dissolve
+
+    show left_hand hand_card_day zorder 2 with dissolve
 
     "Я достал свою кредитную карту-выручалочку и ввёл данные." with dissolve
 
-    hide semen_room_table_night_foreground_card_hands with dissolve
+    #hide semen_room_table_night_foreground_card_hands with dissolve
+
+    hide left_hand with dissolve
 
     #show cg_screen_phone_aeroexpress3 as cg_screen_phone with dissolve
 

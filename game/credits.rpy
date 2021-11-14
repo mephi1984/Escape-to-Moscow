@@ -18,9 +18,12 @@ label credits:
 
     show screen credits_helper
 
-    show perlin at credits_perlin_pos with dissolve:
-        xpos 0.0
-        linear 80.0 xpos -2.0
+    if isMobileWeb:
+        show perlin_mobile_web as perlin with dissolve
+    else:
+        show perlin at credits_perlin_pos with dissolve:
+            xpos 0.0
+            linear 80.0 xpos -2.0
 
     show semyon_credits at credits_semyon1_pos1 zorder 10 with dissolve:
         xpos 0.7

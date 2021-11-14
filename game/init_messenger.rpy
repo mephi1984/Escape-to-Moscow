@@ -689,9 +689,9 @@ init python:
         global var_current_dialog_order
 
         if is_night:
-            renpy.show("cg_screen_phone_night", tag="cg_screen_phone", at_list=[cg_sceen_phone_pos])
+            renpy.show("cg_screen_phone_night", tag="cg_screen_phone", at_list=[cg_screen_phone_pos])
         else:
-            renpy.show("cg_screen_phone_day", tag="cg_screen_phone", at_list=[cg_sceen_phone_pos])
+            renpy.show("cg_screen_phone_day", tag="cg_screen_phone", at_list=[cg_screen_phone_pos])
 
         if var_current_dialog_order[0] == 'coach':
             renpy.show("cg_screen_phone_messenger_top_coach", tag="cg_screen_phone_top", at_list=[cg_sceen_phone_top_pos], zorder=15)
