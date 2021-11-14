@@ -120,11 +120,13 @@ label day4_imran_house_new_escape_succeed:
 
     show imran_room_drawers_tea_cup_empty_far as imran_room_drawers_cup with dissolve
 
-    show cg_screen_phone_tickets_buy1_search as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy1_search as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy1 as cg_screen_phone with dissolve
 
     "Затем достал телефон и открыл приложение для покупки авиабилетов." with dissolve
 
-    show cg_screen_phone_tickets_buy2_select as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy2_select as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy2 as cg_screen_phone with dissolve
 
     "Родители Алии улетают в Минеральные Воды в пять часов вечера." with dissolve
 
@@ -134,7 +136,8 @@ label day4_imran_house_new_escape_succeed:
 
     "Ладно, выбора нет. Паспортные данные Алии у меня сохранены в телефоне." with dissolve
 
-    show cg_screen_phone_tickets_buy3_pay as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy3_pay as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy3 as cg_screen_phone with dissolve
 
     show cg_foreground_card_hands_day with dissolve
 
@@ -142,15 +145,18 @@ label day4_imran_house_new_escape_succeed:
 
     hide cg_foreground_card_hands_day with dissolve
 
-    show cg_screen_phone_tickets_buy4_paid as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy4_paid as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy4 as cg_screen_phone with dissolve
 
     "Платёж прошёл, на телефоне появилось уведомление. Как обычно, я смахнул его не глядя." with dissolve
 
-    show cg_screen_phone_tickets_buy5_paid_msg_gone as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy5_paid_msg_gone as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy5 as cg_screen_phone with dissolve
 
     "Страшно смотреть, сколько уже потрачено кредитных денег." with dissolve
 
-    show cg_screen_phone_new_message_day4_afternoon_imran_home as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day4_afternoon_imran_home as cg_screen_phone with dissolve
+    show right_hand phone_day day4_afternoon_imran_home as cg_screen_phone with dissolve
 
     "Я посмотрел на время. Сейчас 12:37. До вылета примерно четыре часа." with dissolve
 
@@ -540,7 +546,8 @@ label airport_scene1:
     show aliya_turn_around no_backpack eyes_open_neutral as Aliya at duty_free_aliya_pos with dissolve:
         zoom 1.0
 
-    show cg_screen_phone_time_day4_afternoon_airport_duty_free as cg_screen_phone with dissolve
+    #show cg_screen_phone_time_day4_afternoon_airport_duty_free as cg_screen_phone with dissolve
+    show right_hand phone_day day4_afternoon_airport_duty_free as cg_screen_phone with dissolve
 
     $ persistent.gallery12unlock = True
 

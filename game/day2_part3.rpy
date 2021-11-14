@@ -38,11 +38,11 @@ label day2_success_end:
 
     "В салоне играет евробит. Обычно я не фанат такой музыки, но сейчас она придавала мне уверенности." with dissolve
 
-    show cg_screen_phone_airplane_app1_night as cg_screen_phone with dissolve
+    show right_hand phone_night night_check_in1 as cg_screen_phone with dissolve
 
     "Я достал телефон и открыл приложение авиакомпании, чтобы зарегистрироваться на рейс." with dissolve
 
-    show cg_screen_phone_airplane_app2_night as cg_screen_phone with dissolve
+    show right_hand phone_night night_check_in2 as cg_screen_phone with dissolve
 
     "Я выбрал место и нажал пару галочек - регистрация завершена!" with dissolve
 
@@ -52,7 +52,9 @@ label day2_success_end:
 
     messenger "Новое сообщение"  with dissolve
 
-    show cg_screen_phone_new_message_day2_night2 as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day2_night2 as cg_screen_phone with dissolve
+
+    show right_hand phone_night day2_msg_aliya as cg_screen_phone with dissolve
 
     "Я снова достал телефон." with dissolve
 
@@ -137,7 +139,7 @@ label day2_car_coach:
 
     $ day2_night_car_coach_talked = True
 
-    show cg_screen_phone_night as cg_screen_phone with dissolve
+    show right_hand phone_night night_black_screen as cg_screen_phone with dissolve
 
     $ changeDialogToCoach()
 

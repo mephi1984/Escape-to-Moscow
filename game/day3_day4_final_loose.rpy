@@ -73,7 +73,8 @@ label day3_and_day4_final_loose:
 
         queue music "music/Runaway_16 (Loop).ogg"
 
-    show cg_screen_phone_messenger_contact_list as cg_screen_phone with dissolve
+    #show cg_screen_phone_messenger_contact_list as cg_screen_phone with dissolve
+    show right_hand phone_day day_messenger_contacts as cg_screen_phone with dissolve
 
     "Я вышел из диалога с Напарником и открыл список контактов." with dissolve
 

@@ -581,7 +581,9 @@ label day2_escape_now_success_coach_continue:
 
     messenger "Новое сообщение"
 
-    show cg_screen_phone_new_message_day2_night1 as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day2_night1 as cg_screen_phone with dissolve
+
+    show right_hand phone_night day2_msg_yarik as cg_screen_phone with dissolve
 
     "Я достал телефон." with dissolve
 

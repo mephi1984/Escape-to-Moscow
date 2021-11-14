@@ -243,7 +243,8 @@ label day4_parents_part6_parent_persuade_fail:
 
         hide cg_screen_phone_top
 
-        show cg_screen_phone_aliya_photo2 as cg_screen_phone with dissolve
+        #show cg_screen_phone_aliya_photo2 as cg_screen_phone with dissolve
+        show right_hand phone_day day_photo_aliya2 as cg_screen_phone with dissolve
 
         "Периодически я открывал и смотрел фотографию Алии в своём телефоне." with dissolve
 
@@ -267,8 +268,8 @@ label day4_parents_part6_parent_persuade_fail:
 
     messenger "Новое сообщение" with dissolve # with hpunch
 
-    show cg_screen_phone_new_message_day4_evening_athome_alone as cg_screen_phone with dissolve
-
+    #show cg_screen_phone_new_message_day4_evening_athome_alone as cg_screen_phone with dissolve
+    show right_hand phone_day day4_evening_athome_alone as cg_screen_phone with dissolve
 
     "Я дёрнулся и резко включил телефон." with dissolve
 

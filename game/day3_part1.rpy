@@ -115,7 +115,9 @@ label day3_intro:
 
     announcement "От имени авиакомпании благодарим вас за полёт и будем рады новой встрече!" with dissolve
 
-    show cg_screen_phone_time_day3_airplane_morning as cg_screen_phone with dissolve
+    #show cg_screen_phone_time_day3_airplane_morning as cg_screen_phone with dissolve
+
+    show right_hand phone_night day3_airplane_morning as cg_screen_phone with dissolve
 
     "Я проверил телефон, он был в авиарежиме. Время действительно было 9:30 утра." with dissolve
 
@@ -161,15 +163,21 @@ label day3_intro:
 
     "Было утро, но в аэропорту уже было много людей." with dissolve
 
-    show cg_screen_phone as cg_screen_phone with dissolve
+    #show cg_screen_phone as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_black_screen as cg_screen_phone with dissolve
 
     "Ой, я кажется ещё не выключил авиарежим в телефоне. Включаю сеть..." with dissolve
 
-    show cg_screen_phone_time_day3_airport_morning as cg_screen_phone with dissolve
+    #show cg_screen_phone_time_day3_airport_morning as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_airport_morning1 as cg_screen_phone with dissolve
 
     "Секундная пауза..." with dissolve
 
-    show cg_screen_phone_new_message_day3_morning_airport1 as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day3_morning_airport1 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_airport_morning2 as cg_screen_phone with dissolve
 
     messenger "Новое сообщение"  with dissolve # with hpunch
 
@@ -219,7 +227,9 @@ label day3_intro:
 
     messenger "Новое сообщение"  with dissolve
 
-    show cg_screen_phone_new_message_day3_morning_airport2 as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day3_morning_airport2 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_airport_morning3 as cg_screen_phone with dissolve
 
     "Я снова достал телефон." with dissolve
 
@@ -828,11 +838,15 @@ label day3_meet_aliya_success:
 
     me "Да, билеты у меня в телефоне. Нам нужно зарегистрироваться на рейс, распечатать посадочный талон и пройти досмотр." with dissolve
 
-    show cg_screen_phone_airplane_app1 as cg_screen_phone with dissolve
+    #show cg_screen_phone_airplane_app1 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_check_in1 as cg_screen_phone with dissolve
 
     "Я достал телефон и открыл приложение авиакомпании." with dissolve
 
-    show cg_screen_phone_airplane_app2 as cg_screen_phone with dissolve
+    #show cg_screen_phone_airplane_app2 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_check_in2 as cg_screen_phone with dissolve
 
     me "Какое место тебе выбрать, возле окна?" with dissolve
 
@@ -2191,7 +2205,9 @@ label day3_airplane3:
 
     announcement "От имени авиакомпании благодарим вас за полёт и будем рады новой встрече!" with dissolve
 
-    show cg_screen_phone_time_day3_afternoon_airplane as cg_screen_phone with dissolve
+    #show cg_screen_phone_time_day3_afternoon_airplane as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_afternoon_airplane as cg_screen_phone zorder 5 with dissolve
 
     "Я достал телефон и выключил авиарежим." with dissolve
 
@@ -2354,7 +2370,10 @@ label day3_airplane3:
 
     hide Aliya with dissolve
 
-    show cg_screen_phone_aeroexpress1 as cg_screen_phone with dissolve
+    #show cg_screen_phone_aeroexpress1 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_aeroexpress1 as cg_screen_phone with dissolve
+
 
     "Алия ушла, а я зашел в приложение Аэроэкспресса." with dissolve
 
@@ -2364,7 +2383,9 @@ label day3_airplane3:
 
     "Я просто куплю оба наши билета на свой паспорт." with dissolve
 
-    show cg_screen_phone_aeroexpress2 as cg_screen_phone with dissolve
+    #show cg_screen_phone_aeroexpress2 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_aeroexpress2 as cg_screen_phone with dissolve
 
     "Так, тут требуется вводить номер карты." with dissolve
 
@@ -2374,11 +2395,15 @@ label day3_airplane3:
 
     hide semen_room_table_night_foreground_card_hands with dissolve
 
-    show cg_screen_phone_aeroexpress3 as cg_screen_phone with dissolve
+    #show cg_screen_phone_aeroexpress3 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_aeroexpress3 as cg_screen_phone with dissolve
 
     "Пришло СМС-уведомление об успешной покупке." with dissolve
 
-    show cg_screen_phone_aeroexpress4 as cg_screen_phone with dissolve
+    #show cg_screen_phone_aeroexpress4 as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_aeroexpress4 as cg_screen_phone with dissolve
 
     "Я смахнул его в сторону не глядя. Мне уже страшно проверять баланс карты." with dissolve
 
@@ -2496,7 +2521,8 @@ label day3_aeroexpress:
 
     aliya "Хорошо." with dissolve
 
-    show cg_screen_phone_map1 as cg_screen_phone with dissolve
+    #show cg_screen_phone_map1 as cg_screen_phone with dissolve
+    show right_hand phone_day map_taganskaya1 as cg_screen_phone with dissolve
 
     "Я открыл приложение с картой и начал искать." with dissolve
 
@@ -2525,7 +2551,9 @@ label day3_aeroexpress:
         yalign 1.0
         zoom SCALE
 
-    show cg_screen_phone_metro_map as cg_screen_phone with dissolve
+    #show cg_screen_phone_metro_map as cg_screen_phone with dissolve
+
+    show right_hand phone_day map_metro as cg_screen_phone with dissolve
 
     "Я посмотрел карту метро Москвы." with dissolve
 
@@ -2593,13 +2621,18 @@ label day3_aeroexpress:
 
     aliya "Хорошо!" with dissolve
 
-    show cg_screen_phone_booking as cg_screen_phone with dissolve
+    #show cg_screen_phone_booking as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_booking as cg_screen_phone with dissolve
+
 
     "Я начал смотреть приложения для бронирования." with dissolve
 
     "В какой-то момент я понял, что совершенно не знаю, где можно арендовать жильё не показывая паспорт." with dissolve
 
-    show cg_screen_phone_booking_new_message as cg_screen_phone with dissolve
+    #show cg_screen_phone_booking_new_message as cg_screen_phone with dissolve
+
+    show right_hand phone_day day_booking_new_message as cg_screen_phone with dissolve
 
     messenger "Новое сообщение"
 

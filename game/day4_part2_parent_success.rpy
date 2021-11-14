@@ -43,7 +43,8 @@ label day4_parents_part6_parent_persuade_success:
 
     me "Хорошо, сейчас подберём Вам лучший вариант." with dissolve
 
-    show cg_screen_phone_tickets_buy1_search as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy1_search as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy1 as cg_screen_phone with dissolve
 
     "С этими словами я открыл приложение и начал просматривать рейсы." with dissolve
 
@@ -105,7 +106,8 @@ label day4_parents_part6_parent_persuade_success:
 
     "Я ввёл сегодняшнюю дату и запустил поиск." with dissolve
 
-    show cg_screen_phone_tickets_buy2_select as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy2_select as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy2 as cg_screen_phone with dissolve
 
     me "Вот, к примеру, есть два неплохих варианта: из Домодедово и из Внуково - но последний я не рекомендую." with dissolve
 
@@ -167,7 +169,8 @@ label day4_parents_part6_parent_persuade_success:
 
     "Фатима достала паспорта и дала мне для покупки." with dissolve
 
-    show cg_screen_phone_tickets_buy3_pay as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy3_pay as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy3 as cg_screen_phone with dissolve
 
     show cg_foreground_card_hands_day with dissolve
 
@@ -175,7 +178,8 @@ label day4_parents_part6_parent_persuade_success:
 
     hide cg_foreground_card_hands_day with dissolve
 
-    show cg_screen_phone_tickets_buy4_paid as cg_screen_phone with dissolve
+    #show cg_screen_phone_tickets_buy4_paid as cg_screen_phone with dissolve
+    show right_hand phone_day day_tickets_buy4 as cg_screen_phone with dissolve
 
     "Как обычно, после покупки пришло СМС-сообщение от банка с подтверждением платежа." with dissolve
 

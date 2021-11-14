@@ -164,7 +164,9 @@ label day3_metro:
 
     me "Сейчас посмотрю по карте." with dissolve
 
-    show cg_screen_phone_map2 as cg_screen_phone with dissolve
+    #show cg_screen_phone_map2 as cg_screen_phone with dissolve
+
+    show right_hand phone_day map_taganskaya2 as cg_screen_phone with dissolve
 
     "Я запустил приложение с картами и проложил маршрут." with dissolve
 
@@ -473,25 +475,31 @@ label day3_taganskaya_park_rest:
     show aliya_sit_side earphones eyes_open_smile as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
-    show cg_screen_phone_shoot1_time as cg_screen_phone with dissolve
+    #show cg_screen_phone_shoot1_time as cg_screen_phone with dissolve
+
+    show right_hand phone_day shoot1_time as cg_screen_phone with dissolve
 
     "Я достал телефон, чтобы проверить время." with dissolve
 
-    show cg_screen_phone_shoot2 as cg_screen_phone
+    #show cg_screen_phone_shoot2 as cg_screen_phone
+    show right_hand phone_day shoot2 as cg_screen_phone with dissolve
 
     "Но взглянув на Алию, я решил переключиться на камеру..." with dissolve
 
-    show cg_screen_phone_shoot2 as cg_screen_phone at any_center_pos:
+    #show cg_screen_phone_shoot2 as cg_screen_phone at any_center_pos:
+    show right_hand phone_day shoot2 as cg_screen_phone at any_center_pos:
         xpos 0.5
         linear 0.5 xpos 0.25
 
     $ var_day3_photo_made = True
 
-    show cg_screen_phone_shoot_anim as cg_screen_phone with dissolve
+    #show cg_screen_phone_shoot_anim as cg_screen_phone with dissolve
+    show right_hand phone_day cg_screen_phone_shoot_anim as cg_screen_phone with dissolve
 
     "И незаметно сфотографировал её." with dissolve
 
-    show cg_screen_phone_aliya_photo1 as cg_screen_phone with dissolve
+    #show cg_screen_phone_aliya_photo1 as cg_screen_phone with dissolve
+    show right_hand phone_day day_photo_aliya1 as cg_screen_phone with dissolve
 
     show aliya_sit_side earphones eyes_open_happy as Aliya at any_center_pos with dissolve:
         zoom SCALE
@@ -591,11 +599,15 @@ label day3_taganskaya_park_continue:
 
     show tagansky_store_fitting_room_closed as tagansky_store with dissolve
 
-    show cg_screen_phone_day3_afternoon_muslim_store as cg_screen_phone with dissolve
+    #show cg_screen_phone_day3_afternoon_muslim_store as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_muslim_store1 as cg_screen_phone with dissolve
 
     "Я не люблю участвовать в шоппинге, поэтому отошёл в сторонку, прислонился к стене и достал телефон..." with dissolve
 
-    show cg_screen_phone_day3_afternoon_muslim_store_new_message as cg_screen_phone with dissolve
+    #show cg_screen_phone_day3_afternoon_muslim_store_new_message as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_muslim_store2 as cg_screen_phone with dissolve
 
     messenger "Новое сообщение" with dissolve
 
@@ -769,7 +781,9 @@ label day3_basmannaya_outside:
 
     $ savegame_picture = "savegame_baymanskaya"
 
-    show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
+    #show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
+
+    show right_hand phone_day map_store as cg_screen_phone with dissolve
 
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
@@ -874,7 +888,9 @@ label day3_basmannaya_outside:
 
     $ savegame_picture = "savegame_baymanskaya"
 
-    show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
+    #show cg_screen_phone_map_to_cellphone_store as cg_screen_phone
+
+    show right_hand phone_day map_store as cg_screen_phone with dissolve
 
     show aliya_turn_around eyes_open_watching as Aliya at any_left_pos with dissolve:
         zoom 1.0
@@ -1014,7 +1030,9 @@ label day3_basmannaya_outside:
 
     "Выйдя из салона, мы снова оказались на Бауманской улице." with dissolve
 
-    show cg_screen_phone_map_to_apartment as cg_screen_phone
+    #show cg_screen_phone_map_to_apartment as cg_screen_phone
+
+    show right_hand phone_day map_apartment as cg_screen_phone with dissolve
 
     "Я снова открыл приложение с картами и вбил туда адрес съёмной квартиры." with dissolve
 
@@ -1351,7 +1369,9 @@ label day3_basmannaya_outside:
 
     messenger "Новое сообщение" with dissolve
 
-    show cg_screen_phone_new_message_day3_evening_before_rent_apartment as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day3_evening_before_rent_apartment as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_evening_msg_before_rent_apartment as cg_screen_phone with dissolve
 
     "Я снова достал телефон." with dissolve
 
@@ -2000,7 +2020,9 @@ label day3_basmannaya_apartment_after_talk:
 
     aliya "Хорошо." with dissolve
 
-    show cg_screen_phone_food_delivery as cg_screen_phone with dissolve
+    #show cg_screen_phone_food_delivery as cg_screen_phone with dissolve
+
+    show right_hand phone_day food_delivery as cg_screen_phone with dissolve
 
     "Я достал телефон и открыл приложение по доставке еды." with dissolve
 
@@ -2012,11 +2034,13 @@ label day3_basmannaya_apartment_after_talk:
 
     me "Думаю, будет лучше просто найти кафе рядом и сходить туда." with dissolve
 
-    show cg_screen_phone_map_shaurma1 as cg_screen_phone with dissolve
+    #show cg_screen_phone_map_shaurma1 as cg_screen_phone with dissolve
+    show right_hand phone_day map_shaurma1 as cg_screen_phone with dissolve
 
     "Я открыл карты и стал искать кафе поблизости." with dissolve
 
-    show cg_screen_phone_map_shaurma2 as cg_screen_phone with dissolve
+    #show cg_screen_phone_map_shaurma2 as cg_screen_phone with dissolve
+    show right_hand phone_day map_shaurma2 as cg_screen_phone with dissolve
 
     "Как я и ожидал, в Москве полно мест, где можно перекусить вечером." with dissolve
 
@@ -2885,7 +2909,8 @@ label day3_basmannaya_imran_decline:
 
         hide cg_screen_phone_top
 
-        show cg_screen_phone_aliya_photo2 as cg_screen_phone with dissolve
+        #show cg_screen_phone_aliya_photo2 as cg_screen_phone with dissolve
+        show right_hand phone_day day_photo_aliya2 as cg_screen_phone with dissolve
 
         "Периодически я открывал и смотрел фотографию Алии в своём телефоне." with dissolve
 
@@ -2909,7 +2934,9 @@ label day3_basmannaya_imran_decline:
 
     messenger "Новое сообщение" with dissolve # with hpunch
 
-    show cg_screen_phone_new_message_day4_evening_athome_alone as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day4_evening_athome_alone as cg_screen_phone with dissolve
+
+    show right_hand phone_day day3_evening_athome_alone as cg_screen_phone with dissolve
 
     "Я дёрнулся и резко включил телефон." with dissolve
 

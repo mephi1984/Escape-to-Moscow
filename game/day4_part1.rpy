@@ -117,7 +117,8 @@ label day4_intro:
 
     "И сразу вспомнил, где я и что я тут делаю." with dissolve
 
-    show cg_screen_phone_time_day4_morning_imran_home as cg_screen_phone with dissolve
+    #show cg_screen_phone_time_day4_morning_imran_home as cg_screen_phone with dissolve
+    show right_hand phone_day day4_morning1 as cg_screen_phone with dissolve
 
     "Сон как рукой сняло. Я достал телефон и посмотрел на часы." with dissolve
 
@@ -254,7 +255,8 @@ label day4_intro:
 
     messenger "Новое сообщение" with dissolve # with hpunch
 
-    show cg_screen_phone_new_message_day4_morning_imran_home as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day4_morning_imran_home as cg_screen_phone with dissolve
+    show right_hand phone_day day4_morning2 as cg_screen_phone with dissolve
 
     "Я отвлекся от мыслей и достал телефон." with dissolve
 
@@ -774,11 +776,13 @@ label day4_intro:
 
     "Чековая лента не очень длинная, поэтому мне нужно подумать, как уместить весь план на ней." with dissolve
 
-    show cg_screen_phone_food_notes_empty as cg_screen_phone with dissolve
+    #show cg_screen_phone_food_notes_empty as cg_screen_phone with dissolve
+    show right_hand phone_day notes1 as cg_screen_phone with dissolve
 
     "Почесав затылок, я достал телефон и начал в заметках составлять текст записки." with dissolve
 
-    show cg_screen_phone_food_notes_fill as cg_screen_phone with dissolve
+    #show cg_screen_phone_food_notes_fill as cg_screen_phone with dissolve
+    show right_hand phone_day notes2 as cg_screen_phone with dissolve
 
     "Я по-быстрому написал записку. Это было легко, хмм..." with dissolve
 
@@ -802,7 +806,8 @@ label day4_parents_intro:
 
     "Как же я давно не брал в руки ручку. У меня аж рука заболела от письма." with dissolve
 
-    show cg_screen_phone_new_message_day4_morning_after_note_imran_home as cg_screen_phone with dissolve
+    #show cg_screen_phone_new_message_day4_morning_after_note_imran_home as cg_screen_phone with dissolve
+    show right_hand phone_day day4_morning3 as cg_screen_phone with dissolve
 
     "Я проверил телефон. Время уже приближалось к 11-ти часам." with dissolve
 

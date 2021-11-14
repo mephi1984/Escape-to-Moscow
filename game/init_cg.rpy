@@ -221,85 +221,74 @@ image imran_room_hand_right_cup_empty = im.FactorScale("day4_room_stuff/cup_empt
 
 define imran_room_hand_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.75, yanchor=0.5)
 
+#image cg_screen_phone_new_message_day2_night1 = im.FactorScale("CG_hands/day2_msg_yarik.png", SCALE)
 
-image cg_screen_phone = im.FactorScale("CG_hands/Phone1.png", SCALE)
+#image cg_screen_phone_new_message_day2_night2 = im.FactorScale("CG_hands/day2_msg_aliya.png", SCALE)
 
-image cg_screen_phone_night = im.FactorScale("CG_hands/Phone1n.png", SCALE)
+#image cg_screen_phone_time_day3_airplane_morning = im.FactorScale("CG_hands/1.1.png", SCALE)
+#image cg_screen_phone_time_day3_airport_morning = im.FactorScale("CG_hands/1.2.png", SCALE)
+#image cg_screen_phone_time_day3_afternoon_airplane = im.FactorScale("CG_hands/1.3.png", SCALE) # 14:20
 
-
-image cg_screen_phone_new_message_day2_night1 = im.FactorScale("CG_hands/day2_msg_yarik.png", SCALE)
-
-image cg_screen_phone_new_message_day2_night2 = im.FactorScale("CG_hands/day2_msg_aliya.png", SCALE)
-
-image cg_screen_phone_time_day3_airplane_morning = im.FactorScale("CG_hands/1.1.png", SCALE)
-image cg_screen_phone_time_day3_airport_morning = im.FactorScale("CG_hands/1.2.png", SCALE)
-image cg_screen_phone_time_day3_afternoon_airplane = im.FactorScale("CG_hands/1.3.png", SCALE) # 14:20
-
-image cg_screen_phone_airplane_app1 = im.FactorScale("CG_hands/5.1.png", SCALE)
-image cg_screen_phone_airplane_app2 = im.FactorScale("CG_hands/5.2.png", SCALE)
+#image cg_screen_phone_airplane_app1 = im.FactorScale("CG_hands/5.1.png", SCALE)
+#image cg_screen_phone_airplane_app2 = im.FactorScale("CG_hands/5.2.png", SCALE)
 
 
-image cg_screen_phone_airplane_app1_night = im.FactorScale("CG_hands/cg_screen_phone_airplane_app1_night.png", SCALE)
-image cg_screen_phone_airplane_app2_night = im.FactorScale("CG_hands/cg_screen_phone_airplane_app2_night.png", SCALE)
+#image cg_screen_phone_airplane_app1_night = im.FactorScale("CG_hands/cg_screen_phone_airplane_app1_night.png", SCALE)
+#image cg_screen_phone_airplane_app2_night = im.FactorScale("CG_hands/cg_screen_phone_airplane_app2_night.png", SCALE)
 
 
-image cg_screen_phone_new_message_day3_morning_airport1 = im.FactorScale("CG_hands/2.2.png", SCALE)
-image cg_screen_phone_new_message_day3_morning_airport2 = im.FactorScale("CG_hands/2.3.png", SCALE)
+#image cg_screen_phone_new_message_day3_morning_airport1 = im.FactorScale("CG_hands/2.2.png", SCALE)
+#image cg_screen_phone_new_message_day3_morning_airport2 = im.FactorScale("CG_hands/2.3.png", SCALE)
 
-image cg_screen_phone_day3_afternoon_muslim_store = im.FactorScale("CG_hands/day3_muslim_store1.png", SCALE)
-image cg_screen_phone_day3_afternoon_muslim_store_new_message = im.FactorScale("CG_hands/day3_muslim_store2.png", SCALE)
+#image cg_screen_phone_day3_afternoon_muslim_store = im.FactorScale("CG_hands/day3_muslim_store1.png", SCALE)
+#image cg_screen_phone_day3_afternoon_muslim_store_new_message = im.FactorScale("CG_hands/day3_muslim_store2.png", SCALE)
 
-image cg_screen_phone_new_message_day3_evening_before_rent_apartment = im.FactorScale("CG_hands/day3_evening_msg.png", SCALE)
+#image cg_screen_phone_new_message_day3_evening_before_rent_apartment = im.FactorScale("CG_hands/day3_evening_msg.png", SCALE)
 
 
-image cg_screen_phone_new_message_day3_evening_athome_alone = im.FactorScale("CG_hands/cg_screen_phone_new_message_day3_evening_athome_alone.png", SCALE)
+#image cg_screen_phone_new_message_day3_evening_athome_alone = im.FactorScale("CG_hands/cg_screen_phone_new_message_day3_evening_athome_alone.png", SCALE)
 
-image cg_screen_phone_time_day4_morning_imran_home = im.FactorScale("CG_hands/day4_morning.png", SCALE)
+#image cg_screen_phone_time_day4_morning_imran_home = im.FactorScale("CG_hands/day4_morning.png", SCALE)
 
-image cg_screen_phone_new_message_day4_morning_imran_home = im.FactorScale("CG_hands/day4_morning_msg.png", SCALE)
+#image cg_screen_phone_new_message_day4_morning_imran_home = im.FactorScale("CG_hands/day4_morning_msg.png", SCALE)
 
-image cg_screen_phone_new_message_day4_morning_after_note_imran_home = im.FactorScale("CG_hands/cg_screen_phone_new_message_day4_morning_after_note_imran_home.png", SCALE)
+#image cg_screen_phone_new_message_day4_morning_after_note_imran_home = im.FactorScale("CG_hands/cg_screen_phone_new_message_day4_morning_after_note_imran_home.png", SCALE)
 
-image cg_screen_phone_new_message_day4_afternoon_imran_home = im.FactorScale("CG_hands/cg_screen_phone_new_message_day4_afternoon_imran_home.png", SCALE)
+#image cg_screen_phone_new_message_day4_afternoon_imran_home = im.FactorScale("CG_hands/cg_screen_phone_new_message_day4_afternoon_imran_home.png", SCALE)
 
 
 # Sunset is at 19:55
 
 
-image cg_screen_phone_time_day4_afternoon_airport_duty_free = im.FactorScale("CG_hands/cg_screen_phone_time_day4_afternoon_airport_duty_free.png", SCALE)
+#image cg_screen_phone_time_day4_afternoon_airport_duty_free = im.FactorScale("CG_hands/cg_screen_phone_time_day4_afternoon_airport_duty_free.png", SCALE)
 
-image cg_screen_phone_new_message_day4_evening_athome_alone = im.FactorScale("CG_hands/cg_screen_phone_new_message_day4_evening_athome_alone.png", SCALE)
-
-
+#image cg_screen_phone_new_message_day4_evening_athome_alone = im.FactorScale("CG_hands/cg_screen_phone_new_message_day4_evening_athome_alone.png", SCALE)
 
 
-image cg_screen_phone_aeroexpress1 = im.FactorScale("CG_hands/Phone8.png", SCALE)
-image cg_screen_phone_aeroexpress2 = im.FactorScale("CG_hands/Phone9.png", SCALE)
-image cg_screen_phone_aeroexpress3 = im.FactorScale("CG_hands/Phone10.png", SCALE)
-image cg_screen_phone_aeroexpress4 = im.FactorScale("CG_hands/3.png", SCALE)
 
 
-image cg_screen_phone_map1 = im.FactorScale("CG_hands/Phone11.png", SCALE)
-image cg_screen_phone_map2 = im.FactorScale("CG_hands/Phone14.png", SCALE)
+#image cg_screen_phone_aeroexpress1 = im.FactorScale("CG_hands/Phone8.png", SCALE)
+#image cg_screen_phone_aeroexpress2 = im.FactorScale("CG_hands/Phone9.png", SCALE)
+#image cg_screen_phone_aeroexpress3 = im.FactorScale("CG_hands/Phone10.png", SCALE)
+#image cg_screen_phone_aeroexpress4 = im.FactorScale("CG_hands/3.png", SCALE)
 
-image cg_screen_phone_map_to_cellphone_store = im.FactorScale("CG_hands/map_store.png", SCALE)
-image cg_screen_phone_map_to_apartment = im.FactorScale("CG_hands/map_apartment.png", SCALE)
-image cg_screen_phone_map_shaurma1 = im.FactorScale("CG_hands/map_shaurma1.png", SCALE)
-image cg_screen_phone_map_shaurma2 = im.FactorScale("CG_hands/map_shaurma2.png", SCALE)
 
-image cg_screen_phone_metro_map = im.FactorScale("CG_hands/Phone12.png", SCALE)
-image cg_screen_phone_booking = im.FactorScale("CG_hands/Phone13.png", SCALE)
+#image cg_screen_phone_map1 = im.FactorScale("CG_hands/Phone11.png", SCALE)
+#image cg_screen_phone_map2 = im.FactorScale("CG_hands/Phone14.png", SCALE)
 
-image cg_screen_phone_booking_new_message = im.FactorScale("CG_hands/4.png", SCALE)
+#image cg_screen_phone_map_to_cellphone_store = im.FactorScale("CG_hands/map_store.png", SCALE)
+#image cg_screen_phone_map_to_apartment = im.FactorScale("CG_hands/map_apartment.png", SCALE)
+#image cg_screen_phone_map_shaurma1 = im.FactorScale("CG_hands/map_shaurma1.png", SCALE)
+#image cg_screen_phone_map_shaurma2 = im.FactorScale("CG_hands/map_shaurma2.png", SCALE)
+
+#image cg_screen_phone_metro_map = im.FactorScale("CG_hands/Phone12.png", SCALE)
+#image cg_screen_phone_booking = im.FactorScale("CG_hands/Phone13.png", SCALE)
+
+#image cg_screen_phone_booking_new_message = im.FactorScale("CG_hands/4.png", SCALE)
 
 
 image cg_screen_phone_messenger = im.FactorScale("CG_hands/messenger.png", SCALE)
 image cg_screen_phone_messenger_night = im.FactorScale("CG_hands/messenger_night.png", SCALE)
-
-image cg_screen_phone_messenger_top_aliya = im.FactorScale("CG_hands/messenger_top_aliya.png", SCALE)
-image cg_screen_phone_messenger_top_aliya_banned = im.FactorScale("CG_hands/messenger_top_aliya_banned.png", SCALE)
-image cg_screen_phone_messenger_top_coach = im.FactorScale("CG_hands/messenger_top_coach.png", SCALE)
-image cg_screen_phone_messenger_top_yarik = im.FactorScale("CG_hands/messenger_top_yarik.png", SCALE)
 
 define cg_sceen_phone_top_pos = Position(xpos = 0.665625, xanchor=0.0, ypos=0.33148, yanchor=0.0)
 
@@ -307,49 +296,34 @@ define cg_sceen_phone_top_pos = Position(xpos = 0.665625, xanchor=0.0, ypos=0.33
 image cg_foreground_card_hands_day = im.FactorScale("CG_hands/Card.png", SCALE)
 
 
-image cg_screen_phone_tickets_buy1_search = im.FactorScale("CG_hands/Phone15.png", SCALE)
+#image cg_screen_phone_tickets_buy1_search = im.FactorScale("CG_hands/Phone15.png", SCALE)
 
-image cg_screen_phone_tickets_buy2_select = im.FactorScale("CG_hands/Phone16.png", SCALE)
+#image cg_screen_phone_tickets_buy2_select = im.FactorScale("CG_hands/Phone16.png", SCALE)
 
-image cg_screen_phone_tickets_buy3_pay = im.FactorScale("CG_hands/Phone17.png", SCALE)
+#image cg_screen_phone_tickets_buy3_pay = im.FactorScale("CG_hands/Phone17.png", SCALE)
 
-image cg_screen_phone_tickets_buy4_paid = im.FactorScale("CG_hands/cg_screen_phone_tickets_buy4_paid.png", SCALE)
+#image cg_screen_phone_tickets_buy4_paid = im.FactorScale("CG_hands/cg_screen_phone_tickets_buy4_paid.png", SCALE)
 
-image cg_screen_phone_tickets_buy5_paid_msg_gone = im.FactorScale("CG_hands/cg_screen_phone_tickets_buy5_paid_msg_gone.png", SCALE)
+#image cg_screen_phone_tickets_buy5_paid_msg_gone = im.FactorScale("CG_hands/cg_screen_phone_tickets_buy5_paid_msg_gone.png", SCALE)
 
-image cg_screen_phone_food_delivery = im.FactorScale("CG_hands/food_delivery.png", SCALE)
+#image cg_screen_phone_food_delivery = im.FactorScale("CG_hands/food_delivery.png", SCALE)
 
-image cg_screen_phone_food_notes_empty = im.FactorScale("CG_hands/notes1.png", SCALE)
+#image cg_screen_phone_food_notes_empty = im.FactorScale("CG_hands/notes1.png", SCALE)
 
-image cg_screen_phone_food_notes_fill = im.FactorScale("CG_hands/notes2.png", SCALE)
+#image cg_screen_phone_food_notes_fill = im.FactorScale("CG_hands/notes2.png", SCALE)
 
-image cg_screen_phone_shoot1_time = im.FactorScale("CG_hands/shoot1_time.png", SCALE)
-image cg_screen_phone_shoot2 = im.FactorScale("CG_hands/shoot2.png", SCALE)
-image cg_screen_phone_shoot3 = im.FactorScale("CG_hands/shoot3.png", SCALE)
-image cg_screen_phone_shoot4 = im.FactorScale("CG_hands/shoot4.png", SCALE)
-image cg_screen_phone_shoot5 = im.FactorScale("CG_hands/shoot5.png", SCALE)
-image cg_screen_phone_shoot6 = im.FactorScale("CG_hands/shoot6.png", SCALE)
+#image cg_screen_phone_shoot1_time = im.FactorScale("CG_hands/shoot1_time.png", SCALE)
+#image cg_screen_phone_shoot2 = im.FactorScale("CG_hands/shoot2.png", SCALE)
+#image cg_screen_phone_shoot3 = im.FactorScale("CG_hands/shoot3.png", SCALE)
+#image cg_screen_phone_shoot4 = im.FactorScale("CG_hands/shoot4.png", SCALE)
+#image cg_screen_phone_shoot5 = im.FactorScale("CG_hands/shoot5.png", SCALE)
+#image cg_screen_phone_shoot6 = im.FactorScale("CG_hands/shoot6.png", SCALE)
 
-image cg_screen_phone_aliya_photo1 = im.FactorScale("CG_hands/aliya_photo1.png", SCALE)
-image cg_screen_phone_aliya_photo2 = im.FactorScale("CG_hands/aliya_photo2.png", SCALE)
-
-
-image cg_screen_phone_messenger_contact_list = im.FactorScale("CG_hands/cg_screen_phone_messenger_contact_list.png", SCALE)
-
-image cg_screen_phone_messenger_contact_list_banned = im.FactorScale("CG_hands/cg_screen_phone_messenger_contact_list_banned.png", SCALE)
+#image cg_screen_phone_aliya_photo1 = im.FactorScale("CG_hands/aliya_photo1.png", SCALE)
+#image cg_screen_phone_aliya_photo2 = im.FactorScale("CG_hands/aliya_photo2.png", SCALE)
 
 
-
-image cg_screen_phone_shoot_anim:
-    "cg_screen_phone_shoot2"
-    0.4
-    "cg_screen_phone_shoot3"
-    0.4
-    "cg_screen_phone_shoot4"
-    0.4
-    "cg_screen_phone_shoot5"
-    0.4
-    "cg_screen_phone_shoot6"
+#image cg_screen_phone_messenger_contact_list = im.FactorScale("CG_hands/cg_screen_phone_messenger_contact_list.png", SCALE)
 
 
 image day4_aliya_parents = im.FactorScale("day4_airport/aliya_parents.png", SCALE)
