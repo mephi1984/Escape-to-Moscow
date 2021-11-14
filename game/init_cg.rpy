@@ -142,6 +142,8 @@ image night_dream_scene_aliya_half_turned2 = im.FactorScale("dream/dream3.jpg", 
 
 define airplane_scene_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
 
+define airplane_window_pos = Position(xpos = 0.3375, xanchor=0.0, ypos=0.119444, yanchor=0.0) # 432, 86 of 1280, 720
+
 
 image airport_semyon_gives_mask = im.FactorScale("CG_hands/semyon_mask.png", SCALE)
 image airport_semyon_gives_money = im.FactorScale("CG_hands/semyon_money.png", SCALE)
@@ -163,8 +165,19 @@ image cg_airplane_window3 = im.FactorScale("bkg_extra/cg_airplane_window3.jpg", 
 image cg_airplane_window4 = im.FactorScale("bkg_extra/cg_airplane_window4.jpg", SCALE)
 
 
-image airplane_day_side = im.FactorScale("airplane_day_side.png", SCALE)
-image airplane_day_side_table = im.FactorScale("airplane_day_side_table.png", SCALE)
+#image airplane_day_side = im.FactorScale("airplane_day_side.png", SCALE)
+
+image airplane_day_side_table_mobile_web = im.FactorScale("cg_airplane/cg_airplane_side_table.jpg", SCALE)
+image airplane_day_side_table_cap_mobile_web = im.FactorScale("cg_airplane/cg_airplane_side_table_cap.jpg", SCALE)
+
+define airplane_side_table_pos = Position(xpos = 1.0, xanchor=1.0, ypos=1.0, yanchor=1.0)
+
+
+# This is only for mobile web:
+image airplane_day_side_mobile_web = im.FactorScale("airplane_day_side.jpg", SCALE)
+image cg_airplane_window1_mobile_web = im.FactorScale("cg_airplane/cg_airplane_window1.jpg", SCALE)
+image cg_airplane_window2_mobile_web = im.FactorScale("cg_airplane/cg_airplane_window2.jpg", SCALE)
+image cg_airplane_window3_mobile_web = im.FactorScale("cg_airplane/cg_airplane_window3.jpg", SCALE)
 
 
 define metro_scene_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
@@ -208,7 +221,6 @@ image imran_room_hand_right_cup_empty = im.FactorScale("day4_room_stuff/cup_empt
 
 define imran_room_hand_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.75, yanchor=0.5)
 
-image airplane_cap = im.FactorScale("cg_airplane/cap.png", SCALE)
 
 image cg_screen_phone = im.FactorScale("CG_hands/Phone1.png", SCALE)
 

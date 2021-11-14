@@ -1294,8 +1294,9 @@ label day3_airport_inner:
     #‭6998 / 1920 = 3.6447916666666666666666666666667‬  ~ 3.64479167
 
     if isMobileWeb:
-        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
-            zoom 1.02
+        show airplane_day_side_mobile_web as airplane_scene at airplane_scene_pos zorder 2
+
+        show cg_airplane_window1_mobile_web as cg_airplane_window_mobile_web at airplane_window_pos zorder 2
 
     else:
 
@@ -1672,8 +1673,9 @@ label day3_airplane2_part2:
     $ renpy.pause(1.0)
 
     if isMobileWeb:
-        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
-            zoom 1.02
+        show airplane_day_side_mobile_web as airplane_scene at airplane_scene_pos zorder 2
+
+        show cg_airplane_window1_mobile_web as cg_airplane_window_mobile_web at airplane_window_pos zorder 2
     else:
 
         show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
@@ -1725,12 +1727,17 @@ label day3_airplane2_part2:
     "Надо будет напомнить себе, вечером купить ей что-нибудь поесть." with dissolve
 
     if isMobileWeb:
-        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
-            zoom 1.02
+        show airplane_day_side_mobile_web as airplane_scene at airplane_scene_pos zorder 2
+
+        show cg_airplane_window1_mobile_web as cg_airplane_window_mobile_web at airplane_window_pos zorder 2
+
+        show airplane_day_side_table_mobile_web as airplane_day_side_table_mobile_web at airplane_side_table_pos zorder 4 with dissolve
+
     else:
 
         show airplane_day_side_table as airplane_scene at airplane_scene_pos zorder 2:
             zoom 1.02
+
 
     "Я открыл откидные столики." with dissolve
 
@@ -1752,7 +1759,9 @@ label day3_airplane2_part2:
     show aliya_sit_side no_earphones eyes_open_neutral as Aliya at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-    show airplane_cap zorder 4 with dissolve
+    if isMobileWeb:
+
+        show airplane_day_side_table_cap_mobile_web as airplane_day_side_table_mobile_web at airplane_side_table_pos zorder 4 with dissolve
 
     "Алия лишь слегка отхлебнула и поставила стакан на откидной столик." with dissolve
 
@@ -1774,8 +1783,11 @@ label day3_airplane2_part2:
     show black zorder 10 with dissolve
 
     if isMobileWeb:
-        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
-            zoom 1.02
+        show airplane_day_side_mobile_web as airplane_scene at airplane_scene_pos zorder 2
+        show cg_airplane_window1_mobile_web as cg_airplane_window_mobile_web at airplane_window_pos zorder 2
+
+        hide airplane_day_side_table_mobile_web
+
     else:
 
         show airplane_day_side as airplane_scene at airplane_scene_pos zorder 2:
@@ -1783,8 +1795,6 @@ label day3_airplane2_part2:
 
     show aliya_sit_side no_emotion_layer special_airplane_watching_book_neutral as Aliya at any_center_pos zorder 3:
         zoom SCALE
-
-    hide airplane_cap
 
     $ renpy.pause(1.0)
 
@@ -1910,10 +1920,6 @@ label day3_airplane3:
     show aliya_sit_side no_emotion_layer special_airplane_pass_earphones as Aliya at any_center_pos zorder 3 with dissolve:
         zoom SCALE
 
-
-
-
-
     if renpy.emscripten:
         if renpy.in_rollback():
             $ import emscripten
@@ -1946,8 +1952,9 @@ label day3_airplane3:
 
 
     if isMobileWeb:
-        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
-            zoom 1.02
+        show airplane_day_side_mobile_web as airplane_scene at airplane_scene_pos zorder 2
+
+        show cg_airplane_window1_mobile_web as cg_airplane_window_mobile_web at airplane_window_pos zorder 2
 
         show aliya_sit_side no_emotion_layer special_airplane_window_earphones as Aliya at any_center_pos zorder 3 with dissolve:
             zoom SCALE
@@ -2080,8 +2087,9 @@ label day3_airplane3:
 
 
     if isMobileWeb:
-        show airplane_day_side2 as airplane_scene at airplane_scene_pos zorder 2:
-            zoom 1.02
+        show airplane_day_side_mobile_web as airplane_scene at airplane_scene_pos zorder 2
+
+        show cg_airplane_window2_mobile_web as cg_airplane_window_mobile_web at airplane_window_pos zorder 2
     else:
         show cg_airplane_window3 as airplane_window_left at cg_airplane_window_pos_start3 zorder 1:
             parallel:
@@ -2135,7 +2143,10 @@ label day3_airplane3:
         play music "ambience/airplane_2landed_shortened.ogg"
         queue music "ambience/airplane_3after_landing_loop.ogg"
 
-    "Бух!" with vpunch
+    if isMobileWeb:
+        "Бух!" with dissolve
+    else:
+        "Бух!" with vpunch
 
     "Самолёт начал тормозить и всех пассажиров тут же дёрнуло вперёд." with dissolve
 
