@@ -346,23 +346,29 @@ label trailer_continue2:
 
     $ renpy.pause(4.0)
 
-    scene lukoil_side_p1 with dissolve
+    scene lukoil_side1 with dissolve
 
     $ renpy.pause(2.5)
 
-    show lukoil_side_p2:
+    show lukoil_side_p1 as lukoil_side_p:
         alpha 0.0
         linear 0.8 alpha 1.0
 
     $ renpy.pause(2.5)
 
-    show lukoil_side_p3:
+    show lukoil_side_p2 as lukoil_side_p:
         alpha 0.0
         linear 0.8 alpha 1.0
 
     $ renpy.pause(2.5)
 
-    show lukoil_side_p4:
+    show lukoil_side_p3 as lukoil_side_p:
+        alpha 0.0
+        linear 0.8 alpha 1.0
+
+    $ renpy.pause(2.5)
+
+    show lukoil_side_p4 as lukoil_side_p:
         alpha 0.0
         linear 0.8 alpha 1.0
 

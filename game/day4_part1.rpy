@@ -153,7 +153,7 @@ label day4_intro:
 
     $ savegame_picture = "savegame_imran_house_doorway"
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     "Я подошел и открыл дверь. За дверью стояла Алия." with dissolve
@@ -176,7 +176,7 @@ label day4_intro:
 
     "Всю переписку целиком уже поздно удалять, так мы только спалимся." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     aliya "И много не говори, Имран может нас подслушивать." with dissolve
@@ -189,7 +189,7 @@ label day4_intro:
 
     me "Твоя мама обманула меня, и я бы хотел ей это напомнить..." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     aliya "Давай лучше не в этот раз. Прибереги это на будущее." with dissolve
@@ -208,7 +208,7 @@ label day4_intro:
 
     me "Ты и сама рассказывала, как несколько лет назад твой отец не выполнил свое обещание перед тобой." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     "Алия вздохнула." with dissolve
@@ -217,7 +217,7 @@ label day4_intro:
 
     "Пока я думал, что еще сказать, внизу раздался шорох." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried_question as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried_question as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     "Алия посмотрела на меня в последний раз." with dissolve
@@ -401,9 +401,13 @@ label day4_intro:
 
     coach "По Российскому паспорту можно улететь в Казахстан, Беларусь, Киргизию и Армению" with dissolve
 
+    $ addReceivedMessage(4)
+
+    coach "В расписании аэропорта Домодедово есть рейсы в Алматы, Бишкек, Ош" with dissolve
+
     $ addReceivedMessage(5)
 
-    coach "В расписании аэропорта Домодедово есть рейсы в Алматы, Бишкек, Ош, которые вылетают примерно в то же время что и рейсы в Махачкалу и Минеральные Воды" with dissolve
+    coach "Некоторые из них вылетают примерно в то же время что и рейсы в Махачкалу и Минеральные Воды" with dissolve
 
     $ addReceivedMessage(4)
 
@@ -858,7 +862,7 @@ label day4_parents_intro:
 
     scene imran_house_2nd_floor_open_door with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
         zoom 1.0
 
     "Спустя несколько минут дверь открылась, и она вышла из комнаты." with dissolve
@@ -867,23 +871,31 @@ label day4_parents_intro:
 
     aliya "Да." with dissolve
 
-    show Aliya special_note as Aliya at any_center_pos with dissolve:
+    #show Aliya special_note as Aliya at any_center_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_note eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
         zoom 1.0
 
     "Я передал ей записку." with dissolve
 
+    show Aliya_stand_straight tshirt hand_note eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
+        zoom 1.0
+
     aliya "Что это?" with dissolve
+
+    show Aliya_stand_straight tshirt hand_note eyes_open_sad_worried as Aliya at any_center_pos with dissolve:
+        zoom 1.0
 
     me "На случай если решишь сбежать, новый план побега записан там." with dissolve
 
     aliya "Ясно." with dissolve
 
-    show Aliya special_pocket as Aliya at any_center_pos with dissolve:
+    #show Aliya special_pocket as Aliya at any_center_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_behind eyes_closed_neutral as Aliya at any_center_pos with dissolve:
         zoom 1.0
 
     "Алия положила записку в карман." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at any_center_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at any_center_pos with dissolve:
         zoom 1.0
 
     "Я услышал, как дверь на первом этаже открылась, и родители вошли в дом." with dissolve
@@ -892,14 +904,14 @@ label day4_parents_intro:
 
     me "Запомни пожалуйста. Чтобы я сейчас не сказал твоим родителям - на самом деле я всегда на твоей стороне." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried_open_mouth as Aliya at any_center_pos with dissolve:
         zoom 1.0
 
     "Алия посмотрела на меня недоверчиво и непонимающе." with dissolve
 
     me "Возможно я буду блефовать и лгать твоим родителям, но это только чтобы вытащить тебя." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at any_center_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at any_center_pos with dissolve:
         zoom 1.0
 
     aliya "Это не нужно," with dissolve
@@ -947,7 +959,7 @@ label day4_parents_intro:
 
     "В гостиной был Имран, которого я уже видел." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
 
     "Рядом была Алия." with dissolve
@@ -976,7 +988,7 @@ label day4_parents_intro:
         linear 0.5 alpha 1.0
         alpha 1.0
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2:
         zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -1020,13 +1032,13 @@ label day4_parents_intro:
         zoom 1.0
         alpha 1.0
 
-    show Aliya_stand_straight tshirt eyes_open_angry as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_angry as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
     "Алия набралась смелости, строго посмотрела на отца и начала говорить." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_angry_open_mouth as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_angry_open_mouth as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1034,7 +1046,7 @@ label day4_parents_intro:
 
     aliya "Я вам говорила много раз. Вы никогда не спрашиваете меня чего я хочу. Вам вообще безразлично." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_angry as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_angry as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1046,7 +1058,7 @@ label day4_parents_intro:
 
     aslan "Вместе с похитителем! И закопали там же." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_annoyed as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_annoyed as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1080,7 +1092,7 @@ label day4_parents_intro:
 
     imran "Прислушайся к ней, она же тебе говорит чего она хочет!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1220,7 +1232,7 @@ label day4_parents_part0_choice_for_aliya:
 
     "Повисла тишина." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_sad at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_sad at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1260,7 +1272,7 @@ label day4_parents_part0_choice_for_parents:
 
     "Повисла тишина." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_sad as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_sad as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1299,7 +1311,7 @@ label day4_parents_part2_choice1_like_her:
 
     "...Повисла тишина." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1313,7 +1325,7 @@ label day4_parents_part2_choice2_just_friends:
 
     $ parents_trust_points = parents_trust_points + 1
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
@@ -1389,7 +1401,7 @@ label day4_parents_part6:
         linear 0.5 alpha 1.0
         alpha 1.0
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2:
         zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -1419,26 +1431,26 @@ label day4_parents_part6:
 
     "Я посмотрел на Алию. Алия посмотрела на меня, и по очереди на всех присутствующих." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
 
     aliya "Я вернусь с вами домой." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
     "Что? Это же ловушка!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
     aliya "Я вернусь в Пятигорск и продолжу учиться в колледже." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 

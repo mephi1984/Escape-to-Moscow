@@ -101,7 +101,7 @@ label day3_metro:
     "Затем прошли через турникеты и спустились в метро..." with dissolve
 
     if renpy.emscripten:
-        if not renpy.in_rollback():
+        if not renpy.in_rollback() and not renpy.get_skipping(): #!!! If skipping, then don't switch music too often
             $ import emscripten
             $ emscripten.run_script("play_ambience_metro_loop_before_train_depart()")
     else:
@@ -136,7 +136,7 @@ label day3_metro:
 
 
     if renpy.emscripten:
-        if not renpy.in_rollback():
+        if not renpy.in_rollback() and not renpy.get_skipping(): #!!! If skipping, then don't switch music too often
             $ import emscripten
             $ emscripten.run_script("play_ambience_metro_doors_closing()")
             $ emscripten.run_script("play_ambience_metro_train_loop(40.583-2)")
@@ -209,7 +209,7 @@ label day3_metro:
     "Поезд довольно быстро приехал на нужную нам станцию." with dissolve
 
     if renpy.emscripten:
-        if not renpy.in_rollback():
+        if not renpy.in_rollback() and not renpy.get_skipping(): #!!! If skipping, then don't switch music too often
             $ import emscripten
             $ emscripten.run_script("play_ambience_metro_arrived()")
             $ emscripten.run_script("play_ambience_metro_loop_after_arrival(18.788-2)")
@@ -643,7 +643,7 @@ label day3_taganskaya_park_continue:
 
     show tagansky_store as tagansky_store with dissolve
 
-    show Aliya special_dress_worried as Aliya at any_right_pos with dissolve:
+    show Aliya_dress worried as Aliya at any_right_pos with dissolve:
         zoom 1.0
 
     "Алия вышла из примерочной." with dissolve
@@ -652,13 +652,13 @@ label day3_taganskaya_park_continue:
 
     me "Тебе очень идёт!" with dissolve
 
-    show Aliya special_dress_eye_closed as Aliya at any_right_pos with dissolve:
+    show Aliya_dress eye_closed as Aliya at any_right_pos with dissolve:
         zoom 1.0
         alpha 1.0
 
     aliya "Спасибо!" with dissolve
 
-    show Aliya special_dress_smile as Aliya at any_right_pos with dissolve:
+    show Aliya_dress smile as Aliya at any_right_pos with dissolve:
         zoom 1.0
         alpha 1.0
 
@@ -680,7 +680,7 @@ label day3_taganskaya_park_continue:
         zoom 1.0
         alpha 1.0
 
-    show Aliya special_dress_worried as Aliya at any_right_pos with dissolve:
+    show Aliya_dress worried as Aliya at any_right_pos with dissolve:
         zoom 1.0
         alpha 1.0
 
@@ -1628,7 +1628,8 @@ label day3_basmannaya_outside:
 
     aliya "Мам, я не знаю адрес!" with dissolve
 
-    show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    #show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_phone eyes_open_worried_look_left as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     "Алия вернулась на кухню и протянула мне телефон." with dissolve
@@ -1637,7 +1638,7 @@ label day3_basmannaya_outside:
 
     "Я мог бы и отказаться, но решил поговорить." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     "Я взял трубку, собрал всю свою доброжелательность и представил, что я на собеседовании с заказчиком." with dissolve
@@ -1736,7 +1737,7 @@ label day3_basmannaya_outside:
 
     "Вместо ответа Алия протянула мне трубку." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     "Я взял телефон." with dissolve
@@ -1809,7 +1810,7 @@ label day3_basmannaya_apartment_accept:
 
     me "Хорошо, я скажу вам адрес." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     $ changeDialogToCoach()
@@ -1906,17 +1907,17 @@ label day3_basmannaya_apartment_decline:
 
     "Впрочем, разговор был недолгим." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     "Вскоре, Алия завершила разговор и вернулась на кухню." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     aliya "Почему ты решил не говорить адрес?" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     me "Я боюсь за тебя. Вдруг они решат забрать тебя силой?" with dissolve
@@ -1925,7 +1926,7 @@ label day3_basmannaya_apartment_decline:
 
     me "Организуем встречу в общественном месте, так будет безопаснее для тебя." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_sad_worried_open_mouth as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
 
@@ -1959,7 +1960,7 @@ label day3_basmannaya_apartment_decline:
 
         queue music "music/Runaway_11 (Loop).ogg"
 
-    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     aliya "Спасибо..." with dissolve
@@ -1991,7 +1992,7 @@ label day3_basmannaya_apartment_after_talk:
         yalign 0.7
         zoom 0.6
 
-    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     hide black with dissolve
@@ -2008,14 +2009,14 @@ label day3_basmannaya_apartment_after_talk:
 
     me "Мы можем заказать суши, пиццу или просто сходить куда-нибудь поесть." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     aliya "Сейчас уже довольно поздно." with dissolve
 
     me "Это Москва! Здесь полно круглосуточных кафешек. Мы что-нибудь найдём!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_smile as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     aliya "Хорошо." with dissolve
@@ -2046,7 +2047,7 @@ label day3_basmannaya_apartment_after_talk:
 
     me "Как ты относишься к шаурме?" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_grin as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_grin as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     aliya "Нормально, можно поесть." with dissolve
@@ -2055,7 +2056,7 @@ label day3_basmannaya_apartment_after_talk:
 
     $ hidePhone()
 
-    show Aliya_stand_straight tshirt eyes_open_happy as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_happy as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     aliya "Пойдём!" with dissolve

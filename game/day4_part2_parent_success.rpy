@@ -7,7 +7,7 @@ label day4_parents_part6_parent_persuade_success:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2:
         zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -362,7 +362,7 @@ label day4_parents_part6_parent_persuade_success:
 
     aliya "Мама приготовила обед. Возьми!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     show imran_room_drawers_food_full_near with dissolve
@@ -394,9 +394,12 @@ label day4_parents_part6_parent_persuade_success:
 
     me "Как я и говорил, я на твоей стороне." with dissolve
 
-    me "Конечно, я был бы рад, если всё сказанное твоей семьёй оказалось правдой. Это, говоря на чистоту, было бы отлично, при этом... Говоря уже до конца честно, ты им веришь?" with dissolve
+    me "Конечно, я был бы рад, если всё сказанное твоей семьёй оказалось правдой. Это, говоря на чистоту, было бы отлично, при этом..." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    me "Говоря уже до конца честно, ты им веришь?" with dissolve
+
+
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     aliya "Не знаю..." with dissolve
@@ -546,7 +549,7 @@ label day4_parents_part11_choice1_persuade:
 
     # By that time, max aliya_trust_points == 2
 
-    show Aliya_stand_straight tshirt eyes_open_cry_sad2 as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_cry_sad2 as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     me "Алия, просто подумай, что ждёт тебя дома и что случится, если ты будешь жить как хочешь." with dissolve
@@ -593,7 +596,7 @@ label day4_parents_part11_choice1_persuade:
 
 label day4_parents_part12_choice1_praise:
 
-    show Aliya_stand_straight tshirt eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     me "Чем бы в итоге не закончилась наша с тобой история, я хочу, чтобы ты знала: я был рад с тобой познакомиться." with dissolve
@@ -607,7 +610,7 @@ label day4_parents_part12_choice1_praise:
 
 label day4_parents_part12_choice2_always_on_your_side:
 
-    show Aliya_stand_straight tshirt eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_cry_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     me "Алия, я очень тебе благодарен за то время, что мы провели вместе." with dissolve

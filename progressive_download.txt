@@ -9,9 +9,9 @@
 - image game/images/CG_messenger_phone/**
 - image game/images/cg_screen/**
 - image game/images/aliya_anim/**
-#- image game/images/sprites/Aliya**
 - image game/images/sprites/**
-#- image game/images/teaser/**
+- image game/images/eating/**
+- image game/images/teaser/**
 #- image game/images/bkg_extra/**
 - image game/images/slideshow/**
 + image game/**

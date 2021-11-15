@@ -13,6 +13,7 @@ label day1_intro:
     if renpy.emscripten:
 
         $ import emscripten
+        $ emscripten.run_script("music_stage_preload = \"music_Runaway02\"")
         $ emscripten.run_script("playRunaway01()")
         $ emscripten.run_script("clearAllMusicExceptPreload()")
         $ emscripten.run_script("PreloadRequiredTracks()")

@@ -367,7 +367,8 @@ label day3_meet_aliya:
     #hide airport_semyon_gives_mask with dissolve
     hide right_hand with dissolve
 
-    show Aliya special_jacket_pocket no_mask at any_center_pos as Aliya with dissolve:
+    #show Aliya special_jacket_pocket no_mask at any_center_pos as Aliya with dissolve:
+    show Aliya_stand_straight hand_jacket_behind eyes_open_neutral at any_center_pos as Aliya with dissolve:
         zoom 1.0
 
     "Алия ловким движением сняла свою старую маску, положила в карман..." with dissolve
@@ -421,7 +422,8 @@ label day3_meet_aliya:
         #hide airport_semyon_gives_money with dissolve
         hide right_hand with dissolve
 
-        show Aliya special_jacket_pocket_mask at any_center_pos as Aliya with dissolve:
+        #show Aliya special_jacket_pocket_mask at any_center_pos as Aliya with dissolve:
+        show Aliya_stand_straight hand_jacket_behind mask_eyes_open_neutral at any_center_pos as Aliya with dissolve:
             zoom 1.0
 
         "Алия недоверчиво взяла пачку купюр и положила в карман." with dissolve

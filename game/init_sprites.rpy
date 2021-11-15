@@ -30,6 +30,23 @@ layeredimage Aliya_stand_straight:
         attribute tshirt:
             "sprites/Aliya/Pose1/base_tshirt.png"
 
+    group right_hand:
+        pos (84, 290)
+        attribute hand_jacket_norm default:
+            "sprites/Aliya/Pose1/right_hand/jacket_norm.png"
+        attribute hand_tshirt_norm:
+            "sprites/Aliya/Pose1/right_hand/tshirt_norm.png"
+        attribute hand_jacket_behind:
+            "sprites/Aliya/Pose1/right_hand/jacket_behind.png"
+        attribute hand_tshirt_behind:
+            "sprites/Aliya/Pose1/right_hand/tshirt_behind.png"
+        attribute hand_mask:
+            "sprites/Aliya/Pose1/right_hand/mask.png"
+        attribute hand_phone:
+            "sprites/Aliya/Pose1/right_hand/phone.png"
+        attribute hand_note:
+            "sprites/Aliya/Pose1/right_hand/note.png"
+
     group emotion:
         #pos (390, 297) # this is for 1920x1080
         pos (195, 148)
@@ -105,6 +122,9 @@ layeredimage Aliya_stand_straight:
 
         attribute eyes_open_surprised_happy:
             "sprites/Aliya/Pose1/face_surprised_happy.png"
+
+        attribute eyes_open_worried_look_left:
+            "sprites/Aliya/Pose1/face_worried_look_left.png"
 
         attribute mask_eyes_closed_neutral:
             "sprites/Aliya/Pose1/mask1/face_mask_norm.png"
@@ -305,6 +325,22 @@ layeredimage Aliya_stand_half_turned:
             "sprites/Aliya/Pose2/phone.png"
 
 
+layeredimage Aliya_dress:
+    group cloth:
+        attribute dress default:
+            "sprites/Aliya/dress/base.png"
+
+    group emotion:
+        pos (192, 144)
+        attribute smile:
+            "sprites/empty.png" #already in base.png
+
+        attribute eye_closed:
+            "sprites/Aliya/dress/eye_closed.png"
+
+        attribute worried:
+            "sprites/Aliya/dress/worried.png"
+
 layeredimage Aliya:
 
         # Specials:
@@ -312,14 +348,14 @@ layeredimage Aliya:
         attribute special_phone_listen:
             "sprites/Aliya/phone_listen.png"
 
-        attribute special_phone_give_take:
-            "sprites/Aliya/phone_mama.png"
+        #attribute special_phone_give_take:
+        #    "sprites/Aliya/phone_mama.png"
 
-        attribute special_note:
-            "sprites/Aliya/note.png"
+        #attribute special_note:
+        #    "sprites/Aliya/note.png"
 
-        attribute special_pocket:
-            "sprites/Aliya/pocket.png"
+        #attribute special_pocket:
+        #    "sprites/Aliya/pocket.png"
 
         attribute special_sandwich:
             "sprites/Aliya/sandwich.png"
@@ -330,26 +366,14 @@ layeredimage Aliya:
         attribute special_half_turned:
             "sprites/Aliya/obernulas.png"
 
-        attribute special_mask:
-            "sprites/Aliya/mask.png"
+        #attribute special_mask:
+        #    "sprites/Aliya/mask.png"
 
-        attribute special_dress_smile:
-            "sprites/Aliya/dress_1.png"
+        #attribute special_jacket_pocket:
+        #    "sprites/Aliya/jacket_pocket.png"
 
-        attribute special_dress_eye_closed:
-            "sprites/Aliya/dress_2.png"
-
-        attribute special_dress_worried:
-            "sprites/Aliya/dress_3.png"
-
-        attribute special_walking:
-            "sprites/Aliya/walking.png"
-
-        attribute special_jacket_pocket:
-            "sprites/Aliya/jacket_pocket.png"
-
-        attribute special_jacket_pocket_mask:
-            "sprites/Aliya/jacket_pocket_mask.png"
+        #attribute special_jacket_pocket_mask:
+        #    "sprites/Aliya/jacket_pocket_mask.png"
 
         attribute special_jacket_mask_wear:
             "sprites/Aliya/jacket_mask_wear.png"
@@ -941,113 +965,144 @@ layeredimage aliya_airport:
         attribute at_border:
             "day4_airport/airport_aliya3.png"
 
-
 layeredimage imran:
-    group pose:
+    group cloth:
+        attribute base default:
+            "sprites/Imran/base.png"
+
+    group emotion:
+        pos (230, 90)
+        attribute neutral default:
+            "sprites/empty.png"      #Already in base.png
 
         attribute angry:
-            "sprites/Imran/angry.png"
-
-        attribute neutral:
-            "sprites/Imran/norm.png"
+            "sprites/Imran/face_angry.png"
 
         attribute talking:
-            "sprites/Imran/talking.png"
+            "sprites/Imran/face_talking.png"
 
         attribute thinking:
-            "sprites/Imran/thinking.png"
+            "sprites/Imran/face_thinking.png"
 
         attribute watching_open_mouth:
-            "sprites/Imran/watching1.png"
+            "sprites/Imran/face_watching1.png"
 
         attribute watching:
-            "sprites/Imran/watching2.png"
+            "sprites/Imran/face_watching2.png"
 
 
 layeredimage aslan:
-    group pose:
+
+    group cloth:
+        attribute base default:
+            "sprites/Aslan/base.png"
+
+    group emotion:
+        pos (190, 94)
+        attribute neutral default:
+            "sprites/empty.png"      #Already in base.png
 
         attribute angry:
-            "sprites/Aslan/angry.png"
-
-        attribute neutral:
-            "sprites/Aslan/norm.png"
+            "sprites/Aslan/face_angry.png"
 
         attribute talking:
-            "sprites/Aslan/talking.png"
+            "sprites/Aslan/face_talking.png"
 
         attribute thinking:
-            "sprites/Aslan/thinking.png"
+            "sprites/Aslan/face_thinking.png"
 
         attribute watching_imran:
-            "sprites/Aslan/watching_imran1.png"
+            "sprites/Aslan/face_watching_imran1.png"
 
         attribute watching_aliya:
-            "sprites/Aslan/watching_aliya1.png"
+            "sprites/Aslan/face_watching_aliya1.png"
 
         attribute watching_imran_open_mouth:
-            "sprites/Aslan/watching_imran.png"
+            "sprites/Aslan/face_watching_imran.png"
 
         attribute watching_aliya_open_mouth:
-            "sprites/Aslan/watching_aliya.png"
+            "sprites/Aslan/face_watching_aliya.png"
+
 
 layeredimage fatima:
-    group pose:
 
-        attribute neutral:
-            "sprites/Fatima/norm.png"
+    group cloth:
+        attribute base default:
+            "sprites/Fatima/base.png"
+
+    group emotion:
+        pos (200, 200)
+        attribute neutral default:
+            "sprites/empty.png"      #Already in base.png
 
         attribute sad:
-            "sprites/Fatima/sad.png"
+            "sprites/Fatima/face_sad.png"
 
         attribute smile:
-            "sprites/Fatima/smile.png"
+            "sprites/Fatima/face_smile.png"
 
         attribute talking:
-            "sprites/Fatima/talking.png"
+            "sprites/Fatima/face_talking.png"
 
         attribute thinking:
-            "sprites/Fatima/thinking.png"
+            "sprites/Fatima/face_thinking.png"
 
         attribute watching:
-            "sprites/Fatima/watching1.png"
+            "sprites/Fatima/face_watching1.png"
 
         attribute watching_open_mouth:
-            "sprites/Fatima/watching.png"
+            "sprites/Fatima/face_watching.png"
 
 
 layeredimage salesman:
-    group pose:
+    group cloth:
+        attribute base default:
+            "sprites/salesman/base.png"
 
-        attribute neutral:
-            "sprites/salesman/norm.png"
-
+    group emotion:
+        pos (250, 92)
+        attribute neutral default:
+            "sprites/empty.png"      #Already in base.png
         attribute talking:
-            "sprites/salesman/talking.png"
+            "sprites/salesman/face_talking.png"
+
 
 layeredimage saleswoman:
-    group pose:
+    group cloth:
+        attribute base default:
+            "sprites/saleswoman/base.png"
 
-        attribute neutral:
-            "sprites/saleswoman/norm.png"
-
+    group emotion:
+        pos (214, 154)
+        attribute neutral default:
+            "sprites/empty.png"      #Already in base.png
         attribute talking:
-            "sprites/saleswoman/talking.png"
+            "sprites/saleswoman/face_talking.png"
+
 
 layeredimage realtor:
-    group pose:
+    group cloth:
+        attribute base default:
+            "sprites/realtor/base.png"
 
-        attribute neutral:
-            "sprites/realtor/norm.png"
-
+    group emotion:
+        pos (216, 140)
+        attribute neutral default:
+            "sprites/empty.png"      #Already in base.png
         attribute talking:
-            "sprites/realtor/talking.png"
+            "sprites/realtor/face_talking.png"
+
 
 layeredimage officer:
-    group pose:
 
+    group cloth:
+        attribute base default:
+            "sprites/officer/base.png"
+
+    group pose:
+        pos (220, 240)
         attribute neutral:
-            "sprites/officer/norm.png"
+            "sprites/empty.png"      #Already in base.png
 
         attribute talking:
-            "sprites/officer/talking.png"
+            "sprites/officer/face_talking.png"

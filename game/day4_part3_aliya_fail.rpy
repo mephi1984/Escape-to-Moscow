@@ -25,7 +25,7 @@ label day4_imran_house_new_escape_failed:
 
     show imran_room_drawers_food_full_near
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     aliya "Извини, Семён. Ты уже сделал всё, что мог." with dissolve
@@ -54,7 +54,7 @@ label day4_imran_house_new_escape_failed:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2:
         zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -120,12 +120,12 @@ label day4_imran_house_new_escape_failed:
 
     me "Алия, было приятно познакомиться с тобой! Желаю тебе удачи!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
 
     aliya "Спасибо!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_closed_sad as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_sad as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
 
     me "Я напишу тебе потом!" with dissolve

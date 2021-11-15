@@ -32,29 +32,31 @@ label day4_imran_house_new_escape_succeed:
 
     show imran_room_drawers_food_full_near
 
-    show Aliya_stand_straight tshirt eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     "Воцарилось долгое молчание. Наконец Алия ответила." with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_smile as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     aliya "Хорошо, Семён. Я верю тебе. Пожалуйста, не подведи меня!" with dissolve
 
-    show Aliya special_pocket as Aliya at aliya_imran_room_pos with dissolve:
+    #show Aliya special_pocket as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_behind eyes_closed_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     aliya "И вот ещё..." with dissolve
 
-    show Aliya special_mask as Aliya at aliya_imran_room_pos with dissolve:
+    #show Aliya special_mask as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_mask eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     "Алия достала из кармана маску для лица, одну из тех, что я дал ей." with dissolve
 
     aliya "Возьми. Тебе это понадобится!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 1.0
 
     "Я взял маску и положил к себе в карман." with dissolve
@@ -198,7 +200,7 @@ label day4_imran_house_new_escape_succeed:
         alpha 0.0
         linear 0.5 alpha 1.0
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried at imran_house_pos2:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried at imran_house_pos2:
         zoom 1.0*0.9
         alpha 0.0
         linear 0.5 alpha 1.0
@@ -245,13 +247,13 @@ label day4_imran_house_new_escape_succeed:
 
     me "Алия, было приятно познакомиться с тобой! Желаю тебе удачи!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried_open_mouth as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 
     aliya "Удачи!" with dissolve
 
-    show Aliya_stand_straight tshirt eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
+    show Aliya_stand_straight tshirt hand_tshirt_norm eyes_open_sad_worried as Aliya at imran_house_pos2 with dissolve:
         zoom 1.0*0.9
         alpha 1.0
 

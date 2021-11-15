@@ -171,7 +171,7 @@ label day4_end_success:
 
     $ last_playing_music = "play_ambience_kazakhstan_after_takeoff_ambience"
 
-    announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в горизонтальное положение, уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
+    announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в вертикальное положение," with dissolve
 
     if renpy.emscripten:
         if not renpy.in_rollback():
@@ -182,6 +182,8 @@ label day4_end_success:
         play music "ambience/takeoff_kazakhstan.ogg"
 
         queue music "ambience/kazakhstan_after_takeoff_ambience.ogg"
+
+    announcement "уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
 
     show airplane_day_kz at airplane_scene_pos:
         ypos 0.525
