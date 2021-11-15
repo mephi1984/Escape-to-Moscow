@@ -487,9 +487,9 @@ label day3_taganskaya_park_rest:
     "Но взглянув на Алию, я решил переключиться на камеру..." with dissolve
 
     #show cg_screen_phone_shoot2 as cg_screen_phone at any_center_pos:
-    show right_hand phone_day shoot2 as cg_screen_phone at any_center_pos:
-        xpos 0.5
-        linear 0.5 xpos 0.25
+    show right_hand phone_day shoot2 as cg_screen_phone:
+        xpos 0.0
+        linear 0.5 xpos -0.25
 
     $ var_day3_photo_made = True
 

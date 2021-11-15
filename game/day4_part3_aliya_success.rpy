@@ -144,11 +144,13 @@ label day4_imran_house_new_escape_succeed:
     #show cg_screen_phone_tickets_buy3_pay as cg_screen_phone with dissolve
     show right_hand phone_day day_tickets_buy3 as cg_screen_phone with dissolve
 
-    show cg_foreground_card_hands_day with dissolve
+    #show cg_foreground_card_hands_day with dissolve
+    show left_hand hand_card_day zorder 2 with dissolve
 
     "Я достал свою кредитную карту-выручалку и купил нам билеты." with dissolve
 
-    hide cg_foreground_card_hands_day with dissolve
+    #hide cg_foreground_card_hands_day with dissolve
+    hide left_hand with dissolve
 
     #show cg_screen_phone_tickets_buy4_paid as cg_screen_phone with dissolve
     show right_hand phone_day day_tickets_buy4 as cg_screen_phone with dissolve

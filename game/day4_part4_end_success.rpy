@@ -39,7 +39,9 @@ label day4_end_success:
         play music "ambience/kazakhstan_airplane_before_takeoff_ambience.ogg" # fadein 1.0
 
     if isMobileWeb:
-        show airplane_day_side2 as airplane_scene
+        show airplane_day_side_mobile_web as airplane_scene at airplane_scene_pos zorder 2
+
+        show cg_airplane_window4_mobile_web as cg_airplane_window_mobile_web at airplane_window_pos zorder 2
     else:
         show airplane_day_side as airplane_scene
 

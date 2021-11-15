@@ -569,11 +569,11 @@ screen main_menu():
     tag menu
 
     style_prefix "main_menu"
-    
+
     #if isMobileWeb:
-    #if renpy.emscripten:
-        #$ import emscripten
-        #$ emscripten.run_script("playRunaway01IfNotPlaying()")
+    if renpy.emscripten:
+        $ import emscripten
+        $ emscripten.run_script("playRunaway01IfNotPlaying()")
 
 
     if isMobileWeb:
@@ -990,22 +990,6 @@ screen preferences():
             hbox:
                 box_wrap True
 
-                if renpy.variant("pc"):
-
-                    vbox:
-                        style_prefix "radio"
-                        label _("Режим экрана")
-                        textbutton _("Оконный") action Preference("display", "window")
-                        textbutton _("Полный") action Preference("display", "fullscreen")
-
-                if not isMobileWeb:
-                    vbox:
-                        style_prefix "radio"
-                        label _("Сторона отката")
-                        textbutton _("Отключено") action Preference("rollback side", "disable")
-                        textbutton _("Левая") action Preference("rollback side", "left")
-                        textbutton _("Правая") action Preference("rollback side", "right")
-
                 vbox:
                     style_prefix "check"
                     label _("Пропуск")
@@ -1029,10 +1013,6 @@ screen preferences():
                     label _("Скорость текста")
 
                     bar value Preference("text speed")
-
-                    label _("Скорость авточтения")
-
-                    bar value Preference("auto-forward time")
 
                 vbox:
 

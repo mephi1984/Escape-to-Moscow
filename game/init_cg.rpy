@@ -178,7 +178,8 @@ define airplane_side_table_pos = Position(xpos = 1.0, xanchor=1.0, ypos=1.0, yan
 image airplane_day_side_mobile_web = im.FactorScale("airplane_day_side.jpg", SCALE)
 image cg_airplane_window1_mobile_web = im.FactorScale("cg_airplane/cg_airplane_window1.jpg", SCALE)
 image cg_airplane_window2_mobile_web = im.FactorScale("cg_airplane/cg_airplane_window2.jpg", SCALE)
-image cg_airplane_window3_mobile_web = im.FactorScale("cg_airplane/cg_airplane_window3.jpg", SCALE)
+
+image cg_airplane_window4_mobile_web = im.FactorScale("cg_airplane/cg_airplane_window4.jpg", SCALE)
 
 
 define metro_scene_pos = Position(xpos = 0.5, xanchor=0.5, ypos=0.5, yanchor=0.5)
@@ -294,7 +295,7 @@ image cg_screen_phone_messenger_night = im.FactorScale("CG_hands/messenger_night
 define cg_sceen_phone_top_pos = Position(xpos = 0.665625, xanchor=0.0, ypos=0.33148, yanchor=0.0)
 
 
-image cg_foreground_card_hands_day = im.FactorScale("CG_hands/Card.png", SCALE)
+#image cg_foreground_card_hands_day = im.FactorScale("CG_hands/Card.png", SCALE)
 
 
 #image cg_screen_phone_tickets_buy1_search = im.FactorScale("CG_hands/Phone15.png", SCALE)
