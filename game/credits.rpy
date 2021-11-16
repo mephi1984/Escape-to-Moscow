@@ -9,8 +9,16 @@ screen credits_helper():
     key 'bar_activate' action [ SetVariable("player_skipped_credits", True), Jump("after_credits")]
     key 'bar_deactivate' action  [ SetVariable("player_skipped_credits", True), Jump("after_credits")]
 
+# this version of credits is specially for SberTV
 
 label credits:
+
+    if not isMobileWeb:
+        return
+
+    $ fontSize = int(45*SCALE)
+    $ fontSmallerSize = int(30*SCALE)
+
     $ renpy.pause(0.5)
 
     $ quick_menu = False
@@ -18,28 +26,25 @@ label credits:
 
     show screen credits_helper
 
-    if isMobileWeb:
-        show perlin_mobile_web as perlin with dissolve
-    else:
-        show perlin at credits_perlin_pos with dissolve:
-            xpos 0.0
-            linear 80.0 xpos -2.0
+    show perlin_mobile_web as perlin with dissolve
+
+    $ renpy.pause(2)
 
     show semyon_credits at credits_semyon1_pos1 zorder 10 with dissolve:
         xpos 0.7
-        linear 30.0 xpos 0.6
+        #linear 30.0 xpos 0.6
 
-    show text Text(_("{color=#FFD800}Продюсер:{/color}\nВладислав Хорев"), size=int(50*SCALE)) as credits_text1_line1 at credits_text1_line1_pos zorder 10 with dissolve:
+    show text Text(_("{color=#FFD800}Продюсер:{/color}\nВладислав Хорев"), size=fontSize) as credits_text1_line1 at credits_text1_line1_pos zorder 10 with dissolve:
         xpos 0.05
-        linear 5.0 xpos 0.15
+        #linear 5.0 xpos 0.15
 
-    $ renpy.pause(0.2)
+    $ renpy.pause(1)
 
-    show text Text(__("{color=#FFD800}Разработчик:{/color}\nВладислав Хорев"), size=int(50*SCALE)) as credits_text1_line2 at credits_text1_line2_pos zorder 10 with dissolve:
+    show text Text(__("{color=#FFD800}Разработчик:{/color}\nВладислав Хорев"), size=fontSize) as credits_text1_line2 at credits_text1_line2_pos zorder 10 with dissolve:
         xpos 0.05
-        linear 5.0 xpos 0.15
+        #linear 5.0 xpos 0.15
 
-    $ renpy.pause(2)
+    $ renpy.pause(4)
 
     hide semyon_credits with dissolve
 
@@ -48,27 +53,27 @@ label credits:
     hide credits_text1_line2 with dissolve
 
     show aliya_anim at credits_aliya1_pos1 zorder 10 with dissolve:
-        zoom 1.0
+        #zoom 1.0
         xpos 0.2
-        linear 30.0 xpos 0.35
+        #linear 30.0 xpos 0.35
 
-    $ renpy.pause(0.2)
+    $ renpy.pause(1)
 
-    show text Text(__("{color=#FFD800}Автор сценария:{/color}\nВладислав Хорев"), size=int(50*SCALE)) as credits_text1_line3 at credits_text1_line3_pos zorder 10 with dissolve:
-        xpos 0.55
-        linear 5.0 xpos 0.52
+    show text Text(__("{color=#FFD800}Автор сценария:{/color}\nВладислав Хорев"), size=fontSize) as credits_text1_line3 at credits_text1_line3_pos zorder 10 with dissolve:
+        xpos 0.5
+        #linear 5.0 xpos 0.52
 
-    $ renpy.pause(0.2)
+    $ renpy.pause(1)
 
     #Tasha Fam
     #Vyacheslav Levin
 
-    show text Text(__("{color=#FFD800}Тексты:{/color}\nВладислав Хорев\nЯна \"Samadreal\" Однорог\nТаша Фам\nВячеслав \"saBBar\" Левин"), size=int(50*SCALE)) as credits_text1_line4 at credits_text1_line4_pos zorder 10 with dissolve:
-        xpos 0.55
-        linear 5.0 xpos 0.52
+    show text Text(__("{color=#FFD800}Тексты:{/color}\nВладислав Хорев\nЯна \"Samadreal\" Однорог\nТаша Фам\nВячеслав \"saBBar\" Левин"), size=fontSize) as credits_text1_line4 at credits_text1_line4_pos zorder 10 with dissolve:
+        xpos 0.5
+        #linear 5.0 xpos 0.52
 
 
-    $ renpy.pause(2)
+    $ renpy.pause(4)
 
     hide aliya_anim with dissolve
 
@@ -79,16 +84,16 @@ label credits:
     show imran angry at credits_imran1_pos1 zorder 10 with dissolve:
         zoom 1.0
         xpos 0.25
-        linear 30.0 xpos 0.45
+        #linear 30.0 xpos 0.45
 
-    $ renpy.pause(0.2)
+    $ renpy.pause(1)
 
-    show text Text(_("{color=#FFD800}Спрайты персонажей:{/color}\nДарья \"miZaria\" Фролова\nSsurikin\nMarys (Маша Свиридова)\nТатьяна \"Akinago\" Аверина"), size=int(50*SCALE)) as credits_text1_line5 at credits_text1_line5_pos zorder 10 with dissolve:
+    show text Text(_("{color=#FFD800}Спрайты персонажей:{/color}\nДарья \"miZaria\" Фролова\nSsurikin\nMarys (Маша Свиридова)\nТатьяна \"Akinago\" Аверина"), size=fontSize) as credits_text1_line5 at credits_text1_line5_pos zorder 10 with dissolve:
         xpos 0.45
-        linear 5.0 xpos 0.52
+        #linear 5.0 xpos 0.52
 
 
-    $ renpy.pause(2)
+    $ renpy.pause(4)
 
     hide imran with dissolve
 
@@ -97,30 +102,30 @@ label credits:
     show aslan watching_imran at credits_aslan1_pos1 zorder 11:
         zoom 1.0
         xpos 0.65
-        alpha 0.0
-        linear 0.5 alpha 1.0
-        linear 30.0 xpos 0.55
+        #alpha 0.0
+        #linear 0.5 alpha 1.0
+        #linear 30.0 xpos 0.55
 
     show fatima smile at credits_fatima1_pos1 zorder 10:
-        alpha 0.0
+        #alpha 0.0
         zoom 1.0
         xpos 0.9
-        linear 0.5 alpha 0.0
-        linear 0.5 alpha 1.0
-        linear 30.0 xpos 0.8
+        #linear 0.5 alpha 0.0
+        #linear 0.5 alpha 1.0
+        #linear 30.0 xpos 0.8
 
-    $ renpy.pause(0.2)
+    $ renpy.pause(1)
 
 
-    show text Text(_("{color=#FFD800}Фоны:{/color}\nQuandial\nАнонимный художник"), size=int(50*SCALE)) as credits_text1_line61 at credits_text1_line61_pos zorder 10 with dissolve:
+    show text Text(_("{color=#FFD800}Фоны:{/color}\nQuandial\nАнонимный художник"), size=fontSize) as credits_text1_line61 at credits_text1_line61_pos zorder 10 with dissolve:
         xpos 0.05
-        linear 5.0 xpos 0.12
+        #linear 5.0 xpos 0.12
 
-    show text Text(_("{color=#FFD800}Прочие изображения:{/color}\nДарья \"miZaria\" Фролова\nЕлизавета \"Lyss\" Попкова\nАнонимный художник"), size=int(50*SCALE)) as credits_text1_line62 at credits_text1_line62_pos zorder 10 with dissolve:
+    show text Text(_("{color=#FFD800}Прочие изображения:{/color}\nДарья \"miZaria\" Фролова\nЕлизавета \"Lyss\" Попкова\nАнонимный художник"), size=fontSize) as credits_text1_line62 at credits_text1_line62_pos zorder 10 with dissolve:
         xpos 0.05
-        linear 5.0 xpos 0.12
+        #linear 5.0 xpos 0.12
 
-    $ renpy.pause(2)
+    $ renpy.pause(4)
 
     hide aslan with dissolve
 
@@ -134,21 +139,21 @@ label credits:
     show officer neutral at credits_officer_pos1 zorder 10:
         zoom 1.0
         xpos 0.15
-        alpha 0.0
-        linear 0.5 alpha 1.0
-        linear 30.0 xpos 0.3
+        #alpha 0.0
+        #linear 0.5 alpha 1.0
+        #linear 30.0 xpos 0.3
 
-    $ renpy.pause(0.2)
+    $ renpy.pause(1)
 
-    show text Text(_("{color=#FFD800}Музыка:{/color}\nRomull"), size=int(50*SCALE)) as credits_text1_line7 at credits_text1_line7_pos zorder 10 with dissolve:
+    show text Text(_("{color=#FFD800}Музыка:{/color}\nRomull"), size=fontSize) as credits_text1_line7 at credits_text1_line7_pos zorder 10 with dissolve:
         xpos 0.47
-        linear 5.0 xpos 0.44
+        #linear 5.0 xpos 0.44
 
-    show text Text(_("{color=#FFD800}Звуки и амбиент:{/color}\nВладислав Хорев\nflorianreichelt (freesound.org)"), size=int(50*SCALE)) as credits_text1_line8 at credits_text1_line8_pos zorder 10 with dissolve:
+    show text Text(_("{color=#FFD800}Звуки и амбиент:{/color}\nВладислав Хорев\nflorianreichelt (freesound.org)"), size=fontSize) as credits_text1_line8 at credits_text1_line8_pos zorder 10 with dissolve:
         xpos 0.47
-        linear 5.0 xpos 0.44
+        #linear 5.0 xpos 0.44
 
-    $ renpy.pause(2)
+    $ renpy.pause(4)
 
     hide officer with dissolve
 
@@ -158,40 +163,38 @@ label credits:
 
     show salesman neutral at credits_salesman_pos1 zorder 11:
         zoom 1.0
-        xpos 0.75
-        alpha 0.0
-        linear 0.5 alpha 1.0
-        linear 30.0 xpos 0.6
+        xpos 0.8
+        #alpha 0.0
+        #linear 0.5 alpha 1.0
+        #linear 30.0 xpos 0.6
 
 
-    $ renpy.pause(0.2)
+    $ renpy.pause(1)
 
 
-    show text Text(_("{color=#FFD800}Моушн-дизайн:{/color}\nДмитрий Журавский (night_xevf)"), size=int(50*SCALE)) as credits_text1_line9 at credits_text1_line9_pos zorder 10 with dissolve:
-        xpos 0.05
-        linear 5.0 xpos 0.12
+    show text Text(_("{color=#FFD800}Моушн-дизайн:{/color}\nДмитрий Журавский (night_xevf)"), size=fontSize) as credits_text1_line9 at credits_text1_line9_pos zorder 10 with dissolve:
+        xpos 0.03
+        #linear 5.0 xpos 0.12
 
-    $ renpy.pause(2)
+    $ renpy.pause(4)
 
     hide salesman with dissolve
 
     hide credits_text1_line9 with dissolve
 
+    $ renpy.pause(1)
 
-    $ renpy.pause(0.2)
-
-
-    show text Text(_("Все персонажи и произошедшие в игре события вымышлены."), size=int(36*SCALE)) as credits_text10_line1 at credits_text10_line1_pos zorder 10 with dissolve
-
-    $ renpy.pause(2)
-
-    show text Text(_("Любые совпадения с реальными личностями и событиями случайны."), size=int(36*SCALE)) as credits_text10_line2 at credits_text10_line2_pos zorder 10 with dissolve
-
-    $ renpy.pause(2)
-
-    show text Text(_("Сюжет игры был создан под впечатлением от событий, описанных в СМИ и в блогах."), size=int(36*SCALE)) as credits_text10_line3 at credits_text10_line3_pos zorder 10 with dissolve
+    show text Text(_("Все персонажи и произошедшие в игре события вымышлены."), size=fontSmallerSize) as credits_text10_line1 at credits_text10_line1_pos zorder 10 with dissolve
 
     $ renpy.pause(4)
+
+    show text Text(_("Любые совпадения с реальными личностями и событиями случайны."), size=fontSmallerSize) as credits_text10_line2 at credits_text10_line2_pos zorder 10 with dissolve
+
+    $ renpy.pause(4)
+
+    show text Text(_("Сюжет игры был создан под впечатлением от событий, описанных в СМИ и в блогах."), size=fontSmallerSize) as credits_text10_line3 at credits_text10_line3_pos zorder 10 with dissolve
+
+    $ renpy.pause(6)
 
 
 
@@ -203,40 +206,40 @@ label credits:
 
         hide credits_text10_line3 with dissolve
 
-        show text Text("Если ваша знакомая окажется в похожей затруднительной ситуации,", size=int(36*SCALE)) as credits_text11_line1 at credits_text11_line1_pos zorder 10 with dissolve
+        show text Text("Если ваша знакомая окажется в похожей затруднительной ситуации,", size=fontSmallerSize) as credits_text11_line1 at credits_text11_line1_pos zorder 10 with dissolve
 
-        $ renpy.pause(2)
+        $ renpy.pause(3)
 
-        show text Text("Сообщите ей мои контактные данные:", size=int(36*SCALE)) as credits_text11_line2 at credits_text11_line2_pos zorder 10 with dissolve
+        show text Text("Сообщите ей мои контактные данные:", size=fontSmallerSize) as credits_text11_line2 at credits_text11_line2_pos zorder 10 with dissolve
 
-        $ renpy.pause(2)
+        $ renpy.pause(3)
 
-        show text Text("VK: ", size=int(36*SCALE)) as credits_text11_line311 at credits_text11_line311_pos zorder 10 with dissolve
+        show text Text("VK: ", size=fontSmallerSize) as credits_text11_line311 at credits_text11_line311_pos zorder 10 with dissolve
 
-        show text Text("{b}vk.com/id677718{/b}", size=int(36*SCALE)) as credits_text11_line312 at credits_text11_line312_pos zorder 10 with dissolve
+        show text Text("{b}vk.com/id677718{/b}", size=fontSmallerSize) as credits_text11_line312 at credits_text11_line312_pos zorder 10 with dissolve
 
-        show text Text("Telegram: ", size=int(36*SCALE)) as credits_text11_line321 at credits_text11_line321_pos zorder 10 with dissolve
+        show text Text("Telegram: ", size=fontSmallerSize) as credits_text11_line321 at credits_text11_line321_pos zorder 10 with dissolve
 
-        show text Text("{b}mephi1984{/b}", size=int(36*SCALE)) as credits_text11_line322 at credits_text11_line322_pos zorder 10 with dissolve
+        show text Text("{b}mephi1984{/b}", size=fontSmallerSize) as credits_text11_line322 at credits_text11_line322_pos zorder 10 with dissolve
 
-        show text Text("Телефон: ", size=int(36*SCALE)) as credits_text11_line331 at credits_text11_line331_pos zorder 10 with dissolve
+        show text Text("Телефон: ", size=fontSmallerSize) as credits_text11_line331 at credits_text11_line331_pos zorder 10 with dissolve
 
-        show text Text("{b}+7 926 049 2730{/b}", size=int(36*SCALE)) as credits_text11_line332 at credits_text11_line332_pos zorder 10 with dissolve
+        show text Text("{b}+7 926 049 2730{/b}", size=fontSmallerSize) as credits_text11_line332 at credits_text11_line332_pos zorder 10 with dissolve
 
-        $ renpy.pause(2)
+        $ renpy.pause(4)
 
-        show text Text("Я постараюсь ей помочь или найду того, кто сможет это сделать.", size=int(36*SCALE)) as credits_text11_line4 at credits_text11_line4_pos zorder 10 with dissolve
+        show text Text("Я постараюсь ей помочь или найду того, кто сможет это сделать.", size=fontSmallerSize) as credits_text11_line4 at credits_text11_line4_pos zorder 10 with dissolve
 
 
-        $ renpy.pause(2)
+        $ renpy.pause(4)
 
-        show text Text("Помните!", size=int(36*SCALE)) as credits_text11_line5 at credits_text11_line5_pos zorder 10 with dissolve
+        show text Text("Помните!", size=fontSmallerSize) as credits_text11_line5 at credits_text11_line5_pos zorder 10 with dissolve
 
-        $ renpy.pause(0.5)
+        $ renpy.pause(1)
 
-        show text Text("Лишнее самоубийство не нужно никому!", size=int(36*SCALE)) as credits_text11_line6 at credits_text11_line6_pos zorder 10 with dissolve
+        show text Text("Лишнее самоубийство не нужно никому!", size=fontSmallerSize) as credits_text11_line6 at credits_text11_line6_pos zorder 10 with dissolve
 
-        $ renpy.pause(10)
+        $ renpy.pause(15)
 
     jump after_credits
 

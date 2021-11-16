@@ -282,8 +282,8 @@ init python:
 
         rv[0].alt = _("Quick save.")
 
-        if not getattr(renpy.context(), "_menu", False):
-            rv.insert(0, FileTakeScreenshot())
+        #if not getattr(renpy.context(), "_menu", False):
+        #    rv.insert(0, FileTakeScreenshot())
 
         return rv
 
@@ -397,7 +397,8 @@ style choice_button_text is button_text
 
 style choice_vbox:
     xalign 0.5
-    ypos int(SCALE*405)
+    #ypos int(SCALE*405)
+    ypos int(SCALE*300) # For Sberbox
     yanchor 0.5
 
     spacing gui.choice_spacing
@@ -456,6 +457,9 @@ default quick_menu = True
 style quick_button is default
 style quick_button_text is button_text
 
+#style quick_button_text:
+
+
 style quick_button:
     properties gui.button_properties("quick_button")
 
@@ -496,8 +500,8 @@ screen navigation():
 
             textbutton _("Начать") action Start()
 
-            if isMobileWeb:
-                textbutton _("{b}Продолжить{/b}") action Continue()
+            #if isMobileWeb:
+            #    textbutton _("{b}Продолжить{/b}") action Continue()
 
         else:
 
@@ -809,18 +813,13 @@ screen about():
 
 
             label "[config.name!t]"
-            textbutton _("Версия [config.version!t]\n") action [ If((debug_mode_counter>=10), If (debug_mode, [SetVariable("debug_mode", False), Notify(_("Режим отладки отключен"))], [SetVariable("debug_mode", True), Notify(_("Режим отладки включен"))]), SetVariable("debug_mode_counter", debug_mode_counter+1)) ]
-            textbutton _("{b}{u}Наш сайт{/u}{/b}") action OpenURL("https://escapetomoscow.com")
-            textbutton _("{b}{u}Наша группа в ВК{/u}{/b}") action OpenURL("https://vk.com/escapetomoscow")
-
+            #textbutton _("Версия [config.version!t]\n") action [ If((debug_mode_counter>=10), If (debug_mode, [SetVariable("debug_mode", False), Notify(_("Режим отладки отключен"))], [SetVariable("debug_mode", True), Notify(_("Режим отладки включен"))]), SetVariable("debug_mode_counter", debug_mode_counter+1)) ]
+            label "Версия [config.version!t], версия Ren'Py [renpy.version_only]"
             label "" # empty space
 
             ## gui.about обычно установлено в options.rpy.
             if gui.about:
                 text "[gui.about!t]\n"
-
-            text _("Сделано с помощью {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
-
 
 ## Это переустанавливается в options.rpy для добавления текста на экран Об игре.
 define gui.about = ""
@@ -831,7 +830,11 @@ style about_label_text is gui_label_text
 style about_text is gui_text
 
 style about_label_text:
-    size gui.label_text_size
+    size gui.about_label_text_size
+
+style about_text:
+    size gui.about_text_size
+
 
 
 ## Экраны загрузки и сохранения ################################################
@@ -996,58 +999,6 @@ screen preferences():
                     textbutton _("Всего текста") action Preference("skip", "toggle")
                     textbutton _("После выборов") action Preference("after choices", "toggle")
                     textbutton _("Переходов") action InvertSelected(Preference("transitions", "toggle"))
-
-
-                ## Дополнительные vbox'ы типа "radio_pref" или "check_pref"
-                ## могут быть добавлены сюда для добавления новых настроек.
-
-
-            null height (4 * gui.pref_spacing)
-
-            hbox:
-                style_prefix "slider"
-                box_wrap True
-
-                vbox:
-
-                    label _("Скорость текста")
-
-                    bar value Preference("text speed")
-
-                vbox:
-
-                    if config.has_music:
-                        label _("Громкость музыки")
-
-                        hbox:
-                            bar value Preference("music volume")
-
-                    if config.has_sound:
-
-                        label _("Громкость звуков")
-
-                        hbox:
-                            bar value Preference("sound volume")
-
-                            if config.sample_sound:
-                                textbutton _("Тест") action Play("sound", config.sample_sound)
-
-
-                    if config.has_voice:
-                        label _("Громкость голоса")
-
-                        hbox:
-                            bar value Preference("voice volume")
-
-                            if config.sample_voice:
-                                textbutton _("Тест") action Play("voice", config.sample_voice)
-
-                    if config.has_music or config.has_sound or config.has_voice:
-                        null height gui.pref_spacing
-
-                        textbutton _("Без звука"):
-                            action Preference("all mute", "toggle")
-                            style "mute_all_button"
 
 
 style pref_label is gui_label
@@ -2203,6 +2154,12 @@ style pref_vbox:
 screen quick_menu():
     variant "touch"
 
+    if isMobileWeb:
+        key "alt_K_2" action ShowMenu('preferences')
+        key "alt_K_3" action QuickSaveX()
+        key "alt_K_4" action QuickLoad()
+        key "alt_K_5" action Start()
+
     zorder 100
 
     if quick_menu:
@@ -2215,8 +2172,11 @@ screen quick_menu():
 
             textbutton _("Назад") action Rollback()
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Авто") action Preference("auto-forward", "toggle")
-            textbutton _("Меню") action ShowMenu()
+            #textbutton _("Авто") action Preference("auto-forward", "toggle")
+            #textbutton _("Меню") action ShowMenu()
+            textbutton _("Б.Сохр") action QuickSaveX()
+            textbutton _("Б.Загр") action QuickLoad()
+            textbutton _("Опции") action ShowMenu('preferences')
 
 
 style window:

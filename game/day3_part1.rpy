@@ -27,7 +27,9 @@ label day3_intro:
 
     announcement "Уважаемые дамы и господа, наш самолёт приступил к снижению. Мы готовимся к посадке в аэропорту Минеральные Воды." with dissolve
 
-    announcement "Просим вас пристегнуть ремни, привести спинки кресел в вертикальное положение, закрыть раскладные столики и открыть шторки на иллюминаторах." with dissolve
+    announcement "Просим вас пристегнуть ремни, привести спинки кресел в вертикальное положение," with dissolve
+
+    announcement "закрыть раскладные столики и открыть шторки на иллюминаторах." with dissolve
 
     $ savegame_picture = "savegame_airplane_night"
 
@@ -111,7 +113,9 @@ label day3_intro:
 
     announcement "Местное время девять часов тридцать минут." with dissolve
 
-    announcement "Для вашей безопасности мы рекомендуем вам оставаться на местах с пристегнутыми ремнями безопасности до выключения светового табло \"пристегните ремни\"." with dissolve
+    announcement "Для вашей безопасности мы рекомендуем вам оставаться на местах с пристегнутыми ремнями безопасности," with dissolve
+
+    announcement "до выключения светового табло \"пристегните ремни\"." with dissolve
 
     announcement "От имени авиакомпании благодарим вас за полёт и будем рады новой встрече!" with dissolve
 
@@ -1046,8 +1050,6 @@ label day3_meet_aliya_fail:
 
     #"THE END, спасибо что поиграли! Концовка 4 - \"Третий день, Семён поругался с Алией из-за религии\"" with dissolve
 
-    $ renpy.pause(1.0)
-
     return
 
 
@@ -1303,7 +1305,9 @@ label day3_airport_inner:
 
     "Прозвучал звук отключения индикатора \"пристегните ремни\"." with dissolve
 
-    announcement "Уважаемые пассажиры, вы можете отстегнуть ремни безопасности, однако мы рекомендуем вам оставаться пристегнутыми на протяжении всего полёта." with dissolve
+    announcement "Уважаемые пассажиры, вы можете отстегнуть ремни безопасности," with dissolve
+
+    announcement "однако мы рекомендуем вам оставаться пристегнутыми на протяжении всего полёта." with dissolve
 
     announcement "Туалеты находятся в хвостовой части самолёта. Вам будут предложены обед и напитки. Желаем вам приятного полёта!" with dissolve
 
@@ -2207,7 +2211,9 @@ label day3_airplane3:
 
     announcement "Местное время четырнадцать часов двадцать минут. Погода в Москве ясная, температура воздуха плюс двадцать градусов тепла." with dissolve
 
-    announcement "Пожалуйста, оставайтесь на своих местах с пристегнутыми ремнями безопасности до выключения светового табло \"пристегните ремни\"." with dissolve
+    announcement "Пожалуйста, оставайтесь на своих местах с пристегнутыми ремнями безопасности," with dissolve
+
+    announcement "до выключения светового табло \"пристегните ремни\"." with dissolve
 
     announcement "От имени авиакомпании благодарим вас за полёт и будем рады новой встрече!" with dissolve
 
@@ -2266,8 +2272,6 @@ label day3_airplane3:
         zoom SCALE
 
     scene black with dissolve
-
-    $ renpy.pause(1.0)
 
     scene airplane_day with dissolve
 
@@ -3062,8 +3066,5 @@ label day3_aeroexpress:
     #$ renpy.start_predict("images/sprites/Aliya/Pose1/mask1/*.*")
     #$ renpy.start_predict("images/sprites/Aliya/Pose2/*.*")
     #$ renpy.start_predict("images/sprites/Aliya/Pose2/mask2/*.*")
-
-
-    $ renpy.pause(1.0)
 
     jump day3_metro

@@ -1415,17 +1415,17 @@ label day3_basmannaya_outside:
     "Очень скоро к нам подошла женщина." with dissolve
 
     show realtor talking at any_left_pos with dissolve:
-        zoom 1.0
+        zoom 1.0*0.9
 
     landlady "Добрый день, Семён, это вы?" with dissolve
 
     show realtor neutral at any_left_pos with dissolve:
-        zoom 1.0
+        zoom 1.0*0.9
 
     me "Здравствуйте! Да, это я." with dissolve
 
     show realtor talking at any_left_pos with dissolve:
-        zoom 1.0
+        zoom 1.0*0.9
 
     landlady "Пойдёмте я вам покажу квартиру..." with dissolve
 
@@ -1732,7 +1732,8 @@ label day3_basmannaya_outside:
 
     me "Зачем?" with dissolve
 
-    show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    #show Aliya special_phone_give_take as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
+    show Aliya_stand_straight tshirt hand_phone eyes_open_neutral as Aliya at aliya_apartment_kitchen_stand_pos with dissolve:
         zoom 1.0
 
     "Вместо ответа Алия протянула мне трубку." with dissolve

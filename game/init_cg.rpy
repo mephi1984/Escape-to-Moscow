@@ -52,7 +52,7 @@ image night_road_foreground2 = im.FactorScale("night_road_foreground2.png", SCAL
 
 image semen_room_day = im.FactorScale("semen_room_day.jpg", SCALE)
 image semen_room_night = im.FactorScale("semen_room_night.jpg", SCALE)
-image semen_room_night_empty = im.FactorScale("semen_room_night_empty.jpg", SCALE)
+image semen_room_night_empty = im.FactorScale("extra/semen_room_night_empty.jpg", SCALE)
 image semen_room_table_day = im.FactorScale("semen_room_table_day.jpg", SCALE)
 image semen_room_table_night = im.FactorScale("semen_room_table_night.jpg", SCALE)
 
@@ -150,20 +150,20 @@ define airplane_window_pos = Position(xpos = 0.3375, xanchor=0.0, ypos=0.119444,
 
 
 #image perlin = im.FactorScale("bkg_extra/perlin.png", SCALE)
-image perlin_mobile_web = im.FactorScale("perlin_mobile_web.jpg", SCALE)
+image perlin_mobile_web = im.FactorScale("extra/perlin_mobile_web.jpg", SCALE)
 
 define cg_airplane_window_pos_start = Position(xpos = 0.0, xanchor=0.0, ypos=0.07, yanchor=0.0)
 
 define cg_airplane_window_pos_start3 = Position(xpos = 0.0, xanchor=0.0, ypos=-0.04, yanchor=0.0)
 
 
-image cg_airplane_window1 = im.FactorScale("bkg_extra/cg_airplane_window1.jpg", SCALE)
+#image cg_airplane_window1 = im.FactorScale("bkg_extra/cg_airplane_window1.jpg", SCALE)
 
-image cg_airplane_window2 = im.FactorScale("bkg_extra/cg_airplane_window2.jpg", SCALE)
+#image cg_airplane_window2 = im.FactorScale("bkg_extra/cg_airplane_window2.jpg", SCALE)
 
-image cg_airplane_window3 = im.FactorScale("bkg_extra/cg_airplane_window3.jpg", SCALE)
+#image cg_airplane_window3 = im.FactorScale("bkg_extra/cg_airplane_window3.jpg", SCALE)
 
-image cg_airplane_window4 = im.FactorScale("bkg_extra/cg_airplane_window4.jpg", SCALE)
+#image cg_airplane_window4 = im.FactorScale("bkg_extra/cg_airplane_window4.jpg", SCALE)
 
 
 #image airplane_day_side = im.FactorScale("airplane_day_side.png", SCALE)

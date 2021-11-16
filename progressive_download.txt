@@ -12,7 +12,8 @@
 - image game/images/sprites/**
 - image game/images/eating/**
 - image game/images/teaser/**
-#- image game/images/bkg_extra/**
+- image game/images/dream/**
+- image game/images/extra/**
 - image game/images/slideshow/**
 + image game/**
 + music game/ambience/**

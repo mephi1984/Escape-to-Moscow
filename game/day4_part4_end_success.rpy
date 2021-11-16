@@ -52,7 +52,7 @@ label day4_end_success:
 
     hide black with dissolve
 
-    show aliya_sit_side no_emotion_layer special_airplane_window as Aliya at any_center_pos:
+    show aliya_sit_side no_emotion_layer special_airplane_window as Aliya at any_center_pos zorder 3:
         zoom SCALE
 
     "Как только мы сели на свои места, бортпроводники объявили о завершении посадки." with dissolve
@@ -61,12 +61,12 @@ label day4_end_success:
 
     me "Спасибо, что доверяешь мне." with dissolve
 
-    show aliya_sit_side no_earphones eyes_open_sad_worried_open_mouth as Aliya at any_center_pos:
+    show aliya_sit_side no_earphones eyes_open_sad_worried_open_mouth as Aliya at any_center_pos zorder 3:
         zoom SCALE
 
     aliya "Куда мы летим?" with dissolve
 
-    show aliya_sit_side no_earphones eyes_open_neutral as Aliya at any_center_pos:
+    show aliya_sit_side no_earphones eyes_open_neutral as Aliya at any_center_pos zorder 3:
         zoom SCALE
 
     me "Мы летим в Казахстан, в город Усть-Каменогорск." with dissolve
@@ -91,7 +91,7 @@ label day4_end_success:
 
     me "Уже под другими именами, с другими документами, с другой внешностью..." with dissolve
 
-    show aliya_sit_side no_emotion_layer special_airplane_window as Aliya at any_center_pos:
+    show aliya_sit_side no_emotion_layer special_airplane_window as Aliya at any_center_pos zorder 3:
         zoom SCALE
 
     aliya "Поняла..." with dissolve
@@ -288,7 +288,7 @@ label day4_end_success:
     if renpy.emscripten:
         if not renpy.in_rollback():
             $ import emscripten
-            $ emscripten.run_script("stopAllMusicExceptRunaway07()")
+            $ emscripten.run_script("stopAllMusicExceptRunaway07AndAirplane2Landed()")
     else:
         stop music # fadeout 5.0
 

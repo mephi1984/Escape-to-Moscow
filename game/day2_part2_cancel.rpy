@@ -83,11 +83,9 @@ label day2_cancel:
 
     "Мне же ещё нужно завтра заставить себя работать." with dissolve
 
-    "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
-
     scene black with dissolve
 
-    $ renpy.pause(1.0)
+    "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
 
     return
 
