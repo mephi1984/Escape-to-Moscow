@@ -70,6 +70,7 @@ default day3_address_told = False
 # Hack for sberbox
 default last_playing_music = ""
 default music_stage_preload = "music_Runaway02"
+default mobileweb_endgame = 0
 
 
 
@@ -155,8 +156,6 @@ define aliya_hood_right_pos = Position(xpos = 0.75, xanchor=0.5, ypos=1.0, yanch
 define isMobileWeb = True
 
 
-
-
 init python:
     renpy.music.register_channel("music_crossfade","music",loop=True,tight=True)
 
@@ -196,5 +195,7 @@ label start:
     $ music_stage_preload = "music_Runaway02"
 
     $ last_playing_music = "playRunaway01"
+
+    $ mobileweb_endgame = 0
 
     jump day1_intro

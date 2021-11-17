@@ -567,6 +567,11 @@ style navigation_button_text:
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
 screen main_menu():
+    tag menu
+    vbox:
+        textbutton _("Начать игру") action Start() #ShowMenu("main_menu_extended")
+
+screen main_menu_extended():
 
     ## Этот тег гарантирует, что любой другой экран с тем же тегом будет
     ## заменять этот.
@@ -983,7 +988,7 @@ style slot_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
 
-screen preferences():
+screen preferences_():
 
     tag menu
 
@@ -999,6 +1004,18 @@ screen preferences():
                     textbutton _("Всего текста") action Preference("skip", "toggle")
                     textbutton _("После выборов") action Preference("after choices", "toggle")
                     textbutton _("Переходов") action InvertSelected(Preference("transitions", "toggle"))
+
+screen preferences():
+
+    #simplified
+    tag menu
+
+    add gui.main_menu_background_mobile_web
+
+    vbox:
+        textbutton _("Назад") action Return()
+        textbutton _("Новая игра") action Start()
+
 
 
 style pref_label is gui_label

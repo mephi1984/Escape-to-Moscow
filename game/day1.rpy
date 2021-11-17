@@ -1,4 +1,12 @@
 
+screen exit_helper():
+
+    key "dismiss" action [ SetVariable("mobileweb_endgame", 0), MainMenu(confirm=False, save=False)]
+    key 'button_select' action [ SetVariable("mobileweb_endgame", 0), MainMenu(confirm=False, save=False)]
+    key 'input_enter' action [ SetVariable("mobileweb_endgame", 0), MainMenu(confirm=False, save=False)]
+    key 'bar_activate' action [ SetVariable("mobileweb_endgame", 0), MainMenu(confirm=False, save=False)]
+    key 'bar_deactivate' action  [ SetVariable("mobileweb_endgame", 0), MainMenu(confirm=False, save=False)]
+
 label day1_intro:
 
     # Will stop predicting them at the end of day 2
@@ -1514,8 +1522,6 @@ label day1_aliya_decline:
     scene black with dissolve
 
     "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
-
-    #$ MainMenu()
 
     return
 

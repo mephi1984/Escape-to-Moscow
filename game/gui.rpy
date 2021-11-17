@@ -23,6 +23,9 @@ init python:
     #Change here for settning scale 1920x1080 to 1280x720
     gui.init(1280, 720)
     #gui.init(1920, 1080)
+    config.has_autosave = False
+    config.autosave_on_quit = False
+    config.autosave_on_choice = False
 
 
 

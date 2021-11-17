@@ -144,7 +144,7 @@ define config.end_game_transition = dissolve
 
 define config.window = "auto"
 
-define config.predict_statements = 5
+define config.predict_statements = 2
 
 
 ## Переходы, используемые при показе и скрытии диалогового окна
@@ -154,7 +154,7 @@ define config.window_hide_transition = Dissolve(.2)
 
 #define config.debug_image_cache = True
 #define config.image_cache_size = 10
-define config.image_cache_size_mb = 50
+define config.image_cache_size_mb = 200
 
 ## Стандартные настройки #######################################################
 
@@ -199,7 +199,7 @@ define config.window_icon = "gui/window_icon.png"
 
 define config.autosave_on_choice = False
 
-define config.autosave_on_choice = False
+define config.autosave_on_quit = False
 
 define config.has_autosave = False
 

@@ -15,6 +15,7 @@
 - image game/images/dream/**
 - image game/images/extra/**
 - image game/images/slideshow/**
+#- image game/images/**
 + image game/**
 + music game/ambience/**
 + music game/music/**
