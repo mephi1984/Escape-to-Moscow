@@ -89,6 +89,9 @@ define gui.interface_text_size = 33*SCALE_SBERBOX
 ## Размер заголовков в пользовательском интерфейсе.
 define gui.label_text_size = 36*SCALE_SBERBOX
 
+define gui.about_text_size = 24*SCALE_SBERBOX
+define gui.about_label_text_size = 24*SCALE_SBERBOX
+
 ## Размер текста на экране уведомлений.
 define gui.notify_text_size = 24*SCALE_SBERBOX
 
@@ -331,7 +334,8 @@ define gui.confirm_button_text_xalign = 0.5
 define gui.page_button_borders = Borders(int(15*SCALE_SBERBOX), int(6*SCALE_SBERBOX), int(15*SCALE_SBERBOX), int(6*SCALE_SBERBOX))
 
 define gui.quick_button_borders = Borders(int(15*SCALE_SBERBOX), int(6*SCALE_SBERBOX), int(15*SCALE_SBERBOX), 0)
-define gui.quick_button_text_size = int(21*SCALE_SBERBOX)
+#define gui.quick_button_text_size = int(21*SCALE_SBERBOX)
+define gui.quick_button_text_size = int(32*SCALE_SBERBOX)
 define gui.quick_button_text_idle_color = gui.idle_small_color
 define gui.quick_button_text_selected_color = gui.accent_color
 
@@ -586,6 +590,8 @@ init python:
         gui.interface_text_size = int(45*SCALE_SBERBOX)
         gui.button_text_size = int(45*SCALE_SBERBOX)
         gui.label_text_size = int(51*SCALE_SBERBOX)
+        gui.about_text_size = int(24*SCALE_SBERBOX)
+        gui.about_label_text_size = int(24*SCALE_SBERBOX)
 
         ## Регулирует местоположение текстового окна.
         gui.textbox_height = int(360*SCALE_SBERBOX)
@@ -604,7 +610,8 @@ init python:
         gui.history_height = int(285*SCALE_SBERBOX)
         gui.history_text_width = int(1035*SCALE_SBERBOX)
 
-        gui.quick_button_text_size = int(30*SCALE_SBERBOX)
+        #gui.quick_button_text_size = int(30*SCALE_SBERBOX)
+        gui.quick_button_text_size = int(45*SCALE_SBERBOX)
 
         ## Местоположение кнопок слотов.
         gui.file_slot_cols = 2

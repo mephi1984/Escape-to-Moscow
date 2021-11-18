@@ -1100,7 +1100,7 @@ layeredimage officer:
             "sprites/officer/base.png"
 
     group pose:
-        pos (220, 240)
+        pos (220, 54)
         attribute neutral:
             "sprites/empty.png"      #Already in base.png
 

@@ -62,8 +62,8 @@ image branch1_daghome_window = im.FactorScale("teaser/branch1_daghome_window.png
 image branch1_daghome_aliya = im.FactorScale("teaser/branch1_daghome_aliya.png", 1.0)
 
 
-image lucoil1 = im.FactorScale("teaser/lucoil1.png", 1.0)
-image lucoil2 = im.FactorScale("teaser/lucoil2.png", 1.0)
+image lucoil1 = im.FactorScale("teaser/lucoil1.jpg", 1.0)
+image lucoil2 = im.FactorScale("teaser/lucoil2.jpg", 1.0)
 image lucoil2_people_layer = im.FactorScale("teaser/lucoil2_people_layer.png", 1.0)
 image lukoil_side = im.FactorScale("teaser/lukoil_side.jpg", 1.0)
 image lukoil_side_p1 = im.FactorScale("teaser/lukoil_side_p1.png", 1.0)

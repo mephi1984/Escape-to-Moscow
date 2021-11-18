@@ -51,26 +51,21 @@ define credits_text1_line8 = Text(_("{color=#FFD800}Звуки и амбиент
 define credits_text1_line9 = Text(_("{color=#FFD800}Моушн-дизайн:{/color}\nДмитрий Журавский (night_xevf)"), size=int(50*SCALE))
 
 
-define gui.about = _p("""
+define gui.about = ("""
+Наша группа: {u}https://vk.com/escapetomoscow{/u}
+
 {color=#FFD800}Продюсер:{/color} Владислав Хорев
-
 {color=#FFD800}Разработчик:{/color} Владислав Хорев
-
 {color=#FFD800}Автор сценария:{/color} Владислав Хорев
-
 {color=#FFD800}Тексты:{/color} Владислав Хорев, Яна "Samadreal" Однорог, Таша Фам, Вячеслав "saBBar" Левин
-
 {color=#FFD800}Спрайты персонажей:{/color} Дарья "miZaria" Фролова, Ssurikin, Marys (Маша Свиридова), Татьяна "Akinago" Аверина
-
 {color=#FFD800}Фоны:{/color} Quandial, Анонимный художник
-
 {color=#FFD800}Прочие изображения:{/color} Дарья "miZaria" Фролова, Елизавета "Lyss" Попкова, Анонимный художник
-
 {color=#FFD800}Музыка:{/color} Romull
-
 {color=#FFD800}Звуки и амбиент:{/color} Владислав Хорев, florianreichelt (freesound.org)
-
 {color=#FFD800}Моушн-дизайн:{/color} Дмитрий Журавский (night_xevf)
+
+Сделано с помощью Ren'Py
 """)
 
 
