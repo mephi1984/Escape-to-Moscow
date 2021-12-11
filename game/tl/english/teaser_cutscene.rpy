@@ -4,17 +4,16 @@ translate english strings:
 
     # game/teaser_cutscene.rpy:23
     old "Несколько дней спустя..."
-    new ""
+    new "A few days after..."
 
     # game/teaser_cutscene.rpy:404
     old "Побег в Москву 2"
-    new ""
+    new "Escape to Moscow 2"
 
     # game/teaser_cutscene.rpy:412
     old "В 2023 году"
-    new ""
+    new "In 2023"
 
     # game/teaser_cutscene.rpy:420
     old "vk.com/escapetomoscow"
-    new ""
-
+    new "vk.com/escapetomoscow"

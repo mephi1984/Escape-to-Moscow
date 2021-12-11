@@ -1166,7 +1166,7 @@ label day2_escape_now_coach_not_talked:
 
     $ addSentMessage(2)
 
-    me "Эээ...долго рассказывать." with dissolve
+    me "Эээ... долго рассказывать." with dissolve
 
     $ addReceivedMessage(4)
 

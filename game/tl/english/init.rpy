@@ -62,7 +62,7 @@ translate english strings:
 
     # game/init.rpy:98
     old "Мужчина"
-    new ""
+    new "Man"
 
     # init.rpy:94
     old "Имран"
