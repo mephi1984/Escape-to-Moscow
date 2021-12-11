@@ -1,16 +1,3 @@
-# game/dagestan_exposition.rpy:10
-translate english dagestan_exposition_d676c638:
-
-    # coach "Она из Дагестана. Ты много знаешь про Дагестан?" with dissolve
-    coach "She is from Dagestan. How much do you know about Dagestan?" with dissolve
-
-# game/dagestan_exposition.rpy:27
-translate english day1_ask_coach_dagestan_2af56897:
-
-    # me "Почти ничего не знаю" with dissolve
-    me "I know almost nothing" with dissolve
-
-
 # game/dagestan_exposition.rpy:31
 translate english day1_ask_coach_dagestan_7a246719:
 
@@ -773,3 +760,708 @@ translate english strings:
     # dagestan_exposition.rpy:380
     old "Вернуться назад"
     new "Go back"
+# TODO: Translation updated at 2021-12-11 15:30
+
+# game/dagestan_exposition.rpy:10
+translate english dagestan_exposition_a2b75fc5:
+
+    # coach "Она из Дагестана. Ты много знаешь об этой республике?" with dissolve
+    coach "She is from Dagestan. How much do you know about Dagestan?" with dissolve
+
+# game/dagestan_exposition.rpy:27
+translate english day1_ask_coach_dagestan_bedbe269:
+
+    # me "Почти ничего не знаю." with dissolve
+    me "I know almost nothing." with dissolve
+
+# game/dagestan_exposition.rpy:31
+translate english day1_ask_coach_dagestan_c380eb8a:
+
+    # coach "Хорошо, с чего бы начать... Дагестан это национальная республика, которая находится на Северном Кавказе." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:35
+translate english day1_ask_coach_dagestan_1cfe89e5:
+
+    # coach "Хотя Дагестан находится в составе России, жизнь в нём сильно отличается от жизни в средней российской глубинке." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:39
+translate english day1_ask_coach_dagestan_8ee7003e:
+
+    # coach "Ну вообще, все республики на Кавказе - особенные, но Дагестан, наверное, по-своему особенная республика." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:43
+translate english day1_ask_coach_dagestan_391df747:
+
+    # me "Чем Дагестан выделяется?" with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:47
+translate english day1_ask_coach_dagestan_6a93bda6:
+
+    # coach "Во-первых, Дагестан самый населённый - три миллиона жителей - первое место среди всех субъектов Северного Кавказа." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:51
+translate english day1_ask_coach_dagestan_ed0a322e:
+
+    # coach "Во-вторых, это очень многонациональная республика." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:55
+translate english day1_ask_coach_dagestan_46696bbb:
+
+    # coach "Если в Чечне преимущественно живут чеченцы, в Ингушетии - ингуши и так далее, то в Дагестане вместе проживают более полутора десятка национальностей." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:59
+translate english day1_ask_coach_dagestan_ba22949f:
+
+    # coach "Поэтому говорить про дагестанца, что \"он по национальности дагестанец\" - неверно." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:63
+translate english day1_ask_coach_dagestan_25abc1a9:
+
+    # coach "\"Дагестанец\" может быть по национальности аварцем, даргинцем, лезгином, лакцем или даже русским." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:67
+translate english day1_ask_coach_dagestan_d91185b5:
+
+    # coach "У каждого из народов республики Дагестан свой язык, который не похож на другие." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:71
+translate english day1_ask_coach_dagestan_fa822f12:
+
+    # coach "Может быть и так, что выходцы из одного села в Дагестане не будут понимать язык жителей другого села." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:75
+translate english day1_ask_coach_dagestan_bc7a7b8d:
+
+    # coach "Особенно сильно это различие в языках проявляется в Махачкале, где все народы плотно перемешались и живут вместе." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:79
+translate english day1_ask_coach_dagestan_54a26011:
+
+    # coach "В этом случае дагестанцы, чтобы понимать друг друга, переходят на русский язык. Он становится языком межнационального общения." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:83
+translate english day1_ask_coach_dagestan_94b4477a:
+
+    # coach "Поэтому средний дагестанец достаточно хорошо знает русский язык, а если взять жителя Махачкалы, то и использует его в ежедневном общений." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:87
+translate english day1_ask_coach_dagestan_ece69cf2:
+
+    # coach "Ещё одна особенность: по сравнению с остальным Кавказом, в Махачкале достаточно либеральные нравы." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:91
+translate english day1_ask_coach_dagestan_c9a30231:
+
+    # coach "Девушки могут ходить в чём хотят: кто-то, конечно, закрывает волосы платком, но немало из них носит джинсы и юбки." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:95
+translate english day1_ask_coach_dagestan_c45fbe1d:
+
+    # coach "Представить что-то подобное в Грозном, например, просто немыслимо." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:99
+translate english day1_ask_coach_dagestan_b3628444:
+
+    # coach "Более того, в Махачкале проходит ежегодный фестиваль аниме-культуры, где встречаются косплееры, фанаты аниме и видеоигр." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:103
+translate english day1_ask_coach_dagestan_c5e6cebb:
+
+    # coach "Если сравнить, например, с Чечней или с Ингушетией - разница значительная." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:111
+translate english day1_ask_coach_dagestan_52db1bb1:
+
+    # coach "Спрашивай, если тебя интересует какая-то конкретная тема. Я расскажу более подробно." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:150
+translate english day1_ask_coach_danger_0ea8fc1e:
+
+    # coach "Нет, там безопасно как и в других регионах Северного Кавказа." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:154
+translate english day1_ask_coach_danger_6240f8d7:
+
+    # coach "Уровень насильственных преступлений очень низкий по сравнению с другими регионами России." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:158
+translate english day1_ask_coach_danger_94a8a5a9:
+
+    # coach "По улицам можно ходить ночью не опасаясь, что тебя ограбят или убьют." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:162
+translate english day1_ask_coach_danger_cba87bd9:
+
+    # me "А что насчёт террористической угрозы?" with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:166
+translate english day1_ask_coach_danger_c03d3910:
+
+    # coach "Террористическая угроза существовала в нулевых годах. Было время, боевики спускались с гор и нападали на блокпосты." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:170
+translate english day1_ask_coach_danger_5cc4f0af:
+
+    # coach "Однако, примерно с 2012 года, радикально настроенные экстремисты начали уезжать воевать в Сирию." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:174
+translate english day1_ask_coach_danger_aef3c2a0:
+
+    # coach "На текущий момент в горах Дагестана больше нет никаких бандформирований." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:178
+translate english day1_ask_coach_danger_b902487f:
+
+    # coach "Сейчас самое спокойное время в Дагестане, можно сказать, за всю его современную историю." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:182
+translate english day1_ask_coach_danger_5bb0da84:
+
+    # me "Понял." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:193
+translate english day1_ask_coach_religion_8eaee815:
+
+    # me "Расскажи про религию в Дагестане." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:197
+translate english day1_ask_coach_religion_d5ba68b7:
+
+    # coach "В Дагестане большинство населения - мусульмане-сунниты." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:201
+translate english day1_ask_coach_religion_0247e26c:
+
+    # coach "Если ты не различаешь суннитов и шиитов, то для тебя это не существенно. Можешь не запоминать." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:205
+translate english day1_ask_coach_religion_637e4a37:
+
+    # coach "Несмотря на то, что большинство населения исповедует ислам, в Дагестане не принято быть очень уж религиозным." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:209
+translate english day1_ask_coach_religion_cd486e7a:
+
+    # coach "Когда дагестанец молится и соблюдает запреты шариата это нормально." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:213
+translate english day1_ask_coach_religion_9a75fc2f:
+
+    # coach "Но стоит ему начать учить арабский язык, изучать какие-то тексты, литературу - на него начинают косо смотреть и подозревать в экстремизме." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:217
+translate english day1_ask_coach_religion_f0997741:
+
+    # coach "Это в какой-то мере идет ещё с советских времен и особенно характерно для силовиков или просто госслужащих." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:221
+translate english day1_ask_coach_religion_23f7b951:
+
+    # coach "Доходит до того, что дагестанцы стараются быть чисто выбритыми, чтобы не быть похожими на бородачей-террористов." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:225
+translate english day1_ask_coach_religion_ac2e404c:
+
+    # coach "Это относится больше к взрослому поколению, в особенности тех, кто ещё застал Советский Союз." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:229
+translate english day1_ask_coach_religion_ab144e81:
+
+    # coach "Современная молодёжь в Дагестане в среднем намного более религиозна, чем их родители." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:233
+translate english day1_ask_coach_religion_955fd167:
+
+    # coach "Но опять же, все дагестанцы разные и нельзя сказать что-то однозначное. Кто-то более религиозен, кто-то менее." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:237
+translate english day1_ask_coach_religion_fe17819a:
+
+    # me "Понятно." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:247
+translate english day1_ask_coach_tradition_d3fe3ac8:
+
+    # me "Расскажи про традиции в Дагестане." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:251
+translate english day1_ask_coach_tradition_34a91c34:
+
+    # coach "Как и на всём Северном Кавказе, в Дагестане сильны традиции гостеприимства." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:255
+translate english day1_ask_coach_tradition_a4c02f9e:
+
+    # coach "В мелких городах и сёлах почти нет гостиниц, потому что они не нужны." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:259
+translate english day1_ask_coach_tradition_2df3a1fd:
+
+    # coach "Если ты приехал издалека, можешь просто подойти к любому дому, постучаться и попроситься переночевать. Тебя пустят, накормят и дадут ночлег." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:263
+translate english day1_ask_coach_tradition_fc055b45:
+
+    # coach "В Дагестане принято уважать старших. Им нужно уступать места и слушаться." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:267
+translate english day1_ask_coach_tradition_e16b1dad:
+
+    # coach "Особенно сильно это проявляется в семье. Ослушаться отца — немыслимое дело!" with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:271
+translate english day1_ask_coach_tradition_42d49401:
+
+    # coach "Дагестанец может не бояться ни драки, ни полиции, единственное чего он боится — потерять уважение своего отца." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:275
+translate english day1_ask_coach_tradition_773e86cc:
+
+    # coach "Ещё в Дагестане достаточно трепетное отношение к своим женщинам." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:279
+translate english day1_ask_coach_tradition_090bd0bf:
+
+    # coach "Женщина в Дагестане находится под защитой всех своих родственников." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:283
+translate english day1_ask_coach_tradition_b8289a49:
+
+    # coach "Не стоит обижать дагестанку. Она пожалуется, например, своему брату, который вызовет обидчика на разговор." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:287
+translate english day1_ask_coach_tradition_4bbb4dc2:
+
+    # coach "По этой же причине в Дагестане не принято делать замечание посторонней девушке." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:291
+translate english day1_ask_coach_tradition_3fdf67f6:
+
+    # coach "Это будет невежливо, оскорбительно и тому, кто сделал замечание, может непоздоровиться." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:295
+translate english day1_ask_coach_tradition_4704f7c9:
+
+    # coach "Если дагестанец видит, что девушка ведёт себя неподобающе, он скорее всего промолчит, максимум - скажет об этом её родственнику-мужчине." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:299
+translate english day1_ask_coach_tradition_a8fb0fbc:
+
+    # me "Ага..." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:313
+translate english day1_ask_coach_woman1_7e820d6b:
+
+    # me "Расскажи про положение женщины в обществе Дагестана." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:317
+translate english day1_ask_coach_woman1_5839c1c4:
+
+    # coach "Если смотреть в целом на государственном уровне - всё выглядит прилично." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:321
+translate english day1_ask_coach_woman1_9cea2bf5:
+
+    # coach "Декларируется равноправие: никаких ограничений нет, женщины учатся в колледжах и университетах." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:325
+translate english day1_ask_coach_woman1_5e90e1b3:
+
+    # coach "Также они получают профессию и работают наравне с мужчинами." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:329
+translate english day1_ask_coach_woman1_68bea83e:
+
+    # coach "Тем не менее, общество в Дагестане патриархальное. Женщина зачастую воспринимается не как самостоятельная личность, а как принадлежащая своему мужу или отцу." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:333
+translate english day1_ask_coach_woman1_bb506874:
+
+    # coach "Тут всё зависит уже от семьи. Если родители девушки либеральные, они не будут ограничивать свою дочь." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:337
+translate english day1_ask_coach_woman1_5ac25b60:
+
+    # coach "Они позволят ей учиться там, где она пожелает и разрешат выйти замуж за кого она хочет." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:341
+translate english day1_ask_coach_woman1_171703fd:
+
+    # coach "Но если девушка выросла где-нибудь в селе, то скорее всего родители не будут считаться с её мнением." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:345
+translate english day1_ask_coach_woman1_8af9a466:
+
+    # coach "Девушка будет вынуждена выйти замуж за того, кого родители посчитают достойным женихом." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:349
+translate english day1_ask_coach_woman1_92023565:
+
+    # coach "И в дальнейшем она будет вынуждена жить с мужем и слушаться его." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:353
+translate english day1_ask_coach_woman1_d2bc7755:
+
+    # coach "Дагестан меняется со временем. Но и сейчас по-прежнему существуют убийства чести и свадьбы по принуждению." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:357
+translate english day1_ask_coach_woman1_4d7981d8:
+
+    # coach "В общем, тема обширная. Что именно ты хочешь узнать?" with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:393
+translate english day1_ask_coach_woman_decline_marry_507f2311:
+
+    # me "Что будет, если девушка откажется выходить замуж?" with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:397
+translate english day1_ask_coach_woman_decline_marry_b83fcc9f:
+
+    # coach "Если девушка живёт в селе, особо выбора-то и нет." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:401
+translate english day1_ask_coach_woman_decline_marry_8adfbcdb:
+
+    # coach "Она так же, как и односельчане, живёт по заведённым традициям и не представляет, что может быть иначе." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:405
+translate english day1_ask_coach_woman_decline_marry_9f2fc59e:
+
+    # coach "Если девушке прямо совсем неприятен мужчина, за которого она выходит замуж, то выбор невелик:" with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:409
+translate english day1_ask_coach_woman_decline_marry_fba8ca90:
+
+    # coach "она может сбежать из дома или совершить самоубийство. И то и другое сложно сделать, как ты понимаешь." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:413
+translate english day1_ask_coach_woman_decline_marry_0ecff6e4:
+
+    # coach "Если же дагестанка, допустим, училась в Махачкале, вкусила городской жизни, имеет широкий круг друзей и интересов," with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:417
+translate english day1_ask_coach_woman_decline_marry_445f077d:
+
+    # coach "получила диплом, собирается устроиться на работу и тут её вдруг родители хотят вернуть в село и выдать замуж за односельчанина - " with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:421
+translate english day1_ask_coach_woman_decline_marry_8395dba2:
+
+    # coach "вот тут уже не всё так однозначно." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:425
+translate english day1_ask_coach_woman_decline_marry_33469ee5:
+
+    # coach "Может быть, девушка сумеет отстоять свою независимость и переубедить родителей." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:429
+translate english day1_ask_coach_woman_decline_marry_6c58cbe2:
+
+    # coach "А может, договориться с родителями не удастся и тогда возможен любой исход, вплоть до убийства чести." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:433
+translate english day1_ask_coach_woman_decline_marry_476eccfe:
+
+    # me "Да уж." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:448
+translate english day1_ask_coach_woman_love_c0d72114:
+
+    # coach "По правилам парень и девушка не должны \"встречаться\", в том смысле как это происходит у русских." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:452
+translate english day1_ask_coach_woman_love_d3963be6:
+
+    # coach "Если парню понравилась девушка, он должен посвататься: просить руки и сердца у её родителей." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:456
+translate english day1_ask_coach_woman_love_389417f0:
+
+    # coach "Если родители дают одобрение, парень сможет взять девушку в жёны." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:460
+translate english day1_ask_coach_woman_love_35272f98:
+
+    # coach "Если вместо этого девушка будет ходить на свидания с парнем, она будет считаться распутной." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:464
+translate english day1_ask_coach_woman_love_975a62f1:
+
+    # coach "Разумеется, конкретные рамки допустимого могут варьироваться. В Махачкале студентка ДГУ может без проблем общаться со своими одногруппниками." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:468
+translate english day1_ask_coach_woman_love_99b5c6fe:
+
+    # coach "В то время как где-нибудь в селе девушка не осмелится даже заговорить с незнакомым мужчиной." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:472
+translate english day1_ask_coach_woman_love_f92eccd8:
+
+    # coach "Однозначно существует лишь запрет на ночевку в доме с чужим мужчиной. Всё остальное по ситуации." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:476
+translate english day1_ask_coach_woman_love_07043fcf:
+
+    # me "Интересно." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:491
+translate english day1_ask_coach_woman_honor_killing_05e538bf:
+
+    # coach "На Кавказе, конечно, это так не называют, там говорят \"смыть позор\"" with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:495
+translate english day1_ask_coach_woman_honor_killing_1fa72983:
+
+    # coach "Если девушка ведёт себя неподобающе, считается что она таким образом позорит весь свой род." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:499
+translate english day1_ask_coach_woman_honor_killing_45f4dfdd:
+
+    # coach "Кто-то из родственников-мужчин может в таком случае решить убить её, чтобы решить проблему." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:503
+translate english day1_ask_coach_woman_honor_killing_28bac8f1:
+
+    # coach "Обычно у родителей и братьев рука не поднимется убить свою дочь, сестру. Однако это может сделать кто-то из более дальних родственников." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:507
+translate english day1_ask_coach_woman_honor_killing_63ef4e61:
+
+    # coach "Чаще всего убивают за измену, блуд, отказ выходить замуж. Реже - за слухи." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:511
+translate english day1_ask_coach_woman_honor_killing_05d4351f:
+
+    # coach "Настоящие убийства чести — всё же редкое явление и служат скорее \"пугалом\"." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:515
+translate english day1_ask_coach_woman_honor_killing_0c786f8c:
+
+    # coach "Истории об убийствах чести циркулируют в обществе в виде тем, которые люди обсуждают или в виде слухов." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:519
+translate english day1_ask_coach_woman_honor_killing_791ca23c:
+
+    # coach "В реальной жизни обычно такие вопросы решаются без крови." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:523
+translate english day1_ask_coach_woman_honor_killing_fe17819a:
+
+    # me "Понятно." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:534
+translate english day1_ask_coach_woman_kidnapping_9748720f:
+
+    # me "Расскажи про традицию похищения невесты." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:538
+translate english day1_ask_coach_woman_kidnapping_3880e775:
+
+    # coach "Похищение невесты в Дагестане осуждается." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:542
+translate english day1_ask_coach_woman_kidnapping_5aab9916:
+
+    # coach "Если парню понравилась девушка, будет правильнее всего идти к её родителям просить руки и сердца." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:546
+translate english day1_ask_coach_woman_kidnapping_9326b936:
+
+    # coach "Похищение имеет смысл лишь в том случае, если не удаётся договориться нормально." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:550
+translate english day1_ask_coach_woman_kidnapping_b11cfb7f:
+
+    # coach "Это может быть когда парень и девушка любят друг друга, но родители против свадьбы." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:554
+translate english day1_ask_coach_woman_kidnapping_c6ab7776:
+
+    # coach "Второй вариант похуже: парень хочет взять девушку в жёны, но она против и родители её поддерживают." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:558
+translate english day1_ask_coach_woman_kidnapping_b40b6086:
+
+    # coach "В первом случае парень и девушка заранее договариваются о похищении и это происходит скорее для вида." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:562
+translate english day1_ask_coach_woman_kidnapping_14be5c9a:
+
+    # coach "Но может быть, что девушка реально не хочет выходить за парня, родители также против, но жених очень хочет жениться именно на ней." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:566
+translate english day1_ask_coach_woman_kidnapping_814bbdbd:
+
+    # coach "Тогда он действительно может организовать похищение, и довольно жестокое." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:570
+translate english day1_ask_coach_woman_kidnapping_8e27c51e:
+
+    # coach "Девушку завернут в бурку, кинут в автомобиль и отвезут в дом жениха." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:574
+translate english day1_ask_coach_woman_kidnapping_e188d7ea:
+
+    # coach "Дальше, если девушка провела ночь в доме мужчины, родителям приходится согласиться выдать дочь за него замуж под давлением общественного мнения." with dissolve
+    coach "" with dissolve
+
+# game/dagestan_exposition.rpy:578
+translate english day1_ask_coach_woman_kidnapping_f130c1ae:
+
+    # me "Ясно." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:588
+translate english day1_ask_coach_knowall_f2c7b02b:
+
+    # me "Да, я знаю о Дагестане и о традициях его жителей." with dissolve
+    me "" with dissolve
+
+# game/dagestan_exposition.rpy:597
+translate english day1_ask_coach_learnedall_d80e2f8f:
+
+    # me "Спасибо, я узнал всё, что мне нужно." with dissolve
+    me "" with dissolve
+
+translate english strings:
+
+    # game/dagestan_exposition.rpy:12
+    old "\"Почти ничего не знаю.\""
+    new ""
+
+    # game/dagestan_exposition.rpy:12
+    old "\"Да, я знаю о Дагестане и о традициях его жителей.\""
+    new ""
+
+    # game/dagestan_exposition.rpy:120
+    old "Религия в Дагестане."
+    new ""
+
+    # game/dagestan_exposition.rpy:120
+    old "Традиции Дагестана."
+    new ""
+
+    # game/dagestan_exposition.rpy:120
+    old "Положение женщины в обществе Дагестана."
+    new ""
+
+    # game/dagestan_exposition.rpy:120
+    old "\"Спасибо, я узнал всё, что нужно.\""
+    new ""
+
+    # game/dagestan_exposition.rpy:367
+    old "\"Что будет, если девушка откажется выходить замуж?\""
+    new ""
+
+    # game/dagestan_exposition.rpy:367
+    old "Похищение невесты."
+    new ""
+
+    # game/dagestan_exposition.rpy:367
+    old "Вернуться назад."
+    new ""

@@ -881,3 +881,561 @@ translate english strings:
     # day4_part2_parent_success.rpy:636
     old "Семен не смог уговорить Алию"
     new "Semyon failed to persuade Aliya"
+# TODO: Translation updated at 2021-12-11 15:30
+
+# game/day4_part2_parent_success.rpy:36
+translate english day4_parents_part6_parent_persuade_success_9f27b3fb:
+
+    # fatima "Спасибо, Семён! Хорошо, сейчас я вам дам паспортные данные, купите пожалуйста нам билеты." with dissolve
+    fatima "" with dissolve
+
+# game/day4_part2_parent_success.rpy:38
+translate english day4_parents_part6_parent_persuade_success_c7768c1a:
+
+    # fatima "Скажите, сколько они стоят и мы вам прямо сразу же вернём деньги наличными." with dissolve
+    fatima "" with dissolve
+
+# game/day4_part2_parent_success.rpy:48
+translate english day4_parents_part6_parent_persuade_success_162a1b03:
+
+    # "С этими словами я открыл приложение и начал просматривать рейсы." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:54
+translate english day4_parents_part6_parent_persuade_success_a9607517:
+
+    # fatima "Аслан, дай паспорт и кошелёк из сумки." with dissolve
+    fatima "" with dissolve
+
+# game/day4_part2_parent_success.rpy:60
+translate english day4_parents_part6_parent_persuade_success_1a8844bf:
+
+    # "Аслан отдал документы жене." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:76
+translate english day4_parents_part6_parent_persuade_success_740021fa:
+
+    # "В гостиной остались только Фатима и я." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:96
+translate english day4_parents_part6_parent_persuade_success_8a951599:
+
+    # "Но, посмотрев на Фатиму, я понял: это просто обычное любопытство." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:98
+translate english day4_parents_part6_parent_persuade_success_48c189dd:
+
+    # "Хотя в последнее время билеты мне покупает Напарник, я тоже умею пользоваться этим приложением." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:100
+translate english day4_parents_part6_parent_persuade_success_dc915b71:
+
+    # me "В целом тут всё довольно просто: Вы выбираете откуда и куда Вам нужен билет, а также интересующую дату." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:102
+translate english day4_parents_part6_parent_persuade_success_d96546f9:
+
+    # me "Приложение выдаёт Вам подборку вариантов, а Вы уже выбираете подходящий рейс." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:104
+translate english day4_parents_part6_parent_persuade_success_353897b9:
+
+    # me "Можно выбрать более дешёвые билеты или, к примеру, более дорогие, но без пересадок. Здесь уж кому что нужно." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:106
+translate english day4_parents_part6_parent_persuade_success_22c92c00:
+
+    # "Я ввёл сегодняшнюю дату и запустил поиск." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:110
+translate english day4_parents_part6_parent_persuade_success_74a4269b:
+
+    # me "Вот, к примеру, есть два неплохих варианта: из Домодедово и из Внуково - но последний я не рекомендую." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:122
+translate english day4_parents_part6_parent_persuade_success_f62d33c5:
+
+    # me "Это авиакомпания-лоукостер. Тот случай, когда один раз попробовал и больше не хочется." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:124
+translate english day4_parents_part6_parent_persuade_success_dcf884d6:
+
+    # me "У них есть проблемы с багажом да и сотрудники далеко не вежливые, плюс комиссия два процента при оплате картой, что тоже не особо выгодно." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:126
+translate english day4_parents_part6_parent_persuade_success_3193aa46:
+
+    # me "За всё нужно платить: за выбор места, за регистрацию. Билеты вроде дешёвые, а в сумме выходит довольно много." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:132
+translate english day4_parents_part6_parent_persuade_success_ee55a2ea:
+
+    # fatima "Тогда лучше первый вариант - из Домодедово." with dissolve
+    fatima "" with dissolve
+
+# game/day4_part2_parent_success.rpy:140
+translate english day4_parents_part6_parent_persuade_success_a27957bd:
+
+    # "Теперь можно купить билеты." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:142
+translate english day4_parents_part6_parent_persuade_success_f7036254:
+
+    # me "Кстати, можно купить билеты ещё дешевле. У Вас ведь нет багажа, я так понимаю?" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:148
+translate english day4_parents_part6_parent_persuade_success_7f8132b7:
+
+    # fatima "Да, мы без багажа прилетели. А как это с ценой связано?" with dissolve
+    fatima "" with dissolve
+
+# game/day4_part2_parent_success.rpy:154
+translate english day4_parents_part6_parent_persuade_success_87141f55:
+
+    # me "Тут есть билеты по промо-тарифу: без багажа." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:156
+translate english day4_parents_part6_parent_persuade_success_3044841f:
+
+    # me "Правда их обычно немного, но на нужный Вам рейc есть несколько." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:168
+translate english day4_parents_part6_parent_persuade_success_a083ca70:
+
+    # "Фатима достала паспорта и дала мне для покупки." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:174
+translate english day4_parents_part6_parent_persuade_success_646a0663:
+
+    # "Я выбрал три билета из Домодедово на рейс вылетающий в 17:10 в Минеральные Воды и достал кредитную карту." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:180
+translate english day4_parents_part6_parent_persuade_success_7ee792eb:
+
+    # "Как обычно, после покупки пришло СМС-сообщение от банка с подтверждением платежа." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:184
+translate english day4_parents_part6_parent_persuade_success_1304b185:
+
+    # me "Билеты куплены. В аэропорту Вам всего лишь потребуется найти стойки регистрации от 104 до 136. Их легко узнать: они зелёного цвета." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:186
+translate english day4_parents_part6_parent_persuade_success_44295e4e:
+
+    # me "Приходите туда, показываете ваш паспорт и получаете посадочный талон." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:202
+translate english day4_parents_part6_parent_persuade_success_001f7275:
+
+    # me "Затем после регистрации, следуя указателям, вам необходимо будет проследовать для прохождения предполётного досмотра:" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:204
+translate english day4_parents_part6_parent_persuade_success_f65421e8:
+
+    # me "вас попросят пройти через рамку и досмотрят на наличие запрещённых к перевозу вещей, ну это Вы уже, наверное, проходили." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:206
+translate english day4_parents_part6_parent_persuade_success_25c6345b:
+
+    # me "Плюс всегда есть различные непредвиденные обстоятельства," with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:208
+translate english day4_parents_part6_parent_persuade_success_11ecb1de:
+
+    # me "вот и лучше заранее ко всему подготовиться, чтобы потом не бегать, надеясь успеть." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:220
+translate english day4_parents_part6_parent_persuade_success_ad446a70:
+
+    # me "Также по дороге в аэропорт всякое может произойти, поэтому выезжать лучше заранее." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:226
+translate english day4_parents_part6_parent_persuade_success_2352303b:
+
+    # fatima "Хорошо! Спасибо за помощь, Семён!" with dissolve
+    fatima "" with dissolve
+
+# game/day4_part2_parent_success.rpy:232
+translate english day4_parents_part6_parent_persuade_success_5065fa11:
+
+    # "Не за что. Они, конечно, не догадываются, что я сейчас куплю билеты ещё кое-куда..." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:234
+translate english day4_parents_part6_parent_persuade_success_ae9c8fd1:
+
+    # "Ладно, план с авиабилетами удался. Теперь осталась одна важная задача." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:250
+translate english day4_parents_part6_parent_persuade_success_d0773e1e:
+
+    # "Поднявшись, я вернулся в свою комнату, сел на кровать, достал телефон и написал Напарнику." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:254
+translate english day4_parents_part6_parent_persuade_success_aa12b345:
+
+    # me "Я купил билеты родителям и Алие в Минеральные Воды сегодня на пять часов вечера." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:262
+translate english day4_parents_part6_parent_persuade_success_36a17eeb:
+
+    # me "Возможно, Имран отвезёт их в аэропорт на своей машине." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:266
+translate english day4_parents_part6_parent_persuade_success_f69f42d8:
+
+    # coach "Как прошёл разговор, кстати?" with dissolve
+    coach "" with dissolve
+
+# game/day4_part2_parent_success.rpy:278
+translate english day4_parents_part6_parent_persuade_success_fda00cf7:
+
+    # "Я пересказал содержание нашего разговора в гостиной." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:282
+translate english day4_parents_part6_parent_persuade_success_1ae214c8:
+
+    # coach "Ты неплохо справился. Только во время рассказа о побеге, ты мог обидеть Алию." with dissolve
+    coach "" with dissolve
+
+# game/day4_part2_parent_success.rpy:286
+translate english day4_parents_part6_parent_persuade_success_99349593:
+
+    # coach "Вообще, рассказывать о ком-то в присутствии этого человека - невежливо." with dissolve
+    coach "" with dissolve
+
+# game/day4_part2_parent_success.rpy:290
+translate english day4_parents_part6_parent_persuade_success_eed73dd0:
+
+    # me "Ой, об этом я не подумал." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:294
+translate english day4_parents_part6_parent_persuade_success_f3400f9f:
+
+    # coach "Когда будешь говорить с Алией, лучше извинись." with dissolve
+    coach "" with dissolve
+
+# game/day4_part2_parent_success.rpy:302
+translate english day4_parents_part6_parent_persuade_success_2dbfe091:
+
+    # me "Здесь мне сложно общаться с Алией наедине." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:306
+translate english day4_parents_part6_parent_persuade_success_8ae4c07c:
+
+    # me "Но я передал ей записку с планом. Надеюсь, она прочитает." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:310
+translate english day4_parents_part6_parent_persuade_success_fe86ea0b:
+
+    # coach "Поговори с ней! Она согласилась вернуться в Пятигорск и ты не знаешь, что у неё творится в голове." with dissolve
+    coach "" with dissolve
+
+# game/day4_part2_parent_success.rpy:314
+translate english day4_parents_part6_parent_persuade_success_2fb82a2e:
+
+    # coach "Она уезжает в аэропорт через несколько часов. Считай, у тебя остался последний шанс!" with dissolve
+    coach "" with dissolve
+
+# game/day4_part2_parent_success.rpy:322
+translate english day4_parents_part6_parent_persuade_success_51b6fd0f:
+
+    # coach "Объясни ей свои мотивы, убеди, что ты на её стороне, не дави на девушку." with dissolve
+    coach "" with dissolve
+
+# game/day4_part2_parent_success.rpy:334
+translate english day4_parents_part6_parent_persuade_success_42f6f9b4:
+
+    # me "Спасибо!" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:348
+translate english day4_parents_part6_parent_persuade_success_ccbfde2d:
+
+    # "Раздался стук. Я встал с кровати и открыл дверь." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:366
+translate english day4_parents_part6_parent_persuade_success_df789de3:
+
+    # "Я взял тарелку с чашкой из рук Алии и поставил на комод у двери." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:385
+translate english day4_parents_part6_parent_persuade_success_08b6f6a5:
+
+    # me "Я должен тебе кое-что сказать..." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:387
+translate english day4_parents_part6_parent_persuade_success_3c2d32b0:
+
+    # "Алия недоверчиво посмотрела на меня, но всё же остановилась." with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:389
+translate english day4_parents_part6_parent_persuade_success_831e9d26:
+
+    # me "Мне жаль, если хоть что-то сказанное мной в диалоге с твоей семьёй тебя задело." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:391
+translate english day4_parents_part6_parent_persuade_success_244a53dd:
+
+    # me "Как я и говорил, я на твоей стороне." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:393
+translate english day4_parents_part6_parent_persuade_success_c7478cac:
+
+    # me "Конечно, я был бы рад, если всё сказанное твоей семьёй оказалось правдой. Это, говоря на чистоту, было бы отлично, при этом..." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:395
+translate english day4_parents_part6_parent_persuade_success_b0e082d8:
+
+    # me "Говоря уже до конца честно, ты им веришь?" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:424
+translate english day4_parents_part7_choice1_dont_trust_e76f8eb7:
+
+    # me "Ты ведь сама видишь: не стоит полагаться на твоих родителей." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:428
+translate english day4_parents_part7_choice1_dont_trust_c129f846:
+
+    # me "Тебя запрут дома, а после выдадут замуж. Вот и всё, что тебя там ждёт. Разве ты этого хотела?" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:439
+translate english day4_parents_part7_choice2_ready_to_risk_16132a68:
+
+    # me "Но готова ли ты рискнуть всем ради этого?" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:448
+translate english day4_parents_part7_choice3_choose_by_yourself_dbb11741:
+
+    # me "Не мне тебя убеждать в чём-то." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:450
+translate english day4_parents_part7_choice3_choose_by_yourself_9a7632d9:
+
+    # me "Алия, ты должна сама сделать выбор. Определиться, чего ты хочешь на самом деле:" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:452
+translate english day4_parents_part7_choice3_choose_by_yourself_d0f37cb7:
+
+    # me "вернуться домой и продолжить учёбу в меде или обрести свободу и самой принимать решения." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:454
+translate english day4_parents_part7_choice3_choose_by_yourself_c8c39a7c:
+
+    # me "В любом случае, я поддержу твой выбор." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:497
+translate english day4_parents_part9_choice2_finish_6ffbe2be:
+
+    # me "Думаю, когда я наконец-то тебе помогу, всё наладится и мы продолжим жить как считаем нужным." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:510
+translate english day4_parents_part9_choice3_what_you_want_efb7463a:
+
+    # me "Именно поэтому я и помогаю тебе сбежать, ведь вернувшись назад этого не произойдёт." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:519
+translate english day4_parents_part10_a437ba2b:
+
+    # me "Я возьму всю вину на себя. Скажу, что просто не смог смириться с происходящим и хотел тебя остановить." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:527
+translate english day4_parents_part10_3c73c453:
+
+    # "Может сказать что-нибудь ещё?" with dissolve
+    "" with dissolve
+
+# game/day4_part2_parent_success.rpy:550
+translate english day4_parents_part11_choice1_persuade_9a6d146f:
+
+    # me "Алия, просто подумай, что ждёт тебя дома и что случится, если ты будешь жить как хочешь." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:552
+translate english day4_parents_part11_choice1_persuade_ac4989d5:
+
+    # me "Представь, что ты и правда могла бы стать поваром и открыла бы свой ресторанчик." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:554
+translate english day4_parents_part11_choice1_persuade_42e83c11:
+
+    # me "Со временем перебралась в Корею или Японию. Жить или просто отдохнуть." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:556
+translate english day4_parents_part11_choice1_persuade_582d6eae:
+
+    # me "Всего этого ты можешь достичь сама, просто решившись сейчас и сделав шаг в нужном направлении." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:558
+translate english day4_parents_part11_choice1_persuade_1029b6cd:
+
+    # me "При этом я бы тебя поддержал в случае необходимости." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:564
+translate english day4_parents_part11_choice1_persuade_427b700b:
+
+    # me "Вот и тебе не стоит. Уж ты-то в стойкости характера ей не уступишь." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:566
+translate english day4_parents_part11_choice1_persuade_c991bd66:
+
+    # me "Ты сделала уже столько всего, что просто не вообразить. Не останавливайся!" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:568
+translate english day4_parents_part11_choice1_persuade_61aa29ec:
+
+    # me "Если продолжишь идти в том же темпе, я просто уверен, не пройдет и 10-ти лет как я смогу прийти в небольшое кафе," with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:570
+translate english day4_parents_part11_choice1_persuade_e15dc6bc:
+
+    # me "где вкусные бисквиты будет готовить очаровательна девушка по имени Алия." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:597
+translate english day4_parents_part12_choice1_praise_7df1a69c:
+
+    # me "Чем бы в итоге не закончилась наша с тобой история, я хочу, чтобы ты знала: я был рад с тобой познакомиться." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:599
+translate english day4_parents_part12_choice1_praise_5156322f:
+
+    # me "Ты показала, что всегда важно идти к цели преодолевая преграды, не боясь быть собой." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:615
+translate english day4_parents_part12_choice2_always_on_your_side_85539956:
+
+    # me "Чем бы в итоге всё это не закончилось, я хочу, чтобы ты помнила: у тебя есть друг, на которого можно рассчитывать." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:617
+translate english day4_parents_part12_choice2_always_on_your_side_238e20fd:
+
+    # me "Сейчас или через несколько лет, в любой афере или просто так." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:619
+translate english day4_parents_part12_choice2_always_on_your_side_c0c51f7c:
+
+    # me "Я всегда буду на твоей стороне!" with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:626
+translate english day4_parents_part11_choice2_over_05bc4eb5:
+
+    # me "В любом случае я приму любое твоё решение." with dissolve
+    me "" with dissolve
+
+# game/day4_part2_parent_success.rpy:643
+translate english day4_parents_part13_7e737317:
+
+    # "Я тоже замер, ожидая что она ответит..." with dissolve
+    "" with dissolve
+
+translate english strings:
+
+    # game/day4_part2_parent_success.rpy:407
+    old "\"Решай сама.\""
+    new ""
+
+    # game/day4_part2_parent_success.rpy:466
+    old "\"Ты мне нравишься!\""
+    new ""
+
+    # game/day4_part2_parent_success.rpy:466
+    old "\"Я хочу довести дело до конца!\""
+    new ""
+
+    # game/day4_part2_parent_success.rpy:466
+    old "\"Я хочу, чтобы ты получила то, что хотела!\""
+    new ""
+
+    # game/day4_part2_parent_success.rpy:529
+    old "Сказать что-нибудь ещё?"
+    new ""
+
+    # game/day4_part2_parent_success.rpy:529
+    old "Попытаться убедить дальше."
+    new ""
+
+    # game/day4_part2_parent_success.rpy:529
+    old "\"Решение за тобой!\""
+    new ""
+
+    # game/day4_part2_parent_success.rpy:580
+    old "Похвалить."
+    new ""
+
+    # game/day4_part2_parent_success.rpy:580
+    old "\"Я всегда на твоей стороне!\""
+    new ""
+
+    # game/day4_part2_parent_success.rpy:646
+    old "Семён смог уговорить Алию."
+    new ""
+
+    # game/day4_part2_parent_success.rpy:646
+    old "Семён не смог уговорить Алию."
+    new ""
+

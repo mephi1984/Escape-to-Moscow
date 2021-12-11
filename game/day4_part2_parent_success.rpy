@@ -203,7 +203,9 @@ label day4_parents_part6_parent_persuade_success:
 
     me "вас попросят пройти через рамку и досмотрят на наличие запрещённых к перевозу вещей, ну это Вы уже, наверное, проходили." with dissolve
 
-    me "Плюс всегда есть различные непредвиденные обстоятельства, вот и лучше заранее ко всему подготовиться, чтобы потом не бегать, надеясь успеть." with dissolve
+    me "Плюс всегда есть различные непредвиденные обстоятельства," with dissolve
+
+    me "вот и лучше заранее ко всему подготовиться, чтобы потом не бегать, надеясь успеть." with dissolve
 
     show fatima talking at imran_house_pos4 with dissolve:
         zoom 0.75*SCALE
@@ -388,7 +390,9 @@ label day4_parents_part6_parent_persuade_success:
 
     me "Как я и говорил, я на твоей стороне." with dissolve
 
-    me "Конечно, я был бы рад, если всё сказанное твоей семьёй оказалось правдой. Это, говоря на чистоту, было бы отлично, при этом... Говоря уже до конца честно, ты им веришь?" with dissolve
+    me "Конечно, я был бы рад, если всё сказанное твоей семьёй оказалось правдой. Это, говоря на чистоту, было бы отлично, при этом..." with dissolve
+
+    me "Говоря уже до конца честно, ты им веришь?" with dissolve
 
     show Aliya_stand_straight tshirt eyes_open_neutral as Aliya at aliya_imran_room_pos with dissolve:
         zoom 0.75*SCALE

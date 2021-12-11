@@ -777,3 +777,503 @@ translate english day2_escape_now_success_coach_continue_db689e49:
 
     # me "Хорошо! Выхожу" with dissolve
     me "Ok! I am going out" with dissolve
+# TODO: Translation updated at 2021-12-11 15:30
+
+# game/day2_part2_success.rpy:11
+translate english day2_escape_now_success_6956ce52:
+
+    # aliya_mobile "Эх, гореть мне в аду за то, что я делаю!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:15
+translate english day2_escape_now_success_4e154480:
+
+    # aliya_mobile "Вот мой паспорт. Покупай билеты на завтра." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:23
+translate english day2_escape_now_success_9ba52f47:
+
+    # "Я открыл фото и развернул паспорт Алии во весь экран." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:27
+translate english day2_escape_now_success_830b6ef5:
+
+    # "Её фотка в паспорте была симпатичной, кстати..." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:65
+translate english day2_escape_now_success_coach_not_talked_1553b7fe:
+
+    # me "Привет! Дела неплохо, я сейчас собираюсь покупать авиабилеты для одной моей новой знакомой..." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:73
+translate english day2_escape_now_success_coach_not_talked_f451aca3:
+
+    # me "Я с ней познакомился только вчера, я её не знаю." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:77
+translate english day2_escape_now_success_coach_not_talked_99fbe859:
+
+    # coach "Не знаешь её и уже покупаешь авиабилеты?" with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:85
+translate english day2_escape_now_success_coach_not_talked_1660a7dc:
+
+    # me "Эээ...это долгая история" with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:89
+translate english day2_escape_now_success_coach_not_talked_3f85a083:
+
+    # coach "Пришли мне свою переписку с ней, я почитаю." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:95
+translate english day2_escape_now_success_coach_not_talked_175e3d77:
+
+    # "Прошло достаточно много времени и наконец-но Напарник начал писать ответ." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:99
+translate english day2_escape_now_success_coach_not_talked_2c4cba54:
+
+    # coach "Я офигеваю от сложившейся ситуации." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:103
+translate english day2_escape_now_success_coach_not_talked_89ca312b:
+
+    # coach "Ты молодец, что хочешь помочь, ты выбрал самый разумный вариант." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:111
+translate english day2_escape_now_success_coach_not_talked_9977c8a2:
+
+    # coach "Мне даже не нужно давать тебе советы, ты сам прекрасно справляешься." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:115
+translate english day2_escape_now_success_coach_not_talked_68048335:
+
+    # coach "Однако я всё-таки хочу кое-что у тебя уточнить." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:126
+translate english day2_escape_now_success_coach_not_talked_after_exposition_a2a2c55c:
+
+    # coach "Теперь, возвращаясь к текущей ситуации." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:130
+translate english day2_escape_now_success_coach_not_talked_after_exposition_054a9ba4:
+
+    # coach "Я тоже поддерживаю тебя в твоих делах и хочу помочь тебе." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:138
+translate english day2_escape_now_success_coach_not_talked_after_exposition_533130f0:
+
+    # coach "Я сейчас поищу авиабилеты под твои критерии. Постараюсь найти подходящий вариант. Дай мне пару минут." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:165
+translate english day2_escape_now_success_coach_ever_talked_b72eb860:
+
+    # me "Да." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:169
+translate english day2_escape_now_success_coach_ever_talked_fd875e2c:
+
+    # coach "Пришли пожалуйста переписку, я прочитаю." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:177
+translate english day2_escape_now_success_coach_ever_talked_04203ffe:
+
+    # coach "Да, вчера ты познакомился с ней, а сегодня тебе уже нужно принимать сложное решение." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:181
+translate english day2_escape_now_success_coach_ever_talked_a7231a8b:
+
+    # coach "Ты молодец, что решил помочь ей. Ты выбрал самый разумный способ." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:189
+translate english day2_escape_now_success_coach_ever_talked_054a9ba4:
+
+    # coach "Я тоже поддерживаю тебя в твоих делах и хочу помочь тебе." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:197
+translate english day2_escape_now_success_coach_ever_talked_76c88212:
+
+    # coach "Я сейчас поищу авиабилеты, под твои критерии. Постараюсь найти подходящий вариант. Дай пару минут." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:217
+translate english day2_escape_now_success_coach_advice_asked_6d3c3b38:
+
+    # me "Я лечу к ней в Минеральные Воды." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:221
+translate english day2_escape_now_success_coach_advice_asked_8ed009f2:
+
+    # me "Мы договорились встретиться в аэропорту завтра утром." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:225
+translate english day2_escape_now_success_coach_advice_asked_c1e8984e:
+
+    # me "Там я её встречаю и мы уже вдвоём летим в Москву." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:229
+translate english day2_escape_now_success_coach_advice_asked_b6977ab2:
+
+    # coach "Отлично! Я уже ищу разные варианты авиабилетов." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:238
+translate english day2_escape_now_success_coach_continue_3562a24e:
+
+    # coach "На завтра есть недорогие билеты из Минеральных Вод в Москву, в 12 часов дня." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:246
+translate english day2_escape_now_success_coach_continue_5e726286:
+
+    # coach "Тут уже похуже. Есть ночной рейс с длительной пересадкой в аэропорту Домодедово." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:250
+translate english day2_escape_now_success_coach_continue_18a66b20:
+
+    # coach "Ты прилетишь в Минеральные Воды завтра примерно в 9:40 утра." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:254
+translate english day2_escape_now_success_coach_continue_4fd74697:
+
+    # coach "Правда вылетать тебе придётся сегодня ночью. Ночной рейс вылетает в 00:50, это примерно через 3 часа." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:258
+translate english day2_escape_now_success_coach_continue_7a0485f3:
+
+    # me "С часу ночи до 9:40 утра? Почему так долго?" with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:262
+translate english day2_escape_now_success_coach_continue_dc403b16:
+
+    # coach "Там будет ночная пересадка в Москве, в аэропорту Домодедово." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:270
+translate english day2_escape_now_success_coach_continue_38d1c32e:
+
+    # coach "Остальные билеты либо распроданы либо стоят под 40 тысяч рублей." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:274
+translate english day2_escape_now_success_coach_continue_aac2b007:
+
+    # me "Да уж..." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:278
+translate english day2_escape_now_success_coach_continue_22df0703:
+
+    # coach "Это единственный вариант за адекватные деньги." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:286
+translate english day2_escape_now_success_coach_continue_0f1c7809:
+
+    # me "Думаю, успею... хотя не знаю." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:290
+translate english day2_escape_now_success_coach_continue_767ea0ba:
+
+    # coach "Если ты зарегистрируешься онлайн и не будешь сдавать багаж, то точно успеешь." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:298
+translate english day2_escape_now_success_coach_continue_c9073347:
+
+    # coach "Да. Возьми с собой в салон самолёта лёгкую сумку или рюкзак." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:302
+translate english day2_escape_now_success_coach_continue_19c3a9bc:
+
+    # coach "Туда нельзя будет класть жидкости и всякие колюще-режущие предметы." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:306
+translate english day2_escape_now_success_coach_continue_53ed4a21:
+
+    # coach "Когда приедешь в аэропорт, распечатай посадочный талон в автомате и сразу проходи к выходам на посадку." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:310
+translate english day2_escape_now_success_coach_continue_7f1ed990:
+
+    # me "Хорошо..." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:322
+translate english day2_escape_now_success_coach_continue_0e9c61d7:
+
+    # coach "У меня есть знакомый стритрейсер. Он как раз живет недалеко от тебя. Его зовут Ярик." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:326
+translate english day2_escape_now_success_coach_continue_9fb7ec22:
+
+    # coach "Я свяжусь сейчас с ним и попрошу подбросить тебя до аэропорта." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:330
+translate english day2_escape_now_success_coach_continue_8dda728c:
+
+    # coach "Думаю, Ярик войдёт в положение и поможет тебе ради хорошего дела!" with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:338
+translate english day2_escape_now_success_coach_continue_844007e9:
+
+    # coach "Не бойся, ты не один! У тебя есть люди, которых ты может быть и не знаешь, но которые готовы помочь." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:340
+translate english day2_escape_now_success_coach_continue_01d08cd6:
+
+    # "Приятное чувство благодарности к напарнику растеклось по всему моему телу." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:344
+translate english day2_escape_now_success_coach_continue_c2ebbed8:
+
+    # me "Спасибо ещё раз! Я ценю это!" with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:348
+translate english day2_escape_now_success_coach_continue_979c57a7:
+
+    # coach "Ярик тебе сейчас отпишется, жди." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:352
+translate english day2_escape_now_success_coach_continue_1e34834e:
+
+    # coach "А пока лови ссылку на авиабилеты." with dissolve
+    coach "" with dissolve
+
+# game/day2_part2_success.rpy:356
+translate english day2_escape_now_success_coach_continue_64646f86:
+
+    # "Мне пришла ссылка на авиабилеты от Напарника." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:368
+translate english day2_escape_now_success_coach_continue_ba967f98:
+
+    # "Конечно же это был сайт поиска авиабилетов." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:390
+translate english day2_escape_now_success_coach_continue_becbfa52:
+
+    # "Всего несколько кликов - готово!" with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:412
+translate english day2_escape_now_success_coach_continue_a067ce9b:
+
+    # yarik "Привет, Семён! Слышал про твою историю." with dissolve
+    yarik "" with dissolve
+
+# game/day2_part2_success.rpy:416
+translate english day2_escape_now_success_coach_continue_290263dd:
+
+    # yarik "Буду рад помочь." with dissolve
+    yarik "" with dissolve
+
+# game/day2_part2_success.rpy:420
+translate english day2_escape_now_success_coach_continue_19f11865:
+
+    # yarik "Я сейчас же соберусь, примчусь к тебе и подброшу прямо до терминала!" with dissolve
+    yarik "" with dissolve
+
+# game/day2_part2_success.rpy:424
+translate english day2_escape_now_success_coach_continue_e4e2e1a8:
+
+    # yarik "Через час ты уже будешь там, можешь начинать отсчёт!" with dissolve
+    yarik "" with dissolve
+
+# game/day2_part2_success.rpy:440
+translate english day2_escape_now_success_coach_continue_2196358b:
+
+    # "Все препятствия словно магическим образом исчезают на моём пути." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:442
+translate english day2_escape_now_success_coach_continue_75e14131:
+
+    # "Деньги есть, хоть и кредитные. Заказов по работе, конечно, много висит, но дедлайны еще далеко, можно чуть отдохнуть." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:452
+translate english day2_escape_now_success_coach_continue_336e0398:
+
+    # me "Я купил билеты. Буду ждать тебя завтра утром в 10 часов в аэропорту." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:456
+translate english day2_escape_now_success_coach_continue_c3dffd4b:
+
+    # aliya_mobile "Хорошо!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:460
+translate english day2_escape_now_success_coach_continue_fb265d52:
+
+    # aliya_mobile "Встречаемся возле главного входа?" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:464
+translate english day2_escape_now_success_coach_continue_935c77aa:
+
+    # me "Да, буду ждать тебя там." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:468
+translate english day2_escape_now_success_coach_continue_b2f67c0c:
+
+    # aliya_mobile "Спасибо!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:472
+translate english day2_escape_now_success_coach_continue_e7f57fbc:
+
+    # me "Возьми с собой все свои документы: паспорт, ИНН." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:476
+translate english day2_escape_now_success_coach_continue_4253f225:
+
+    # aliya_mobile "Паспорт у меня есть." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:484
+translate english day2_escape_now_success_coach_continue_5df2a2f5:
+
+    # me "Да, ИНН нужен чтобы устроится на работу. Если не найдёшь оригинал, возьми хотя бы копию." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:488
+translate english day2_escape_now_success_coach_continue_f484dc01:
+
+    # aliya_mobile "Ладно..." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:492
+translate english day2_escape_now_success_coach_continue_aabb43ad:
+
+    # me "Запомнила план? Утром притворись, что идёшь в колледж и вместо этого езжай на автобусе в аэропорт." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:496
+translate english day2_escape_now_success_coach_continue_455f8dbf:
+
+    # aliya_mobile "Поняла!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:502
+translate english day2_escape_now_success_coach_continue_53434699:
+
+    # me "Желаю тебе удачи! Уверен, у тебя всё будет хорошо!" with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:506
+translate english day2_escape_now_success_coach_continue_c5e416e2:
+
+    # me "Я сейчас буду собираться и поеду в аэропорт." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_success.rpy:510
+translate english day2_escape_now_success_coach_continue_f48db41a:
+
+    # aliya_mobile "Спасибо. Я тоже начну собираться." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_success.rpy:528
+translate english day2_escape_now_success_coach_continue_155578b3:
+
+    # "Уже долгое время я не покидал родной город и за это время рюкзак успел заметно покрыться пылью." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:532
+translate english day2_escape_now_success_coach_continue_b45edac4:
+
+    # "Не знаю даже, на сколько я покидаю свой дом... На несколько дней? Недель?" with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:536
+translate english day2_escape_now_success_coach_continue_909c5659:
+
+    # "Конечно же, зарядные устройства, павербанки, переносные жёсткие диски." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:540
+translate english day2_escape_now_success_coach_continue_09fbbbd8:
+
+    # "Я бегал по всей квартире, заглядывая во все углы - вдруг мне что-то понадобится или я что-нибудь забуду." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:556
+translate english day2_escape_now_success_coach_continue_d99979d9:
+
+    # "Наконец все вещи вроде бы собраны. Ноутбук я тоже запаковал в рюкзак." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:560
+translate english day2_escape_now_success_coach_continue_525a4e85:
+
+    # "Не думаю, что задержусь в Москве надолго. Но всё равно, было такое странное чувство." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:562
+translate english day2_escape_now_success_coach_continue_fbac1357:
+
+    # "Если я уезжаю отдохнуть, всегда знаю когда приеду." with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:564
+translate english day2_escape_now_success_coach_continue_083ed610:
+
+    # "Но сейчас всё произошло так резко. Готов ли я покинуть привычную квартиру и отправиться навстречу приключениям?" with dissolve
+    "" with dissolve
+
+# game/day2_part2_success.rpy:580
+translate english day2_escape_now_success_coach_continue_e897408f:
+
+    # yarik "Я приехал и жду тебя во дворе. Купе красного цвета." with dissolve
+    yarik "" with dissolve
+
+# game/day2_part2_success.rpy:584
+translate english day2_escape_now_success_coach_continue_c6560e1e:
+
+    # me "Хорошо! Выхожу..." with dissolve
+    me "" with dissolve
+

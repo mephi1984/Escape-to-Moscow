@@ -148,7 +148,7 @@ define aliya_apartment_kitchen_stand_pos = Position(xpos = 0.85, xanchor=0.5, yp
 define aliya_hood_right_pos = Position(xpos = 0.75, xanchor=0.5, ypos=1.0, yanchor=1.0)
 
 
-define isMobileWeb = True
+define isMobileWeb = False
 
 
 
@@ -159,10 +159,7 @@ init python:
     #    renpy.play('sound/seatbelt.ogg')
 
 
-    if isMobileWeb:
-        config.has_autosave = True
-        config.autosave_frequency = 10
-        config.autosave_on_choice = True
+    config.has_autosave = False
 
 
 label splashscreen:

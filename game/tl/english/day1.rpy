@@ -10,35 +10,11 @@ translate english day1_intro_8574dfee:
     # "Все приличные люди давно уже спят в этот час." with dissolve
     "People usually already sleep at that time." with dissolve
 
-# game/day1.rpy:16
-translate english day1_intro_50380eb4:
-
-    # "А я до сих пор еще не лег спать." with dissolve
-    "And I am still awake." with dissolve
-
-# game/day1.rpy:18
-translate english day1_intro_0425c954:
-
-    # "Меня тянет в сон, но какая-то неведомая сила заставляет меня продолжать смотреть в дисплей ноутбука." with dissolve
-    "I feel sleepy, but it's like something forces me to stare at my laptop." with dissolve
-
 # game/day1.rpy:20
 translate english day1_intro_2c4f83b6:
 
     # "Словно бы я таким образом могу задержать наступление следующего дня." with dissolve
     "Like that way I could prevent the next day coming." with dissolve
-
-# game/day1.rpy:22
-translate english day1_intro_8c1fd786:
-
-    # "Конечно, я понимаю - следующий день настанет, в любом случае." with dissolve
-    "Of course, I understand - next day is inevitable." with dissolve
-
-# game/day1.rpy:24
-translate english day1_intro_289c7d55:
-
-    # "Но мой мозг будто говорит - не хочу идти в завтра! Давай останемся в сегодня, еще хоть на пять минуточек?" with dissolve
-    "But my brain saying to me like - I don't want tomorrow! Let's stay in today, just 5 more minutes please?" with dissolve
 
 # game/day1.rpy:26
 translate english day1_intro_baae7be2:
@@ -579,7 +555,7 @@ translate english day1_aliya_meeting_b76646fa:
 translate english day1_aliya_meeting_aecc98ec:
 
     # "Да, типичный случай. Я знаю много таких фанаток Кореи." with dissolve
-    "Yes, common case. I know a lot of Korea fangirls like her" with dissolve
+    "Yes, common case. I know a lot of Korea fangirls like her." with dissolve
 
 # game/day1.rpy:367
 translate english day1_aliya_meeting_4a8547d5:
@@ -2048,3 +2024,1472 @@ translate english strings:
     # day1.rpy:771
     old "\"Предложи своему жениху отказаться от свадьбы\""
     new "\"Offer your fiance to refuse the marriage\""
+# TODO: Translation updated at 2021-12-11 15:30
+
+# game/day1.rpy:53
+translate english day1_intro_d70cec8a:
+
+    # "А я до сих пор ещё не лёг." with dissolve
+    "And I am still awake." with dissolve
+
+# game/day1.rpy:55
+translate english day1_intro_c69de565:
+
+    # "Меня тянет в сон, но какая-то неведомая сила заставляет продолжать смотреть в дисплей ноутбука." with dissolve
+    "I feel sleepy, but it's like something forces me to stare at my laptop." with dissolve
+
+# game/day1.rpy:59
+translate english day1_intro_97b657e2:
+
+    # "Конечно, я понимаю - следующий день настанет в любом случае." with dissolve
+    "Of course, I understand - next day is inevitable." with dissolve
+
+# game/day1.rpy:61
+translate english day1_intro_3e6f0f12:
+
+    # "Но мой мозг будто говорит: \"Не хочу идти в завтра! Давай останемся в сегодня ещё хоть на пять минуточек?\"" with dissolve
+    "But my brain saying to me like - I don't want tomorrow! Let's stay in today, just 5 more minutes please?" with dissolve
+
+# game/day1.rpy:63
+translate english day1_intro_5dc4f5ac:
+
+    # "Как бы мне хотелось остановить время, задержать наступление завтрашнего дня." with dissolve
+    "How I wish to stop the time, stop next day coming." with dissolve
+
+# game/day1.rpy:65
+translate english day1_intro_f9993bfb:
+
+    # "Хотя бы ненадолго получить возможность ничего не делать." with dissolve
+    "Just for a little bit, allow myself to do nothing." with dissolve
+
+# game/day1.rpy:75
+translate english day1_intro_7efc1c1d:
+
+    # "Конечно же, когда я стал фрилансером, то понял - всё совсем не так." with dissolve
+    "Of course, when I became a freelancer, I realized - that is totally not true." with dissolve
+
+# game/day1.rpy:79
+translate english day1_intro_4718ce73:
+
+    # "А чтобы платить за всё это, нужно зарабатывать деньги. Постоянно." with dissolve
+    "In order to pay my bills, I have to earn money. Non-stop." with dissolve
+
+# game/day1.rpy:81
+translate english day1_intro_bec84d81:
+
+    # "Стоит только остановиться, отдохнуть - всё, бюджет не сходится. Приходится переходить на доширак." with dissolve
+    "As soon as I make a pause, short rest - my budget gets screwed. I have to cut my expenses." with dissolve
+
+# game/day1.rpy:83
+translate english day1_intro_f9546a47:
+
+    # "Такое ощущение, будто я тону вниз. Постоянно тону." with dissolve
+    "I feel like I am sinking down the ocean, sinking every day." with dissolve
+
+# game/day1.rpy:91
+translate english day1_intro_99f054cd:
+
+    # "Поэтому я сейчас здесь. Сижу в своей комнате перед дисплеем ноутбука и смотрю тупые видео в интернете." with dissolve
+    "So, I am here. Sitting in my room, in front of the laptop screen, and watching stupid videos in the internet." with dissolve
+
+# game/day1.rpy:116
+translate english day1_coach_pre_meeting_2a82d8ec:
+
+    # "Впрочем, нельзя сказать, что я совсем никак не пытаюсь исправить своё положение." with dissolve
+    "However, one could not say that I don't do anything at all to fix my situation." with dissolve
+
+# game/day1.rpy:118
+translate english day1_coach_pre_meeting_66b2bd25:
+
+    # "То с чем я столкнулся, называется профессиональным выгоранием." with dissolve
+    "What I am dealing with, is called 'burnout'." with dissolve
+
+# game/day1.rpy:120
+translate english day1_coach_pre_meeting_6463786b:
+
+    # "Я гуглил об этом, читал статьи на разных сайтах." with dissolve
+    "I searched about the burnout in the internet, I read articles on different websites." with dissolve
+
+# game/day1.rpy:122
+translate english day1_coach_pre_meeting_00b49552:
+
+    # "Там предлагают разные способы борьбы с ним." with dissolve
+    "They offer a variety of ways to fight the burnout." with dissolve
+
+# game/day1.rpy:124
+translate english day1_coach_pre_meeting_6c519cdf:
+
+    # "Я перепробовал уже всё, кажется. Ничего не помогает." with dissolve
+    "I tried everything, I guess. Doesn't help." with dissolve
+
+# game/day1.rpy:138
+translate english day1_coach_pre_meeting_69d24f2e:
+
+    # "И как специально - несколько дней назад мне попалась на глаза реклама: эксклюзивная акция от банка." with dissolve
+    "And, accidentally, a few days ago I saw an ad - exclusive offer from a bank." with dissolve
+
+# game/day1.rpy:144
+translate english day1_coach_pre_meeting_d6c2d220:
+
+    # "Участники клуба обсуждают свои проблемы в парах и группах, а также выполняют задания, самостоятельно или совместно." with dissolve
+    "Club members discuss their problems in pairs and small groups. They also do tasks, independently or in groups." with dissolve
+
+# game/day1.rpy:154
+translate english day1_coach_pre_meeting_90b1b29c:
+
+    # "Это заинтересовало меня. Кредитной карты у меня ещё ни разу не было, но от лишних денег я бы сейчас не отказался." with dissolve
+    "That was interesting. I never had a credit card before. But some extra cash would be very handy for me this time." with dissolve
+
+# game/day1.rpy:156
+translate english day1_coach_pre_meeting_c53d8ebc:
+
+    # "С кредитной картой мне не нужно будет судорожно браться за первый попавшийся заказ, чтобы срочно заработать денег." with dissolve
+    "If I have a credit line, I would not need to greedly take any project just to earn money as soon as possible." with dissolve
+
+# game/day1.rpy:162
+translate english day1_coach_pre_meeting_5926faeb:
+
+    # "Так что я записался, встретился с курьером, подписал документы, получил банковскую карту." with dissolve
+    "So, I filed an application. I met a bank courier, signed paper, and got my credit card." with dissolve
+
+# game/day1.rpy:174
+translate english day1_coach_pre_meeting_a31944a2:
+
+    # "Меня записали в клуб и познакомили с его программой." with dissolve
+    "I was registered to the club, and I was introduced to the club schedule." with dissolve
+
+# game/day1.rpy:180
+translate english day1_coach_pre_meeting_2ef1d227:
+
+    # "Я ещё не знаю кто это." with dissolve
+    "I don't know yet, who is that person." with dissolve
+
+# game/day1.rpy:182
+translate english day1_coach_pre_meeting_bb3ebb31:
+
+    # "Мне говорили, что он мне напишет сегодня." with dissolve
+    "I was told that he will text me today." with dissolve
+
+# game/day1.rpy:184
+translate english day1_coach_pre_meeting_4fabd271:
+
+    # "Никто мне так и не написал, но я все еще жду." with dissolve
+    "Nobody contacted me yet, but I am still waiting." with dissolve
+
+# game/day1.rpy:186
+translate english day1_coach_pre_meeting_72e765b1:
+
+    # "Для меня это еще один повод не ложиться спать." with dissolve
+    "For me, it's just another excuse to not go do sleep." with dissolve
+
+# game/day1.rpy:216
+translate english day1_coach_meeting_alt_9d2a03f8:
+
+    # coach "Приветствую! Вы Семён, да?" with dissolve
+    coach "Hi, you are Semyon, right?" with dissolve
+
+# game/day1.rpy:224
+translate english day1_coach_meeting_alt_c749d709:
+
+    # coach "Отлично! Я буду вашим напарником в клубе." with dissolve
+    coach "Awesome! I will be your mate in our club" with dissolve
+
+# game/day1.rpy:236
+translate english day1_coach_meeting_alt_dbe8838d:
+
+    # coach "Моя задача - помочь тебе в определении твоих целей." with dissolve
+    coach "My aim is to help you to define your life aims." with dissolve
+
+# game/day1.rpy:240
+translate english day1_coach_meeting_alt_db0ead01:
+
+    # coach "Также я отвечаю на твои вопросы и могу дать советы по их достижению." with dissolve
+    coach "Also, I answer your questions and I can give you advices on how to reach your aim." with dissolve
+
+# game/day1.rpy:244
+translate english day1_coach_meeting_alt_ef0bd553:
+
+    # me "Спасибо, но я пока ещё не придумал себе цели." with dissolve
+    me "Thanks, but I did not decide on my aims yet." with dissolve
+
+# game/day1.rpy:248
+translate english day1_coach_meeting_alt_afa2b520:
+
+    # coach "Всё в порядке. Сначала расставь приоритеты в своей жизни." with dissolve
+    coach "No problem. Just set priorities in your life." with dissolve
+
+# game/day1.rpy:252
+translate english day1_coach_meeting_alt_6999c722:
+
+    # coach "Карьера, здоровье, любовь, учёба - всё что угодно." with dissolve
+    coach "Career, health, love, study - anything." with dissolve
+
+# game/day1.rpy:256
+translate english day1_coach_meeting_alt_bca7e8c8:
+
+    # coach "Я помогу тебе разобраться в том, что тебе действительно важно и вместе мы назначим цели для тебя." with dissolve
+    coach "I will help you to sort out what is really important for you. And together, we can assign aims for you." with dissolve
+
+# game/day1.rpy:264
+translate english day1_coach_meeting_alt_cdf4b990:
+
+    # coach ":D Я не смогу постоянно быть онлайн, но ты пиши мне в любое время. Я отвечу, когда будет возможность." with dissolve
+    coach ":D I can't always be online. But you text me anytime, for sure. I will reply back when I can." with dissolve
+
+# game/day1.rpy:268
+translate english day1_coach_meeting_alt_c2932fae:
+
+    # me "Хорошо." with dissolve
+    me "Good." with dissolve
+
+# game/day1.rpy:272
+translate english day1_coach_meeting_alt_36e45d10:
+
+    # me "Сейчас у меня вопросов нет." with dissolve
+    me "I don't have any questions for now." with dissolve
+
+# game/day1.rpy:276
+translate english day1_coach_meeting_alt_cabfadc3:
+
+    # me "Но спасибо за поддержку. Я напишу тебе, когда мне потребуется помощь или совет." with dissolve
+    me "But thanks for support anyway. I will text you when I need some help or advice." with dissolve
+
+# game/day1.rpy:280
+translate english day1_coach_meeting_alt_bb9bce06:
+
+    # coach "Окей! Если тебя что-то беспокоит - пиши! Я буду онлайн." with dissolve
+    coach "Okay! If something is disturbing you - text me! I am online for a while." with dissolve
+
+# game/day1.rpy:299
+translate english day1_aliya_meeting_6eb177d1:
+
+    # "...Прошло ещё немного времени бесцельного блуждания по интернету." with dissolve
+    "...Some more time of pointless internet browsing passed..." with dissolve
+
+# game/day1.rpy:319
+translate english day1_aliya_meeting_8d1e08ce:
+
+    # minjun "Привет, Семён! Ты не занят сейчас?" with dissolve
+    minjun "Hi, Semyon! Are you busy now?" with dissolve
+
+# game/day1.rpy:321
+translate english day1_aliya_meeting_6320bc3a:
+
+    # "Это же Мин Чжун Пак, мой знакомый кореец из Сеула." with dissolve
+    "That is Minjun Park, my friend from Seoul, Korea." with dissolve
+
+# game/day1.rpy:323
+translate english day1_aliya_meeting_313d90e3:
+
+    # "Он учит русский язык и иногда пишет мне с вопросами." with dissolve
+    "He is studying Russian, and sometimes he asks me questions." with dissolve
+
+# game/day1.rpy:331
+translate english day1_aliya_meeting_5d7c8028:
+
+    # minjun "Есть одно дело, в общем." with dissolve
+    minjun "Basically, there is one business." with dissolve
+
+# game/day1.rpy:335
+translate english day1_aliya_meeting_22e1ca84:
+
+    # minjun "Я установил приложение для языкового обмена и там познакомился с девушкой из России." with dissolve
+    minjun "I installed a language exchange app. And I met one girl from Russia." with dissolve
+
+# game/day1.rpy:339
+translate english day1_aliya_meeting_a0880130:
+
+    # minjun "Она не говорит по-английски, она знает только русский язык." with dissolve
+    minjun "She doesn't speak English, she only knows Russian." with dissolve
+
+# game/day1.rpy:343
+translate english day1_aliya_meeting_85c4b388:
+
+    # minjun "Ты не подумай, я не хочу найти себе подружку из России." with dissolve
+    minjun "It is not that I want to find a Russian girlfriend." with dissolve
+
+# game/day1.rpy:347
+translate english day1_aliya_meeting_7cfdf4ef:
+
+    # minjun "Просто она хочет уехать жить в Корею, а ты единственный мой русский друг." with dissolve
+    minjun "Just, she wants to move to Korea. And you are my only friend from Russia." with dissolve
+
+# game/day1.rpy:351
+translate english day1_aliya_meeting_c064a42c:
+
+    # minjun "Ты можешь помочь? Расскажи ей как можно попасть в Корею для русских." with dissolve
+    minjun "Can you help her? Tell her how Russians can move to Korea and live there?" with dissolve
+
+# game/day1.rpy:355
+translate english day1_aliya_meeting_2ecd1af8:
+
+    # me "Да без проблем." with dissolve
+    me "Sure, no problem." with dissolve
+
+# game/day1.rpy:363
+translate english day1_aliya_meeting_ca6f1f99:
+
+    # me "Конечно." with dissolve
+    me "Sure." with dissolve
+
+# game/day1.rpy:369
+translate english day1_aliya_meeting_bcd24a93:
+
+    # "Ну что же, теперь у меня есть законный повод не спать ещё некоторое время." with dissolve
+    "So, now I have a legit reason to stay awake for some more." with dissolve
+
+# game/day1.rpy:390
+translate english day1_aliya_meeting_09439ba3:
+
+    # aliya_mobile "Привет, Семён!" with dissolve
+    aliya_mobile "Hi, Semyon!" with dissolve
+
+# game/day1.rpy:394
+translate english day1_aliya_meeting_1a608d96:
+
+    # me "Пак мне сказал, что ты хочешь уехать в Корею. Правильно?" with dissolve
+    me "Park said me that you want to live in Korea, right?" with dissolve
+
+# game/day1.rpy:398
+translate english day1_aliya_meeting_98d0ff10:
+
+    # aliya_mobile "Да. Но я не знаю корейский." with dissolve
+    aliya_mobile "Yes. But I don't know Korean." with dissolve
+
+# game/day1.rpy:402
+translate english day1_aliya_meeting_4e63144a:
+
+    # aliya_mobile "И английский тоже." with dissolve
+    aliya_mobile "And I don't know English, too." with dissolve
+
+# game/day1.rpy:408
+translate english day1_aliya_meeting_2b8bc911:
+
+    # me "Тогда лучше всего - немного выучи английский язык и езжай учиться в Корею." with dissolve
+    me "Then, best way - learn some English, and apply to study in Korea." with dissolve
+
+# game/day1.rpy:412
+translate english day1_aliya_meeting_20a86ed2:
+
+    # me "Выучишь корейский язык, получишь диплом, потом будешь там работать." with dissolve
+    me "You will learn Korean, get a degree, and then you can stay and work there." with dissolve
+
+# game/day1.rpy:430
+translate english day1_aliya_meeting_b556ceaa:
+
+    # me "При въезде в Корею проверяют отпечатки пальцев." with dissolve
+    me "When you enter Korea, an immigration officer scans your fingerprints." with dissolve
+
+# game/day1.rpy:434
+translate english day1_aliya_meeting_3e54fa37:
+
+    # me "Даже если ты сменишь документы, тебя вычислят по совпадению отпечатков." with dissolve
+    me "Even if you change your documents, they will recognize your identity by fingerprint match." with dissolve
+
+# game/day1.rpy:438
+translate english day1_aliya_meeting_50b2d844:
+
+    # aliya_mobile "Я не была в Корее ни разу." with dissolve
+    aliya_mobile "I have never been to Korea before." with dissolve
+
+# game/day1.rpy:444
+translate english day1_aliya_meeting_0b52cd5b:
+
+    # me "Тогда зачем менять документы? Можешь сделать загранпаспорт и просто приехать." with dissolve
+    me "Then why do you need to change your documents? You can just make a travel passport and arrive." with dissolve
+
+# game/day1.rpy:448
+translate english day1_aliya_meeting_f3dcf4ff:
+
+    # aliya_mobile "Чтобы меня не нашли." with dissolve
+    aliya_mobile "So that they will not find me." with dissolve
+
+# game/day1.rpy:452
+translate english day1_aliya_meeting_1d2da1b3:
+
+    # me "Кто нашёл?" with dissolve
+    me "Who?" with dissolve
+
+# game/day1.rpy:456
+translate english day1_aliya_meeting_74ed6ff1:
+
+    # aliya_mobile "Родители." with dissolve
+    aliya_mobile "Parents." with dissolve
+
+# game/day1.rpy:466
+translate english day1_aliya_meeting_2c19b68a:
+
+    # aliya_mobile "18." with dissolve
+    aliya_mobile "18." with dissolve
+
+# game/day1.rpy:470
+translate english day1_aliya_meeting_a7e07ce6:
+
+    # me "Тебе нужно сбежать в другую страну от родителей?" with dissolve
+    me "You need to escape abroad from your parents?" with dissolve
+
+# game/day1.rpy:474
+translate english day1_aliya_meeting_4ba72283:
+
+    # aliya_mobile "Да." with dissolve
+    aliya_mobile "Yes." with dissolve
+
+# game/day1.rpy:478
+translate english day1_aliya_meeting_fce8a5cb:
+
+    # me "Тебе нужно сбежать именно в Корею или любая страна подойдёт?" with dissolve
+    me "You need to escape only to Korea? Or any other country would be ok?" with dissolve
+
+# game/day1.rpy:482
+translate english day1_aliya_meeting_9701596c:
+
+    # aliya_mobile "Любая страна подойдёт, но, раз уж я решаюсь на такой шаг, почему бы не в страну, которую давно хочу посетить?" with dissolve
+    aliya_mobile "Any country is ok, but cause I decided to make that step, why wouldn't I escape to a country which I want to visit for a long time." with dissolve
+
+# game/day1.rpy:486
+translate english day1_aliya_meeting_02c89f3f:
+
+    # me "В Корее дорогая жизнь и работу найти сложно." with dissolve
+    me "Life in Korea is expensive, and it is difficult to find a job." with dissolve
+
+# game/day1.rpy:490
+translate english day1_aliya_meeting_b266e6eb:
+
+    # me "Сейчас там много русских работает нелегально на стройках или на рыбных заводах." with dissolve
+    me "Currently, there are many Russians working illegally at construction or fish factories." with dissolve
+
+# game/day1.rpy:494
+translate english day1_aliya_meeting_c68fb85e:
+
+    # me "Также есть риск, что тебя пригласят работать в Go-Go барах или в KTV, а это довольно неприятная работа." with dissolve
+    me "Also, there is a risk that you would be invited to work at Go-Go bars, or KTV, and that is some nasty job." with dissolve
+
+# game/day1.rpy:498
+translate english day1_aliya_meeting_a3d8dd5c:
+
+    # me "Ты далеко от Кореи живёшь? В каком ты городе?" with dissolve
+    me "Do you live far from Korea? In which city are you?" with dissolve
+
+# game/day1.rpy:502
+translate english day1_aliya_meeting_08f5c837:
+
+    # aliya_mobile "Пятигорск." with dissolve
+    aliya_mobile "Pyatigorsk." with dissolve
+
+# game/day1.rpy:506
+translate english day1_aliya_meeting_b1283983:
+
+    # aliya_mobile "Это город Ставропольского края." with dissolve
+    aliya_mobile "It is a city in Stavropol Krai." with dissolve
+
+# game/day1.rpy:516
+translate english day1_aliya_meeting_c68d728f:
+
+    # aliya_mobile "Я не русская, но хорошо знаю русский." with dissolve
+    aliya_mobile "I am not Russian, but I speak Russian language well." with dissolve
+
+# game/day1.rpy:520
+translate english day1_aliya_meeting_6e0f8ff9:
+
+    # "Уже из ошибок в ее сообщениях понятно, что русский язык для нее не родной." with dissolve
+    "It is clear from the mistakes in her messages that Russian is not her native language." with dissolve
+
+# game/day1.rpy:522
+translate english day1_aliya_meeting_a9f5f346:
+
+    # "Ну ладно, я не буду придираться к ее грамотности." with dissolve
+    "Well, okay, I won't be picky about her literacy." with dissolve
+
+# game/day1.rpy:530
+translate english day1_aliya_meeting_a6cc3b83:
+
+    # aliya_mobile "Нет, но собираюсь сделать." with dissolve
+    aliya_mobile "Not yet, but going to make one." with dissolve
+
+# game/day1.rpy:538
+translate english day1_aliya_meeting_fae9b70e:
+
+    # me "Можно, например, уехать работать в Москву, в Питер." with dissolve
+    me "You can go to Moscow, or St. Petersburg." with dissolve
+
+# game/day1.rpy:542
+translate english day1_aliya_meeting_8e5f79d6:
+
+    # me "Или в любой другой большой город, там затеряться легко." with dissolve
+    me "Or any other large town. It's easy to hide there." with dissolve
+
+# game/day1.rpy:546
+translate english day1_aliya_meeting_fbc4c723:
+
+    # me "Там можно работать без прописки и снимать квартиру с друзьями." with dissolve
+    me "You can work without residency registration." with dissolve
+
+# game/day1.rpy:550
+translate english day1_aliya_meeting_50f970c1:
+
+    # aliya_mobile "Нет, в Москве полно моих родственников." with dissolve
+    aliya_mobile "кве полно моих родствен." with dissolve
+
+# game/day1.rpy:558
+translate english day1_aliya_meeting_607caef7:
+
+    # aliya_mobile "Родители ведь будут меня искать и они наверняка им сообщат, ну мало ли." with dissolve
+    aliya_mobile "Parents will search for me, they surely will tell them, you never know." with dissolve
+
+# game/day1.rpy:562
+translate english day1_aliya_meeting_c2c0e247:
+
+    # me "Если ты живешь без регистрации и не указываешь свой адрес нигде, то вычислить тебя нереально." with dissolve
+    me "If you live without residency registration and never state your address anywhere, then it is impossible to find you." with dissolve
+
+# game/day1.rpy:566
+translate english day1_aliya_meeting_6eb5742e:
+
+    # aliya_mobile "Хм..." with dissolve
+    aliya_mobile "Hmm..." with dissolve
+
+# game/day1.rpy:570
+translate english day1_aliya_meeting_d653c150:
+
+    # me "Просто если ты сразу уедешь в другую страну без денег, без языка - можешь легко попасть в неприятности." with dissolve
+    me "Besides, if you immediately move to another country, without money, without language, then you can easily get into troubles." with dissolve
+
+# game/day1.rpy:574
+translate english day1_aliya_meeting_f4947a81:
+
+    # aliya_mobile "Тоже мысль верная." with dissolve
+    aliya_mobile "That thought is true." with dissolve
+
+# game/day1.rpy:578
+translate english day1_aliya_meeting_823368d9:
+
+    # aliya_mobile "Но я думала, если и совершать преступление, то по-крупному." with dissolve
+    aliya_mobile "But I think, since I am doing a crime, need to take it all." with dissolve
+
+# game/day1.rpy:582
+translate english day1_aliya_meeting_26bf71e1:
+
+    # me "Сбежать из дома не преступление. Тебе 18, можешь делать что хочешь." with dissolve
+    me "Escape from home is not a crime. You are 18, you can do whatever you want." with dissolve
+
+# game/day1.rpy:586
+translate english day1_aliya_meeting_01e71a16:
+
+    # aliya_mobile "Понимаешь, ситуация более запутанная и сложная, чем кажется на первый взгляд." with dissolve
+    aliya_mobile "You know, the situation is a bit more complicated and messed up, than it looks on the first sight." with dissolve
+
+# game/day1.rpy:590
+translate english day1_aliya_meeting_202f3fb3:
+
+    # me "Расскажи." with dissolve
+    me "Tell me about it." with dissolve
+
+# game/day1.rpy:594
+translate english day1_aliya_meeting_7a6e5c08:
+
+    # aliya_mobile "Я из Дагестана, а по нашим обычаям и традициям, сбежать из дома, да ещё и перед своей свадьбой, это большое преступление!" with dissolve
+    aliya_mobile "I am from Dagestan, and in our customs and traditions, escaping from home, especially right before my wedding, it is a huge crime!" with dissolve
+
+# game/day1.rpy:598
+translate english day1_aliya_meeting_d48b8a2c:
+
+    # aliya_mobile "Если меня поймают, прощать никто не станет." with dissolve
+    aliya_mobile "If I am caught, there will be no mercy for me." with dissolve
+
+# game/day1.rpy:602
+translate english day1_aliya_meeting_bd95e10c:
+
+    # me "Тебя хотят выдать замуж, а ты этого не хочешь?" with dissolve
+    me "Are you being given in marriage to someone? And you don't want to marry?" with dissolve
+
+# game/day1.rpy:606
+translate english day1_aliya_meeting_9393d63e:
+
+    # aliya_mobile "Эх, долгая история." with dissolve
+    aliya_mobile "Eh, it is a long story." with dissolve
+
+# game/day1.rpy:610
+translate english day1_aliya_meeting_05876991:
+
+    # me "Я понимаю." with dissolve
+    me "I understand." with dissolve
+
+# game/day1.rpy:639
+translate english day1_aliya_sympathize_09e21af5:
+
+    # "Наверное, наилучший вариант — показать ей, что я понимаю её проблемы." with dissolve
+    "Maybe, the best option is - to let her know that I understand her problems." with dissolve
+
+# game/day1.rpy:643
+translate english day1_aliya_sympathize_8db0e401:
+
+    # me "Я понимаю твою ситуацию." with dissolve
+    me "I understand your situation." with dissolve
+
+# game/day1.rpy:647
+translate english day1_aliya_sympathize_1f147c91:
+
+    # me "Ты росла в дагестанской семье и вокруг тебя были люди с соответствующим менталитетом." with dissolve
+    me "You were grown in dagestanian family. And people around you were carrying Dagestan mentality." with dissolve
+
+# game/day1.rpy:651
+translate english day1_aliya_sympathize_c00ec1cc:
+
+    # aliya_mobile "Ага." with dissolve
+    aliya_mobile "Yes." with dissolve
+
+# game/day1.rpy:655
+translate english day1_aliya_sympathize_c8223dd8:
+
+    # me "Они тебе говорят:\"Всё! Если сбежишь - ты преступница, тебе позор и всё такое\"." with dissolve
+    me "They tell you, like - if you escape, you are criminal, shame on you, and so on." with dissolve
+
+# game/day1.rpy:659
+translate english day1_aliya_sympathize_10dfdc51:
+
+    # aliya_mobile "Да! Это ужасно." with dissolve
+    aliya_mobile "Yes! That's terrible." with dissolve
+
+# game/day1.rpy:663
+translate english day1_aliya_sympathize_04f0aeb1:
+
+    # me "Они тебе много раз говорили такое, поэтому ты запомнила." with dissolve
+    me "They told you many times, and you got used to it." with dissolve
+
+# game/day1.rpy:667
+translate english day1_aliya_sympathize_7d77d037:
+
+    # aliya_mobile "Всю жизнь." with dissolve
+    aliya_mobile "All my life." with dissolve
+
+# game/day1.rpy:671
+translate english day1_aliya_sympathize_eec29c3d:
+
+    # me "Но на самом деле, твои родители не всесильные. Их главное оружие - твой страх." with dissolve
+    me "But the truth is, your parents are not almighty. Their main weapon is your fear." with dissolve
+
+# game/day1.rpy:675
+translate english day1_aliya_sympathize_43022745:
+
+    # aliya_mobile "Мой папа бывший следователь, у него очень-очень много знакомых работающих в этой сфере." with dissolve
+    aliya_mobile "My father is an ex-inspector, and he has many friends working in this area." with dissolve
+
+# game/day1.rpy:679
+translate english day1_aliya_sympathize_5a13083a:
+
+    # aliya_mobile "Они меня найдут." with dissolve
+    aliya_mobile "They will find me." with dissolve
+
+# game/day1.rpy:683
+translate english day1_aliya_sympathize_bbc5e992:
+
+    # me "Ну это мы ещё посмотрим." with dissolve
+    me "Well, we will see it." with dissolve
+
+# game/day1.rpy:699
+translate english day1_aliya_sympathize_01f23aff:
+
+    # me "Но ведь тогда они тебя и искать не будут. Как будто ты пропала, исчезла." with dissolve
+    me "But in this case they will not even search for you. Like you disappeared, lost." with dissolve
+
+# game/day1.rpy:703
+translate english day1_aliya_sympathize_73a7d6dc:
+
+    # aliya_mobile "Вообще, я думала подстроить свою смерть и со спокойной душой сбежать." with dissolve
+    aliya_mobile "Generally, I was thinking about faking my death and escape with peace of mind." with dissolve
+
+# game/day1.rpy:707
+translate english day1_aliya_sympathize_9b74a1f3:
+
+    # aliya_mobile "они бы 100%% меня искать не стали и им бы не пришлось врать, а я жила бы своей жизнью." with dissolve
+    aliya_mobile "They 100%% would not search for me, and they would not have to lie, and I would live my life" with dissolve
+
+# game/day1.rpy:711
+translate english day1_aliya_sympathize_260191ab:
+
+    # me "Если твои родители от тебя откажутся, будет очень печально." with dissolve
+    me "If your parents abandon you, that would be really sad." with dissolve
+
+# game/day1.rpy:715
+translate english day1_aliya_sympathize_43adb5e4:
+
+    # me "Но если выйдешь замуж против своей воли, твоя жизнь будет намного печальнее." with dissolve
+    me "But if you will marry against your will, then your life will be even more sad." with dissolve
+
+# game/day1.rpy:719
+translate english day1_aliya_sympathize_ed4ac978:
+
+    # aliya_mobile "Да, я знаю." with dissolve
+    aliya_mobile "Yes I know." with dissolve
+
+# game/day1.rpy:723
+translate english day1_aliya_sympathize_62c8c19a:
+
+    # me "Я слышал, на кавказе мужья часто бьют жен." with dissolve
+    me "I heard that in Caucasus region, domestic violence is common." with dissolve
+
+# game/day1.rpy:727
+translate english day1_aliya_sympathize_117dbd52:
+
+    # me "Конечно, если ты имеешь братьев, они тебя защитят." with dissolve
+    me "Surely, if you have brothers, they will stand for you." with dissolve
+
+# game/day1.rpy:731
+translate english day1_aliya_sympathize_6ef31cf9:
+
+    # aliya_mobile "Этот человек не плохой." with dissolve
+    aliya_mobile "That person is not bad." with dissolve
+
+# game/day1.rpy:735
+translate english day1_aliya_sympathize_02945187:
+
+    # aliya_mobile "Да и брат у меня есть, но он младше того, за кого меня выдают." with dissolve
+    aliya_mobile "Also, I have a brother. However, he is younger than the person I am given in marriage to." with dissolve
+
+# game/day1.rpy:737
+translate english day1_aliya_sympathize_1b0ef52b:
+
+    # "Кажется, мне удалось разговорить её." with dissolve
+    "Looks like I successfully got her talking." with dissolve
+
+# game/day1.rpy:741
+translate english day1_aliya_sympathize_7af12d18:
+
+    # aliya_mobile "В общем, дело в том, что меня родители хотят выдать замуж." with dissolve
+    aliya_mobile "Basically, the issue is that my parents want to give me in marriage." with dissolve
+
+# game/day1.rpy:745
+translate english day1_aliya_sympathize_2c61d1e8:
+
+    # aliya_mobile "Ему 32, он хороший, состоятельный и прочее... минус только в возрасте и в том, что у него есть дети от бывшей жены." with dissolve
+    aliya_mobile "He is 32 years old, he is good, rich, and so on... only flaws are his age, and that he has kids from ex-wife." with dissolve
+
+# game/day1.rpy:749
+translate english day1_aliya_sympathize_624dbd63:
+
+    # aliya_mobile "А я не хочу замуж, я просто не хочу, он мне вообще никак не нравится." with dissolve
+    aliya_mobile "But I don't want to marry, I just don't want, I don't like him at all." with dissolve
+
+# game/day1.rpy:753
+translate english day1_aliya_sympathize_8a82e3be:
+
+    # aliya_mobile "Все, вообще все хотят, чтобы мы поженились." with dissolve
+    aliya_mobile "Everyone, absolutely everyone want us to get married." with dissolve
+
+# game/day1.rpy:757
+translate english day1_aliya_sympathize_19231ef0:
+
+    # aliya_mobile "А я хочу после колледжа не замуж выйти, а дальше пойти учиться." with dissolve
+    aliya_mobile "But I don't want to marry after college, I want to continue my study." with dissolve
+
+# game/day1.rpy:765
+translate english day1_aliya_sympathize_b1e273fe:
+
+    # aliya_mobile "На моё обучение тоже нет, поэтому они хотят так сделать." with dissolve
+    aliya_mobile "They can't afford to pay for my study too, that is why they want to do so." with dissolve
+
+# game/day1.rpy:769
+translate english day1_aliya_sympathize_cdc02b83:
+
+    # aliya_mobile "Вот вся история вкратце." with dissolve
+    aliya_mobile "That is the whole story, shortly." with dissolve
+
+# game/day1.rpy:773
+translate english day1_aliya_sympathize_9ce8bf1f:
+
+    # me "Если нет денег на обучение, можно получить грант и учиться бесплатно." with dissolve
+    me "Well, if you don't have money, you can get a scholarship and study for free." with dissolve
+
+# game/day1.rpy:777
+translate english day1_aliya_sympathize_e740cfc7:
+
+    # aliya_mobile "Они не хотят, чтобы я дальше училась." with dissolve
+    aliya_mobile "They don't want me to continue study." with dissolve
+
+# game/day1.rpy:785
+translate english day1_aliya_sympathize_0a736fa6:
+
+    # aliya_mobile "Он богат: есть дом, машина, хороший человек, религиозный. В общем мечта." with dissolve
+    aliya_mobile "He is rich, owns a house, a car, good person, religious. A man of dream." with dissolve
+
+# game/day1.rpy:789
+translate english day1_aliya_sympathize_566caefc:
+
+    # aliya_mobile "Из других возможных женихов только мой кузен, бывший одноклассник и друг брата." with dissolve
+    aliya_mobile "Other possible options only my cousin, or ex-classmate, or my brother's friend." with dissolve
+
+# game/day1.rpy:793
+translate english day1_aliya_sympathize_8f576158:
+
+    # me "Звучит как будто твои родители продают тебя." with dissolve
+    me "Sounds like your parents are selling you." with dissolve
+
+# game/day1.rpy:797
+translate english day1_aliya_sympathize_4ba72283:
+
+    # aliya_mobile "Да." with dissolve
+    aliya_mobile "Yes." with dissolve
+
+# game/day1.rpy:801
+translate english day1_aliya_sympathize_4d9d5efa:
+
+    # aliya_mobile "Я замуж тупо не хочу, они это знают, но упускать такую возможность не хотят." with dissolve
+    aliya_mobile "I simply don't want to marry, they know it, but they don't want to loose this opportunity." with dissolve
+
+# game/day1.rpy:805
+translate english day1_aliya_sympathize_5f23ec11:
+
+    # aliya_mobile "Ты же знаешь, что в Дагестане нет такого понятия \"любовь\" и по любви свадьбы не играют у нас." with dissolve
+    aliya_mobile "You know that in Dagestan, we don't say 'love', and we don't take love into consideration when marrying." with dissolve
+
+# game/day1.rpy:809
+translate english day1_aliya_sympathize_acbb2334:
+
+    # me "Да уж, сложная ситуация." with dissolve
+    me "Yes, that's very complicated." with dissolve
+
+# game/day1.rpy:840
+translate english day1_aliya_offer_steal_974430bd:
+
+    # me "Я слышал, если парень и девушка сильно любят друг друга, они могут договориться о похищении." with dissolve
+    me "I heard that if boy and girl strongly love each other, they can arrange kindapping." with dissolve
+
+# game/day1.rpy:844
+translate english day1_aliya_offer_steal_9e1d797f:
+
+    # me "Тогда родителям придётся согласиться на их свадьбу." with dissolve
+    me "Because of kindap, parents have to agree to their marriage." with dissolve
+
+# game/day1.rpy:848
+translate english day1_aliya_offer_steal_fd47960d:
+
+    # aliya_mobile "Это то да, но я никого не люблю... поэтому этот вариант тоже отпадает." with dissolve
+    aliya_mobile "That is true, but I don't love anyone... so, it is not an option." with dissolve
+
+# game/day1.rpy:861
+translate english day1_aliya_offer_postpone_wedding_a9c5c5bd:
+
+    # me "Ты можешь написать своему жениху и попросить его отказаться от свадьбы?" with dissolve
+    me "Can you message your fiance and ask him to refuse the marriage?" with dissolve
+
+# game/day1.rpy:865
+translate english day1_aliya_offer_postpone_wedding_49cd76a8:
+
+    # me "Может быть, он скажет твоему отцу что он передумал?" with dissolve
+    me "He will tell your father that he changed his mind, might be?" with dissolve
+
+# game/day1.rpy:869
+translate english day1_aliya_offer_postpone_wedding_4bc4e6fa:
+
+    # me "Это даст тебе немного времени. Может быть, отец потом другого жениха найдет." with dissolve
+    me "That would give you some time. Maybe, your father will find another finance." with dissolve
+
+# game/day1.rpy:873
+translate english day1_aliya_offer_postpone_wedding_648b4647:
+
+    # me "Но пока он ищет другого жениха, ты будешь свободна и можешь готовиться - учить английский язык, например." with dissolve
+    me "But while he is looking for another one, you will not be married, and you can prepare - study English, for example." with dissolve
+
+# game/day1.rpy:877
+translate english day1_aliya_offer_postpone_wedding_ca02a66d:
+
+    # aliya_mobile "Плохая идея, это позор на всю жизнь, меня потом замуж точно никто не возьмёт." with dissolve
+    aliya_mobile "That's bad idea, that is shame for a lifetime, then I will never ever get married for sure." with dissolve
+
+# game/day1.rpy:885
+translate english day1_aliya_offer_postpone_wedding_33892d1b:
+
+    # aliya_mobile "Все, абсолютно все уже знают о предстоящей свадьбе." with dissolve
+    aliya_mobile "Everyone, absolutely everyone knows about our planned marriage." with dissolve
+
+# game/day1.rpy:889
+translate english day1_aliya_offer_postpone_wedding_4fb73f46:
+
+    # aliya_mobile "И как, по-твоему, будет выглядеть то, что он отказывается на мне жениться?" with dissolve
+    aliya_mobile "How do you think it would look like that he refuse to marry me?" with dissolve
+
+# game/day1.rpy:899
+translate english day1_aliya_offer_help_cdd60464:
+
+    # me "Да, это сложная ситуация, где нужно выбирать решение." with dissolve
+    me "Yes, that is a complicated situation, when you need to choose." with dissolve
+
+# game/day1.rpy:903
+translate english day1_aliya_offer_help_b0664a0f:
+
+    # me "Если ты уйдешь от родителей, то по сути начнёшь самостоятельную жизнь." with dissolve
+    me "If you escape from parents, you will start your own independent life." with dissolve
+
+# game/day1.rpy:907
+translate english day1_aliya_offer_help_79d24b99:
+
+    # aliya_mobile "Я никогда не жила отдельно от родителей." with dissolve
+    aliya_mobile "I never lived separately from parents." with dissolve
+
+# game/day1.rpy:911
+translate english day1_aliya_offer_help_b770b205:
+
+    # me "Я могу примерно описать твою жизнь, если родители откажутся от тебя." with dissolve
+    me "I can briefly describe how would you life look like if your parents abandon you." with dissolve
+
+# game/day1.rpy:919
+translate english day1_aliya_offer_help_e22bf05a:
+
+    # me "Сначала будет одиноко. Станет лучше, если ты поступишь в университет и заселишься в общежитие." with dissolve
+    me "At first, you will feel lonely. It will get better if you enroll a university and move in to the dormitory." with dissolve
+
+# game/day1.rpy:923
+translate english day1_aliya_offer_help_1bcd770a:
+
+    # me "Там у тебя появятся новые друзья и знакомые, которых ты раньше не знала. Но также появятся и проблемы с деньгами." with dissolve
+    me "On campus, you will make new friends, that you never knew before. Also, you will have money problems." with dissolve
+
+# game/day1.rpy:927
+translate english day1_aliya_offer_help_cb6b7872:
+
+    # me "Нужно будет следить за своими расходами, покупать продукты питания," with dissolve
+    me "You need to keep track of money, control your expenses, buy food for yourself." with dissolve
+
+# game/day1.rpy:931
+translate english day1_aliya_offer_help_6582776d:
+
+    # aliya_mobile "найти работу." with dissolve
+    aliya_mobile "And find a job." with dissolve
+
+# game/day1.rpy:935
+translate english day1_aliya_offer_help_e902650c:
+
+    # me "Тебе нужно будет самостоятельно решать возникающие проблемы. Как будто у тебя над головой висит туча, постоянно." with dissolve
+    me "You need to solve your own problems independently. It is just like you have a heavy cloud above your head, always." with dissolve
+
+# game/day1.rpy:939
+translate english day1_aliya_offer_help_c71c5c66:
+
+    # me "Нужно сходить в банк открыть карту, сделать курсовую, записаться на курсы, купить методичку." with dissolve
+    me "You need to go to bank, make a bank card, finish assignments, apply for courses, buy books." with dissolve
+
+# game/day1.rpy:943
+translate english day1_aliya_offer_help_4da26589:
+
+    # aliya_mobile "Я в меде учусь. Думаю, с учёбой проблем не так уж много будет." with dissolve
+    aliya_mobile "I am studying in medical college, I don't think I will have much troubles with study." with dissolve
+
+# game/day1.rpy:951
+translate english day1_aliya_offer_help_1b1bfff1:
+
+    # aliya_mobile "Да, немного." with dissolve
+    aliya_mobile "Yes, a bit." with dissolve
+
+# game/day1.rpy:955
+translate english day1_aliya_offer_help_8fde3d28:
+
+    # me "Жизнь похожа на езду на велосипеде." with dissolve
+    me "Life is like riding a bicycle." with dissolve
+
+# game/day1.rpy:959
+translate english day1_aliya_offer_help_d5e91cfb:
+
+    # me "Чтобы не упасть, нужно постоянно двигаться вперёд." with dissolve
+    me "In order to not fall, you must constantly move forward." with dissolve
+
+# game/day1.rpy:963
+translate english day1_aliya_offer_help_4ba72283:
+
+    # aliya_mobile "Да." with dissolve
+    aliya_mobile "Yes." with dissolve
+
+# game/day1.rpy:971
+translate english day1_aliya_offer_help_8fcaf3f4:
+
+    # aliya_mobile "Понимаю." with dissolve
+    aliya_mobile "I understand." with dissolve
+
+# game/day1.rpy:975
+translate english day1_aliya_offer_help_eeac4c11:
+
+    # me "Я думаю, что ты смелая девушка. В любом случае, ты должна жить своей жизнью, а не так как сказали родители." with dissolve
+    me "I think, you are brave girl. And anyway, you must live your own life, not like your parents tell you." with dissolve
+
+# game/day1.rpy:979
+translate english day1_aliya_offer_help_b30e15eb:
+
+    # aliya_mobile "Смелая, говоришь?" with dissolve
+    aliya_mobile "Brave, you saying?" with dissolve
+
+# game/day1.rpy:983
+translate english day1_aliya_offer_help_b72eb860:
+
+    # me "Да." with dissolve
+    me "Yes." with dissolve
+
+# game/day1.rpy:987
+translate english day1_aliya_offer_help_53752383:
+
+    # aliya_mobile "Знаешь как мне сейчас тяжело и страшно об этом даже думать?" with dissolve
+    aliya_mobile "Do you know how hard and dreadfully for me even think about it?" with dissolve
+
+# game/day1.rpy:991
+translate english day1_aliya_offer_help_8f6169c4:
+
+    # aliya_mobile "Я ведь понимаю, что назад пути уже не будет." with dissolve
+    aliya_mobile "I understand, that there would be no way back." with dissolve
+
+# game/day1.rpy:995
+translate english day1_aliya_offer_help_2b8ea2d7:
+
+    # me "Да, догадываюсь." with dissolve
+    me "Yes, I guess so." with dissolve
+
+# game/day1.rpy:999
+translate english day1_aliya_offer_help_d47b197a:
+
+    # me "Я попробую тебе помочь." with dissolve
+    me "I will try to help you." with dissolve
+
+# game/day1.rpy:1007
+translate english day1_aliya_offer_help_6fa5f9d6:
+
+    # me "Разобраться с тем куда ехать, найти авиабилеты, загранпаспорт, визу если потребуется." with dissolve
+    me "Figure out where to move, find airplane tickets, travel passport, visa if required." with dissolve
+
+# game/day1.rpy:1011
+translate english day1_aliya_offer_help_6993c0cb:
+
+    # me "Затем найти жильё, работу, подать документы в универ и т.д." with dissolve
+    me "Then find housing, job, enroll to university and so on." with dissolve
+
+# game/day1.rpy:1015
+translate english day1_aliya_offer_help_16ec5073:
+
+    # aliya_mobile "Спасибо большое." with dissolve
+    aliya_mobile "Thank you very much." with dissolve
+
+# game/day1.rpy:1019
+translate english day1_aliya_offer_help_0dfe89f1:
+
+    # aliya_mobile "Но для начала нужно поменять паспорт и документы, по которым меня могут найти." with dissolve
+    aliya_mobile "But at first, I need to change my ID and documents by which I might get caught." with dissolve
+
+# game/day1.rpy:1027
+translate english day1_aliya_offer_help_c0432b29:
+
+    # aliya_mobile "Нет." with dissolve
+    aliya_mobile "No." with dissolve
+
+# game/day1.rpy:1031
+translate english day1_aliya_offer_help_afb15801:
+
+    # aliya_mobile "До Москвы ещё добраться нужно, меня на посту могут остановить и сообщить родителям." with dissolve
+    aliya_mobile "It would take time to get to Moscow, and I might be stopped on the checkpoint, and then they might tell my parents." with dissolve
+
+# game/day1.rpy:1035
+translate english day1_aliya_offer_help_fbf38f72:
+
+    # me "Не остановят, если уедешь неожиданно." with dissolve
+    me "You will not be stopped if you escape out of the blue." with dissolve
+
+# game/day1.rpy:1039
+translate english day1_aliya_offer_help_2eb17cc2:
+
+    # me "Просто в Пятигорске у твоего отца много связей." with dissolve
+    me "Just, in Pyatigorsk, your father have many connections with friends." with dissolve
+
+# game/day1.rpy:1043
+translate english day1_aliya_offer_help_223c48cb:
+
+    # me "Он узнает если ты будешь паспорт менять." with dissolve
+    me "He will know if you will change your ID." with dissolve
+
+# game/day1.rpy:1051
+translate english day1_aliya_offer_help_5e6a9438:
+
+    # aliya_mobile "Он следователь в отставке из Дагестана." with dissolve
+    aliya_mobile "He is an ex-inspector from Dagestan." with dissolve
+
+# game/day1.rpy:1055
+translate english day1_aliya_offer_help_b67e0f09:
+
+    # me "Хмм, ладно." with dissolve
+    me "Hmm, ok." with dissolve
+
+# game/day1.rpy:1059
+translate english day1_aliya_offer_help_e5541544:
+
+    # me "Решение принимать тебе. Если ты решишь остаться, это твоё дело. А если ты решишь сбежать, я постараюсь чем-нибудь помочь." with dissolve
+    me "That is you who decide. If you decide to stay, that is your business. If you decide to escape, I will try to help you somehow." with dissolve
+
+# game/day1.rpy:1063
+translate english day1_aliya_offer_help_3f7a6fdf:
+
+    # aliya_mobile "В общем, у меня есть время до лета, чтоб денег поднакопить и принять окончательное решение." with dissolve
+    aliya_mobile "Generally, I have time before summer, to save some money and make a final decision." with dissolve
+
+# game/day1.rpy:1067
+translate english day1_aliya_offer_help_65617648:
+
+    # me "Когда свадьба?" with dissolve
+    me "When is the wedding?" with dissolve
+
+# game/day1.rpy:1071
+translate english day1_aliya_offer_help_867c50a5:
+
+    # aliya_mobile "Летом. Но точной даты ещё нет." with dissolve
+    aliya_mobile "In summer. But there is no exact date yet." with dissolve
+
+# game/day1.rpy:1079
+translate english day1_aliya_offer_help_a5499891:
+
+    # aliya_mobile "В Пятигорском мед колледже." with dissolve
+    aliya_mobile "In Pyatigorsk medical college." with dissolve
+
+# game/day1.rpy:1083
+translate english day1_aliya_offer_help_fc7a4600:
+
+    # me "Когда выпускаешься?" with dissolve
+    me "When do you graduate?" with dissolve
+
+# game/day1.rpy:1087
+translate english day1_aliya_offer_help_5335def8:
+
+    # aliya_mobile "В следующем году." with dissolve
+    aliya_mobile "Next year." with dissolve
+
+# game/day1.rpy:1091
+translate english day1_aliya_offer_help_9b50d5f4:
+
+    # me "Может перевестись в другой город учиться? Или ты будешь бросать учёбу?" with dissolve
+    me "Maybe you should transfer to another city? Or you will jist give up the college?" with dissolve
+
+# game/day1.rpy:1095
+translate english day1_aliya_offer_help_8b0b657e:
+
+    # aliya_mobile "Наверное брошу." with dissolve
+    aliya_mobile "Give up, I guess." with dissolve
+
+# game/day1.rpy:1099
+translate english day1_aliya_offer_help_0dfb8a32:
+
+    # aliya_mobile "Тогда и документы нужны, чтоб в другое место поступить." with dissolve
+    aliya_mobile "Then I need documents to enroll to another college or university." with dissolve
+
+# game/day1.rpy:1103
+translate english day1_aliya_offer_help_7000e051:
+
+    # me "Да, из колледжа нужно забрать аттестат." with dissolve
+    me "Yes, you need to take your school leaving certificate, it is stored at your college." with dissolve
+
+# game/day1.rpy:1107
+translate english day1_aliya_offer_help_60349931:
+
+    # aliya_mobile "Кстати, номер тоже менять надо будет." with dissolve
+    aliya_mobile "By the way, I should also change my phone number." with dissolve
+
+# game/day1.rpy:1111
+translate english day1_aliya_offer_help_9001bb01:
+
+    # me "Номер легко поменять." with dissolve
+    me "Yes, it is easy to change a phone number." with dissolve
+
+# game/day1.rpy:1115
+translate english day1_aliya_offer_help_be424b97:
+
+    # me "Можешь взять с собой друга и оформить на его паспорт." with dissolve
+    me "You can take your friend and register a new phone on his ID." with dissolve
+
+# game/day1.rpy:1119
+translate english day1_aliya_offer_help_306874f6:
+
+    # me "Тогда точно не найдут." with dissolve
+    me "Then they definitely will not find you." with dissolve
+
+# game/day1.rpy:1123
+translate english day1_aliya_offer_help_33ad5ad9:
+
+    # aliya_mobile "Хм, а это идея." with dissolve
+    aliya_mobile "Yes, that's a good idea." with dissolve
+
+# game/day1.rpy:1144
+translate english day1_aliya_meeting_after_success_1eea5458:
+
+    # aliya_mobile "Ладно, уже поздно, мне пора спать." with dissolve
+    aliya_mobile "Ok, it is getting late, I should go to sleep." with dissolve
+
+# game/day1.rpy:1148
+translate english day1_aliya_meeting_after_success_f8628510:
+
+    # me "Ладно." with dissolve
+    me "Ok." with dissolve
+
+# game/day1.rpy:1168
+translate english day1_aliya_meeting_after_success_f1055ed2:
+
+    # aliya_mobile "Алия." with dissolve
+    aliya_mobile "Aliya." with dissolve
+
+# game/day1.rpy:1176
+translate english day1_aliya_meeting_after_success_fac8507c:
+
+    # aliya_mobile "Спокойной ночи, Семён!" with dissolve
+    aliya_mobile "Good night, Semyon!" with dissolve
+
+# game/day1.rpy:1194
+translate english day1_over_success_1d53a109:
+
+    # "Утомлённый разговором, я лёг спать." with dissolve
+    "Tired with the dialog, I went to sleep." with dissolve
+
+# game/day1.rpy:1200
+translate english day1_over_success_70408821:
+
+    # "У меня хотя бы есть какая-никакая работа, доходы, съёмная квартира." with dissolve
+    "At least, I have some job, income, I rent an apartment." with dissolve
+
+# game/day1.rpy:1202
+translate english day1_over_success_706b3bc0:
+
+    # "А тут девочке 18 лет и её родители выдают замуж." with dissolve
+    "And here is a girl 18 years old, and her parents are giving her in marriage." with dissolve
+
+# game/day1.rpy:1206
+translate english day1_over_success_426d9aa9:
+
+    # "Даже странно представить, что подобное всё ещё происходит где-то в России." with dissolve
+    "It is difficult to imagine, that things like thart still happen here in Russia." with dissolve
+
+# game/day1.rpy:1208
+translate english day1_over_success_bc2aec28:
+
+    # "И я вызвался ей помочь." with dissolve
+    "And I offered her my help." with dissolve
+
+# game/day1.rpy:1210
+translate english day1_over_success_d64e6efd:
+
+    # "Возможно, ей и не понадобится моя помощь. До лета ещё далеко, может проблема будет решена как-то по-другому." with dissolve
+    "Probably, she will not need my help. There is stil enough time until summer, maybe the problem will be solved somehow else." with dissolve
+
+# game/day1.rpy:1212
+translate english day1_over_success_12139432:
+
+    # "Может быть, Алия передумает сбегать или придумает какой-нибудь другой план." with dissolve
+    "Maybe, Aliya will change her mind. Or find some other plan." with dissolve
+
+# game/day1.rpy:1240
+translate english day1_ask_coach_6ddb2715:
+
+    # me "Привет, мне нужен твой совет." with dissolve
+    me "Hi, I need your advice" with dissolve
+
+# game/day1.rpy:1244
+translate english day1_ask_coach_8178f98c:
+
+    # coach "Привет, слушаю)" with dissolve
+    coach "Hi, yes, I am listening)" with dissolve
+
+# game/day1.rpy:1248
+translate english day1_ask_coach_53eabb41:
+
+    # me "У меня тут есть сложный случай. Я познакомился с девушкой в интернете." with dissolve
+    me "I got a complicated case. I met a girl in the internet." with dissolve
+
+# game/day1.rpy:1256
+translate english day1_ask_coach_99690a3c:
+
+    # me "Она мне рассказывает о своих проблемах." with dissolve
+    me "She is telling me about her problems." with dissolve
+
+# game/day1.rpy:1260
+translate english day1_ask_coach_164d1014:
+
+    # me "Я бы хотел понять, как мне строить с ней диалог." with dissolve
+    me "And I would like to know, how do I set a dialog with her." with dissolve
+
+# game/day1.rpy:1268
+translate english day1_ask_coach_f5fa8fce:
+
+    # coach "Пришли мне переписку, я почитаю." with dissolve
+    coach "Send me the messaging history, I will read." with dissolve
+
+# game/day1.rpy:1272
+translate english day1_ask_coach_15f20b8c:
+
+    # "Я скопировал переписку и отправил Напарнику." with dissolve
+    "I copied the message history and sent it to Mate." with dissolve
+
+# game/day1.rpy:1280
+translate english day1_ask_coach_d0345c71:
+
+    # coach "Ужасная ситуация, конечно. Надеюсь, она найдёт решение." with dissolve
+    coach "Yes, that's a terrible situation. I hope she will find a solution." with dissolve
+
+# game/day1.rpy:1284
+translate english day1_ask_coach_aefbf335:
+
+    # me "Возможно, я смогу ей чем-то помочь?" with dissolve
+    me "Maybe I can help her somehow?" with dissolve
+
+# game/day1.rpy:1288
+translate english day1_ask_coach_f2954c5e:
+
+    # coach "Я думаю, эта девушка очень недоверчивая и скрытная." with dissolve
+    coach "I think, this girl is very distrustful and secretive." with dissolve
+
+# game/day1.rpy:1292
+translate english day1_ask_coach_aaa29642:
+
+    # coach "Если ты серьезно хочешь ей помочь, тебе нужно войти в доверие." with dissolve
+    coach "If you really want to help her, you should earn her trust." with dissolve
+
+# game/day1.rpy:1296
+translate english day1_ask_coach_1e9382e1:
+
+    # coach "Сначала тебе стоит войти в её положение, показать, что ты её понимаешь." with dissolve
+    coach "Start with getting into her situation, show her that you understand her." with dissolve
+
+# game/day1.rpy:1300
+translate english day1_ask_coach_c033e502:
+
+    # coach "И только потом, когда будешь с ней на одной волне, ты уже можешь что-то предлагать." with dissolve
+    coach "And only when you feel you are on the same vibe with her, then you can offer something." with dissolve
+
+# game/day1.rpy:1304
+translate english day1_ask_coach_b5ebb783:
+
+    # coach "Если ты сходу предложишь ей помощь, она заподозрит неладное и просто откажется." with dissolve
+    coach "If you just offer her help right away, she will suspect that something is wrong and refuse." with dissolve
+
+# game/day1.rpy:1308
+translate english day1_ask_coach_88719a9d:
+
+    # me "Так... ладно." with dissolve
+    me "Hmm... ok." with dissolve
+
+# game/day1.rpy:1318
+translate english day1_ask_coach_after_exposition_c112b7bc:
+
+    # me "Окей. Спасибо за помощь." with dissolve
+    me "Okay. Thanks for your help." with dissolve
+
+# game/day1.rpy:1350
+translate english day1_aliya_offer_36b05172:
+
+    # me "Я куплю тебе билеты, помогу сбежать в Москву или куда захочешь." with dissolve
+    me "I will buy you tickets, help you to escape to Moscow, or wherever you want." with dissolve
+
+# game/day1.rpy:1354
+translate english day1_aliya_offer_26d0184e:
+
+    # aliya_mobile "Спасибо, не надо." with dissolve
+    aliya_mobile "No thanks." with dissolve
+
+# game/day1.rpy:1362
+translate english day1_aliya_offer_be964377:
+
+    # aliya_mobile "Ты меня не знаешь, я тебя не знаю." with dissolve
+    aliya_mobile "You don't know me, I don't know you." with dissolve
+
+# game/day1.rpy:1366
+translate english day1_aliya_offer_35d7c797:
+
+    # aliya_mobile "Не стоит." with dissolve
+    aliya_mobile "Better don't." with dissolve
+
+# game/day1.rpy:1380
+translate english day1_aliya_decline_a67a862f:
+
+    # me "Извини, мне это не интересно." with dissolve
+    me "Sorry, I am not interested in it." with dissolve
+
+# game/day1.rpy:1384
+translate english day1_aliya_decline_7cff7dc1:
+
+    # me "Я конечно поддерживаю тебя, но у меня сейчас и своих проблем по горло." with dissolve
+    me "I support you, of course, but I have a lot on my plate too." with dissolve
+
+# game/day1.rpy:1388
+translate english day1_aliya_decline_40232c86:
+
+    # aliya_mobile "Поняла." with dissolve
+    aliya_mobile "I got it." with dissolve
+
+# game/day1.rpy:1392
+translate english day1_aliya_decline_8ee6460f:
+
+    # me "Желаю тебе удачи и всё такое." with dissolve
+    me "Good luck to you and all that." with dissolve
+
+# game/day1.rpy:1396
+translate english day1_aliya_decline_e97f99fb:
+
+    # aliya_mobile "Спасибо." with dissolve
+    aliya_mobile "Thank you." with dissolve
+
+# game/day1.rpy:1402
+translate english day1_aliya_decline_b30017bf:
+
+    # aliya_mobile "В таком случае прости, что побеспокоила." with dissolve
+    aliya_mobile "In this case, sorry for bothering you." with dissolve
+
+# game/day1.rpy:1406
+translate english day1_aliya_decline_102c2b9f:
+
+    # aliya_mobile "Я пожалуй пойду." with dissolve
+    aliya_mobile "Perhabs, I better go." with dissolve
+
+# game/day1.rpy:1424
+translate english day1_aliya_decline_b8638c83:
+
+    # "Кажется, она добавила меня в чёрный список." with dissolve
+    "Looks like she blocked me." with dissolve
+
+# game/day1.rpy:1428
+translate english day1_aliya_decline_2cf48545:
+
+    # "Жалко её, конечно, но я действительно не могу ничем помочь." with dissolve
+    "I feel sorry for her, but I really can't help her in any way." with dissolve
+
+# game/day1.rpy:1430
+translate english day1_aliya_decline_5a6c954d:
+
+    # "Максимум, что я мог бы сделать - дать телефоны и адреса каких-нибудь женских правозащитных организаций." with dissolve
+    "The best what I could do is - probably give her phone numbers and addresses of some women's rights organizations." with dissolve
+
+# game/day1.rpy:1442
+translate english day1_aliya_decline_8942f74b:
+
+    # "Она отправила меня в ЧС, поэтому сейчас я уже ничем не могу помочь ей." with dissolve
+    "Ok, she blocked me. So, now I can't help her anyway." with dissolve
+
+# game/day1.rpy:1444
+translate english day1_aliya_decline_35c08ed8:
+
+    # "Ладно пожалуй пойду спать." with dissolve
+    "I guess, I better go to sleep now." with dissolve
+
+# game/day1.rpy:1446
+translate english day1_aliya_decline_8c1375f1:
+
+    # "Мне же ещё нужно завтра заставить себя работать." with dissolve
+    "Tomorrow I need to force myself to work again." with dissolve
+
+translate english strings:
+
+    # game/day1.rpy:621
+    old "Посоветоваться с Напарником."
+    new "Consult with Mate."
+
+    # game/day1.rpy:621
+    old "Посочувствовать ей."
+    new "Sympathize her."
+
+    # game/day1.rpy:621
+    old "Предложить помощь."
+    new "Offer help."
+
+    # game/day1.rpy:816
+    old "\"Предложи своему жениху отказаться от свадьбы.\""
+    new "\"Offer your fiance to refuse the marriage.\""
+
+    # game/day1.rpy:816
+    old "\"Извини, мне это не интересно.\""
+    new "\"Sorry, I am not interested in it.\""

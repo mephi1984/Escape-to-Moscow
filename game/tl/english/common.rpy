@@ -1161,3 +1161,75 @@ translate english strings:
     # renpy/common/00accessibility.rpy:191
     old "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
     new "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
+# TODO: Translation updated at 2021-12-11 15:30
+
+translate english strings:
+
+    # renpy/common/00accessibility.rpy:193
+    old "Self-Voicing Volume Drop"
+    new ""
+
+    # renpy/common/00preferences.rpy:395
+    old "self voicing volume drop"
+    new ""
+
+    # renpy/common/00preferences.rpy:471
+    old "system cursor"
+    new ""
+
+    # renpy/common/00preferences.rpy:480
+    old "renderer menu"
+    new ""
+
+    # renpy/common/00preferences.rpy:483
+    old "accessibility menu"
+    new ""
+
+    # renpy/common/00gltest.rpy:100
+    old "Force GL Renderer"
+    new ""
+
+    # renpy/common/00gltest.rpy:105
+    old "Force ANGLE Renderer"
+    new ""
+
+    # renpy/common/00gltest.rpy:110
+    old "Force GLES Renderer"
+    new ""
+
+    # renpy/common/00gltest.rpy:116
+    old "Force GL2 Renderer"
+    new ""
+
+    # renpy/common/00gltest.rpy:121
+    old "Force ANGLE2 Renderer"
+    new ""
+
+    # renpy/common/00gltest.rpy:126
+    old "Force GLES2 Renderer"
+    new ""
+
+    # renpy/common/00gltest.rpy:136
+    old "Enable (No Blocklist)"
+    new ""
+
+    # renpy/common/00gltest.rpy:249
+    old "This game requires use of GL2 that can't be initialised."
+    new ""
+
+    # renpy/common/00gltest.rpy:259
+    old "The {a=edit:1:log.txt}log.txt{/a} file may contain information to help you determine what is wrong with your computer."
+    new ""
+
+    # renpy/common/00gltest.rpy:264
+    old "More details on how to fix this can be found in the {a=[url]}documentation{/a}."
+    new ""
+
+    # renpy/common/00gltest.rpy:281
+    old "Change render options"
+    new ""
+
+    # renpy/common/00gamepad.rpy:58
+    old "Press or move the '[control!s]' [kind]."
+    new ""
+

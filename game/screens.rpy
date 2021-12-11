@@ -146,6 +146,35 @@ init python:
 
     #config.underlay.append(renpy.Keymap(custom_return_to_game = ShowMenu("history"))) #creates keymap "history"
 
+    def QuickSaveX(message=_("Quick save complete."), newest=False):
+        """
+        :doc: file_action
+        Performs a quick save.
+        `message`
+            A message to display to the user when the quick save finishes.
+        `newest`
+            Set to true to mark the quicksave as the newest save.
+         """
+
+        rv = [
+            FileLastSaySave(1, page="quick", confirm=False, cycle=True, newest=newest),
+            Notify(message),
+            ]
+
+        rv[0].alt = _("Quick save.")
+
+        if not getattr(renpy.context(), "_menu", False):
+            rv.insert(0, FileTakeScreenshot())
+
+        return rv
+
+    def FileAction2(name, page=None, **kwargs):
+        if renpy.current_screen().screen_name[0] == "load":
+            return FileLoad(name, page=page, **kwargs)
+        else:
+            return FileLastSaySave(name, page=page, **kwargs)
+
+
     class FileSave2(Action, DictEquality):
         """
          :doc: file_action
@@ -235,7 +264,7 @@ init python:
         def __init__(self, name, confirm=False, newest=True, page=None, cycle=False):
             #global last_say
             super(FileLastSaySave,self).__init__(name=name,confirm=confirm,newest=newest,page=page,cycle=cycle)
-            #self.last_say=last_say
+            #self.last_say = last_say
         def __call__(self):
             if store._last_say_who:
                 #if not isinstance(store._last_say_who, basestring):
@@ -248,7 +277,7 @@ init python:
 
             savegame_text = (savegame_text[:22] + '..') if len(savegame_text) > 24 else savegame_text
             global save_name
-            save_name = savegame_picture + "|" + savegame_text
+            save_name = savegame_text
             return super(FileLastSaySave,self).__call__()
 
     def FileAction2(name, page=None, **kwargs):
@@ -380,13 +409,6 @@ style choice_button_text is default:
 
 screen quick_menu():
 
-    if isMobileWeb:
-        key "alt_K_2" action ShowMenu('preferences')
-        key "alt_K_3" action QuickSave()
-        key "alt_K_4" action QuickLoad()
-        key "alt_K_5" action Start()
-
-
     ## Гарантирует, что оно появляется поверх других экранов.
     zorder 100
 
@@ -404,7 +426,7 @@ screen quick_menu():
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Сохранить") action ShowMenu('save')
-            textbutton _("Б.Сохр") action QuickSave()
+            textbutton _("Б.Сохр") action QuickSaveX()
             textbutton _("Б.Загр") action QuickLoad()
             textbutton _("Опции") action ShowMenu('preferences')
 
@@ -858,16 +880,12 @@ screen file_slots(title):
 
                         has vbox
 
-                        $ pic_and_text = FileSaveName(slot)
-                        $ pic_and_text_split = pic_and_text.split("|")
-                        $ savegame_pick = pic_and_text_split[0]
-                        $ savegame_text = pic_and_text_split[1] if (len(pic_and_text_split) >= 2) else ""
-
+                        $ savegame_text = FileSaveName(slot)
 
                         # Vladislav khorev - set predefined image instead of screenshot
-                        #add FileScreenshot(slot) xalign 0.5
-                        if savegame_pick != "":
-                            add savegame_pick xalign 0.5
+                        add FileScreenshot(slot) xalign 0.5
+                        #if savegame_pick != "":
+                        #    add savegame_pick xalign 0.5
 
                         text FileTime(slot, format=_("{#file_time}%A, %d %B %Y, %H:%M"), empty=_("Пустой слот")):
                             style "slot_time_text"

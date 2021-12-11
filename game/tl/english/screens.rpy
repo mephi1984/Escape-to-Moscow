@@ -383,3 +383,34 @@ translate english strings:
     # game/screens.rpy:983
     old "На тяжелом уровне сложности труднее попасть на хорошую концовку. Вы можете поменять уровень сложности в любой момент во время игры."
     new "On hard difficulty level, it is more difficult to get to the good ending. You can change the difficulty level at any time during the game."
+# TODO: Translation updated at 2021-12-11 15:30
+
+translate english strings:
+
+    # game/screens.rpy:464
+    old "{b}Продолжить{/b}"
+    new "{b}Continue{/b}"
+
+    # game/screens.rpy:468
+    old "{b}Вернуться{/b}"
+    new "{b}Go back{/b}"
+
+    # game/screens.rpy:497
+    old "Галерея"
+    new "Gallery"
+
+    # game/screens.rpy:772
+    old "{b}{u}Наш сайт{/u}{/b}"
+    new "{b}{u}Our website{/u}{/b}"
+
+    # game/screens.rpy:773
+    old "{b}{u}Наша группа в ВК{/u}{/b}"
+    new "{b}{u}Our group in VK{/u}{/b}"
+
+    # game/screens.rpy:1142
+    old "Сложность"
+    new "Difficulty"
+
+    # game/screens.rpy:1159
+    old "На тяжелом уровне сложности труднее попасть на хорошую концовку.\nВы можете поменять уровень сложности в любой момент во время игры."
+    new "On hard difficulty level, it is more difficult to get to the good ending. You can change the difficulty level at any time during the game."

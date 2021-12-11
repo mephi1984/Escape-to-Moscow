@@ -575,3 +575,333 @@ translate english strings:
     # day2_part3.rpy:101
     old "Просто смотреть на дорогу и думать"
     new "Just look at the road and think"
+# TODO: Translation updated at 2021-12-11 15:30
+
+# game/day2_part3.rpy:32
+translate english day2_success_end_da4550a0:
+
+    # "Время перевалило за одиннадцать, я сижу в машине Ярика на переднем сидении." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:36
+translate english day2_success_end_2fa20d03:
+
+    # "Наскоро собранный рюкзак лежал у меня в ногах и теперь я мог наконец собраться с мыслями." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:38
+translate english day2_success_end_e3dbf2eb:
+
+    # "В салоне играет евробит. Обычно я не фанат такой музыки, но сейчас она придавала мне уверенности." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:64
+translate english day2_success_end_223ace15:
+
+    # aliya_mobile "Я сегодня позвонила маме." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part3.rpy:68
+translate english day2_success_end_83452217:
+
+    # aliya_mobile "Она удивилась, почему я такая грустная. Может она что-то подозревает?" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part3.rpy:72
+translate english day2_success_end_54639252:
+
+    # me "Все будет хорошо." with dissolve
+    me "" with dissolve
+
+# game/day2_part3.rpy:80
+translate english day2_success_end_c15b114d:
+
+    # aliya_mobile "Да, паспорт в сумке. ИНН лежат на полке в гостиной. Я заберу его, когда поеду завтра в аэропорт." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part3.rpy:84
+translate english day2_success_end_037b471a:
+
+    # me "Хорошо. А сейчас лучше ложись спать." with dissolve
+    me "" with dissolve
+
+# game/day2_part3.rpy:88
+translate english day2_success_end_fa1e8c8d:
+
+    # aliya_mobile "Я наверное не смогу уснуть." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part3.rpy:92
+translate english day2_success_end_c746e358:
+
+    # me "Верь мне!" with dissolve
+    me "" with dissolve
+
+# game/day2_part3.rpy:96
+translate english day2_success_end_a3742931:
+
+    # me "Всё будет хорошо!" with dissolve
+    me "" with dissolve
+
+# game/day2_part3.rpy:149
+translate english day2_car_coach_71ede2f3:
+
+    # me "Ярик меня встретил, я еду в аэропорт." with dissolve
+    me "" with dissolve
+
+# game/day2_part3.rpy:161
+translate english day2_car_coach_70712c74:
+
+    # coach "Постарайся хорошо поспать в пути." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:165
+translate english day2_car_coach_dd6a19ee:
+
+    # coach "Завтра тебе предстоит тяжёлый день." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:169
+translate english day2_car_coach_190a28b5:
+
+    # coach "Когда встретишь Алию, разговаривай с ней спокойно и доброжелательно." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:173
+translate english day2_car_coach_5336c38d:
+
+    # coach "Желательно в многолюдном месте, чтобы ей не было страшно." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:177
+translate english day2_car_coach_e7981c39:
+
+    # coach "Тебе нужно расположить её к себе. Не дави, просто расскажи ей свой план. Ответь на её вопросы." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:181
+translate english day2_car_coach_94f21c42:
+
+    # coach "Затем спроси её, готова ли она последовать за тобой." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:189
+translate english day2_car_coach_cf23412d:
+
+    # coach "Если она передумает, то тут уже ничего не сделать. Выдай ей деньги на обратную дорогу и лети в Москву один." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:193
+translate english day2_car_coach_0d40ee81:
+
+    # coach "Да и вообще, выдай ей немного наличных денег, чтобы она чувствовала себя увереннее." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:197
+translate english day2_car_coach_42b378dd:
+
+    # me "Ладно..." with dissolve
+    me "" with dissolve
+
+# game/day2_part3.rpy:201
+translate english day2_car_coach_a52d4df4:
+
+    # coach "Завтра сообщи мне свои новости. Когда вы будете в Москве, я помогу вам поискать и забронировать подходящее жилье." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:205
+translate english day2_car_coach_42f6f9b4:
+
+    # me "Спасибо!" with dissolve
+    me "" with dissolve
+
+# game/day2_part3.rpy:209
+translate english day2_car_coach_0b793172:
+
+    # coach "Мне пора спать ^^ удачи! Спишемся завтра." with dissolve
+    coach "" with dissolve
+
+# game/day2_part3.rpy:254
+translate english day2_car_jarik_c7be9985:
+
+    # yarik "Когда вернёшься из Москвы, пиши! Встретимся, расскажешь, как всё прошло!" with dissolve
+    yarik "" with dissolve
+
+# game/day2_part3.rpy:258
+translate english day2_car_jarik_81e4fe5b:
+
+    # "Впрочем, я ещё даже не знаю, когда вернусь из Москвы." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:273
+translate english day2_car_end_78ad358e:
+
+    # "Итак, я ввязался в историю и понятия не имею как она закончится." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:279
+translate english day2_car_end_74a6ab8d:
+
+    # "Словно до этого я смотрел скучный фильм, и сейчас в этом фильме наконец началось основное действие." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:281
+translate english day2_car_end_3428159a:
+
+    # "Возможно, я всю жизнь готовился именно к этому моменту. Вся моя жизнь до этого - всего лишь предыстория." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:283
+translate english day2_car_end_ec19e391:
+
+    # "Это выглядит как завязка сериала. Пилотная серия, первый эпизод." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:285
+translate english day2_car_end_24dcec0f:
+
+    # "У меня слегка дрожат руки то ли от холода, то ли от страха." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:287
+translate english day2_car_end_72810437:
+
+    # "Конечно, мне немного страшно. Однако я решил, что если испугаюсь и передумаю сейчас, буду жалеть об этом всю оставшуюся жизнь." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:289
+translate english day2_car_end_7a1a0ccd:
+
+    # "Разуеется, я настроен решительно, но мне всё равно не по себе. Не каждый день мне приходится похищать дочь следователя из Дагестана." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:293
+translate english day2_car_end_c913d2c7:
+
+    # "Всё ли я делаю правильно? Этого я тоже не знаю. Возможно, своим вмешательством я только всё испорчу." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:297
+translate english day2_car_end_aec99443:
+
+    # "Нужно проследить, чтобы родители не нашли её и не увезли обратно в Пятигорск." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:299
+translate english day2_car_end_e8b53cbc:
+
+    # "Вообще, на первое время я могу поселиться в Москве вместе с ней, помогу с документами и поиском работы." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:301
+translate english day2_car_end_e1cd20a2:
+
+    # "У меня с собой в рюкзаке вся моя электроника, документы и сменная одежда." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:303
+translate english day2_car_end_4b86be23:
+
+    # "Этого достаточно на первое время, а всё остальное можно будет докупить при необходимости." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:305
+translate english day2_car_end_e19811b3:
+
+    # "Интересно, если взять среднестатистического человека, у которого есть работа, дом, семья, собака - согласился бы он на такую авантюру?" with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:307
+translate english day2_car_end_76e591d7:
+
+    # "Чтобы вот так сорваться в Москву минимум на несколько недель, бросив работу, дом, привычный образ жизни?" with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:309
+translate english day2_car_end_3c87ba7e:
+
+    # "Наверное, нет. Для этого нужно быть фрилансером... или безработным... и, конечно, немного отчаянным романтиком в душе." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:321
+translate english day2_car_end_4e5ddf1a:
+
+    # "И вошёл в здание нашего провинциального аэропорта..." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:323
+translate english day2_car_end_33df283b:
+
+    # "Я успешно прошёл досмотр и сел ждать возле выхода на посадку." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:325
+translate english day2_car_end_7d1ae01f:
+
+    # "Завтра мне предстоял длинный день, и мне следовало бы выспаться как можно лучше." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:327
+translate english day2_car_end_90fa85d5:
+
+    # "Мой мозг находился в возбуждённом состоянии, но я всё равно попробовал заставить себя заснуть." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:331
+translate english day2_car_end_591db4fd:
+
+    # "Мозг не успокаивался и рисовал передо мной образы." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:335
+translate english day2_car_end_86ab2543:
+
+    # "Я ещё не знаю как выглядит Алия." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:337
+translate english day2_car_end_08d2fa86:
+
+    # "Я видел только её фотографию в паспорте." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:341
+translate english day2_car_end_1238c2c7:
+
+    # "Она, наверное, сейчас уже спит." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:343
+translate english day2_car_end_82e7ef1c:
+
+    # "Или так же как и я пытается уснуть, борясь со страхом и волнением?" with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:351
+translate english day2_car_end_47690d63:
+
+    # "Было очень обидно, если бы оказалось, что я зря ввязался в эту историю." with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:353
+translate english day2_car_end_354f86ac:
+
+    # "Хотя с другой стороны, кто знает к чему приведёт эта история?" with dissolve
+    "" with dissolve
+
+# game/day2_part3.rpy:359
+translate english day2_car_end_bcd3e9bd:
+
+    # "Но я решил для себя, если она хочет сбежать - я помогу ей в этом." with dissolve
+    "" with dissolve
+
+translate english strings:
+
+    # game/day2_part3.rpy:120
+    old "Поговорить с Яриком."
+    new ""
+
+    # game/day2_part3.rpy:120
+    old "Просто смотреть на дорогу и думать."
+    new ""
+

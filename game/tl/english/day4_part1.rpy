@@ -2251,3 +2251,101 @@ translate english strings:
     # day4_part1.rpy:1409
     old "Родители Алии не доверяют Семену"
     new "Parents of Aliya do not trust Semyon"
+# TODO: Translation updated at 2021-12-11 15:30
+
+# game/day4_part1.rpy:169
+translate english day4_morning_08e86eb6:
+
+    # me "Твоя мама обманула меня, и я бы хотел ей это напомнить..." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:176
+translate english day4_morning_7c2f58df:
+
+    # me "Хорошо, как скажешь. Я к тому, что если потребуется, то мы соврём твоим родителям, и чтоб тебя не мучала совесть." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:260
+translate english day4_morning_598d41a6:
+
+    # coach "Отлично! Насчет побега, у меня есть идея" with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:384
+translate english day4_morning_07e39c02:
+
+    # coach "В расписании аэропорта Домодедово есть рейсы в Алматы, Бишкек, Ош" with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:388
+translate english day4_morning_b20a6202:
+
+    # coach "Которые вылетают примерно в то же время, что и рейсы в Махачкалу и Минеральные Воды" with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:418
+translate english day4_morning_4003d336:
+
+    # me "... Честно, это один из самых сложных планов побега, который я когда либо слышал!" with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:426
+translate english day4_morning_b6b6f820:
+
+    # me "Итак, первый шаг - я должен предупредить Алию что у меня есть план побега за границу. Да?" with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1160
+translate english day4_parents_part0_choice_for_aliya_8a0cdc2b:
+
+    # me "Давайте будем до конца честны, ведь именно Вы её к этому подтолкнули." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1162
+translate english day4_parents_part0_choice_for_aliya_ac078ef8:
+
+    # me "Вы поставили её перед фактом замужества, при этом спросили ли Вы у неё хочет ли она этого? Нет." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1164
+translate english day4_parents_part0_choice_for_aliya_d76b7541:
+
+    # me "Вы продолжали на неё давить, повторяя раз за разом, что она должна, что у неё нет других вариантов." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1166
+translate english day4_parents_part0_choice_for_aliya_2dd99f27:
+
+    # me "А хоть раз Вы спросили, готова ли она? Хочет ли этого? Спросили в конце концов, чего она сама бы хотела?" with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1172
+translate english day4_parents_part0_choice_for_aliya_d864fd3c:
+
+    # me "Хоть я и знаю её несколько дней, но... Алия показала мне, что в даже в столь юной девушки может быть стальная воля, могут быть прекрасные мечты." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1174
+translate english day4_parents_part0_choice_for_aliya_aa141b99:
+
+    # me "И что не у каждого человека есть, смелость идти к тому, чего ты хочешь." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1214
+translate english day4_parents_part0_choice_for_parents_4c81c36c:
+
+    # me "И именно поэтому, когда Вы позвонили я и сказал Вам адрес, я был рад, что уважаемый Имран приехал за Алией и теперь она сможет вернуться в семью." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1331
+translate english day4_parents_part5_choice2_always_help_51a5680d:
+
+    # me "Так, что в Вашей дочери всегда будет, ещё как минимум один человек к которому она сможет обратиться за помощью," with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1333
+translate english day4_parents_part5_choice2_always_help_7849e157:
+
+    # me "помимо Вас и уважаемого Имрана." with dissolve
+    me "" with dissolve
+
