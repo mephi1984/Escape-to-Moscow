@@ -153,107 +153,106 @@ translate english day2_escape_now_fail_d16fcc85:
 translate english day2_escape_now_fail_51d79fff:
 
     # me "Ну ладно, давай скидывай паспортные данные." with dissolve
-    me "" with dissolve
+    me "Ok, send me your passport information." with dissolve
 
 # game/day2_part2_fail.rpy:15
 translate english day2_escape_now_fail_6674ff3f:
 
     # aliya_mobile "Нет, не стоит." with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "No, better not." with dissolve
 
 # game/day2_part2_fail.rpy:23
 translate english day2_escape_now_fail_a1c918c8:
 
     # aliya_mobile "Я думаю, лучше справлюсь как-нибудь сама." with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "I think, I better handle this alone." with dissolve
 
 # game/day2_part2_fail.rpy:27
 translate english day2_escape_now_fail_1760099a:
 
     # me "Ты боишься меня? Я обещаю, что не трону тебя." with dissolve
-    me "" with dissolve
+    me "Are you afraid of me? I promise I won't touch you." with dissolve
 
 # game/day2_part2_fail.rpy:31
 translate english day2_escape_now_fail_950e0ed0:
 
     # aliya_mobile "Сказала же, не надо. Спасибо!" with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "Told you better not. Thanks!" with dissolve
 
 # game/day2_part2_fail.rpy:39
 translate english day2_escape_now_fail_2615787d:
 
     # aliya_mobile "То есть ты так и не понял, что мне никто не нужен?" with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "So you still don't understand, that I don't need anyone." with dissolve
 
 # game/day2_part2_fail.rpy:43
 translate english day2_escape_now_fail_637119cc:
 
     # me "Я нужен!" with dissolve
-    me "" with dissolve
+    me "You need me!" with dissolve
 
 # game/day2_part2_fail.rpy:47
 translate english day2_escape_now_fail_1ff98e48:
 
     # aliya_mobile "Не хочу тебя ранить, но нет!" with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "Don't want to hurt you, but no!" with dissolve
 
 # game/day2_part2_fail.rpy:59
 translate english day2_escape_now_fail_d30f1ea2:
 
     # me "Не парь мне мозги!" with dissolve
-    me "" with dissolve
+    me "Stop bullshitting me!" with dissolve
 
 # game/day2_part2_fail.rpy:63
 translate english day2_escape_now_fail_a5310f9a:
 
     # aliya_mobile "Я не парю тебе мозги," with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "I don't bullshit you," with dissolve
 
 # game/day2_part2_fail.rpy:67
 translate english day2_escape_now_fail_491b33dc:
 
     # aliya_mobile "а говорю прямо!" with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "I say directly!" with dissolve
 
 # game/day2_part2_fail.rpy:81
 translate english day2_escape_now_fail_b8638c83:
 
     # "Кажется, она добавила меня в чёрный список." with dissolve
-    "" with dissolve
+    "Looks like she blocked me." with dissolve
 
 # game/day2_part2_fail.rpy:83
 translate english day2_escape_now_fail_77a3e562:
 
     # "Я хотел ей помочь, но видимо сделал только хуже." with dissolve
-    "" with dissolve
+    "I wanted to help her, but looks like I just made things worse." with dissolve
 
 # game/day2_part2_fail.rpy:85
 translate english day2_escape_now_fail_dab5178f:
 
     # "Она не доверяет мне и теперь будет решать свою проблему одна." with dissolve
-    "" with dissolve
+    "She doesn't trust me, and now she will solve her problem without me." with dissolve
 
 # game/day2_part2_fail.rpy:95
 translate english day2_escape_now_fail_6d94418b:
 
     # "Она отправила меня в ЧС и я не могу ей больше ничего писать." with dissolve
-    "" with dissolve
+    "Ok, she blocked me, and I can't text her anything." with dissolve
 
 # game/day2_part2_fail.rpy:97
 translate english day2_escape_now_fail_2afb724d:
 
     # "Ладно, пожалуй, пойду спать." with dissolve
-    "" with dissolve
+    "I guess, I better go to sleep now." with dissolve
 
 # game/day2_part2_fail.rpy:99
 translate english day2_escape_now_fail_fb765c8a:
 
     # "Мне ещё нужно завтра заставить себя работать." with dissolve
-    "" with dissolve
+    "Tomorrow I need to force myself to work again." with dissolve
 
 # game/day2_part2_fail.rpy:101
 translate english day2_escape_now_fail_bbd25487:
 
     # "Необходимо очистить свои мысли от лишних беспокойств..." with dissolve
-    "" with dissolve
-
+    "I should clear my mind from useless worries..." with dissolve

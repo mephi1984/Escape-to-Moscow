@@ -77,7 +77,7 @@ label day2_success_end:
 
     $ addReceivedMessage(5)
 
-    aliya_mobile "Да, паспорт в сумке. ИНН лежат на полке в гостиной. Я заберу его, когда поеду завтра в аэропорт." with dissolve
+    aliya_mobile "Да, паспорт в сумке. ИНН лежит на полке в гостиной. Я заберу его, когда поеду завтра в аэропорт." with dissolve
 
     $ addSentMessage(3)
 
