@@ -351,263 +351,262 @@ translate english day4_the_end_part1_option1_bus_92f39953:
 translate english day4_parents_part6_parent_persuade_fail_6027795d:
 
     # fatima "Нет, Семён, не нужно беспокоиться." with dissolve
-    fatima "" with dissolve
+    fatima "No Semyon, no need to worry." with dissolve
 
 # game/day4_part2_parent_fail.rpy:37
 translate english day4_parents_part6_parent_persuade_fail_73967955:
 
     # fatima "Мы поедем на автобусе - так дешевле и надёжнее." with dissolve
-    fatima "" with dissolve
+    fatima "We will go by coach bus, it's cheaper and more reliable." with dissolve
 
 # game/day4_part2_parent_fail.rpy:39
 translate english day4_parents_part6_parent_persuade_fail_30a5588e:
 
     # fatima "Имран нас отвезёт на автовокзал и купит билеты." with dissolve
-    fatima "" with dissolve
+    fatima "Imran will take us to the coach terminal and buy us tickets." with dissolve
 
 # game/day4_part2_parent_fail.rpy:45
 translate english day4_parents_part6_parent_persuade_fail_d937bb18:
 
     # "Ох чёрт, кажется, эта часть плана провалилась" with dissolve
-    "" with dissolve
+    "Oh damn, does this part of the plan seem to fail." with dissolve
 
 # game/day4_part2_parent_fail.rpy:47
 translate english day4_parents_part6_parent_persuade_fail_1c97d205:
 
     # me "Зачем торопиться? Вы же всё-таки в Москве, может погуляете по городу?" with dissolve
-    me "" with dissolve
+    me "Why rush? You are still in Moscow, maybe you can take a walk around the city?" with dissolve
 
 # game/day4_part2_parent_fail.rpy:49
 translate english day4_parents_part6_parent_persuade_fail_03b51983:
 
     # "Фатима внимательно посмотрела на меня." with dissolve
-    "" with dissolve
+    "Fatima looked at me attentively." with dissolve
 
 # game/day4_part2_parent_fail.rpy:55
 translate english day4_parents_part6_parent_persuade_fail_79d10a06:
 
     # fatima "Семён, я же говорю, вам не нужно беспокоиться по этому поводу." with dissolve
-    fatima "" with dissolve
+    fatima "Semyon, I'm telling you, you don't need to worry about this." with dissolve
 
 # game/day4_part2_parent_fail.rpy:67
 translate english day4_parents_part6_parent_persuade_fail_42f0e085:
 
     # "Я посмотрел на Алию. Она отвела взгляд и стала смотреть в пол." with dissolve
-    "" with dissolve
+    "I looked at Aliya. Aliya looked away and then started to look at the floor." with dissolve
 
 # game/day4_part2_parent_fail.rpy:75
 translate english day4_parents_part6_parent_persuade_fail_88cf4f0b:
 
     # "Мать Алии приготовила обед: сэндвичи и чай." with dissolve
-    "" with dissolve
+    "Aliya's mother made lunch - sandwiches and tea." with dissolve
 
 # game/day4_part2_parent_fail.rpy:77
 translate english day4_parents_part6_parent_persuade_fail_d696a479:
 
     # "Мы сели за стол и молча поели." with dissolve
-    "" with dissolve
+    "We sat down at the table and dined in silence." with dissolve
 
 # game/day4_part2_parent_fail.rpy:79
 translate english day4_parents_part6_parent_persuade_fail_df3f2689:
 
     # "Девушка молчала. Её родители тоже, словно бы не хотели сказать при мне что-то лишнее." with dissolve
-    "" with dissolve
+    "Aliya was silent. Aliya's parents, too, seem to not willing to say something extra in front of me." with dissolve
 
 # game/day4_part2_parent_fail.rpy:103
 translate english day4_parents_part6_parent_persuade_fail_899029b0:
 
     # "Дождавшись меня, родители Алии и дядя Имран тоже встали." with dissolve
-    "" with dissolve
+    "After waiting for me, the parents of Aliya and Imran also stood up." with dissolve
 
 # game/day4_part2_parent_fail.rpy:109
 translate english day4_parents_part6_parent_persuade_fail_ed55199b:
 
     # imran "Семён, мы сейчас поедем на автовокзал." with dissolve
-    imran "" with dissolve
+    imran "Semyon, we are going to the intercity bus terminal now." with dissolve
 
 # game/day4_part2_parent_fail.rpy:111
 translate english day4_parents_part6_parent_persuade_fail_378400ec:
 
     # imran "Здесь рядом находится автобусная остановка, оттуда едут маршрутки до метро." with dissolve
-    imran "" with dissolve
+    imran "There is a bus stop nearby, from there you can get a minibus to the metro." with dissolve
 
 # game/day4_part2_parent_fail.rpy:123
 translate english day4_parents_part6_parent_persuade_fail_b9345cb7:
 
     # "Она смотрела в пол и выглядела очень грустной." with dissolve
-    "" with dissolve
+    "She looked at the floor and seemed very sad." with dissolve
 
 # game/day4_part2_parent_fail.rpy:129
 translate english day4_parents_part6_parent_persuade_fail_e959b6db:
 
     # imran "Давайте я вас провожу до ворот, Семён." with dissolve
-    imran "" with dissolve
+    imran "Let me walk you to the gate, Semyon." with dissolve
 
 # game/day4_part2_parent_fail.rpy:133
 translate english day4_parents_part6_parent_persuade_fail_3ce62b10:
 
     # "Я вышел из дома в сопровождении Имрана..." with dissolve
-    "" with dissolve
+    "I went out into the courtyard accompanied by Imran..." with dissolve
 
 # game/day4_part2_parent_fail.rpy:142
 translate english day4_parents_part6_parent_persuade_fail_5850fe77:
 
     # "Он открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
-    "" with dissolve
+    "Imran opened the gates, and we went out of the courtyard into the road lined with tall fences." with dissolve
 
 # game/day4_part2_parent_fail.rpy:147
 translate english day4_parents_part6_parent_persuade_fail_0dec7b11:
 
     # imran "Если пойдёте в ту сторону, выйдете на Киевское шоссе. Там и находится автобусная остановка." with dissolve
-    imran "" with dissolve
+    imran "From here, if you go in that direction, then there will be Kievskoe highway, and a bus stop." with dissolve
 
 # game/day4_part2_parent_fail.rpy:149
 translate english day4_parents_part6_parent_persuade_fail_8ded3205:
 
     # imran "Удачи, Семён!" with dissolve
-    imran "" with dissolve
+    imran "Good luck, Semyon!" with dissolve
 
 # game/day4_part2_parent_fail.rpy:153
 translate english day4_parents_part6_parent_persuade_fail_951a9b98:
 
     # "Мужчина вывел меня на дорогу, ушел и закрыл за мной ворота." with dissolve
-    "" with dissolve
+    "Imran took me out onto the road, left and closed the gate behind me." with dissolve
 
 # game/day4_part2_parent_fail.rpy:157
 translate english day4_parents_part6_parent_persuade_fail_6e96b82e:
 
     # "Я медленно пошёл по направлению к автобусной остановке..." with dissolve
-    "" with dissolve
+    "And I started walking slowly towards the bus stop..." with dissolve
 
 # game/day4_part2_parent_fail.rpy:190
 translate english day4_the_end_part1_option1_bus_5d7cc416:
 
     # "Был уже глубокий вечер. Я сидел на кухне съёмной квартиры." with dissolve
-    "" with dissolve
+    "It was already late evening. I was sitting in the kitchen of the rented apartment." with dissolve
 
 # game/day4_part2_parent_fail.rpy:192
 translate english day4_the_end_part1_option1_bus_45968ae8:
 
     # "Алия с родителями сейчас ехала в автобусе, наверное, где-то под Ростовом." with dissolve
-    "" with dissolve
+    "Aliya and her parents were on a coach now, probably somewhere near Rostov." with dissolve
 
 # game/day4_part2_parent_fail.rpy:194
 translate english day4_the_end_part1_option1_bus_b9386576:
 
     # "Я написал ей несколько сообщений, но ответа не было." with dissolve
-    "" with dissolve
+    "I texted her several messages, but she did not answer." with dissolve
 
 # game/day4_part2_parent_fail.rpy:198
 translate english day4_the_end_part1_option1_bus_db77191e:
 
     # "Может быть, в дороге нет связи или разрядился телефон?" with dissolve
-    "" with dissolve
+    "Maybe there is simply no signal on the road? Or the phone battery is dead?" with dissolve
 
 # game/day4_part2_parent_fail.rpy:200
 translate english day4_the_end_part1_option1_bus_42713774:
 
     # "Возможно, Алия просто устала и решила поспать?" with dissolve
-    "" with dissolve
+    "Maybe Aliya was just tired and decided to sleep?" with dissolve
 
 # game/day4_part2_parent_fail.rpy:202
 translate english day4_the_end_part1_option1_bus_b8b1a042:
 
     # "Или... что, если" with dissolve
-    "" with dissolve
+    "Or maybe..." with dissolve
 
 # game/day4_part2_parent_fail.rpy:204
 translate english day4_the_end_part1_option1_bus_d16d3b72:
 
     # "у неё все-таки отобрали телефон?" with dissolve
-    "" with dissolve
+    "Did her parents take the phone away from her?" with dissolve
 
 # game/day4_part2_parent_fail.rpy:208
 translate english day4_the_end_part1_option1_bus_08d4c269:
 
     # "Передо мной на столе стоял недоеденный салат." with dissolve
-    "" with dissolve
+    "There was a half-eaten salad on the table in front of me." with dissolve
 
 # game/day4_part2_parent_fail.rpy:212
 translate english day4_the_end_part1_option1_bus_50e556db:
 
     # "Их хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере" with dissolve
-    "" with dissolve
+    "My strength was only enough to use the phone, reading the chat history in the messenger over and over again." with dissolve
 
 # game/day4_part2_parent_fail.rpy:214
 translate english day4_the_end_part1_option1_bus_78e29d86:
 
     # "и ожидая, когда наконец-то Алия будет онлайн." with dissolve
-    "" with dissolve
+    "And waiting for Aliya to be online finally." with dissolve
 
 # game/day4_part2_parent_fail.rpy:224
 translate english day4_the_end_part1_option1_bus_e673d35e:
 
     # "Периодически я открывал и смотрел фотографию Алии в своём телефоне." with dissolve
-    "" with dissolve
+    "From time to time I opened and looked at Aliya's photo on my phone." with dissolve
 
 # game/day4_part2_parent_fail.rpy:226
 translate english day4_the_end_part1_option1_bus_e9bc1914:
 
     # "Это тот снимок, который я украдкой заснял в Таганском парке." with dissolve
-    "" with dissolve
+    "This is the photo that I secretly took in Tagansky Park." with dissolve
 
 # game/day4_part2_parent_fail.rpy:228
 translate english day4_the_end_part1_option1_bus_345fe9b1:
 
     # "Единственное фото Алии, которое у меня есть - не считая, конечно, фотографии в паспорте." with dissolve
-    "" with dissolve
+    "This is the only photo of Aliya that I have - apart from, of course, the photo in her passport." with dissolve
 
 # game/day4_part2_parent_fail.rpy:230
 translate english day4_the_end_part1_option1_bus_501ac5f7:
 
     # "Алия улыбалась и смотрела мне прямо в глаза." with dissolve
-    "" with dissolve
+    "Aliya from the photo smiled and looked me straight in the eyes." with dissolve
 
 # game/day4_part2_parent_fail.rpy:232
 translate english day4_the_end_part1_option1_bus_8ec4f714:
 
     # "Именно такой я её и запомню теперь на всю жизнь..." with dissolve
-    "" with dissolve
+    "This is how I will remember her now for the rest of my life..." with dissolve
 
 # game/day4_part2_parent_fail.rpy:249
 translate english day4_the_end_part1_option1_bus_f74b3467:
 
     # "Я дёрнулся и резко включил телефон." with dissolve
-    "" with dissolve
+    "I flinched and turned on the phone rapidly." with dissolve
 
 # game/day4_part2_parent_fail.rpy:261
 translate english day4_the_end_part1_option1_bus_24c48157:
 
     # me "Привет. Всё плохо." with dissolve
-    me "" with dissolve
+    me "Hi! Everything is bad." with dissolve
 
 # game/day4_part2_parent_fail.rpy:265
 translate english day4_the_end_part1_option1_bus_99b82883:
 
     # me "Мне не удалось уговорить родителей Алии лететь самолётом." with dissolve
-    me "" with dissolve
+    me "I failed to persuade Aliya's parents to choose a plane." with dissolve
 
 # game/day4_part2_parent_fail.rpy:269
 translate english day4_the_end_part1_option1_bus_a569a264:
 
     # me "Они просто забрали её у меня и уехали на автобусе." with dissolve
-    me "" with dissolve
+    me "They just took Aliya from me and rode the coach bus." with dissolve
 
 # game/day4_part2_parent_fail.rpy:273
 translate english day4_the_end_part1_option1_bus_5f5d3495:
 
     # coach "Значит, ты не смог завоевать их доверие?" with dissolve
-    coach "" with dissolve
+    coach "So you couldn't win their trust?" with dissolve
 
 # game/day4_part2_parent_fail.rpy:281
 translate english day4_the_end_part1_option1_bus_c0bb582f:
 
     # me "Мне не удалось поговорить с ней наедине. Кажется, родители постоянно следили за ней." with dissolve
-    me "" with dissolve
+    me "I was unable to speak to her in private. It seems that her parents were constantly watching her." with dissolve
 
 # game/day4_part2_parent_fail.rpy:285
 translate english day4_the_end_part1_option1_bus_9b92b0bf:
 
     # me "В последний раз, когда я её видел, она была очень грустной и обречённой." with dissolve
-    me "" with dissolve
-
+    me "The last time I saw her, she was very sad and seemed doomed." with dissolve

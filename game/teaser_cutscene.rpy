@@ -7,7 +7,7 @@ screen branch1_cutscene_helper():
     key 'bar_deactivate' action  [ SetVariable("player_skipped_credits", True), Jump("after_branch1_cutscene")]
 
 
-label teaser_start:
+label teaser_start___:
 
     $ quick_menu = False
     $ show_say_menu = False
@@ -442,7 +442,7 @@ label trailer_continue4:
 
 
 
-label after_branch1_cutscene:
+label after_branch1_cutscene___:
 
     #$ quick_menu = True
     #$ show_say_menu = True

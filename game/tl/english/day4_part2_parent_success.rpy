@@ -887,7 +887,7 @@ translate english strings:
 translate english day4_parents_part6_parent_persuade_success_9f27b3fb:
 
     # fatima "Спасибо, Семён! Хорошо, сейчас я вам дам паспортные данные, купите пожалуйста нам билеты." with dissolve
-    fatima "" with dissolve
+    fatima "Thank you Semyon! Okay, now I'll give you your passport data, please buy us tickets." with dissolve
 
 # game/day4_part2_parent_success.rpy:38
 translate english day4_parents_part6_parent_persuade_success_c7768c1a:
@@ -1438,4 +1438,3 @@ translate english strings:
     # game/day4_part2_parent_success.rpy:646
     old "Семён не смог уговорить Алию."
     new ""
-

@@ -214,7 +214,7 @@ label day3_taganskaya:
 
     "Солнце ярко освещало наш путь, постепенно идя к закату." with dissolve
 
-    "Погода стояла хорошая. Вокруг нас было много людей, разных...по-разному одетых." with dissolve
+    "Погода стояла хорошая. Вокруг нас было много людей, разных... по-разному одетых." with dissolve
 
     "Мы лавировали в разношёрстной толпе, стараясь ни с кем не столкнуться." with dissolve
 
@@ -1042,7 +1042,7 @@ label day3_basmannaya:
 
     $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
-    "И мы подошли поближе к подъезду" with dissolve
+    "И мы подошли поближе к подъезду," with dissolve
 
     scene basmannaya_hood with dissolve
 
@@ -1051,7 +1051,7 @@ label day3_basmannaya:
     show aliya_sit_side earphones eyes_open_sad_worried_question as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
-    " и присели на скамейку." with dissolve
+    "и присели на скамейку." with dissolve
 
     show aliya_sit_side phone eyes_closed_sad as Aliya at any_center_pos with dissolve:
         zoom SCALE
@@ -1217,7 +1217,7 @@ label day3_basmannaya:
 
     me "и они будут меньше за тебя переживать." with dissolve
 
-    me "Только самое главное: не сообщай им свой номер телефона" with dissolve
+    me "Только самое главное: не сообщай им свой номер телефона," with dissolve
 
     me "И своё местоположение." with dissolve
 
@@ -1341,7 +1341,7 @@ label day3_basmannaya:
 
     "Это была обычная квартира из тех, которые сдаются посуточно." with dissolve
 
-    "Маленькой, но чистая. Из прихожей можно было сразу же пройти на кухню." with dissolve
+    "Маленькая, но чистая. Из прихожей можно было сразу же пройти на кухню." with dissolve
 
     "Здесь было всё необходимое: холодильник, чайник, посуда, микроволновка." with dissolve
 
