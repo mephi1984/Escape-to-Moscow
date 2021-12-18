@@ -904,3 +904,10 @@ translate english strings:
     # game/day2_part3.rpy:120
     old "Просто смотреть на дорогу и думать."
     new "Just look at the road and think."
+# TODO: Translation updated at 2021-12-19 00:04
+
+# game/day2_part3.rpy:80
+translate english day2_success_end_10277c55:
+
+    # aliya_mobile "Да, паспорт в сумке. ИНН лежит на полке в гостиной. Я заберу его, когда поеду завтра в аэропорт." with dissolve
+    aliya_mobile "Yes, passport is in the bag. SSN is in the cabinet in the living room. I will take it when I go to the airport tomorrow." with dissolve

@@ -333,203 +333,209 @@ translate english day4_the_end_part1_option2_airplane_b6dc9d93:
 translate english day4_imran_house_new_escape_failed_d4c594f7:
 
     # aliya "Извини, Семён. Ты уже сделал всё, что мог." with dissolve
-    aliya "" with dissolve
+    aliya "Sorry, Semyon. You've already done everything you could." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:22
 translate english day4_imran_house_new_escape_failed_32cd33d1:
 
     # "Алия развернулась и покинула комнату." with dissolve
-    "" with dissolve
+    "Aliya turned around and left the room." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:26
 translate english day4_imran_house_new_escape_failed_6ba752ca:
 
     # "Я слышал звук удаляющихся шагов, спускающихся вниз по лестнице." with dissolve
-    "" with dissolve
+    "I heard the sound of receding footsteps coming down the stairs." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:30
 translate english day4_imran_house_new_escape_failed_efb75657:
 
     # "Чувство бессилия и слабости охватило меня на какое-то время.Я присел на кровать, чтобы немного прийти в себя..." with dissolve
-    "" with dissolve
+    "A feeling of powerlessness and weakness overcame me for a while, and I sat down on the bed to recover a little..." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:56
 translate english day4_imran_house_new_escape_failed_e3ae9f85:
 
     # "Спустя какое-то время я вышел в гостиную и поставил посуду на стол. В гостиной были Алия, её родители и дядя Имран." with dissolve
-    "" with dissolve
+    "After a while, I went into the living room and put the dishes on the table. Aliya, her parents, and Imran were in the living room." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:64
 translate english day4_imran_house_new_escape_failed_2e8f3f52:
 
     # fatima "Я рада, что вам понравилось!" with dissolve
-    fatima "" with dissolve
+    fatima "I'm glad you liked it!" with dissolve
 
 # game/day4_part3_aliya_fail.rpy:74
 translate english day4_imran_house_new_escape_failed_ed2edf0d:
 
     # imran "Семён, я бы предложил вам остаться на подольше," with dissolve
-    imran "" with dissolve
+    imran "Semyon, I would offer staying longer," with dissolve
 
 # game/day4_part3_aliya_fail.rpy:76
 translate english day4_imran_house_new_escape_failed_f470f879:
 
     # imran "но я должен отвезти Аслана и его семью в аэропорт." with dissolve
-    imran "" with dissolve
+    imran "But I have to take Aslan and his family to the airport." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:86
 translate english day4_imran_house_new_escape_failed_e8b614e1:
 
     # fatima "Спасибо за помощь, Семён!" with dissolve
-    fatima "" with dissolve
+    fatima "Thanks for your help, Semyon!" with dissolve
 
 # game/day4_part3_aliya_fail.rpy:99
 translate english day4_imran_house_new_escape_failed_cc01db9c:
 
     # aslan "Пока, Семён." with dissolve
-    aslan "" with dissolve
+    aslan "Goodbye, Semyon." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:110
 translate english day4_imran_house_new_escape_failed_56fcd526:
 
     # aliya "Спасибо!" with dissolve
-    aliya "" with dissolve
+    aliya "Thanks!" with dissolve
 
 # game/day4_part3_aliya_fail.rpy:119
 translate english day4_imran_house_new_escape_failed_d3f2cf44:
 
     # "Я в последний раз посмотрел на неё. Она избегала моего взгляда и выглядела немного расстроенной." with dissolve
-    "" with dissolve
+    "I looked at Aliya for the last time. She avoided looking at me and seemed to be a little upset." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:138
 translate english day4_imran_house_new_escape_failed_5850fe77:
 
     # "Он открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
-    "" with dissolve
+    "Imran opened the gates, and we went out of the courtyard into the road lined with tall fences." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:143
 translate english day4_imran_house_new_escape_failed_da4a8497:
 
     # imran "Если пойдёшь в ту сторону, выйдешь на Киевское шоссе, там и находится автобусная остановка." with dissolve
-    imran "" with dissolve
+    imran "From here, if you go in that direction, then there will be Kievskoe highway, and a bus stop." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:166
 translate english day4_imran_house_new_escape_failed_5886a55c:
 
     # "Ну а я медленно пошёл по направлению к Киевскому шоссе..." with dissolve
-    "" with dissolve
+    "Meanwhile, I slowly walked towards the Kievskoe highway..." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:195
 translate english day4_the_end_part1_option2_airplane_5d7cc416:
 
     # "Был уже глубокий вечер. Я сидел на кухне съёмной квартиры." with dissolve
-    "" with dissolve
+    "It was already late evening. I was sitting in the kitchen of the rented apartment." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:199
 translate english day4_the_end_part1_option2_airplane_b9386576:
 
     # "Я написал ей несколько сообщений, но ответа не было." with dissolve
-    "" with dissolve
+    "I texted her several messages, but she did not answer." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:201
 translate english day4_the_end_part1_option2_airplane_beedfed4:
 
     # "В последний раз Алия была онлайн несколько часов назад." with dissolve
-    "" with dissolve
+    "She was last online a few hours ago." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:203
 translate english day4_the_end_part1_option2_airplane_7700be77:
 
     # "Может, она всё ещё не включила телефон после перелёта?" with dissolve
-    "" with dissolve
+    "Perhaps she still hadn't turned on her phone after the plane arrived?" with dissolve
 
 # game/day4_part3_aliya_fail.rpy:205
 translate english day4_the_end_part1_option2_airplane_b8b1a042:
 
     # "Или... что, если" with dissolve
-    "" with dissolve
+    "Or maybe..." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:207
 translate english day4_the_end_part1_option2_airplane_6d0b7518:
 
     # "у неё всё-таки отобрали телефон?" with dissolve
-    "" with dissolve
+    "Did her parents take the phone away from her?" with dissolve
 
 # game/day4_part3_aliya_fail.rpy:211
 translate english day4_the_end_part1_option2_airplane_08d4c269:
 
     # "Передо мной на столе стоял недоеденный салат." with dissolve
-    "" with dissolve
+    "There was a half-eaten salad on the table in front of me." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:215
 translate english day4_the_end_part1_option2_airplane_5cd99977:
 
     # "Моей энергии хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере" with dissolve
-    "" with dissolve
+    "My strength was only enough to use the phone, reading the chat history in the messenger over and over again." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:217
 translate english day4_the_end_part1_option2_airplane_78e29d86:
 
     # "и ожидая, когда наконец-то Алия будет онлайн." with dissolve
-    "" with dissolve
+    "And waiting for Aliya to be online finally." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:227
 translate english day4_the_end_part1_option2_airplane_e673d35e:
 
     # "Периодически я открывал и смотрел фотографию Алии в своём телефоне." with dissolve
-    "" with dissolve
+    "From time to time I opened and looked at Aliya's photo on my phone." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:229
 translate english day4_the_end_part1_option2_airplane_e9bc1914:
 
     # "Это тот снимок, который я украдкой заснял в Таганском парке." with dissolve
-    "" with dissolve
+    "This is the photo that I secretly took in Tagansky Park." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:231
 translate english day4_the_end_part1_option2_airplane_345fe9b1:
 
     # "Единственное фото Алии, которое у меня есть - не считая, конечно, фотографии в паспорте." with dissolve
-    "" with dissolve
+    "This is the only photo of Aliya that I have - apart from, of course, the photo in her passport." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:235
 translate english day4_the_end_part1_option2_airplane_8ec4f714:
 
     # "Именно такой я её и запомню теперь на всю жизнь..." with dissolve
-    "" with dissolve
+    "This is how I will remember her now for the rest of my life..." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:251
 translate english day4_the_end_part1_option2_airplane_f74b3467:
 
     # "Я дёрнулся и резко включил телефон." with dissolve
-    "" with dissolve
+    "I flinched and turned on the phone rapidly." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:263
 translate english day4_the_end_part1_option2_airplane_24c48157:
 
     # me "Привет. Всё плохо." with dissolve
-    me "" with dissolve
+    me "Hi! Everything is bad." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:267
 translate english day4_the_end_part1_option2_airplane_a5356b2d:
 
     # me "Мне удалось уговорить родителей Алии лететь самолётом," with dissolve
-    me "" with dissolve
+    me "I successfully persuaded Aliya's parents to take an airplane," with dissolve
 
 # game/day4_part3_aliya_fail.rpy:271
 translate english day4_the_end_part1_option2_airplane_5cb863f3:
 
     # me "но я не смог уговорить её бежать снова." with dissolve
-    me "" with dissolve
+    me "But I failed to persuade her to escape again." with dissolve
 
 # game/day4_part3_aliya_fail.rpy:275
 translate english day4_the_end_part1_option2_airplane_1270096c:
 
     # coach "Значит, она тебе недостаточно доверяет?" with dissolve
-    coach "" with dissolve
+    coach "So she doesn't trust you enough?" with dissolve
 
 # game/day4_part3_aliya_fail.rpy:279
 translate english day4_the_end_part1_option2_airplane_980e64b3:
 
     # coach "Может, ты её обидел чем-то или напугал?" with dissolve
-    coach "" with dissolve
+    coach "Maybe you offended her with something, or scared her?" with dissolve
+# TODO: Translation updated at 2021-12-19 00:04
 
+# game/day4_part3_aliya_fail.rpy:215
+translate english day4_the_end_part1_option2_airplane_debe8bb5:
+
+    # "Моей энергии хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере." with dissolve
+    "My strength was only enough to use the phone, reading the chat history in the messenger over and over again." with dissolve

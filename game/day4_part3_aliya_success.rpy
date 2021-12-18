@@ -48,11 +48,11 @@ label day4_imran_house_new_escape_succeed:
 
     "А затем ушла вниз по лестнице." with dissolve
 
-    "Я же остался один" with dissolve
+    "Я же остался один." with dissolve
 
     scene black with dissolve
 
-    "наедине со своими мыслями, сэндвичем и чаем..." with dissolve
+    "Наедине со своими мыслями, сэндвичем и чаем..." with dissolve
 
     scene imran_house_bedroom with dissolve
 
@@ -140,7 +140,7 @@ label day4_imran_house_new_escape_succeed:
 
     "Мне нужно покинуть комнату, не вызывая подозрений попрощаться со всеми, затем взять такси домой за вещами..." with dissolve
 
-    "...скрытно приехать в аэропорт, снова помочь Алие сбежать и при этом не спалиться перед её родителями." with dissolve
+    "... скрытно приехать в аэропорт, снова помочь Алие сбежать и при этом не спалиться перед её родителями." with dissolve
 
     "Чтобы остаться неузнанным, мне придётся переодеться и надеть маску, которую мне дала Алия." with dissolve
 
@@ -347,7 +347,7 @@ label airport_scene1:
 
     show day4_domodedovo_toilet_aliya1 as aliya with dissolve
 
-    "В определённое время Алия захочет пойти в туалет" with dissolve
+    "В определённое время Алия захочет пойти в туалет," with dissolve
 
     show day4_domodedovo_toilet_semyon2 as semyon with dissolve
 

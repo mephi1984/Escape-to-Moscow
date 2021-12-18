@@ -1276,3 +1276,17 @@ translate english day2_escape_now_success_coach_continue_c6560e1e:
 
     # me "Хорошо! Выхожу..." with dissolve
     me "Ok! I am going out..." with dissolve
+# TODO: Translation updated at 2021-12-19 00:04
+
+# game/day2_part2_success.rpy:85
+translate english day2_escape_now_success_coach_not_talked_61d59681:
+
+    # me "Эээ... это долгая история" with dissolve
+    me "Ehm, that's a long story to tell." with dissolve
+# TODO: Translation updated at 2021-12-19 00:10
+
+# game/day2_part2_success.rpy:85
+translate english day2_escape_now_success_coach_not_talked_1139c04a:
+
+    # me "Эээ... это долгая история." with dissolve
+    me "Ehm, that's a long story to tell." with dissolve
