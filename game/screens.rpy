@@ -111,11 +111,6 @@ default show_say_menu = True
 
 screen say(who, what):
     style_prefix "say"
-    #if isMobileWeb:
-
-        #$ savegame_text = what
-
-        #$ savegame_text = (savegame_text[:16] + '..') if len(savegame_text) > 18 else savegame_text
 
     if show_say_menu:
 
