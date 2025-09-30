@@ -652,7 +652,7 @@ label day1_aliya_sympathize:
 
     $ addSentMessage(5)
 
-    me "Они тебе говорят:\"Всё! Если сбежишь - ты преступница, тебе позор и всё такое\"." with dissolve
+    me "Они тебе говорят:\"Всё! Если сбежишь - ты преступница, тебе позор\" и всё такое." with dissolve
 
     $ addReceivedMessage(2)
 

@@ -1473,3 +1473,11 @@ translate english strings:
     old "Вернуться назад."
     new "Go back."
 
+# TODO: Translation updated at 2025-09-30 20:20
+
+# game/dagestan_exposition.rpy:491
+translate english day1_ask_coach_woman_honor_killing_55dd323f:
+
+    # coach "На Кавказе, конечно, это так не называют, там говорят \"смыть позор\"." with dissolve
+    coach "" with dissolve
+

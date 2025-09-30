@@ -150,7 +150,7 @@ define aliya_hood_right_pos = Position(xpos = 0.75, xanchor=0.5, ypos=1.0, yanch
 
 define isMobileWeb = True
 
-
+image splash = "splash.png"
 
 init python:
     renpy.music.register_channel("music_crossfade","music",loop=True,tight=True)
@@ -165,7 +165,19 @@ init python:
         config.autosave_on_choice = True
 
 
+image splash = "splash.png"
+
 label splashscreen:
+
+    scene black
+    with Pause(1)
+
+    show splash with dissolve
+    with Pause(2)
+
+    scene black with dissolve
+    with Pause(1)
+
     if not isMobileWeb:
         if not persistent.lang_chosen:
             $ persistent.lang_chosen = True
