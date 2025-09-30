@@ -383,3 +383,39 @@ translate english strings:
     # game/screens.rpy:983
     old "На тяжелом уровне сложности труднее попасть на хорошую концовку. Вы можете поменять уровень сложности в любой момент во время игры."
     new "On hard difficulty level, it is more difficult to get to the good ending. You can change the difficulty level at any time during the game."
+# TODO: Translation updated at 2025-09-29 22:03
+
+translate english strings:
+
+    # game/screens.rpy:464
+    old "{b}Продолжить{/b}"
+    new "{b}Continue{/b}"
+
+    # game/screens.rpy:468
+    old "{b}Вернуться{/b}"
+    new "{b}Go back{/b}"
+
+    # game/screens.rpy:497
+    old "Галерея"
+    new "Gallery"
+
+    # game/screens.rpy:503
+    old "Побег в Москву 2"
+    new "Escape To Moscow 2"
+
+    # game/screens.rpy:774
+    old "{b}{u}Наш сайт{/u}{/b}"
+    new "{b}{u}Our website{/u}{/b}"
+
+    # game/screens.rpy:775
+    old "{b}{u}Наша группа в ВК{/u}{/b}"
+    new "{b}{u}Our group in VK.com{/u}{/b}"
+
+    # game/screens.rpy:1144
+    old "Сложность"
+    new "Difficulty level"
+
+    # game/screens.rpy:1161
+    old "На тяжелом уровне сложности труднее попасть на хорошую концовку.\nВы можете поменять уровень сложности в любой момент во время игры."
+    new "On the hard difficulty level, it's harder to get the good ending.\nYou can change the difficulty level at any time during the game."
+

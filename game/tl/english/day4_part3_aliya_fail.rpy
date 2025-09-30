@@ -327,3 +327,209 @@ translate english day4_the_end_part1_option2_airplane_b6dc9d93:
 
     # me "Что мне делать?" with dissolve
     me "What do I do?" with dissolve
+# TODO: Translation updated at 2025-09-29 22:03
+
+# game/day4_part3_aliya_fail.rpy:15
+translate english day4_imran_house_new_escape_failed_d4c594f7:
+
+    # aliya "Извини, Семён. Ты уже сделал всё, что мог." with dissolve
+    aliya "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:22
+translate english day4_imran_house_new_escape_failed_32cd33d1:
+
+    # "Алия развернулась и покинула комнату." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:26
+translate english day4_imran_house_new_escape_failed_6ba752ca:
+
+    # "Я слышал звук удаляющихся шагов, спускающихся вниз по лестнице." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:30
+translate english day4_imran_house_new_escape_failed_efb75657:
+
+    # "Чувство бессилия и слабости охватило меня на какое-то время.Я присел на кровать, чтобы немного прийти в себя..." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:56
+translate english day4_imran_house_new_escape_failed_e3ae9f85:
+
+    # "Спустя какое-то время я вышел в гостиную и поставил посуду на стол. В гостиной были Алия, её родители и дядя Имран." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:64
+translate english day4_imran_house_new_escape_failed_2e8f3f52:
+
+    # fatima "Я рада, что вам понравилось!" with dissolve
+    fatima "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:74
+translate english day4_imran_house_new_escape_failed_ed2edf0d:
+
+    # imran "Семён, я бы предложил вам остаться на подольше," with dissolve
+    imran "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:76
+translate english day4_imran_house_new_escape_failed_f470f879:
+
+    # imran "но я должен отвезти Аслана и его семью в аэропорт." with dissolve
+    imran "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:86
+translate english day4_imran_house_new_escape_failed_e8b614e1:
+
+    # fatima "Спасибо за помощь, Семён!" with dissolve
+    fatima "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:99
+translate english day4_imran_house_new_escape_failed_cc01db9c:
+
+    # aslan "Пока, Семён." with dissolve
+    aslan "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:110
+translate english day4_imran_house_new_escape_failed_56fcd526:
+
+    # aliya "Спасибо!" with dissolve
+    aliya "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:119
+translate english day4_imran_house_new_escape_failed_d3f2cf44:
+
+    # "Я в последний раз посмотрел на неё. Она избегала моего взгляда и выглядела немного расстроенной." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:138
+translate english day4_imran_house_new_escape_failed_5850fe77:
+
+    # "Он открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:143
+translate english day4_imran_house_new_escape_failed_da4a8497:
+
+    # imran "Если пойдёшь в ту сторону, выйдешь на Киевское шоссе, там и находится автобусная остановка." with dissolve
+    imran "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:166
+translate english day4_imran_house_new_escape_failed_5886a55c:
+
+    # "Ну а я медленно пошёл по направлению к Киевскому шоссе..." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:195
+translate english day4_the_end_part1_option2_airplane_5d7cc416:
+
+    # "Был уже глубокий вечер. Я сидел на кухне съёмной квартиры." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:199
+translate english day4_the_end_part1_option2_airplane_b9386576:
+
+    # "Я написал ей несколько сообщений, но ответа не было." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:201
+translate english day4_the_end_part1_option2_airplane_beedfed4:
+
+    # "В последний раз Алия была онлайн несколько часов назад." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:203
+translate english day4_the_end_part1_option2_airplane_7700be77:
+
+    # "Может, она всё ещё не включила телефон после перелёта?" with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:205
+translate english day4_the_end_part1_option2_airplane_b8b1a042:
+
+    # "Или... что, если" with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:207
+translate english day4_the_end_part1_option2_airplane_6d0b7518:
+
+    # "у неё всё-таки отобрали телефон?" with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:211
+translate english day4_the_end_part1_option2_airplane_08d4c269:
+
+    # "Передо мной на столе стоял недоеденный салат." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:215
+translate english day4_the_end_part1_option2_airplane_5cd99977:
+
+    # "Моей энергии хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере" with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:217
+translate english day4_the_end_part1_option2_airplane_78e29d86:
+
+    # "и ожидая, когда наконец-то Алия будет онлайн." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:227
+translate english day4_the_end_part1_option2_airplane_e673d35e:
+
+    # "Периодически я открывал и смотрел фотографию Алии в своём телефоне." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:229
+translate english day4_the_end_part1_option2_airplane_e9bc1914:
+
+    # "Это тот снимок, который я украдкой заснял в Таганском парке." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:231
+translate english day4_the_end_part1_option2_airplane_345fe9b1:
+
+    # "Единственное фото Алии, которое у меня есть - не считая, конечно, фотографии в паспорте." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:235
+translate english day4_the_end_part1_option2_airplane_8ec4f714:
+
+    # "Именно такой я её и запомню теперь на всю жизнь..." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:251
+translate english day4_the_end_part1_option2_airplane_f74b3467:
+
+    # "Я дёрнулся и резко включил телефон." with dissolve
+    "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:263
+translate english day4_the_end_part1_option2_airplane_24c48157:
+
+    # me "Привет. Всё плохо." with dissolve
+    me "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:267
+translate english day4_the_end_part1_option2_airplane_a5356b2d:
+
+    # me "Мне удалось уговорить родителей Алии лететь самолётом," with dissolve
+    me "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:271
+translate english day4_the_end_part1_option2_airplane_5cb863f3:
+
+    # me "но я не смог уговорить её бежать снова." with dissolve
+    me "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:275
+translate english day4_the_end_part1_option2_airplane_1270096c:
+
+    # coach "Значит, она тебе недостаточно доверяет?" with dissolve
+    coach "" with dissolve
+
+# game/day4_part3_aliya_fail.rpy:279
+translate english day4_the_end_part1_option2_airplane_980e64b3:
+
+    # coach "Может, ты её обидел чем-то или напугал?" with dissolve
+    coach "" with dissolve
+

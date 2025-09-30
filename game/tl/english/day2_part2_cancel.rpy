@@ -111,3 +111,89 @@ translate english day2_cancel_d16fcc85:
 
     # "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
     "I should clear my mind from useless worries..." with dissolve
+# TODO: Translation updated at 2025-09-29 22:03
+
+# game/day2_part2_cancel.rpy:6
+translate english day2_cancel_4e3029c5:
+
+    # me "Извини, но тут я уже ничем не могу помочь." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_cancel.rpy:10
+translate english day2_cancel_703550c4:
+
+    # me "За столь короткое время мы ничего не успеем." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_cancel.rpy:14
+translate english day2_cancel_9b260a6e:
+
+    # aliya_mobile "Я поняла." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_cancel.rpy:18
+translate english day2_cancel_8ee6460f:
+
+    # me "Желаю тебе удачи и всё такое." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_cancel.rpy:22
+translate english day2_cancel_b2f67c0c:
+
+    # aliya_mobile "Спасибо!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_cancel.rpy:28
+translate english day2_cancel_b30017bf:
+
+    # aliya_mobile "В таком случае прости, что побеспокоила." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_cancel.rpy:32
+translate english day2_cancel_df942b5f:
+
+    # aliya_mobile "Я попробую придумать что-нибудь сама." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_cancel.rpy:38
+translate english day2_cancel_2e8d513a:
+
+    # "Пока я думал что ответить, аватарка Миса Амане пропала." with dissolve
+    "" with dissolve
+
+# game/day2_part2_cancel.rpy:50
+translate english day2_cancel_b8638c83:
+
+    # "Кажется, она добавила меня в чёрный список." with dissolve
+    "" with dissolve
+
+# game/day2_part2_cancel.rpy:52
+translate english day2_cancel_2cf48545:
+
+    # "Жалко её, конечно, но я действительно не могу ничем помочь." with dissolve
+    "" with dissolve
+
+# game/day2_part2_cancel.rpy:54
+translate english day2_cancel_5a6c954d:
+
+    # "Максимум, что я мог бы сделать - дать телефоны и адреса каких-нибудь женских правозащитных организаций." with dissolve
+    "" with dissolve
+
+# game/day2_part2_cancel.rpy:66
+translate english day2_cancel_6d94418b:
+
+    # "Она отправила меня в ЧС и я не могу ей больше ничего писать." with dissolve
+    "" with dissolve
+
+# game/day2_part2_cancel.rpy:68
+translate english day2_cancel_2afb724d:
+
+    # "Ладно, пожалуй, пойду спать." with dissolve
+    "" with dissolve
+
+# game/day2_part2_cancel.rpy:70
+translate english day2_cancel_8c1375f1:
+
+    # "Мне же ещё нужно завтра заставить себя работать." with dissolve
+    "" with dissolve
+

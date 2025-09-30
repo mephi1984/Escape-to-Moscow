@@ -147,3 +147,113 @@ translate english day2_escape_now_fail_d16fcc85:
 
     # "Нужно очистить свои мысли от ненужных беспокойств..." with dissolve
     "I should clear my mind from useless worries..." with dissolve
+# TODO: Translation updated at 2025-09-29 22:03
+
+# game/day2_part2_fail.rpy:11
+translate english day2_escape_now_fail_51d79fff:
+
+    # me "Ну ладно, давай скидывай паспортные данные." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_fail.rpy:15
+translate english day2_escape_now_fail_6674ff3f:
+
+    # aliya_mobile "Нет, не стоит." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_fail.rpy:23
+translate english day2_escape_now_fail_a1c918c8:
+
+    # aliya_mobile "Я думаю, лучше справлюсь как-нибудь сама." with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_fail.rpy:27
+translate english day2_escape_now_fail_1760099a:
+
+    # me "Ты боишься меня? Я обещаю, что не трону тебя." with dissolve
+    me "" with dissolve
+
+# game/day2_part2_fail.rpy:31
+translate english day2_escape_now_fail_950e0ed0:
+
+    # aliya_mobile "Сказала же, не надо. Спасибо!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_fail.rpy:39
+translate english day2_escape_now_fail_2615787d:
+
+    # aliya_mobile "То есть ты так и не понял, что мне никто не нужен?" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_fail.rpy:43
+translate english day2_escape_now_fail_637119cc:
+
+    # me "Я нужен!" with dissolve
+    me "" with dissolve
+
+# game/day2_part2_fail.rpy:47
+translate english day2_escape_now_fail_1ff98e48:
+
+    # aliya_mobile "Не хочу тебя ранить, но нет!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_fail.rpy:59
+translate english day2_escape_now_fail_d30f1ea2:
+
+    # me "Не парь мне мозги!" with dissolve
+    me "" with dissolve
+
+# game/day2_part2_fail.rpy:63
+translate english day2_escape_now_fail_a5310f9a:
+
+    # aliya_mobile "Я не парю тебе мозги," with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_fail.rpy:67
+translate english day2_escape_now_fail_491b33dc:
+
+    # aliya_mobile "а говорю прямо!" with dissolve
+    aliya_mobile "" with dissolve
+
+# game/day2_part2_fail.rpy:81
+translate english day2_escape_now_fail_b8638c83:
+
+    # "Кажется, она добавила меня в чёрный список." with dissolve
+    "" with dissolve
+
+# game/day2_part2_fail.rpy:83
+translate english day2_escape_now_fail_77a3e562:
+
+    # "Я хотел ей помочь, но видимо сделал только хуже." with dissolve
+    "" with dissolve
+
+# game/day2_part2_fail.rpy:85
+translate english day2_escape_now_fail_dab5178f:
+
+    # "Она не доверяет мне и теперь будет решать свою проблему одна." with dissolve
+    "" with dissolve
+
+# game/day2_part2_fail.rpy:95
+translate english day2_escape_now_fail_6d94418b:
+
+    # "Она отправила меня в ЧС и я не могу ей больше ничего писать." with dissolve
+    "" with dissolve
+
+# game/day2_part2_fail.rpy:97
+translate english day2_escape_now_fail_2afb724d:
+
+    # "Ладно, пожалуй, пойду спать." with dissolve
+    "" with dissolve
+
+# game/day2_part2_fail.rpy:99
+translate english day2_escape_now_fail_fb765c8a:
+
+    # "Мне ещё нужно завтра заставить себя работать." with dissolve
+    "" with dissolve
+
+# game/day2_part2_fail.rpy:101
+translate english day2_escape_now_fail_bbd25487:
+
+    # "Необходимо очистить свои мысли от лишних беспокойств..." with dissolve
+    "" with dissolve
+

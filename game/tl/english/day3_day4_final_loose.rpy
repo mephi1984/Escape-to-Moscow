@@ -219,3 +219,125 @@ translate english day3_and_day4_final_loose_4c2716d1:
 
     # "Я все равно больше не смогу жить как раньше..." with dissolve
     "I won't be able to live as before anyway..." with dissolve
+# TODO: Translation updated at 2025-09-29 22:03
+
+# game/day3_day4_final_loose.rpy:6
+translate english day3_and_day4_final_loose_d3b6c11f:
+
+    # coach "Я не виню тебя в произошедшем." with dissolve
+    coach "" with dissolve
+
+# game/day3_day4_final_loose.rpy:10
+translate english day3_and_day4_final_loose_93c08970:
+
+    # coach "Тебе нужно успокоиться. Всё уже позади." with dissolve
+    coach "" with dissolve
+
+# game/day3_day4_final_loose.rpy:14
+translate english day3_and_day4_final_loose_c27d1335:
+
+    # coach "Прошлое не вернуть. Эта глава твоей жизни завершена." with dissolve
+    coach "" with dissolve
+
+# game/day3_day4_final_loose.rpy:18
+translate english day3_and_day4_final_loose_15412122:
+
+    # coach "Тебе нужно начать следующую." with dissolve
+    coach "" with dissolve
+
+# game/day3_day4_final_loose.rpy:22
+translate english day3_and_day4_final_loose_dedc491b:
+
+    # coach "Какая она будет - зависит только от тебя." with dissolve
+    coach "" with dissolve
+
+# game/day3_day4_final_loose.rpy:26
+translate english day3_and_day4_final_loose_0b6c4bf7:
+
+    # coach "Свяжись с хозяйкой квартиры, скажи, что ты скоро съезжаешь. Пусть вернёт деньги за неиспользованные дни." with dissolve
+    coach "" with dissolve
+
+# game/day3_day4_final_loose.rpy:34
+translate english day3_and_day4_final_loose_cd9b1cc6:
+
+    # coach "и возвращайся к себе домой." with dissolve
+    coach "" with dissolve
+
+# game/day3_day4_final_loose.rpy:40
+translate english day3_and_day4_final_loose_42b378dd:
+
+    # me "Ладно..." with dissolve
+    me "" with dissolve
+
+# game/day3_day4_final_loose.rpy:48
+translate english day3_and_day4_final_loose_115a4bf4:
+
+    # me "Пока." with dissolve
+    me "" with dissolve
+
+# game/day3_day4_final_loose.rpy:58
+translate english day3_and_day4_final_loose_e5787302:
+
+    # "Я вышел из диалога с Напарником и открыл список контактов." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:96
+translate english day3_and_day4_final_loose_cacc4021:
+
+    # "Я обессиленно выключил телефон и закрыл глаза." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:106
+translate english day3_and_day4_final_loose_1904142f:
+
+    # "Я погрузился в полудрёму и меня снова окружил туман." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:108
+translate english day3_and_day4_final_loose_77256b1f:
+
+    # "Мне теперь было ещё хуже, чем до встречи с Алией." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:114
+translate english day3_and_day4_final_loose_d205a618:
+
+    # "Я взялся помочь и, кажется, всё испортил." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:121
+translate english day3_and_day4_final_loose_3ff11257:
+
+    # "Как там Алия? Всё ли с ней в порядке?" with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:123
+translate english day3_and_day4_final_loose_800d7733:
+
+    # "Я не знаю и даже понятия не имею как узнать." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:125
+translate english day3_and_day4_final_loose_cfe61b74:
+
+    # "Она появилась в моей жизни резко как взрыв, как фейерверк." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:131
+translate english day3_and_day4_final_loose_cd20593b:
+
+    # "Увидимся ли мы снова в будущем? Без понятия." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:135
+translate english day3_and_day4_final_loose_0979e1e8:
+
+    # "Мне остаётся лишь надеяться, что с ней всё будет в порядке." with dissolve
+    "" with dissolve
+
+# game/day3_day4_final_loose.rpy:141
+translate english day3_and_day4_final_loose_70ec63a4:
+
+    # "Я всё равно больше не смогу жить как раньше..." with dissolve
+    "" with dissolve
+

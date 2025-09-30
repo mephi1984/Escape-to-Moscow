@@ -488,7 +488,7 @@ label day1_ask_coach_woman_honor_killing:
 
     $ addReceivedMessage(5)
 
-    coach "На Кавказе, конечно, это так не называют, там говорят \"смыть позор\"" with dissolve
+    coach "На Кавказе, конечно, это так не называют, там говорят \"смыть позор\"." with dissolve
 
     $ addReceivedMessage(5)
 

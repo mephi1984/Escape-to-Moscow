@@ -500,6 +500,8 @@ screen navigation():
 
         textbutton _("Об игре") action ShowMenu("about")
 
+        textbutton _("Побег в Москву 2") action OpenURL("https://escapetomoscow.com/escapetomoscow2/")
+
         if renpy.variant("pc"):
 
             ## Помощь не необходима и не относится к мобильным устройствам.

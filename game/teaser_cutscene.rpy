@@ -409,7 +409,7 @@ label trailer_continue4:
 
     $ renpy.pause(2.0)
 
-    show text Text(__("В 2023 году"), size=75) as credits_text1_line2 zorder 10 with dissolve:
+    show text Text(__("Играй уже сейчас!"), size=75) as credits_text1_line2 zorder 10 with dissolve:
         xpos 0.5
         ypos 0.45
         alpha 0.0
@@ -417,7 +417,7 @@ label trailer_continue4:
 
     $ renpy.pause(2.0)
 
-    show text Text(__("vk.com/escapetomoscow"), size=75) as credits_text1_line3 zorder 10 with dissolve:
+    show text Text(__("https://escapetomoscow.com/escapetomoscow2/"), size=75) as credits_text1_line3 zorder 10 with dissolve:
         xpos 0.5
         ypos 0.6
         alpha 0.0

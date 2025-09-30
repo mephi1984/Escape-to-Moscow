@@ -2251,3 +2251,71 @@ translate english strings:
     # day4_part1.rpy:1409
     old "Родители Алии не доверяют Семену"
     new "Parents of Aliya do not trust Semyon"
+# TODO: Translation updated at 2025-09-29 22:03
+
+# game/day4_part1.rpy:169
+translate english day4_morning_08e86eb6:
+
+    # me "Твоя мама обманула меня, и я бы хотел ей это напомнить..." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:176
+translate english day4_morning_7c2f58df:
+
+    # me "Хорошо, как скажешь. Я к тому, что если потребуется, то мы соврём твоим родителям, и чтоб тебя не мучала совесть." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:260
+translate english day4_morning_598d41a6:
+
+    # coach "Отлично! Насчет побега, у меня есть идея" with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:414
+translate english day4_morning_4003d336:
+
+    # me "... Честно, это один из самых сложных планов побега, который я когда либо слышал!" with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:422
+translate english day4_morning_b6b6f820:
+
+    # me "Итак, первый шаг - я должен предупредить Алию что у меня есть план побега за границу. Да?" with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1156
+translate english day4_parents_part0_choice_for_aliya_8a0cdc2b:
+
+    # me "Давайте будем до конца честны, ведь именно Вы её к этому подтолкнули." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1158
+translate english day4_parents_part0_choice_for_aliya_ac078ef8:
+
+    # me "Вы поставили её перед фактом замужества, при этом спросили ли Вы у неё хочет ли она этого? Нет." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1160
+translate english day4_parents_part0_choice_for_aliya_d76b7541:
+
+    # me "Вы продолжали на неё давить, повторяя раз за разом, что она должна, что у неё нет других вариантов." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1162
+translate english day4_parents_part0_choice_for_aliya_2dd99f27:
+
+    # me "А хоть раз Вы спросили, готова ли она? Хочет ли этого? Спросили в конце концов, чего она сама бы хотела?" with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1168
+translate english day4_parents_part0_choice_for_aliya_d864fd3c:
+
+    # me "Хоть я и знаю её несколько дней, но... Алия показала мне, что в даже в столь юной девушки может быть стальная воля, могут быть прекрасные мечты." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:1170
+translate english day4_parents_part0_choice_for_aliya_aa141b99:
+
+    # me "И что не у каждого человека есть, смелость идти к тому, чего ты хочешь." with dissolve
+    me "" with dissolve
+
