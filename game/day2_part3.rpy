@@ -69,7 +69,7 @@ label day2_success_end:
 
     $ addSentMessage(2)
 
-    me "Все будет хорошо." with dissolve
+    me "Всё будет хорошо." with dissolve
 
     $ addSentMessage(2)
 

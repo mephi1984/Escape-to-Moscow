@@ -2257,18 +2257,181 @@ translate english strings:
 translate english day4_morning_08e86eb6:
 
     # me "Твоя мама обманула меня, и я бы хотел ей это напомнить..." with dissolve
-    me "" with dissolve
+    me "Your mother deceived me, and I would like to remind her of this..." with dissolve
 
 # game/day4_part1.rpy:176
 translate english day4_morning_7c2f58df:
 
     # me "Хорошо, как скажешь. Я к тому, что если потребуется, то мы соврём твоим родителям, и чтоб тебя не мучала совесть." with dissolve
+    me "Okay, whatever you say. I mean, if necessary, we'll lie to your parents so your conscience won't bother you." with dissolve
+# TODO: Translation updated at 2025-10-05 20:57
+
+# game/day4_part1.rpy:256
+translate english day4_morning_98731155:
+
+    # me "Нет, я уже проснулся." with dissolve
     me "" with dissolve
 
 # game/day4_part1.rpy:260
-translate english day4_morning_598d41a6:
+translate english day4_morning_a2b7a8df:
 
-    # coach "Отлично! Насчет побега, у меня есть идея" with dissolve
+    # coach "Отлично! Насчет побега, у меня есть идея." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:264
+translate english day4_morning_e6f50684:
+
+    # coach "Я думаю, что если Алия сбежит с поезда или с автобуса, родители могут ее легко догнать и остановить." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:268
+translate english day4_morning_60efbeef:
+
+    # coach "Поэтому я думаю, нужно сбежать через аэропорт." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:272
+translate english day4_morning_08a986b9:
+
+    # coach "У меня есть план. Он немного безумный и запутанный, но все же кажется мне наиболее надежным." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:280
+translate english day4_morning_6a5e60ee:
+
+    # coach "Для выполнения плана нужно чтобы Алия возвращалась домой на самолете, через аэропорт Домодедово." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:284
+translate english day4_morning_a9756896:
+
+    # coach "Это обязательное условие. Ну и естественно, нужно чтобы Алия была готова сбежать снова." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:296
+translate english day4_morning_1363c431:
+
+    # me "Вчера я там побывал дважды. Но вообще, редко, да." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:300
+translate english day4_morning_466d9758:
+
+    # coach "Я часто вылетаю оттуда, и знаю этот аэропорт очень хорошо." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:304
+translate english day4_morning_16119b96:
+
+    # coach "Совсем недавно там завершили реновацию в терминале." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:308
+translate english day4_morning_3bccb18d:
+
+    # coach "В частности, в зоне вылета." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:312
+translate english day4_morning_d92879c1:
+
+    # coach "Раньше пассажиры международных рейсов сначала проходили границу, а затем досмотр. Теперь наоборот." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:316
+translate english day4_morning_db0044b0:
+
+    # coach "Зона досмотра теперь общая для пассажиров внутренних и международных рейсов." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:324
+translate english day4_morning_d53682d3:
+
+    # coach "Там ты снимаешь верхнюю одежду, обувь, проходишь через рамки металлодетекторов, пропускаешь багаж через рентген." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:328
+translate english day4_morning_dd3ca49d:
+
+    # me "Да, помню такое." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:332
+translate english day4_morning_aa589f99:
+
+    # coach "В Домодедово, после того как ты прошел досмотр, ты утыкаешься в панорамное окно, в котором видно летное поле." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:336
+translate english day4_morning_9735d67d:
+
+    # coach "Оттуда можно уже выбирать куда пойти - на внутренние рейсы или на международные." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:340
+translate english day4_morning_2a0ad11a:
+
+    # coach "Если пойти в международный терминал, то там у тебя снова проверят паспорт, посадочный талон." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:364
+translate english day4_morning_1fcac543:
+
+    # coach "Ты купишь ей и себе билеты, и зарегистрируешь на рейс." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:376
+translate english day4_morning_08705927:
+
+    # me "Но куда Алия может улететь? У нее нет загранпаспорта." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:380
+translate english day4_morning_13df8146:
+
+    # coach "По Российскому паспорту можно улететь в Казахстан, Беларусь, Киргизию и Армению." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:384
+translate english day4_morning_d6164baf:
+
+    # coach "В расписании аэропорта Домодедово есть рейсы в Алматы, Бишкек, Ош, которые вылетают примерно в то же время что и рейсы в Махачкалу и Минеральные Воды." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:388
+translate english day4_morning_41e12fc3:
+
+    # coach "Узнай, каким рейсом родители Алии увозят ее домой." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:392
+translate english day4_morning_b9f93f06:
+
+    # coach "У тебя есть ее паспортные данные. Купи себе и ей билеты например в Алматы." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:398
+translate english day4_morning_c3446abc:
+
+    # coach "В нужный момент передай ей посадочный талон." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:402
+translate english day4_morning_9f5fd866:
+
+    # coach "Переходите границу в аэропорту Домодедово, и вы в безопасности." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:406
+translate english day4_morning_ed181297:
+
+    # coach "Ее родителей туда не пустят, так как у них нет посадочного талона на международный рейс." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:410
+translate english day4_morning_5b870bba:
+
+    # coach "А пока ее отец будет поднимать все свои связи в спецслужбах, вы уже успеете улететь." with dissolve
     coach "" with dissolve
 
 # game/day4_part1.rpy:414
@@ -2281,6 +2444,396 @@ translate english day4_morning_4003d336:
 translate english day4_morning_b6b6f820:
 
     # me "Итак, первый шаг - я должен предупредить Алию что у меня есть план побега за границу. Да?" with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:426
+translate english day4_morning_c665c53f:
+
+    # coach "Да. Убедись, что она точно готова последовать за тобой." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:430
+translate english day4_morning_68246752:
+
+    # me "Второй шаг. Я должен убедить родителей Алии, чтобы они улетали именно через аэропорт Домодедово." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:434
+translate english day4_morning_aa263e3a:
+
+    # coach "Да. Как угодно, но сделай это. Предложи им, типа ты поможешь заказать билеты по интернету, например. Ты же айтишник." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:438
+translate english day4_morning_cbef9d4c:
+
+    # me "Ясно. Я думаю, я это легко сделаю." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:442
+translate english day4_morning_d28325e4:
+
+    # me "Затем я должен буду купить билеты на международный рейс в Казахстан или в Киргизию, который вылетает примерно в то же время." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:446
+translate english day4_morning_4291456e:
+
+    # coach "Да. Лучше будет даже, чтобы рейс вылетал немного пораньше." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:450
+translate english day4_morning_0939ae1f:
+
+    # coach "Чтобы после перехода границы вы сразу могли сесть на самолет." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:454
+translate english day4_morning_949c4c43:
+
+    # me "Затем я должен буду приехать в аэропорт, распечатать посадочный талон для Алии, и незаметно передать ей." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:458
+translate english day4_morning_806ec03c:
+
+    # me "Как мне это сделать, чтобы меня не запалили? Родители же будут всюду с ней." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:462
+translate english day4_morning_f2e9ba6c:
+
+    # coach "Если у тебя есть знакомые девушки в Москве, которым ты можешь доверять, попроси чтобы кто-то из них передал билеты Алие." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:470
+translate english day4_morning_cf3b9a6c:
+
+    # coach "Да. Чтобы передать в женском туалете. Или можно там же в туалете сделать закладку с билетом." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:474
+translate english day4_morning_6fc4e043:
+
+    # me "К сожалению, у меня нет друзей-девушек в Москве." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:488
+translate english day4_morning_401241e0:
+
+    # me "Нет, я не помню." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:492
+translate english day4_morning_e9b9d0ae:
+
+    # coach "Посмотришь по карте потом. Там туалет единственный. И находится он где-то в подвале." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:496
+translate english day4_morning_11eab69b:
+
+    # coach "Чтобы туда пройти, нужно спуститься по лестнице. Лестница довольно узкая." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:500
+translate english day4_morning_6925e5ca:
+
+    # coach "Когда лестница заканчивается, там будет узкий проход к туалетам." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:504
+translate english day4_morning_64cae61b:
+
+    # coach "В назначенное время ты встаешь с краю и держишь в руках посадочный талон Алии." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:508
+translate english day4_morning_c46f0f98:
+
+    # coach "Она попросится в туалет." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:512
+translate english day4_morning_96458ec3:
+
+    # coach "Когда она будет проходить мимо тебя, она быстро и незаметно забирает посадочный талон из твоих рук." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:516
+translate english day4_morning_d908a48d:
+
+    # me "Комбинация прямо как в шпионских фильмах." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:524
+translate english day4_morning_3a2b1522:
+
+    # coach "Не знаю. Кажется, туалеты в Домодедово наиболее удобны чтобы незаметно что-то передать." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:528
+translate english day4_morning_c35bc7d5:
+
+    # coach "Там очень узкий проход, и там всегда много людей." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:532
+translate english day4_morning_a2fdfab0:
+
+    # coach "В любом другом месте аэропорта, если Алия что-то попытается получить от незнакомца или подобрать, родители это заметят." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:536
+translate english day4_morning_2f213426:
+
+    # me "Ладно, согласен." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:544
+translate english day4_morning_8b0e1005:
+
+    # coach "Ты проходи через рамки досмотра первый, и жди Алию." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:548
+translate english day4_morning_622f4013:
+
+    # coach "В центре зала находится эскалатор и лифт. Ты их узнаешь, рядом с ними стоит указатель \"Рейсы в Армению, Беларусь, Казахстан, Киргизию\"." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:552
+translate english day4_morning_223a0f13:
+
+    # coach "Тебе нужно будет ждать там Алию." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:560
+translate english day4_morning_608c454a:
+
+    # coach "Алия должна пройти через досмотр. Я думаю, она пойдет туда вместе с родителями." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:564
+translate english day4_morning_e82ea5a8:
+
+    # coach "Она не должна выпускать паспорт и посадочный талон из рук." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:568
+translate english day4_morning_091dc439:
+
+    # coach "При проходе через досмотр, Алия должна сложить все остальные вещи в корзину и отправить на ленту." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:572
+translate english day4_morning_7bd7ea4c:
+
+    # coach "Это телефон, ключи, монеты, ремень и т.д. Кроме паспорта и посадочного талона." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:576
+translate english day4_morning_7067de1f:
+
+    # coach "Затем Алия должна пройти через металлодетектор. Она должна пройти через него самой первой, раньше родителей." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:580
+translate english day4_morning_6efa9a32:
+
+    # coach "Паспорт и посадочный талон при этом нужно держать в руках. Не нужно их класть в корзину! Выпускать из рук вообще нельзя." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:584
+translate english day4_morning_79044dd3:
+
+    # me "Я запомню это." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:588
+translate english day4_morning_6f6f20b4:
+
+    # coach "После того как Алия пройдет рамки металлоискателей, она должна немедленно БЕЖАТЬ." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:592
+translate english day4_morning_05779ff3:
+
+    # coach "Просто бросить все и резко кабанчиком рвануть в сторону эскалатора и лифта." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:600
+translate english day4_morning_24d23876:
+
+    # coach "Она должна бежать налегке, только с паспортом и посадочным талоном в руках." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:604
+translate english day4_morning_d93d3e46:
+
+    # coach "Пока родители будут проходить через рамки, Алия успеет добежать до тебя. Примерно там же ты ее встретишь." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:608
+translate english day4_morning_741c065d:
+
+    # coach "Вы вдвоем должны будете бежать по эскалатору вниз." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:612
+translate english day4_morning_543098db:
+
+    # coach "Внизу вас встретят турникеты. Нужно приложить посадочный талон к сканеру, и вас пропустят к международным рейсам." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:616
+translate english day4_morning_1064b73e:
+
+    # coach "Затем нужно пройти таможенный контроль. Проходите через зеленый коридор, после него будет выход к погранпереходу." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:620
+translate english day4_morning_d6859894:
+
+    # coach "Там можете немного расслабиться, ее родителей туда уже не пустят." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:624
+translate english day4_morning_8f0ac2b5:
+
+    # coach "Но я все равно рекомендую вам побыстрее пройти границу и выйти в чистую зону." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:628
+translate english day4_morning_85747e01:
+
+    # coach "Если на границе будет очередь, то найди офицера, который ходит по залу." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:632
+translate english day4_morning_287ae89f:
+
+    # coach "Скажи ему что вы опаздываете на рейс, и попросите вас пропустить без очереди." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:636
+translate english day4_morning_3ef8a6bf:
+
+    # coach "Естественно, пусти вперед Алию, а затем уже переходи границу сам." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:640
+translate english day4_morning_65eeff99:
+
+    # me "Ага, ясно. Дальше мы находим наш выход на посадку, садимся в самолет и улетаем в Казахстан." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:644
+translate english day4_morning_e620a75c:
+
+    # coach "Да, именно так." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:652
+translate english day4_morning_cbc6c08e:
+
+    # coach "Ах да, точно." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:656
+translate english day4_morning_90ecf5e9:
+
+    # coach "Это важный момент." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:660
+translate english day4_morning_2ec49756:
+
+    # coach "При входе в зону досмотра сотрудники аэропорта смотрят посадочный талон и ставят на него печать." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:664
+translate english day4_morning_3e89b5bf:
+
+    # coach "Потом эту печать смотрят пограничники на погранпереходе." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:668
+translate english day4_morning_ce254fed:
+
+    # coach "Если им дать посадочный талон без печати, у них будут вопросы." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:672
+translate english day4_morning_ffb82005:
+
+    # coach "Когда-нибудь в Домодедово сделают полностью электронную регистрацию на зарубежные рейсы. Но пока что вот так." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:676
+translate english day4_morning_fe17819a:
+
+    # me "Понятно." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:680
+translate english day4_morning_4d052791:
+
+    # me "Хорошо. План довольно сложный, как я уже сказал." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:684
+translate english day4_morning_012e80e2:
+
+    # coach "Это самое надежное, что получилось придумать." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:688
+translate english day4_morning_2614a29c:
+
+    # coach "Если бы Алия сбежала с поезда или с автобуса, родители бы догнали ее рано или поздно." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:692
+translate english day4_morning_c087c8c7:
+
+    # coach "А тут погранпереход в аэропорту, они не смогут туда так просто попасть." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:696
+translate english day4_morning_c5cf96cb:
+
+    # coach "Аэропорт Домодедово в этом плане удобен тем, что проход через рамки задержит их, и даст время Алие убежать к границе." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:704
+translate english day4_morning_2be05cc7:
+
+    # coach "Это же аэропорт))) Тут многие опаздывают на свой рейс и бегут с чемоданами через весь терминал." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:708
+translate english day4_morning_8ca7c1c2:
+
+    # me "А, ну да, точно." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:712
+translate english day4_morning_00b9e0a6:
+
+    # coach "Вот такой у меня план))) Теперь все зависит от тебя." with dissolve
+    coach "" with dissolve
+
+# game/day4_part1.rpy:716
+translate english day4_morning_8147e459:
+
+    # me "Спасибо большое." with dissolve
+    me "" with dissolve
+
+# game/day4_part1.rpy:724
+translate english day4_morning_6ae66d4d:
+
+    # me "Очень оптимистично! Конечно я напишу." with dissolve
     me "" with dissolve
 
 # game/day4_part1.rpy:1156

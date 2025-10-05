@@ -1664,9 +1664,9 @@ label day3_airplane2_part2:
 
     show black zorder 10 with dissolve
 
-    "Я прилёг в кресле, закрыл глаза" with dissolve
+    "Я прилёг в кресле, закрыл глаза." with dissolve
 
-    "и медленно погрузился в сон..." with dissolve
+    "И медленно погрузился в сон..." with dissolve
 
     jump day3_airplane3
 
@@ -2484,7 +2484,7 @@ label day3_aeroexpress:
 
     aliya "Мне было очень плохо. Я полностью забила на учёбу." with dissolve
 
-    aliya "Я даже пыталась порезать вены в туалете своего коллежда." with dissolve
+    aliya "Я даже пыталась порезать вены в туалете своего колледжа." with dissolve
 
     aliya "Мне было уже всё равно. Мне не хотелось жить." with dissolve
 

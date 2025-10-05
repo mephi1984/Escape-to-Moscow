@@ -1479,5 +1479,5 @@ translate english strings:
 translate english day1_ask_coach_woman_honor_killing_55dd323f:
 
     # coach "На Кавказе, конечно, это так не называют, там говорят \"смыть позор\"." with dissolve
-    coach "" with dissolve
+    coach "In the Caucasus, of course, they don’t call it that; they say \"wash away the shame.\"" with dissolve
 

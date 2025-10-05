@@ -3150,3 +3150,11 @@ translate english strings:
     old "Нет - запустить ветку сюжета, где Алия не доверяет Семёну"
     new "No - start the brach where Alya does not trust Semyon"
 
+# TODO: Translation updated at 2025-10-05 20:57
+
+# game/day2_part1.rpy:1169
+translate english day2_escape_now_coach_not_talked_ba7a0f6e:
+
+    # me "Эээ... долго рассказывать." with dissolve
+    me "Uh... it's a long story." with dissolve
+

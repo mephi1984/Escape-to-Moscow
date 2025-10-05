@@ -155,12 +155,6 @@ translate english day4_end_success_6f7c5073:
     # announcement "Уважаемые пассажиры, мы готовимся к взлету." with dissolve
     announcement "Dear passengers, we are preparing for takeoff." with dissolve
 
-# game/day4_part4_end_success.rpy:119
-translate english day4_end_success_35aa69bf:
-
-    # announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в горизонтальное положение, уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
-    announcement "Please fasten your seatbelts, put your seat is in upright position, stow your tray table, and open the window blind." with dissolve
-
 # game/day4_part4_end_success.rpy:166
 translate english day4_end_success_6f269986:
 
@@ -268,3 +262,11 @@ translate english day4_end_success_9fd48ac3:
 
     # "Но это уже совсем другая история..." with dissolve
     "But that would be a completely different story..." with dissolve
+# TODO: Translation updated at 2025-10-05 20:57
+
+# game/day4_part4_end_success.rpy:136
+translate english day4_end_success_3265af96:
+
+    # announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в вертикальное положение, уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
+    announcement "" with dissolve
+

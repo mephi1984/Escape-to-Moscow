@@ -646,12 +646,6 @@ translate english day2_escape_now_success_coach_continue_d2eb972d:
     # "Что же, пора собираться." with dissolve
     "Ok, it's time to pack the bags." with dissolve
 
-# game/day2_part2_success.rpy:502
-translate english day2_escape_now_success_coach_continue_346f7e5a:
-
-    # me "Желаю тебе удачи. Я уверен, у тебя все будет хорошо!" with dissolve
-    me "I wish you good luck. I think you will do it alright!" with dissolve
-
 # game/day2_part2_success.rpy:506
 translate english day2_escape_now_success_coach_continue_604d2d8d:
 
@@ -1271,4 +1265,11 @@ translate english day2_escape_now_success_coach_continue_c6560e1e:
 
     # me "Хорошо! Выхожу..." with dissolve
     me "Ok! I am going out..." with dissolve
+# TODO: Translation updated at 2025-10-05 20:58
+
+# game/day2_part2_success.rpy:85
+translate english day2_escape_now_success_coach_not_talked_1139c04a:
+
+    # me "Эээ... это долгая история." with dissolve
+    me "Uh... it's a long story." with dissolve
 

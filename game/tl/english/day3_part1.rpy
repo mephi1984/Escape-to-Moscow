@@ -2055,7 +2055,7 @@ translate english day3_airplane2_part1_poetry_354490e3:
 translate english day3_airplane2_part1_poetry_9fe86537:
 
     # aliya "Из русских, наверное, больше всего Анна Ахматова, Александр Блок, ещё Борис Пастернак и Михаил Лермонтов." with dissolve
-    aliya "Of Russian poets, I guess, most of all I like Anna Akhmatova,  Alexander Blok, also Boris Pasternak and Mikhail Lermontov." with dissolve
+    aliya "Of Russian poets, I guess, most of all I like Anna Akhmatova, Alexander Blok, also Boris Pasternak and Mikhail Lermontov." with dissolve
 
 # game/day3_part1.rpy:1318
 translate english day3_airplane2_part1_poetry_d870aa6d:
@@ -2630,7 +2630,7 @@ translate english day3_airplane3_d4e1fc87:
 translate english day3_airplane3_ff13a1f8:
 
     # "Самолет слегка дернулся, и начал идти на снижение." with dissolve
-    "Thr airplane shaked a bit, and then started to descent." with dissolve
+    "The airplane shaked a bit, and then started to descent." with dissolve
 
 # game/day3_part1.rpy:1743
 translate english day3_airplane3_24eb5500:
@@ -3988,1577 +3988,1579 @@ translate english strings:
 translate english day3_intro_8cc5fb15:
 
     # "В ушах звенит гул летящего самолёта." with dissolve
-    "" with dissolve
+    "Sound of the airplane sounded in my ears." with dissolve
 
 # game/day3_part1.rpy:8
 translate english day3_intro_59677ff7:
 
     # "Я словно наполовину во сне, наполовину осознаю, что происходит вокруг." with dissolve
-    "" with dissolve
+    "I was just like partially asleep, partially aware of what is going on around me." with dissolve
 
 # game/day3_part1.rpy:16
 translate english day3_intro_e5584695:
 
     # announcement "Уважаемые дамы и господа, наш самолёт приступил к снижению. Мы готовимся к посадке в аэропорту Минеральные Воды." with dissolve
-    announcement "" with dissolve
+    announcement "Ladies and gentlemen, the airplane started to descent. We will shortly be landing in Mineralnye Vody Airport." with dissolve
 
 # game/day3_part1.rpy:26
 translate english day3_intro_5094e1b5:
 
     # "Я открыл глаза и потянулся в тесном кресле, прогоняя дрёму." with dissolve
-    "" with dissolve
+    "I opened my eyes and reluctantly stretched myself in the cramped seat, trying to chase away my nap." with dissolve
 
 # game/day3_part1.rpy:33
 translate english day3_intro_fa64cf19:
 
     # "Меня слегка дёрнуло вниз. Всем своим телом я почувствовал как самолёт, снижаясь, задрал нос вверх." with dissolve
-    "" with dissolve
+    "I feel slight pull down. My body felt how the airplane pulled up the nose." with dissolve
 
 # game/day3_part1.rpy:37
 translate english day3_intro_a8bc6385:
 
     # "Я попытался вспомнить, как оказался в самолёте, восстанавливая в голове воспоминания вчерашнего дня." with dissolve
-    "" with dissolve
+    "I tried to remember how I ended up in the airplane, by rewinding yesterday's memories in my head." with dissolve
 
 # game/day3_part1.rpy:39
 translate english day3_intro_abc98e5b:
 
     # "Итак. Вчера вечером я сидел за ноутбуком." with dissolve
-    "" with dissolve
+    "Ok, so yesterday I sat at my laptop." with dissolve
 
 # game/day3_part1.rpy:43
 translate english day3_intro_820368ff:
 
     # "Потом я купил авиабилеты, чтобы полететь за ней и вместе с ней улететь в Москву." with dissolve
-    "" with dissolve
+    "Then I bought plane tickets to fly after her and fly to Moscow with her." with dissolve
 
 # game/day3_part1.rpy:47
 translate english day3_intro_8015a8f3:
 
     # "За мной приехал Ярик на своём спортивном авто и отвёз в аэропорт." with dissolve
-    "" with dissolve
+    "Yarik came to pick me up on his sport car, and then dropped me off at the airport." with dissolve
 
 # game/day3_part1.rpy:51
 translate english day3_intro_540494d4:
 
     # "Я прилетел в Москву, погулял по ночному аэропорту как зомби." with dissolve
-    "" with dissolve
+    "I arrived in Moscow and walked around the airport at night like a zombie." with dissolve
 
 # game/day3_part1.rpy:53
 translate english day3_intro_c3e2920f:
 
     # "Потом сел на рейс до Минеральных Вод и сразу же уснул в кресле." with dissolve
-    "" with dissolve
+    "Then I boarded to the flight to Mineralnye Vody Airport, and immediately fell asleep in my seat." with dissolve
 
 # game/day3_part1.rpy:55
 translate english day3_intro_33a555a1:
 
     # "И вот я тут, сижу в кресле самолёта." with dissolve
-    "" with dissolve
+    "So here I am, sitting in the airplane seat." with dissolve
 
 # game/day3_part1.rpy:57
 translate english day3_intro_514044e2:
 
     # "Самолёт заходит на посадку в аэропорт Минеральные Воды." with dissolve
-    "" with dissolve
+    "Airplane is descenting to land in the Mineralnye Vody Airport." with dissolve
 
 # game/day3_part1.rpy:59
 translate english day3_intro_485ba62c:
 
     # "Я чувствую всем своим телом как воздушное судно медленно снижается." with dissolve
-    "" with dissolve
+    "My body feels how the airplane slowly going down." with dissolve
 
 # game/day3_part1.rpy:71
 translate english day3_intro_f13aafd9:
 
     # "Бум! Самолёт коснулся посадочной полосы и дёрнулся." with hpunch
-    "" with hpunch
+    "Boom! The airplane touched the runway and jerked." with hpunch
 
 # game/day3_part1.rpy:75
 translate english day3_intro_43183ff7:
 
     # "На крыльях поднялись спойлеры и шум торможения наполнил мои уши." with dissolve
-    "" with dissolve
+    "Spoilers lifted on the wings, and the noise of deceleration filled my ears." with dissolve
 
 # game/day3_part1.rpy:77
 translate english day3_intro_2d4c76be:
 
     # "Самолет снизил скорость и шум тоже заметно снизился." with dissolve
-    "" with dissolve
+    "The airplane significantly decreased its speed, and the noise also noticeably decreased." with dissolve
 
 # game/day3_part1.rpy:85
 translate english day3_intro_d6fd7cb8:
 
     # announcement "Для вашей безопасности мы рекомендуем вам оставаться на местах с пристегнутыми ремнями безопасности до выключения светового табло \"пристегните ремни\"." with dissolve
-    announcement "" with dissolve
+    announcement "For safety reasons, please remain in your seat with the seatbelt fastened until the seatbelt sing has been switched off." with dissolve
 
 # game/day3_part1.rpy:87
 translate english day3_intro_e65b8a2c:
 
     # announcement "От имени авиакомпании благодарим вас за полёт и будем рады новой встрече!" with dissolve
-    announcement "" with dissolve
+    announcement "On behalf of the airline company, we would like to thank you for the flight, and we look forward to welcome you onboard again soon!" with dissolve
 
 # game/day3_part1.rpy:95
 translate english day3_intro_2af29c90:
 
     # "Как раз достаточно времени. Пока самолёт остановится, высадит всех пассажиров." with dissolve
-    "" with dissolve
+    "It is just enough time. Until the aircraft stop, until all passengers leave the aircraft." with dissolve
 
 # game/day3_part1.rpy:97
 translate english day3_intro_7f688714:
 
     # "Еще и неизвестно, может нас довезут от самолёта до аэровокзала на автобусе." with dissolve
-    "" with dissolve
+    "I am also not sure, maybe we will be transported from the aircraft to the terminal on a shuttle bus." with dissolve
 
 # game/day3_part1.rpy:113
 translate english day3_intro_8c64f54e:
 
     # "Я вошёл в здание аэровокзала один из первых, поскольку у меня не было багажа, только ручная кладь." with dissolve
-    "" with dissolve
+    "I was one of the first who entered the terminal building, because I did not have the luggage, only carry on backpack." with dissolve
 
 # game/day3_part1.rpy:119
 translate english day3_intro_b48a26d4:
 
     # "Ой, я кажется ещё не выключил авиарежим в телефоне. Включаю сеть..." with dissolve
-    "" with dissolve
+    "Oh, looks like I did not switch off the airplane mode yet. Switching on the network..." with dissolve
 
 # game/day3_part1.rpy:143
 translate english day3_intro_76d72d83:
 
     # aliya_mobile "Купи пожалуйста в аптеке маски для лица." with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "Buy me a face mask in the pharmacy, please." with dissolve
 
 # game/day3_part1.rpy:147
 translate english day3_intro_30b52e21:
 
     # me "Хорошо!" with dissolve
-    me "" with dissolve
+    me "Okay!" with dissolve
 
 # game/day3_part1.rpy:157
 translate english day3_intro_1118e95a:
 
     # "Я купил на всякий случай три маски - вдруг, как в армии, \"одну сломаю, а вторую потеряю\", по привычке, благо они дешевые." with dissolve
-    "" with dissolve
+    "I bought three masks - \"In case if I break one and waste another one\", following my habit, luckily they are cheap." with dissolve
 
 # game/day3_part1.rpy:159
 translate english day3_intro_d802a615:
 
     # "Маски у меня есть и в запасе есть ещё немного времени до прихода Алии." with dissolve
-    "" with dissolve
+    "I have face masks, and I have some time prior to Aliya arrive." with dissolve
 
 # game/day3_part1.rpy:161
 translate english day3_intro_77daeb02:
 
     # "Я чувствую лёгкое волнение, которое наполняет моё тело." with dissolve
-    "" with dissolve
+    "I feel a light excitement, that filled my body." with dissolve
 
 # game/day3_part1.rpy:163
 translate english day3_intro_d477d69d:
 
     # "Такое же чувство я испытывал давным-давно, когда ещё был школьником и ходил на свидания с девушками." with dissolve
-    "" with dissolve
+    "Same feeling I felt long time ago, when I was a school kid and went on dates with girls." with dissolve
 
 # game/day3_part1.rpy:167
 translate english day3_intro_3675eb04:
 
     # "Так, надо взять себя в руки, я уже не застенчивый школьник и должен вести себя взрослее!" with dissolve
-    "" with dissolve
+    "Ok, I need to pull myself together, I am not a shy student anymore, I should behave like an adult!" with dissolve
 
 # game/day3_part1.rpy:171
 translate english day3_intro_3a3e0402:
 
     # "В первую очередь мне нужно доставить Алию в Москву и обустроить её жизнь там." with dissolve
-    "" with dissolve
+    "First of all, I need to deliver Aliya to Moscow and settle her life there." with dissolve
 
 # game/day3_part1.rpy:191
 translate english day3_intro_0d1da091:
 
     # aliya_mobile "Подходи к главному входу." with dissolve
-    aliya_mobile "" with dissolve
+    aliya_mobile "Go to the main entrance." with dissolve
 
 # game/day3_part1.rpy:201
 translate english day3_intro_66dfaa04:
 
     # "Я убрал телефон и пошёл к главному входу..." with dissolve
-    "" with dissolve
+    "I put my phone away and walked towards the main entrance..." with dissolve
 
 # game/day3_part1.rpy:261
 translate english day3_meet_aliya_64886e98:
 
     # "Неловкое молчание... так, Семён, не тупи! Скажи что-нибудь!" with dissolve
-    "" with dissolve
+    "Awkward silence... hey, Semyon, don't be moron, say something!" with dissolve
 
 # game/day3_part1.rpy:268
 translate english day3_meet_aliya_8284f9fd:
 
     # aliya "Сойдёт." with dissolve
-    aliya "" with dissolve
+    aliya "I am ok." with dissolve
 
 # game/day3_part1.rpy:297
 translate english day3_meet_aliya_eecaed2f:
 
     # "Затем распечатала новую и надела." with dissolve
-    "" with dissolve
+    "And then unpacked the new mask and put it on." with dissolve
 
 # game/day3_part1.rpy:337
 translate english day3_meet_aliya_88f3544a:
 
     # me "Вот держи деньги. Три тысячи рублей." with dissolve
-    me "" with dissolve
+    me "And, here, take some money. Three thousand roubles." with dissolve
 
 # game/day3_part1.rpy:354
 translate english day3_meet_aliya_7b0010f7:
 
     # me "Это тебе на случай, если мы вдруг потеряемся. Или вдруг ты передумаешь и захочешь вернуться назад." with dissolve
-    me "" with dissolve
+    me "That is for you, in case if we suddently get lost. Or if you change your mind and want to return back." with dissolve
 
 # game/day3_part1.rpy:362
 translate english day3_meet_aliya_47719888:
 
     # me "Давай теперь пройдём внутрь?" with dissolve
-    me "" with dissolve
+    me "Let's go inside now?" with dissolve
 
 # game/day3_part1.rpy:395
 translate english day3_meet_aliya_73896201:
 
     # "Я нашёл наконец пару свободных сидений в отдаленном углу. Надеюсь, нас никто не будет подслушивать." with dissolve
-    "" with dissolve
+    "I finally found a couple of empty seats in a distant corner. I hope nobody will listen to us." with dissolve
 
 # game/day3_part1.rpy:400
 translate english day3_meet_aliya_41ee4345:
 
     # me "Вон там свободно. Пойдём туда?" with dissolve
-    me "" with dissolve
+    me "Here are some empty seats. Let's go there?" with dissolve
 
 # game/day3_part1.rpy:408
 translate english day3_meet_aliya_a071a035:
 
     # "Я сел на сидение и Алия села рядом со мной..." with dissolve
-    "" with dissolve
+    "I took a seat, and Aliya sat next to me..." with dissolve
 
 # game/day3_part1.rpy:417
 translate english day3_meet_aliya_591e9a10:
 
     # "Я вздохнул и начал разговор." with dissolve
-    "" with dissolve
+    "I sighed and started the conversation." with dissolve
 
 # game/day3_part1.rpy:419
 translate english day3_meet_aliya_42b62f71:
 
     # me "Итак, вот он я - Семён. Я обычный человек, не маньяк, как ты видишь." with dissolve
-    me "" with dissolve
+    me "So here I am, Semyon. A common person, not a serial killer, as you see." with dissolve
 
 # game/day3_part1.rpy:421
 translate english day3_meet_aliya_82d19904:
 
     # me "Сейчас по плану мы регистрируемся на рейс и затем проходим в чистую зону. Там мы садимся в самолёт." with dissolve
-    me "" with dissolve
+    me "According to the plan, now we check in for a flight and then enter the secure boarding area. There we will board the airplane." with dissolve
 
 # game/day3_part1.rpy:423
 translate english day3_meet_aliya_4f4f6093:
 
     # me "Если я покажусь тебе страшным или ты передумаешь сбегать, ты можешь в любой момент до посадки на рейс передумать." with dissolve
-    me "" with dissolve
+    me "If I seem scary to you, or if you change your mind, you can quit at any time prior the boarding." with dissolve
 
 # game/day3_part1.rpy:425
 translate english day3_meet_aliya_c5142a61:
 
     # me "Выйдешь из аэропорта, сядешь на такси и уедешь домой." with dissolve
-    me "" with dissolve
+    me "You exit the airport, take a taxi and come back home." with dissolve
 
 # game/day3_part1.rpy:427
 translate english day3_meet_aliya_3160fef7:
 
     # me "После посадки на самолёт ты уже не сможешь вернуться назад. Мы с тобой выйдем уже в Москве." with dissolve
-    me "" with dissolve
+    me "After the boarding, you can't come back anymore. You and I will land in Moscow." with dissolve
 
 # game/day3_part1.rpy:434
 translate english day3_meet_aliya_cfc05aa2:
 
     # me "Всё в порядке?" with dissolve
-    me "" with dissolve
+    me "Is everything ok?" with dissolve
 
 # game/day3_part1.rpy:444
 translate english day3_meet_aliya_34f87fdd:
 
     # "Телефон Алии завибрировал два раза. Она взяла в руки телефон и разблокировала его." with dissolve
-    "" with dissolve
+    "Aliya's phone vibrated twice. Aliya took out the phone and unlocked it." with dissolve
 
 # game/day3_part1.rpy:483
 translate english day3_meet_aliya_adaec23b:
 
     # aliya "И ещё мне нужно будет купить кое-что." with dissolve
-    aliya "" with dissolve
+    aliya "Also, I need to buy something." with dissolve
 
 # game/day3_part1.rpy:492
 translate english day3_meet_aliya_d5e0de6b:
 
     # aliya "И платье, закрывающее ноги и руки." with dissolve
-    aliya "" with dissolve
+    aliya "And a dress covering my feet and sleeves." with dissolve
 
 # game/day3_part1.rpy:496
 translate english day3_meet_aliya_a82117a2:
 
     # me "Ты молишься?" with dissolve
-    me "" with dissolve
+    me "Do you pray?" with dissolve
 
 # game/day3_part1.rpy:501
 translate english day3_meet_aliya_ff96a13e:
 
     # aliya "Стараюсь. Раз в день уж точно нужно." with dissolve
-    aliya "" with dissolve
+    aliya "I try. But at least once per day definitely need do." with dissolve
 
 # game/day3_part1.rpy:503
 translate english day3_meet_aliya_0d0e6ea0:
 
     # me "Ты сегодня ещё не молилась?" with dissolve
-    me "" with dissolve
+    me "You did not pray today yet, right?" with dissolve
 
 # game/day3_part1.rpy:542
 translate english day3_meet_aliya_success_4176491a:
 
     # me "Ещё тебе нужно будет купить обычную повседневную одежду." with dissolve
-    me "" with dissolve
+    me "Also, we should buy you regular everyday clothes." with dissolve
 
 # game/day3_part1.rpy:544
 translate english day3_meet_aliya_success_9e9e40c1:
 
     # me "Но это подождёт до завтра." with dissolve
-    me "" with dissolve
+    me "But that will have to wait until tomorrow." with dissolve
 
 # game/day3_part1.rpy:558
 translate english day3_meet_aliya_success_444ac08b:
 
     # me "Потому что при регистрации в гостинице нужно предъявлять паспорт." with dissolve
-    me "" with dissolve
+    me "Because when checking into a hotel you need to show your passport." with dissolve
 
 # game/day3_part1.rpy:596
 translate english day3_meet_aliya_success_7a3d244f:
 
     # me "Впрочем, я пока ещё не решил точно. Мы позаботимся об этом позже." with dissolve
-    me "" with dissolve
+    me "Anyway, I did not decide for sure yet. We can decide this later." with dissolve
 
 # game/day3_part1.rpy:600
 translate english day3_meet_aliya_success_8c77c0d3:
 
     # me "А на следующий день нужно будет открыть для тебя банковскую карточку." with dissolve
-    me "" with dissolve
+    me "On the next day, we should make you a bank card." with dissolve
 
 # game/day3_part1.rpy:611
 translate english day3_meet_aliya_success_d552a2f7:
 
     # me "Тебе потребуется сходить в банк всего два раза:" with dissolve
-    me "" with dissolve
+    me "You will be required to visit the bank only twice:" with dissolve
 
 # game/day3_part1.rpy:613
 translate english day3_meet_aliya_success_25f87de9:
 
     # me "оформить карточку и забрать её." with dissolve
-    me "" with dissolve
+    me "to order a card, and to pick it up." with dissolve
 
 # game/day3_part1.rpy:615
 translate english day3_meet_aliya_success_f84d91db:
 
     # me "Родители не смогут вычислить твоё местонахождение по карточке." with dissolve
-    me "" with dissolve
+    me "Parents will not be able to find out your location by the bank card." with dissolve
 
 # game/day3_part1.rpy:617
 translate english day3_meet_aliya_success_56bfcc94:
 
     # me "Максимум что они узнают - это в каком отделении ты её открыла." with dissolve
-    me "" with dissolve
+    me "The most what they will find out - where did you opened a back account." with dissolve
 
 # game/day3_part1.rpy:619
 translate english day3_meet_aliya_success_e4da9d1c:
 
     # me "А мы можем открыть счёт в любом банке в Москве." with dissolve
-    me "" with dissolve
+    me "We can open an account in any bank in Moscow." with dissolve
 
 # game/day3_part1.rpy:636
 translate english day3_meet_aliya_success_0b2a61d6:
 
     # aliya "А нам обязательно оформлять её прямо сразу?" with dissolve
-    aliya "" with dissolve
+    aliya "Do we really need to make a card immediately?" with dissolve
 
 # game/day3_part1.rpy:644
 translate english day3_meet_aliya_success_80cd2a80:
 
     # me "Поэтому я хочу, чтобы ты оформила банковскую карту поскорее." with dissolve
-    me "" with dissolve
+    me "That's why I want you to make a bank card as soon as possible." with dissolve
 
 # game/day3_part1.rpy:651
 translate english day3_meet_aliya_success_f1fcc00f:
 
     # aliya "А что мне делать, когда мой паспорт станет недействительным?" with dissolve
-    aliya "" with dissolve
+    aliya "What will I do after my passport become invalid?" with dissolve
 
 # game/day3_part1.rpy:653
 translate english day3_meet_aliya_success_15a9a24a:
 
     # me "Если ты успеешь до этого найти работу и открыть счёт в банке, то ничего страшного." with dissolve
-    me "" with dissolve
+    me "If you get a job and open the bank account prior to that, that's ok." with dissolve
 
 # game/day3_part1.rpy:655
 translate english day3_meet_aliya_success_d263211a:
 
     # me "Если не успеешь найти работу, будет сложно устроиться в крупную компанию." with dissolve
-    me "" with dissolve
+    me "If you don't find a job in time, then it would be difficult to get employed in a large company." with dissolve
 
 # game/day3_part1.rpy:668
 translate english day3_meet_aliya_success_5dc20315:
 
     # me "Можно устроиться туда." with dissolve
-    me "" with dissolve
+    me "You can get a job there." with dissolve
 
 # game/day3_part1.rpy:697
 translate english day3_meet_aliya_success_676d83ce:
 
     # aliya "Наверное, мне ещё придётся заново поступить учиться." with dissolve
-    aliya "" with dissolve
+    aliya "Maybe, I should enroll a university again." with dissolve
 
 # game/day3_part1.rpy:706
 translate english day3_meet_aliya_success_06a201ab:
 
     # me "Днём учеба, вечером смена. Как-то так." with dissolve
-    me "" with dissolve
+    me "Well, classes during the day, a shift in the evening. Something like that." with dissolve
 
 # game/day3_part1.rpy:713
 translate english day3_meet_aliya_success_2b0e4819:
 
     # me "Об этом можно подумать уже после того, как ты обустроишься в Москве." with dissolve
-    me "" with dissolve
+    me "We can think about it after you settle in Moscow." with dissolve
 
 # game/day3_part1.rpy:717
 translate english day3_meet_aliya_success_298629b9:
 
     # aliya "И ещё нужно оформить загранпаспорт!" with dissolve
-    aliya "" with dissolve
+    aliya "And I need to make a travel passport!" with dissolve
 
 # game/day3_part1.rpy:719
 translate english day3_meet_aliya_success_353bab8b:
 
     # me "Это можно сделать через МФЦ либо удаленно через сайт Госуслуги." with dissolve
-    me "" with dissolve
+    me "You can do this via MFC or remotely on the Gosuslugi website." with dissolve
 
 # game/day3_part1.rpy:721
 translate english day3_meet_aliya_success_90940ba5:
 
     # me "Но если твой отец объявит твой паспорт в розыск, сделать загранпаспорт не получится." with dissolve
-    me "" with dissolve
+    me "But if your father put your Russian passport in the wanted list, then you will not be able to make a travel passport." with dissolve
 
 # game/day3_part1.rpy:727
 translate english day3_meet_aliya_success_e58dbdda:
 
     # me "Когда тебя перестанут искать родители, ты можешь сняться с розыска и начать делать документы." with dissolve
-    me "" with dissolve
+    me "When your parents stop looking for you, you can be removed from the wanted list and start preparing documents." with dissolve
 
 # game/day3_part1.rpy:729
 translate english day3_meet_aliya_success_0120eeed:
 
     # me "Либо можем, например, выехать в Беларусь и попробовать получить загранпаспорт там." with dissolve
-    me "" with dissolve
+    me "Or we can, for example, enter Belarus and try make a travel passport there." with dissolve
 
 # game/day3_part1.rpy:742
 translate english day3_meet_aliya_success_fad614d8:
 
     # aliya "Я готова, пойдём. Авиабилеты у тебя?" with dissolve
-    aliya "" with dissolve
+    aliya "I am ready, let's go. Do you have airplane tickets?" with dissolve
 
 # game/day3_part1.rpy:791
 translate english day3_meet_aliya_almost_fail_c5c575c5:
 
     # me "Да и не ты ли говорила, что в Москве у тебя родня? Вдруг с ними столкнёшься?" with dissolve
-    me "" with dissolve
+    me "And by the way, you said that you have relatives in Moscow. What if you meet them." with dissolve
 
 # game/day3_part1.rpy:803
 translate english day3_meet_aliya_almost_fail_6a6bc2e7:
 
     # aliya "Иначе? Ты себе это как представляешь?" with dissolve
-    aliya "" with dissolve
+    aliya "Other way? How do you imagine this?" with dissolve
 
 # game/day3_part1.rpy:805
 translate english day3_meet_aliya_almost_fail_d25a05a3:
 
     # me "Ну не знаю, к примеру, как христиане?" with dissolve
-    me "" with dissolve
+    me "I don't know, hmm, like christians do it?" with dissolve
 
 # game/day3_part1.rpy:807
 translate english day3_meet_aliya_almost_fail_de32c3dd:
 
     # aliya "Семён, ты уж прости, но я не христианка. Я мусульманка и следую нашим традициям." with dissolve
-    aliya "" with dissolve
+    aliya "Semyon, sorry, but I am not a christian. I am muslim and I follow my traditions." with dissolve
 
 # game/day3_part1.rpy:811
 translate english day3_meet_aliya_almost_fail_cd8be0b4:
 
     # aliya "А разве ваши девушки ходят в церковь без головных уборов или же бабки сидят в церквях? Нет, хотя в других верах есть и такое." with dissolve
-    aliya "" with dissolve
+    aliya "And can your women go to the church without covering their head? No, even though other religions have this option." with dissolve
 
 # game/day3_part1.rpy:818
 translate english day3_meet_aliya_almost_fail_0b2d60fc:
 
     # aliya "Да к тому, что не будь мне нужно это платье и коврик, я бы и просить не стала." with dissolve
-    aliya "" with dissolve
+    aliya "Because if I didn't need a dress and a rug, I would not ask for that." with dissolve
 
 # game/day3_part1.rpy:820
 translate english day3_meet_aliya_almost_fail_8befc227:
 
     # aliya "Моя религия очень важна для меня, разве это не понятно? Я ведь и раньше об этом говорила." with dissolve
-    aliya "" with dissolve
+    aliya "My belief is very important for me, can't you understand that. I told you before." with dissolve
 
 # game/day3_part1.rpy:844
 translate english day3_meet_aliya_fail_703b4048:
 
     # me "Мне всё же кажется это странным. Столько приготовлений ради простой молитвы." with dissolve
-    me "" with dissolve
+    me "I still think, that it is strange. So much preparations for a simple pray." with dissolve
 
 # game/day3_part1.rpy:846
 translate english day3_meet_aliya_fail_d27f0ba5:
 
     # me "Ну что, пойдём?" with dissolve
-    me "" with dissolve
+    me "So, let's go?" with dissolve
 
 # game/day3_part1.rpy:913
 translate english day3_meet_aliya_fail_a8e26c8d:
 
     # "Я убрал телефон, оглянулся и попытался глазами найти Алию в зале. Её нигде не было." with dissolve
-    "" with dissolve
+    "I put my phone away, looked around, and tried to find Aliya in the hall. She was nowhere to be found." with dissolve
 
 # game/day3_part1.rpy:925
 translate english day3_meet_aliya_fail_cb608653:
 
     # "Похоже мне придется возвращаться домой..." with dissolve
-    "" with dissolve
+    "I guess, I should come back home..." with dissolve
 
 # game/day3_part1.rpy:951
 translate english day3_airport_inner_77027437:
 
     # "Наверное, сотрудник аэропорта вычислял в уме было ей 18 лет или нет." with dissolve
-    "" with dissolve
+    "I guess, the security officer was calculating in head, if she is 18 already or not." with dissolve
 
 # game/day3_part1.rpy:953
 translate english day3_airport_inner_63bc0132:
 
     # "Но её всё-таки пропустили и вот мы оказались в чистой зоне." with dissolve
-    "" with dissolve
+    "But at last, officer let her go and we ended up in the secure boarding area." with dissolve
 
 # game/day3_part1.rpy:955
 translate english day3_airport_inner_ff05ed5c:
 
     # "Мы нашли свободное место возле нашего выхода на посадку. Я сел на сидение." with dissolve
-    "" with dissolve
+    "We found empty seats near our gate. I sat on the seat." with dissolve
 
 # game/day3_part1.rpy:964
 translate english day3_airport_inner_4720be05:
 
     # "Ещё есть время перед посадкой. Итак, о чём бы поговорить?" with dissolve
-    "" with dissolve
+    "We still have some time before the boarding start. So, what do we talk about?" with dissolve
 
 # game/day3_part1.rpy:977
 translate english day3_airport_inner_51438d79:
 
     # me "Нас будут кормить в самолёте во время полёта. Рекомендую тебе поесть. Нельзя оставаться голодной." with dissolve
-    me "" with dissolve
+    me "We will have a meal on the airplane, during the flight. I recommend you to eat. You shouldn't stay hungry." with dissolve
 
 # game/day3_part1.rpy:986
 translate english day3_airport_inner_ad085fbf:
 
     # me "Как ты себя чувствуешь в целом?" with dissolve
-    me "" with dissolve
+    me "How are you, in general?" with dissolve
 
 # game/day3_part1.rpy:993
 translate english day3_airport_inner_8284f9fd:
 
     # aliya "Сойдёт." with dissolve
-    aliya "" with dissolve
+    aliya "I am okay." with dissolve
 
 # game/day3_part1.rpy:995
 translate english day3_airport_inner_15d96d2a:
 
     # "Я не очень хорошо разбираюсь в людях, но сейчас я вижу, что Алия всё ещё чувствует себя неспокойно." with dissolve
-    "" with dissolve
+    "I am not very good at people, but right now I see, that Aliya still feel a bit anxious." with dissolve
 
 # game/day3_part1.rpy:997
 translate english day3_airport_inner_f16f7b1f:
 
     # "Возможно, надо бы её успокоить." with dissolve
-    "" with dissolve
+    "Perhaps I should calm her down." with dissolve
 
 # game/day3_part1.rpy:999
 translate english day3_airport_inner_13c0d4bb:
 
     # "Может поговорить о чём-то отвлечённом?" with dissolve
-    "" with dissolve
+    "Should we talk about something unrelated?" with dissolve
 
 # game/day3_part1.rpy:1001
 translate english day3_airport_inner_1ae250ef:
 
     # me "У нас ещё есть время перед посадкой." with dissolve
-    me "" with dissolve
+    me "We still have time before the boarding start." with dissolve
 
 # game/day3_part1.rpy:1010
 translate english day3_airport_inner_986984bd:
 
     # aliya "Слушаю музыку, смотрю аниме или корейские дорамы." with dissolve
-    aliya "" with dissolve
+    aliya "I listen music, watch anime. Or korean dramas." with dissolve
 
 # game/day3_part1.rpy:1024
 translate english day3_airport_inner_5c721d32:
 
     # aliya "Да. Там короткие серии по 20 минут." with dissolve
-    aliya "" with dissolve
+    aliya "Yes. They have short episodes, 20 minutes each." with dissolve
 
 # game/day3_part1.rpy:1026
 translate english day3_airport_inner_f0704096:
 
     # aliya "В корейских дорамах один эпизод длится час, это очень долго." with dissolve
-    aliya "" with dissolve
+    aliya "In korean drama, one episode lasts one hour. That is too long to watch." with dissolve
 
 # game/day3_part1.rpy:1028
 translate english day3_airport_inner_e28035f3:
 
     # aliya "Хотя я иногда смотрю, например, вечером." with dissolve
-    aliya "" with dissolve
+    aliya "But sometimes I watch, for example, in the evening." with dissolve
 
 # game/day3_part1.rpy:1071
 translate english day3_airport_inner_ad40429b:
 
     # "Прошло ещё немного времени..." with dissolve
-    "" with dissolve
+    "Some more time passed..." with dissolve
 
 # game/day3_part1.rpy:1096
 translate english day3_airport_inner_39eed5ec:
 
     # me "Если ты передумала и хочешь вернуться домой, это твой последний шанс." with dissolve
-    me "" with dissolve
+    me "If you change your mind and want to go home, this is your last chance." with dissolve
 
 # game/day3_part1.rpy:1106
 translate english day3_airport_inner_2ffc46ee:
 
     # me "Хорошо. Тогда приготовь посадочный талон, пойдём на посадку!" with dissolve
-    me "" with dissolve
+    me "Ok. Then prepare your boarding pass, lets go to the gate!" with dissolve
 
 # game/day3_part1.rpy:1131
 translate english day3_airport_inner_0e30955e:
 
     # "Мы поднялись на борт, заняли свои места и самолёт отправился в Москву..." with dissolve
-    "" with dissolve
+    "We boarded on the airplane, took our seats, and the airplane departed to Moscow..." with dissolve
 
 # game/day3_part1.rpy:1154
 translate english day3_airplane_a4ac555c:
 
     # announcement "Уважаемые пассажиры, вы можете отстегнуть ремни безопасности, однако мы рекомендуем вам оставаться пристегнутыми на протяжении всего полёта." with dissolve
-    announcement "" with dissolve
+    announcement "Ladies and gentlemen, \"fasten seatbelts\" sign is switched off, but we recommend that you keep your seatbelt fastened whenever you are seated." with dissolve
 
 # game/day3_part1.rpy:1156
 translate english day3_airplane_2a4a25ab:
 
     # announcement "Туалеты находятся в хвостовой части самолёта. Вам будут предложены обед и напитки. Желаем вам приятного полёта!" with dissolve
-    announcement "" with dissolve
+    announcement "Toilets are located at the end of the cabin. We will be offering meals and bevegares. We wish you a pleasant flight!" with dissolve
 
 # game/day3_part1.rpy:1187
 translate english day3_airplane_e6892290:
 
     # me "Как тебе?" with dissolve
-    me "" with dissolve
+    me "How do you feel?" with dissolve
 
 # game/day3_part1.rpy:1189
 translate english day3_airplane_505de7ab:
 
     # aliya "Красиво!" with dissolve
-    aliya "" with dissolve
+    aliya "Beautiful!" with dissolve
 
 # game/day3_part1.rpy:1191
 translate english day3_airplane_de2df77c:
 
     # me "Ты ведь до этого вообще не летала на самолёте?" with dissolve
-    me "" with dissolve
+    me "You've never flew on the airplane before, right?" with dissolve
 
 # game/day3_part1.rpy:1207
 translate english day3_airplane_96d12b08:
 
     # aliya "Нет. Обычно меня возит отец." with dissolve
-    aliya "" with dissolve
+    aliya "No. My father drives usually." with dissolve
 
 # game/day3_part1.rpy:1214
 translate english day3_airplane_6c27caab:
 
     # aliya "У меня ощущение, что я в автобусе еду. Сидения такие же." with dissolve
-    aliya "" with dissolve
+    aliya "I feel that I am riding a bus. Seats are similar." with dissolve
 
 # game/day3_part1.rpy:1220
 translate english day3_airplane_722e5274:
 
     # aliya "Сколько нам ещё лететь?" with dissolve
-    aliya "" with dissolve
+    aliya "How long will we fly?" with dissolve
 
 # game/day3_part1.rpy:1222
 translate english day3_airplane_7a6655c5:
 
     # me "Мы только взлетели. Будем на месте через два часа." with dissolve
-    me "" with dissolve
+    me "We just finished takeoff. We will fly two more hours." with dissolve
 
 # game/day3_part1.rpy:1255
 translate english day3_airplane2_f915cc4a:
 
     # me "Я учил стихи давно, когда был в школе." with dissolve
-    me "" with dissolve
+    me "I learned poetry long time ago, when I was in school." with dissolve
 
 # game/day3_part1.rpy:1269
 translate english day3_airplane2_20ecd976:
 
     # "Алия быстро начала листать страницы." with dissolve
-    "" with dissolve
+    "Aliya quickly started turning pages in the book." with dissolve
 
 # game/day3_part1.rpy:1276
 translate english day3_airplane2_fd18da48:
 
     # aliya "Вот, прочитай это и скажи, что ты думаешь." with dissolve
-    aliya "" with dissolve
+    aliya "Here, read this and tell me what you think." with dissolve
 
 # game/day3_part1.rpy:1328
 translate english day3_airplane2_e3afc3a8:
 
     # aliya "Что думаешь?" with dissolve
-    aliya "" with dissolve
+    aliya "What do you think?" with dissolve
 
 # game/day3_part1.rpy:1330
 translate english day3_airplane2_2409323d:
 
     # me "Эээ, ну, корабль плывет с белым парусом." with dissolve
-    me "" with dissolve
+    me "Emm, a ship sails, with the white sail." with dissolve
 
 # game/day3_part1.rpy:1335
 translate english day3_airplane2_65af84c4:
 
     # aliya "Да ты прямо как компьютер." with dissolve
-    aliya "" with dissolve
+    aliya "Yes, you are just like a computer." with dissolve
 
 # game/day3_part1.rpy:1377
 translate english day3_airplane2_part1_poetry_29c0c929:
 
     # aliya "Из русских, наверное, больше всего Анна Ахматова, Александр Блок." with dissolve
-    aliya "" with dissolve
+    aliya "Of Russian poets, I guess, most of all I like Anna Akhmatova, Alexander Blok." with dissolve
 
 # game/day3_part1.rpy:1379
 translate english day3_airplane2_part1_poetry_d9b60b05:
 
     # aliya "Ещё Борис Пастернак и Михаил Лермонтов." with dissolve
-    aliya "" with dissolve
+    aliya "Also Boris Pasternak and Mikhail Lermontov." with dissolve
 
 # game/day3_part1.rpy:1383
 translate english day3_airplane2_part1_poetry_fad3c92d:
 
     # aliya "Наверное Ахматова, она интересная поэтесса." with dissolve
-    aliya "" with dissolve
+    aliya "Probably Akhmatova, she is an interesting poetess." with dissolve
 
 # game/day3_part1.rpy:1385
 translate english day3_airplane2_part1_poetry_52d1a037:
 
     # aliya "И стихи у неё очень глубокие, как-никак представительница серебряного века." with dissolve
-    aliya "" with dissolve
+    aliya "And her poems are very profound, after all, she is a representative of the silver age." with dissolve
 
 # game/day3_part1.rpy:1387
 translate english day3_airplane2_part1_poetry_639b8e64:
 
     # me "Ясно... Кстати, вот объясни мне, что вообще люди под серебряным веком подразумевают? Я помню что-то из школьных лет, но..." with dissolve
-    me "" with dissolve
+    me "I see... By the way, tell me what people even mean by the silver age? I remember something from my school years, but..." with dissolve
 
 # game/day3_part1.rpy:1392
 translate english day3_airplane2_part1_poetry_9dfba336:
 
     # aliya "Ну... Если простыми словами, то это был период, когда поэты и писатели 19 века дали толчок развитию литературы." with dissolve
-    aliya "" with dissolve
+    aliya "Well... In simple terms, it was a period when poets and writers of the 19th century gave impetus to the development of literature." with dissolve
 
 # game/day3_part1.rpy:1394
 translate english day3_airplane2_part1_poetry_0aa2c578:
 
     # aliya "Вывели её на новый уровень." with dissolve
-    aliya "" with dissolve
+    aliya "Took it to the next level." with dissolve
 
 # game/day3_part1.rpy:1399
 translate english day3_airplane2_part1_poetry_9d494a67:
 
     # aliya "Название, кстати, дали по аналогии с золотым веком." with dissolve
-    aliya "" with dissolve
+    aliya "The name, by the way, was given by analogy with the golden age." with dissolve
 
 # game/day3_part1.rpy:1401
 translate english day3_airplane2_part1_poetry_24566324:
 
     # aliya "Ахматова, как по мне, по праву может носить звание поэтессы этого периода." with dissolve
-    aliya "" with dissolve
+    aliya "Akhmatova, I think, may carry the title of poetess of this age." with dissolve
 
 # game/day3_part1.rpy:1403
 translate english day3_airplane2_part1_poetry_733a686e:
 
     # "Я почувствовал себя как будто снова в школе на уроке литературы." with dissolve
-    "" with dissolve
+    "I felt like I am at school again, on the literature lesson." with dissolve
 
 # game/day3_part1.rpy:1410
 translate english day3_airplane2_part1_poetry_48659589:
 
     # aliya "Сложно сказать, у неё много стихов, что цепляют. Наверное, этим." with dissolve
-    aliya "" with dissolve
+    aliya "It's hard to say, she has many poems that catch your attention. Probably this is the reason." with dissolve
 
 # game/day3_part1.rpy:1415
 translate english day3_airplane2_part1_poetry_958b5ec1:
 
     # aliya "У неё есть стихи о любви, о войне, о родине, о жизни... И при этом каждый вызывает эмоции." with dissolve
-    aliya "" with dissolve
+    aliya "She has poems about love, about war, about her homeland, about life... And each one evokes emotions." with dissolve
 
 # game/day3_part1.rpy:1424
 translate english day3_airplane2_part1_poetry_669cee14:
 
     # me "И о чём они?" with dissolve
-    me "" with dissolve
+    me "So, what are they about?" with dissolve
 
 # game/day3_part1.rpy:1438
 translate english day3_airplane2_part1_poetry_466c603c:
 
     # me "А хотя бы вкратце?" with dissolve
-    me "" with dissolve
+    me "Even if briefly?" with dissolve
 
 # game/day3_part1.rpy:1467
 translate english day3_airplane2_part1_poetry_faca08e4:
 
     # aliya "Тёмных глаз загадочный мрак," with dissolve
-    aliya "" with dissolve
+    aliya "Dark eyes keep a mistery," with dissolve
 
 # game/day3_part1.rpy:1516
 translate english day3_airplane2_part1_ignore_f48549d5:
 
     # me "Извини, но лично я очень плохо такие идеи улавливаю." with dissolve
-    me "" with dissolve
+    me "I am sorry, but I personally bad at cathing these ideas." with dissolve
 
 # game/day3_part1.rpy:1518
 translate english day3_airplane2_part1_ignore_d65ad1d6:
 
     # me "Мне легче читать более простой текст, прозу." with dissolve
-    me "" with dissolve
+    me "I find it easier to read simpler text, prose." with dissolve
 
 # game/day3_part1.rpy:1544
 translate english day3_airplane2_part2_80201465:
 
     # "Тем временем тележки с напитками и сэндвичами уже приближалась к нашему ряду." with dissolve
-    "" with dissolve
+    "Meanwhile, carts with drinks and sandwiches was approaching our seat." with dissolve
 
 # game/day3_part1.rpy:1546
 translate english day3_airplane2_part2_26c98d8a:
 
     # me "Хочешь что-нибудь?" with dissolve
-    me "" with dissolve
+    me "Do you want anything?" with dissolve
 
 # game/day3_part1.rpy:1551
 translate english day3_airplane2_part2_333739cc:
 
     # aliya "Ничего, я не голодна, спасибо." with dissolve
-    aliya "" with dissolve
+    aliya "It's okay, I'm not hungry, thank you." with dissolve
 
 # game/day3_part1.rpy:1567
 translate english day3_airplane2_part2_0a998988:
 
     # aliya "Мне немного не по себе. Если я что-то съем, боюсь, меня стошнит." with dissolve
-    aliya "" with dissolve
+    aliya "I am not in the right mood. I am afraid, if I eat something, I am going to puke." with dissolve
 
 # game/day3_part1.rpy:1574
 translate english day3_airplane2_part2_0c2e40b5:
 
     # me "Ты завтракала?" with dissolve
-    me "" with dissolve
+    me "Did you eat breakfast?" with dissolve
 
 # game/day3_part1.rpy:1578
 translate english day3_airplane2_part2_086fabe2:
 
     # "Если Алия с утра ничего не ела и не будет есть сейчас, это не хорошо." with dissolve
-    "" with dissolve
+    "If Aliya did not eat anything since yesterday, and not going to eat now, it is not good." with dissolve
 
 # game/day3_part1.rpy:1582
 translate english day3_airplane2_part2_31338622:
 
     # "Надо будет напомнить себе, вечером купить ей что-нибудь поесть." with dissolve
-    "" with dissolve
+    "I should remind myself to buy some food for her tonight." with dissolve
 
 # game/day3_part1.rpy:1609
 translate english day3_airplane2_part2_8043ad79:
 
     # "Алия лишь слегка отхлебнула и поставила стакан на откидной столик." with dissolve
-    "" with dissolve
+    "Aliya just took a small sip and put the cup back to the tray table." with dissolve
 
 # game/day3_part1.rpy:1613
 translate english day3_airplane2_part2_77506757:
 
     # flight_attendant "Вам сэндвич с курицей или с сыром?" with dissolve
-    flight_attendant "" with dissolve
+    flight_attendant "Do you want a sandwich with chicken, or with cheese?" with dissolve
 
 # game/day3_part1.rpy:1624
 translate english day3_airplane2_part2_51581abd:
 
     # "Алия даже не посмотрела. Она взяла в руки книгу, начала читать и, видимо, думала о чём-то своём." with dissolve
-    "" with dissolve
+    "Aliya even did not even look. She took a book and started reading, and probably thinking about something." with dissolve
 
 # game/day3_part1.rpy:1645
 translate english day3_airplane2_part2_068ca512:
 
     # me "Предлагаю теперь поспать. Нам ещё лететь примерно час." with dissolve
-    me "" with dissolve
+    me "I recommend to take a nap. We still have one hour prior to arrival." with dissolve
 
 # game/day3_part1.rpy:1657
 translate english day3_airplane2_part2_b1d035d0:
 
     # "Затем она устроилась в кресле поудобнее и закрыла глаза." with dissolve
-    "" with dissolve
+    "Then she made herself comfortable in the chair, and closed eyes." with dissolve
 
 # game/day3_part1.rpy:1659
 translate english day3_airplane2_part2_5d08ba0e:
 
     # "Я немного задержал на ней взгляд." with dissolve
-    "" with dissolve
+    "I held a glance on her for a little bit." with dissolve
 
 # game/day3_part1.rpy:1661
 translate english day3_airplane2_part2_3cd00847:
 
     # "Волосы частично закрывали её лицо, но я всё равно отметил про себя, что она очень красивая." with dissolve
-    "" with dissolve
+    "Hair partially covered her face. But I still noted that she is very beautiful." with dissolve
 
 # game/day3_part1.rpy:1663
 translate english day3_airplane2_part2_02eb65af:
 
     # "Ладно, пожалуй и мне тоже лучше немного вздремнуть." with dissolve
-    "" with dissolve
-
-# game/day3_part1.rpy:1667
-translate english day3_airplane2_part2_92f3d7f5:
-
-    # "Я прилёг в кресле, закрыл глаза" with dissolve
-    "" with dissolve
-
-# game/day3_part1.rpy:1669
-translate english day3_airplane2_part2_079e1811:
-
-    # "и медленно погрузился в сон..." with dissolve
-    "" with dissolve
+    "Okay, I guess I better take a little nap too." with dissolve
 
 # game/day3_part1.rpy:1683
 translate english day3_airplane3_52e03f76:
 
     # announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в вертикальное положение," with dissolve
-    announcement "" with dissolve
+    announcement "Please make sure your seatbelt is fastened, your seat is in upright position," with dissolve
 
 # game/day3_part1.rpy:1685
 translate english day3_airplane3_513d14ac:
 
     # announcement "уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
-    announcement "" with dissolve
+    announcement "your tray table is stowed, and the window blind is opened." with dissolve
 
 # game/day3_part1.rpy:1722
 translate english day3_airplane3_f25674e8:
 
     # "Вместо ответа она достала телефон, надела наушники и включила музыку." with dissolve
-    "" with dissolve
+    "Instead, she took her phone, put on earpieces and started music." with dissolve
 
 # game/day3_part1.rpy:1762
 translate english day3_airplane3_535a15d9:
 
     # "Я вставил наушник в ухо и заиграла рок-музыка." with dissolve
-    "" with dissolve
+    "I put the earpiece to my ear. Rock music started playing." with dissolve
 
 # game/day3_part1.rpy:1809
 translate english day3_airplane3_b65f5351:
 
     # "Самолёт слегка дёрнулся и начал идти на снижение." with dissolve
-    "" with dissolve
+    "The airplane shaked a bit, and then started to descent." with dissolve
 
 # game/day3_part1.rpy:1811
 translate english day3_airplane3_a3d2abf3:
 
     # "Погода была довольно ясной и из иллюминатора можно было видеть Подмосковье." with dissolve
-    "" with dissolve
+    "The weather was quite clear, and one could see Podmoskovye from the window." with dissolve
 
 # game/day3_part1.rpy:1817
 translate english day3_airplane3_cbec136a:
 
     # "Её беспокойство немного передавалось мне." with dissolve
-    "" with dissolve
+    "Her worry passed a little bit to me." with dissolve
 
 # game/day3_part1.rpy:1819
 translate english day3_airplane3_7575558e:
 
     # "Возможно, её родители всё ещё думают, что она на учёбе." with dissolve
-    "" with dissolve
+    "Maybe her parents still think that she is taking classes." with dissolve
 
 # game/day3_part1.rpy:1821
 translate english day3_airplane3_309a580b:
 
     # "А может быть, они уже хватились и ищут её?" with dissolve
-    "" with dissolve
+    "Or maybe they already missed her and started looking for her?" with dissolve
 
 # game/day3_part1.rpy:1823
 translate english day3_airplane3_e63372af:
 
     # "Но назад дороги нет, мы уже почти приземлились в Москве." with dissolve
-    "" with dissolve
+    "We can't go back now, we almost landed in Moscow." with dissolve
 
 # game/day3_part1.rpy:1829
 translate english day3_airplane3_92e7150d:
 
     # "Она всё так же неподвижно смотрит в иллюминатор." with dissolve
-    "" with dissolve
+    "She is same still, looking out the window." with dissolve
 
 # game/day3_part1.rpy:1831
 translate english day3_airplane3_17c57571:
 
     # "Несмотря на волнение, в её глазах читалась некоторая обречённость и уверенность." with dissolve
-    "" with dissolve
+    "Despite the worry, I could read a feeling of doom and confidence in her eyes." with dissolve
 
 # game/day3_part1.rpy:1833
 translate english day3_airplane3_51489b8b:
 
     # "Интересно, если бы она не встретилась со мной - сбежала бы она из дома?" with dissolve
-    "" with dissolve
+    "I wonder, if she did not meet me - would she escape from home?" with dissolve
 
 # game/day3_part1.rpy:1835
 translate english day3_airplane3_6a974dc4:
 
     # "С её-то характером - очень может быть!" with dissolve
-    "" with dissolve
+    "With her personally - that's quite possible!" with dissolve
 
 # game/day3_part1.rpy:1837
 translate english day3_airplane3_2d9acdb1:
 
     # "Возможно, она сбежала бы одна, автостопом добралась бы до Краснодара или Ростова." with dissolve
-    "" with dissolve
+    "Probably, she would escape alone. Probably she would hitchhike to Krasnodar or Rostov." with dissolve
 
 # game/day3_part1.rpy:1849
 translate english day3_airplane3_a2ee2d96:
 
     # "Судьба Алии в моих руках." with dissolve
-    "" with dissolve
+    "Aliya's fate is in my hands." with dissolve
 
 # game/day3_part1.rpy:1851
 translate english day3_airplane3_8883d3f6:
 
     # "Она доверяет мне и я не должен разрушить её доверие." with dissolve
-    "" with dissolve
+    "She trusts me, and I should not destroy her trust." with dissolve
 
 # game/day3_part1.rpy:1855
 translate english day3_airplane3_f8d2c9f5:
 
     # "Если обману её или воспользуюсь ей - она сбежит уже и от меня." with dissolve
-    "" with dissolve
+    "If I deceive her or take advantage of her - she will escape from me too." with dissolve
 
 # game/day3_part1.rpy:1861
 translate english day3_airplane3_8672808e:
 
     # "И я не брошу всё на полпути." with dissolve
-    "" with dissolve
+    "And I won't give up halfway." with dissolve
 
 # game/day3_part1.rpy:1863
 translate english day3_airplane3_27bdbb8f:
 
     # "Сейчас уже вторая половина дня, что мы ещё успеем сделать за сегодня?" with dissolve
-    "" with dissolve
+    "It is already afternoon, what else we have time to do today?" with dissolve
 
 # game/day3_part1.rpy:1869
 translate english day3_airplane3_2216c19a:
 
     # "Поужинаем, возможно, купим что-нибудь по мелочи." with dissolve
-    "" with dissolve
+    "Have a dinner and maybe purchase something in store." with dissolve
 
 # game/day3_part1.rpy:1871
 translate english day3_airplane3_1c98c770:
 
     # "Всё остальное: банковскую карту, покупку сменной одежды и бытовых вещей, поиск работы и т. д. - оставим на завтра." with dissolve
-    "" with dissolve
+    "We'll leave everything else for tomorrow: a bank card, buying a change of clothes and household items, looking for a job, etc." with dissolve
 
 # game/day3_part1.rpy:1875
 translate english day3_airplane3_39390d0c:
 
     # "По крайней мере до тех пор, пока Алия не обустроится в Москве, не найдёт работу, съёмное жильё." with dissolve
-    "" with dissolve
+    "At least until Aliya settle in Moscow, find a job, find an apartment to rent." with dissolve
 
 # game/day3_part1.rpy:1877
 translate english day3_airplane3_8b91b01d:
 
     # "Но денег мне совсем не жалко." with dissolve
-    "" with dissolve
+    "But I don't mind spending at all." with dissolve
 
 # game/day3_part1.rpy:1879
 translate english day3_airplane3_baced326:
 
     # "Я своё ещё заработаю, а вот Алия действительно нуждается в моей поддержке." with dissolve
-    "" with dissolve
+    "I will make more money later. While Aliya really needs my support." with dissolve
 
 # game/day3_part1.rpy:1881
 translate english day3_airplane3_50e185a2:
 
     # "И я постараюсь её не подвести!" with dissolve
-    "" with dissolve
+    "And I will try not to let her down!" with dissolve
 
 # game/day3_part1.rpy:1886
 translate english day3_airplane3_516b79da:
 
     # "Самолёт уверенно снижался." with dissolve
-    "" with dissolve
+    "Airplane descended steadily." with dissolve
 
 # game/day3_part1.rpy:1923
 translate english day3_airplane3_d6fc5ff1:
 
     # "И вот, наконец, внизу под крылом показалась широкое полотно взлётно-посадочной полосы." with dissolve
-    "" with dissolve
+    "And finally a wide runaway appeared below the wing." with dissolve
 
 # game/day3_part1.rpy:1927
 translate english day3_airplane3_447ab15c:
 
     # "Ещё чуть-чуть и шасси коснётся земли." with dissolve
-    "" with dissolve
+    "A little more and the landing gear will touch the runway." with dissolve
 
 # game/day3_part1.rpy:1935
 translate english day3_airplane3_dc662ad3:
 
     # "Самолёт начал тормозить и всех пассажиров тут же дёрнуло вперёд." with dissolve
-    "" with dissolve
+    "The plane began to slow down and all the passengers were immediately jerked forward." with dissolve
 
 # game/day3_part1.rpy:1937
 translate english day3_airplane3_cf2dd64b:
 
     # "С громким шумом и грохотом авиалайнер снизил скорость." with dissolve
-    "" with dissolve
+    "With a loud noise, the plane slowed down." with dissolve
 
 # game/day3_part1.rpy:1950
 translate english day3_airplane3_6b815cd1:
 
     # announcement "Местное время четырнадцать часов двадцать минут. Погода в Москве ясная, температура воздуха плюс двадцать градусов тепла." with dissolve
-    announcement "" with dissolve
+    announcement "The local time is fourteen hours twenty minutes. The weather in Moscow is clear, the outside temperature is twenty degrees centigrade." with dissolve
 
 # game/day3_part1.rpy:1954
 translate english day3_airplane3_e65b8a2c:
 
     # announcement "От имени авиакомпании благодарим вас за полёт и будем рады новой встрече!" with dissolve
-    announcement "" with dissolve
+    announcement "On behalf of the airline company, we would like to thank you for the flight, and we look forward to welcome you onboard again soon!" with dissolve
 
 # game/day3_part1.rpy:1973
 translate english day3_airplane3_3968f647:
 
     # aliya "Мне тоже выключить?" with dissolve
-    aliya "" with dissolve
+    aliya "Shoule I turn the airplane mode off too?" with dissolve
 
 # game/day3_part1.rpy:1994
 translate english day3_airplane3_b32fccfe:
 
     # me "Мы возьмем аэроэкспресс до Москвы, он отправляется в 15:00." with dissolve
-    me "" with dissolve
+    me "We will take Aeroexpress train to Moscow, it departs at 15:00." with dissolve
 
 # game/day3_part1.rpy:2024
 translate english day3_airplane3_eeb17551:
 
     # "Наконец самолёт остановился." with dissolve
-    "" with dissolve
+    "Finally, the airplane stopped." with dissolve
 
 # game/day3_part1.rpy:2026
 translate english day3_airplane3_85d71618:
 
     # announcement "Бортпроводникам приготовиться к переводу селекторов в положение Disarmed." with dissolve
-    announcement "" with dissolve
+    announcement "Flight attendants, prepare to disarm the doors." with dissolve
 
 # game/day3_part1.rpy:2028
 translate english day3_airplane3_33363e1b:
 
     # announcement "Бортпроводникам перевести селекторы в положение Disarmed." with dissolve
-    announcement "" with dissolve
+    announcement "Flight attendants, disarm the doors." with dissolve
 
 # game/day3_part1.rpy:2038
 translate english day3_airplane3_5dba367d:
 
     # "Пассажиры вставали со своих кресел, собирали сумки и чемоданы, а затем пошли к выходу из самолёта." with dissolve
-    "" with dissolve
+    "Passengers got up from their seats, collected their bags and suitcases, and then headed towards the plane's exit." with dissolve
 
 # game/day3_part1.rpy:2040
 translate english day3_airplane3_7f2e8f1d:
 
     # "Я с Алией тоже встали, забрали вещи и пошли к выходу." with dissolve
-    "" with dissolve
+    "Me and Aliya also got out, took our bags and went to the exit." with dissolve
 
 # game/day3_part1.rpy:2061
 translate english day3_airplane3_329b5ce7:
 
     # me "Да. Но мы не сдавали сумки в багаж, так что можем сразу идти на выход." with dissolve
-    me "" with dissolve
+    me "Yes, but we did not check in any luggage, so we should go straight to the exit." with dissolve
 
 # game/day3_part1.rpy:2085
 translate english day3_airplane3_5481bf6d:
 
     # "Очередной бред от спецслужб, наверное. Всё равно никто не контролирует правильность этих данных." with dissolve
-    "" with dissolve
+    "That is another stupidity from the government, I guess. Anyway no one controls if these data is correct or not." with dissolve
 
 # game/day3_part1.rpy:2095
 translate english day3_airplane3_983311ec:
 
     # "Я достал свою кредитную карту-выручалочку и ввёл данные." with dissolve
-    "" with dissolve
+    "I took out my helpful credit card and entered the data." with dissolve
 
 # game/day3_part1.rpy:2101
 translate english day3_airplane3_f0cc755e:
 
     # "Пришло СМС-уведомление об успешной покупке." with dissolve
-    "" with dissolve
+    "An SMS has arrived with a notification of a successful purchase." with dissolve
 
 # game/day3_part1.rpy:2105
 translate english day3_airplane3_f6751de7:
 
     # "Я смахнул его в сторону не глядя. Мне уже страшно проверять баланс карты." with dissolve
-    "" with dissolve
+    "I swiped it aside without looking. I'm already afraid to check the card balance." with dissolve
 
 # game/day3_part1.rpy:2107
 translate english day3_airplane3_400fb7ce:
 
     # "Тем временем подошла Алия." with dissolve
-    "" with dissolve
+    "Meanwhile, Aliya returned." with dissolve
 
 # game/day3_part1.rpy:2118
 translate english day3_airplane3_da6356c4:
 
     # me "Когда мы будем проходить на аэроэкспресс, ты должна поднести телефон с кодом к сканеру." with dissolve
-    me "" with dissolve
+    me "When we will board the aeroexpress, you should put the phone with the code to the scanner." with dissolve
 
 # game/day3_part1.rpy:2183
 translate english day3_aeroexpress_6cf5e603:
 
     # "Я попытался подключиться к вайфаю, но здесь он был очень медленный." with dissolve
-    "" with dissolve
+    "I tried to connect to WiFi, but in aeroexpress it was very slow." with dissolve
 
 # game/day3_part1.rpy:2187
 translate english day3_aeroexpress_c351e08d:
 
     # me "Говоришь, тебе нужен коврик для намаза?" with dissolve
-    me "" with dissolve
+    me "You're saying, you need to buy a prayer mat?" with dissolve
 
 # game/day3_part1.rpy:2194
 translate english day3_aeroexpress_954674d5:
 
     # aliya "Да и платье." with dissolve
-    aliya "" with dissolve
+    aliya "Yes, and a dress." with dissolve
 
 # game/day3_part1.rpy:2203
 translate english day3_aeroexpress_dfe213d4:
 
     # aliya "На рынке точно продаётся." with dissolve
-    aliya "" with dissolve
+    aliya "They are definitely sold at the market." with dissolve
 
 # game/day3_part1.rpy:2243
 translate english day3_aeroexpress_506ace57:
 
     # aliya "А во сколько мы сможем туда добраться?" with dissolve
-    aliya "" with dissolve
+    aliya "And what time can we get there?" with dissolve
 
 # game/day3_part1.rpy:2258
 translate english day3_aeroexpress_39e3c981:
 
     # me "Там мы спустимся в метро, сделаем тебе карту Тройка," with dissolve
-    me "" with dissolve
+    me "There we'll go down to the metro, we'll make you a Troika card," with dissolve
 
 # game/day3_part1.rpy:2260
 translate english day3_aeroexpress_4c0ac2b4:
 
     # me "проедем одну станцию, затем выйдем на Таганской и немного пройдёмся пешком." with dissolve
-    me "" with dissolve
+    me "we'll go one station, then get off at Taganskaya and walk a bit." with dissolve
 
 # game/day3_part1.rpy:2267
 translate english day3_aeroexpress_44908d8a:
 
     # aliya "Карту Тройка?" with dissolve
-    aliya "" with dissolve
+    aliya "Troika card?" with dissolve
 
 # game/day3_part1.rpy:2271
 translate english day3_aeroexpress_ad644550:
 
     # me "Ну это карточка для оплаты проезда в Москве. Кладёшь на неё деньги и затем оплачиваешь проезд." with dissolve
-    me "" with dissolve
+    me "Yes, it is a transportation card in Moscow. You need to deposit money, then pay for your ride." with dissolve
 
 # game/day3_part1.rpy:2273
 translate english day3_aeroexpress_51fe98ab:
 
     # me "Работает в метро, автобусах, троллейбусах и трамваях." with dissolve
-    me "" with dissolve
+    me "It works in metro, on buses, trolleys, trams." with dissolve
 
 # game/day3_part1.rpy:2282
 translate english day3_aeroexpress_072bf0f4:
 
     # me "На метро быстро, но нам ещё придётся идти пешком. Минут 20-30 займёт." with dissolve
-    me "" with dissolve
+    me "On the metro it would be quick, but we also need to walk on foot. It would take around 20-30 minutes." with dissolve
 
 # game/day3_part1.rpy:2286
 translate english day3_aeroexpress_2837108e:
 
     # me "Если мы не найдём ничего подходящего в мусульманском магазине, скорее всего придётся искать другой магазин." with dissolve
-    me "" with dissolve
+    me "If we can't find anything suitable in the muslim store, most likely we will need to find another store." with dissolve
 
 # game/day3_part1.rpy:2288
 translate english day3_aeroexpress_1ac141e2:
 
     # me "Думаю, мы сегодня немало на метро поездим." with dissolve
-    me "" with dissolve
+    me "I guess today we will ride the metro a lot." with dissolve
 
 # game/day3_part1.rpy:2297
 translate english day3_aeroexpress_c8ff029e:
 
     # aliya "Что нам ещё нужно будет купить?" with dissolve
-    aliya "" with dissolve
+    aliya "What else do we need to buy?" with dissolve
 
 # game/day3_part1.rpy:2299
 translate english day3_aeroexpress_ced29b50:
 
     # me "Будет уже поздно. Я думаю, мы ещё сделаем тебе новую сим-карту." with dissolve
-    me "" with dissolve
+    me "It would be late. I think, we should also make a new SIM card for you." with dissolve
 
 # game/day3_part1.rpy:2301
 translate english day3_aeroexpress_f0b401e4:
 
     # me "Больше ничего сегодня не успеем сделать." with dissolve
-    me "" with dissolve
+    me "We won't have time to do anything else today." with dissolve
 
 # game/day3_part1.rpy:2303
 translate english day3_aeroexpress_6d88b462:
 
     # me "Всё остальное оставим на завтра." with dissolve
-    me "" with dissolve
+    me "Everything else we will leave for tomorrow." with dissolve
 
 # game/day3_part1.rpy:2307
 translate english day3_aeroexpress_c334380a:
 
     # "Вообще-то я до сих пор не забронировал жильё." with dissolve
-    "" with dissolve
+    "Actually, I did not book any housing yet." with dissolve
 
 # game/day3_part1.rpy:2309
 translate english day3_aeroexpress_dcce566b:
 
     # me "Пока не знаю. Думаю, самое время искать сейчас." with dissolve
-    me "" with dissolve
+    me "I don't know yet. But I think, I should start searching now." with dissolve
 
 # game/day3_part1.rpy:2322
 translate english day3_aeroexpress_64157b95:
 
     # "В какой-то момент я понял, что совершенно не знаю, где можно арендовать жильё не показывая паспорт." with dissolve
-    "" with dissolve
+    "At some point, I realized that I did not know at all where you can rent housing without showing your passport." with dissolve
 
 # game/day3_part1.rpy:2334
 translate english day3_aeroexpress_37ed5ec3:
 
     # coach "Привет, Семён! Как дела?" with dissolve
-    coach "" with dissolve
+    coach "Hi Semyon! How are you?" with dissolve
 
 # game/day3_part1.rpy:2338
 translate english day3_aeroexpress_ad8760f1:
 
     # me "Мы уже в Москве, сели на Аэроэкспресс." with dissolve
-    me "" with dissolve
+    me "We are already in Moscow, boarded the Aeroexpress." with dissolve
 
 # game/day3_part1.rpy:2342
 translate english day3_aeroexpress_bebc5d2f:
 
     # me "Правда у нас есть небольшая проблема. Нам нужно найти жильё, где не спрашивают паспорт" with dissolve
-    me "" with dissolve
+    me "But we have a small problem. We need to find accommodation where they don't ask for a passport." with dissolve
 
 # game/day3_part1.rpy:2346
 translate english day3_aeroexpress_566339e6:
 
     # coach "В Москве много квартир сдаются посуточно." with dissolve
-    coach "" with dissolve
+    coach "There are plenty apartments in moscow are for daily rent." with dissolve
 
 # game/day3_part1.rpy:2350
 translate english day3_aeroexpress_b55229cc:
 
     # coach "На любом столбе есть объявления." with dissolve
-    coach "" with dissolve
+    coach "There are announcements on every pole." with dissolve
 
 # game/day3_part1.rpy:2366
 translate english day3_aeroexpress_0dc27a12:
 
     # coach "Давай я забронирую тебе жильё." with dissolve
-    coach "" with dissolve
+    coach "Let me book a housing for you." with dissolve
 
 # game/day3_part1.rpy:2370
 translate english day3_aeroexpress_0cedb7e6:
 
     # coach "Напиши примерный район где вы будете жить, я начну искать." with dissolve
-    coach "" with dissolve
+    coach "Text me the approximate area where you will live, I will start looking there." with dissolve
 
 # game/day3_part1.rpy:2374
 translate english day3_aeroexpress_18a2682c:
 
     # me "В районе недалеко от станции метро Таганская. Квартиру на неделю." with dissolve
-    me "" with dissolve
+    me "In the area nearby Taganskaya metro station. An apartment for week." with dissolve
 
 # game/day3_part1.rpy:2378
 translate english day3_aeroexpress_3637147e:
 
     # coach "Хорошо. Прямо возле метро не обещаю, но постараюсь найти в том районе." with dissolve
-    coach "" with dissolve
+    coach "Ok. I can't promise I will find right next to the metro station, but I will try to find in that area." with dissolve
 
 # game/day3_part1.rpy:2386
 translate english day3_aeroexpress_0ec39920:
 
     # me "Чистая квартира с ремонтом, раздельные кровати." with dissolve
-    me "" with dissolve
+    me "Clean renovated apartment, two separated beds." with dissolve
 
 # game/day3_part1.rpy:2390
 translate english day3_aeroexpress_825acd9e:
 
     # me "Больше ничего." with dissolve
-    me "" with dissolve
+    me "That's all." with dissolve
 
 # game/day3_part1.rpy:2394
 translate english day3_aeroexpress_3a5ffe46:
 
     # coach "Хорошо, начну искать. Напишу, когда забронирую." with dissolve
-    coach "" with dissolve
+    coach "Ok, I will start searching. I will text you when I book an apartment for you." with dissolve
 
 # game/day3_part1.rpy:2459
 translate english day3_aeroexpress_8d940f8d:
 
     # "Надо поговорить о чём-нибудь, но о чём?" with dissolve
-    "" with dissolve
+    "I should talk with her about something, but about what?" with dissolve
 
 # game/day3_part1.rpy:2479
 translate english day3_aeroexpress_0101942f:
 
     # aliya "Я туда поступила потому, что отец обещал мне, если я буду хорошо учиться, потом смогу пойти в университет." with dissolve
-    aliya "" with dissolve
+    aliya "I went there because my father promised me, that if I study well, then I can go to university." with dissolve
 
 # game/day3_part1.rpy:2483
 translate english day3_aeroexpress_3ea5685b:
 
     # aliya "Мне тогда было 16. Родители сказали, что не смогут после колледжа отдать меня в университет." with dissolve
-    aliya "" with dissolve
+    aliya "I was 16 at that time. My parents told me that they would not be able to send me to university after college." with dissolve
 
 # game/day3_part1.rpy:2485
 translate english day3_aeroexpress_1bc4dccb:
 
     # aliya "Мне было очень плохо. Я полностью забила на учёбу." with dissolve
-    aliya "" with dissolve
-
-# game/day3_part1.rpy:2487
-translate english day3_aeroexpress_b104b581:
-
-    # aliya "Я даже пыталась порезать вены в туалете своего коллежда." with dissolve
-    aliya "" with dissolve
-
+    aliya "I felt very bad. I completely gave up on my studies." with dissolve
+    
 # game/day3_part1.rpy:2489
 translate english day3_aeroexpress_274494a9:
 
     # aliya "Мне было уже всё равно. Мне не хотелось жить." with dissolve
-    aliya "" with dissolve
+    aliya "I didn't care anymore. I didn't want to live." with dissolve
 
 # game/day3_part1.rpy:2491
 translate english day3_aeroexpress_94a932b1:
 
     # aliya "Теперь мой отец хочет, чтобы я вышла замуж." with dissolve
-    aliya "" with dissolve
+    aliya "Now my father wants me to get married." with dissolve
 
 # game/day3_part1.rpy:2535
 translate english day3_aeroexpress_7a39fa02:
 
     # aliya "Смотреть аниме, дорамы и читать стихи. Ещё я готовить люблю." with dissolve
-    aliya "" with dissolve
+    aliya "I like to watch anime and drama series, read poetry. I also like to cook." with dissolve
 
 # game/day3_part1.rpy:2546
 translate english day3_aeroexpress_60c2655d:
 
     # "Алия улыбнулась ещё больше." with dissolve
-    "" with dissolve
+    "Aliya smiled more." with dissolve
 
 # game/day3_part1.rpy:2555
 translate english day3_aeroexpress_cf6a6877:
 
     # aliya "Мечтала в каком месте он будет, какое там будет меню, интерьер." with dissolve
-    aliya "" with dissolve
+    aliya "I already dreamed where it would be, what menu there would be, interior." with dissolve
 
 # game/day3_part1.rpy:2571
 translate english day3_aeroexpress_20ad64e0:
 
     # aliya "У меня в этом году брат ЕГЭ сдает. Ему нужно поступить в универ." with dissolve
-    aliya "" with dissolve
+    aliya "My brother is having final exams this year. He needs to go to study at the university." with dissolve
 
 # game/day3_part1.rpy:2584
 translate english day3_aeroexpress_86ae0a7a:
 
     # me "Если у тебя брат спортсмен, он может и так поступить, бесплатно." with dissolve
-    me "" with dissolve
+    me "If your brother is athlete, he can study for free." with dissolve
 
 # game/day3_part1.rpy:2590
 translate english day3_aeroexpress_0ef12d8e:
 
     # me "Кроме брата у тебя ещё сестра есть?" with dissolve
-    me "" with dissolve
+    me "Besides your brother, you also have a sister, right?" with dissolve
 
 # game/day3_part1.rpy:2594
 translate english day3_aeroexpress_a533b836:
 
     # aliya "Она очень послушная и всё время меня поучает." with dissolve
-    aliya "" with dissolve
+    aliya "She is very obedient and moralizes me all the time." with dissolve
 
 # game/day3_part1.rpy:2601
 translate english day3_aeroexpress_0fbb0b16:
 
     # aliya "Всё время мне лекции читает, говорит типа:\"Вот я же говорила\"." with dissolve
-    aliya "" with dissolve
+    aliya "Always lectures me, says like \"I've told you\"." with dissolve
 
 # game/day3_part1.rpy:2613
 translate english day3_aeroexpress_541a618c:
 
     # aliya "Она не смотрит аниме или корейские сериалы." with dissolve
-    aliya "" with dissolve
+    aliya "She doesn't watch anime or korean drama series." with dissolve
 
 # game/day3_part1.rpy:2627
 translate english day3_aeroexpress_628f656d:
 
     # aliya "Я отвечаю, что вспомнила грустный момент в какой-нибудь дораме." with dissolve
-    aliya "" with dissolve
+    aliya "I tell her that I remembered a sad moment in some drama." with dissolve
 
 # game/day3_part1.rpy:2629
 translate english day3_aeroexpress_5e548431:
 
     # aliya "Она этого всё равно не понимает." with dissolve
-    aliya "" with dissolve
+    aliya "She doesn't understand it anyway." with dissolve
 
 # game/day3_part1.rpy:2631
 translate english day3_aeroexpress_23b52fb8:
 
     # aliya "Только говорит:\"Опять ты со своими корейцами\"." with dissolve
-    aliya "" with dissolve
+    aliya "Just says \"Again you are with your Koreans\"." with dissolve
 
 # game/day3_part1.rpy:2633
 translate english day3_aeroexpress_4bd88023:
 
     # me "Хорошая идея валить всё на сериалы." with dissolve
-    me "" with dissolve
+    me "Good idea, blame it all on drama series." with dissolve
 
 # game/day3_part1.rpy:2658
 translate english day3_aeroexpress_ef7cbb33:
 
     # me "Пойдём!" with dissolve
-    me "" with dissolve
+    me "Let's go!" with dissolve
 
 # game/day3_part1.rpy:2666
 translate english day3_aeroexpress_965207b5:
 
     # aliya "Пойдём." with dissolve
-    aliya "" with dissolve
+    aliya "Let's go." with dissolve
 
 translate english strings:
 
     # game/day3_part1.rpy:514
     old "Да."
-    new ""
+    new "Yes."
 
     # game/day3_part1.rpy:517
     old "Нет."
-    new ""
+    new "No."
 
     # game/day3_part1.rpy:829
     old "Нет, продолжать настаивать."
-    new ""
+    new "No, keep insisting"
 
     # game/day3_part1.rpy:1361
     old "Спросить о стихах."
-    new ""
+    new "Ask about poetry."
+
+# TODO: Translation updated at 2025-10-05 20:57
+
+# game/day3_part1.rpy:1667
+translate english day3_airplane2_part2_fb8e362b:
+
+    # "Я прилёг в кресле, закрыл глаза." with dissolve
+    "I lay down in the chair and closed my eyes." with dissolve
+
+# game/day3_part1.rpy:1669
+translate english day3_airplane2_part2_6cadcac9:
+
+    # "И медленно погрузился в сон..." with dissolve
+    "And slowly fell asleep..." with dissolve
+
+# game/day3_part1.rpy:2487
+translate english day3_aeroexpress_381a4868:
+
+    # aliya "Я даже пыталась порезать вены в туалете своего колледжа." with dissolve
+    aliya "I even tried to cut my wrists in the toilet of my college." with dissolve
 

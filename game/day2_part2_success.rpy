@@ -82,7 +82,7 @@ label day2_escape_now_success_coach_not_talked:
 
     $ addSentMessage(3)
 
-    me "Эээ... это долгая история" with dissolve
+    me "Эээ... это долгая история." with dissolve
 
     $ addReceivedMessage(4)
 
