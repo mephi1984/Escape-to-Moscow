@@ -1042,7 +1042,7 @@ label day3_basmannaya:
 
     $ renpy.start_predict("images/sprites/Aliya/Sitting2/bench/*.*")
 
-    "И мы подошли поближе к подъезду" with dissolve
+    "И мы подошли поближе к подъезду." with dissolve
 
     scene basmannaya_hood with dissolve
 
@@ -1051,7 +1051,7 @@ label day3_basmannaya:
     show aliya_sit_side earphones eyes_open_sad_worried_question as Aliya at any_center_pos with dissolve:
         zoom SCALE
 
-    " и присели на скамейку." with dissolve
+    "А затем мы присели на скамейку." with dissolve
 
     show aliya_sit_side phone eyes_closed_sad as Aliya at any_center_pos with dissolve:
         zoom SCALE
@@ -1213,13 +1213,13 @@ label day3_basmannaya:
 
     me "Я думаю, не будет ничего страшного, если ты будешь с ними общаться." with dissolve
 
-    me "Если ты будешь им сообщать, что у тебя всё хорошо, им будет легче" with dissolve
+    me "Если ты будешь им сообщать, что у тебя всё хорошо, им будет легче," with dissolve
 
     me "и они будут меньше за тебя переживать." with dissolve
 
-    me "Только самое главное: не сообщай им свой номер телефона" with dissolve
+    me "Только самое главное: не сообщай им свой номер телефона." with dissolve
 
-    me "И своё местоположение." with dissolve
+    me "И не говори своё местоположение." with dissolve
 
     me "Иначе они найдут и вернут тебя обратно." with dissolve
 
@@ -1341,7 +1341,7 @@ label day3_basmannaya:
 
     "Это была обычная квартира из тех, которые сдаются посуточно." with dissolve
 
-    "Маленькой, но чистая. Из прихожей можно было сразу же пройти на кухню." with dissolve
+    "Маленькая, но чистая. Из прихожей можно было сразу же пройти на кухню." with dissolve
 
     "Здесь было всё необходимое: холодильник, чайник, посуда, микроволновка." with dissolve
 
@@ -2341,7 +2341,7 @@ label day3_basmannaya_imran_accept:
 
     "Ну а если они выберут самолет - возможно, получится организовать побег в аэропорту." with dissolve
 
-    "А и еще, если усыпить их бдительность, возможно, Алия уговорит их остаться в Москве подольше и ,например, погулять по городу." with dissolve
+    "А и еще, если усыпить их бдительность, возможно, Алия уговорит их остаться в Москве подольше и, например, погулять по городу." with dissolve
 
     "Тогда будет ещё одна возможность для побега." with dissolve
 
