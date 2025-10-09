@@ -2270,605 +2270,605 @@ translate english day4_morning_7c2f58df:
 translate english day4_morning_98731155:
 
     # me "Нет, я уже проснулся." with dissolve
-    me "" with dissolve
+    me "Yes, I am already awake." with dissolve
 
 # game/day4_part1.rpy:260
 translate english day4_morning_a2b7a8df:
 
     # coach "Отлично! Насчет побега, у меня есть идея." with dissolve
-    coach "" with dissolve
+    coach "Good. About the escape, I have an idea." with dissolve
 
 # game/day4_part1.rpy:264
 translate english day4_morning_e6f50684:
 
     # coach "Я думаю, что если Алия сбежит с поезда или с автобуса, родители могут ее легко догнать и остановить." with dissolve
-    coach "" with dissolve
+    coach "I think that if Aliya escapes from the train or the bus, her parents can easily catch up and stop her." with dissolve
 
 # game/day4_part1.rpy:268
 translate english day4_morning_60efbeef:
 
     # coach "Поэтому я думаю, нужно сбежать через аэропорт." with dissolve
-    coach "" with dissolve
+    coach "So I think she needs to escape through the airport." with dissolve
 
 # game/day4_part1.rpy:272
 translate english day4_morning_08a986b9:
 
     # coach "У меня есть план. Он немного безумный и запутанный, но все же кажется мне наиболее надежным." with dissolve
-    coach "" with dissolve
+    coach "I have a plan. It is a little crazy and confusing, but still seems to me the most reliable." with dissolve
 
 # game/day4_part1.rpy:280
 translate english day4_morning_6a5e60ee:
 
     # coach "Для выполнения плана нужно чтобы Алия возвращалась домой на самолете, через аэропорт Домодедово." with dissolve
-    coach "" with dissolve
+    coach "To fulfill the plan, Aliya needs to return home by plane through Domodedovo airport." with dissolve
 
 # game/day4_part1.rpy:284
 translate english day4_morning_a9756896:
 
     # coach "Это обязательное условие. Ну и естественно, нужно чтобы Алия была готова сбежать снова." with dissolve
-    coach "" with dissolve
+    coach "This is a must. And of course, Aliya needs to be willing to run away again." with dissolve
 
 # game/day4_part1.rpy:296
 translate english day4_morning_1363c431:
 
     # me "Вчера я там побывал дважды. Но вообще, редко, да." with dissolve
-    me "" with dissolve
+    me "I was there twice yesterday. But in general, rarely, yes." with dissolve
 
 # game/day4_part1.rpy:300
 translate english day4_morning_466d9758:
 
     # coach "Я часто вылетаю оттуда, и знаю этот аэропорт очень хорошо." with dissolve
-    coach "" with dissolve
+    coach "I often fly from there and I know this airport very well." with dissolve
 
 # game/day4_part1.rpy:304
 translate english day4_morning_16119b96:
 
     # coach "Совсем недавно там завершили реновацию в терминале." with dissolve
-    coach "" with dissolve
+    coach "Recently, they completed a renovation in the terminal." with dissolve
 
 # game/day4_part1.rpy:308
 translate english day4_morning_3bccb18d:
 
     # coach "В частности, в зоне вылета." with dissolve
-    coach "" with dissolve
+    coach "Particularly in the departure area." with dissolve
 
 # game/day4_part1.rpy:312
 translate english day4_morning_d92879c1:
 
     # coach "Раньше пассажиры международных рейсов сначала проходили границу, а затем досмотр. Теперь наоборот." with dissolve
-    coach "" with dissolve
+    coach "Previously, passengers on international flights went through the border first and then passed security checks. Now vice versa." with dissolve
 
 # game/day4_part1.rpy:316
 translate english day4_morning_db0044b0:
 
     # coach "Зона досмотра теперь общая для пассажиров внутренних и международных рейсов." with dissolve
-    coach "" with dissolve
+    coach "The security zone is now common for passengers on domestic and international flights." with dissolve
 
 # game/day4_part1.rpy:324
 translate english day4_morning_d53682d3:
 
     # coach "Там ты снимаешь верхнюю одежду, обувь, проходишь через рамки металлодетекторов, пропускаешь багаж через рентген." with dissolve
-    coach "" with dissolve
+    coach "It is where you take off your outerwear, shoes, go through the frames of metal detectors, pass your luggage through an X-ray." with dissolve
 
 # game/day4_part1.rpy:328
 translate english day4_morning_dd3ca49d:
 
     # me "Да, помню такое." with dissolve
-    me "" with dissolve
+    me "Yes, I remember that." with dissolve
 
 # game/day4_part1.rpy:332
 translate english day4_morning_aa589f99:
 
     # coach "В Домодедово, после того как ты прошел досмотр, ты утыкаешься в панорамное окно, в котором видно летное поле." with dissolve
-    coach "" with dissolve
+    coach "In Domodedovo, after you have passed the security check, you bump into the panoramic window in which you can see the airfield." with dissolve
 
 # game/day4_part1.rpy:336
 translate english day4_morning_9735d67d:
 
     # coach "Оттуда можно уже выбирать куда пойти - на внутренние рейсы или на международные." with dissolve
-    coach "" with dissolve
+    coach "From there, you can already choose where to go - to domestic flights or to international flights." with dissolve
 
 # game/day4_part1.rpy:340
 translate english day4_morning_2a0ad11a:
 
     # coach "Если пойти в международный терминал, то там у тебя снова проверят паспорт, посадочный талон." with dissolve
-    coach "" with dissolve
+    coach "If you go to the international terminal, then your passport and boarding pass will be checked again." with dissolve
 
 # game/day4_part1.rpy:364
 translate english day4_morning_1fcac543:
 
     # coach "Ты купишь ей и себе билеты, и зарегистрируешь на рейс." with dissolve
-    coach "" with dissolve
+    coach "You buy her and yourself tickets and check in for the flight." with dissolve
 
 # game/day4_part1.rpy:376
 translate english day4_morning_08705927:
 
     # me "Но куда Алия может улететь? У нее нет загранпаспорта." with dissolve
-    me "" with dissolve
+    me "But where can Aliya fly away? She doesn't have a travel passport." with dissolve
 
 # game/day4_part1.rpy:380
 translate english day4_morning_13df8146:
 
     # coach "По Российскому паспорту можно улететь в Казахстан, Беларусь, Киргизию и Армению." with dissolve
-    coach "" with dissolve
+    coach "With an Internal Russian passport, one can fly to Kazakhstan, Belarus, Kyrgyzstan and Armenia." with dissolve
 
 # game/day4_part1.rpy:384
 translate english day4_morning_d6164baf:
 
     # coach "В расписании аэропорта Домодедово есть рейсы в Алматы, Бишкек, Ош, которые вылетают примерно в то же время что и рейсы в Махачкалу и Минеральные Воды." with dissolve
-    coach "" with dissolve
+    coach "The Domodedovo airport schedule includes flights to Almaty, Bishkek, Osh, which depart at about the same time as flights to Makhachkala and Mineralnye Vody." with dissolve
 
 # game/day4_part1.rpy:388
 translate english day4_morning_41e12fc3:
 
     # coach "Узнай, каким рейсом родители Алии увозят ее домой." with dissolve
-    coach "" with dissolve
+    coach "Find out which flight Aliya's parents take her home." with dissolve
 
 # game/day4_part1.rpy:392
 translate english day4_morning_b9f93f06:
 
     # coach "У тебя есть ее паспортные данные. Купи себе и ей билеты например в Алматы." with dissolve
-    coach "" with dissolve
+    coach "You have her passport data. Buy yourself and her tickets for example to Almaty." with dissolve
 
 # game/day4_part1.rpy:398
 translate english day4_morning_c3446abc:
 
     # coach "В нужный момент передай ей посадочный талон." with dissolve
-    coach "" with dissolve
+    coach "At the right time, pass her your boarding pass." with dissolve
 
 # game/day4_part1.rpy:402
 translate english day4_morning_9f5fd866:
 
     # coach "Переходите границу в аэропорту Домодедово, и вы в безопасности." with dissolve
-    coach "" with dissolve
+    coach "Cross the border at Domodedovo airport and you are safe." with dissolve
 
 # game/day4_part1.rpy:406
 translate english day4_morning_ed181297:
 
     # coach "Ее родителей туда не пустят, так как у них нет посадочного талона на международный рейс." with dissolve
-    coach "" with dissolve
+    coach "Her parents will not be allowed there as they do not have a boarding pass for an international flight." with dissolve
 
 # game/day4_part1.rpy:410
 translate english day4_morning_5b870bba:
 
     # coach "А пока ее отец будет поднимать все свои связи в спецслужбах, вы уже успеете улететь." with dissolve
-    coach "" with dissolve
+    coach "And while her father will raise all his relations in the special services, you will already have time to fly away." with dissolve
 
 # game/day4_part1.rpy:414
 translate english day4_morning_4003d336:
 
     # me "... Честно, это один из самых сложных планов побега, который я когда либо слышал!" with dissolve
-    me "" with dissolve
+    me "... Honestly, this is one of the hardest escape plans I've ever heard." with dissolve
 
 # game/day4_part1.rpy:422
 translate english day4_morning_b6b6f820:
 
     # me "Итак, первый шаг - я должен предупредить Алию что у меня есть план побега за границу. Да?" with dissolve
-    me "" with dissolve
+    me "So, the first step is that I must warn Aliya that I have a plan to escape abroad. Right?" with dissolve
 
 # game/day4_part1.rpy:426
 translate english day4_morning_c665c53f:
 
     # coach "Да. Убедись, что она точно готова последовать за тобой." with dissolve
-    coach "" with dissolve
+    coach "Yes. Make sure she's ready to follow you." with dissolve
 
 # game/day4_part1.rpy:430
 translate english day4_morning_68246752:
 
     # me "Второй шаг. Я должен убедить родителей Алии, чтобы они улетали именно через аэропорт Домодедово." with dissolve
-    me "" with dissolve
+    me "Second step. I have to convince Aliya's parents to fly through Domodedovo airport." with dissolve
 
 # game/day4_part1.rpy:434
 translate english day4_morning_aa263e3a:
 
     # coach "Да. Как угодно, но сделай это. Предложи им, типа ты поможешь заказать билеты по интернету, например. Ты же айтишник." with dissolve
-    coach "" with dissolve
+    coach "Do whatever you want, but do it. Offer them, like you can help order tickets on the Internet, for example. You are an IT specialist after all." with dissolve
 
 # game/day4_part1.rpy:438
 translate english day4_morning_cbef9d4c:
 
     # me "Ясно. Я думаю, я это легко сделаю." with dissolve
-    me "" with dissolve
+    me "It's clear. I think I will do it easily." with dissolve
 
 # game/day4_part1.rpy:442
 translate english day4_morning_d28325e4:
 
     # me "Затем я должен буду купить билеты на международный рейс в Казахстан или в Киргизию, который вылетает примерно в то же время." with dissolve
-    me "" with dissolve
+    me "Then I will have to buy tickets for an international flight to Kazakhstan or Kyrgyzstan, which departs at about the same time." with dissolve
 
 # game/day4_part1.rpy:446
 translate english day4_morning_4291456e:
 
     # coach "Да. Лучше будет даже, чтобы рейс вылетал немного пораньше." with dissolve
-    coach "" with dissolve
+    coach "Yes. It would even be better for the flight to take off a little earlier." with dissolve
 
 # game/day4_part1.rpy:450
 translate english day4_morning_0939ae1f:
 
     # coach "Чтобы после перехода границы вы сразу могли сесть на самолет." with dissolve
-    coach "" with dissolve
+    coach "So that after crossing the border you can immediately board the plane." with dissolve
 
 # game/day4_part1.rpy:454
 translate english day4_morning_949c4c43:
 
     # me "Затем я должен буду приехать в аэропорт, распечатать посадочный талон для Алии, и незаметно передать ей." with dissolve
-    me "" with dissolve
+    me "Then I will have to arrive at the airport, print out a boarding pass for Aliya, and secretly give her." with dissolve
 
 # game/day4_part1.rpy:458
 translate english day4_morning_806ec03c:
 
     # me "Как мне это сделать, чтобы меня не запалили? Родители же будут всюду с ней." with dissolve
-    me "" with dissolve
+    me "How can I do this so that I don't get busted? Parents will be everywhere with her." with dissolve
 
 # game/day4_part1.rpy:462
 translate english day4_morning_f2e9ba6c:
 
     # coach "Если у тебя есть знакомые девушки в Москве, которым ты можешь доверять, попроси чтобы кто-то из них передал билеты Алие." with dissolve
-    coach "" with dissolve
+    coach "If know some girls in Moscow whom you can trust, ask one of them to give the tickets to Aliya." with dissolve
 
 # game/day4_part1.rpy:470
 translate english day4_morning_cf3b9a6c:
 
     # coach "Да. Чтобы передать в женском туалете. Или можно там же в туалете сделать закладку с билетом." with dissolve
-    coach "" with dissolve
+    coach "Yes. To pass in the ladies' restroom. Or she can make a stash with a ticket in the toilet." with dissolve
 
 # game/day4_part1.rpy:474
 translate english day4_morning_6fc4e043:
 
     # me "К сожалению, у меня нет друзей-девушек в Москве." with dissolve
-    me "" with dissolve
+    me "Unfortunately, I have no girl friends in Moscow." with dissolve
 
 # game/day4_part1.rpy:488
 translate english day4_morning_401241e0:
 
     # me "Нет, я не помню." with dissolve
-    me "" with dissolve
+    me "No, I do not remember." with dissolve
 
 # game/day4_part1.rpy:492
 translate english day4_morning_e9b9d0ae:
 
     # coach "Посмотришь по карте потом. Там туалет единственный. И находится он где-то в подвале." with dissolve
-    coach "" with dissolve
+    coach "You will look at the map later. There is only one toilet. And it is located somewhere in the basement." with dissolve
 
 # game/day4_part1.rpy:496
 translate english day4_morning_11eab69b:
 
     # coach "Чтобы туда пройти, нужно спуститься по лестнице. Лестница довольно узкая." with dissolve
-    coach "" with dissolve
+    coach "To get there, you need to go down the stairs. The stairs are quite narrow." with dissolve
 
 # game/day4_part1.rpy:500
 translate english day4_morning_6925e5ca:
 
     # coach "Когда лестница заканчивается, там будет узкий проход к туалетам." with dissolve
-    coach "" with dissolve
+    coach "When the staircase ends, there will be a narrow passage to the toilets." with dissolve
 
 # game/day4_part1.rpy:504
 translate english day4_morning_64cae61b:
 
     # coach "В назначенное время ты встаешь с краю и держишь в руках посадочный талон Алии." with dissolve
-    coach "" with dissolve
+    coach "At the appointed time, you stand aside and hold Aliya's boarding pass in your hands." with dissolve
 
 # game/day4_part1.rpy:508
 translate english day4_morning_c46f0f98:
 
     # coach "Она попросится в туалет." with dissolve
-    coach "" with dissolve
+    coach "She will ask to use the toilet." with dissolve
 
 # game/day4_part1.rpy:512
 translate english day4_morning_96458ec3:
 
     # coach "Когда она будет проходить мимо тебя, она быстро и незаметно забирает посадочный талон из твоих рук." with dissolve
-    coach "" with dissolve
+    coach "When she walks by you, she quickly and secretly takes the boarding pass from your hands." with dissolve
 
 # game/day4_part1.rpy:516
 translate english day4_morning_d908a48d:
 
     # me "Комбинация прямо как в шпионских фильмах." with dissolve
-    me "" with dissolve
+    me "The combination is just like in spy movies." with dissolve
 
 # game/day4_part1.rpy:524
 translate english day4_morning_3a2b1522:
 
     # coach "Не знаю. Кажется, туалеты в Домодедово наиболее удобны чтобы незаметно что-то передать." with dissolve
-    coach "" with dissolve
+    coach "I don't know. It seems that the toilets in Domodedovo are the most convenient to pass something unnoticeablyб" with dissolve
 
 # game/day4_part1.rpy:528
 translate english day4_morning_c35bc7d5:
 
     # coach "Там очень узкий проход, и там всегда много людей." with dissolve
-    coach "" with dissolve
+    coach "There is a very narrow passage and there are always a lot of people." with dissolve
 
 # game/day4_part1.rpy:532
 translate english day4_morning_a2fdfab0:
 
     # coach "В любом другом месте аэропорта, если Алия что-то попытается получить от незнакомца или подобрать, родители это заметят." with dissolve
-    coach "" with dissolve
+    coach "Anywhere else in the airport, if Aliya tries to get something from a stranger or pick up something, her parents will notice." with dissolve
 
 # game/day4_part1.rpy:536
 translate english day4_morning_2f213426:
 
     # me "Ладно, согласен." with dissolve
-    me "" with dissolve
+    me "Okay, I agree." with dissolve
 
 # game/day4_part1.rpy:544
 translate english day4_morning_8b0e1005:
 
     # coach "Ты проходи через рамки досмотра первый, и жди Алию." with dissolve
-    coach "" with dissolve
+    coach "You go through the security frames first, and wait for Aliya." with dissolve
 
 # game/day4_part1.rpy:548
 translate english day4_morning_622f4013:
 
     # coach "В центре зала находится эскалатор и лифт. Ты их узнаешь, рядом с ними стоит указатель \"Рейсы в Армению, Беларусь, Казахстан, Киргизию\"." with dissolve
-    coach "" with dissolve
+    coach "In the center of the hall there is an escalator and an elevator. You will recognize them, there is a sign next to them, saying \"Flights to Armenia, Belarus, Kazakhstan, Kyrgyzstan\"." with dissolve
 
 # game/day4_part1.rpy:552
 translate english day4_morning_223a0f13:
 
     # coach "Тебе нужно будет ждать там Алию." with dissolve
-    coach "" with dissolve
+    coach "You will need to wait there for Aliya." with dissolve
 
 # game/day4_part1.rpy:560
 translate english day4_morning_608c454a:
 
     # coach "Алия должна пройти через досмотр. Я думаю, она пойдет туда вместе с родителями." with dissolve
-    coach "" with dissolve
+    coach "Aliya should go through security. I think she will go there with her parents." with dissolve
 
 # game/day4_part1.rpy:564
 translate english day4_morning_e82ea5a8:
 
     # coach "Она не должна выпускать паспорт и посадочный талон из рук." with dissolve
-    coach "" with dissolve
+    coach "She must keep her passport and boarding pass in her hands." with dissolve
 
 # game/day4_part1.rpy:568
 translate english day4_morning_091dc439:
 
     # coach "При проходе через досмотр, Алия должна сложить все остальные вещи в корзину и отправить на ленту." with dissolve
-    coach "" with dissolve
+    coach "When passing through security, Aliya must put all other things in the basket and put it on the belt." with dissolve
 
 # game/day4_part1.rpy:572
 translate english day4_morning_7bd7ea4c:
 
     # coach "Это телефон, ключи, монеты, ремень и т.д. Кроме паспорта и посадочного талона." with dissolve
-    coach "" with dissolve
+    coach "There are a phone, keys, coins, etc. Except passport and boarding pass." with dissolve
 
 # game/day4_part1.rpy:576
 translate english day4_morning_7067de1f:
 
     # coach "Затем Алия должна пройти через металлодетектор. Она должна пройти через него самой первой, раньше родителей." with dissolve
-    coach "" with dissolve
+    coach "Aliya then has to go through the frames of the metal detector. She must go through them very first, before her parents." with dissolve
 
 # game/day4_part1.rpy:580
 translate english day4_morning_6efa9a32:
 
     # coach "Паспорт и посадочный талон при этом нужно держать в руках. Не нужно их класть в корзину! Выпускать из рук вообще нельзя." with dissolve
-    coach "" with dissolve
+    coach "The passport and boarding pass must be held in hand. No need to put them in the basket! She can't let them out of her hands at all." with dissolve
 
 # game/day4_part1.rpy:584
 translate english day4_morning_79044dd3:
 
     # me "Я запомню это." with dissolve
-    me "" with dissolve
+    me "I will keep this in mind." with dissolve
 
 # game/day4_part1.rpy:588
 translate english day4_morning_6f6f20b4:
 
     # coach "После того как Алия пройдет рамки металлоискателей, она должна немедленно БЕЖАТЬ." with dissolve
-    coach "" with dissolve
+    coach "After Aliya passes the frames of the metal detectors, she must RUN IMMEDIATELY." with dissolve
 
 # game/day4_part1.rpy:592
 translate english day4_morning_05779ff3:
 
     # coach "Просто бросить все и резко кабанчиком рвануть в сторону эскалатора и лифта." with dissolve
-    coach "" with dissolve
+    coach "Just drop everything and rapidly run towards the escalator and elevator." with dissolve
 
 # game/day4_part1.rpy:600
 translate english day4_morning_24d23876:
 
     # coach "Она должна бежать налегке, только с паспортом и посадочным талоном в руках." with dissolve
-    coach "" with dissolve
+    coach "She must run light, only with a passport and boarding pass in her hands." with dissolve
 
 # game/day4_part1.rpy:604
 translate english day4_morning_d93d3e46:
 
     # coach "Пока родители будут проходить через рамки, Алия успеет добежать до тебя. Примерно там же ты ее встретишь." with dissolve
-    coach "" with dissolve
+    coach "While the parents are going through the frames, Aliya will have time to reach you. Around there you will meet her." with dissolve
 
 # game/day4_part1.rpy:608
 translate english day4_morning_741c065d:
 
     # coach "Вы вдвоем должны будете бежать по эскалатору вниз." with dissolve
-    coach "" with dissolve
+    coach "You two will have to run down the escalator." with dissolve
 
 # game/day4_part1.rpy:612
 translate english day4_morning_543098db:
 
     # coach "Внизу вас встретят турникеты. Нужно приложить посадочный талон к сканеру, и вас пропустят к международным рейсам." with dissolve
-    coach "" with dissolve
+    coach "You will see turnstiles downstairs. You need to put your boarding pass to the scanner, and you will be allowed to international flights." with dissolve
 
 # game/day4_part1.rpy:616
 translate english day4_morning_1064b73e:
 
     # coach "Затем нужно пройти таможенный контроль. Проходите через зеленый коридор, после него будет выход к погранпереходу." with dissolve
-    coach "" with dissolve
+    coach "Then you need to go through customs control. Go through the green channel, after which there will be an exit to the border crossing." with dissolve
 
 # game/day4_part1.rpy:620
 translate english day4_morning_d6859894:
 
     # coach "Там можете немного расслабиться, ее родителей туда уже не пустят." with dissolve
-    coach "" with dissolve
+    coach "You can relax a little there, her parents won't be allowed there." with dissolve
 
 # game/day4_part1.rpy:624
 translate english day4_morning_8f0ac2b5:
 
     # coach "Но я все равно рекомендую вам побыстрее пройти границу и выйти в чистую зону." with dissolve
-    coach "" with dissolve
+    coach "But I still recommend you to pass the border as quick as possible and go to the clean zone." with dissolve
 
 # game/day4_part1.rpy:628
 translate english day4_morning_85747e01:
 
     # coach "Если на границе будет очередь, то найди офицера, который ходит по залу." with dissolve
-    coach "" with dissolve
+    coach "If there is a line at the border, then find an officer who walks around the hall." with dissolve
 
 # game/day4_part1.rpy:632
 translate english day4_morning_287ae89f:
 
     # coach "Скажи ему что вы опаздываете на рейс, и попросите вас пропустить без очереди." with dissolve
-    coach "" with dissolve
+    coach "Tell him that you are late for your flight and ask to skip the line." with dissolve
 
 # game/day4_part1.rpy:636
 translate english day4_morning_3ef8a6bf:
 
     # coach "Естественно, пусти вперед Алию, а затем уже переходи границу сам." with dissolve
-    coach "" with dissolve
+    coach "Obviously, let Aliya go ahead, and then cross the border yourself." with dissolve
 
 # game/day4_part1.rpy:640
 translate english day4_morning_65eeff99:
 
     # me "Ага, ясно. Дальше мы находим наш выход на посадку, садимся в самолет и улетаем в Казахстан." with dissolve
-    me "" with dissolve
+    me "I got it. Then we find our boarding gate, get on the plane and fly to Kazakhstan." with dissolve
 
 # game/day4_part1.rpy:644
 translate english day4_morning_e620a75c:
 
     # coach "Да, именно так." with dissolve
-    coach "" with dissolve
+    coach "Yes, exactly." with dissolve
 
 # game/day4_part1.rpy:652
 translate english day4_morning_cbc6c08e:
 
     # coach "Ах да, точно." with dissolve
-    coach "" with dissolve
+    coach "Ah yes, right." with dissolve
 
 # game/day4_part1.rpy:656
 translate english day4_morning_90ecf5e9:
 
     # coach "Это важный момент." with dissolve
-    coach "" with dissolve
+    coach "This is an important point." with dissolve
 
 # game/day4_part1.rpy:660
 translate english day4_morning_2ec49756:
 
     # coach "При входе в зону досмотра сотрудники аэропорта смотрят посадочный талон и ставят на него печать." with dissolve
-    coach "" with dissolve
+    coach "Upon entering the security screening area, airport employees look at the boarding pass and stamp it." with dissolve
 
 # game/day4_part1.rpy:664
 translate english day4_morning_3e89b5bf:
 
     # coach "Потом эту печать смотрят пограничники на погранпереходе." with dissolve
-    coach "" with dissolve
+    coach "Then border guards check this seal at the border crossing." with dissolve
 
 # game/day4_part1.rpy:668
 translate english day4_morning_ce254fed:
 
     # coach "Если им дать посадочный талон без печати, у них будут вопросы." with dissolve
-    coach "" with dissolve
+    coach "If they are given a boarding pass without a stamp, they will have questions." with dissolve
 
 # game/day4_part1.rpy:672
 translate english day4_morning_ffb82005:
 
     # coach "Когда-нибудь в Домодедово сделают полностью электронную регистрацию на зарубежные рейсы. Но пока что вот так." with dissolve
-    coach "" with dissolve
+    coach "Someday Domodedovo will perform fully electronic check-in for foreign flights. But for now, it is how it is." with dissolve
 
 # game/day4_part1.rpy:676
 translate english day4_morning_fe17819a:
 
     # me "Понятно." with dissolve
-    me "" with dissolve
+    me "I got it." with dissolve
 
 # game/day4_part1.rpy:680
 translate english day4_morning_4d052791:
 
     # me "Хорошо. План довольно сложный, как я уже сказал." with dissolve
-    me "" with dissolve
+    me "Okay. The plan is quite complicated as I said." with dissolve
 
 # game/day4_part1.rpy:684
 translate english day4_morning_012e80e2:
 
     # coach "Это самое надежное, что получилось придумать." with dissolve
-    coach "" with dissolve
+    coach "This is the most reliable plan that I could come up with." with dissolve
 
 # game/day4_part1.rpy:688
 translate english day4_morning_2614a29c:
 
     # coach "Если бы Алия сбежала с поезда или с автобуса, родители бы догнали ее рано или поздно." with dissolve
-    coach "" with dissolve
+    coach "If Aliya ran away from the train or the bus, her parents would catch up with her sooner or later." with dissolve
 
 # game/day4_part1.rpy:692
 translate english day4_morning_c087c8c7:
 
     # coach "А тут погранпереход в аэропорту, они не смогут туда так просто попасть." with dissolve
-    coach "" with dissolve
+    coach "And here is the border crossing at the airport, they won't be able to get there so easily." with dissolve
 
 # game/day4_part1.rpy:696
 translate english day4_morning_c5cf96cb:
 
     # coach "Аэропорт Домодедово в этом плане удобен тем, что проход через рамки задержит их, и даст время Алие убежать к границе." with dissolve
-    coach "" with dissolve
+    coach "Domodedovo airport in this regard is convenient because the passage through the frames will delay them and give Aliya time to escape to the border." with dissolve
 
 # game/day4_part1.rpy:704
 translate english day4_morning_2be05cc7:
 
     # coach "Это же аэропорт))) Тут многие опаздывают на свой рейс и бегут с чемоданами через весь терминал." with dissolve
-    coach "" with dissolve
+    coach "It is the airport))) Here many are late for their flight and run with suitcases across the entire terminal." with dissolve
 
 # game/day4_part1.rpy:708
 translate english day4_morning_8ca7c1c2:
 
     # me "А, ну да, точно." with dissolve
-    me "" with dissolve
+    me "Ah yes, sure." with dissolve
 
 # game/day4_part1.rpy:712
 translate english day4_morning_00b9e0a6:
 
     # coach "Вот такой у меня план))) Теперь все зависит от тебя." with dissolve
-    coach "" with dissolve
+    coach "This is my plan))) Now everything depends on you." with dissolve
 
 # game/day4_part1.rpy:716
 translate english day4_morning_8147e459:
 
     # me "Спасибо большое." with dissolve
-    me "" with dissolve
+    me "Thank you very much." with dissolve
 
 # game/day4_part1.rpy:724
 translate english day4_morning_6ae66d4d:
 
     # me "Очень оптимистично! Конечно я напишу." with dissolve
-    me "" with dissolve
+    me "Very optimistic! Of course I will text." with dissolve
 
 # game/day4_part1.rpy:1156
 translate english day4_parents_part0_choice_for_aliya_8a0cdc2b:
 
     # me "Давайте будем до конца честны, ведь именно Вы её к этому подтолкнули." with dissolve
-    me "" with dissolve
+    me "Let's be completely honest, it was you who pushed her to this." with dissolve
 
 # game/day4_part1.rpy:1158
 translate english day4_parents_part0_choice_for_aliya_ac078ef8:
 
     # me "Вы поставили её перед фактом замужества, при этом спросили ли Вы у неё хочет ли она этого? Нет." with dissolve
-    me "" with dissolve
+    me "She were faced the fact of marriage, and did you ask her if she wants it? No." with dissolve
 
 # game/day4_part1.rpy:1160
 translate english day4_parents_part0_choice_for_aliya_d76b7541:
 
     # me "Вы продолжали на неё давить, повторяя раз за разом, что она должна, что у неё нет других вариантов." with dissolve
-    me "" with dissolve
+    me "You kept pushing her, repeating over and over that she had to, that she had no other options." with dissolve
 
 # game/day4_part1.rpy:1162
 translate english day4_parents_part0_choice_for_aliya_2dd99f27:
 
     # me "А хоть раз Вы спросили, готова ли она? Хочет ли этого? Спросили в конце концов, чего она сама бы хотела?" with dissolve
-    me "" with dissolve
+    me "Have you asked at least once if she is ready? If she wants it? At last, did you ask what she really wants?" with dissolve
 
 # game/day4_part1.rpy:1168
 translate english day4_parents_part0_choice_for_aliya_d864fd3c:
 
     # me "Хоть я и знаю её несколько дней, но... Алия показала мне, что в даже в столь юной девушки может быть стальная воля, могут быть прекрасные мечты." with dissolve
-    me "" with dissolve
+    me "Even though I've known her for days, but... Aliya showed me that even in such a young girl there can be a will of steel, there can be wonderful dreams." with dissolve
 
 # game/day4_part1.rpy:1170
 translate english day4_parents_part0_choice_for_aliya_aa141b99:
 
     # me "И что не у каждого человека есть, смелость идти к тому, чего ты хочешь." with dissolve
-    me "" with dissolve
+    me "And that not every person has the courage to go to what you want." with dissolve
 

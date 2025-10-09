@@ -268,5 +268,5 @@ translate english day4_end_success_9fd48ac3:
 translate english day4_end_success_3265af96:
 
     # announcement "Пожалуйста, пристегните ремни, приведите спинки кресел в вертикальное положение, уберите откидные столики и откройте шторки на иллюминаторах." with dissolve
-    announcement "" with dissolve
+    announcement "Please make sure your seatbelt is fastened, your seat is in upright position, your tray table is stowed, and the window blind is opened." with dissolve
 
