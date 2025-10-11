@@ -6710,3 +6710,17 @@ translate english day3_basmannaya_imran_accept_60ed7dc6:
     # "А и еще, если усыпить их бдительность, возможно, Алия уговорит их остаться в Москве подольше и, например, погулять по городу." with dissolve
     "And also, if we lull them, then perhaps Aliya will persuade them to stay in Moscow for a longer time, and for example, take a walk around the city." with dissolve
 
+# TODO: Translation updated at 2025-10-11 20:34
+
+# game/day3_part2.rpy:2715
+translate english day3_basmannaya_imran_decline_840c5d54:
+
+    # "Моих сил хватало лишь на то, чтобы сидеть в телефоне, перечитывая переписку в мессенджере," with dissolve
+    "" with dissolve
+
+# game/day3_part2.rpy:2717
+translate english day3_basmannaya_imran_decline_78e29d86:
+
+    # "и ожидая, когда наконец-то Алия будет онлайн." with dissolve
+    "" with dissolve
+

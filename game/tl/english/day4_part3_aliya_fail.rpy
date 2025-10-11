@@ -527,3 +527,9 @@ translate english day4_the_end_part1_option2_airplane_980e64b3:
     # coach "Может, ты её обидел чем-то или напугал?" with dissolve
     coach "Maybe you offended her with something, or scared her?" with dissolve
 
+# game/day4_part3_aliya_fail.rpy:215
+translate english day4_the_end_part1_option2_airplane_a3e23a63:
+
+    # "Моей энергии хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере," with dissolve
+    "I only had enough energy to sit on my phone and reread my instant messaging," with dissolve
+

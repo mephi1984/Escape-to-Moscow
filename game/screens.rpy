@@ -477,8 +477,8 @@ screen navigation():
 
         textbutton _("Настройки") action ShowMenu("preferences")
 
-        if not isMobileWeb:
-            textbutton _("Язык") action ShowMenu("language_menu")
+        #if main_menu:
+        textbutton _("Язык / Language") action ShowMenu("language_menu")
 
         if not isMobileWeb:
             textbutton _("Cложность") action ShowMenu("difficulty_menu")
@@ -500,7 +500,8 @@ screen navigation():
 
         textbutton _("Об игре") action ShowMenu("about")
 
-        textbutton _("Побег в Москву 2") action OpenURL("https://escapetomoscow.com/escapetomoscow2/")
+        if main_menu:
+            textbutton _("Побег в Москву 2") action OpenURL("https://escapetomoscow.com/escapetomoscow2/")
 
         if renpy.variant("pc"):
 
@@ -1111,7 +1112,7 @@ screen language_menu():
 
     tag menu
 
-    use game_menu(_("Язык"), scroll="viewport"):
+    use game_menu(_("Язык / Language"), scroll="viewport"):
 
     #modal True
 

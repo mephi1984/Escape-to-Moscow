@@ -605,3 +605,17 @@ translate english day4_the_end_part1_option1_bus_9b92b0bf:
     # me "В последний раз, когда я её видел, она была очень грустной и обречённой." with dissolve
     me "The last time I saw her, she was very sad and seemed doomed." with dissolve
 
+# TODO: Translation updated at 2025-10-11 20:29
+
+# game/day4_part2_parent_fail.rpy:45
+translate english day4_parents_part6_parent_persuade_fail_379a62e1:
+
+    # "Ох чёрт, кажется, эта часть плана провалилась." with dissolve
+    "Oh damn, looks like that part of the plan failed." with dissolve
+
+# game/day4_part2_parent_fail.rpy:212
+translate english day4_the_end_part1_option1_bus_d9cbf6e4:
+
+    # "Их хватало лишь для того, чтобы сидеть в телефоне, перечитывая переписку в мессенджере," with dissolve
+    "I only had enough strength to sit on my phone, rereading my instant messaging," with dissolve
+

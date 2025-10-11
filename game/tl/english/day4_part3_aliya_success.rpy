@@ -106,12 +106,6 @@ translate english day4_imran_house_new_escape_succeed_28383f03:
     # "Возможно я не смогу вернуться в Россию еще некоторое время. Возможно, мне придется жить в Казахстане или в Киргизии." with dissolve
     "Perhaps I will not be able to return to Russia for a while. I may have to live in Kazakhstan or Kyrgyzstan." with dissolve
 
-# game/day4_part3_aliya_success.rpy:87
-translate english day4_imran_house_new_escape_succeed_4c0c8307:
-
-    # "Конечно, сначала придется туговато, но без денег я точно не останусь - я же фрилансер, я могу работать, где угодно." with dissolve
-    "Of course, it’s a bit tough at first, but I’m definitely not going to run out of money - I’m a freelancer, I can work anywhere." with dissolve
-
 # game/day4_part3_aliya_success.rpy:89
 translate english day4_imran_house_new_escape_succeed_b7859e2f:
 
@@ -693,521 +687,519 @@ translate english airport_scene1_50b69e9d:
 translate english day4_imran_house_new_escape_succeed_92271c5a:
 
     # aliya "Хорошо, Семён. Я верю тебе. Пожалуйста, не подведи меня!" with dissolve
-    aliya "" with dissolve
+    aliya "Ok Semyon. I believe you. Please don't let me down." with dissolve
 
 # game/day4_part3_aliya_success.rpy:28
 translate english day4_imran_house_new_escape_succeed_a0d007c8:
 
     # aliya "И вот ещё..." with dissolve
-    aliya "" with dissolve
+    aliya "Also..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:33
 translate english day4_imran_house_new_escape_succeed_42101a48:
 
     # "Алия достала из кармана маску для лица, одну из тех, что я дал ей." with dissolve
-    "" with dissolve
+    "Aliya took a face mask from her pocket. One of the ones I gave her." with dissolve
 
 # game/day4_part3_aliya_success.rpy:45
 translate english day4_imran_house_new_escape_succeed_f16add40:
 
     # "Алия развернулась и покинула мою комнату." with dissolve
-    "" with dissolve
+    "Aliya turned around and left the room." with dissolve
 
-# game/day4_part3_aliya_success.rpy:51
-translate english day4_imran_house_new_escape_succeed_e318b408:
-
-    # "Я же остался один" with dissolve
-    "" with dissolve
-
-# game/day4_part3_aliya_success.rpy:55
-translate english day4_imran_house_new_escape_succeed_eeea095c:
-
-    # "наедине со своими мыслями, сэндвичем и чаем..." with dissolve
-    "" with dissolve
 
 # game/day4_part3_aliya_success.rpy:69
 translate english day4_imran_house_new_escape_succeed_ec8fdc95:
 
     # "С момента, когда я оказался в доме Имрана, в голове вертелись тревожные мысли, а на душе - смятение." with dissolve
-    "" with dissolve
+    "From the moment I arrived at Imran's house, anxious thoughts were spinning in my head, and my soul was in confusion." with dissolve
 
 # game/day4_part3_aliya_success.rpy:71
 translate english day4_imran_house_new_escape_succeed_e51bf8ee:
 
     # "Но после слов Алии: \"Я верю тебе\", у меня в голове прояснилось, а все тревоги растворились." with dissolve
-    "" with dissolve
+    "But when I heard Aliya saying me \"I believe you\", my head cleared up, and all worries disappeared." with dissolve
 
 # game/day4_part3_aliya_success.rpy:75
 translate english day4_imran_house_new_escape_succeed_19750fb3:
 
     # "Как это удивительно, когда я живу для себя, то отношусь к себе снисходительно и расслабленно." with dissolve
-    "" with dissolve
+    "How amazing it is. When I live for myself, I can be flaky and relaxed towards myself." with dissolve
 
 # game/day4_part3_aliya_success.rpy:77
 translate english day4_imran_house_new_escape_succeed_509254a1:
 
     # "Однако теперь мне нужно заботиться ещё об одном человеке, так что придётся постараться сделать всё возможное, чтобы не подвести её." with dissolve
-    "" with dissolve
-
-# game/day4_part3_aliya_success.rpy:79
-translate english day4_imran_house_new_escape_succeed_ab579b55:
-
-    # "Я знаю Алию только четвыре дня и за это время мы сбежали из Пятигорска, чтобы так глупо угодить в ловушку." with dissolve
-    "" with dissolve
+    "However, now I have one more person to take care of, so I will have to try my best not to let her down." with dissolve
 
 # game/day4_part3_aliya_success.rpy:81
 translate english day4_imran_house_new_escape_succeed_f179e8ba:
 
     # "В Пятигорске возбуждено уголовное дело и я рискую, в том числе, оказаться за решёткой." with dissolve
-    "" with dissolve
+    "A criminal case has been opened in Pyatigorsk, and I risk, among other things, going to jail." with dissolve
 
 # game/day4_part3_aliya_success.rpy:83
 translate english day4_imran_house_new_escape_succeed_736ca4dd:
 
     # "Возможно, мне не удастся вернуться в Россию ещё некоторое время. Может, придётся жить в Казахстане или в Киргизии." with dissolve
-    "" with dissolve
+    "Perhaps I will not be able to return to Russia for a while. I may have to live in Kazakhstan or Kyrgyzstan." with dissolve
 
-# game/day4_part3_aliya_success.rpy:85
-translate english day4_imran_house_new_escape_succeed_6ff6af8e:
-
-    # "Конечно, сначала придется туговато, но без денег уж точно не останусь — я же фрилансер и могу работать где угодно." with dissolve
-    "" with dissolve
 
 # game/day4_part3_aliya_success.rpy:87
 translate english day4_imran_house_new_escape_succeed_ebb4efab:
 
     # "Все мои вещи остались в квартире родного города. А тут в съёмной квартире Москвы остался ноутбук, кое-какая электроника и шмотки." with dissolve
-    "" with dissolve
+    "All my stuff remained in the apartment in my hometown. And here in Moscow in the rented apartment I have the laptop, some electronics and clothes." with dissolve
 
 # game/day4_part3_aliya_success.rpy:89
 translate english day4_imran_house_new_escape_succeed_a5d6db99:
 
     # "Надеюсь, по пути в аэропорт, я успею туда вернуться и забрать их. Надо также забрать вещи Алии." with dissolve
-    "" with dissolve
+    "Perhaps, on the way to the airport, I will have time to return there and pick up my things. I must also take Aliya's belongings as well." with dissolve
 
 # game/day4_part3_aliya_success.rpy:91
 translate english day4_imran_house_new_escape_succeed_863fba67:
 
     # "Алия... эта девушка за четыре дня перевернула всю мою жизнь и навсегда изменила моё будущее." with dissolve
-    "" with dissolve
+    "Aliya... this girl turned my whole life upsite down in 4 days and changed my future forever." with dissolve
 
 # game/day4_part3_aliya_success.rpy:93
 translate english day4_imran_house_new_escape_succeed_4986eae5:
 
     # "И самое удивительное — моя новая жизнь кажется мне намного привлекательнее той, что была раньше." with dissolve
-    "" with dissolve
+    "And the most amazing thing is that my new life seems to me much more attractive than the one that was before." with dissolve
 
 # game/day4_part3_aliya_success.rpy:97
 translate english day4_imran_house_new_escape_succeed_8b1d5064:
 
     # "Я допил остатки чая из чашки." with dissolve
-    "" with dissolve
+    "I finished the rest of the tea from the mug." with dissolve
 
 # game/day4_part3_aliya_success.rpy:105
 translate english day4_imran_house_new_escape_succeed_3b398017:
 
     # "Затем достал телефон и открыл приложение для покупки авиабилетов." with dissolve
-    "" with dissolve
+    "Then I took out my phone and opened the airline tickets application." with dissolve
 
 # game/day4_part3_aliya_success.rpy:111
 translate english day4_imran_house_new_escape_succeed_6e1702bb:
 
     # "И как раз за полчаса до этого рейса из Домодедово вылетает рейс той же авиакомпании в Усть-Каменогорск." with dissolve
-    "" with dissolve
+    "And just half an hour before this flight, a flight by the same airline to Ust-Kamenogorsk takes off from Domodedovo." with dissolve
 
 # game/day4_part3_aliya_success.rpy:121
 translate english day4_imran_house_new_escape_succeed_dd9003d9:
 
     # "Я достал свою кредитную карту-выручалку и купил нам билеты." with dissolve
-    "" with dissolve
+    "I took out my credit card and bought tickets for us." with dissolve
 
 # game/day4_part3_aliya_success.rpy:127
 translate english day4_imran_house_new_escape_succeed_30f6c3d3:
 
     # "Платёж прошёл, на телефоне появилось уведомление. Как обычно, я смахнул его не глядя." with dissolve
-    "" with dissolve
+    "The payment went through, and a notification appeared on my phone. As usual, I swiped it away without looking." with dissolve
 
 # game/day4_part3_aliya_success.rpy:131
 translate english day4_imran_house_new_escape_succeed_a011fb4c:
 
     # "Страшно смотреть, сколько уже потрачено кредитных денег." with dissolve
-    "" with dissolve
+    "It's scary to see how much credit money has already been spent." with dissolve
 
 # game/day4_part3_aliya_success.rpy:139
 translate english day4_imran_house_new_escape_succeed_07eb9654:
 
     # "Если поеду прямо сейчас, успею заглянуть на съёмную квартиру и забрать вещи." with dissolve
-    "" with dissolve
+    "If I go right now, I will have time to drop by the rented apartment and pick up my things." with dissolve
 
 # game/day4_part3_aliya_success.rpy:141
 translate english day4_imran_house_new_escape_succeed_3217817d:
 
     # "Мне нужно покинуть комнату, не вызывая подозрений попрощаться со всеми, затем взять такси домой за вещами..." with dissolve
-    "" with dissolve
+    "I need to leave the room without raising suspicion, say goodbye to everyone, then take a taxi home to get my things..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:143
 translate english day4_imran_house_new_escape_succeed_f4e23d14:
 
     # "...скрытно приехать в аэропорт, снова помочь Алие сбежать и при этом не спалиться перед её родителями." with dissolve
-    "" with dissolve
+    "... In order to then secretly arrive to the airport, then help Aliya escape, and also don't let Aliya's parents recognize me and snatch me." with dissolve
 
 # game/day4_part3_aliya_success.rpy:145
 translate english day4_imran_house_new_escape_succeed_846032ee:
 
     # "Чтобы остаться неузнанным, мне придётся переодеться и надеть маску, которую мне дала Алия." with dissolve
-    "" with dissolve
+    "To stay unrecognized, I will have to change into different clothes and put on the mask that Aliya gave me." with dissolve
 
 # game/day4_part3_aliya_success.rpy:147
 translate english day4_imran_house_new_escape_succeed_4362c153:
 
     # "Я слегка улыбнулся. План готов — пора действовать!" with dissolve
-    "" with dissolve
+    "I smiled slightly. The plan was ready, now I must start acting!" with dissolve
 
 # game/day4_part3_aliya_success.rpy:153
 translate english day4_imran_house_new_escape_succeed_5daf2225:
 
     # "Я взял пустые тарелку с чашкой и пошёл вниз." with dissolve
-    "" with dissolve
+    "I took an empty plate and mug and went downstairs." with dissolve
 
 # game/day4_part3_aliya_success.rpy:183
 translate english day4_imran_house_new_escape_succeed_32949889:
 
     # "В гостиной были Алия, её родители и дядя Имран. Я поставил посуду на стол," with dissolve
-    "" with dissolve
+    "Aliya, her parents, and Uncle Imran were in the living room. I put the dishes on the table," with dissolve
 
 # game/day4_part3_aliya_success.rpy:185
 translate english day4_imran_house_new_escape_succeed_7e170af8:
 
     # "постарался придать себе спокойное выражение лица и начал говорить:" with dissolve
-    "" with dissolve
+    "tried to look calm, and began to speak:" with dissolve
 
 # game/day4_part3_aliya_success.rpy:187
 translate english day4_imran_house_new_escape_succeed_c247ab72:
 
     # me "Спасибо большое за обед, мне понравилось! К сожалению, мне пора уходить." with dissolve
-    me "" with dissolve
+    me "Thank you very much for lunch, I liked it! Unfortunately, I have to go now." with dissolve
 
 # game/day4_part3_aliya_success.rpy:189
 translate english day4_imran_house_new_escape_succeed_d87b78b5:
 
     # me "Я помог с авиабилетами, вам всего лишь потребуется приехать в аэропорт к трём часам дня и зарегистрироваться на рейс." with dissolve
-    me "" with dissolve
+    me "I've helped with the plane tickets, all you need to do is arrive at the airport by three o'clock in the afternoon and check in for your flight." with dissolve
 
 # game/day4_part3_aliya_success.rpy:195
 translate english day4_imran_house_new_escape_succeed_e8b614e1:
 
     # fatima "Спасибо за помощь, Семён!" with dissolve
-    fatima "" with dissolve
+    fatima "Thanks for your help, Semyon!" with dissolve
 
 # game/day4_part3_aliya_success.rpy:207
 translate english day4_imran_house_new_escape_succeed_cc01db9c:
 
     # aslan "Пока, Семён." with dissolve
-    aslan "" with dissolve
+    aslan "Goodbye, Semyon." with dissolve
 
 # game/day4_part3_aliya_success.rpy:236
 translate english day4_imran_house_new_escape_succeed_ee735f4f:
 
     # "Я мысленно улыбнулся: никто из них и не догадывается о моём плане, кроме Алии, конечно." with dissolve
-    "" with dissolve
+    "I smiled inwardly. None of them had any idea of my plan, except for Aliya, of course." with dissolve
 
 # game/day4_part3_aliya_success.rpy:249
 translate english day4_imran_house_new_escape_succeed_c062e440:
 
     # "Имран открыл ворота и мы вышли со двора на улицу, заставленную высокими заборами." with dissolve
-    "" with dissolve
+    "Imran opened the gates, and we went out of the courtyard into the road lined with tall fences." with dissolve
 
 # game/day4_part3_aliya_success.rpy:254
 translate english day4_imran_house_new_escape_succeed_500bcc9b:
 
     # imran "Если пойдёшь в ту сторону, выйдешь на Киевское шоссе, там находится автобусная остановка." with dissolve
-    imran "" with dissolve
+    imran "From here, if you go in that direction, then there will be Kievskoe highway, and a bus stop." with dissolve
 
 # game/day4_part3_aliya_success.rpy:264
 translate english day4_imran_house_new_escape_succeed_4c683a92:
 
     # imran "Ладно. Здесь шлагбаум, такси не проедет. Тебе всё равно нужно идти в том направлении." with dissolve
-    imran "" with dissolve
+    imran "Okay. There is a barrier gate, a taxi will not be able to enter. You still need to go there." with dissolve
 
 # game/day4_part3_aliya_success.rpy:269
 translate english day4_imran_house_new_escape_succeed_0a447e90:
 
     # me "Хорошо. Тогда я пошёл." with dissolve
-    me "" with dissolve
+    me "Ok. Then I will go." with dissolve
 
 # game/day4_part3_aliya_success.rpy:283
 translate english day4_imran_house_new_escape_succeed_1ca170c9:
 
     # "Имран вернулся домой, а я пошёл до Киевского шоссе по пути запустив приложение для вызова такси..." with dissolve
-    "" with dissolve
+    "Imran returned home. And I went on foot to the Kievskoe highway, launching the taxi app on the way..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:287
 translate english day4_imran_house_new_escape_succeed_af588e13:
 
     # "Я забрал со съёмной квартиры свои вещи, оставил ключи в почтовом ящике и поехал в аэропорт..." with dissolve
-    "" with dissolve
+    "I took my things from the rented apartment, left the keys in the mailbox, and went to the airport..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:302
 translate english airport_scene1_e36b7555:
 
     # "План, предложенный Напарником, был довольно прост:" with dissolve
-    "" with dissolve
+    "Mate's plan was pretty simple:" with dissolve
 
 # game/day4_part3_aliya_success.rpy:304
 translate english airport_scene1_3d216082:
 
     # "я должен приехать в аэропорт заранее," with dissolve
-    "" with dissolve
+    "I have to arrive at the airport in advance," with dissolve
 
 # game/day4_part3_aliya_success.rpy:306
 translate english airport_scene1_82176748:
 
     # "чтобы иметь достаточно времени для регистрации на рейс в Казахстан." with dissolve
-    "" with dissolve
+    "to have enough time to check in for my flight to Kazakhstan." with dissolve
 
 # game/day4_part3_aliya_success.rpy:310
 translate english airport_scene1_ae163cbd:
 
     # "Чтобы к моменту прибытия Алии с родителями в аэропорт," with dissolve
-    "" with dissolve
+    "So that by the time Aliya and her parents arrive at the airport," with dissolve
 
 # game/day4_part3_aliya_success.rpy:322
 translate english airport_scene1_392cc936:
 
     # "я уже ждал их с посадочными талонами наготове." with dissolve
-    "" with dissolve
+    "I'm already waiting for them with their boarding passes ready." with dissolve
 
 # game/day4_part3_aliya_success.rpy:340
 translate english airport_scene1_01351d3c:
 
     # "Чтобы туда пройти, нужно спустится вниз по лестнице, а затем пройти коридор." with dissolve
-    "" with dissolve
+    "To get there, you need to go down the stairs and then go through the corridor." with dissolve
 
 # game/day4_part3_aliya_success.rpy:342
 translate english airport_scene1_efcb8096:
 
     # "Там всегда тесно и ходит много людей." with dissolve
-    "" with dissolve
+    "It's always crowded there and there are a lot of people walking around." with dissolve
 
 # game/day4_part3_aliya_success.rpy:344
 translate english airport_scene1_8a335d9d:
 
     # "Согласно плану, я должен встать в этом коридоре, держа в руках посадочный талон Алии." with dissolve
-    "" with dissolve
+    "According to the plan, I should stand in this corridor holding Aliya's boarding pass." with dissolve
 
 # game/day4_part3_aliya_success.rpy:346
 translate english airport_scene1_b3a683be:
 
     # "Моё лицо должно быть скрыто маской, а голова — покрыта капюшоном." with dissolve
-    "" with dissolve
+    "My face should be covered with a mask, and I should also cover my head with a hood." with dissolve
 
 # game/day4_part3_aliya_success.rpy:350
 translate english airport_scene1_8c65e2f8:
 
     # "В определённое время Алия захочет пойти в туалет" with dissolve
-    "" with dissolve
+    "At a certain time, Aliya will want to go to the toilet," with dissolve
 
 # game/day4_part3_aliya_success.rpy:356
 translate english airport_scene1_3c08b5be:
 
     # "и проходя мимо меня, незаметно заберёт из рук посадочный талон." with dissolve
-    "" with dissolve
+    "and passing by me, she will quietly take the boarding pass from my hands." with dissolve
 
 # game/day4_part3_aliya_success.rpy:358
 translate english airport_scene1_13e24c0f:
 
     # "Всё должно пройти быстро и скрытно." with dissolve
-    "" with dissolve
+    "Everything must go quickly and discreetly." with dissolve
 
 # game/day4_part3_aliya_success.rpy:362
 translate english airport_scene1_1a674b7d:
 
     # "Когда посадочный талон будет у неё, моя часть плана будет завершена." with dissolve
-    "" with dissolve
+    "When Aliya has the boarding pass, my part of the plan will be complete." with dissolve
 
 # game/day4_part3_aliya_success.rpy:366
 translate english airport_scene1_0b901dcf:
 
     # "Дождавшись когда Алия скроется из виду, я должен проследовать к рамкам досмотра и ждать её в чистой зоне." with dissolve
-    "" with dissolve
+    "After waiting for Aliya to be out of sight, I will have to proceed to the security frames and wait for Aliya in the clean zone." with dissolve
 
 # game/day4_part3_aliya_success.rpy:380
 translate english airport_scene1_9f04068b:
 
     # "Отсюда видны все запущенные в работу металлодетекторы." with dissolve
-    "" with dissolve
+    "From here I could see all the metal detectors in operation." with dissolve
 
 # game/day4_part3_aliya_success.rpy:382
 translate english airport_scene1_9ae65a3e:
 
     # "Я ждал и высматривал Алию в проходящих досмотр людях." with dissolve
-    "" with dissolve
+    "I waited and looked out for Aliya in the people passing through the security check." with dissolve
 
 # game/day4_part3_aliya_success.rpy:384
 translate english airport_scene1_1915c87a:
 
     # "Их было много и все они, проходя рамки, не торопясь собирали свои вещи и шли мимо меня..." with dissolve
-    "" with dissolve
+    "There were many people, and all of them, passing the frames, slowly collected their things, then walked past me..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:389
 translate english airport_scene1_9a965a2a:
 
     # "Наконец, я увидел знакомый силуэт. Моё сердце забилось быстрее." with dissolve
-    "" with dissolve
+    "Finally I saw a familiar figure. My heart beat faster." with dissolve
 
 # game/day4_part3_aliya_success.rpy:394
 translate english airport_scene1_91e73f76:
 
     # "Алия вышла из рамок, огляделась и, увидев меня," with dissolve
-    "" with dissolve
+    "Aliya went out of frame, looked around, saw me," with dissolve
 
 # game/day4_part3_aliya_success.rpy:400
 translate english airport_scene1_905190b6:
 
     # "побежала сжимая в руках паспорт и посадочный талон." with dissolve
-    "" with dissolve
+    "and she ran to me, clutching her passport and boarding pass." with dissolve
 
 # game/day4_part3_aliya_success.rpy:414
 translate english airport_scene1_445837c8:
 
     # "Она схватила меня за руку и мы побежали вниз по эскалатору." with dissolve
-    "" with dissolve
-
-# game/day4_part3_aliya_success.rpy:418
-translate english airport_scene1_004ed49a:
-
-    # "Бежали очень быстро..." with dissolve
-    "" with dissolve
+    "She grabbed my hand and we ran down the escalator." with dissolve
 
 # game/day4_part3_aliya_success.rpy:427
 translate english airport_scene1_df2865f5:
 
     # "Турникеты позади, зелёный коридор мы преодолели не останавливаясь." with dissolve
-    "" with dissolve
+    "The turnstiles are behind us, we crossed the green corridor without stopping." with dissolve
 
 # game/day4_part3_aliya_success.rpy:429
 translate english airport_scene1_cf217115:
 
     # "И вот перед нами будки пограничного перехода: людей было немного, но ждать в очереди не хотелось." with dissolve
-    "" with dissolve
+    "And here we are in front of the border crossing booths: there weren't many people, but I didn't want to wait in line." with dissolve
 
 # game/day4_part3_aliya_success.rpy:431
 translate english airport_scene1_0fa8da0c:
 
     # "В большом зале было ощущение, что мы тут видны прямо как на ладони." with dissolve
-    "" with dissolve
+    "In the large hall there was a feeling that we were visible right there at a glance." with dissolve
 
 # game/day4_part3_aliya_success.rpy:433
 translate english airport_scene1_0f675e7b:
 
     # "К тому же родители Алии где-то недалеко, менее чем в 100 метрах от нас." with dissolve
-    "" with dissolve
+    "In addition, Aliya's parents were somewhere not far, no further than a hundred meters from us." with dissolve
 
 # game/day4_part3_aliya_success.rpy:435
 translate english airport_scene1_1c704b7f:
 
     # "Конечно, турникеты их не пустят, а в попытке проникнуть сюда, охрана их задержит, но всё же..." with dissolve
-    "" with dissolve
+    "Of course, the turnstiles will not let them in, and if they try to enter here, the guards will hold them back, but still..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:444
 translate english airport_scene1_e20aed86:
 
     # "Ох, как же это звучало жалко и беспомощно, но, кажется, помогло. " with dissolve
-    "" with dissolve
+    "Oh, how pathetic and helpless it sounded, but it seemed to help." with dissolve
 
 # game/day4_part3_aliya_success.rpy:446
 translate english airport_scene1_9a0df6e3:
 
     # "Офицер взял наши посадочные талоны, посмотрел время вылета, взглянул на часы." with dissolve
-    "" with dissolve
+    "The officer took our boarding passes, looked at the departure time, and glanced at his watch." with dissolve
 
 # game/day4_part3_aliya_success.rpy:460
 translate english airport_scene1_c89b45da:
 
     # "Я повернулся к Алие. Её глаза выражали уверенность, примерно так же, как в первый день нашего знакомства в аэропорту Минеральные Воды." with dissolve
-    "" with dissolve
+    "I turned to Aliya. Her eyes expressed confidence, about the same as on the first day we met at the Mineralnye Vody airport." with dissolve
 
 # game/day4_part3_aliya_success.rpy:462
 translate english airport_scene1_5eb5f6f7:
 
     # me "Когда загорится зелёная лампочка, проходи туда, отдай пограничнице свой паспорт и посадочный талон." with dissolve
-    me "" with dissolve
+    me "When the green light comes on, go there and give the border guard your passport and boarding pass." with dissolve
 
 # game/day4_part3_aliya_success.rpy:464
 translate english airport_scene1_6efadabf:
 
     # me "Она спросит, куда ты летишь - отвечай: \"В Казахстан, в Усть-Каменогорск, по внутреннему паспорту.\"." with dissolve
-    me "" with dissolve
+    me "She will ask where you are flying - say to Kazakhstan, to Ust-Kamenogorsk, by the internal passport." with dissolve
 
 # game/day4_part3_aliya_success.rpy:466
 translate english airport_scene1_25d74753:
 
     # me "Цель поездки - \"навестить знакомых\". Всё понятно?" with dissolve
-    me "" with dissolve
+    me "The purpose of the trip is to visit friends. All clear?" with dissolve
 
 # game/day4_part3_aliya_success.rpy:471
 translate english airport_scene1_9cc6a82f:
 
     # aliya "Да." with dissolve
-    aliya "" with dissolve
-
-# game/day4_part3_aliya_success.rpy:478
-translate english airport_scene1_527836f2:
-
-    # "Вскоре загорелся зеленый свет, Алия подошла к будке и протянула свои документы." with dissolve
-    "" with dissolve
+    aliya "Yes." with dissolve
 
 # game/day4_part3_aliya_success.rpy:480
 translate english airport_scene1_3145aff0:
 
     # "Пограничница что-то долго проверяла и я немного забеспокоился." with dissolve
-    "" with dissolve
+    "The border guard checked something for a long time, and I got a little worried." with dissolve
 
 # game/day4_part3_aliya_success.rpy:482
 translate english airport_scene1_ba457d68:
 
     # "Наконец, я услышал как она поставила печать на посадочный талон и вернула документы Алие." with dissolve
-    "" with dissolve
+    "Finally, I heard her stamp the boarding pass and return the documents to Aliya." with dissolve
 
 # game/day4_part3_aliya_success.rpy:486
 translate english airport_scene1_a76fb210:
 
     # "Девушка прошла дальше. Следом к пограничнице подошёл я и протянул свои документы." with dissolve
-    "" with dissolve
+    "Aliya walked on. Then I appoached the border guard and handed over my documents." with dissolve
 
 # game/day4_part3_aliya_success.rpy:488
 translate english airport_scene1_3e1630d6:
 
     # "Вскоре и мой посадочный талон украсила печать..." with dissolve
-    "" with dissolve
+    "Soon my boarding pass was adorned with a seal..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:494
 translate english airport_scene1_2ebfcf10:
 
     # "Я вышел в зону Duty Free вслед за Алией..." with dissolve
-    "" with dissolve
+    "I entered to the Duty Free zone, after Aliya..." with dissolve
 
 # game/day4_part3_aliya_success.rpy:507
 translate english airport_scene1_1ae34972:
 
     # "Время на телефоне показывало 16:12, а это означало, что посадка скоро закончится. Надо скорее узнать какой у нас гейт и бежать туда!" with dissolve
-    "" with dissolve
+    "The time on my phone showed 4:12 PM, which meant boarding was about to end. We need to find out which gate we're at and get there!" with dissolve
 
 # game/day4_part3_aliya_success.rpy:513
 translate english airport_scene1_f87e1ca3:
 
     # announcement "Пассажиры Гаджиева Алия, Персунов Семён, опаздывающие на посадку," with dissolve
-    announcement "" with dissolve
+    announcement "Passengers Gadzhieva Aliya, Persunov Semyon," with dissolve
 
 # game/day4_part3_aliya_success.rpy:517
 translate english airport_scene1_a0808ff2:
 
     # "Я взял Алию за руку и побежал вперёд по коридору к гейту номер семь, ориентируясь по указателям." with dissolve
-    "" with dissolve
+    "I took Aliya by the hand and ran forward along the corridor to gate number seven, following the signs." with dissolve
 
 # game/day4_part3_aliya_success.rpy:519
 translate english airport_scene1_5f292608:
 
     # "Мы подбежали к гейту, буквально, когда там проходили последние пассажиры." with dissolve
-    "" with dissolve
+    "We ran up to the gate literally as the last passengers were passing through." with dissolve
+
+# TODO: Translation updated at 2025-10-11 20:29
+
+# game/day4_part3_aliya_success.rpy:51
+translate english day4_imran_house_new_escape_succeed_76233f57:
+
+    # "Я же остался один." with dissolve
+    "I was left alone." with dissolve
+
+# game/day4_part3_aliya_success.rpy:55
+translate english day4_imran_house_new_escape_succeed_a1bd63dd:
+
+    # "Я остался наедине со своими мыслями, сэндвичем и чаем..." with dissolve
+    "I was left alone with my thoughts, a sandwich and tea..." with dissolve
+
+# game/day4_part3_aliya_success.rpy:79
+translate english day4_imran_house_new_escape_succeed_c5b79e02:
+
+    # "Я знаю Алию только четыре дня и за это время мы сбежали из Пятигорска, чтобы так глупо угодить в ловушку." with dissolve
+    "I've only known Aliya for four days, and during that time we fled Pyatigorsk to stupidly fall into a trap." with dissolve
+
+# game/day4_part3_aliya_success.rpy:85
+translate english day4_imran_house_new_escape_succeed_7bddb3a8:
+
+    # "Конечно, сначала придётся туговато, но без денег уж точно не останусь — я же фрилансер и могу работать где угодно." with dissolve
+    "Of course, things will be tough at first, but I definitely won't be left without money - I'm a freelancer and can work anywhere." with dissolve
+
+# game/day4_part3_aliya_success.rpy:478
+translate english airport_scene1_aa13fbde:
+
+    # "Вскоре загорелся зелёный свет, Алия подошла к будке и протянула свои документы." with dissolve
+    "Soon the light turned green, Aliya approached the booth and handed over her documents." with dissolve
 
