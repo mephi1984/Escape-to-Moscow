@@ -153,17 +153,27 @@ define isMobileWeb = True
 
 image splash = "splash.png"
 
+# ACHIEVEMENTS
+#define config.steam_appid = 1484960
+
+
 init python:
     renpy.music.register_channel("music_crossfade","music",loop=True,tight=True)
     #global webTestCall
     #def webTestCall():
     #    renpy.play('sound/seatbelt.ogg')
 
-
+    # ACHIEVEMENTS
+    #achievement.register("ACH_GOOD_ENDING")
+    #achievement.register("ACH_BAD_ENDING")
+    
     if isMobileWeb:
         config.has_autosave = True
         config.autosave_frequency = 10
         config.autosave_on_choice = True
+
+
+    
 
 
 image splash = "splash.png"

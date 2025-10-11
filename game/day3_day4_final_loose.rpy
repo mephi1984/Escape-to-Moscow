@@ -140,6 +140,9 @@ label day3_and_day4_final_loose:
 
     "Я всё равно больше не смогу жить как раньше..." with dissolve
 
+    # ACHIEVEMENTS
+    #$ achievement.grant("ACH_BAD_ENDING")
+
     jump teaser_start
 
     #jump credits

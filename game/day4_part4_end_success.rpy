@@ -225,4 +225,7 @@ label day4_end_success:
 
     "Но это уже совсем другая история..." with dissolve
 
+    # ACHIEVEMENTS
+    #$ achievement.grant("ACH_GOOD_ENDING")
+
     jump credits
