@@ -11,6 +11,9 @@ init offset = -2
 #define SCALE = 0.66667
 define SCALE = 1.0
 
+# isMobileWeb
+#define isMobile = True
+
 #define config.language = "english"
 #define config.language = None
 
@@ -84,9 +87,13 @@ define gui.name_text_size = 45*SCALE
 
 ## Размер текста в пользовательском интерфейсе.
 define gui.interface_text_size = 33*SCALE
+#if isMobileWeb:
+#    gui.interface_text_size = gui.interface_text_size * 1.5
 
 ## Размер заголовков в пользовательском интерфейсе.
 define gui.label_text_size = 36*SCALE
+#if isMobileWeb:
+#    gui.label_text_size = gui.label_text_size * 1.5
 
 ## Размер текста на экране уведомлений.
 define gui.notify_text_size = 24*SCALE
@@ -521,6 +528,66 @@ define gui.language = "unicode"
 ## Мобильные устройства
 ################################################################################
 
+
+if True:
+
+
+    if isMobile:
+
+        ## Размеры шрифтов.
+        define gui.text_size = int(45*SCALE)
+        define gui.name_text_size = int(54*SCALE)
+        define gui.notify_text_size = int(37.5*SCALE)
+        define gui.interface_text_size = int(45*SCALE)
+        define gui.button_text_size = int(45*SCALE)
+        define gui.label_text_size = int(51*SCALE)
+
+        ## Регулирует местоположение текстового окна.
+        define gui.textbox_height = int(360*SCALE)
+        define gui.name_xpos = int(120*SCALE)
+        define gui.text_xpos = int(135*SCALE)
+        define gui.text_width = int(1650*SCALE)
+
+        ## Изменяет размеры и интервалы различных объектов.
+        define gui.slider_size = int(54*SCALE)
+
+        define gui.choice_button_width = int(1860*SCALE)
+
+        define gui.navigation_spacing = int(30*SCALE)
+        define gui.pref_button_spacing = int(15*SCALE)
+
+        define gui.history_height = int(285*SCALE)
+        define gui.history_text_width = int(1035*SCALE)
+
+        define gui.quick_button_text_size = int(30*SCALE)
+
+        define gui.dialogue_xpos = int(300*SCALE)
+        define gui.dialogue_width = int(1300*SCALE)
+
+
+        ## Местоположение кнопок слотов.
+        define gui.file_slot_cols = 2
+        define gui.file_slot_rows = 2
+
+        ## Режим NVL.
+        define gui.nvl_height = int(255*SCALE)
+
+        define gui.nvl_name_width = int(457.5*SCALE)
+        define gui.nvl_name_xpos = int(487.5*SCALE)
+
+        define gui.nvl_text_width = int(1372.5*SCALE)
+        define gui.nvl_text_xpos = int(517.5*SCALE)
+        define gui.nvl_text_ypos = int(7.5*SCALE)
+
+        define gui.nvl_thought_width = int(1860*SCALE)
+        define gui.nvl_thought_xpos = int(30*SCALE)
+
+        define gui.nvl_button_width = int(1860*SCALE)
+        define gui.nvl_button_xpos = int(30*SCALE)
+
+        define gui.quick_button_borders = Borders(int(60*SCALE), int(21*SCALE), int(60*SCALE), 0)
+
+
 init python:
 
     class Continue (Action, DictEquality):
@@ -530,59 +597,3 @@ init python:
         def get_sensitive (self):
             return FileLoadable (1, page = "auto")
 
-    ## Этот параметр увеличивает размер быстрых кнопок, чтобы сделать их
-    ## доступнее для нажатия на планшетах и телефонах.
-    if renpy.variant("touch"):
-
-        gui.quick_button_borders = Borders(int(60*SCALE), int(21*SCALE), int(60*SCALE), 0)
-
-    ## Это изменяет размеры и интервалы различных элементов GUI, чтобы
-    ## убедиться, что они будут лучше видны на телефонах.
-    if renpy.variant("small"):
-
-        ## Размеры шрифтов.
-        gui.text_size = int(45*SCALE)
-        gui.name_text_size = int(54*SCALE)
-        gui.notify_text_size = int(37.5*SCALE)
-        gui.interface_text_size = int(45*SCALE)
-        gui.button_text_size = int(45*SCALE)
-        gui.label_text_size = int(51*SCALE)
-
-        ## Регулирует местоположение текстового окна.
-        gui.textbox_height = int(360*SCALE)
-        gui.name_xpos = int(120*SCALE)
-        gui.text_xpos = int(135*SCALE)
-        gui.text_width = int(1650*SCALE)
-
-        ## Изменяет размеры и интервалы различных объектов.
-        gui.slider_size = int(54*SCALE)
-
-        gui.choice_button_width = int(1860*SCALE)
-
-        gui.navigation_spacing = int(30*SCALE)
-        gui.pref_button_spacing = int(15*SCALE)
-
-        gui.history_height = int(285*SCALE)
-        gui.history_text_width = int(1035*SCALE)
-
-        gui.quick_button_text_size = int(30*SCALE)
-
-        ## Местоположение кнопок слотов.
-        gui.file_slot_cols = 2
-        gui.file_slot_rows = 2
-
-        ## Режим NVL.
-        gui.nvl_height = int(255*SCALE)
-
-        gui.nvl_name_width = int(457.5*SCALE)
-        gui.nvl_name_xpos = int(487.5*SCALE)
-
-        gui.nvl_text_width = int(1372.5*SCALE)
-        gui.nvl_text_xpos = int(517.5*SCALE)
-        gui.nvl_text_ypos = int(7.5*SCALE)
-
-        gui.nvl_thought_width = int(1860*SCALE)
-        gui.nvl_thought_xpos = int(30*SCALE)
-
-        gui.nvl_button_width = int(1860*SCALE)
-        gui.nvl_button_xpos = int(30*SCALE)

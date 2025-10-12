@@ -218,7 +218,7 @@ label credits:
 
         show text Text("Телефон: ", size=int(36*SCALE)) as credits_text11_line331 at credits_text11_line331_pos zorder 10 with dissolve
 
-        show text Text("{b}+7 926 049 2730{/b}", size=int(36*SCALE)) as credits_text11_line332 at credits_text11_line332_pos zorder 10 with dissolve
+        show text Text("{b}+7 925 014 8281{/b}", size=int(36*SCALE)) as credits_text11_line332 at credits_text11_line332_pos zorder 10 with dissolve
 
         $ renpy.pause(2)
 

@@ -11,6 +11,6 @@ translate english strings:
     new "Play now!"
 
     # game/teaser_cutscene.rpy:420
-    old "https://escapetomoscow.com/escapetomoscow2/"
-    new "https://escapetomoscow.com/escapetomoscow2/"
+    old "https://escapetomoscow.com/part2/"
+    new "https://escapetomoscow.com/part2/"
 

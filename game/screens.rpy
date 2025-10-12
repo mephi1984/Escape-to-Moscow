@@ -394,7 +394,6 @@ screen quick_menu():
 
         hbox:
             style_prefix "quick"
-
             xalign 0.5
             yalign 1.0
 
@@ -501,7 +500,7 @@ screen navigation():
         textbutton _("Об игре") action ShowMenu("about")
 
         if main_menu:
-            textbutton _("Побег в Москву 2") action OpenURL("https://escapetomoscow.com/escapetomoscow2/")
+            textbutton _("Побег в Москву 2") action OpenURL("https://escapetomoscow.com/part2/")
 
         if renpy.variant("pc"):
 
@@ -2192,7 +2191,7 @@ screen quick_menu():
             style_prefix "quick"
 
             xalign 0.5
-            yalign 1.0
+            yalign 0.98
 
             textbutton _("Назад") action Rollback()
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
