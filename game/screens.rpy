@@ -1202,12 +1202,12 @@ screen language_and_difficulty_menu_first_time():
 
     vbox:
         xalign 0.5
-        yalign 0.63
+        yalign 0.7
         label _("На тяжелом уровне сложности труднее попасть на хорошую концовку.\nВы можете поменять уровень сложности в любой момент во время игры.")
 
     vbox:
         xalign 0.5
-        yalign 0.75
+        yalign 0.8
 
         textbutton _("Продолжить") action Return()
 

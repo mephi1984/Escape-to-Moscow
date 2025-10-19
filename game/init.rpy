@@ -148,14 +148,15 @@ define aliya_apartment_kitchen_stand_pos = Position(xpos = 0.85, xanchor=0.5, yp
 define aliya_hood_right_pos = Position(xpos = 0.75, xanchor=0.5, ypos=1.0, yanchor=1.0)
 
 
-#define isMobileWeb = False
-define isMobileWeb = True
-define isMobile = True
+define isMobileWeb = False
+define isMobile = False
+#define isMobileWeb = True
+#define isMobile = True
 
 image splash = "splash.png"
 
 # ACHIEVEMENTS
-#define config.steam_appid = 1484960
+define config.steam_appid = 1484960
 
 
 init python:
@@ -165,8 +166,8 @@ init python:
     #    renpy.play('sound/seatbelt.ogg')
 
     # ACHIEVEMENTS
-    #achievement.register("ACH_GOOD_ENDING")
-    #achievement.register("ACH_BAD_ENDING")
+    achievement.register("ACH_GOOD_ENDING")
+    achievement.register("ACH_BAD_ENDING")
     
     if isMobileWeb:
         config.has_autosave = True

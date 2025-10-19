@@ -1,0 +1,25 @@
+{
+    "expansion": true,
+    "google_play_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv3JnsHstHYwtZx7I9/VYXiAygGciiga1gIe9haRutNrBPgEU/MXvZGVIDmni1wl/gJJOTaTRliAJDNYMsB5qx84mxtCQFHp//nagcRbtSOyPrsEXnjMe7hcW0FVjhe9gzHI4zDY9RSyXwH1poyqX1c6T/KL3Bm8zXjTn5LEB25/IG3W/Ac8JpdEo3HyPB03bbRfld7D6fmReBXZXincLgx/NhvzWDzs9fPpQUwH/kHHOSK8oVP3nW0Tc7gDmCEIdbXci7Ca6OJu5tdTGFNTzUud+QkebwvEcOW0UteBE1+9WCpQPVaVI/3aLXPYP7OoQjJZTN67Mh/wlrf6ub5wnjQIDAQAB",
+    "google_play_salt": null,
+    "heap_size": "3",
+    "icon_name": "Escape to Moscow",
+    "include_pil": false,
+    "include_sqlite": false,
+    "layout": null,
+    "name": "Escape to Moscow",
+    "numeric_version": "111",
+    "orientation": "sensorLandscape",
+    "package": "fishrungames.escapetomoscow",
+    "permissions": [
+        "VIBRATE",
+        "INTERNET"
+    ],
+    "source": false,
+    "store": "play",
+    "target_version": 29,
+    "update_always": false,
+    "update_icons": true,
+    "update_keystores": true,
+    "version": "1.3.0"
+}
