@@ -142,7 +142,7 @@ label day3_and_day4_final_loose:
 
     # ACHIEVEMENTS
     $ achievement.grant("ACH_BAD_ENDING")
-
+    $ achievement.sync()
     jump teaser_start
 
     #jump credits

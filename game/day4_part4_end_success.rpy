@@ -227,5 +227,6 @@ label day4_end_success:
 
     # ACHIEVEMENTS
     $ achievement.grant("ACH_GOOD_ENDING")
+    $ achievement.sync()
 
     jump credits

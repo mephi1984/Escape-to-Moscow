@@ -146,9 +146,9 @@ define aliya_apartment_kitchen_stand_pos = Position(xpos = 0.85, xanchor=0.5, yp
 
 
 define aliya_hood_right_pos = Position(xpos = 0.75, xanchor=0.5, ypos=1.0, yanchor=1.0)
+#isMobileWeb
 
-
-define isMobileWeb = False
+define isMobileWeb = True
 define isMobile = False
 #define isMobileWeb = True
 #define isMobile = True
@@ -168,6 +168,8 @@ init python:
     # ACHIEVEMENTS
     achievement.register("ACH_GOOD_ENDING")
     achievement.register("ACH_BAD_ENDING")
+    achievement.sync()
+
     
     if isMobileWeb:
         config.has_autosave = True
