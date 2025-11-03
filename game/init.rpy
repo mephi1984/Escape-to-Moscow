@@ -149,7 +149,7 @@ define aliya_hood_right_pos = Position(xpos = 0.75, xanchor=0.5, ypos=1.0, yanch
 #isMobileWeb
 
 define isMobileWeb = True
-define isMobile = False
+define isMobile = True
 #define isMobileWeb = True
 #define isMobile = True
 

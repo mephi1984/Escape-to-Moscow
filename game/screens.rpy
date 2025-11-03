@@ -2191,7 +2191,8 @@ screen quick_menu():
             style_prefix "quick"
 
             xalign 0.5
-            yalign 0.98
+            #yalign 0.98 # Android
+            yalign 0.95 #iOS
 
             textbutton _("Назад") action Rollback()
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
